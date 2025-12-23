@@ -3,22 +3,22 @@ return {
   storyDescription = "",
   lineData = {
     {
-      startStory = "1704175978940179439",
+      startStory = "1761876571098436330",
       startPort = "StoryStart",
-      endStory = "1704175978940179441",
+      endStory = "1761876571098436332",
       endPort = "In"
     },
     {
-      startStory = "1704175978940179441",
+      startStory = "1761876571098436332",
       startPort = "Success",
-      endStory = "1704175978940179440",
+      endStory = "1761876571098436331",
       endPort = "StoryEnd"
     }
   },
   storyNodeData = {
-    ["1704175978940179439"] = {
+    ["1761876571098436330"] = {
       isStoryNode = true,
-      key = "1704175978940179439",
+      key = "1761876571098436330",
       type = "StoryStartNode",
       name = "StoryStart",
       pos = {x = 800, y = 300},
@@ -29,9 +29,9 @@ return {
         commentData = {}
       }
     },
-    ["1704175978940179440"] = {
+    ["1761876571098436331"] = {
       isStoryNode = true,
-      key = "1704175978940179440",
+      key = "1761876571098436331",
       type = "StoryEndNode",
       name = "StoryEnd",
       pos = {x = 1778, y = 312},
@@ -42,9 +42,9 @@ return {
         commentData = {}
       }
     },
-    ["1704175978940179441"] = {
+    ["1761876571098436332"] = {
       isStoryNode = true,
-      key = "1704175978940179441",
+      key = "1761876571098436332",
       type = "StoryNode",
       name = "任务节点",
       pos = {x = 1218, y = 316},
@@ -70,48 +70,50 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
           {
-            startQuest = "1704175978940179442",
+            startQuest = "1761876571098436333",
             startPort = "QuestStart",
-            endQuest = "1704175978940179445",
+            endQuest = "1761876571098436336",
             endPort = "In"
           },
           {
-            startQuest = "1704175978940179445",
+            startQuest = "1761876571098436336",
             startPort = "Out",
-            endQuest = "1704175978940179443",
+            endQuest = "1761876571098436334",
             endPort = "Success"
           }
         },
         nodeData = {
-          ["1704175978940179442"] = {
-            key = "1704175978940179442",
+          ["1761876571098436333"] = {
+            key = "1761876571098436333",
             type = "QuestStartNode",
             name = "QuestStart",
             pos = {x = 800, y = 300},
             propsData = {ModeType = 0}
           },
-          ["1704175978940179443"] = {
-            key = "1704175978940179443",
+          ["1761876571098436334"] = {
+            key = "1761876571098436334",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
             pos = {x = 2800, y = 300},
             propsData = {ModeType = 0}
           },
-          ["1704175978940179444"] = {
-            key = "1704175978940179444",
+          ["1761876571098436335"] = {
+            key = "1761876571098436335",
             type = "QuestFailNode",
             name = "QuestFail",
             pos = {x = 2800, y = 700},
             propsData = {}
           },
-          ["1704175978940179445"] = {
-            key = "1704175978940179445",
+          ["1761876571098436336"] = {
+            key = "1761876571098436336",
             type = "TalkNode",
             name = "对话节点",
             pos = {x = 1406, y = 290},
@@ -138,9 +140,6 @@ return {
                   TalkActorId = 700004,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700004}
               },
               OverrideFailBlend = false
             }

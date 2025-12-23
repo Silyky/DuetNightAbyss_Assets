@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -133,12 +135,6 @@ return {
             startQuest = "17544643393801977147",
             startPort = "QuestStart",
             endQuest = "17544700337413298909",
-            endPort = "In"
-          },
-          {
-            startQuest = "17544700337413298912",
-            startPort = "Out",
-            endQuest = "17544700337413298924",
             endPort = "In"
           },
           {
@@ -302,6 +298,12 @@ return {
             startPort = "Out",
             endQuest = "175758798842747681979",
             endPort = "In"
+          },
+          {
+            startQuest = "175758802645647682788",
+            startPort = "Out",
+            endQuest = "17635324194851373227",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -359,7 +361,7 @@ return {
             key = "17544700337413298912",
             type = "TalkNode",
             name = "与女主对话",
-            pos = {x = 2154.6196077314494, y = 284.3561207067786},
+            pos = {x = 2192.6196077314494, y = 258.3561207067786},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12031910,
@@ -377,6 +379,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -411,16 +414,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 211006},
-                {TalkActorType = "Npc", TalkActorId = 211001},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -474,20 +473,6 @@ return {
               StaticCreatorId = 1192025,
               GuideType = "M",
               GuidePointName = "Mechanism_AnimalNvzhu_Feina02_1192024"
-            }
-          },
-          ["17544700337413298924"] = {
-            key = "17544700337413298924",
-            type = "ChangeStaticCreatorNode",
-            name = "生成/销毁节点",
-            pos = {x = 2534.775081643502, y = -133.2719266844267},
-            propsData = {
-              ActiveEnable = false,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {1191853}
             }
           },
           ["17544700337423298925"] = {
@@ -805,6 +790,20 @@ return {
               StaticCreatorId = 1192043,
               GuideType = "M",
               GuidePointName = "Mechanism_AnimalNvzhu_Feina02_1192040"
+            }
+          },
+          ["17635324194851373227"] = {
+            key = "17635324194851373227",
+            type = "ChangeStaticCreatorNode",
+            name = "生成/销毁节点",
+            pos = {x = 2129.0588235294117, y = 92.82352941176474},
+            propsData = {
+              ActiveEnable = false,
+              EnableBlackScreenSync = false,
+              EnableFadeIn = false,
+              EnableFadeOut = false,
+              NewTargetPointName = "",
+              StaticCreatorIdList = {1192040}
             }
           }
         },

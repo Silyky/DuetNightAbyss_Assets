@@ -4,16 +4,52 @@ return ReadOnly("Reward2MonsterDungeon", {
   Draft = {
     [151002] = {
       [1] = {
+        DungeonId = 91147, MonsterId = 8005
+      },
+      [2] = {
+        DungeonId = 91146, MonsterId = 8004
+      },
+      [3] = {
+        DungeonId = 91145, MonsterId = 8003
+      },
+      [4] = {
+        DungeonId = 91144, MonsterId = 8002
+      },
+      [5] = {
         DungeonId = 91143, MonsterId = 8001
       }
     },
     [151003] = {
       [1] = {
+        DungeonId = 91147, MonsterId = 8005
+      },
+      [2] = {
+        DungeonId = 91146, MonsterId = 8004
+      },
+      [3] = {
+        DungeonId = 91145, MonsterId = 8003
+      },
+      [4] = {
+        DungeonId = 91144, MonsterId = 8002
+      },
+      [5] = {
         DungeonId = 91143, MonsterId = 8001
       }
     },
     [151007] = {
       [1] = {
+        DungeonId = 91147, MonsterId = 8005
+      },
+      [2] = {
+        DungeonId = 91146, MonsterId = 8004
+      },
+      [3] = {
+        DungeonId = 91145, MonsterId = 8003
+      },
+      [4] = {
+        DungeonId = 91144, MonsterId = 8002
+      },
+      [5] = {
         DungeonId = 91143, MonsterId = 8001
       }
     },
@@ -110,6 +146,26 @@ return ReadOnly("Reward2MonsterDungeon", {
     [151812] = {
       [1] = {
         DungeonId = 91142, MonsterId = 7006
+      }
+    },
+    [156151] = {
+      [1] = {
+        DungeonId = 91144, MonsterId = 8002
+      }
+    },
+    [156152] = {
+      [1] = {
+        DungeonId = 91146, MonsterId = 8004
+      }
+    },
+    [156153] = {
+      [1] = {
+        DungeonId = 91145, MonsterId = 8003
+      }
+    },
+    [156154] = {
+      [1] = {
+        DungeonId = 91147, MonsterId = 8005
       }
     }
   },
@@ -366,6 +422,16 @@ return ReadOnly("Reward2MonsterDungeon", {
         DungeonId = 91123, MonsterId = 6006
       }
     },
+    [41755] = {
+      [1] = {
+        DungeonId = 91124, MonsterId = 6007
+      }
+    },
+    [41756] = {
+      [1] = {
+        DungeonId = 91125, MonsterId = 6008
+      }
+    },
     [41801] = {
       [1] = {
         DungeonId = 90188, MonsterId = 6509
@@ -517,9 +583,12 @@ return ReadOnly("Reward2MonsterDungeon", {
     },
     [42411] = {
       [1] = {
-        DungeonId = 91118, MonsterId = 6001
+        DungeonId = 91124, MonsterId = 6007
       },
       [2] = {
+        DungeonId = 91118, MonsterId = 6001
+      },
+      [3] = {
         DungeonId = 91117, MonsterId = 5506
       }
     },
@@ -530,6 +599,9 @@ return ReadOnly("Reward2MonsterDungeon", {
     },
     [42413] = {
       [1] = {
+        DungeonId = 91125, MonsterId = 6008
+      },
+      [2] = {
         DungeonId = 91120, MonsterId = 6003
       }
     },
@@ -575,9 +647,15 @@ return ReadOnly("Reward2MonsterDungeon", {
     },
     [43123] = {
       [1] = {
-        DungeonId = 90165, MonsterId = 5003
+        DungeonId = 90166, MonsterId = 5004
       },
       [2] = {
+        DungeonId = 90165, MonsterId = 5003
+      },
+      [3] = {
+        DungeonId = 90164, MonsterId = 5002
+      },
+      [4] = {
         DungeonId = 90163, MonsterId = 5001
       }
     },
@@ -609,9 +687,12 @@ return ReadOnly("Reward2MonsterDungeon", {
     },
     [43403] = {
       [1] = {
-        DungeonId = 91118, MonsterId = 6001
+        DungeonId = 91124, MonsterId = 6007
       },
       [2] = {
+        DungeonId = 91118, MonsterId = 6001
+      },
+      [3] = {
         DungeonId = 91117, MonsterId = 5506
       }
     },
@@ -622,6 +703,9 @@ return ReadOnly("Reward2MonsterDungeon", {
     },
     [43405] = {
       [1] = {
+        DungeonId = 91125, MonsterId = 6008
+      },
+      [2] = {
         DungeonId = 91120, MonsterId = 6003
       }
     },

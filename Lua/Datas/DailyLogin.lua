@@ -13,8 +13,47 @@ return ReadOnly("DailyLogin", {
     LoginDuration = 7,
     RewardBannerBP = "/Game/UI/WBP/Activity/Widget/SevenDay/Saiqi/WBP_Activity_SevenDayItems.WBP_Activity_SevenDayItems"
   },
+  [101002] = {
+    EventId = 101002,
+    EventReward = {
+      1010012,
+      1010012,
+      1010013,
+      1010012,
+      1010012,
+      1010012,
+      1010014
+    },
+    LoginDuration = 7,
+    RewardBannerBP = "/Game/UI/WBP/Activity/Widget/SevenDay/Baiheng/WBP_Activity_SevenDayItems.WBP_Activity_SevenDayItems"
+  },
   [101003] = {
     EventId = 101003,
+    EventReward = {
+      1010012,
+      1010012,
+      1010013,
+      1010012,
+      1010012,
+      1010012,
+      1010014
+    },
+    LoginDuration = 7,
+    RewardBannerBP = "/Game/UI/WBP/Activity/Widget/SevenDay/Baiheng/WBP_Activity_SevenDayItems.WBP_Activity_SevenDayItems"
+  },
+  [101004] = {
+    EventId = 101004,
+    EventReward = {
+      1010041,
+      1010042,
+      1010043,
+      1010044,
+      1010045
+    },
+    LoginDuration = 5
+  },
+  [101005] = {
+    EventId = 101005,
     EventReward = {
       1010012,
       1010012,

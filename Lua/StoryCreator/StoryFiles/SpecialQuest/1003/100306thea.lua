@@ -76,8 +76,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -324,7 +326,7 @@ return {
           {
             startQuest = "173459366755814320",
             startPort = "false",
-            endQuest = "17627580162905172",
+            endQuest = "17623414672232008",
             endPort = "In"
           }
         },
@@ -340,7 +342,7 @@ return {
             key = "17345935248467070",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 72.58823529411757, y = 686.78431372549},
+            pos = {x = 1202, y = 852.6666666666665},
             propsData = {ModeType = 0}
           },
           ["17345935248467073"] = {
@@ -372,6 +374,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -461,27 +464,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100310},
-                {TalkActorType = "Npc", TalkActorId = 100340},
-                {TalkActorType = "Npc", TalkActorId = 100341},
-                {TalkActorType = "Npc", TalkActorId = 100342},
-                {TalkActorType = "Npc", TalkActorId = 100343},
-                {TalkActorType = "Npc", TalkActorId = 100327},
-                {TalkActorType = "Npc", TalkActorId = 100346},
-                {TalkActorType = "Npc", TalkActorId = 100347},
-                {TalkActorType = "Npc", TalkActorId = 100348},
-                {TalkActorType = "Npc", TalkActorId = 100349},
-                {TalkActorType = "Npc", TalkActorId = 100350},
-                {TalkActorType = "Npc", TalkActorId = 100351},
-                {TalkActorType = "Npc", TalkActorId = 100352},
-                {TalkActorType = "Npc", TalkActorId = 100353}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -508,6 +496,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -612,30 +601,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100310},
-                {TalkActorType = "Npc", TalkActorId = 100340},
-                {TalkActorType = "Npc", TalkActorId = 100341},
-                {TalkActorType = "Npc", TalkActorId = 100342},
-                {TalkActorType = "Npc", TalkActorId = 100343},
-                {TalkActorType = "Npc", TalkActorId = 100327},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 100304},
-                {TalkActorType = "Npc", TalkActorId = 200021},
-                {TalkActorType = "Npc", TalkActorId = 100346},
-                {TalkActorType = "Npc", TalkActorId = 100347},
-                {TalkActorType = "Npc", TalkActorId = 100348},
-                {TalkActorType = "Npc", TalkActorId = 100349},
-                {TalkActorType = "Npc", TalkActorId = 100350},
-                {TalkActorType = "Npc", TalkActorId = 100351},
-                {TalkActorType = "Npc", TalkActorId = 100352},
-                {TalkActorType = "Npc", TalkActorId = 100353}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -686,6 +657,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -790,30 +762,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100310},
-                {TalkActorType = "Npc", TalkActorId = 100327},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 100304},
-                {TalkActorType = "Npc", TalkActorId = 200021},
-                {TalkActorType = "Npc", TalkActorId = 100340},
-                {TalkActorType = "Npc", TalkActorId = 100341},
-                {TalkActorType = "Npc", TalkActorId = 100342},
-                {TalkActorType = "Npc", TalkActorId = 100343},
-                {TalkActorType = "Npc", TalkActorId = 100346},
-                {TalkActorType = "Npc", TalkActorId = 100347},
-                {TalkActorType = "Npc", TalkActorId = 100348},
-                {TalkActorType = "Npc", TalkActorId = 100349},
-                {TalkActorType = "Npc", TalkActorId = 100350},
-                {TalkActorType = "Npc", TalkActorId = 100351},
-                {TalkActorType = "Npc", TalkActorId = 100352},
-                {TalkActorType = "Npc", TalkActorId = 100353}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -840,6 +794,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -853,11 +808,12 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -943,6 +899,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1032,27 +989,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100327},
-                {TalkActorType = "Npc", TalkActorId = 100346},
-                {TalkActorType = "Npc", TalkActorId = 100347},
-                {TalkActorType = "Npc", TalkActorId = 100348},
-                {TalkActorType = "Npc", TalkActorId = 100349},
-                {TalkActorType = "Npc", TalkActorId = 100350},
-                {TalkActorType = "Npc", TalkActorId = 100351},
-                {TalkActorType = "Npc", TalkActorId = 100352},
-                {TalkActorType = "Npc", TalkActorId = 100353},
-                {TalkActorType = "Npc", TalkActorId = 100340},
-                {TalkActorType = "Npc", TalkActorId = 100341},
-                {TalkActorType = "Npc", TalkActorId = 100342},
-                {TalkActorType = "Npc", TalkActorId = 100343},
-                {TalkActorType = "Npc", TalkActorId = 100310}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1154,6 +1096,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -1166,9 +1109,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1435,7 +1375,7 @@ return {
             key = "17503173375082987",
             type = "SpecialQuestSuccessNode",
             name = "成功完成特殊任务",
-            pos = {x = 1546, y = 196.23529411764707},
+            pos = {x = 1546, y = 198},
             propsData = {}
           },
           ["1750319042594647649"] = {
@@ -1481,11 +1421,11 @@ return {
               FinishCondition = "cp2thea2spbattle02succ"
             }
           },
-          ["17627580162905172"] = {
-            key = "17627580162905172",
+          ["17623414672232008"] = {
+            key = "17623414672232008",
             type = "SpecialQuestSuccessNode",
             name = "成功完成特殊任务",
-            pos = {x = -310.9358215314097, y = 386.70220955515066},
+            pos = {x = -113, y = 708.5},
             propsData = {}
           }
         },
@@ -1520,8 +1460,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1816,6 +1758,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1845,15 +1788,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100327},
-                {TalkActorType = "Npc", TalkActorId = 100326}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -2064,7 +2004,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -2144,6 +2083,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -2156,9 +2096,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,

@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -290,6 +292,18 @@ return {
             startPort = "Out",
             endQuest = "17283558999162442",
             endPort = "Stop"
+          },
+          {
+            startQuest = "17285287770575750",
+            startPort = "Out",
+            endQuest = "176189292634714293033",
+            endPort = "In"
+          },
+          {
+            startQuest = "17283562408018423",
+            startPort = "Out",
+            endQuest = "176189294244714293459",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -378,6 +392,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -391,7 +406,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "branch",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -546,6 +560,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -559,7 +574,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -647,6 +661,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -660,7 +675,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -797,6 +811,28 @@ return {
             name = "动态任务主动失败",
             pos = {x = 1758.1666666666667, y = 464.92857142857144},
             propsData = {UseTalkFadeOut = false, TalkFadeOutTime = 0}
+          },
+          ["176189292634714293033"] = {
+            key = "176189292634714293033",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2261.5, y = 935},
+            propsData = {
+              NewDescription = "DynQuest_SewClearsew_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189294244714293459"] = {
+            key = "176189294244714293459",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3915.1785714285716, y = 83.92857142857133},
+            propsData = {
+              NewDescription = "DynQuest_SewClearsew_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
           }
         },
         commentData = {}

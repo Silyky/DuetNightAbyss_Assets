@@ -112,8 +112,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -264,8 +266,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -395,8 +399,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -556,8 +562,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -717,8 +725,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -919,6 +929,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -931,9 +942,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1038,8 +1046,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1182,8 +1192,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1326,8 +1338,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1447,7 +1461,7 @@ return {
       key = "17552626048232131414",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 656.0952380952381, y = 380.4821428571429},
+      pos = {x = 657.2490842490843, y = 379.32829670329676},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -1470,8 +1484,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1514,12 +1530,6 @@ return {
           {
             startQuest = "17552626048232131415",
             startPort = "QuestStart",
-            endQuest = "17552626061712131500",
-            endPort = "In"
-          },
-          {
-            startQuest = "17552626048232131415",
-            startPort = "QuestStart",
             endQuest = "17552626061712131498",
             endPort = "In"
           },
@@ -1540,6 +1550,12 @@ return {
             startPort = "Out",
             endQuest = "17552626061712131499",
             endPort = "In"
+          },
+          {
+            startQuest = "17552626061712131502",
+            startPort = "Out",
+            endQuest = "17552626061712131500",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -1554,7 +1570,7 @@ return {
             key = "17552626048652131418",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2800, y = 300},
+            pos = {x = 1725.3999999999999, y = 443.15294117647056},
             propsData = {ModeType = 0}
           },
           ["17552626048652131421"] = {
@@ -1575,7 +1591,7 @@ return {
             key = "17552626061712131499",
             type = "SendMessageNode",
             name = "打开井盖",
-            pos = {x = 2319.161006930982, y = 160.40253345044755},
+            pos = {x = 2085.337477519217, y = 136.57900403868285},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "EngineUpFinish",
@@ -1586,9 +1602,9 @@ return {
             key = "17552626061712131500",
             type = "GoToNode",
             name = "GOTO - 前往内部",
-            pos = {x = 931.045305664419, y = 367.4979985184261},
+            pos = {x = 1050.3394233114777, y = 391.6038808713672},
             propsData = {
-              GuideUIEnable = false,
+              GuideUIEnable = true,
               StaticCreatorId = 1111010507,
               GuideType = "M",
               GuidePointName = "questpoint1111010507"
@@ -1598,7 +1614,7 @@ return {
             key = "17552626061712131501",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 840.3024080239227, y = 123.01340211423627},
+            pos = {x = 517.7393828138388, y = 85.0218054755808},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -1612,7 +1628,7 @@ return {
             key = "17552626061712131502",
             type = "PickUpNode",
             name = "拾取物品",
-            pos = {x = 1088.9305238596994, y = 115.40049888842982},
+            pos = {x = 829.0397675571785, y = 103.9299106531357},
             propsData = {
               bActiveEnable = true,
               StaticCreatorIdList = {},
@@ -1629,7 +1645,7 @@ return {
             key = "17552626061712131503",
             type = "ChangeStaticCreatorNode",
             name = "销毁维克遗物",
-            pos = {x = 1374.6374979481468, y = 130.52319979391933},
+            pos = {x = 1118.9316155952058, y = 114.59042668467565},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -1643,7 +1659,7 @@ return {
             key = "17552626061712131504",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 1611.646870013546, y = 158.95633015393852},
+            pos = {x = 1432.2014918622856, y = 134.62859906150155},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -1657,7 +1673,7 @@ return {
             key = "17552626061712131505",
             type = "PlayOrStopBGMNode",
             name = "BGM节点",
-            pos = {x = 1968.7279667353482, y = 158.78632206787023},
+            pos = {x = 1761.0472944664407, y = 141.6434649250131},
             propsData = {
               SoundStateType = 0,
               SoundPriority = 0,
@@ -1674,7 +1690,7 @@ return {
             key = "17552626061712131506",
             type = "TalkNode",
             name = "完成所有开车的对话",
-            pos = {x = 2171.697591976077, y = 338.76756202282036},
+            pos = {x = 1363.532886093724, y = 401.27344437576147},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 11017601,

@@ -321,14 +321,10 @@ return ReadOnly("EliteTeamData", {
         }
       },
       [3] = {
-        OffsetXY = {
-          0, 600
-        }
+        OffsetXY = {0, 600}
       },
       [4] = {
-        OffsetXY = {
-          0, -600
-        }
+        OffsetXY = {0, -600}
       }
     }
   },
@@ -460,7 +456,9 @@ return ReadOnly("EliteTeamData", {
         OffsetXY = {500, 0}
       },
       [4] = {
-        OffsetXY = {-500, 0}
+        OffsetXY = {
+          -500, 0
+        }
       }
     }
   },
@@ -468,32 +466,74 @@ return ReadOnly("EliteTeamData", {
     EliteId = 851801,
     Offsets = {
       [1] = {
+        OffsetXY = {100, 600}
+      },
+      [2] = {
+        OffsetXY = {100, -600}
+      },
+      [3] = {
+        OffsetXY = {700, 0}
+      },
+      [4] = {
         OffsetXY = {
-          0, 600
+          -500, 0
+        }
+      },
+      [5] = {
+        OffsetXY = {524, 424}
+      },
+      [6] = {
+        OffsetXY = {524, -424}
+      },
+      [7] = {
+        OffsetXY = {-324, 424}
+      },
+      [8] = {
+        OffsetXY = {-324, -424}
+      }
+    }
+  },
+  [852101] = {
+    EliteId = 852101,
+    Offsets = {
+      [1] = {
+        OffsetXY = {
+          0, 500
         }
       },
       [2] = {
-        OffsetXY = {
-          0, -600
-        }
+        OffsetXY = {150, 420}
       },
       [3] = {
-        OffsetXY = {600, 0}
+        OffsetXY = {-150, 420}
       },
       [4] = {
-        OffsetXY = {-600, 0}
+        OffsetXY = {300, 300}
       },
       [5] = {
-        OffsetXY = {424, 424}
+        OffsetXY = {-300, 300}
+      }
+    }
+  },
+  [852301] = {
+    EliteId = 852301,
+    LocationCheckParam = {
+      HalfHeight = 90,
+      MaxLength = 200,
+      MaxWidth = 100,
+      Radius = 45,
+      StepHeight = 50,
+      WalkableFloorAngle = 60
+    },
+    Offsets = {
+      [1] = {
+        OffsetXY = {400, 0}
       },
-      [6] = {
-        OffsetXY = {424, -424}
+      [2] = {
+        OffsetXY = {-200, 346}
       },
-      [7] = {
-        OffsetXY = {-424, 424}
-      },
-      [8] = {
-        OffsetXY = {-424, -424}
+      [3] = {
+        OffsetXY = {-200, -346}
       }
     }
   },

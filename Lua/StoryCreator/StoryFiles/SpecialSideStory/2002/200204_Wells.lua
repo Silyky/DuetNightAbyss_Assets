@@ -39,7 +39,7 @@ return {
       key = "1700737762327155740",
       type = "StoryStartNode",
       name = "StoryStart",
-      pos = {x = 582.0749243403583, y = 126.17208661129031},
+      pos = {x = 581.7530852598985, y = 125.95369580669262},
       propsData = {QuestChainId = 200204},
       questNodeData = {
         lineData = {},
@@ -52,7 +52,7 @@ return {
       key = "1700737762327155743",
       type = "StoryEndNode",
       name = "StoryEnd",
-      pos = {x = 1761.7018522642393, y = 300.27894897182875},
+      pos = {x = 1793.2807996326603, y = 306.594738445513},
       propsData = {},
       questNodeData = {
         lineData = {},
@@ -65,7 +65,7 @@ return {
       key = "1700738400583182495",
       type = "StoryNode",
       name = "看wells和岳父吵架",
-      pos = {x = 1158.6651336802922, y = 321.8621234901212},
+      pos = {x = 1240.770396838187, y = 320.28317612170014},
       propsData = {
         QuestId = 20020404,
         QuestDescriptionComment = "",
@@ -88,8 +88,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101107,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Wells_1220057"
+        StoryGuidePointName = "Npc_Wells_1220057",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -210,8 +212,7 @@ return {
               ImpressionTalkTriggerId = 510019,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_Wells_1220057",
-              GuideStaticCreatorId = 200015
+              NPCStaticCreaterName = "Npc_Wells_1220057"
             }
           }
         },
@@ -223,7 +224,7 @@ return {
       key = "1702882724750889",
       type = "GameModeCompleteNode",
       name = "完成副本",
-      pos = {x = 838.8909356718741, y = 337.31727206686514},
+      pos = {x = 979.5628453310795, y = 323.10674575107566},
       propsData = {
         QuestId = 20020403,
         QuestDescriptionComment = "",
@@ -256,7 +257,7 @@ return {
       key = "17398669692334648",
       type = "StoryNode",
       name = "前去开啤酒",
-      pos = {x = 1470.602540834846, y = 305.9498314752398},
+      pos = {x = 1511.6551724137933, y = 317.00246305418716},
       propsData = {
         QuestId = 20020405,
         QuestDescriptionComment = "",
@@ -279,8 +280,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101107,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_20020405"
+        StoryGuidePointName = "QuestPoint_20020405",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -418,6 +421,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -447,15 +451,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 700207},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "Player",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -484,7 +485,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -534,7 +534,8 @@ return {
         QuestDescriptionComment = "",
         SubRegionId = 101107,
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Wells_1220120"
+        StoryGuidePointName = "Npc_Wells_1220120",
+        bIsPlayBlackScreenOnComplete = false
       },
       questNodeData = {
         lineData = {
@@ -591,9 +592,9 @@ return {
             pos = {x = 1502.190476190476, y = 300.3809523809524},
             propsData = {
               SideQuestChainId = 200204,
-              EnableSequence = false,
-              SequencePath = "",
-              PauseMark = ""
+              EnableSequence = true,
+              SequencePath = "/Game/UI/Sequence/SQ_Task_DepthField.SQ_Task_DepthField",
+              PauseMark = "QuestAccept"
             }
           },
           ["1751271012406983258"] = {
@@ -631,6 +632,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -654,10 +656,6 @@ return {
                   TalkActorId = 200003,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 200015},
-                {TalkActorType = "Npc", TalkActorId = 200003}
               },
               OptionType = "normal",
               FreezeWorldComposition = false,

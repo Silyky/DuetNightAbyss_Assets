@@ -39,6 +39,17 @@ return ReadOnly("HitMontageData", {
       "HitLight"
     }
   },
+  BossDefault = {
+    DeadDissolveTime = 1,
+    DeadMontage = {
+      "Die"
+    },
+    HitAddtiveDuration = 0.3,
+    HitMontageId = "BossDefault",
+    LightHitMontage = {
+      "HitLight"
+    }
+  },
   BossFuer = {
     DeadDissolveTime = 1,
     DeadMontage = {
@@ -50,7 +61,22 @@ return ReadOnly("HitMontageData", {
       "HitLight"
     }
   },
+  BossJishi = {
+    DeadDissolveTime = 1,
+    DeadMontage = {
+      "Die"
+    },
+    HitAddtiveDuration = 0.3,
+    HitMontageId = "BossJishi",
+    LightHitMontage = {
+      "HitLight"
+    }
+  },
   BossJuque = {
+    ConditionHitMontage = {
+      [851801] = "LightHit2",
+      [851802] = "LightHit1"
+    },
     DeadDissolveTime = 1,
     DeadMontage = {
       "Die"
@@ -133,7 +159,8 @@ return ReadOnly("HitMontageData", {
       [850205] = "LightHit2",
       [850206] = "LightHit2",
       [850207] = "LightHit1",
-      [850208] = "LightHit1"
+      [850208] = "LightHit1",
+      [850213] = "LightHit1"
     },
     DeadDissolveTime = 1,
     DeadMontage = {
@@ -355,6 +382,20 @@ return ReadOnly("HitMontageData", {
     HitMontageId = "MonNEDajie",
     LightHitMontage = {
       "LightHit1", "LightHit2"
+    }
+  },
+  MonNEDajieTem102 = {
+    DeadDissolveTime = 2,
+    DeadMontage = {
+      "Die"
+    },
+    HeavyHitMontage = {
+      "HeavyHit4"
+    },
+    HitAddtiveDuration = 0.46,
+    HitMontageId = "MonNEDajieTem102",
+    LightHitMontage = {
+      "HeavyHit4"
     }
   },
   MonNEHaer = {

@@ -5216,6 +5216,117 @@ return ReadOnly("WeaponBreak", {
       WeaponId = 20504
     }
   },
+  [20506] = {
+    [1] = {
+      CollectRewardExp = 40,
+      ItemId = {
+        [1] = 101,
+        [2] = 20009,
+        [3] = 11013
+      },
+      ItemNum = {
+        [1] = 2800,
+        [2] = 6,
+        [3] = 2
+      },
+      WeaponBreakLevel = 20,
+      WeaponBreakNum = 1,
+      WeaponId = 20506
+    },
+    [2] = {
+      CollectReward = 61004,
+      CollectRewardExp = 80,
+      ItemId = {
+        [1] = 101,
+        [2] = 20012,
+        [3] = 11013,
+        [4] = 11016
+      },
+      ItemNum = {
+        [1] = 6100,
+        [2] = 3,
+        [3] = 4,
+        [4] = 2
+      },
+      WeaponBreakLevel = 30,
+      WeaponBreakNum = 2,
+      WeaponId = 20506
+    },
+    [3] = {
+      CollectRewardExp = 160,
+      ItemId = {
+        [1] = 101,
+        [2] = 20012,
+        [3] = 11014,
+        [4] = 11017
+      },
+      ItemNum = {
+        [1] = 6900,
+        [2] = 6,
+        [3] = 3,
+        [4] = 1
+      },
+      WeaponBreakLevel = 40,
+      WeaponBreakNum = 3,
+      WeaponId = 20506
+    },
+    [4] = {
+      CollectReward = 61005,
+      CollectRewardExp = 320,
+      ItemId = {
+        [1] = 101,
+        [2] = 20012,
+        [3] = 11015,
+        [4] = 11018
+      },
+      ItemNum = {
+        [1] = 17000,
+        [2] = 12,
+        [3] = 6,
+        [4] = 2
+      },
+      WeaponBreakLevel = 50,
+      WeaponBreakNum = 4,
+      WeaponId = 20506
+    },
+    [5] = {
+      CollectRewardExp = 640,
+      ItemId = {
+        [1] = 101,
+        [2] = 20012,
+        [3] = 11015,
+        [4] = 11018
+      },
+      ItemNum = {
+        [1] = 49000,
+        [2] = 24,
+        [3] = 10,
+        [4] = 4
+      },
+      WeaponBreakLevel = 60,
+      WeaponBreakNum = 5,
+      WeaponId = 20506
+    },
+    [6] = {
+      CollectReward = 61006,
+      CollectRewardExp = 1280,
+      ItemId = {
+        [1] = 101,
+        [2] = 20012,
+        [3] = 11015,
+        [4] = 11018
+      },
+      ItemNum = {
+        [1] = 180000,
+        [2] = 48,
+        [3] = 20,
+        [4] = 8
+      },
+      WeaponBreakLevel = 70,
+      WeaponBreakNum = 6,
+      WeaponId = 20506
+    }
+  },
   [20507] = {
     [1] = {
       CollectRewardExp = 40,

@@ -375,8 +375,12 @@ return ReadOnly("RandomCreator", {
     NotOverLap = 1,
     RandomId = 7010002,
     RandomInfos = {
-      [1] = {UnitId = 20520, Weight = 1},
-      [2] = {UnitId = 20521, Weight = 1}
+      [1] = {
+        UnitId = 20520, Weight = 1
+      },
+      [2] = {
+        UnitId = 20521, Weight = 1
+      }
     },
     RegionDataType = 5,
     RuleType = 1,
@@ -1381,6 +1385,22 @@ return ReadOnly("RandomCreator", {
     RuleType = 2,
     UnitType = "Monster"
   },
+  [7040001] = {
+    Count = 1,
+    NotOverLap = 1,
+    RandomId = 7040001,
+    RandomInfos = {
+      [1] = {
+        UnitId = 20520, Weight = 1
+      },
+      [2] = {
+        UnitId = 20521, Weight = 1
+      }
+    },
+    RegionDataType = 5,
+    RuleType = 1,
+    UnitType = "Drop"
+  },
   [8000101] = {
     Count = 16,
     NotOverLap = 1,
@@ -1524,10 +1544,9 @@ return ReadOnly("RandomCreator", {
     NotOverLap = 1,
     RandomId = 8010102,
     RandomInfos = {
-      [1] = {
-        UnitId = 1017, Weight = 1
-      },
-      [2] = {
+      [1] = {UnitId = 1016, Weight = 1},
+      [2] = {UnitId = 1017, Weight = 2},
+      [3] = {
         UnitId = 1018, Weight = 1
       }
     },
@@ -1905,6 +1924,204 @@ return ReadOnly("RandomCreator", {
     Count = 4,
     NotOverLap = 1,
     RandomId = 8011203,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1024, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012001] = {
+    Count = 25,
+    NotOverLap = 1,
+    RandomId = 8012001,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1039, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012002] = {
+    Count = 30,
+    NotOverLap = 1,
+    RandomId = 8012002,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1028, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012003] = {
+    Count = 30,
+    NotOverLap = 1,
+    RandomId = 8012003,
+    RandomInfos = {
+      [1] = {UnitId = 1037, Weight = 1}
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012004] = {
+    Count = 16,
+    NotOverLap = 1,
+    RandomId = 8012004,
+    RandomInfos = {
+      [1] = {UnitId = 1040, Weight = 1}
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012005] = {
+    Count = 16,
+    NotOverLap = 1,
+    RandomId = 8012005,
+    RandomInfos = {
+      [1] = {UnitId = 1029, Weight = 1}
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012006] = {
+    Count = 24,
+    NotOverLap = 1,
+    RandomId = 8012006,
+    RandomInfos = {
+      [1] = {UnitId = 1030, Weight = 1}
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012007] = {
+    Count = 16,
+    NotOverLap = 1,
+    RandomId = 8012007,
+    RandomInfos = {
+      [1] = {UnitId = 1038, Weight = 1}
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012008] = {
+    Count = 12,
+    NotOverLap = 1,
+    RandomId = 8012008,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1036, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012009] = {
+    Count = 18,
+    NotOverLap = 1,
+    RandomId = 8012009,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1036, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012010] = {
+    Count = 7,
+    NotOverLap = 1,
+    RandomId = 8012010,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1039, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012011] = {
+    Count = 4,
+    NotOverLap = 1,
+    RandomId = 8012011,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1039, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012012] = {
+    Count = 21,
+    NotOverLap = 1,
+    RandomId = 8012012,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1028, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012013] = {
+    Count = 6,
+    NotOverLap = 1,
+    RandomId = 8012013,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1039, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012015] = {
+    Count = 9,
+    NotOverLap = 1,
+    RandomId = 8012015,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1028, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012016] = {
+    Count = 17,
+    NotOverLap = 1,
+    RandomId = 8012016,
+    RandomInfos = {
+      [1] = {
+        UnitId = 1028, Weight = 1
+      }
+    },
+    RegionDataType = 6,
+    RuleType = 1,
+    UnitType = "Mechanism"
+  },
+  [8012017] = {
+    Count = 8,
+    NotOverLap = 1,
+    RandomId = 8012017,
     RandomInfos = {
       [1] = {
         UnitId = 1024, Weight = 1

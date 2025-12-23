@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -79,36 +81,6 @@ return {
             startQuest = "1717657751774264930",
             startPort = "Out",
             endQuest = "1717658634841267181",
-            endPort = "In"
-          },
-          {
-            startQuest = "1717659001920267758",
-            startPort = "Out",
-            endQuest = "1717659148974268395",
-            endPort = "In"
-          },
-          {
-            startQuest = "1717659148974268395",
-            startPort = "Out",
-            endQuest = "1717659224853268828",
-            endPort = "In"
-          },
-          {
-            startQuest = "1717659224853268828",
-            startPort = "Out",
-            endQuest = "1717659421329269714",
-            endPort = "In"
-          },
-          {
-            startQuest = "1717659421329269714",
-            startPort = "Out",
-            endQuest = "1717659509411270787",
-            endPort = "In"
-          },
-          {
-            startQuest = "1717659509411270787",
-            startPort = "Out",
-            endQuest = "1717659674690272156",
             endPort = "In"
           },
           {
@@ -142,18 +114,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17490106210051172419",
-            startPort = "Out",
-            endQuest = "17490117101836398655",
-            endPort = "In"
-          },
-          {
-            startQuest = "17490117101836398655",
-            startPort = "Out",
-            endQuest = "1717659224853268828",
-            endPort = "In"
-          },
-          {
             startQuest = "1717658634841267181",
             startPort = "Out",
             endQuest = "17490453197469307563",
@@ -169,6 +129,24 @@ return {
             startQuest = "17490453197469307563",
             startPort = "Mobile",
             endQuest = "1717659001920267758",
+            endPort = "In"
+          },
+          {
+            startQuest = "1717659001920267758",
+            startPort = "Out",
+            endQuest = "1717659224853268828",
+            endPort = "In"
+          },
+          {
+            startQuest = "17490106210051172419",
+            startPort = "Out",
+            endQuest = "1717659224853268828",
+            endPort = "In"
+          },
+          {
+            startQuest = "1717659224853268828",
+            startPort = "Out",
+            endQuest = "1717659674690272156",
             endPort = "In"
           }
         },
@@ -190,7 +168,7 @@ return {
             key = "1717657751774264930",
             type = "ShowGuideTextNode",
             name = "Text显示信息",
-            pos = {x = 733.0128529880844, y = 288.4982567293608},
+            pos = {x = 731.5842815854634, y = 288.4982567293608},
             propsData = {
               MessageId = 301501,
               MessageNote = "在沙海冥想中，我们可以回忆曾经见过的敌人，并与它们进行自主的战斗。可以以此熟悉它们的招式、测试自己的技能。",
@@ -216,7 +194,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "TrainingGroundSetup.WBP_Training_Root.List_Item:1",
+              HighLightUIPath = "TrainingGroundSetup.Training_Root.List_Item:1",
               UICompName = "Btn_Click",
               GamePadWidgetName = "",
               IsAutoClick = false,
@@ -246,7 +224,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "TrainingGroundSetup.WBP_Training_Root.Com_Slider.Btn_Add",
+              HighLightUIPath = "TrainingGroundSetup.Training_Root.Com_Slider.Btn_Add",
               UICompName = "Button_Area",
               GamePadWidgetName = "",
               IsAutoClick = false,
@@ -276,7 +254,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "TrainingGroundSetup.WBP_Training_Root.Btn_Show",
+              HighLightUIPath = "TrainingGroundSetup.Training_Root.Btn_Show",
               UICompName = "Button_Area",
               GamePadWidgetName = "",
               IsAutoClick = false,
@@ -306,7 +284,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "TrainingGroundSetup.WBP_Training_Root.Com_NumInput.Btn_Add",
+              HighLightUIPath = "TrainingGroundSetup.Training_Root.Com_NumInput.Btn_Add",
               UICompName = "Button_Area",
               GamePadWidgetName = "",
               IsAutoClick = false,
@@ -326,7 +304,7 @@ return {
             key = "1717659421329269714",
             type = "ShowGuideButtonNode",
             name = "Button显示/隐藏信息",
-            pos = {x = 1365.1407302259363, y = 474.0992797472638},
+            pos = {x = 1355.1407304075885, y = 646.9564194644178},
             propsData = {
               ShowEnable = true,
               MessageId = 301506,
@@ -336,7 +314,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "TrainingGroundSetup.WBP_Training_Root.InvincibleSetting.Btn_Setting",
+              HighLightUIPath = "TrainingGroundSetup.Training_Root.InvincibleSetting.Btn_Setting",
               UICompName = "ButtonArea",
               GamePadWidgetName = "",
               IsAutoClick = false,
@@ -356,7 +334,7 @@ return {
             key = "1717659509411270787",
             type = "ShowGuideButtonNode",
             name = "Button显示/隐藏信息",
-            pos = {x = 1636.6701419906424, y = 481.15810327667543},
+            pos = {x = 1640.9558561985057, y = 644.0152431754817},
             propsData = {
               ShowEnable = true,
               MessageId = 301507,
@@ -366,7 +344,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "TrainingGroundSetup.WBP_Training_Root.AISetting.Btn_Setting",
+              HighLightUIPath = "TrainingGroundSetup.Training_Root.AISetting.Btn_Setting",
               UICompName = "ButtonArea",
               GamePadWidgetName = "",
               IsAutoClick = false,
@@ -386,7 +364,7 @@ return {
             key = "1717659674690272156",
             type = "ShowGuideButtonNode",
             name = "Button显示/隐藏信息",
-            pos = {x = 1943.728965520054, y = 472.33457386491074},
+            pos = {x = 1790.8718254395956, y = 472.33457386491074},
             propsData = {
               ShowEnable = true,
               MessageId = 301508,
@@ -396,7 +374,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "TrainingGroundSetup.WBP_Training_Root.Btn_Confirm",
+              HighLightUIPath = "TrainingGroundSetup.Training_Root.Btn_Generate",
               UICompName = "Button_Area",
               GamePadWidgetName = "",
               IsAutoClick = false,
@@ -454,7 +432,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "TrainingGroundSetup.WBP_Training_Root.Com_Slider.Key_Add",
+              HighLightUIPath = "TrainingGroundSetup.Training_Root.Com_Slider.Key_Add",
               UICompName = "Button_Key",
               GamePadWidgetName = "",
               IsAutoClick = false,
@@ -514,7 +492,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "TrainingGroundSetup.WBP_Training_Root.Btn_Show",
+              HighLightUIPath = "TrainingGroundSetup.Training_Root.Btn_Show",
               UICompName = "Button_Area",
               GamePadWidgetName = "",
               IsAutoClick = false,

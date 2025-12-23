@@ -47,7 +47,7 @@ return {
       key = "17527501134331206154",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 1051.5395246666662, y = 298.4969205415665},
+      pos = {x = 1046.8026825614031, y = 295.33902580472443},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -247,14 +249,14 @@ return {
             key = "17527502108671289289",
             type = "WaitOfTimeNode",
             name = "1",
-            pos = {x = 1016.9102394878929, y = 445.1843119850295},
+            pos = {x = 1012.2227394878929, y = 447.9968119850295},
             propsData = {WaitTime = 1}
           },
           ["17527502108671289290"] = {
             key = "17527502108671289290",
             type = "KillMonsterNode",
             name = "击杀怪物",
-            pos = {x = 753.2495127948282, y = 446.4600568572381},
+            pos = {x = 753.2495127948282, y = 447.3975568572381},
             propsData = {
               KillMonsterType = "Id",
               MonsterNeedNums = 11,
@@ -342,6 +344,7 @@ return {
               HideNpcs = false,
               HideMonsters = false,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = false,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -371,15 +374,12 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 200002},
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -450,7 +450,7 @@ return {
             key = "17527502108681289306",
             type = "ChangeStaticCreatorNode",
             name = "销毁小白1号",
-            pos = {x = 1002.1859782439857, y = 770.4766213420575},
+            pos = {x = 1001.2484782439857, y = 771.4141213420575},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -532,7 +532,7 @@ return {
             key = "17549828191227294849",
             type = "WaitOfTimeNode",
             name = "0.1",
-            pos = {x = 760.0559603535296, y = 771.805309456625},
+            pos = {x = 759.1184603535296, y = 771.805309456625},
             propsData = {WaitTime = 0.1}
           }
         },

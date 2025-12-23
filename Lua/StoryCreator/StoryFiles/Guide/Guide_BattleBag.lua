@@ -70,11 +70,19 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
+          {
+            startQuest = "170082323378221797",
+            startPort = "Out",
+            endQuest = "170082331304522835",
+            endPort = "In"
+          },
           {
             startQuest = "170082350446224297",
             startPort = "Out",
@@ -166,6 +174,24 @@ return {
             endPort = "Input"
           },
           {
+            startQuest = "17562137050882501",
+            startPort = "Out",
+            endQuest = "170082323378221797",
+            endPort = "In"
+          },
+          {
+            startQuest = "17562137050872497",
+            startPort = "Out",
+            endQuest = "170082323378221797",
+            endPort = "In"
+          },
+          {
+            startQuest = "17562137050872498",
+            startPort = "Out",
+            endQuest = "170082323378221797",
+            endPort = "In"
+          },
+          {
             startQuest = "17535243973102541",
             startPort = "Out",
             endQuest = "17571582890326339609",
@@ -188,42 +214,6 @@ return {
             startPort = "Out",
             endQuest = "170082314376019739",
             endPort = "In"
-          },
-          {
-            startQuest = "1758713303302622337",
-            startPort = "Mobile",
-            endQuest = "170082323378221797",
-            endPort = "In"
-          },
-          {
-            startQuest = "1758713303302622337",
-            startPort = "PC",
-            endQuest = "1758713317246622834",
-            endPort = "In"
-          },
-          {
-            startQuest = "17562137050872498",
-            startPort = "Out",
-            endQuest = "17587154962743103468",
-            endPort = "In"
-          },
-          {
-            startQuest = "17562137050882501",
-            startPort = "Out",
-            endQuest = "17587154962743103468",
-            endPort = "In"
-          },
-          {
-            startQuest = "17562137050872497",
-            startPort = "Out",
-            endQuest = "17587154962743103468",
-            endPort = "In"
-          },
-          {
-            startQuest = "17587154962743103468",
-            startPort = "Out",
-            endQuest = "170082331304522835",
-            endPort = "In"
           }
         },
         nodeData = {
@@ -238,7 +228,7 @@ return {
             key = "170082313649918943",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2589.9870974093146, y = 577.9645129534258},
+            pos = {x = 2641.6, y = 319.9},
             propsData = {ModeType = 0}
           },
           ["170082313649918945"] = {
@@ -448,7 +438,7 @@ return {
             key = "170082323378221797",
             type = "ShowGuideButtonNode",
             name = "普通按钮",
-            pos = {x = 3002.942507439384, y = -283.13130290358384},
+            pos = {x = 1670.684459317323, y = 286.22352879991183},
             propsData = {
               ShowEnable = true,
               MessageId = 300603,
@@ -458,7 +448,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = false,
               IsShowCursor = true,
-              HighLightUIPath = "ArmoryMain.Tab_Arm.EMScrollBox_TabItem:-1",
+              HighLightUIPath = "ArmoryMain.Tab_Arm.EMScrollBox_TabItem:4",
               UICompName = "Btn",
               GamePadWidgetName = "",
               IsAutoClick = false,
@@ -478,7 +468,7 @@ return {
             key = "170082331304522835",
             type = "ShowGuideTextNode",
             name = "Text显示信息",
-            pos = {x = 2386.2045010735087, y = 291.6696115904403},
+            pos = {x = 2034.5916021744663, y = 278.766385942769},
             propsData = {
               MessageId = 300604,
               MessageNote = "【待包装】通过配置战斗背包，可以在战斗中使用各种道具辅助战斗，也可以召唤协战伙伴一起参与战斗。",
@@ -731,14 +721,14 @@ return {
             key = "17535243973102544",
             type = "ShowGuideMainNode",
             name = "显示图文引导",
-            pos = {x = 2234.544316829429, y = 593.2843738572099},
+            pos = {x = 2234.544316829429, y = 591.671470651251},
             propsData = {GuideId = 32}
           },
           ["1753525008657669251"] = {
             key = "1753525008657669251",
             type = "ShowGuideTextNode",
             name = "Text显示信息",
-            pos = {x = 2618.193545013015, y = 326.1935480893837},
+            pos = {x = 2344, y = 302},
             propsData = {
               MessageId = 300616,
               MessageNote = "协战印记",
@@ -833,7 +823,7 @@ return {
               UIShape = "Square",
               IsForbidInAnim = false,
               IsForbidOutAnim = false,
-              ForbidSuccessAnim = false,
+              ForbidSuccessAnim = true,
               IsNotForceRelease = false,
               UICompSizeOffset = {X = 0, Y = 0},
               UICompLocOffset = {X = 0, Y = 0},
@@ -939,73 +929,6 @@ return {
             pos = {x = 224, y = 304},
             propsData = {
               EventName = "combat_partner"
-            }
-          },
-          ["1758713303302622337"] = {
-            key = "1758713303302622337",
-            type = "PlatformJudgmentNode",
-            name = "PC/手机平台判断",
-            pos = {x = 2661.72280809334, y = -358.0382205043595},
-            propsData = {}
-          },
-          ["1758713317246622834"] = {
-            key = "1758713317246622834",
-            type = "ShowGuideButtonNode",
-            name = "普通按钮",
-            pos = {x = 3006.884092938, y = -422.5543505885372},
-            propsData = {
-              ShowEnable = true,
-              MessageId = 300603,
-              MessageNote = "点击“替换”，进行近战武器的替换。",
-              DelayTime = 0,
-              IsForceClick = true,
-              IsControlPlayer = false,
-              IsTimePause = false,
-              IsShowCursor = true,
-              HighLightUIPath = "ArmoryMain.Tab_Arm.EMScrollBox_TabItem:-1",
-              UICompName = "Btn",
-              GamePadWidgetName = "",
-              IsAutoClick = false,
-              IsAutoClickByGamepad = false,
-              UIShape = "Square",
-              IsResetPlayer = false,
-              IsForbidInAnim = true,
-              IsForbidOutAnim = true,
-              UICompSizeOffset = {X = 0, Y = 0},
-              UICompLocOffset = {X = 0, Y = 0},
-              MessageParentLoc = "HighLightUI",
-              MessageLoc = "Down",
-              MessageLocOffset = {X = 0, Y = 0}
-            }
-          },
-          ["17587154962743103468"] = {
-            key = "17587154962743103468",
-            type = "ShowGuideButtonNode",
-            name = "普通按钮",
-            pos = {x = 1887.5292680025152, y = 298.4265290072662},
-            propsData = {
-              ShowEnable = true,
-              MessageId = 300603,
-              MessageNote = "点击“替换”，进行近战武器的替换。",
-              DelayTime = 0,
-              IsForceClick = true,
-              IsControlPlayer = false,
-              IsTimePause = false,
-              IsShowCursor = true,
-              HighLightUIPath = "ArmoryMain.Tab_Arm.EMScrollBox_TabItem:4",
-              UICompName = "Btn",
-              GamePadWidgetName = "",
-              IsAutoClick = false,
-              IsAutoClickByGamepad = false,
-              UIShape = "Square",
-              IsResetPlayer = false,
-              IsForbidInAnim = true,
-              IsForbidOutAnim = true,
-              UICompSizeOffset = {X = 0, Y = 0},
-              UICompLocOffset = {X = 0, Y = 0},
-              MessageParentLoc = "HighLightUI",
-              MessageLoc = "Down",
-              MessageLocOffset = {X = 0, Y = 0}
             }
           }
         },

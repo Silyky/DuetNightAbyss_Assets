@@ -11,6 +11,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20023,
@@ -49,6 +50,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20023,
@@ -87,6 +89,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20021,
@@ -115,6 +118,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20024,
@@ -143,6 +147,7 @@ return ReadOnly("Draft", {
     ProductNum = 2,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20010,
@@ -181,6 +186,7 @@ return ReadOnly("Draft", {
     ProductNum = 2,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20010,
@@ -219,6 +225,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20013,
@@ -257,6 +264,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20013,
@@ -296,6 +304,7 @@ return ReadOnly("Draft", {
     ProductNum = 10,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20010,
@@ -320,6 +329,7 @@ return ReadOnly("Draft", {
     ProductNum = 10,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20010,
@@ -348,6 +358,7 @@ return ReadOnly("Draft", {
     ProductNum = 10,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20010,
@@ -376,6 +387,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 30001,
@@ -414,6 +426,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 30002,
@@ -452,6 +465,7 @@ return ReadOnly("Draft", {
     ProductNum = 10,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20010,
@@ -490,6 +504,7 @@ return ReadOnly("Draft", {
     ProductNum = 10,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20010,
@@ -528,6 +543,7 @@ return ReadOnly("Draft", {
     ProductNum = 10,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20010,
@@ -566,6 +582,7 @@ return ReadOnly("Draft", {
     ProductNum = 10,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20010,
@@ -604,6 +621,7 @@ return ReadOnly("Draft", {
     ProductNum = 10,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20010,
@@ -642,6 +660,7 @@ return ReadOnly("Draft", {
     ProductNum = 10,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20023,
@@ -668,6 +687,7 @@ return ReadOnly("Draft", {
     ProductNum = 10,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 3000017,
@@ -695,6 +715,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 206,
@@ -718,6 +739,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 207,
@@ -741,6 +763,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 208,
@@ -764,6 +787,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10001,
@@ -787,6 +811,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10002,
@@ -810,6 +835,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10003,
@@ -833,6 +859,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10005,
@@ -856,6 +883,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10006,
@@ -879,6 +907,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10007,
@@ -902,6 +931,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10009,
@@ -925,6 +955,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10010,
@@ -948,6 +979,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10011,
@@ -971,6 +1003,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10013,
@@ -994,6 +1027,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10014,
@@ -1017,6 +1051,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10015,
@@ -1040,6 +1075,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10017,
@@ -1063,6 +1099,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10018,
@@ -1086,6 +1123,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10019,
@@ -1109,6 +1147,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10021,
@@ -1132,6 +1171,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10022,
@@ -1155,6 +1195,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10023,
@@ -1178,6 +1219,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11001,
@@ -1201,6 +1243,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11002,
@@ -1224,6 +1267,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11004,
@@ -1247,6 +1291,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11005,
@@ -1270,6 +1315,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11007,
@@ -1293,6 +1339,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11008,
@@ -1316,6 +1363,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11010,
@@ -1339,6 +1387,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11011,
@@ -1362,6 +1411,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11013,
@@ -1385,6 +1435,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11014,
@@ -1408,6 +1459,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11016,
@@ -1431,6 +1483,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 11017,
@@ -1452,6 +1505,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 3000012,
@@ -1482,11 +1536,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Phoenix01_Red.T_Draft_Mod_Phoenix01_Red",
     ProductId = 51002,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41002,
@@ -1503,11 +1558,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Phoenix01_Red.T_Draft_Mod_Phoenix01_Red",
     ProductId = 51003,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41003,
@@ -1524,11 +1580,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Phoenix01_Red.T_Draft_Mod_Phoenix01_Red",
     ProductId = 51007,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41007,
@@ -1545,11 +1602,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Siren01_Blue.T_Draft_Mod_Siren01_Blue",
     ProductId = 51301,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41004,
@@ -1566,11 +1624,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Sphinx01_Green.T_Draft_Mod_Sphinx01_Green",
     ProductId = 51311,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41001,
@@ -1587,11 +1646,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Sphinx01_Green.T_Draft_Mod_Sphinx01_Green",
     ProductId = 51312,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41001,
@@ -1608,11 +1668,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Sphinx01_Green.T_Draft_Mod_Sphinx01_Green",
     ProductId = 51313,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41313,
@@ -1629,11 +1690,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Sphinx01_Green.T_Draft_Mod_Sphinx01_Green",
     ProductId = 51314,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41314,
@@ -1650,11 +1712,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Sphinx01_Green.T_Draft_Mod_Sphinx01_Green",
     ProductId = 51315,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41315,
@@ -1671,11 +1734,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Sphinx01_Green.T_Draft_Mod_Sphinx01_Green",
     ProductId = 51316,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41316,
@@ -1692,11 +1756,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Black.T_Draft_Mod_Griffin01_Black",
     ProductId = 51321,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41321,
@@ -1713,11 +1778,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Blue.T_Draft_Mod_Griffin01_Blue",
     ProductId = 51322,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41322,
@@ -1734,11 +1800,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Red.T_Draft_Mod_Griffin01_Red",
     ProductId = 51323,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41323,
@@ -1755,11 +1822,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Purple.T_Draft_Mod_Griffin01_Purple",
     ProductId = 51324,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41324,
@@ -1776,11 +1844,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Green.T_Draft_Mod_Griffin01_Green",
     ProductId = 51325,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41325,
@@ -1797,11 +1866,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Red_Orange.T_Draft_Mod_Griffin01_Red_Orange",
     ProductId = 51326,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41326,
@@ -1818,11 +1888,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Black.T_Draft_Mod_Griffin01_Black",
     ProductId = 51331,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41331,
@@ -1839,11 +1910,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Blue.T_Draft_Mod_Griffin01_Blue",
     ProductId = 51332,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41332,
@@ -1860,11 +1932,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Red.T_Draft_Mod_Griffin01_Red",
     ProductId = 51333,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41333,
@@ -1881,11 +1954,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Purple.T_Draft_Mod_Griffin01_Purple",
     ProductId = 51334,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41334,
@@ -1902,11 +1976,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Green.T_Draft_Mod_Griffin01_Green",
     ProductId = 51335,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41335,
@@ -1923,11 +1998,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Griffin01_Red_Orange.T_Draft_Mod_Griffin01_Red_Orange",
     ProductId = 51336,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41336,
@@ -1944,11 +2020,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Black.T_Draft_Mod_Typhon01_Black",
     ProductId = 51411,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41411,
@@ -1965,11 +2042,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Black.T_Draft_Mod_Typhon01_Black",
     ProductId = 51412,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41412,
@@ -1986,11 +2064,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Black.T_Draft_Mod_Typhon01_Black",
     ProductId = 51413,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41413,
@@ -2007,11 +2086,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Black.T_Draft_Mod_Typhon01_Black",
     ProductId = 51414,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41414,
@@ -2028,11 +2108,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Black.T_Draft_Mod_Typhon01_Black",
     ProductId = 51415,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41415,
@@ -2049,11 +2130,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Blue.T_Draft_Mod_Typhon01_Blue",
     ProductId = 51421,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41421,
@@ -2070,11 +2152,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Blue.T_Draft_Mod_Typhon01_Blue",
     ProductId = 51422,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41422,
@@ -2091,11 +2174,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Blue.T_Draft_Mod_Typhon01_Blue",
     ProductId = 51423,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41423,
@@ -2112,11 +2196,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Blue.T_Draft_Mod_Typhon01_Blue",
     ProductId = 51424,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41424,
@@ -2133,11 +2218,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Blue.T_Draft_Mod_Typhon01_Blue",
     ProductId = 51425,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41425,
@@ -2154,11 +2240,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Red.T_Draft_Mod_Typhon01_Red",
     ProductId = 51431,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41431,
@@ -2175,11 +2262,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Red.T_Draft_Mod_Typhon01_Red",
     ProductId = 51432,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41432,
@@ -2196,11 +2284,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Red.T_Draft_Mod_Typhon01_Red",
     ProductId = 51433,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41433,
@@ -2217,11 +2306,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Red.T_Draft_Mod_Typhon01_Red",
     ProductId = 51434,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41434,
@@ -2238,11 +2328,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Red.T_Draft_Mod_Typhon01_Red",
     ProductId = 51435,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41435,
@@ -2259,11 +2350,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Purple.T_Draft_Mod_Typhon01_Purple",
     ProductId = 51441,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41441,
@@ -2280,11 +2372,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Purple.T_Draft_Mod_Typhon01_Purple",
     ProductId = 51442,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41442,
@@ -2301,11 +2394,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Purple.T_Draft_Mod_Typhon01_Purple",
     ProductId = 51443,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41443,
@@ -2322,11 +2416,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Purple.T_Draft_Mod_Typhon01_Purple",
     ProductId = 51444,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41444,
@@ -2343,11 +2438,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Purple.T_Draft_Mod_Typhon01_Purple",
     ProductId = 51445,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41445,
@@ -2364,11 +2460,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Green.T_Draft_Mod_Typhon01_Green",
     ProductId = 51451,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41451,
@@ -2385,11 +2482,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Green.T_Draft_Mod_Typhon01_Green",
     ProductId = 51452,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41452,
@@ -2406,11 +2504,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Green.T_Draft_Mod_Typhon01_Green",
     ProductId = 51453,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41453,
@@ -2427,11 +2526,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Green.T_Draft_Mod_Typhon01_Green",
     ProductId = 51454,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41454,
@@ -2448,11 +2548,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Green.T_Draft_Mod_Typhon01_Green",
     ProductId = 51455,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41455,
@@ -2469,11 +2570,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Orange.T_Draft_Mod_Typhon01_Orange",
     ProductId = 51461,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41461,
@@ -2490,11 +2592,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Orange.T_Draft_Mod_Typhon01_Orange",
     ProductId = 51462,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41462,
@@ -2511,11 +2614,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Orange.T_Draft_Mod_Typhon01_Orange",
     ProductId = 51463,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41463,
@@ -2532,11 +2636,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Orange.T_Draft_Mod_Typhon01_Orange",
     ProductId = 51464,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41464,
@@ -2553,11 +2658,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Typhon01_Orange.T_Draft_Mod_Typhon01_Orange",
     ProductId = 51465,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41465,
@@ -2574,11 +2680,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Black.T_Draft_Mod_Mephisto01_Black",
     ProductId = 51711,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41711,
@@ -2595,11 +2702,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Black.T_Draft_Mod_Mephisto01_Black",
     ProductId = 51712,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41712,
@@ -2616,11 +2724,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Black.T_Draft_Mod_Mephisto01_Black",
     ProductId = 51713,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41713,
@@ -2637,11 +2746,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Black.T_Draft_Mod_Mephisto01_Black",
     ProductId = 51714,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41714,
@@ -2658,11 +2768,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Blue.T_Draft_Mod_Mephisto01_Blue",
     ProductId = 51721,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41721,
@@ -2679,11 +2790,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Blue.T_Draft_Mod_Mephisto01_Blue",
     ProductId = 51722,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41722,
@@ -2700,11 +2812,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Blue.T_Draft_Mod_Mephisto01_Blue",
     ProductId = 51723,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41723,
@@ -2721,11 +2834,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Blue.T_Draft_Mod_Mephisto01_Blue",
     ProductId = 51724,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41724,
@@ -2742,11 +2856,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Red.T_Draft_Mod_Mephisto01_Red",
     ProductId = 51731,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41731,
@@ -2763,11 +2878,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Red.T_Draft_Mod_Mephisto01_Red",
     ProductId = 51732,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41732,
@@ -2784,11 +2900,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Red.T_Draft_Mod_Mephisto01_Red",
     ProductId = 51733,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41733,
@@ -2805,11 +2922,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Red.T_Draft_Mod_Mephisto01_Red",
     ProductId = 51734,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41734,
@@ -2826,11 +2944,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Purple.T_Draft_Mod_Mephisto01_Purple",
     ProductId = 51741,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41741,
@@ -2847,11 +2966,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Purple.T_Draft_Mod_Mephisto01_Purple",
     ProductId = 51742,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41742,
@@ -2868,11 +2988,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Purple.T_Draft_Mod_Mephisto01_Purple",
     ProductId = 51743,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41743,
@@ -2889,11 +3010,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Purple.T_Draft_Mod_Mephisto01_Purple",
     ProductId = 51744,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41744,
@@ -2910,11 +3032,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Green.T_Draft_Mod_Mephisto01_Green",
     ProductId = 51751,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41751,
@@ -2931,11 +3054,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Green.T_Draft_Mod_Mephisto01_Green",
     ProductId = 51752,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41752,
@@ -2952,11 +3076,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Green.T_Draft_Mod_Mephisto01_Green",
     ProductId = 51753,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41753,
@@ -2973,11 +3098,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Green.T_Draft_Mod_Mephisto01_Green",
     ProductId = 51754,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41754,
@@ -2989,16 +3115,71 @@ return ReadOnly("Draft", {
     Sound = "SOUND_ITEM_PAPER",
     Time = 30
   },
+  [151755] = {
+    DraftId = 151755,
+    FoundryCost = {
+      [101] = 100000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Featheredsnake01_Green.T_Draft_Mod_Featheredsnake01_Green",
+    ProductId = 51755,
+    ProductNum = 1,
+    ProductType = "Mod",
+    Rarity = 5,
+    ReleaseVersion = 110,
+    Resource = {
+      [1] = {
+        Id = 41755,
+        Num = 5,
+        Type = "Mod"
+      },
+      [2] = {
+        Id = 201,
+        Num = 2,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 60
+  },
+  [151756] = {
+    DraftId = 151756,
+    FoundryCost = {
+      [101] = 100000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Featheredsnake01_Green.T_Draft_Mod_Featheredsnake01_Green",
+    ProductId = 51756,
+    ProductNum = 1,
+    ProductType = "Mod",
+    Rarity = 5,
+    ReleaseVersion = 110,
+    Resource = {
+      [1] = {
+        Id = 41756,
+        Num = 5,
+        Type = "Mod"
+      },
+      [2] = {
+        Id = 201,
+        Num = 2,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 60
+  },
   [151761] = {
     DraftId = 151761,
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Orange.T_Draft_Mod_Mephisto01_Orange",
     ProductId = 51761,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41761,
@@ -3015,11 +3196,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Orange.T_Draft_Mod_Mephisto01_Orange",
     ProductId = 51762,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41762,
@@ -3036,11 +3218,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Orange.T_Draft_Mod_Mephisto01_Orange",
     ProductId = 51763,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41763,
@@ -3057,11 +3240,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Mephisto01_Orange.T_Draft_Mod_Mephisto01_Orange",
     ProductId = 51764,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41764,
@@ -3078,11 +3262,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51801,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41801,
@@ -3099,11 +3284,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51802,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41802,
@@ -3120,11 +3306,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51803,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41803,
@@ -3141,11 +3328,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51804,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41804,
@@ -3162,11 +3350,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51805,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41805,
@@ -3183,11 +3372,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51806,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41806,
@@ -3204,11 +3394,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51807,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41807,
@@ -3225,11 +3416,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51808,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41808,
@@ -3246,11 +3438,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51809,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41809,
@@ -3267,11 +3460,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51810,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41810,
@@ -3288,11 +3482,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51811,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41811,
@@ -3309,11 +3504,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Jormungand01_Blue.T_Draft_Mod_Jormungand01_Blue",
     ProductId = 51812,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41812,
@@ -3330,11 +3526,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Anubis01_Purple.T_Draft_Mod_Anubis01_Purple",
     ProductId = 51911,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41911,
@@ -3351,11 +3548,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Bahamut01_Blue.T_Draft_Mod_Bahamut01_Blue",
     ProductId = 51921,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41921,
@@ -3372,11 +3570,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Bahamut01_Blue.T_Draft_Mod_Bahamut01_Blue",
     ProductId = 51922,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41922,
@@ -3393,11 +3592,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Ifrit01_Red.T_Draft_Mod_Ifrit01_Red",
     ProductId = 51931,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41931,
@@ -3414,11 +3614,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Summanus01_Purple.T_Draft_Mod_Summanus01_Purple",
     ProductId = 51941,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41941,
@@ -3435,11 +3636,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Hastur01_Green.T_Draft_Mod_Hastur01_Green",
     ProductId = 51951,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41951,
@@ -3456,11 +3658,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Hastur01_Green.T_Draft_Mod_Hastur01_Green",
     ProductId = 51952,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41952,
@@ -3477,11 +3680,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Yatagarasu01_Red.T_Draft_Mod_Yatagarasu01_Red",
     ProductId = 51961,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41961,
@@ -3498,11 +3702,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Yatagarasu01_Red.T_Draft_Mod_Yatagarasu01_Red",
     ProductId = 51962,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 41962,
@@ -3519,11 +3724,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus01_Red.T_Draft_Mod_Cerberus01_Red",
     ProductId = 52001,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 42001,
@@ -3540,11 +3746,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus01_Red.T_Draft_Mod_Cerberus01_Red",
     ProductId = 52004,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 42311,
@@ -3561,11 +3768,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus01_Red.T_Draft_Mod_Cerberus01_Red",
     ProductId = 52005,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 42322,
@@ -3582,11 +3790,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus01_Red.T_Draft_Mod_Cerberus01_Red",
     ProductId = 52007,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 42001,
@@ -3608,11 +3817,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus01_Red.T_Draft_Mod_Cerberus01_Red",
     ProductId = 52008,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 42003,
@@ -3634,11 +3844,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus01_Red.T_Draft_Mod_Cerberus01_Red",
     ProductId = 52101,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 42001,
@@ -3660,11 +3871,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus01_Red.T_Draft_Mod_Cerberus01_Red",
     ProductId = 52102,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 42001,
@@ -3686,11 +3898,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus01_Red.T_Draft_Mod_Cerberus01_Red",
     ProductId = 52103,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 42001,
@@ -3712,11 +3925,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith01_Red.T_Draft_Mod_Lilith01_Red",
     ProductId = 53001,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 43001,
@@ -3733,11 +3947,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith01_Red.T_Draft_Mod_Lilith01_Red",
     ProductId = 53004,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 43341,
@@ -3754,11 +3969,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith01_Red.T_Draft_Mod_Lilith01_Red",
     ProductId = 53005,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 43301,
@@ -3780,11 +3996,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith01_Red.T_Draft_Mod_Lilith01_Red",
     ProductId = 53007,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 43001,
@@ -3806,11 +4023,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith01_Red.T_Draft_Mod_Lilith01_Red",
     ProductId = 53008,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 43003,
@@ -3832,11 +4050,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith01_Red.T_Draft_Mod_Lilith01_Red",
     ProductId = 53101,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 43001,
@@ -3858,11 +4077,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith01_Red.T_Draft_Mod_Lilith01_Red",
     ProductId = 53102,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 43001,
@@ -3884,11 +4104,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith01_Red.T_Draft_Mod_Lilith01_Red",
     ProductId = 53103,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 43001,
@@ -3910,11 +4131,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus02.T_Draft_Mod_Cerberus02",
     ProductId = 54001,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 44001,
@@ -3931,11 +4153,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus02.T_Draft_Mod_Cerberus02",
     ProductId = 54002,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 44002,
@@ -3952,11 +4175,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus02.T_Draft_Mod_Cerberus02",
     ProductId = 54003,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 44003,
@@ -3973,11 +4197,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus02.T_Draft_Mod_Cerberus02",
     ProductId = 54004,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 44004,
@@ -3994,11 +4219,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus02.T_Draft_Mod_Cerberus02",
     ProductId = 54005,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 44005,
@@ -4015,11 +4241,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus02.T_Draft_Mod_Cerberus02",
     ProductId = 54006,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 44006,
@@ -4036,11 +4263,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus02.T_Draft_Mod_Cerberus02",
     ProductId = 54101,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 44101,
@@ -4057,11 +4285,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus02.T_Draft_Mod_Cerberus02",
     ProductId = 54102,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 44102,
@@ -4078,11 +4307,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Cerberus02.T_Draft_Mod_Cerberus02",
     ProductId = 54103,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 44103,
@@ -4099,11 +4329,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith02.T_Draft_Mod_Lilith02",
     ProductId = 55001,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 45001,
@@ -4120,11 +4351,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith02.T_Draft_Mod_Lilith02",
     ProductId = 55002,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 45002,
@@ -4141,11 +4373,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith02.T_Draft_Mod_Lilith02",
     ProductId = 55003,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 45003,
@@ -4162,11 +4395,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith02.T_Draft_Mod_Lilith02",
     ProductId = 55004,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 45004,
@@ -4183,11 +4417,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith02.T_Draft_Mod_Lilith02",
     ProductId = 55005,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 45005,
@@ -4204,11 +4439,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith02.T_Draft_Mod_Lilith02",
     ProductId = 55006,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 45006,
@@ -4225,11 +4461,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith02.T_Draft_Mod_Lilith02",
     ProductId = 55101,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 45101,
@@ -4246,11 +4483,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith02.T_Draft_Mod_Lilith02",
     ProductId = 55102,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 45102,
@@ -4267,11 +4505,12 @@ return ReadOnly("Draft", {
     FoundryCost = {
       [101] = 50000
     },
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Lilith02.T_Draft_Mod_Lilith02",
     ProductId = 55103,
     ProductNum = 1,
     ProductType = "Mod",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 45103,
@@ -4283,6 +4522,114 @@ return ReadOnly("Draft", {
     Sound = "SOUND_ITEM_PAPER",
     Time = 30
   },
+  [156151] = {
+    DraftId = 156151,
+    FoundryCost = {
+      [101] = 50000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Changeling01_Green.T_Draft_Mod_Changeling01_Green",
+    ProductId = 56151,
+    ProductNum = 1,
+    ProductType = "Mod",
+    Rarity = 5,
+    ReleaseVersion = 110,
+    Resource = {
+      [1] = {
+        Id = 31202,
+        Num = 10,
+        Type = "Mod"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 30
+  },
+  [156152] = {
+    DraftId = 156152,
+    FoundryCost = {
+      [101] = 200000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Siren01_Green.T_Draft_Mod_Siren01_Green",
+    ProductId = 56152,
+    ProductNum = 1,
+    ProductType = "Mod",
+    Rarity = 5,
+    ReleaseVersion = 110,
+    Resource = {
+      [1] = {
+        Id = 56151,
+        Num = 1,
+        Type = "Mod"
+      },
+      [2] = {
+        Id = 31301,
+        Num = 10,
+        Type = "Mod"
+      },
+      [3] = {
+        Id = 20021,
+        Num = 20,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 120
+  },
+  [156153] = {
+    DraftId = 156153,
+    FoundryCost = {
+      [101] = 50000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Changeling01_Green.T_Draft_Mod_Changeling01_Green",
+    ProductId = 56153,
+    ProductNum = 1,
+    ProductType = "Mod",
+    Rarity = 5,
+    ReleaseVersion = 110,
+    Resource = {
+      [1] = {
+        Id = 31004,
+        Num = 10,
+        Type = "Mod"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 30
+  },
+  [156154] = {
+    DraftId = 156154,
+    FoundryCost = {
+      [101] = 200000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod_Siren01_Green.T_Draft_Mod_Siren01_Green",
+    ProductId = 56154,
+    ProductNum = 1,
+    ProductType = "Mod",
+    Rarity = 5,
+    ReleaseVersion = 110,
+    Resource = {
+      [1] = {
+        Id = 56153,
+        Num = 1,
+        Type = "Mod"
+      },
+      [2] = {
+        Id = 31301,
+        Num = 10,
+        Type = "Mod"
+      },
+      [3] = {
+        Id = 20024,
+        Num = 20,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 120
+  },
   [310001] = {
     DraftId = 310001,
     FoundryCost = {
@@ -4293,6 +4640,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20009,
@@ -4323,6 +4671,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20009,
@@ -4353,6 +4702,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20009,
@@ -4383,6 +4733,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20002,
@@ -4413,6 +4764,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20002,
@@ -4443,6 +4795,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20012,
@@ -4473,6 +4826,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20012,
@@ -4503,6 +4857,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -4533,6 +4888,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -4563,6 +4919,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -4593,6 +4950,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20020,
@@ -4623,6 +4981,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20020,
@@ -4653,6 +5012,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -4683,6 +5043,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20009,
@@ -4713,6 +5074,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010012,
@@ -4748,6 +5110,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20029,
@@ -4773,6 +5136,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20029,
@@ -4798,6 +5162,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20029,
@@ -4823,6 +5188,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -4848,6 +5214,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010011,
@@ -4884,6 +5251,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20029,
@@ -4909,6 +5277,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -4939,6 +5308,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20029,
@@ -4964,6 +5334,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010009,
@@ -4999,6 +5370,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010001,
@@ -5035,6 +5407,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010008,
@@ -5071,6 +5444,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010011,
@@ -5107,6 +5481,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010005,
@@ -5143,6 +5518,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010009,
@@ -5179,6 +5555,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010006,
@@ -5205,6 +5582,117 @@ return ReadOnly("Draft", {
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
+  [310031] = {
+    DraftId = 310031,
+    FoundryCost = {
+      [101] = 50000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Head27",
+    ProductId = 10052,
+    ProductNum = 1,
+    ProductType = "CharAccessory",
+    Rarity = 4,
+    ReleaseVersion = 100,
+    Resource = {
+      [1] = {
+        Id = 4010016,
+        Num = 20,
+        Type = "Resource"
+      },
+      [2] = {
+        Id = 4010015,
+        Num = 10,
+        Type = "Resource"
+      },
+      [3] = {
+        Id = 20009,
+        Num = 100,
+        Type = "Resource"
+      },
+      [4] = {
+        Id = 20005,
+        Num = 100,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 5
+  },
+  [310032] = {
+    DraftId = 310032,
+    FoundryCost = {
+      [101] = 50000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Head06",
+    ProductId = 10033,
+    ProductNum = 1,
+    ProductType = "CharAccessory",
+    Rarity = 4,
+    ReleaseVersion = 100,
+    Resource = {
+      [1] = {
+        Id = 4010017,
+        Num = 20,
+        Type = "Resource"
+      },
+      [2] = {
+        Id = 4010018,
+        Num = 10,
+        Type = "Resource"
+      },
+      [3] = {
+        Id = 20012,
+        Num = 100,
+        Type = "Resource"
+      },
+      [4] = {
+        Id = 20009,
+        Num = 100,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 5
+  },
+  [310033] = {
+    DraftId = 310033,
+    FoundryCost = {
+      [101] = 50000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Head04",
+    ProductId = 10034,
+    ProductNum = 1,
+    ProductType = "CharAccessory",
+    Rarity = 4,
+    ReleaseVersion = 100,
+    Resource = {
+      [1] = {
+        Id = 4010019,
+        Num = 25,
+        Type = "Resource"
+      },
+      [2] = {
+        Id = 4010014,
+        Num = 15,
+        Type = "Resource"
+      },
+      [3] = {
+        Id = 20011,
+        Num = 100,
+        Type = "Resource"
+      },
+      [4] = {
+        Id = 20012,
+        Num = 100,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 5
+  },
   [310201] = {
     Batch = true,
     DraftId = 310201,
@@ -5217,6 +5705,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10200,
@@ -5240,6 +5729,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10201,
@@ -5263,6 +5753,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10203,
@@ -5286,6 +5777,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10204,
@@ -5309,6 +5801,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10206,
@@ -5332,6 +5825,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10207,
@@ -5355,6 +5849,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10209,
@@ -5378,6 +5873,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Resource",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 10210,
@@ -5399,6 +5895,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20020,
@@ -5429,6 +5926,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20020,
@@ -5459,6 +5957,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -5489,6 +5988,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5519,6 +6019,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5549,6 +6050,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5579,6 +6081,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20002,
@@ -5609,6 +6112,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20002,
@@ -5639,6 +6143,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20012,
@@ -5669,6 +6174,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20012,
@@ -5699,6 +6205,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -5729,6 +6236,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -5759,6 +6267,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -5789,6 +6298,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20020,
@@ -5819,6 +6329,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20020,
@@ -5849,6 +6360,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -5879,6 +6391,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5909,6 +6422,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5939,6 +6453,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20009,
@@ -5969,6 +6484,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010008,
@@ -6005,6 +6521,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6030,6 +6547,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20029,
@@ -6055,6 +6573,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20029,
@@ -6080,6 +6599,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20014,
@@ -6110,6 +6630,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010003,
@@ -6146,6 +6667,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6166,6 +6688,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6186,6 +6709,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6206,6 +6730,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010009,
@@ -6241,6 +6766,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010012,
@@ -6277,6 +6803,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4020003,
@@ -6313,6 +6840,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6338,6 +6866,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6358,6 +6887,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010002,
@@ -6394,6 +6924,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 3,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010007,
@@ -6430,6 +6961,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4010009,
@@ -6456,6 +6988,43 @@ return ReadOnly("Draft", {
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
+  [330007] = {
+    DraftId = 330007,
+    FoundryCost = {
+      [101] = 50000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Head06",
+    ProductId = 30021,
+    ProductNum = 1,
+    ProductType = "CharAccessory",
+    Rarity = 4,
+    ReleaseVersion = 100,
+    Resource = {
+      [1] = {
+        Id = 4010017,
+        Num = 20,
+        Type = "Resource"
+      },
+      [2] = {
+        Id = 4010018,
+        Num = 10,
+        Type = "Resource"
+      },
+      [3] = {
+        Id = 20005,
+        Num = 100,
+        Type = "Resource"
+      },
+      [4] = {
+        Id = 20002,
+        Num = 100,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 5
+  },
   [340001] = {
     DraftId = 340001,
     FoundryCost = {
@@ -6466,6 +7035,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20020,
@@ -6496,6 +7066,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6521,6 +7092,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "CharAccessory",
     Rarity = 4,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 4020003,
@@ -6547,6 +7119,43 @@ return ReadOnly("Draft", {
     Sound = "SOUND_ITEM_PAPER",
     Time = 5
   },
+  [340004] = {
+    DraftId = 340004,
+    FoundryCost = {
+      [101] = 50000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Back20",
+    ProductId = 40008,
+    ProductNum = 1,
+    ProductType = "CharAccessory",
+    Rarity = 4,
+    ReleaseVersion = 100,
+    Resource = {
+      [1] = {
+        Id = 4010016,
+        Num = 20,
+        Type = "Resource"
+      },
+      [2] = {
+        Id = 4010015,
+        Num = 10,
+        Type = "Resource"
+      },
+      [3] = {
+        Id = 20002,
+        Num = 100,
+        Type = "Resource"
+      },
+      [4] = {
+        Id = 20011,
+        Num = 100,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 5
+  },
   [910101] = {
     DraftId = 910101,
     FoundryCost = {
@@ -6557,6 +7166,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6588,6 +7198,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6619,6 +7230,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6650,6 +7262,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6681,6 +7294,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6712,6 +7326,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6743,6 +7358,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6774,6 +7390,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 120,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6791,6 +7408,7 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
+    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 180
   },
@@ -6804,6 +7422,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6835,6 +7454,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6856,6 +7476,38 @@ return ReadOnly("Draft", {
     Sound = "SOUND_ITEM_PAPER",
     Time = 180
   },
+  [910208] = {
+    DraftId = 910208,
+    FoundryCost = {
+      [101] = 280000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Scythe_Yihe.T_Draft_Scythe_Yihe",
+    ProductId = 10208,
+    ProductNum = 1,
+    ProductType = "Weapon",
+    Rarity = 5,
+    ReleaseVersion = 110,
+    Resource = {
+      [1] = {
+        Id = 20027,
+        Num = 2,
+        Type = "Resource"
+      },
+      [2] = {
+        Id = 12133,
+        Num = 1,
+        Type = "Resource"
+      },
+      [3] = {
+        Id = 12134,
+        Num = 1,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 180
+  },
   [910301] = {
     DraftId = 910301,
     FoundryCost = {
@@ -6866,6 +7518,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6897,6 +7550,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6928,6 +7582,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6959,6 +7614,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 120,
     Resource = {
       [1] = {
         Id = 20027,
@@ -6976,6 +7632,7 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
+    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 180
   },
@@ -6989,6 +7646,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -7025,6 +7683,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -7061,6 +7720,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -7097,6 +7757,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -7128,6 +7789,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 110,
     Resource = {
       [1] = {
         Id = 20027,
@@ -7145,6 +7807,7 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
+    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 180
   },
@@ -7158,6 +7821,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -7189,6 +7853,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -7220,6 +7885,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -7256,6 +7922,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -7292,6 +7959,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20027,
@@ -7328,6 +7996,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7364,6 +8033,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7400,6 +8070,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7436,6 +8107,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7467,6 +8139,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7498,6 +8171,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7529,6 +8203,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7565,6 +8240,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 140,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7587,6 +8263,7 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
+    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 180
   },
@@ -7600,6 +8277,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7636,6 +8314,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7667,6 +8346,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7703,6 +8383,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7739,6 +8420,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7775,6 +8457,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7811,6 +8494,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7847,6 +8531,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7883,6 +8568,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7919,6 +8605,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7955,6 +8642,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -7981,6 +8669,43 @@ return ReadOnly("Draft", {
     Sound = "SOUND_ITEM_PAPER",
     Time = 180
   },
+  [920506] = {
+    DraftId = 920506,
+    FoundryCost = {
+      [101] = 280000
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Machinegun_Quewu.T_Draft_Machinegun_Quewu",
+    ProductId = 20506,
+    ProductNum = 1,
+    ProductType = "Weapon",
+    Rarity = 5,
+    ReleaseVersion = 110,
+    Resource = {
+      [1] = {
+        Id = 20028,
+        Num = 2,
+        Type = "Resource"
+      },
+      [2] = {
+        Id = 12135,
+        Num = 1,
+        Type = "Resource"
+      },
+      [3] = {
+        Id = 12136,
+        Num = 1,
+        Type = "Resource"
+      },
+      [4] = {
+        Id = 12137,
+        Num = 1,
+        Type = "Resource"
+      }
+    },
+    ShowInDraftArchive = true,
+    Sound = "SOUND_ITEM_PAPER",
+    Time = 180
+  },
   [920507] = {
     DraftId = 920507,
     FoundryCost = {
@@ -7991,6 +8716,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -8027,6 +8753,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -8049,6 +8776,7 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
+    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 180
   },
@@ -8062,6 +8790,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 110,
     Resource = {
       [1] = {
         Id = 20028,
@@ -8084,6 +8813,7 @@ return ReadOnly("Draft", {
         Type = "Resource"
       }
     },
+    ShowInDraftArchive = true,
     Sound = "SOUND_ITEM_PAPER",
     Time = 180
   },
@@ -8097,6 +8827,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -8133,6 +8864,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -8169,6 +8901,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,
@@ -8205,6 +8938,7 @@ return ReadOnly("Draft", {
     ProductNum = 1,
     ProductType = "Weapon",
     Rarity = 5,
+    ReleaseVersion = 100,
     Resource = {
       [1] = {
         Id = 20028,

@@ -30,13 +30,14 @@ return ReadOnly("Mod", {
     GMNot = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Phoenix01.Mod_Phoenix01",
     Id = 1,
-    IsNotOpen = true,
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1001",
+    OpenVersion = 99999,
     Polarity = 1,
     Rarity = 1,
     ReducePolarityEffect = {1, 1},
+    ReleaseVersion = 999990,
     RepeatGroup = 1001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -80,8 +81,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1001",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -126,8 +129,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1002",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -172,8 +177,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1003",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -217,8 +224,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1004",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -263,8 +272,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1007",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1007,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -321,8 +332,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -379,8 +392,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -437,8 +452,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -495,8 +512,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -553,8 +572,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -611,8 +632,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -644,8 +667,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2001",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 2001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -677,8 +702,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2002",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 2002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -710,8 +737,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2003",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 2003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -744,8 +773,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2006",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 2006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -778,8 +809,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2101",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 2100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -812,8 +845,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2102",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 2100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -846,8 +881,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2103",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 2100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -879,8 +916,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3001",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 3001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -912,8 +951,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3002",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 3002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -945,8 +986,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3003",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 3003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -979,8 +1022,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3006",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 3006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -1013,8 +1058,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3101",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 3100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -1047,8 +1094,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3102",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 3100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -1081,8 +1130,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3103",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 3100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -1115,8 +1166,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2001",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 4001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -1149,8 +1202,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2002",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 4002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -1183,8 +1238,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2003",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 4003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -1218,8 +1275,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2004",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 4004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -1253,8 +1312,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2006",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 4006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -1287,8 +1348,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3001",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 5001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -1321,8 +1384,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3002",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 5002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -1355,8 +1420,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3003",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 5003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -1390,8 +1457,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3004",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 5004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -1425,8 +1494,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3006",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 1,
+    ReleaseVersion = 100,
     RepeatGroup = 5006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -1476,8 +1547,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1005",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 1005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -1527,8 +1600,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1006",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 1006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -1585,8 +1660,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -1643,8 +1720,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -1701,8 +1780,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -1759,8 +1840,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -1817,8 +1900,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -1875,8 +1960,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -1912,8 +1999,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2007",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 2007,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -1950,8 +2039,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2008",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 2008,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -1989,8 +2080,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2111",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 2110,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -2028,8 +2121,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2112",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 2110,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -2067,8 +2162,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2113",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 2110,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -2104,8 +2201,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3007",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 3007,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -2142,8 +2241,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3008",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 3008,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -2181,8 +2282,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3111",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 3110,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -2220,8 +2323,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3112",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 3110,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -2259,8 +2364,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3113",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 3110,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -2293,8 +2400,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2001",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 4001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -2327,8 +2436,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2002",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 4002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -2361,8 +2472,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2003",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 4003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -2396,8 +2509,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2004",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 4004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -2431,8 +2546,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2005",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 4005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -2466,8 +2583,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2006",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 4006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -2500,8 +2619,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2101",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -2534,8 +2655,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2102",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -2568,8 +2691,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2103",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -2602,8 +2727,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3001",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 5001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -2636,8 +2763,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3002",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 5002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -2670,8 +2799,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3003",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 5003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -2705,8 +2836,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3004",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 5004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -2739,8 +2872,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3005",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 5005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -2774,8 +2909,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3006",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 5006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -2808,8 +2945,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3101",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -2842,8 +2981,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3102",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -2876,8 +3017,10 @@ return ReadOnly("Mod", {
     MaxLevel = 3,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3103",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 2,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -2922,8 +3065,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1001",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -2968,8 +3113,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1002",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -3014,8 +3161,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1003",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -3060,8 +3209,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1004",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -3112,8 +3263,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1005",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -3164,8 +3317,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1006",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -3210,8 +3365,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1007",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1007,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -3262,9 +3419,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1008",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1008,
+    ReleaseVersion = 100,
+    RepeatGroup = {1008},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
   },
@@ -3314,9 +3473,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1009",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1009,
+    ReleaseVersion = 100,
+    RepeatGroup = {1009},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
   },
@@ -3366,9 +3527,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1010",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1010,
+    ReleaseVersion = 100,
+    RepeatGroup = {1010},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
   },
@@ -3418,9 +3581,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1011",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1011,
+    ReleaseVersion = 100,
+    RepeatGroup = {1011},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
   },
@@ -3470,9 +3635,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1012",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1012,
+    ReleaseVersion = 100,
+    RepeatGroup = {1012},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
   },
@@ -3522,9 +3689,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1013",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1013,
+    ReleaseVersion = 100,
+    RepeatGroup = {1013},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
   },
@@ -3574,9 +3743,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1014",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1014,
+    ReleaseVersion = 100,
+    RepeatGroup = {1014},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
   },
@@ -3626,9 +3797,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1015",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1015,
+    ReleaseVersion = 100,
+    RepeatGroup = {1015},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
   },
@@ -3670,9 +3843,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1201",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1201,
+    ReleaseVersion = 100,
+    RepeatGroup = {1201},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Pan01"
   },
@@ -3714,9 +3889,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1202",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1202,
+    ReleaseVersion = 100,
+    RepeatGroup = {1202},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Pan01"
   },
@@ -3757,9 +3934,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1203",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1203,
+    ReleaseVersion = 100,
+    RepeatGroup = {1203},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Pan01"
   },
@@ -3801,9 +3980,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1204",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1204,
+    ReleaseVersion = 100,
+    RepeatGroup = {1204},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Pan01"
   },
@@ -3848,9 +4029,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1215",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1215,
+    ReleaseVersion = 100,
+    RepeatGroup = {1215},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Pan01"
   },
@@ -3895,9 +4078,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1216",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1216,
+    ReleaseVersion = 100,
+    RepeatGroup = {1216},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Pan01"
   },
@@ -3941,9 +4126,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1217",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1217,
+    ReleaseVersion = 100,
+    RepeatGroup = {1217},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Pan01"
   },
@@ -3987,9 +4174,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1218",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 1218,
+    ReleaseVersion = 100,
+    RepeatGroup = {1218},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Pan01"
   },
@@ -4035,8 +4224,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1301",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1300,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
@@ -4087,8 +4278,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_31321",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -4139,8 +4332,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_31322",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -4191,8 +4386,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_31323",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -4243,8 +4440,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_31324",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -4295,8 +4494,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_31325",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -4347,8 +4548,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_31326",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -4405,8 +4608,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -4463,8 +4668,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -4521,8 +4728,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -4579,8 +4788,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -4637,8 +4848,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -4695,8 +4908,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1400",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -4726,10 +4941,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1502",
+    OpenVersion = 10,
     PassiveEffects = {1502},
     PassiveEffectsDesc = "MOD_DESC_1502",
     Polarity = 1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -4758,10 +4975,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1512",
+    OpenVersion = 10,
     PassiveEffects = {1512},
     PassiveEffectsDesc = "MOD_DESC_1512",
     Polarity = 3,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -4791,10 +5010,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1513",
+    OpenVersion = 10,
     PassiveEffects = {1513},
     PassiveEffectsDesc = "MOD_DESC_1513",
     Polarity = 1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -4827,9 +5048,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1521",
-    PassiveEffectsDesc = "MOD_DESC_1500",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -4859,10 +5081,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1522",
+    OpenVersion = 10,
     PassiveEffects = {1522},
     PassiveEffectsDesc = "MOD_DESC_1522",
     Polarity = 2,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -4892,10 +5116,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1523",
+    OpenVersion = 10,
     PassiveEffects = {1523},
     PassiveEffectsDesc = "MOD_DESC_1523",
     Polarity = 2,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -4926,10 +5152,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1524",
+    OpenVersion = 10,
     PassiveEffects = {1524},
     PassiveEffectsDesc = "MOD_DESC_1524",
     Polarity = 2,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -4960,10 +5188,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1525",
+    OpenVersion = 10,
     PassiveEffects = {1525},
     PassiveEffectsDesc = "MOD_DESC_1525",
     Polarity = 2,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -4993,10 +5223,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1526",
+    OpenVersion = 10,
     PassiveEffects = {1526},
     PassiveEffectsDesc = "MOD_DESC_1526",
     Polarity = 1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -5029,9 +5261,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1531",
-    PassiveEffectsDesc = "MOD_DESC_1500",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -5061,10 +5294,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1532",
+    OpenVersion = 10,
     PassiveEffects = {1532},
     PassiveEffectsDesc = "MOD_DESC_1532",
     Polarity = 1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 1500,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -5097,8 +5332,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2004",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 2004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -5131,8 +5368,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2005",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 2005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -5165,8 +5404,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2101",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 2100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -5199,8 +5440,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2102",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 2100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -5233,8 +5476,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2103",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 2100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -5268,9 +5513,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2201",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 2201,
+    ReleaseVersion = 100,
+    RepeatGroup = {2201},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
@@ -5307,10 +5554,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2202",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_ATTR_ExtraComboProb",
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 2202,
+    ReleaseVersion = 100,
+    RepeatGroup = {2202},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
@@ -5341,10 +5590,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2301",
-    PassiveEffects = {2301},
+    OpenVersion = 10,
+    PassiveEffects = 2301,
     PassiveEffectsDesc = "MOD_DESC_2301",
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 2301,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -5376,10 +5627,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2302",
-    PassiveEffects = {2302},
+    OpenVersion = 10,
+    PassiveEffects = 2302,
     PassiveEffectsDesc = "MOD_DESC_2302",
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 2302,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -5412,8 +5665,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3004",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 3004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -5445,8 +5700,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3005",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 3005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -5479,8 +5736,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3101",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 3100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -5513,8 +5772,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3102",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 3100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -5547,8 +5808,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3103",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 3100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -5582,9 +5845,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3201",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 3201,
+    ReleaseVersion = 100,
+    RepeatGroup = {3201},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
   },
@@ -5616,9 +5881,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3202",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 3202,
+    ReleaseVersion = 100,
+    RepeatGroup = {3202},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
   },
@@ -5651,9 +5918,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3203",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 3203,
+    ReleaseVersion = 100,
+    RepeatGroup = {3203},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
   },
@@ -5686,9 +5955,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3204",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 3204,
+    ReleaseVersion = 100,
+    RepeatGroup = {3204},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
   },
@@ -5718,10 +5989,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3311",
-    PassiveEffects = {3311},
+    OpenVersion = 10,
+    PassiveEffects = 3311,
     PassiveEffectsDesc = "MOD_DESC_3311",
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 3311,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -5754,10 +6027,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3321",
-    PassiveEffects = {3321},
+    OpenVersion = 10,
+    PassiveEffects = 3321,
     PassiveEffectsDesc = "MOD_DESC_3321",
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 3321,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -5787,10 +6062,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3322",
-    PassiveEffects = {3322},
+    OpenVersion = 10,
+    PassiveEffects = 3322,
     PassiveEffectsDesc = "MOD_DESC_3322",
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 3322,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -5823,10 +6100,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3331",
-    PassiveEffects = {3331},
+    OpenVersion = 10,
+    PassiveEffects = 3331,
     PassiveEffectsDesc = "MOD_DESC_3331",
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 3331,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -5856,10 +6135,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3332",
-    PassiveEffects = {3332},
+    OpenVersion = 10,
+    PassiveEffects = 3332,
     PassiveEffectsDesc = "MOD_DESC_3332",
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 3332,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -5892,9 +6173,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3411",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
-    RepeatGroup = 3411,
+    ReleaseVersion = 100,
+    RepeatGroup = {3411},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
   },
@@ -5926,8 +6209,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2001",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 4001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -5960,8 +6245,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2002",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 4002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -5994,8 +6281,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2003",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 4003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -6029,8 +6318,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2004",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 4004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -6064,8 +6355,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2005",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 4005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -6099,8 +6392,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2006",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 4006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -6133,8 +6428,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2101",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -6167,8 +6464,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2102",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -6201,8 +6500,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2103",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -6235,8 +6536,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3001",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 5001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -6269,8 +6572,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3002",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 5002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -6303,8 +6608,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3003",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 5003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -6338,8 +6645,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3004",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 5004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -6372,8 +6681,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3005",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 5005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -6407,8 +6718,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3006",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 5006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -6441,8 +6754,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3101",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -6475,8 +6790,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3102",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -6509,8 +6826,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3103",
+    OpenVersion = 10,
     Polarity = -1,
     Rarity = 3,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -6555,8 +6874,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1001",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -6601,8 +6922,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1002",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -6647,8 +6970,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1003",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -6693,8 +7018,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1004",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -6739,8 +7066,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1007",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1007,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -6784,9 +7113,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1213",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
-    RepeatGroup = 1213,
+    ReleaseVersion = 100,
+    RepeatGroup = {1213},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Pan01"
   },
@@ -6831,9 +7162,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1214",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
-    RepeatGroup = 1214,
+    ReleaseVersion = 100,
+    RepeatGroup = {1214},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Pan01"
   },
@@ -6877,10 +7210,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1311",
+    OpenVersion = 10,
     PassiveEffects = 1311,
     PassiveEffectsDesc = "MOD_DESC_1311",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1311,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -6930,10 +7265,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1312",
+    OpenVersion = 10,
     PassiveEffects = 1312,
     PassiveEffectsDesc = "MOD_DESC_1312",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1312,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -6974,10 +7311,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1313",
+    OpenVersion = 10,
     PassiveEffects = 1313,
     PassiveEffectsDesc = "MOD_DESC_1313",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1313,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -7019,10 +7358,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1314",
+    OpenVersion = 10,
     PassiveEffects = 1314,
     PassiveEffectsDesc = "MOD_DESC_1314",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1314,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -7063,10 +7404,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1315",
+    OpenVersion = 10,
     PassiveEffects = 1315,
     PassiveEffectsDesc = "MOD_DESC_1315",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1315,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -7108,10 +7451,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1316",
+    OpenVersion = 10,
     PassiveEffects = 1316,
     PassiveEffectsDesc = "MOD_DESC_1316",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1316,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -7168,8 +7513,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1321",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7226,8 +7573,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1322",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7284,8 +7633,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1323",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7342,8 +7693,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1324",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7400,8 +7753,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1325",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7458,8 +7813,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1326",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7516,8 +7873,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1331",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7574,8 +7933,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1332",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7632,8 +7993,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1333",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7690,8 +8053,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1334",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7748,8 +8113,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1335",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7806,8 +8173,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1336",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -7870,8 +8239,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -7934,8 +8305,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8003,12 +8376,14 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 201
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8070,10 +8445,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8135,10 +8512,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8201,8 +8580,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8265,8 +8646,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8334,12 +8717,14 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 202
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8401,10 +8786,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8466,10 +8853,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8532,8 +8921,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8596,8 +8987,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8665,12 +9058,14 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 203
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8732,10 +9127,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8797,10 +9194,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8863,8 +9262,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8927,8 +9328,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -8996,12 +9399,14 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 204
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9063,10 +9468,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9128,10 +9535,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9194,8 +9603,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9258,8 +9669,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9327,12 +9740,14 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 205
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9394,10 +9809,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9459,10 +9876,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9525,8 +9944,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9589,8 +10010,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9658,12 +10081,14 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 206
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9725,10 +10150,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9790,10 +10217,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -9841,9 +10270,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1711",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1711,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -9898,9 +10329,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1712",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1712,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -9955,9 +10388,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1713",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1713,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10012,9 +10447,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1714",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1714,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10027,6 +10464,7 @@ return ReadOnly("Mod", {
         Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 11,
     ApplySlot = 9,
     BreakDown = {
@@ -10042,19 +10480,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillSustain"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Black.T_Mod_FeatheredSnake01_Black",
     Id = 41715,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1715",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 2,
     PolarityNeedNum = {
       [2] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 9990,
     RepeatGroup = 1715,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -10066,6 +10504,7 @@ return ReadOnly("Mod", {
         Value = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 11,
     ApplySlot = 9,
     BreakDown = {
@@ -10081,19 +10520,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_StrongValue"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Black.T_Mod_FeatheredSnake01_Black",
     Id = 41716,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1716",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 3,
     PolarityNeedNum = {
       [3] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 9990,
     RepeatGroup = 1716,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -10147,9 +10586,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1721",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1721,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10204,9 +10645,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1722",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1722,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10261,9 +10704,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1723",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1723,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10318,9 +10763,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1724",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1724,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10333,6 +10780,7 @@ return ReadOnly("Mod", {
         Value = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 12,
     ApplySlot = 9,
     BreakDown = {
@@ -10348,19 +10796,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_StrongValue"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Blue.T_Mod_FeatheredSnake01_Blue",
     Id = 41725,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1725",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 1,
     PolarityNeedNum = {
       [1] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 9990,
     RepeatGroup = 1725,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -10372,6 +10820,7 @@ return ReadOnly("Mod", {
         Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 12,
     ApplySlot = 9,
     BreakDown = {
@@ -10387,19 +10836,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillIntensity"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Blue.T_Mod_FeatheredSnake01_Blue",
     Id = 41726,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1726",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 3,
     PolarityNeedNum = {
       [3] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 9990,
     RepeatGroup = 1726,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -10453,9 +10902,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1731",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1731,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10510,9 +10961,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1732",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1732,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10567,9 +11020,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1733",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1733,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10624,9 +11079,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1734",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1734,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10639,6 +11096,7 @@ return ReadOnly("Mod", {
         Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 13,
     ApplySlot = 9,
     BreakDown = {
@@ -10654,19 +11112,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillIntensity"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Red.T_Mod_FeatheredSnake01_Red",
     Id = 41735,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1735",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 2,
     PolarityNeedNum = {
       [2] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 9990,
     RepeatGroup = 1735,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -10677,6 +11135,7 @@ return ReadOnly("Mod", {
         AttrName = "SkillRange", Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 13,
     ApplySlot = 9,
     BreakDown = {
@@ -10692,19 +11151,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillRange"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Red.T_Mod_FeatheredSnake01_Red",
     Id = 41736,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1736",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 4,
     PolarityNeedNum = {
       [4] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 9990,
     RepeatGroup = 1736,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -10758,9 +11217,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1741",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1741,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10815,9 +11276,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1742",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1742,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10872,9 +11335,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1743",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1743,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10929,9 +11394,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1744",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1744,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -10943,6 +11410,7 @@ return ReadOnly("Mod", {
         AttrName = "SkillRange", Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 14,
     ApplySlot = 9,
     BreakDown = {
@@ -10958,19 +11426,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillRange"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Purple.T_Mod_FeatheredSnake01_Purple",
     Id = 41745,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1745",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 1,
     PolarityNeedNum = {
       [1] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 9990,
     RepeatGroup = 1745,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -10982,6 +11450,7 @@ return ReadOnly("Mod", {
         Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 14,
     ApplySlot = 9,
     BreakDown = {
@@ -10997,19 +11466,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillIntensity"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Purple.T_Mod_FeatheredSnake01_Purple",
     Id = 41746,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1746",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 2,
     PolarityNeedNum = {
       [2] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 9990,
     RepeatGroup = 1746,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -11063,9 +11532,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1751",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1751,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -11120,9 +11591,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1752",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1752,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -11177,9 +11650,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1753",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1753,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -11234,28 +11709,36 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1754",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1754,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Mephisto01"
   },
   [41755] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "EnmityValue",
-        Value = 1
+        Value = "#1"
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 15,
     ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
     CollectRewardExp = 100,
-    Cost = 10,
+    Cost = 7,
     CostChange = 1,
     DescValues = {
       [1] = "$GetModPolarity(41755)$"
@@ -11264,37 +11747,43 @@ return ReadOnly("Mod", {
       [1] = "Tag_EnmityValue"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Green.T_Mod_FeatheredSnake01_Green",
     Id = 41755,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1755",
+    OpenVersion = 11,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 3,
     PolarityNeedNum = {
       [3] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 110,
     RepeatGroup = 1755,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
   },
   [41756] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "SkillSustain",
-        Rate = 1
+        Rate = "#1"
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 15,
     ApplySlot = 9,
     BreakDown = {
       [102] = 50
     },
     CollectRewardExp = 100,
-    Cost = 10,
+    Cost = 7,
     CostChange = 1,
     DescValues = {
       [1] = "$GetModPolarity(41756)$"
@@ -11303,19 +11792,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillSustain"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Green.T_Mod_FeatheredSnake01_Green",
     Id = 41756,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1756",
+    OpenVersion = 11,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 4,
     PolarityNeedNum = {
       [4] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 110,
     RepeatGroup = 1756,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -11363,9 +11852,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1761",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1761,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -11420,9 +11911,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1762",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1762,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -11477,9 +11970,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1763",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1763,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -11534,9 +12029,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1764",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1764,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -11549,6 +12046,7 @@ return ReadOnly("Mod", {
         Value = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 16,
     ApplySlot = 9,
     BreakDown = {
@@ -11564,19 +12062,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_StrongValue"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     Id = 41765,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1765",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 1,
     PolarityNeedNum = {
       [1] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 9990,
     RepeatGroup = 1765,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -11588,6 +12086,7 @@ return ReadOnly("Mod", {
         Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 16,
     ApplySlot = 9,
     BreakDown = {
@@ -11603,19 +12102,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillSustain"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     Id = 41766,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1766",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 3,
     PolarityNeedNum = {
       [3] = 4
     },
     Rarity = 4,
+    ReleaseVersion = 9990,
     RepeatGroup = 1766,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -11657,10 +12156,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1801",
+    OpenVersion = 10,
     PassiveEffects = 1801,
     PassiveEffectsDesc = "MOD_DESC_1801",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -11702,10 +12203,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1802",
+    OpenVersion = 10,
     PassiveEffects = 1802,
     PassiveEffectsDesc = "MOD_DESC_1802",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -11747,10 +12250,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1803",
+    OpenVersion = 10,
     PassiveEffects = 1803,
     PassiveEffectsDesc = "MOD_DESC_1803",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -11792,10 +12297,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1804",
+    OpenVersion = 10,
     PassiveEffects = 1804,
     PassiveEffectsDesc = "MOD_DESC_1804",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -11837,10 +12344,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1805",
+    OpenVersion = 10,
     PassiveEffects = 1805,
     PassiveEffectsDesc = "MOD_DESC_1805",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -11882,10 +12391,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1806",
+    OpenVersion = 10,
     PassiveEffects = 1806,
     PassiveEffectsDesc = "MOD_DESC_1806",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -11927,10 +12438,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1807",
+    OpenVersion = 10,
     PassiveEffects = 1807,
     PassiveEffectsDesc = "MOD_DESC_1807",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -11972,10 +12485,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1808",
+    OpenVersion = 10,
     PassiveEffects = 1808,
     PassiveEffectsDesc = "MOD_DESC_1808",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -12017,10 +12532,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1809",
+    OpenVersion = 10,
     PassiveEffects = 1809,
     PassiveEffectsDesc = "MOD_DESC_1809",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -12062,10 +12579,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1810",
+    OpenVersion = 10,
     PassiveEffects = 1810,
     PassiveEffectsDesc = "MOD_DESC_1810",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -12107,10 +12626,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1811",
+    OpenVersion = 10,
     PassiveEffects = 1811,
     PassiveEffectsDesc = "MOD_DESC_1811",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -12152,10 +12673,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1812",
+    OpenVersion = 10,
     PassiveEffects = 1812,
     PassiveEffectsDesc = "MOD_DESC_1812",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -12205,10 +12728,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1911",
+    OpenVersion = 10,
     PassiveEffects = 1911,
     PassiveEffectsDesc = "MOD_DESC_1911",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Anubis01"
@@ -12257,10 +12782,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1921",
+    OpenVersion = 10,
     PassiveEffects = 1921,
     PassiveEffectsDesc = "MOD_DESC_1921",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     SummonInherit = 1,
@@ -12310,10 +12837,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1922",
+    OpenVersion = 10,
     PassiveEffects = 1922,
     PassiveEffectsDesc = "MOD_DESC_1922",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Bahamut01"
@@ -12363,10 +12892,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1931",
+    OpenVersion = 10,
     PassiveEffects = 1931,
     PassiveEffectsDesc = "MOD_DESC_1931",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Ifrit01"
@@ -12416,10 +12947,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1941",
+    OpenVersion = 10,
     PassiveEffects = 1941,
     PassiveEffectsDesc = "MOD_DESC_1941",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Summanus01"
@@ -12468,10 +13001,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1951",
+    OpenVersion = 10,
     PassiveEffects = 1951,
     PassiveEffectsDesc = "MOD_DESC_1951",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Hastur01"
@@ -12520,10 +13055,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1952",
+    OpenVersion = 10,
     PassiveEffects = 1952,
     PassiveEffectsDesc = "MOD_DESC_1952",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Hastur01"
@@ -12572,10 +13109,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1961",
+    OpenVersion = 10,
     PassiveEffects = 1961,
     PassiveEffectsDesc = "MOD_DESC_1961",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Yatagarasu01"
@@ -12624,10 +13163,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1962",
+    OpenVersion = 10,
     PassiveEffects = 1962,
     PassiveEffectsDesc = "MOD_DESC_1962",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Yatagarasu01"
@@ -12660,8 +13201,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2001",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -12694,8 +13237,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2002",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -12728,8 +13273,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2003",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -12763,8 +13310,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2006",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -12802,9 +13351,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2203",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
-    RepeatGroup = 2203,
+    ReleaseVersion = 100,
+    RepeatGroup = {2203},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
@@ -12836,10 +13387,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2311",
-    PassiveEffects = {2311},
+    OpenVersion = 10,
+    PassiveEffects = 2311,
     PassiveEffectsDesc = "MOD_DESC_2311",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2311,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -12871,10 +13424,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2312",
-    PassiveEffects = {2312},
+    OpenVersion = 10,
+    PassiveEffects = 2312,
     PassiveEffectsDesc = "MOD_DESC_2312",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2312,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -12907,10 +13462,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2321",
-    PassiveEffects = {2321},
+    OpenVersion = 10,
+    PassiveEffects = 2321,
     PassiveEffectsDesc = "MOD_DESC_2321",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2321,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -12943,10 +13500,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2322",
-    PassiveEffects = {2322},
+    OpenVersion = 10,
+    PassiveEffects = 2322,
     PassiveEffectsDesc = "MOD_DESC_2322",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2322,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -12979,9 +13538,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2401",
+    OpenVersion = 10,
     PassiveEffects = 2401,
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2401,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -13014,9 +13575,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2403",
-    PassiveEffects = {2403},
+    OpenVersion = 10,
+    PassiveEffects = 2403,
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2403,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -13049,9 +13612,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2411",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
-    RepeatGroup = 2411,
+    ReleaseVersion = 100,
+    RepeatGroup = {2411},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
@@ -13083,9 +13648,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2412",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
-    RepeatGroup = 2412,
+    ReleaseVersion = 100,
+    RepeatGroup = {2412},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
@@ -13117,9 +13684,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2413",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
-    RepeatGroup = 2413,
+    ReleaseVersion = 100,
+    RepeatGroup = {2413},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
@@ -13150,10 +13719,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2421",
-    PassiveEffects = {2421},
+    OpenVersion = 10,
+    PassiveEffects = 2421,
     PassiveEffectsDesc = "MOD_DESC_2421",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2421,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -13188,10 +13759,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2501",
-    PassiveEffects = {2501},
+    OpenVersion = 10,
+    PassiveEffects = 2501,
     PassiveEffectsDesc = "MOD_DESC_2501",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2501,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -13226,10 +13799,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2502",
-    PassiveEffects = {2502},
+    OpenVersion = 10,
+    PassiveEffects = 2502,
     PassiveEffectsDesc = "MOD_DESC_2502",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2502,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -13264,10 +13839,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2503",
-    PassiveEffects = {2503},
+    OpenVersion = 10,
+    PassiveEffects = 2503,
     PassiveEffectsDesc = "MOD_DESC_2503",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2503,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -13302,10 +13879,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2504",
-    PassiveEffects = {2504},
+    OpenVersion = 10,
+    PassiveEffects = 2504,
     PassiveEffectsDesc = "MOD_DESC_2504",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 2504,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -13338,9 +13917,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2511",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
-    RepeatGroup = 2511,
+    ReleaseVersion = 100,
+    RepeatGroup = {2511},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
@@ -13372,9 +13953,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2512",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
-    RepeatGroup = 2512,
+    ReleaseVersion = 100,
+    RepeatGroup = {2512},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
@@ -13406,8 +13989,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3001",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -13440,8 +14025,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3002",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -13474,8 +14061,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3003",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -13509,8 +14098,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3006",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -13547,8 +14138,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3008",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3008,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -13585,9 +14178,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3123",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 4,
-    RepeatGroup = 3120,
+    ReleaseVersion = 100,
+    RepeatGroup = {3120},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
   },
@@ -13618,10 +14213,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3301",
-    PassiveEffects = {3301},
+    OpenVersion = 10,
+    PassiveEffects = 3301,
     PassiveEffectsDesc = "MOD_DESC_3301",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3301,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -13652,10 +14249,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3341",
-    PassiveEffects = {3341},
+    OpenVersion = 10,
+    PassiveEffects = 3341,
     PassiveEffectsDesc = "MOD_DESC_3341",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3341,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -13691,10 +14290,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3401",
-    PassiveEffects = {3401},
+    OpenVersion = 10,
+    PassiveEffects = 3401,
     PassiveEffectsDesc = "MOD_DESC_3401",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3401,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -13730,10 +14331,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3402",
-    PassiveEffects = {3402},
+    OpenVersion = 10,
+    PassiveEffects = 3402,
     PassiveEffectsDesc = "MOD_DESC_3402",
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3402,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -13763,9 +14366,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3403",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
-    RepeatGroup = 3403,
+    ReleaseVersion = 100,
+    RepeatGroup = {3403},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
   },
@@ -13797,9 +14402,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3404",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
-    RepeatGroup = 3404,
+    ReleaseVersion = 100,
+    RepeatGroup = {3404},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
   },
@@ -13831,9 +14438,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3405",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
-    RepeatGroup = 3405,
+    ReleaseVersion = 100,
+    RepeatGroup = {3405},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
   },
@@ -13867,10 +14476,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3501",
-    PassiveEffects = {3501},
+    OpenVersion = 10,
+    PassiveEffects = 3501,
     PassiveEffectsDesc = "MOD_DESC_2501",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3501,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -13905,10 +14516,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3502",
-    PassiveEffects = {3502},
+    OpenVersion = 10,
+    PassiveEffects = 3502,
     PassiveEffectsDesc = "MOD_DESC_2502",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3502,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -13943,10 +14556,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3503",
-    PassiveEffects = {3503},
+    OpenVersion = 10,
+    PassiveEffects = 3503,
     PassiveEffectsDesc = "MOD_DESC_2503",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3503,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -13981,10 +14596,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3504",
-    PassiveEffects = {3504},
+    OpenVersion = 10,
+    PassiveEffects = 3504,
     PassiveEffectsDesc = "MOD_DESC_2504",
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3504,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
@@ -14017,9 +14634,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3511",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
-    RepeatGroup = 3511,
+    ReleaseVersion = 100,
+    RepeatGroup = {3511},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
   },
@@ -14051,9 +14670,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3512",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
-    RepeatGroup = 3512,
+    ReleaseVersion = 100,
+    RepeatGroup = {3512},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fafnir01"
   },
@@ -14088,9 +14709,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3601",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
-    RepeatGroup = 3601,
+    ReleaseVersion = 100,
+    RepeatGroup = {3601},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
   },
@@ -14123,9 +14746,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3602",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
-    RepeatGroup = 3602,
+    ReleaseVersion = 100,
+    RepeatGroup = {3602},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
   },
@@ -14160,9 +14785,11 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3603",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 4,
-    RepeatGroup = 3603,
+    ReleaseVersion = 100,
+    RepeatGroup = {3603},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
   },
@@ -14196,10 +14823,12 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3604",
-    PassiveEffects = {3604},
+    OpenVersion = 10,
+    PassiveEffects = 3604,
     PassiveEffectsDesc = "MOD_DESC_3604",
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 3604,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -14232,8 +14861,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2001",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 4001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -14266,8 +14897,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2002",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 4002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -14300,8 +14933,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2003",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 4003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -14335,8 +14970,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2004",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 4004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -14370,8 +15007,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2005",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 4005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -14405,8 +15044,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2006",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 4006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -14439,8 +15080,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2101",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -14473,8 +15116,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2102",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -14507,8 +15152,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2103",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -14541,8 +15188,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3001",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 5001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -14575,8 +15224,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3002",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 5002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -14609,8 +15260,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3003",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 5003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -14644,8 +15297,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3004",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 5004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -14678,8 +15333,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3005",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 5005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -14713,8 +15370,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3006",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 5006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -14747,8 +15406,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3101",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -14781,8 +15442,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3102",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -14815,8 +15478,10 @@ return ReadOnly("Mod", {
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3103",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -14856,6 +15521,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 5,
     CostChange = 1,
@@ -14869,8 +15535,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1002",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -14910,6 +15578,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 5,
     CostChange = 1,
@@ -14923,8 +15592,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1003",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -14964,6 +15635,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 5,
     CostChange = 1,
@@ -14977,8 +15649,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1007",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1007,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Phoenix01"
@@ -15020,6 +15694,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 14,
     CostChange = 1,
@@ -15034,8 +15709,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1301",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1300,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
@@ -15068,6 +15745,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 9,
     CostChange = 1,
@@ -15089,10 +15767,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1311",
+    OpenVersion = 10,
     PassiveEffects = 1311,
     PassiveEffectsDesc = "MOD_DESC_1311",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1311,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -15133,6 +15813,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 7,
     CostChange = 1,
@@ -15151,10 +15832,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1312",
+    OpenVersion = 10,
     PassiveEffects = 1312,
     PassiveEffectsDesc = "MOD_DESC_1312",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1312,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -15187,6 +15870,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -15204,10 +15888,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1313",
+    OpenVersion = 10,
     PassiveEffects = 1313,
     PassiveEffectsDesc = "MOD_DESC_1313",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1313,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -15240,6 +15926,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -15258,10 +15945,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1314",
+    OpenVersion = 10,
     PassiveEffects = 1314,
     PassiveEffectsDesc = "MOD_DESC_1314",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1314,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -15294,6 +15983,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -15311,10 +16001,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1315",
+    OpenVersion = 10,
     PassiveEffects = 1315,
     PassiveEffectsDesc = "MOD_DESC_1315",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1315,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -15347,6 +16039,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 6,
     CostChange = 1,
@@ -15365,10 +16058,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1316",
+    OpenVersion = 10,
     PassiveEffects = 1316,
     PassiveEffectsDesc = "MOD_DESC_1316",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1316,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Sphinx01"
@@ -15418,6 +16113,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 15,
     CostChange = 1,
@@ -15433,8 +16129,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1321",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -15484,6 +16182,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 15,
     CostChange = 1,
@@ -15499,8 +16198,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1322",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -15550,6 +16251,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 15,
     CostChange = 1,
@@ -15565,8 +16267,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1323",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -15616,6 +16320,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 15,
     CostChange = 1,
@@ -15631,8 +16336,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1324",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -15682,6 +16389,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 15,
     CostChange = 1,
@@ -15697,8 +16405,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1325",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -15748,6 +16458,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 15,
     CostChange = 1,
@@ -15763,8 +16474,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1326",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -15814,6 +16527,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -15829,8 +16543,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1331",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -15880,6 +16596,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -15895,8 +16612,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1332",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -15946,6 +16665,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -15961,8 +16681,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1333",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -16012,6 +16734,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -16027,8 +16750,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1334",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -16078,6 +16803,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -16093,8 +16819,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1335",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -16144,6 +16872,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -16159,8 +16888,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1336",
+    OpenVersion = 10,
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1320,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Griffin01"
@@ -16215,6 +16946,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16231,8 +16963,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -16287,6 +17021,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16303,8 +17038,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -16359,6 +17096,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16380,12 +17118,14 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 201
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -16435,6 +17175,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16455,10 +17196,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -16508,6 +17251,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16528,10 +17272,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -16586,6 +17332,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16602,8 +17349,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -16658,6 +17407,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16674,8 +17424,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -16730,6 +17482,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16751,12 +17504,14 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 202
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -16806,6 +17561,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16826,10 +17582,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -16879,6 +17637,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16899,10 +17658,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -16957,6 +17718,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -16973,8 +17735,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17029,6 +17793,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17045,8 +17810,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17101,6 +17868,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17122,12 +17890,14 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 203
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17177,6 +17947,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17197,10 +17968,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17250,6 +18023,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17270,10 +18044,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17328,6 +18104,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17344,8 +18121,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17400,6 +18179,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17416,8 +18196,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17472,6 +18254,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17493,12 +18276,14 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 204
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17548,6 +18333,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17568,10 +18354,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17621,6 +18409,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17641,10 +18430,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17699,6 +18490,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17715,8 +18507,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17771,6 +18565,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17787,8 +18582,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17843,6 +18640,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17864,12 +18662,14 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 205
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17919,6 +18719,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -17939,10 +18740,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -17992,6 +18795,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -18012,10 +18816,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -18070,6 +18876,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -18086,8 +18893,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1401",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -18142,6 +18951,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -18158,8 +18968,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1402",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -18214,6 +19026,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -18235,12 +19048,14 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1403",
+    OpenVersion = 10,
     PassiveEffects = {
       1420, 206
     },
     PassiveEffectsDesc = "MOD_DESC_1420",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -18290,6 +19105,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -18310,10 +19126,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1404",
+    OpenVersion = 10,
     PassiveEffects = 1430,
     PassiveEffectsDesc = "MOD_DESC_1430",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -18363,6 +19181,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 18,
     CostChange = 1,
@@ -18383,10 +19202,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1405",
+    OpenVersion = 10,
     PassiveEffects = 1440,
     PassiveEffectsDesc = "MOD_DESC_1440",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1400,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Typhon01"
@@ -18426,6 +19247,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -18442,9 +19264,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1711",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1711,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -18490,6 +19314,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 7,
     CostChange = 1,
@@ -18507,9 +19332,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1712",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1712,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -18555,6 +19382,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -18572,9 +19400,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1713",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1713,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -18620,6 +19450,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -18637,9 +19468,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1714",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1714,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -18652,6 +19485,7 @@ return ReadOnly("Mod", {
         Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 11,
     ApplySlot = 9,
     BreakDown = {
@@ -18667,19 +19501,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillSustain"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Black.T_Mod_FeatheredSnake01_Black",
     Id = 51715,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1715",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 2,
     PolarityNeedNum = {
       [2] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 1715,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -18691,6 +19525,7 @@ return ReadOnly("Mod", {
         Value = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 11,
     ApplySlot = 9,
     BreakDown = {
@@ -18706,19 +19541,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_StrongValue"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Black.T_Mod_FeatheredSnake01_Black",
     Id = 51716,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1716",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 3,
     PolarityNeedNum = {
       [3] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 1716,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -18763,6 +19598,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -18780,9 +19616,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1721",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1721,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -18828,6 +19666,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -18845,9 +19684,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1722",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1722,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -18893,6 +19734,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -18910,9 +19752,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1723",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1723,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -18958,6 +19802,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -18975,9 +19820,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1724",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1724,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -18990,6 +19837,7 @@ return ReadOnly("Mod", {
         Value = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 12,
     ApplySlot = 9,
     BreakDown = {
@@ -19005,19 +19853,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_StrongValue"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Blue.T_Mod_FeatheredSnake01_Blue",
     Id = 51725,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1725",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 1,
     PolarityNeedNum = {
       [1] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 1725,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -19029,6 +19877,7 @@ return ReadOnly("Mod", {
         Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 12,
     ApplySlot = 9,
     BreakDown = {
@@ -19044,19 +19893,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillIntensity"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Blue.T_Mod_FeatheredSnake01_Blue",
     Id = 51726,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1726",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 3,
     PolarityNeedNum = {
       [3] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 1726,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -19101,6 +19950,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -19118,9 +19968,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1731",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1731,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19166,6 +20018,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 10,
     CostChange = 1,
@@ -19183,9 +20036,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1732",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1732,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19231,6 +20086,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -19248,9 +20104,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1733",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1733,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19296,6 +20154,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -19313,9 +20172,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1734",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1734,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19328,6 +20189,7 @@ return ReadOnly("Mod", {
         Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 13,
     ApplySlot = 9,
     BreakDown = {
@@ -19343,19 +20205,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillIntensity"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Red.T_Mod_FeatheredSnake01_Red",
     Id = 51735,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1735",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 2,
     PolarityNeedNum = {
       [2] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 1735,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -19366,6 +20228,7 @@ return ReadOnly("Mod", {
         AttrName = "SkillRange", Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 13,
     ApplySlot = 9,
     BreakDown = {
@@ -19381,19 +20244,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillRange"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Red.T_Mod_FeatheredSnake01_Red",
     Id = 51736,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1736",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 4,
     PolarityNeedNum = {
       [4] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 1736,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -19438,6 +20301,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -19455,9 +20319,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1741",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1741,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19503,6 +20369,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 7,
     CostChange = 1,
@@ -19520,9 +20387,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1742",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1742,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19568,6 +20437,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 10,
     CostChange = 1,
@@ -19585,9 +20455,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1743",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1743,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19633,6 +20505,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 10,
     CostChange = 1,
@@ -19650,9 +20523,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1744",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1744,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19664,6 +20539,7 @@ return ReadOnly("Mod", {
         AttrName = "SkillRange", Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 14,
     ApplySlot = 9,
     BreakDown = {
@@ -19679,19 +20555,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillRange"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Purple.T_Mod_FeatheredSnake01_Purple",
     Id = 51745,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1745",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 1,
     PolarityNeedNum = {
       [1] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 1745,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -19703,6 +20579,7 @@ return ReadOnly("Mod", {
         Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 14,
     ApplySlot = 9,
     BreakDown = {
@@ -19718,19 +20595,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillIntensity"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Purple.T_Mod_FeatheredSnake01_Purple",
     Id = 51746,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1746",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 2,
     PolarityNeedNum = {
       [2] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 1746,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -19775,6 +20652,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -19792,9 +20670,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1751",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1751,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19840,6 +20720,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 7,
     CostChange = 1,
@@ -19857,9 +20738,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1752",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1752,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19905,6 +20788,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 10,
     CostChange = 1,
@@ -19922,9 +20806,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1753",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1753,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -19970,6 +20856,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -19987,28 +20874,45 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1754",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1754,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Mephisto01"
   },
   [51755] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "EnmityValue",
-        Value = 1
+        Value = "#1"
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 15,
     ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
+    CardLevelNeedModId = {51755},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
-    Cost = 10,
+    Cost = 12,
     CostChange = 1,
     DescValues = {
       [1] = "$GetModPolarity(51755)$"
@@ -20017,37 +20921,53 @@ return ReadOnly("Mod", {
       [1] = "Tag_EnmityValue"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Green.T_Mod_FeatheredSnake01_Green",
     Id = 51755,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1755",
+    OpenVersion = 11,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 3,
     PolarityNeedNum = {
       [3] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 110,
     RepeatGroup = 1755,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
   },
   [51756] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "SkillSustain",
-        Rate = 1
+        Rate = "#1"
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 15,
     ApplySlot = 9,
     BreakDown = {
       [102] = 100
     },
+    CardLevelNeedModId = {51756},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
-    Cost = 10,
+    Cost = 12,
     CostChange = 1,
     DescValues = {
       [1] = "$GetModPolarity(51756)$"
@@ -20056,19 +20976,20 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillSustain"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01_Green.T_Mod_FeatheredSnake01_Green",
     Id = 51756,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1756",
+    OpenVersion = 11,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 4,
     PolarityNeedNum = {
       [4] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 110,
     RepeatGroup = 1756,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -20108,6 +21029,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 8,
     CostChange = 1,
@@ -20124,9 +21046,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1761",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1761,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -20172,6 +21096,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 7,
     CostChange = 1,
@@ -20189,9 +21114,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1762",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1762,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -20237,6 +21164,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 10,
     CostChange = 1,
@@ -20254,9 +21182,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1763",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1763,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -20302,6 +21232,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 10,
     CostChange = 1,
@@ -20319,9 +21250,11 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1764",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_1700",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1764,
     RepeatModLevel = 5,
     Sound = "SOUND_ITEM_MOD",
@@ -20334,6 +21267,7 @@ return ReadOnly("Mod", {
         Value = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 16,
     ApplySlot = 9,
     BreakDown = {
@@ -20349,19 +21283,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_StrongValue"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     Id = 51765,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1765",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 1,
     PolarityNeedNum = {
       [1] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 1765,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -20373,6 +21307,7 @@ return ReadOnly("Mod", {
         Rate = 1
       }
     },
+    AddCharModCost = 2.5,
     ApplicationType = 16,
     ApplySlot = 9,
     BreakDown = {
@@ -20388,19 +21323,19 @@ return ReadOnly("Mod", {
       [1] = "Tag_SkillSustain"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_FeatheredSnake01.T_Mod_FeatheredSnake01",
     Id = 51766,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1766",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_1710",
     Polarity = 3,
     PolarityNeedNum = {
       [3] = 4
     },
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 1766,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_FeatheredSnake01"
@@ -20433,6 +21368,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20451,10 +21387,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1801",
+    OpenVersion = 10,
     PassiveEffects = 1801,
     PassiveEffectsDesc = "MOD_DESC_1801",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -20487,6 +21425,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20505,10 +21444,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1802",
+    OpenVersion = 10,
     PassiveEffects = 1802,
     PassiveEffectsDesc = "MOD_DESC_1802",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -20541,6 +21482,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20559,10 +21501,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1803",
+    OpenVersion = 10,
     PassiveEffects = 1803,
     PassiveEffectsDesc = "MOD_DESC_1803",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -20595,6 +21539,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20613,10 +21558,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1804",
+    OpenVersion = 10,
     PassiveEffects = 1804,
     PassiveEffectsDesc = "MOD_DESC_1804",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -20649,6 +21596,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20667,10 +21615,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1805",
+    OpenVersion = 10,
     PassiveEffects = 1805,
     PassiveEffectsDesc = "MOD_DESC_1805",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -20703,6 +21653,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20721,10 +21672,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1806",
+    OpenVersion = 10,
     PassiveEffects = 1806,
     PassiveEffectsDesc = "MOD_DESC_1806",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -20757,6 +21710,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20775,10 +21729,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1807",
+    OpenVersion = 10,
     PassiveEffects = 1807,
     PassiveEffectsDesc = "MOD_DESC_1807",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -20811,6 +21767,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20829,10 +21786,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1808",
+    OpenVersion = 10,
     PassiveEffects = 1808,
     PassiveEffectsDesc = "MOD_DESC_1808",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -20865,6 +21824,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20883,10 +21843,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1809",
+    OpenVersion = 10,
     PassiveEffects = 1809,
     PassiveEffectsDesc = "MOD_DESC_1809",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -20919,6 +21881,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20937,10 +21900,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1810",
+    OpenVersion = 10,
     PassiveEffects = 1810,
     PassiveEffectsDesc = "MOD_DESC_1810",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -20973,6 +21938,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -20991,10 +21957,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1811",
+    OpenVersion = 10,
     PassiveEffects = 1811,
     PassiveEffectsDesc = "MOD_DESC_1811",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -21027,6 +21995,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -21045,10 +22014,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1812",
+    OpenVersion = 10,
     PassiveEffects = 1812,
     PassiveEffectsDesc = "MOD_DESC_1812",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1800,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Jormungand01"
@@ -21087,6 +22058,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -21107,10 +22079,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1911",
+    OpenVersion = 10,
     PassiveEffects = 1911,
     PassiveEffectsDesc = "MOD_DESC_1911",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Anubis01"
@@ -21149,6 +22123,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -21168,10 +22143,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1921",
+    OpenVersion = 10,
     PassiveEffects = 1921,
     PassiveEffectsDesc = "MOD_DESC_1921",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     SummonInherit = 1,
@@ -21211,6 +22188,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -21230,10 +22208,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1922",
+    OpenVersion = 10,
     PassiveEffects = 1922,
     PassiveEffectsDesc = "MOD_DESC_1922",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Bahamut01"
@@ -21272,6 +22252,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -21292,10 +22273,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1931",
+    OpenVersion = 10,
     PassiveEffects = 1931,
     PassiveEffectsDesc = "MOD_DESC_1931",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Ifrit01"
@@ -21334,6 +22317,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -21354,10 +22338,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1941",
+    OpenVersion = 10,
     PassiveEffects = 1941,
     PassiveEffectsDesc = "MOD_DESC_1941",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Summanus01"
@@ -21396,6 +22382,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -21415,10 +22402,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1951",
+    OpenVersion = 10,
     PassiveEffects = 1951,
     PassiveEffectsDesc = "MOD_DESC_1951",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Hastur01"
@@ -21457,6 +22446,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -21476,10 +22466,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1952",
+    OpenVersion = 10,
     PassiveEffects = 1952,
     PassiveEffectsDesc = "MOD_DESC_1952",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Hastur01"
@@ -21518,6 +22510,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -21537,10 +22530,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1961",
+    OpenVersion = 10,
     PassiveEffects = 1961,
     PassiveEffectsDesc = "MOD_DESC_1961",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Yatagarasu01"
@@ -21579,6 +22574,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 17,
     CostChange = 1,
@@ -21598,10 +22594,12 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_1962",
+    OpenVersion = 10,
     PassiveEffects = 1962,
     PassiveEffectsDesc = "MOD_DESC_1962",
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 1900,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Yatagarasu01"
@@ -21629,6 +22627,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 5,
     CostChange = 1,
@@ -21642,8 +22641,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2001",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 2001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -21672,6 +22673,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 15,
     CostChange = 1,
@@ -21685,8 +22687,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2004",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 2004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -21715,6 +22719,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 5,
     CostChange = 1,
@@ -21728,8 +22733,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2005",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 2005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -21760,6 +22767,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 7,
     CostChange = 1,
@@ -21774,8 +22782,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2007",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 2007,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -21807,6 +22817,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 6,
     CostChange = 1,
@@ -21821,8 +22832,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2008",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 2008,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -21850,6 +22863,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -21863,8 +22877,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2101",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 2100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -21892,6 +22908,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -21905,8 +22922,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2102",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 2100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -21934,6 +22953,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -21947,8 +22967,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2103",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 2100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus01"
@@ -21976,6 +22998,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 5,
     CostChange = 1,
@@ -21989,8 +23012,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3001",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 3001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -22019,6 +23044,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 10,
     CostChange = 1,
@@ -22032,8 +23058,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3004",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 3004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -22061,6 +23089,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 10,
     CostChange = 1,
@@ -22074,8 +23103,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3005",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 3005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -22106,6 +23137,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 7,
     CostChange = 1,
@@ -22120,8 +23152,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3007",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 3007,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -22153,6 +23187,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 6,
     CostChange = 1,
@@ -22167,8 +23202,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3008",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 3008,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -22196,6 +23233,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -22209,8 +23247,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3101",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 3100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -22238,6 +23278,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -22251,8 +23292,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3102",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 3100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -22280,6 +23323,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 4,
     CostChange = 1,
@@ -22293,8 +23337,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3103",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 3100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith01"
@@ -22323,6 +23369,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 11,
     CostChange = 2,
@@ -22336,8 +23383,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2001",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 4001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -22366,6 +23415,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 12,
     CostChange = 2,
@@ -22379,8 +23429,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2002",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 4002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -22409,6 +23461,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 12,
     CostChange = 2,
@@ -22422,8 +23475,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2003",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 4003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -22453,6 +23508,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 16,
     CostChange = 2,
@@ -22466,8 +23522,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2004",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 4004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -22497,6 +23555,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 16,
     CostChange = 2,
@@ -22510,8 +23569,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2005",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 4005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -22541,6 +23602,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 16,
     CostChange = 2,
@@ -22554,8 +23616,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2006",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 4006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -22584,6 +23648,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 11,
     CostChange = 2,
@@ -22597,8 +23662,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2101",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -22627,6 +23694,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 11,
     CostChange = 2,
@@ -22640,8 +23708,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2102",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -22670,6 +23740,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 11,
     CostChange = 2,
@@ -22683,8 +23754,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_2103",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 4100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Cerberus02"
@@ -22713,6 +23786,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 11,
     CostChange = 2,
@@ -22726,8 +23800,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3001",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 5001,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -22756,6 +23832,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 12,
     CostChange = 2,
@@ -22769,8 +23846,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3002",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 5002,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -22799,6 +23878,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 12,
     CostChange = 2,
@@ -22812,8 +23892,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3003",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 5003,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -22843,6 +23925,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 16,
     CostChange = 2,
@@ -22856,8 +23939,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3004",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 5004,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -22886,6 +23971,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 16,
     CostChange = 2,
@@ -22899,8 +23985,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3005",
+    OpenVersion = 10,
     Polarity = 4,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 5005,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -22930,6 +24018,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 16,
     CostChange = 2,
@@ -22943,8 +24032,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3006",
+    OpenVersion = 10,
     Polarity = 2,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 5006,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -22973,6 +24064,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 11,
     CostChange = 2,
@@ -22986,8 +24078,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3101",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -23016,6 +24110,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 11,
     CostChange = 2,
@@ -23029,8 +24124,10 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3102",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
@@ -23059,6 +24156,7 @@ return ReadOnly("Mod", {
       2,
       3
     },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 11,
     CostChange = 2,
@@ -23072,16 +24170,24 @@ return ReadOnly("Mod", {
     ModCardLevelMax = 5,
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_3103",
+    OpenVersion = 10,
     Polarity = 1,
     Rarity = 5,
+    ReleaseVersion = 100,
     RepeatGroup = 5100,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Lilith02"
   },
   [56111] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23096,28 +24202,52 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56111},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6111].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6111].Vars.CompareBase*100$%",
       [2] = "$#Buff[6111].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_BonusDmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01_Black.T_Mod_Changeling01_Black",
     Id = 56111,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6111",
+    OpenVersion = 999,
     PassiveEffects = 6111,
     PassiveEffectsDesc = "MOD_DESC_6111",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56112] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "MaxSp", Rate = 1
@@ -23128,6 +24258,7 @@ return ReadOnly("Mod", {
       },
       [3] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23142,31 +24273,60 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56112},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6111].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6111].Vars.CompareBase*100$%",
       [2] = "$#Buff[6111].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_BonusDmg",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01_Black.T_Mod_Siren01_Black",
     Id = 56112,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6112",
+    OpenVersion = 999,
     PassiveEffects = 6111,
     PassiveEffectsDesc = "MOD_DESC_6111",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56113] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23181,28 +24341,52 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56113},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6113].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6113].Vars.CompareBase*100$%",
       [2] = "$#Buff[6114].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_CRI",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01_Black.T_Mod_Changeling01_Black",
     Id = 56113,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6113",
+    OpenVersion = 999,
     PassiveEffects = 6113,
     PassiveEffectsDesc = "MOD_DESC_6113",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56114] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "MaxSp", Rate = 1
@@ -23213,6 +24397,7 @@ return ReadOnly("Mod", {
       },
       [3] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23227,31 +24412,60 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56114},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6113].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6113].Vars.CompareBase*100$%",
       [2] = "$#Buff[6114].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_CRI",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01_Black.T_Mod_Siren01_Black",
     Id = 56114,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6114",
+    OpenVersion = 999,
     PassiveEffects = 6113,
     PassiveEffectsDesc = "MOD_DESC_6113",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56121] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23266,28 +24480,52 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56121},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6121].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6121].Vars.CompareBase*100$%",
       [2] = "$#Buff[6121].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01_Blue.T_Mod_Changeling01_Blue",
     Id = 56121,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6121",
+    OpenVersion = 999,
     PassiveEffects = 6121,
     PassiveEffectsDesc = "MOD_DESC_6121",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56122] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "MaxSp", Rate = 1
@@ -23298,6 +24536,7 @@ return ReadOnly("Mod", {
       },
       [3] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23312,31 +24551,60 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56122},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6121].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6121].Vars.CompareBase*100$%",
       [2] = "$#Buff[6121].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01_Blue.T_Mod_Siren01_Blue",
     Id = 56122,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6122",
+    OpenVersion = 999,
     PassiveEffects = 6121,
     PassiveEffectsDesc = "MOD_DESC_6121",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56123] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23351,28 +24619,52 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56123},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6123].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6123].Vars.CompareBase*100$%",
       [2] = "$#Buff[6124].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01_Blue.T_Mod_Changeling01_Blue",
     Id = 56123,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6123",
+    OpenVersion = 999,
     PassiveEffects = 6123,
     PassiveEffectsDesc = "MOD_DESC_6123",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56124] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "MaxSp", Rate = 1
@@ -23383,6 +24675,7 @@ return ReadOnly("Mod", {
       },
       [3] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23397,31 +24690,60 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56124},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6123].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6123].Vars.CompareBase*100$%",
       [2] = "$#Buff[6124].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01_Blue.T_Mod_Siren01_Blue",
     Id = 56124,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6124",
+    OpenVersion = 999,
     PassiveEffects = 6123,
     PassiveEffectsDesc = "MOD_DESC_6123",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56131] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23436,28 +24758,52 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56131},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6131].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6131].Vars.CompareBase*100$%",
       [2] = "$#Buff[6131].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01_Red.T_Mod_Changeling01_Red",
     Id = 56131,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6131",
+    OpenVersion = 999,
     PassiveEffects = 6131,
     PassiveEffectsDesc = "MOD_DESC_6131",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56132] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "MaxSp", Rate = 1
@@ -23468,6 +24814,7 @@ return ReadOnly("Mod", {
       },
       [3] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23482,31 +24829,60 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56132},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6131].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6131].Vars.CompareBase*100$%",
       [2] = "$#Buff[6131].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_ATK",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01_Red.T_Mod_Siren01_Red",
     Id = 56132,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6132",
+    OpenVersion = 999,
     PassiveEffects = 6131,
     PassiveEffectsDesc = "MOD_DESC_6131",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56133] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23521,28 +24897,52 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56133},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6133].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6133].Vars.CompareBase*100$%",
       [2] = "$#Buff[6134].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01_Red.T_Mod_Changeling01_Red",
     Id = 56133,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6133",
+    OpenVersion = 999,
     PassiveEffects = 6133,
     PassiveEffectsDesc = "MOD_DESC_6133",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56134] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "MaxSp", Rate = 1
@@ -23553,6 +24953,7 @@ return ReadOnly("Mod", {
       },
       [3] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23567,31 +24968,60 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56134},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6133].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6133].Vars.CompareBase*100$%",
       [2] = "$#Buff[6134].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01_Red.T_Mod_Siren01_Red",
     Id = 56134,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6134",
+    OpenVersion = 999,
     PassiveEffects = 6133,
     PassiveEffectsDesc = "MOD_DESC_6133",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56141] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23606,28 +25036,52 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56141},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6141].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6141].Vars.CompareBase*100$%",
       [2] = "$#Buff[6141].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01_Purple.T_Mod_Changeling01_Purple",
     Id = 56141,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6141",
+    OpenVersion = 999,
     PassiveEffects = 6141,
     PassiveEffectsDesc = "MOD_DESC_6141",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56142] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "MaxSp", Rate = 1
@@ -23638,6 +25092,7 @@ return ReadOnly("Mod", {
       },
       [3] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23652,31 +25107,60 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56142},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6141].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6141].Vars.CompareBase*100$%",
       [2] = "$#Buff[6141].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01_Purple.T_Mod_Siren01_Purple",
     Id = 56142,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6142",
+    OpenVersion = 999,
     PassiveEffects = 6141,
     PassiveEffectsDesc = "MOD_DESC_6141",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56143] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23691,6 +25175,18 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56143},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
@@ -23698,21 +25194,33 @@ return ReadOnly("Mod", {
       [1] = "$#PassiveEffect[6143].Vars.CompareBase$",
       [2] = "$#Buff[6144].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_EnmityValue",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01_Purple.T_Mod_Changeling01_Purple",
     Id = 56143,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6143",
+    OpenVersion = 999,
     PassiveEffects = 6143,
     PassiveEffectsDesc = "MOD_DESC_6143",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56144] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "MaxSp", Rate = 1
@@ -23723,6 +25231,7 @@ return ReadOnly("Mod", {
       },
       [3] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23737,6 +25246,18 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56144},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
@@ -23744,24 +25265,41 @@ return ReadOnly("Mod", {
       [1] = "$#PassiveEffect[6143].Vars.CompareBase$",
       [2] = "$#Buff[6144].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_EnmityValue",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01_Purple.T_Mod_Siren01_Purple",
     Id = 56144,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6144",
+    OpenVersion = 999,
     PassiveEffects = 6143,
     PassiveEffectsDesc = "MOD_DESC_6143",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56151] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23776,39 +25314,64 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56151},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
-    Cost = 19,
+    Cost = 15,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6151].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6151].Vars.CompareBase*100$%",
       [2] = "$#Buff[6151].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01_Green.T_Mod_Changeling01_Green",
     Id = 56151,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6151",
+    OpenVersion = 11,
     PassiveEffects = 6151,
     PassiveEffectsDesc = "MOD_DESC_6151",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 110,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56152] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
-        AttrName = "MaxSp", Rate = 1
+        AttrName = "MaxSp", Rate = "#1"
       },
       [2] = {
         AttrName = "SkillEfficiency",
-        Rate = 1
+        Rate = "#2"
       },
       [3] = {
         AttrName = "DamagedRate",
-        Value = -0.3
+        IndividialRateZone = 1,
+        Value = -0.5
       }
     },
     ApplicationType = 15,
@@ -23822,31 +25385,60 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56152},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
-    Cost = 19,
+    Cost = 35,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6151].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6151].Vars.CompareBase*100$%",
       [2] = "$#Buff[6151].AddAttrs[1].Rate*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_SkillIntensity",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01_Green.T_Mod_Siren01_Green",
     Id = 56152,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6152",
+    OpenVersion = 11,
     PassiveEffects = 6151,
     PassiveEffectsDesc = "MOD_DESC_6151",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 110,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56153] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23861,39 +25453,64 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56153},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
-    Cost = 19,
+    Cost = 15,
     CostChange = 1,
     DescValues = {
       [1] = "$#PassiveEffect[6153].Vars.CompareBase$",
       [2] = "$#Buff[6154].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_EnmityValue",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01_Green.T_Mod_Changeling01_Green",
     Id = 56153,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6153",
+    OpenVersion = 11,
     PassiveEffects = 6153,
     PassiveEffectsDesc = "MOD_DESC_6153",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 110,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56154] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
-        AttrName = "MaxSp", Rate = 1
+        AttrName = "MaxSp", Rate = "#1"
       },
       [2] = {
         AttrName = "SkillEfficiency",
-        Rate = 1
+        Rate = "#2"
       },
       [3] = {
         AttrName = "DamagedRate",
-        Value = -0.3
+        IndividialRateZone = 1,
+        Value = -0.5
       }
     },
     ApplicationType = 15,
@@ -23907,31 +25524,60 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56154},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
-    Cost = 19,
+    Cost = 35,
     CostChange = 1,
     DescValues = {
       [1] = "$#PassiveEffect[6153].Vars.CompareBase$",
       [2] = "$#Buff[6154].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_EnmityValue",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01_Green.T_Mod_Siren01_Green",
     Id = 56154,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6154",
+    OpenVersion = 11,
     PassiveEffects = 6153,
     PassiveEffectsDesc = "MOD_DESC_6153",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 110,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56161] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23946,28 +25592,52 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56161},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6161].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6161].Vars.CompareBase*100$%",
       [2] = "$#Buff[6161].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_BonusDmg",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01.T_Mod_Changeling01",
     Id = 56161,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6161",
+    OpenVersion = 999,
     PassiveEffects = 6161,
     PassiveEffectsDesc = "MOD_DESC_6161",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56162] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "MaxSp", Rate = 1
@@ -23978,6 +25648,7 @@ return ReadOnly("Mod", {
       },
       [3] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -23992,31 +25663,60 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56162},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6161].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6161].Vars.CompareBase*100$%",
       [2] = "$#Buff[6161].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
+    FilterTag = {
+      [1] = "Tag_BonusDmg",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
     Id = 56162,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6162",
+    OpenVersion = 999,
     PassiveEffects = 6161,
     PassiveEffectsDesc = "MOD_DESC_6161",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
   [56163] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -24031,28 +25731,52 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56163},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6163].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6163].Vars.CompareBase*100$%",
       [2] = "$#Buff[6164].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
+    FilterTag = {
+      [1] = "Tag_CRI",
+      [2] = "Tag_SpecialEffect"
+    },
+    FunctionDes = "UI_Armory_Mod",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Changeling01.T_Mod_Changeling01",
     Id = 56163,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6163",
+    OpenVersion = 999,
     PassiveEffects = 6163,
     PassiveEffectsDesc = "MOD_DESC_6163",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = 6100,
     Sound = "SOUND_ITEM_MOD",
-    TypeName = "MOD_Type_Name_Siren01"
+    TypeName = "MOD_Type_Name_Changeling01"
   },
   [56164] = {
+    AccessKey = {
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong"
+    },
     AddAttrs = {
       [1] = {
         AttrName = "MaxSp", Rate = 1
@@ -24063,6 +25787,7 @@ return ReadOnly("Mod", {
       },
       [3] = {
         AttrName = "DamagedRate",
+        IndividialRateZone = 1,
         Value = -0.3
       }
     },
@@ -24077,24 +25802,47 @@ return ReadOnly("Mod", {
       7,
       8
     },
+    BreakDown = {
+      [102] = 100
+    },
+    CardLevelNeedModId = {56164},
+    CardLevelNeedNum = {
+      1,
+      1,
+      2,
+      2,
+      3
+    },
+    CardLevelNeedResourceId = 3016,
     CollectRewardExp = 200,
     Cost = 19,
     CostChange = 1,
     DescValues = {
-      [1] = "$#PassiveEffect[6163].Vars.CompareBase$",
+      [1] = "$#PassiveEffect[6163].Vars.CompareBase*100$%",
       [2] = "$#Buff[6164].AddAttrs[1].Value*100$%"
     },
-    GMNot = 1,
+    FilterTag = {
+      [1] = "Tag_CRI",
+      [2] = "Tag_SpecialEffect",
+      [3] = "Tag_SP",
+      [4] = "Tag_SkillEfficiency"
+    },
+    FunctionDes = "UI_Armory_Mod",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Siren01.T_Mod_Siren01",
     Id = 56164,
-    IsNotOpen = true,
     MaxLevel = 5,
+    ModCardLevelMax = 5,
+    ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_6164",
+    OpenVersion = 999,
     PassiveEffects = 6163,
     PassiveEffectsDesc = "MOD_DESC_6163",
     Polarity = 2,
     Rarity = 5,
-    RepeatGroup = 1300,
+    ReleaseVersion = 9990,
+    RepeatGroup = {
+      1300, 6100
+    },
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Siren01"
   },
@@ -24106,6 +25854,7 @@ return ReadOnly("Mod", {
       "MonsterStrong",
       "Shop_Rouge"
     },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "AttackSpeed_Normal",
@@ -24129,9 +25878,11 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_101001",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_101001",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 101,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -24143,6 +25894,7 @@ return ReadOnly("Mod", {
       "Forging",
       "MonsterStrong"
     },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "CRI", Rate = 0.4
@@ -24165,14 +25917,17 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_101002",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_101002",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 101,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
   [101003] = {
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "TriggerProbability",
@@ -24188,19 +25943,19 @@ return ReadOnly("Mod", {
       [2] = "Tag_SpecialEffect"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     Id = 101003,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModActivateSkills = {
       [1010102] = 1010302
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_101003",
+    OpenVersion = 12,
     PassiveEffectsDesc = "MOD_DESC_101003",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 120,
     RepeatGroup = 101,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -24212,6 +25967,7 @@ return ReadOnly("Mod", {
       "Forging",
       "MonsterStrong"
     },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "CRD", Rate = 0.5
@@ -24234,9 +25990,11 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_102001",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_102001",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 102,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -24249,6 +26007,7 @@ return ReadOnly("Mod", {
       "MonsterStrong",
       "Shop_Rouge"
     },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "CRI", Rate = 0.4
@@ -24271,15 +26030,18 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_102002",
+    OpenVersion = 10,
     PassiveEffects = 2401,
     PassiveEffectsDesc = "MOD_DESC_102002",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 102,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
   [102003] = {
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "AttackRange_Normal",
@@ -24303,9 +26065,11 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_102003",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_102003",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 102,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -24317,6 +26081,7 @@ return ReadOnly("Mod", {
       "Forging",
       "MonsterStrong"
     },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "CRI", Rate = 0.4
@@ -24339,9 +26104,11 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_102004",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_102004",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 102,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -24354,6 +26121,7 @@ return ReadOnly("Mod", {
       "MonsterStrong",
       "Shop_Rouge"
     },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "AttackSpeed_Normal",
@@ -24377,9 +26145,11 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_103001",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_103001",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 103,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -24392,6 +26162,7 @@ return ReadOnly("Mod", {
       "MonsterStrong",
       "Shop_Rouge"
     },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {AttrName = "ATK", Rate = 0.5}
     },
@@ -24412,14 +26183,17 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_103002",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_103002",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 103,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
   [103003] = {
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "AttackRange_Normal",
@@ -24435,19 +26209,19 @@ return ReadOnly("Mod", {
       [2] = "Tag_SpecialEffect"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     Id = 103003,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModActivateSkills = {
       [1030101] = 1030301
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_103003",
+    OpenVersion = 13,
     PassiveEffectsDesc = "MOD_DESC_103003",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 130,
     RepeatGroup = 103,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -24460,6 +26234,7 @@ return ReadOnly("Mod", {
       "MonsterStrong",
       "Shop_Rouge"
     },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "AttackSpeed_Normal",
@@ -24483,9 +26258,11 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_104001",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_104001",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 104,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -24498,6 +26275,7 @@ return ReadOnly("Mod", {
       "MonsterStrong",
       "Shop_Rouge"
     },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "AttackSpeed_Normal",
@@ -24521,14 +26299,24 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_104002",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_104002",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 100,
     RepeatGroup = 104,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
   [104003] = {
+    AccessKey = {
+      "Shop_Fishing",
+      "Shop_Main",
+      "Forging",
+      "MonsterStrong",
+      "Shop_Rouge"
+    },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "CRD", Rate = 0.5
@@ -24543,19 +26331,19 @@ return ReadOnly("Mod", {
       [2] = "Tag_SpecialEffect"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     Id = 104003,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModActivateSkills = {
       [1040102] = 1040202
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_104003",
+    OpenVersion = 11,
     PassiveEffectsDesc = "MOD_DESC_104003",
     Polarity = 3,
     Rarity = 4,
+    ReleaseVersion = 110,
     RepeatGroup = 104,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
@@ -24567,6 +26355,7 @@ return ReadOnly("Mod", {
       "Forging",
       "MonsterStrong"
     },
+    ActivateInRouge = true,
     AddAttrs = {
       [1] = {
         AttrName = "AttackRange_Normal",
@@ -24590,10 +26379,12 @@ return ReadOnly("Mod", {
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_106001",
+    OpenVersion = 10,
     PassiveEffectsDesc = "MOD_DESC_106001",
     Polarity = 3,
     Rarity = 4,
-    RepeatGroup = 106,
+    ReleaseVersion = 100,
+    RepeatGroup = {106},
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Fenrir01"
   },
@@ -24616,19 +26407,19 @@ return ReadOnly("Mod", {
       [2] = "Tag_SpecialEffect"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     Id = 150401,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModActivateSkills = {
       [150402] = 150423
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_150401",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_106001",
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 150401,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Suyi01"
@@ -24652,19 +26443,19 @@ return ReadOnly("Mod", {
       [2] = "Tag_SpecialEffect"
     },
     FunctionDes = "UI_Armory_Mod",
-    GMNot = 1,
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Mod/T_Mod_Fenrir01.T_Mod_Fenrir01",
     Id = 150402,
-    IsNotOpen = true,
     MaxLevel = 5,
     ModActivateSkills = {
       [150402] = 150424
     },
     ModDescribe = "MOD_DES_1001",
     Name = "MOD_NAME_150402",
+    OpenVersion = 999,
     PassiveEffectsDesc = "MOD_DESC_106001",
     Polarity = 3,
     Rarity = 5,
+    ReleaseVersion = 9990,
     RepeatGroup = 150401,
     Sound = "SOUND_ITEM_MOD",
     TypeName = "MOD_Type_Name_Suyi01"

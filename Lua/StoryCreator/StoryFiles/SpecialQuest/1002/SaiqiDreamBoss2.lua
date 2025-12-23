@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -160,12 +162,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "172234137932312744",
-            startPort = "Out",
-            endQuest = "17214660590632549",
-            endPort = "In"
-          },
-          {
             startQuest = "17187883319181063899",
             startPort = "Out",
             endQuest = "17187883419031064469",
@@ -193,12 +189,6 @@ return {
             startQuest = "172595089212717610",
             startPort = "Out",
             endQuest = "17253490721832759931",
-            endPort = "In"
-          },
-          {
-            startQuest = "17214660590632549",
-            startPort = "Out",
-            endQuest = "17214663637202912",
             endPort = "In"
           },
           {
@@ -259,6 +249,24 @@ return {
             startQuest = "1757520394754952",
             startPort = "Out",
             endQuest = "17184326449002868260",
+            endPort = "In"
+          },
+          {
+            startQuest = "172234137932312744",
+            startPort = "Out",
+            endQuest = "17214660590632549",
+            endPort = "In"
+          },
+          {
+            startQuest = "17214660590632549",
+            startPort = "Out",
+            endQuest = "17622429397594485901",
+            endPort = "In"
+          },
+          {
+            startQuest = "17622429397594485901",
+            startPort = "Out",
+            endQuest = "17214663637202912",
             endPort = "In"
           }
         },
@@ -444,7 +452,7 @@ return {
             key = "17187883419031064469",
             type = "BossBattleFinishNode",
             name = "等待完成boss战",
-            pos = {x = 2125.5808378173765, y = 10.319376317240621},
+            pos = {x = 2010.6872207961, y = 13.510865678942746},
             propsData = {
               SendMessage = "",
               FinishCondition = "BossSaiqi02_P2End"
@@ -470,14 +478,14 @@ return {
             key = "17214660590632549",
             type = "TalkNode",
             name = "胜利结算",
-            pos = {x = 2606.9466934115358, y = 9.534099502446264},
+            pos = {x = 2598.2117927197846, y = 22.511873058677264},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10113401,
               FlowAssetPath = "",
               TalkType = "FixSimple",
               TalkStageName = "Stage_101121",
-              BlendInTime = 0.5,
+              BlendInTime = 0,
               BlendOutTime = 0,
               InType = "FadeIn",
               OutType = "FadeOut",
@@ -488,6 +496,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -512,14 +521,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 2000591}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -528,7 +535,7 @@ return {
             key = "17214663637202912",
             type = "TalkNode",
             name = "过场动画 飞向太阳",
-            pos = {x = 2926.9190703224804, y = -8.840849349301733},
+            pos = {x = 2976.0680064926933, y = -10.117445093982584},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -547,6 +554,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -560,9 +568,6 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               FreezeWorldComposition = true,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -573,7 +578,7 @@ return {
             key = "172234137932312744",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 2366.79486443172, y = 7.807833047286115},
+            pos = {x = 2275.518268687039, y = 11.637620281328665},
             propsData = {WaitTime = 3}
           },
           ["17253490620542759752"] = {
@@ -597,7 +602,7 @@ return {
             key = "17253490721832759931",
             type = "PlayOrStopBGMNode",
             name = "停止bgm",
-            pos = {x = 3414.464469876337, y = -1.1738418950068485},
+            pos = {x = 3473.526969876337, y = -3.9863418950068485},
             propsData = {
               SoundStateType = 3,
               SoundPriority = 0,
@@ -636,7 +641,7 @@ return {
             key = "172595089212717610",
             type = "TalkNode",
             name = "白屏",
-            pos = {x = 3167.1297272152815, y = -3.9216484777493186},
+            pos = {x = 3219.609780406771, y = -6.774042094770595},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10112601,
@@ -656,7 +661,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -667,7 +671,7 @@ return {
             key = "17268145457014179",
             type = "PlayOrStopBGMNode",
             name = "播放bgm",
-            pos = {x = 2604.5340762179017, y = -153.50823196411483},
+            pos = {x = 2576.676933360759, y = -292.0796605355433},
             propsData = {
               SoundStateType = 0,
               SoundPriority = 0,
@@ -786,6 +790,21 @@ return {
               UIParam = "Entrance",
               ActionParam = "None",
               ShowOrHide = false
+            }
+          },
+          ["17622429397594485901"] = {
+            key = "17622429397594485901",
+            type = "AsyncSetActorLocationAndRotationNode",
+            name = "切位置",
+            pos = {x = 2642.963569193749, y = -151.32388994781525},
+            propsData = {
+              UnitId = 0,
+              NewTargetPointName = "P_StartPoint3",
+              FadeIn = false,
+              FadeOut = false,
+              bResetCamera = true,
+              bForceAsyncLoading = true,
+              IsWhite = false
             }
           }
         },

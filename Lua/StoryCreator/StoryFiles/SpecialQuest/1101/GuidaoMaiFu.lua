@@ -47,7 +47,7 @@ return {
       key = "17316513946438349683",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 1440, y = 339.0877192982456},
+      pos = {x = 1438, y = 339.0877192982456},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -184,7 +186,25 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "1731651506926256",
+            startPort = "Out",
+            endQuest = "17562005326561594404",
+            endPort = "In"
+          },
+          {
+            startQuest = "174226749963721619792",
+            startPort = "Out",
+            endQuest = "17562005443671594812",
+            endPort = "In"
+          },
+          {
             startQuest = "1747039043670571923",
+            startPort = "Out",
+            endQuest = "17562106001075401941",
+            endPort = "In"
+          },
+          {
+            startQuest = "17562106001075401941",
             startPort = "Out",
             endQuest = "17316513946448349690",
             endPort = "Fail"
@@ -209,7 +229,7 @@ return {
             key = "17316513946448349690",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 1578.0935986056952, y = 909.747273425499},
+            pos = {x = 1927.5935986056952, y = 1206.7472734254989},
             propsData = {}
           },
           ["17316514006538349958"] = {
@@ -300,6 +320,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -307,7 +328,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "EXPlayer",
@@ -318,7 +338,7 @@ return {
             key = "1731651506926257",
             type = "TalkNode",
             name = "开门",
-            pos = {x = 2179.806494754168, y = 572.3093008491682},
+            pos = {x = 2178.1398280875014, y = 573.8093008491682},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -337,6 +357,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -344,7 +365,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "EXPlayer",
@@ -455,7 +475,7 @@ return {
             key = "17364993247245449",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1023.2605049043028, y = -33.685991798812466},
+            pos = {x = 999.7822440347376, y = -179.77294832055162},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 11018207,
@@ -483,7 +503,7 @@ return {
             key = "174226749963721619792",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 1955.120943849154, y = 416.7143519326915},
+            pos = {x = 1905.120943849154, y = 441.0000662184058},
             propsData = {WaitTime = 5}
           },
           ["1747039043670571921"] = {
@@ -548,6 +568,27 @@ return {
                 1640310
               }
             }
+          },
+          ["17562005326561594404"] = {
+            key = "17562005326561594404",
+            type = "SimplePostProcessNode",
+            name = "开启关闭屏幕后处理",
+            pos = {x = 1193.1304347826087, y = -10.000000000000014},
+            propsData = {bEnablePP = true, PPEnum = 10}
+          },
+          ["17562005443671594812"] = {
+            key = "17562005443671594812",
+            type = "SimplePostProcessNode",
+            name = "开启关闭屏幕后处理",
+            pos = {x = 2214.3726708074537, y = 399.1925465838509},
+            propsData = {bEnablePP = false, PPEnum = 10}
+          },
+          ["17562106001075401941"] = {
+            key = "17562106001075401941",
+            type = "SimplePostProcessNode",
+            name = "开启关闭屏幕后处理",
+            pos = {x = 1567.5, y = 1215},
+            propsData = {bEnablePP = false, PPEnum = 10}
           }
         },
         commentData = {}

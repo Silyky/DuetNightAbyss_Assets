@@ -118,8 +118,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101105,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
         StoryGuidePointName = "TargetPoint_LeaveOutsidersHome",
+        JumpId = 0,
         QuestUIId = 120113
       },
       questNodeData = {
@@ -333,8 +335,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101105,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "TargetPoint_LeaveOutsidersHome"
+        StoryGuidePointName = "TargetPoint_LeaveOutsidersHome",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -529,8 +533,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "TargetPoint_OutSiderHome"
+        StoryGuidePointName = "TargetPoint_OutSiderHome",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -700,6 +706,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -734,16 +741,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 211012},
-                {TalkActorType = "Npc", TalkActorId = 211001},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -769,6 +772,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -803,16 +807,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 211001},
-                {TalkActorType = "Npc", TalkActorId = 211012},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -839,6 +839,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -868,15 +869,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 211001},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -950,7 +948,7 @@ return {
         bIsStartChapter = false,
         bIsEndChapter = false,
         bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnComplete = true,
         bIsPlayBlackScreenOnFail = false,
         bIsDynamicEvent = false,
         ResurgencePoint = "",
@@ -958,8 +956,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_SQTrigger_Feina03_1191881"
+        StoryGuidePointName = "Mechanism_SQTrigger_Feina03_1191881",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -994,18 +994,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "175465027532214151370",
-            startPort = "Success",
-            endQuest = "175465127188215046191",
-            endPort = "In"
-          },
-          {
-            startQuest = "175465127188215046191",
-            startPort = "Out",
-            endQuest = "174989854290319887296",
-            endPort = "Success"
-          },
-          {
             startQuest = "175751590760115243615",
             startPort = "Out",
             endQuest = "175751590760115243614",
@@ -1028,6 +1016,12 @@ return {
             startPort = "Out",
             endQuest = "175751593264015244212",
             endPort = "In"
+          },
+          {
+            startQuest = "175465027532214151370",
+            startPort = "Success",
+            endQuest = "174989854290319887296",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -1042,8 +1036,13 @@ return {
             key = "174989854290319887296",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1279.6635514828856, y = 236.2145012540629},
-            propsData = {ModeType = 0}
+            pos = {x = 991.6635514828856, y = 242.2145012540629},
+            propsData = {
+              ModeType = 1,
+              Id = 101105,
+              StartIndex = 1,
+              IsWhite = false
+            }
           },
           ["174989854290319887299"] = {
             key = "174989854290319887299",
@@ -1058,18 +1057,6 @@ return {
             name = "等待特殊任务开始并完成",
             pos = {x = 590.3753809532508, y = 245.67849649411227},
             propsData = {SpecialConfigId = 2066, BlackScreenImmediately = true}
-          },
-          ["175465127188215046191"] = {
-            key = "175465127188215046191",
-            type = "SkipRegionNode",
-            name = "传送到奥哥家",
-            pos = {x = 962.4458479785173, y = 234.19290559294595},
-            propsData = {
-              ModeType = 1,
-              Id = 101105,
-              StartIndex = 1,
-              IsWhite = false
-            }
           },
           ["17555004449185495096"] = {
             key = "17555004449185495096",
@@ -1172,8 +1159,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101105,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "TargetPoint_LeaveOutsidersHome"
+        StoryGuidePointName = "TargetPoint_LeaveOutsidersHome",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1292,6 +1281,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -1305,9 +1295,6 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -1320,7 +1307,9 @@ return {
             name = "打开界面节点",
             pos = {x = 1567.766666666666, y = 372.05476190476185},
             propsData = {
-              UIName = "ActivityFeinaEventLevelSelect"
+              IsAsync = true,
+              UIName = "ActivityFeinaEventLevelSelect",
+              IsInterfaceJump = false
             }
           },
           ["17594819251404055208"] = {
@@ -1413,8 +1402,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101105,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "TargetPoint_LeaveOutsidersHome"
+        StoryGuidePointName = "TargetPoint_LeaveOutsidersHome",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1542,8 +1533,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101105,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "TargetPoint_LeaveOutsidersHome"
+        StoryGuidePointName = "TargetPoint_LeaveOutsidersHome",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {

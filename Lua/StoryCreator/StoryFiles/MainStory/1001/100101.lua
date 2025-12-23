@@ -130,8 +130,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -226,12 +228,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17465228288677842",
-            startPort = "Out",
-            endQuest = "17092871350575449",
-            endPort = "In"
-          },
-          {
             startQuest = "17092871168484820",
             startPort = "Out",
             endQuest = "17465228288677842",
@@ -242,6 +238,18 @@ return {
             startPort = "Out",
             endQuest = "1704175979076183648",
             endPort = "Success"
+          },
+          {
+            startQuest = "17465228288677842",
+            startPort = "Out",
+            endQuest = "17628424351401000507",
+            endPort = "In"
+          },
+          {
+            startQuest = "17628424351401000507",
+            startPort = "Out",
+            endQuest = "17092871350575449",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -304,7 +312,7 @@ return {
             key = "17092871350575449",
             type = "PlayOrStopBGMNode",
             name = "开启任务提示音",
-            pos = {x = 1821.4182074015048, y = 470.5765000091051},
+            pos = {x = 1977.4182074015048, y = 470.5765000091051},
             propsData = {
               SoundStateType = 3,
               SoundPriority = 0,
@@ -530,10 +538,11 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
-              EndNewTargetPointName = "QuestPoint3",
+              EndNewTargetPointName = "",
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {
@@ -542,9 +551,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = true,
               bTravelFullLoadWorldComposition = false,
@@ -564,6 +570,21 @@ return {
               FadeOut = false,
               bResetCamera = true,
               bForceAsyncLoading = true,
+              IsWhite = false
+            }
+          },
+          ["17628424351401000507"] = {
+            key = "17628424351401000507",
+            type = "AsyncSetActorLocationAndRotationNode",
+            name = "异步设置玩家位置旋转",
+            pos = {x = 1840.718666266654, y = 307.7575793831214},
+            propsData = {
+              UnitId = 0,
+              NewTargetPointName = "QuestPoint3",
+              FadeIn = false,
+              FadeOut = false,
+              bResetCamera = true,
+              bForceAsyncLoading = false,
               IsWhite = false
             }
           }
@@ -606,8 +627,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1092,7 +1115,7 @@ return {
             key = "170478262405817351",
             type = "TalkNode",
             name = "开车-赤手空拳",
-            pos = {x = 904.7140301996483, y = 864.7477794725773},
+            pos = {x = 878.0473635329816, y = 879.7477794725773},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10019007,
@@ -1168,6 +1191,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -1181,9 +1205,6 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -1194,7 +1215,7 @@ return {
             key = "1719210343225140591",
             type = "RestoreRoleNode",
             name = "恢复角色",
-            pos = {x = 3057.800801244553, y = 1019.8850012657842},
+            pos = {x = 3065.908909352661, y = 1063.668785049568},
             propsData = {}
           },
           ["17235499014707479115"] = {
@@ -1241,7 +1262,7 @@ return {
             key = "17429929424274890173",
             type = "CreatePhantomNode",
             name = "召唤女主",
-            pos = {x = 2280.3053329332793, y = 846.5113451063452},
+            pos = {x = 2276.019618647565, y = 847.5827736777737},
             propsData = {
               IsCreate = true,
               IsClearOtherPhantom = false,
@@ -1375,7 +1396,7 @@ return {
             key = "17515996162841274254",
             type = "TalkNode",
             name = "开车-赤手空拳",
-            pos = {x = 1721.0076086759454, y = -19.86758196475406},
+            pos = {x = 1387.0602402548927, y = 28.577394111800963},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10019005,
@@ -1557,7 +1578,7 @@ return {
       key = "story_1686817834711541",
       type = "StoryNode",
       name = "杀怪",
-      pos = {x = 1019.0250487032615, y = 149.29800181467354},
+      pos = {x = 1010.5964772746901, y = 147.70276371943544},
       propsData = {
         QuestId = 10010108,
         QuestDescriptionComment = "击退来袭的怪物",
@@ -1580,8 +1601,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 100101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint101"
+        StoryGuidePointName = "QuestPoint101",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1712,19 +1735,19 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17611209276734439",
+            startQuest = "17611167242841341989",
             startPort = "Out",
-            endQuest = "17611209276734440",
+            endQuest = "17611167242851341990",
             endPort = "In"
           },
           {
             startQuest = "171133579074493928",
             startPort = "Out",
-            endQuest = "17611209276734439",
+            endQuest = "17611167242841341989",
             endPort = "In"
           },
           {
-            startQuest = "17611209276734440",
+            startQuest = "17611167242851341990",
             startPort = "Out",
             endQuest = "17580193849067282",
             endPort = "In"
@@ -1865,7 +1888,7 @@ return {
             key = "1706007306143137060",
             type = "ShowOrHideUINode",
             name = "显示或隐藏UI-Blood",
-            pos = {x = -1255.7730840981446, y = 121.35727669523584},
+            pos = {x = -1256.8841952092555, y = 105.80172113968023},
             propsData = {
               Function = "HideUIInScreen",
               UIParam = "BloodBar",
@@ -1884,7 +1907,7 @@ return {
             key = "171133579074493928",
             type = "GetMeleeWeaponNode",
             name = "序章获得剑",
-            pos = {x = -1630.0437696290633, y = 111.64401897122517},
+            pos = {x = -1686.1728018871277, y = 148.41821251961224},
             propsData = {}
           },
           ["17170599428371120945"] = {
@@ -2190,7 +2213,7 @@ return {
             key = "17580193849067282",
             type = "SetPlayerStatusNode",
             name = "设置玩家状态",
-            pos = {x = -1261.2427901737367, y = -90.98418670701258},
+            pos = {x = -1357.9094568404034, y = -33.116318839144704},
             propsData = {
               HPPercent = -1,
               ESPercent = -1,
@@ -2205,11 +2228,11 @@ return {
               RecoverPlayer = false
             }
           },
-          ["17611209276734439"] = {
-            key = "17611209276734439",
+          ["17611167242841341989"] = {
+            key = "17611167242841341989",
             type = "CreatePhantomNode",
             name = "召唤女主",
-            pos = {x = -1693.1772070071677, y = -217.89332263648419},
+            pos = {x = -1720.2981508243104, y = -191.7907517050625},
             propsData = {
               IsCreate = true,
               IsClearOtherPhantom = false,
@@ -2217,11 +2240,11 @@ return {
               StaticCreatorIdList = {1590286}
             }
           },
-          ["17611209276734440"] = {
-            key = "17611209276734440",
+          ["17611167242851341990"] = {
+            key = "17611167242851341990",
             type = "SetVarNode",
             name = "打开队友特效",
-            pos = {x = -1403.097727116304, y = -215.19105422041287},
+            pos = {x = -1425.9329566477325, y = -190.15991186041973},
             propsData = {
               VarName = "TeammateEffects",
               VarValue = 1
@@ -2229,11 +2252,11 @@ return {
           }
         },
         commentData = {
-          ["17611209294754514"] = {
-            key = "17611209294754514",
-            name = "获得剑必须在第一个",
-            position = {x = -1682.5819115061804, y = 4.568922682662517},
-            size = {width = 302.2222222222221, height = 263.33333333333337}
+          ["17611167438021342290"] = {
+            key = "17611167438021342290",
+            name = "获得剑要放第一个",
+            position = {x = -1707.3091021231178, y = 64.5085391850007},
+            size = {width = 270.9677419354835, height = 216.774193548387}
           }
         }
       }
@@ -2243,7 +2266,7 @@ return {
       key = "story_1686818101940601",
       type = "StoryNode",
       name = "去码头",
-      pos = {x = 1264.0228524084705, y = 147.7483025691629},
+      pos = {x = 1258.0228524084705, y = 148.60544542630575},
       propsData = {
         QuestId = 10010109,
         QuestDescriptionComment = "前往码头寻找渡船",
@@ -2266,8 +2289,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 100101,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "QuestTrigger0301"
+        StoryGuidePointName = "QuestTrigger0301",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -2468,8 +2493,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 100101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint102"
+        StoryGuidePointName = "QuestPoint102",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -2740,8 +2767,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 100103,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "Quest_TargetPoint_BOSS"
+        StoryGuidePointName = "Quest_TargetPoint_BOSS",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -2848,6 +2877,12 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17140114540056069",
+            startPort = "Out",
+            endQuest = "17534271060431010364",
+            endPort = "In"
+          },
+          {
             startQuest = "17140114540056070",
             startPort = "Out",
             endQuest = "17140114540056069",
@@ -2857,12 +2892,6 @@ return {
             startQuest = "17140114540056069",
             startPort = "Out",
             endQuest = "17429900958491648538",
-            endPort = "In"
-          },
-          {
-            startQuest = "17140114540056069",
-            startPort = "Out",
-            endQuest = "17586339734704553",
             endPort = "In"
           }
         },
@@ -2918,9 +2947,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -3131,6 +3157,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -3143,9 +3170,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -3240,11 +3264,20 @@ return {
               TagValue = 1
             }
           },
-          ["17586339734704553"] = {
-            key = "17586339734704553",
+          ["17534271041931010297"] = {
+            key = "17534271041931010297",
+            type = "MSDKUploadNode",
+            name = "【anime_start】海外市场SDK埋点上报",
+            pos = {x = -262.5243603067526, y = -29.402586239034832},
+            propsData = {
+              EventName = "anime_start"
+            }
+          },
+          ["17534271060431010364"] = {
+            key = "17534271060431010364",
             type = "MSDKUploadNode",
             name = "【first_anime】海外市场SDK埋点上报",
-            pos = {x = 243.87738124424945, y = 67.72508949928294},
+            pos = {x = 28.775042551454334, y = -0.25625419270276417},
             propsData = {
               EventName = "first_anime"
             }
@@ -3258,7 +3291,7 @@ return {
       key = "story_16868203580874994",
       type = "StoryNode",
       name = "虚空",
-      pos = {x = 948.9677989688105, y = -68.96730003122642},
+      pos = {x = 951.0367644860519, y = -68.96730003122642},
       propsData = {
         QuestId = 10010103,
         QuestDescriptionComment = "虚空……",
@@ -3281,8 +3314,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -3427,7 +3462,7 @@ return {
           {
             startQuest = "17455524057598317",
             startPort = "Out",
-            endQuest = "17586340189405840",
+            endQuest = "17586344016145427",
             endPort = "In"
           }
         },
@@ -3574,6 +3609,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -3586,9 +3622,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -3808,6 +3841,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -3821,7 +3855,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -3839,7 +3872,10 @@ return {
             propsData = {
               SplineActorIndex = 10010103,
               WalkType = 2,
-              MoveSpeedRate = 0.15
+              MoveSpeedRate = 0.15,
+              ExitBlendTime = 0.5,
+              IsTriggerable = false,
+              CanMoveReverse = false
             }
           },
           ["17455524057598317"] = {
@@ -3868,6 +3904,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -3880,9 +3917,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -3908,20 +3942,11 @@ return {
             pos = {x = -732.8998543122356, y = -267.8444367934454},
             propsData = {WaitTime = 1}
           },
-          ["17586340189405839"] = {
-            key = "17586340189405839",
-            type = "MSDKUploadNode",
-            name = "【anime_start】海外市场SDK埋点上报",
-            pos = {x = -1596.5550532094555, y = 480.651791076791},
-            propsData = {
-              EventName = "anime_start"
-            }
-          },
-          ["17586340189405840"] = {
-            key = "17586340189405840",
+          ["17586344016145427"] = {
+            key = "17586344016145427",
             type = "MSDKUploadNode",
             name = "【anime_end】海外市场SDK埋点上报",
-            pos = {x = -458.9568515524496, y = 33.42482674982671},
+            pos = {x = -563.693085218555, y = 22.725101120551933},
             propsData = {EventName = "anime_end"}
           }
         },
@@ -3990,8 +4015,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 100101,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "QuestTrigger0101"
+        StoryGuidePointName = "QuestTrigger0101",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -4122,22 +4149,10 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1717059368775986405",
-            startPort = "Mobile",
-            endQuest = "1717059388593986943",
-            endPort = "In"
-          },
-          {
             startQuest = "quest_16890750929681746",
             startPort = "Out",
             endQuest = "1717059439275987955",
             endPort = "Input"
-          },
-          {
-            startQuest = "1717059439275987955",
-            startPort = "Mobile",
-            endQuest = "1717059430802987725",
-            endPort = "In"
           },
           {
             startQuest = "1717059439275987955",
@@ -4221,12 +4236,6 @@ return {
             startQuest = "quest_1688640194426697",
             startPort = "Out",
             endQuest = "17355523705565903484",
-            endPort = "In"
-          },
-          {
-            startQuest = "17355523705565903484",
-            startPort = "Out",
-            endQuest = "1717059340832985884",
             endPort = "In"
           },
           {
@@ -4338,12 +4347,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "175146007641713989461",
-            startPort = "Mobile",
-            endQuest = "173131689516293340",
-            endPort = "In"
-          },
-          {
             startQuest = "173131689516293340",
             startPort = "Out",
             endQuest = "175145908220112083329",
@@ -4414,6 +4417,90 @@ return {
             startPort = "Out",
             endQuest = "quest_16887116801871689",
             endPort = "In"
+          },
+          {
+            startQuest = "1717059368775986405",
+            startPort = "Mobile",
+            endQuest = "1763023513479346380",
+            endPort = "In"
+          },
+          {
+            startQuest = "1763023513479346380",
+            startPort = "OldPlan",
+            endQuest = "1717059388593986943",
+            endPort = "In"
+          },
+          {
+            startQuest = "1763023513479346380",
+            startPort = "NewPlan",
+            endQuest = "1763023538171346688",
+            endPort = "In"
+          },
+          {
+            startQuest = "1763023538171346688",
+            startPort = "Out",
+            endQuest = "17489197634908310",
+            endPort = "In"
+          },
+          {
+            startQuest = "175146007641713989461",
+            startPort = "Mobile",
+            endQuest = "17630254556252355636",
+            endPort = "In"
+          },
+          {
+            startQuest = "17630254556252355636",
+            startPort = "OldPlan",
+            endQuest = "173131689516293340",
+            endPort = "In"
+          },
+          {
+            startQuest = "17630254556252355636",
+            startPort = "NewPlan",
+            endQuest = "17630254666692355898",
+            endPort = "In"
+          },
+          {
+            startQuest = "17630254666692355898",
+            startPort = "Out",
+            endQuest = "17630254808902356142",
+            endPort = "In"
+          },
+          {
+            startQuest = "17633654192154413",
+            startPort = "OldPlan",
+            endQuest = "1717059340832985884",
+            endPort = "In"
+          },
+          {
+            startQuest = "17355523705565903484",
+            startPort = "Out",
+            endQuest = "17633654192154413",
+            endPort = "In"
+          },
+          {
+            startQuest = "17633654192154413",
+            startPort = "NewPlan",
+            endQuest = "17633654308624651",
+            endPort = "In"
+          },
+          {
+            startQuest = "17648491118984266",
+            startPort = "OldPlan",
+            endQuest = "17648491118984265",
+            endPort = "In"
+          },
+          {
+            startQuest = "17648491118984266",
+            startPort = "NewPlan",
+            endQuest = "17648491118984267",
+            endPort = "In"
+          },
+          {
+            startQuest = "1717059439275987955",
+            startPort = "Mobile",
+            endQuest = "17648491118984266",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -4444,7 +4531,7 @@ return {
             key = "quest_1688640194427706",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 1122.7481035860606, y = 162.9918642661179},
+            pos = {x = 1007.0338178717749, y = 181.84900712326075},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1110010102,
@@ -4494,7 +4581,7 @@ return {
             key = "quest_1688640194428730",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 832.6641650311124, y = 753.7204950632012},
+            pos = {x = 769.330831697779, y = 1193.720495063201},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1110010118,
@@ -4535,7 +4622,7 @@ return {
             key = "quest_1688640194429751",
             type = "GoToNode",
             name = "前往-掉下去-QuestTrigger0112",
-            pos = {x = 665.1405265049532, y = 1581.9288433063332},
+            pos = {x = 681.8071931716198, y = 2041.9288433063332},
             propsData = {
               GuideUIEnable = false,
               StaticCreatorId = 1110010112,
@@ -4547,7 +4634,7 @@ return {
             key = "quest_1688640194429760",
             type = "GoToNode",
             name = "前往-QuestTrigger0113",
-            pos = {x = 687.0230798320125, y = 1810.8497473014215},
+            pos = {x = 703.6897464986791, y = 2270.8497473014213},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1110010113,
@@ -4559,7 +4646,7 @@ return {
             key = "quest_1688640194430763",
             type = "AsyncSetActorLocationAndRotationNode",
             name = "异步设置玩家位置旋转",
-            pos = {x = 1164.3124697912797, y = 1631.8164850963292},
+            pos = {x = 1180.9791364579464, y = 2091.816485096329},
             propsData = {
               UnitId = 0,
               NewTargetPointName = "QuestPoint_BJ_Fail2",
@@ -4574,7 +4661,7 @@ return {
             key = "quest_1688640194430770",
             type = "CameraLookAtNode",
             name = "CameraLookAt",
-            pos = {x = 1221.618299873435, y = 1327.6724202243824},
+            pos = {x = 1238.2849665401018, y = 1787.6724202243824},
             propsData = {
               TargetType = "Point",
               PointName = "QuestPoint_BJ_Target3",
@@ -4588,21 +4675,21 @@ return {
             key = "quest_1688640194430776",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 931.0287153808574, y = 1596.9029435832497},
+            pos = {x = 947.695382047524, y = 2056.9029435832495},
             propsData = {WaitTime = 0.1}
           },
           quest_1688640194430782 = {
             key = "quest_1688640194430782",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 1446.0954414806588, y = 1617.7517585435414},
+            pos = {x = 1462.7621081473255, y = 2077.751758543541},
             propsData = {WaitTime = 0.5}
           },
           quest_16887114184761684 = {
             key = "quest_16887114184761684",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁 机关",
-            pos = {x = 1115.6177731162913, y = 759.6264623037434},
+            pos = {x = 1108.9511064496248, y = 1177.9597956370767},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -4616,7 +4703,7 @@ return {
             key = "quest_16887116801871689",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁 机关",
-            pos = {x = 982.697581437446, y = 1823.789026275035},
+            pos = {x = 999.3642481041127, y = 2283.7890262750348},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -4659,7 +4746,7 @@ return {
             key = "quest_16914769538662075",
             type = "GoToNode",
             name = "前往-掉下去-QuestTrigger0114",
-            pos = {x = 658.9877290809133, y = 924.0037717163237},
+            pos = {x = 638.9877290809133, y = 1359.0037717163236},
             propsData = {
               GuideUIEnable = false,
               StaticCreatorId = 1110010114,
@@ -4671,14 +4758,14 @@ return {
             key = "quest_16914769538662078",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 964.6309139836503, y = 948.7158501947563},
+            pos = {x = 979.6309139836503, y = 1353.7158501947563},
             propsData = {WaitTime = 0.1}
           },
           quest_16914769538662081 = {
             key = "quest_16914769538662081",
             type = "AsyncSetActorLocationAndRotationNode",
             name = "异步设置玩家位置旋转",
-            pos = {x = 1230.1841215851746, y = 955.5098501629543},
+            pos = {x = 1250.1841215851746, y = 1340.5098501629543},
             propsData = {
               UnitId = 0,
               NewTargetPointName = "QuestPoint_BJ_Fail2",
@@ -4693,14 +4780,14 @@ return {
             key = "quest_16914769538662084",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 1494.3582342689426, y = 965.3262076548015},
+            pos = {x = 1534.3582342689426, y = 1343.6595409881347},
             propsData = {WaitTime = 0.5}
           },
           quest_16914769538662087 = {
             key = "quest_16914769538662087",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁 机关",
-            pos = {x = 1772.5346753061774, y = 954.8888352400404},
+            pos = {x = 1807.5346753061774, y = 1353.222168573374},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
@@ -4721,7 +4808,7 @@ return {
             key = "1704175979076183654",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2592.574012024465, y = 1878.695149498823},
+            pos = {x = 2592.574012024465, y = 2398.695149498823},
             propsData = {ModeType = 0}
           },
           ["1704175979076183655"] = {
@@ -4752,7 +4839,7 @@ return {
             key = "170478255046116031",
             type = "TalkNode",
             name = "莲妈-要不要紧",
-            pos = {x = 920.6909979468431, y = 2332.034679611231},
+            pos = {x = 860.6909979468431, y = 2798.7013462778973},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10010114,
@@ -4769,20 +4856,14 @@ return {
             key = "17052090673944166",
             type = "TalkNode",
             name = "无缝-前往第二次子弹跳",
-            pos = {x = 301.6577240736114, y = 1177.4699111910209},
+            pos = {x = 201.6577240736114, y = 1764.1365778576874},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
               TalkStageName = "",
               ShowFilePath = "/Game/AssetDesign/Story/Sequence/1001CunZhuang/Show100126_3",
-              BlendInTime = 0,
-              BlendOutTime = 0,
-              InType = "FadeIn",
-              OutType = "FadeOut",
-              ShowFadeDetail = true,
-              StartFadeOutTime = 0,
-              StartScreenEffectDuration = 0,
-              FinishFadeInTime = 0,
+              InType = "BlendIn",
+              OutType = "BlendOut",
               ShowSkipButton = false,
               ShowReviewButton = true,
               ShowWikiButton = true,
@@ -4791,6 +4872,7 @@ return {
               HideMonsters = false,
               HideAllBattleEntity = false,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -4803,9 +4885,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -4842,7 +4921,7 @@ return {
             key = "170530612789114384",
             type = "ShowGuideNode",
             name = "显示引导（支持执行操作后自动关闭/强制引导）",
-            pos = {x = 1635.638711257334, y = 543.0921125975472},
+            pos = {x = 1636.576211257334, y = 543.0921125975472},
             propsData = {
               MessageId = 200010,
               SkillNameList = {"Jump"},
@@ -4867,7 +4946,7 @@ return {
             key = "170530615929115094",
             type = "ShowGuideNode",
             name = "显示引导（支持执行操作后自动关闭/强制引导）",
-            pos = {x = 1795.29654255647, y = 1243.2424618859397},
+            pos = {x = 1811.9632092231368, y = 1703.2424618859397},
             propsData = {
               MessageId = 200011,
               SkillNameList = {"Slide", "Jump"},
@@ -4942,7 +5021,7 @@ return {
             key = "170538998425025614",
             type = "GoToNode",
             name = "不触发子弹跳直接过去",
-            pos = {x = 657.4681312615088, y = 2174.4835151145057},
+            pos = {x = 597.4681312615088, y = 2641.1501817811723},
             propsData = {
               GuideUIEnable = false,
               StaticCreatorId = 1110010119,
@@ -4954,7 +5033,7 @@ return {
             key = "170539003914026293",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 1418.5713407903472, y = 1855.6773563609784},
+            pos = {x = 1435.238007457014, y = 2315.677356360978},
             propsData = {WaitTime = 0.1}
           },
           ["1717059323865985559"] = {
@@ -4986,7 +5065,7 @@ return {
             key = "1717059340832985884",
             type = "ShowGuideNode",
             name = "显示引导（支持执行操作后自动关闭/强制引导）",
-            pos = {x = 1482.7678690863575, y = 16.097778814394218},
+            pos = {x = 1534.5798991615454, y = 172.6165758068754},
             propsData = {
               MessageId = 200003,
               SkillNameList = {"Slide"},
@@ -5018,32 +5097,7 @@ return {
             key = "1717059388593986943",
             type = "ShowGuideNode",
             name = "显示引导（支持执行操作后自动关闭/强制引导）",
-            pos = {x = 1465.869724583759, y = 663.8190182893336},
-            propsData = {
-              MessageId = 200011,
-              SkillNameList = {"BulletJump"},
-              LastTime = -1,
-              bIsForceTouch = true,
-              bIsTimeDilation = true,
-              HighLightUIPath = "BattleMain.Char_Skill.Jump",
-              UICompName = "Image_Hotspot",
-              UIShape = "Square",
-              IsForbidInAnim = false,
-              IsForbidOutAnim = false,
-              ForbidSuccessAnim = false,
-              IsNotForceRelease = false,
-              UICompSizeOffset = {X = 50, Y = 50},
-              UICompLocOffset = {X = 0, Y = 0},
-              MessageParentLoc = "HighLightUI",
-              MessageLoc = "Up",
-              MessageLocOffset = {X = 0, Y = 0}
-            }
-          },
-          ["1717059430802987725"] = {
-            key = "1717059430802987725",
-            type = "ShowGuideNode",
-            name = "显示引导（支持执行操作后自动关闭/强制引导）",
-            pos = {x = 2931.589140167096, y = 556.1141310603031},
+            pos = {x = 1561.7030579170923, y = 858.8606849560002},
             propsData = {
               MessageId = 200011,
               SkillNameList = {"BulletJump"},
@@ -5075,7 +5129,7 @@ return {
             key = "1717496550887416016",
             type = "ShowOrHideUINode",
             name = "左侧栏-子弹跳",
-            pos = {x = 1798.4481121297758, y = 1882.4587340363944},
+            pos = {x = 1815.1147787964426, y = 2342.458734036394},
             propsData = {
               Function = "SetContinuedPCGuideVisibility",
               UIParam = "None",
@@ -5111,7 +5165,7 @@ return {
             key = "173131686877693032",
             type = "ShowGuideToastNode",
             name = "Toast显示/隐藏信息",
-            pos = {x = 1244.1983406630884, y = 1193.2300316791334},
+            pos = {x = 1260.8650073297551, y = 1653.2300316791334},
             propsData = {
               ShowEnable = true,
               MessageId = 100008,
@@ -5124,7 +5178,7 @@ return {
             key = "173131689516293340",
             type = "ShowGuideToastNode",
             name = "Toast显示/隐藏信息",
-            pos = {x = 1788.9350579935995, y = 1409.397655274176},
+            pos = {x = 2003.6017246602662, y = 1969.147655274176},
             propsData = {
               ShowEnable = false,
               MessageId = 100008,
@@ -5150,7 +5204,7 @@ return {
             key = "173131699801294502",
             type = "ShowGuideToastNode",
             name = "Toast显示/隐藏信息",
-            pos = {x = 2098.093389735879, y = 1923.1414474875567},
+            pos = {x = 2114.7600564025456, y = 2383.1414474875564},
             propsData = {
               ShowEnable = false,
               MessageId = 100008,
@@ -5163,7 +5217,7 @@ return {
             key = "173131701115894649",
             type = "ShowGuideToastNode",
             name = "Toast显示/隐藏信息",
-            pos = {x = 1493.2370686106672, y = 152.65795585565502},
+            pos = {x = 1258.3799257535243, y = 206.65795585565502},
             propsData = {
               ShowEnable = false,
               MessageId = 200001,
@@ -5176,7 +5230,7 @@ return {
             key = "173131704925595187",
             type = "ShowGuideToastNode",
             name = "Toast显示/隐藏信息",
-            pos = {x = 1360.892516703545, y = 799.9257829792291},
+            pos = {x = 1372.5591833702115, y = 1158.2591163125624},
             propsData = {
               ShowEnable = false,
               MessageId = 200011,
@@ -5208,7 +5262,7 @@ return {
             key = "17355523705565903484",
             type = "ActivePlayerSkillsNode",
             name = "激活/失效 玩家技能",
-            pos = {x = 1066.7231311378732, y = 29.46771834642965},
+            pos = {x = 1005.0088454235876, y = 26.89628977500108},
             propsData = {
               PlayerId = 0,
               bActiveEnable = true,
@@ -5270,7 +5324,7 @@ return {
             key = "174541304265521139",
             type = "TalkNode",
             name = "莲妈-要不要紧",
-            pos = {x = 1735.514288726737, y = 1728.696910284724},
+            pos = {x = 1752.1809553934038, y = 2188.696910284724},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 10010114,
@@ -5294,7 +5348,7 @@ return {
             key = "175145908220112083329",
             type = "ShowGuideNode",
             name = "显示引导（支持执行操作后自动关闭/强制引导）",
-            pos = {x = 2079.205325094169, y = 1406.8157368046977},
+            pos = {x = 2293.1219917608355, y = 1983.0657368046977},
             propsData = {
               MessageId = 200011,
               SkillNameList = {"BulletJump"},
@@ -5319,7 +5373,7 @@ return {
             key = "175146007641713989461",
             type = "PlatformJudgmentNode",
             name = "PC/手机平台判断",
-            pos = {x = 1497.1961839582375, y = 1274.542462371946},
+            pos = {x = 1513.8628506249042, y = 1734.542462371946},
             propsData = {}
           },
           ["17521503105206149"] = {
@@ -5362,7 +5416,7 @@ return {
             key = "17526362872021926405",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 761.0686571659272, y = 1234.7396095593472},
+            pos = {x = 777.7353238325938, y = 1694.7396095593472},
             propsData = {WaitTime = 0}
           },
           ["1752826144559978183"] = {
@@ -5376,6 +5430,172 @@ return {
               MessageNote = "",
               LastTime = -1,
               Style = "Normal"
+            }
+          },
+          ["1763023513479346380"] = {
+            key = "1763023513479346380",
+            type = "LayoutPlanNode",
+            name = "判断当前当前玩家布局节点",
+            pos = {x = 1198.7965444798613, y = 712.8105860839632},
+            propsData = {}
+          },
+          ["1763023538171346688"] = {
+            key = "1763023538171346688",
+            type = "ShowGuideNode",
+            name = "显示引导（支持执行操作后自动关闭/强制引导）",
+            pos = {x = 1556.2965444798613, y = 702.4980860839634},
+            propsData = {
+              MessageId = 200036,
+              SkillNameList = {"BulletJump"},
+              LastTime = -1,
+              bIsForceTouch = true,
+              bIsTimeDilation = true,
+              HighLightUIPath = "BattleMain.Char_Skill.BulletJump",
+              UICompName = "Btn_BulletJump",
+              UIShape = "Square",
+              IsForbidInAnim = false,
+              IsForbidOutAnim = false,
+              ForbidSuccessAnim = false,
+              IsNotForceRelease = false,
+              UICompSizeOffset = {X = 50, Y = 50},
+              UICompLocOffset = {X = 0, Y = 0},
+              MessageParentLoc = "HighLightUI",
+              MessageLoc = "Up",
+              MessageLocOffset = {X = 0, Y = 0}
+            }
+          },
+          ["17630254556252355636"] = {
+            key = "17630254556252355636",
+            type = "LayoutPlanNode",
+            name = "判断当前当前玩家布局节点",
+            pos = {x = 1759.1865985988757, y = 1881.7506172372064},
+            propsData = {}
+          },
+          ["17630254666692355898"] = {
+            key = "17630254666692355898",
+            type = "ShowGuideToastNode",
+            name = "Toast显示/隐藏信息",
+            pos = {x = 2022.2977097099867, y = 1833.124548861138},
+            propsData = {
+              ShowEnable = false,
+              MessageId = 200036,
+              MessageNote = "",
+              LastTime = -1,
+              Style = "Normal"
+            }
+          },
+          ["17630254808902356142"] = {
+            key = "17630254808902356142",
+            type = "ShowGuideNode",
+            name = "显示引导（支持执行操作后自动关闭/强制引导）",
+            pos = {x = 2286.669558449483, y = 1834.5993387771045},
+            propsData = {
+              MessageId = 200036,
+              SkillNameList = {"BulletJump"},
+              LastTime = -1,
+              bIsForceTouch = true,
+              bIsTimeDilation = true,
+              HighLightUIPath = "BattleMain.Char_Skill.BulletJump",
+              UICompName = "Btn_BulletJump",
+              UIShape = "Square",
+              IsForbidInAnim = false,
+              IsForbidOutAnim = false,
+              ForbidSuccessAnim = false,
+              IsNotForceRelease = false,
+              UICompSizeOffset = {X = 50, Y = 50},
+              UICompLocOffset = {X = 0, Y = 0},
+              MessageParentLoc = "HighLightUI",
+              MessageLoc = "Up",
+              MessageLocOffset = {X = 0, Y = 0}
+            }
+          },
+          ["17633654192154413"] = {
+            key = "17633654192154413",
+            type = "LayoutPlanNode",
+            name = "判断当前当前玩家布局节点",
+            pos = {x = 1260.7806288610996, y = 30.430167654276417},
+            propsData = {}
+          },
+          ["17633654308624651"] = {
+            key = "17633654308624651",
+            type = "ShowGuideNode",
+            name = "显示引导（支持执行操作后自动关闭/强制引导）",
+            pos = {x = 1547.595162124772, y = 36.6122390014292},
+            propsData = {
+              MessageId = 200037,
+              SkillNameList = {"Slide"},
+              LastTime = -1,
+              bIsForceTouch = false,
+              bIsTimeDilation = false,
+              HighLightUIPath = "BattleMain.Char_Skill.Jump",
+              UICompName = "Image_Hotspot",
+              UIShape = "Square",
+              IsForbidInAnim = false,
+              IsForbidOutAnim = false,
+              ForbidSuccessAnim = false,
+              IsNotForceRelease = false,
+              UICompSizeOffset = {X = 50, Y = 50},
+              UICompLocOffset = {X = 0, Y = 0},
+              MessageParentLoc = "HighLightUI",
+              MessageLoc = "Up",
+              MessageLocOffset = {X = 0, Y = 0}
+            }
+          },
+          ["17648491118984265"] = {
+            key = "17648491118984265",
+            type = "ShowGuideNode",
+            name = "显示引导（支持执行操作后自动关闭/强制引导）",
+            pos = {x = 3268.23760227502, y = 830.2334066425376},
+            propsData = {
+              MessageId = 200011,
+              SkillNameList = {"BulletJump"},
+              LastTime = -1,
+              bIsForceTouch = true,
+              bIsTimeDilation = true,
+              HighLightUIPath = "BattleMain.Char_Skill.Jump",
+              UICompName = "Image_Hotspot",
+              UIShape = "Square",
+              IsForbidInAnim = false,
+              IsForbidOutAnim = false,
+              ForbidSuccessAnim = false,
+              IsNotForceRelease = false,
+              UICompSizeOffset = {X = 50, Y = 50},
+              UICompLocOffset = {X = 0, Y = 0},
+              MessageParentLoc = "HighLightUI",
+              MessageLoc = "Up",
+              MessageLocOffset = {X = 0, Y = 0}
+            }
+          },
+          ["17648491118984266"] = {
+            key = "17648491118984266",
+            type = "LayoutPlanNode",
+            name = "判断当前当前玩家布局节点",
+            pos = {x = 2905.331088837789, y = 684.1833077705007},
+            propsData = {}
+          },
+          ["17648491118984267"] = {
+            key = "17648491118984267",
+            type = "ShowGuideNode",
+            name = "显示引导（支持执行操作后自动关闭/强制引导）",
+            pos = {x = 3262.831088837789, y = 673.8708077705007},
+            propsData = {
+              MessageId = 200036,
+              SkillNameList = {"BulletJump"},
+              LastTime = -1,
+              bIsForceTouch = true,
+              bIsTimeDilation = true,
+              HighLightUIPath = "BattleMain.Char_Skill.BulletJump",
+              UICompName = "Btn_BulletJump",
+              UIShape = "Square",
+              IsForbidInAnim = false,
+              IsForbidOutAnim = false,
+              ForbidSuccessAnim = false,
+              IsNotForceRelease = false,
+              UICompSizeOffset = {X = 50, Y = 50},
+              UICompLocOffset = {X = 0, Y = 0},
+              MessageParentLoc = "HighLightUI",
+              MessageLoc = "Up",
+              MessageLocOffset = {X = 0, Y = 0}
             }
           }
         },
@@ -5409,14 +5629,14 @@ return {
             size = {
               x = 2044.4477621711833,
               y = 457.96252207863176,
-              width = 3468.5357958976447,
-              height = 746.4672626540137
+              width = 3566.2788959337067,
+              height = 1189.5431681948623
             }
           },
           comment16886959885131675 = {
             key = "comment16886959885131675",
             name = "山路教学——子弹跳第二次",
-            position = {x = 530.6788545194138, y = 1107.144168852183},
+            position = {x = 547.3455211860804, y = 1567.144168852183},
             size = {
               x = 2569.3051974165246,
               y = 1140.1344692698083,
@@ -5438,7 +5658,7 @@ return {
           ["170539005658826704"] = {
             key = "170539005658826704",
             name = "玩家没有到达第二次子弹跳判定盒",
-            position = {x = 553.343270614909, y = 2110.3809510119413},
+            position = {x = 493.343270614909, y = 2577.047617678608},
             size = {width = 600, height = 400}
           }
         }
@@ -5472,8 +5692,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -5732,6 +5954,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -5745,10 +5968,7 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
-              FreezeWorldComposition = false,
+              FreezeWorldComposition = true,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
               OverrideFailBlend = false
@@ -5858,6 +6078,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -5870,9 +6091,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -5959,9 +6177,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -6050,9 +6265,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -6179,12 +6391,13 @@ return {
                 "Attack",
                 "Jump",
                 "Slide",
-                "Crouch",
                 "BulletJump",
                 "Skill1",
                 "Skill2",
                 "Skill3",
-                "Avoid"
+                "Avoid",
+                "Attack",
+                "Crouch"
               }
             }
           },
@@ -6218,6 +6431,30 @@ return {
             name = "search_end海外市场SDK埋点上报",
             pos = {x = 1496.2613483329953, y = 302.78311341430674},
             propsData = {EventName = "search_end"}
+          },
+          ["17600964008564348"] = {
+            key = "17600964008564348",
+            type = "ActivePlayerSkillsNode",
+            name = "激活/失效 玩家技能",
+            pos = {x = 1294.9114915660962, y = 725.6643947989015},
+            propsData = {
+              PlayerId = 0,
+              bActiveEnable = true,
+              ActiveType = "Lock",
+              SkillNameList = {}
+            }
+          },
+          ["17600964022754405"] = {
+            key = "17600964022754405",
+            type = "ActivePlayerSkillsNode",
+            name = "激活/失效 玩家技能",
+            pos = {x = 1011.6972058518103, y = 707.450109084616},
+            propsData = {
+              PlayerId = 0,
+              bActiveEnable = false,
+              ActiveType = "Lock",
+              SkillNameList = {}
+            }
           }
         },
         commentData = {
@@ -6263,8 +6500,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 100101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint102"
+        StoryGuidePointName = "QuestPoint102",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -6340,59 +6579,6 @@ return {
               bForbid = false,
               ForbidTag = "ForbidDefault",
               bHidewhenForbid = true
-            }
-          },
-          quest_16854344276021436 = {
-            key = "quest_16854344276021436",
-            type = "TalkNode",
-            name = "对话节点",
-            pos = {x = 14.308054712676324, y = 391.6976382233926},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 10018901,
-              FlowAssetPath = "",
-              TalkType = "FixSimple",
-              TalkStageName = "Stage_100108",
-              BlendInTime = 0,
-              BlendOutTime = 0,
-              InType = "BlendIn",
-              OutType = "BlendOut",
-              BlendEaseExp = 2,
-              UseProceduralCamera = false,
-              ProceduralCameraId = 1,
-              HideNpcs = false,
-              HideMonsters = true,
-              HideAllBattleEntity = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              SkipToOption = false,
-              DisableNpcOptimization = false,
-              DoNotReceiveCharacterShadow = false,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "QuestPoint7",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              PauseNpcBT = true,
-              TalkActors = {
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = false
-                }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 100003}
-              },
-              OptionType = "normal",
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              NormalOptions = {},
-              OverrideFailBlend = false
             }
           },
           quest_16932079354075094 = {
@@ -6498,6 +6684,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = false,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -6527,15 +6714,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100003},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -6602,8 +6786,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {

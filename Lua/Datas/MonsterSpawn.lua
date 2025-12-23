@@ -1536,9 +1536,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -1551,7 +1551,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 311,
     UnitSpawnRadiusMax = 8000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = 55
+    UnitSpawnTotalNum = 50
   },
   [312] = {
     CheckVision = true,
@@ -1602,9 +1602,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -1617,7 +1617,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 312,
     UnitSpawnRadiusMax = 8000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = 55
+    UnitSpawnTotalNum = 49
   },
   [313] = {
     CheckVision = true,
@@ -1668,9 +1668,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -1683,7 +1683,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 313,
     UnitSpawnRadiusMax = 8000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = 55
+    UnitSpawnTotalNum = 50
   },
   [314] = {
     CheckVision = true,
@@ -1734,9 +1734,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -1749,7 +1749,271 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 314,
     UnitSpawnRadiusMax = 8000,
     UnitSpawnRadiusMin = 1000,
-    UnitSpawnTotalNum = 55
+    UnitSpawnTotalNum = 49
+  },
+  [315] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = "Level",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 9001001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [2] = {
+        UnitId = 9002001,
+        UnitLevel = 0,
+        UnitNum = 7,
+        UnitNumFix = 7
+      },
+      [3] = {
+        UnitId = 9007001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [4] = {
+        UnitId = 6001001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [5] = {
+        UnitId = 6002001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [6] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 7,
+        UnitNumFix = 7
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 315,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 100
+  },
+  [316] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = "Level",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 9001001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [2] = {
+        UnitId = 9002001,
+        UnitLevel = 0,
+        UnitNum = 7,
+        UnitNumFix = 7
+      },
+      [3] = {
+        UnitId = 9007001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [4] = {
+        UnitId = 6001001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [5] = {
+        UnitId = 6002001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [6] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 7,
+        UnitNumFix = 7
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 316,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 93
+  },
+  [317] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = "Level",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 8001001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [2] = {
+        UnitId = 8003001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [3] = {
+        UnitId = 8002001,
+        UnitLevel = 0,
+        UnitNum = 11,
+        UnitNumFix = 11
+      },
+      [4] = {
+        UnitId = 6001001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [5] = {
+        UnitId = 6002001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [6] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 7,
+        UnitNumFix = 7
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 317,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 100
+  },
+  [318] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = "Level",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 8001001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [2] = {
+        UnitId = 8003001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [3] = {
+        UnitId = 8002001,
+        UnitLevel = 0,
+        UnitNum = 11,
+        UnitNumFix = 11
+      },
+      [4] = {
+        UnitId = 6001001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [5] = {
+        UnitId = 6002001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [6] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 7,
+        UnitNumFix = 7
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 318,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 93
   },
   [501] = {
     CheckVision = true,
@@ -1817,7 +2081,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 501,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [502] = {
     CheckVision = true,
@@ -1885,7 +2149,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 502,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [503] = {
     CheckVision = true,
@@ -1953,7 +2217,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 503,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [504] = {
     CheckVision = true,
@@ -2021,7 +2285,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 504,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [505] = {
     CheckVision = true,
@@ -2089,7 +2353,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 505,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [506] = {
     CheckVision = true,
@@ -2157,7 +2421,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 506,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [511] = {
     CheckVision = true,
@@ -2453,6 +2717,74 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnRadiusMin = 1000,
     UnitSpawnTotalNum = -1
   },
+  [602] = {
+    CheckVision = false,
+    DetectTime = 6,
+    DetectTimeFix = 3,
+    FilterReachable = false,
+    FirstPercentFix = 60,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 7002001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [2] = {
+        UnitId = 7001001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [3] = {
+        UnitId = 7003001,
+        UnitLevel = 0,
+        UnitNum = 6,
+        UnitNumFix = 6
+      },
+      [4] = {
+        UnitId = 7014001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [5] = {
+        UnitId = 7012001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      },
+      [6] = {
+        UnitId = 7013001,
+        UnitLevel = 0,
+        UnitNum = 5,
+        UnitNumFix = 5
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 28,
+    UnitSpawnId = 602,
+    UnitSpawnRadiusMax = 7000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = -1
+  },
   [611] = {
     CheckVision = true,
     DetectTime = 1,
@@ -2696,6 +3028,44 @@ return ReadOnly("MonsterSpawn", {
     Threshold = 1,
     UnitSpawnId = 617,
     UnitSpawnRadiusMin = 1,
+    UnitSpawnTotalNum = 1
+  },
+  [618] = {
+    CheckVision = false,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    FirstPercentFix = 60,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6004013,
+        UnitLevel = 5,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.6,
+      1.8,
+      2
+    },
+    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 618,
+    UnitSpawnRadiusMax = 7000,
+    UnitSpawnRadiusMin = 1000,
     UnitSpawnTotalNum = 1
   },
   [10101] = {
@@ -3965,6 +4335,60 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnRadiusMin = 1500,
     UnitSpawnTotalNum = 100
   },
+  [10706] = {
+    CheckVision = true,
+    DetectTime = 3,
+    DetectTimeFix = 2,
+    FilterReachable = true,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 7002001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [2] = {
+        UnitId = 7001001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [3] = {
+        UnitId = 7003001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [4] = {
+        UnitId = 7004001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.6,
+      1.8,
+      2
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    SpawnType = "Random",
+    Tacmap = true,
+    Threshold = 7,
+    UnitSpawnId = 10706,
+    UnitSpawnRadiusMax = 4000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = -1
+  },
   [10801] = {
     DetectTime = 1,
     DetectTimeFix = 1,
@@ -4091,9 +4515,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4159,9 +4583,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4226,9 +4650,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4293,9 +4717,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4360,9 +4784,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4427,9 +4851,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4494,9 +4918,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4561,9 +4985,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4628,9 +5052,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4695,9 +5119,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4762,9 +5186,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4823,9 +5247,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4884,9 +5308,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -4945,9 +5369,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -5006,9 +5430,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -5067,9 +5491,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -5128,9 +5552,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -5189,9 +5613,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -5250,9 +5674,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 1500,
@@ -5519,44 +5943,44 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnTotalNum = 100
   },
   [10829] = {
-    CheckVision = true,
+    CheckVision = false,
     DetectTime = 8,
     DetectTimeFix = 4,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6012001,
+        UnitId = 6016001,
         UnitLevel = 0,
         UnitNum = 10,
         UnitNumFix = 10
       },
       [2] = {
-        UnitId = 6013001,
+        UnitId = 6015001,
         UnitLevel = 0,
         UnitNum = 10,
         UnitNumFix = 10
       },
       [3] = {
-        UnitId = 7001001,
+        UnitId = 6016001,
         UnitLevel = 0,
         UnitNum = 12,
         UnitNumFix = 12
       },
       [4] = {
-        UnitId = 7013001,
+        UnitId = 10005001,
         UnitLevel = 0,
         UnitNum = 9,
         UnitNumFix = 9
       },
       [5] = {
-        UnitId = 7012001,
+        UnitId = 6017001,
         UnitLevel = 0,
         UnitNum = 9,
         UnitNumFix = 9
       },
       [6] = {
-        UnitId = 7004001,
+        UnitId = 6004001,
         UnitLevel = 0,
         UnitNum = 2,
         UnitNumFix = 2
@@ -5571,18 +5995,18 @@ return ReadOnly("MonsterSpawn", {
       1,
       1
     },
-    PhoneUnitSpawnRadiusMax = 7000,
+    PhoneUnitSpawnRadiusMax = 8000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
     },
     RandomSpawn = true,
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 37,
     UnitSpawnId = 10829,
     UnitSpawnRadiusMax = 12000,
-    UnitSpawnRadiusMin = 1500,
+    UnitSpawnRadiusMin = 3000,
     UnitSpawnTotalNum = 175
   },
   [10830] = {
@@ -6256,9 +6680,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 100,
@@ -6323,9 +6747,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.2,
-      1.4,
-      1.6
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 7000,
     PhoneUnitSpawnRadiusMin = 100,
@@ -6340,6 +6764,676 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnRadiusMax = 12000,
     UnitSpawnRadiusMin = 100,
     UnitSpawnTotalNum = 220
+  },
+  [10842] = {
+    CheckVision = true,
+    DetectTime = 3,
+    DetectTimeFix = 2,
+    FilterReachable = true,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 7004001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [2] = {
+        UnitId = 6002001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [3] = {
+        UnitId = 6003001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [4] = {
+        UnitId = 7001001,
+        UnitLevel = 0,
+        UnitNum = 6,
+        UnitNumFix = 6
+      },
+      [5] = {
+        UnitId = 7003001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      },
+      [6] = {
+        UnitId = 7002001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 7000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = true,
+    Threshold = 14,
+    UnitSpawnId = 10842,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = 193
+  },
+  [10843] = {
+    CheckVision = true,
+    DetectTime = 3,
+    DetectTimeFix = 2,
+    FilterReachable = true,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6004001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [2] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [3] = {
+        UnitId = 6013001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [4] = {
+        UnitId = 8001001,
+        UnitLevel = 0,
+        UnitNum = 6,
+        UnitNumFix = 6
+      },
+      [5] = {
+        UnitId = 8002001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      },
+      [6] = {
+        UnitId = 8003001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 7000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = true,
+    Threshold = 14,
+    UnitSpawnId = 10843,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = 193
+  },
+  [10844] = {
+    CheckVision = true,
+    DetectTime = 5,
+    DetectTimeFix = 3,
+    FilterReachable = true,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 7004001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [2] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 6,
+        UnitNumFix = 6
+      },
+      [3] = {
+        UnitId = 6013001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      },
+      [4] = {
+        UnitId = 7001001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      },
+      [5] = {
+        UnitId = 7013001,
+        UnitLevel = 0,
+        UnitNum = 5,
+        UnitNumFix = 5
+      },
+      [6] = {
+        UnitId = 7012001,
+        UnitLevel = 0,
+        UnitNum = 5,
+        UnitNumFix = 5
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 7000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = true,
+    Threshold = 21,
+    UnitSpawnId = 10844,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = 193
+  },
+  [10845] = {
+    CheckVision = true,
+    DetectTime = 6,
+    DetectTimeFix = 3,
+    FilterReachable = true,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 7014001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [2] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [3] = {
+        UnitId = 6013001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [4] = {
+        UnitId = 7001001,
+        UnitLevel = 0,
+        UnitNum = 12,
+        UnitNumFix = 12
+      },
+      [5] = {
+        UnitId = 7013001,
+        UnitLevel = 0,
+        UnitNum = 7,
+        UnitNumFix = 7
+      },
+      [6] = {
+        UnitId = 7012001,
+        UnitLevel = 0,
+        UnitNum = 7,
+        UnitNumFix = 7
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 7000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = true,
+    Threshold = 28,
+    UnitSpawnId = 10845,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = 193
+  },
+  [10846] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = true,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6014001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      },
+      [2] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [3] = {
+        UnitId = 6013001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [4] = {
+        UnitId = 8001001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [5] = {
+        UnitId = 8002001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      },
+      [6] = {
+        UnitId = 8003001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 7000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = true,
+    Threshold = 35,
+    UnitSpawnId = 10846,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = 193
+  },
+  [10847] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = true,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 7009001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      },
+      [2] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [3] = {
+        UnitId = 6013001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [4] = {
+        UnitId = 7001001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [5] = {
+        UnitId = 7013001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      },
+      [6] = {
+        UnitId = 7012001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 7000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = true,
+    Threshold = 35,
+    UnitSpawnId = 10847,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = 193
+  },
+  [10848] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = true,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 7009001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      },
+      [2] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [3] = {
+        UnitId = 6013001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [4] = {
+        UnitId = 7001001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [5] = {
+        UnitId = 7013001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      },
+      [6] = {
+        UnitId = 7012001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 7000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = true,
+    Threshold = 35,
+    UnitSpawnId = 10848,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = 193
+  },
+  [10849] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = true,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6014001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      },
+      [2] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [3] = {
+        UnitId = 6013001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [4] = {
+        UnitId = 8001001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [5] = {
+        UnitId = 8002001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      },
+      [6] = {
+        UnitId = 8003001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 7000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = true,
+    Threshold = 35,
+    UnitSpawnId = 10849,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = 193
+  },
+  [10850] = {
+    CheckVision = true,
+    DetectTime = 3,
+    DetectTimeFix = 2,
+    FilterReachable = true,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6004001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [2] = {
+        UnitId = 6012001,
+        UnitLevel = 0,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [3] = {
+        UnitId = 6013001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [4] = {
+        UnitId = 8001001,
+        UnitLevel = 0,
+        UnitNum = 6,
+        UnitNumFix = 6
+      },
+      [5] = {
+        UnitId = 8002001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      },
+      [6] = {
+        UnitId = 8003001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 7000,
+    PhoneUnitSpawnRadiusMin = 100,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 14,
+    UnitSpawnId = 10850,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 100,
+    UnitSpawnTotalNum = 100
+  },
+  [10851] = {
+    CheckVision = false,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [2] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [3] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 12,
+        UnitNumFix = 12
+      },
+      [4] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      },
+      [5] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      },
+      [6] = {
+        UnitId = 6004001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 37,
+    UnitSpawnId = 10851,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 3000,
+    UnitSpawnTotalNum = 193
   },
   [10901] = {
     CheckVision = true,
@@ -7893,19 +8987,19 @@ return ReadOnly("MonsterSpawn", {
     MonsterSpawnInfos = {
       [1] = {
         UnitId = 10003001,
-        UnitLevel = 0,
+        UnitLevel = 55,
         UnitNum = 2,
         UnitNumFix = 2
       },
       [2] = {
         UnitId = 6017001,
-        UnitLevel = 0,
+        UnitLevel = 55,
         UnitNum = 6,
         UnitNumFix = 6
       },
       [3] = {
         UnitId = 6015001,
-        UnitLevel = 0,
+        UnitLevel = 55,
         UnitNum = 2,
         UnitNumFix = 2
       }
@@ -7916,27 +9010,27 @@ return ReadOnly("MonsterSpawn", {
       Player = ""
     },
     RandomSpawn = true,
+    RegularLevel = true,
     SpawnType = "Random",
     Tacmap = false,
     Threshold = 6,
     UnitSpawnId = 50101,
     UnitSpawnRadiusMax = 4000,
     UnitSpawnRadiusMin = 500,
-    UnitSpawnTotalNum = 30
+    UnitSpawnTotalNum = 999
   },
   [50102] = {
-    CanEscapeBattle = false,
-    CheckVision = false,
-    DetectTime = 5,
-    DetectTimeFix = 5,
+    CheckVision = true,
+    DetectTime = 1,
+    DetectTimeFix = 1,
     FilterReachable = false,
-    Mode = "Player",
+    Mode = "Level",
     MonsterSpawnInfos = {
       [1] = {
         UnitId = 6017001,
         UnitLevel = 55,
-        UnitNum = 4,
-        UnitNumFix = 4
+        UnitNum = 6,
+        UnitNumFix = 6
       },
       [2] = {
         UnitId = 6016001,
@@ -7955,21 +9049,27 @@ return ReadOnly("MonsterSpawn", {
         UnitLevel = 55,
         UnitNum = 2,
         UnitNumFix = 2
+      },
+      [5] = {
+        UnitId = 10005001,
+        UnitLevel = 55,
+        UnitNum = 4,
+        UnitNumFix = 4
       }
     },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 500,
+    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
-    RandomSpawn = true,
+    RegularLevel = true,
     SpawnType = "Random",
     Tacmap = false,
-    Threshold = 6,
+    Threshold = 18,
     UnitSpawnId = 50102,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 500,
-    UnitSpawnTotalNum = 100
+    UnitSpawnRadiusMax = 10000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 999
   },
   [50103] = {
     CanEscapeBattle = false,
@@ -8004,7 +9104,7 @@ return ReadOnly("MonsterSpawn", {
         UnitNumFix = 2
       },
       [5] = {
-        UnitId = 10001001,
+        UnitId = 10005001,
         UnitLevel = 55,
         UnitNum = 4,
         UnitNumFix = 4
@@ -8016,6 +9116,7 @@ return ReadOnly("MonsterSpawn", {
       Player = ""
     },
     RandomSpawn = true,
+    RegularLevel = true,
     SpawnType = "Random",
     Tacmap = false,
     Threshold = 6,
@@ -8057,7 +9158,7 @@ return ReadOnly("MonsterSpawn", {
         UnitNumFix = 2
       },
       [5] = {
-        UnitId = 10001001,
+        UnitId = 10005001,
         UnitLevel = 55,
         UnitNum = 4,
         UnitNumFix = 4
@@ -8069,10 +9170,207 @@ return ReadOnly("MonsterSpawn", {
       Player = ""
     },
     RandomSpawn = true,
+    RegularLevel = true,
     SpawnType = "Random",
     Tacmap = false,
     Threshold = 6,
     UnitSpawnId = 50104,
+    UnitSpawnRadiusMax = 4000,
+    UnitSpawnRadiusMin = 500,
+    UnitSpawnTotalNum = 100
+  },
+  [50105] = {
+    CanEscapeBattle = false,
+    CheckVision = false,
+    DetectTime = 3,
+    DetectTimeFix = 3,
+    FilterReachable = false,
+    Mode = "Level",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 10004001,
+        UnitLevel = 3,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [2] = {
+        UnitId = 10001062,
+        UnitLevel = 3,
+        UnitNum = 10,
+        UnitNumFix = 15
+      },
+      [3] = {
+        UnitId = 10001061,
+        UnitLevel = 3,
+        UnitNum = 6,
+        UnitNumFix = 9
+      },
+      [4] = {
+        UnitId = 10002001,
+        UnitLevel = 3,
+        UnitNum = 1,
+        UnitNumFix = 2
+      }
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    RegularLevel = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 15,
+    UnitSpawnId = 50105,
+    UnitSpawnRadiusMax = 4000,
+    UnitSpawnRadiusMin = 500,
+    UnitSpawnTotalNum = 999
+  },
+  [50106] = {
+    CheckVision = true,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Level",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6017001,
+        UnitLevel = 55,
+        UnitNum = 6,
+        UnitNumFix = 6
+      },
+      [2] = {
+        UnitId = 6016001,
+        UnitLevel = 55,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [3] = {
+        UnitId = 6015001,
+        UnitLevel = 55,
+        UnitNum = 2,
+        UnitNumFix = 2
+      }
+    },
+    PhoneUnitSpawnRadiusMax = 10000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RegularLevel = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 12,
+    UnitSpawnId = 50106,
+    UnitSpawnRadiusMax = 10000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 999
+  },
+  [50107] = {
+    CanEscapeBattle = false,
+    CheckVision = false,
+    DetectTime = 5,
+    DetectTimeFix = 5,
+    FilterReachable = false,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6017001,
+        UnitLevel = 55,
+        UnitNum = 6,
+        UnitNumFix = 6
+      },
+      [2] = {
+        UnitId = 6016001,
+        UnitLevel = 55,
+        UnitNum = 4,
+        UnitNumFix = 4
+      },
+      [3] = {
+        UnitId = 6015001,
+        UnitLevel = 55,
+        UnitNum = 2,
+        UnitNumFix = 2
+      },
+      [4] = {
+        UnitId = 10003001,
+        UnitLevel = 55,
+        UnitNum = 2,
+        UnitNumFix = 2
+      }
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    RegularLevel = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 6,
+    UnitSpawnId = 50107,
+    UnitSpawnRadiusMax = 4000,
+    UnitSpawnRadiusMin = 500,
+    UnitSpawnTotalNum = 100
+  },
+  [50108] = {
+    CanEscapeBattle = false,
+    CheckVision = false,
+    DetectTime = 5,
+    DetectTimeFix = 5,
+    FilterReachable = false,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 10002051,
+        UnitLevel = 55,
+        UnitNum = 3,
+        UnitNumFix = 3
+      },
+      [2] = {
+        UnitId = 10002052,
+        UnitLevel = 55,
+        UnitNum = 3,
+        UnitNumFix = 3
+      },
+      [3] = {
+        UnitId = 10004001,
+        UnitLevel = 55,
+        UnitNum = 1,
+        UnitNumFix = 2
+      },
+      [4] = {
+        UnitId = 10001062,
+        UnitLevel = 55,
+        UnitNum = 5,
+        UnitNumFix = 10
+      },
+      [5] = {
+        UnitId = 10001061,
+        UnitLevel = 55,
+        UnitNum = 3,
+        UnitNumFix = 6
+      },
+      [6] = {
+        UnitId = 10002001,
+        UnitLevel = 55,
+        UnitNum = 1,
+        UnitNumFix = 2
+      }
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    RegularLevel = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 6,
+    UnitSpawnId = 50108,
     UnitSpawnRadiusMax = 4000,
     UnitSpawnRadiusMin = 500,
     UnitSpawnTotalNum = 100
@@ -8096,6 +9394,21 @@ return ReadOnly("MonsterSpawn", {
     GroupSpawnId = 60173,
     OpenGroupSpawn = true,
     UnitSpawnId = 60173
+  },
+  [60200] = {
+    GroupSpawnId = 60200,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 60200
+  },
+  [60201] = {
+    GroupSpawnId = 60201,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 60201
+  },
+  [60501] = {
+    GroupSpawnId = 60501,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 60501
   },
   [60901] = {
     GroupSpawnId = 60037,
@@ -8127,6 +9440,16 @@ return ReadOnly("MonsterSpawn", {
     OpenGroupSpawn = true,
     UnitSpawnId = 70173
   },
+  [70200] = {
+    GroupSpawnId = 70200,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 70200
+  },
+  [70201] = {
+    GroupSpawnId = 70201,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 70201
+  },
   [70901] = {
     GroupSpawnId = 70037,
     OpenGroupSpawn = true,
@@ -8146,6 +9469,26 @@ return ReadOnly("MonsterSpawn", {
     GroupSpawnId = 80073,
     OpenGroupSpawn = true,
     UnitSpawnId = 80073
+  },
+  [80200] = {
+    GroupSpawnId = 80200,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 80200
+  },
+  [80201] = {
+    GroupSpawnId = 80201,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 80201
+  },
+  [80501] = {
+    GroupSpawnId = 80501,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 80501
+  },
+  [80502] = {
+    GroupSpawnId = 80502,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 80502
   },
   [80901] = {
     GroupSpawnId = 80037,
@@ -8181,9 +9524,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8217,9 +9560,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8253,9 +9596,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8289,9 +9632,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8325,9 +9668,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8361,9 +9704,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8397,9 +9740,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8433,9 +9776,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8469,9 +9812,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8505,9 +9848,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8541,9 +9884,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8577,9 +9920,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8613,9 +9956,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8649,9 +9992,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8685,9 +10028,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8721,9 +10064,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8757,9 +10100,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8793,9 +10136,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8829,9 +10172,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8865,9 +10208,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8901,9 +10244,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8937,9 +10280,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -8973,9 +10316,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -9009,9 +10352,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -9045,9 +10388,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -9061,6 +10404,16 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnRadiusMax = 8000,
     UnitSpawnRadiusMin = 1000,
     UnitSpawnTotalNum = 1
+  },
+  [90200] = {
+    GroupSpawnId = 90200,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 90200
+  },
+  [90201] = {
+    GroupSpawnId = 90201,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 90201
   },
   [90901] = {
     GroupSpawnId = 90037,
@@ -9085,9 +10438,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9120,9 +10473,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9155,9 +10508,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9190,9 +10543,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9225,9 +10578,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9260,9 +10613,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9295,9 +10648,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9330,9 +10683,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9365,9 +10718,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9400,9 +10753,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9435,9 +10788,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9470,9 +10823,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9505,9 +10858,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9540,9 +10893,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9575,9 +10928,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9610,9 +10963,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9645,9 +10998,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9680,9 +11033,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9715,9 +11068,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9750,9 +11103,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9785,9 +11138,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9820,9 +11173,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9855,9 +11208,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9868,6 +11221,78 @@ return ReadOnly("MonsterSpawn", {
     Tacmap = true,
     Threshold = 1,
     UnitSpawnId = 91123,
+    UnitSpawnRadiusMax = 1500,
+    UnitSpawnRadiusMin = 100,
+    UnitSpawnTotalNum = 1
+  },
+  [91124] = {
+    CheckVision = false,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6017014,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 91124,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 3000,
+    UnitSpawnTotalNum = 1
+  },
+  [91125] = {
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = true,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6016021,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 1500,
+    PhoneUnitSpawnRadiusMin = 100,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 91125,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
     UnitSpawnTotalNum = 1
@@ -9890,9 +11315,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9925,9 +11350,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9960,9 +11385,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -9995,9 +11420,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10030,9 +11455,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10065,9 +11490,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10100,9 +11525,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10118,13 +11543,15 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnTotalNum = 1
   },
   [91144] = {
+    CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
+    FirstPercentFix = 1,
     Mode = "Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6001001,
+        UnitId = 6015013,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -10135,31 +11562,34 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
+    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
     },
+    RandomSpawn = true,
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91144,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
+    UnitSpawnRadiusMax = 10000,
+    UnitSpawnRadiusMin = 1500,
     UnitSpawnTotalNum = 1
   },
   [91145] = {
+    CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
+    FirstPercentFix = 1,
     Mode = "Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6001001,
+        UnitId = 6016013,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -10170,31 +11600,33 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
+    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
     },
+    RandomSpawn = true,
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91145,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
+    UnitSpawnRadiusMax = 10000,
+    UnitSpawnRadiusMin = 1500,
     UnitSpawnTotalNum = 1
   },
   [91146] = {
+    CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Defence",
+    FilterReachable = false,
+    Mode = " Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6001001,
+        UnitId = 6017018,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -10205,31 +11637,32 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
-      Player = ""
+      DefenceCore = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91146,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
     UnitSpawnTotalNum = 1
   },
   [91147] = {
+    CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Defence",
+    FilterReachable = false,
+    Mode = " Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6001001,
+        UnitId = 10005012,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -10240,56 +11673,21 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
-      Player = ""
+      DefenceCore = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91147,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 1
-  },
-  [91148] = {
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Defence",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 6001001,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 91148,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
     UnitSpawnTotalNum = 1
   },
   [91151] = {
@@ -10310,9 +11708,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10325,7 +11723,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91151,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91152] = {
     DetectTime = 1,
@@ -10345,9 +11743,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10360,7 +11758,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91152,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91153] = {
     DetectTime = 1,
@@ -10380,9 +11778,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10395,7 +11793,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91153,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91154] = {
     DetectTime = 1,
@@ -10415,9 +11813,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10430,7 +11828,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91154,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91155] = {
     DetectTime = 1,
@@ -10450,9 +11848,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10465,7 +11863,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91155,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91156] = {
     DetectTime = 1,
@@ -10485,9 +11883,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10500,7 +11898,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91156,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91157] = {
     DetectTime = 1,
@@ -10520,9 +11918,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10535,7 +11933,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91157,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91158] = {
     DetectTime = 1,
@@ -10555,9 +11953,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10570,7 +11968,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91158,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91159] = {
     DetectTime = 1,
@@ -10590,9 +11988,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10605,7 +12003,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91159,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91160] = {
     DetectTime = 1,
@@ -10625,9 +12023,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10640,7 +12038,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91160,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91161] = {
     DetectTime = 1,
@@ -10660,9 +12058,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10675,7 +12073,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91161,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91162] = {
     DetectTime = 1,
@@ -10695,9 +12093,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10710,7 +12108,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91162,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91163] = {
     DetectTime = 1,
@@ -10730,9 +12128,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10745,7 +12143,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91163,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91164] = {
     DetectTime = 1,
@@ -10765,9 +12163,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10780,7 +12178,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91164,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91165] = {
     DetectTime = 1,
@@ -10800,9 +12198,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10815,7 +12213,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91165,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91166] = {
     DetectTime = 1,
@@ -10835,9 +12233,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10850,7 +12248,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91166,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91167] = {
     DetectTime = 1,
@@ -10870,9 +12268,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10885,7 +12283,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91167,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91168] = {
     DetectTime = 1,
@@ -10905,9 +12303,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10920,7 +12318,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91168,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91169] = {
     DetectTime = 1,
@@ -10940,9 +12338,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10955,7 +12353,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91169,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91170] = {
     DetectTime = 1,
@@ -10975,9 +12373,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -10990,7 +12388,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91170,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91171] = {
     DetectTime = 1,
@@ -11010,9 +12408,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -11025,7 +12423,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91171,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91172] = {
     DetectTime = 1,
@@ -11045,9 +12443,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -11060,7 +12458,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91172,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91173] = {
     DetectTime = 1,
@@ -11080,9 +12478,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -11095,7 +12493,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91173,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91174] = {
     DetectTime = 1,
@@ -11115,9 +12513,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -11130,7 +12528,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91174,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91175] = {
     DetectTime = 1,
@@ -11150,9 +12548,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -11165,7 +12563,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91175,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91176] = {
     DetectTime = 1,
@@ -11185,9 +12583,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -11200,7 +12598,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91176,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91177] = {
     DetectTime = 1,
@@ -11220,9 +12618,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -11235,7 +12633,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91177,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91178] = {
     DetectTime = 1,
@@ -11255,9 +12653,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -11270,7 +12668,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91178,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91179] = {
     DetectTime = 1,
@@ -11290,9 +12688,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -11305,7 +12703,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91179,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91180] = {
     DetectTime = 1,
@@ -11325,9 +12723,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -11340,16 +12738,18 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 91180,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnTotalNum = 5
   },
   [91181] = {
+    CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
+    FirstPercentFix = 1,
     Mode = "Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6001001,
+        UnitId = 6015013,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -11360,31 +12760,34 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
+    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
     },
+    RandomSpawn = true,
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91181,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
+    UnitSpawnRadiusMax = 10000,
+    UnitSpawnRadiusMin = 1500,
     UnitSpawnTotalNum = 10
   },
   [91182] = {
+    CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
+    FirstPercentFix = 1,
     Mode = "Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6001001,
+        UnitId = 6016013,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -11395,31 +12798,33 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
+    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
     },
+    RandomSpawn = true,
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91182,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
+    UnitSpawnRadiusMax = 10000,
+    UnitSpawnRadiusMin = 1500,
     UnitSpawnTotalNum = 10
   },
   [91183] = {
+    CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Defence",
+    FilterReachable = false,
+    Mode = " Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6001001,
+        UnitId = 6017018,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -11430,31 +12835,32 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
-      Player = ""
+      DefenceCore = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91183,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
     UnitSpawnTotalNum = 10
   },
   [91184] = {
+    CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Defence",
+    FilterReachable = false,
+    Mode = " Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6001001,
+        UnitId = 10005012,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -11465,31 +12871,32 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
-      Player = ""
+      DefenceCore = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91184,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
     UnitSpawnTotalNum = 10
   },
   [91185] = {
+    CheckVision = false,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6001001,
+        UnitId = 6017014,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -11500,32 +12907,33 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
+    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
     },
+    RandomSpawn = true,
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91185,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 10
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 3000,
+    UnitSpawnTotalNum = 5
   },
-  [91201] = {
-    CheckVision = true,
+  [91186] = {
+    CheckVision = false,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
+    FilterReachable = false,
+    Mode = "Defence",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 9002019,
+        UnitId = 6016021,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -11536,316 +12944,29 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 91201,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 1
-  },
-  [91202] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9001023,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 91202,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 1
-  },
-  [91203] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9007023,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1
     },
-    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMax = 8000,
     PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
     },
+    RandomSpawn = true,
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
-    UnitSpawnId = 91203,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 1
-  },
-  [91204] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9002024,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 91204,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 1
-  },
-  [91205] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9001017,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 91205,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 1
-  },
-  [91206] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9007022,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 91206,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 1
-  },
-  [91207] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9002023,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 91207,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 1
-  },
-  [91208] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9001024,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 91208,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 1
-  },
-  [91209] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9007019,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 91209,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 1
+    UnitSpawnId = 91186,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 3000,
+    UnitSpawnTotalNum = 5
   },
   [91251] = {
     CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Player",
     MonsterSpawnInfos = {
       [1] = {
@@ -11860,28 +12981,28 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91251,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 10
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 5
   },
   [91252] = {
     CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Player",
     MonsterSpawnInfos = {
       [1] = {
@@ -11896,28 +13017,28 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91252,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 10
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 5
   },
   [91253] = {
     CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Player",
     MonsterSpawnInfos = {
       [1] = {
@@ -11932,28 +13053,28 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91253,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 10
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 5
   },
   [91254] = {
     CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Player",
     MonsterSpawnInfos = {
       [1] = {
@@ -11968,28 +13089,28 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91254,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 10
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 5
   },
   [91255] = {
     CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Player",
     MonsterSpawnInfos = {
       [1] = {
@@ -12004,28 +13125,28 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91255,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 10
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 5
   },
   [91256] = {
     CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Player",
     MonsterSpawnInfos = {
       [1] = {
@@ -12040,28 +13161,28 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91256,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 10
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 5
   },
   [91257] = {
     CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Player",
     MonsterSpawnInfos = {
       [1] = {
@@ -12076,28 +13197,28 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91257,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 10
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 5
   },
   [91258] = {
     CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Player",
     MonsterSpawnInfos = {
       [1] = {
@@ -12112,28 +13233,28 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91258,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 10
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 5
   },
   [91259] = {
     CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Player",
     MonsterSpawnInfos = {
       [1] = {
@@ -12148,22 +13269,22 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 91259,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 10
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 5
   },
   [100201] = {
     CheckVision = true,
@@ -12581,6 +13702,374 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnRadiusMin = 1500,
     UnitSpawnTotalNum = -1
   },
+  [100301] = {
+    CheckVision = true,
+    DetectTime = 6,
+    DetectTimeFix = 3,
+    FilterReachable = false,
+    Mode = " Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [2] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 12,
+        UnitNumFix = 12
+      },
+      [3] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [4] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 12,
+        UnitNumFix = 12
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 28,
+    UnitSpawnId = 100301,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 64
+  },
+  [100302] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = " Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [2] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 20,
+        UnitNumFix = 20
+      },
+      [3] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 100302,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 80
+  },
+  [100303] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = " Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [2] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 20,
+        UnitNumFix = 20
+      },
+      [3] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    RelationId = 100303,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 100303,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 80
+  },
+  [100304] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = " Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [2] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 20,
+        UnitNumFix = 20
+      },
+      [3] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 100304,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 80
+  },
+  [100305] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = " Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [2] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 20,
+        UnitNumFix = 20
+      },
+      [3] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    RelationId = 100305,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 100305,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 80
+  },
+  [100306] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = " Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [2] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 20,
+        UnitNumFix = 20
+      },
+      [3] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 100306,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 80
+  },
+  [100307] = {
+    CheckVision = true,
+    DetectTime = 40,
+    DetectTimeFix = 40,
+    FilterReachable = false,
+    Mode = " Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 10003001,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.6,
+      1.8,
+      2
+    },
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 100307,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
+  },
+  [100308] = {
+    CheckVision = true,
+    DetectTime = 40,
+    DetectTimeFix = 40,
+    FilterReachable = false,
+    Mode = " Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 10003001,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.6,
+      1.8,
+      2
+    },
+    PhoneUnitSpawnRadiusMax = 6000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      DefenceCore = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 100308,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
+  },
   [100501] = {
     CheckVision = true,
     DetectTime = 34,
@@ -12647,7 +14136,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100501,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100502] = {
     CheckVision = true,
@@ -12715,7 +14204,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100502,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100503] = {
     CheckVision = true,
@@ -12783,7 +14272,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100503,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100504] = {
     CheckVision = true,
@@ -12851,7 +14340,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100504,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100505] = {
     CheckVision = true,
@@ -12919,7 +14408,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100505,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100506] = {
     CheckVision = true,
@@ -12987,7 +14476,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 100506,
     UnitSpawnRadiusMax = 10000,
     UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 400
+    UnitSpawnTotalNum = -1
   },
   [100601] = {
     CheckVision = true,
@@ -13397,6 +14886,73 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnRadiusMin = 1500,
     UnitSpawnTotalNum = -1
   },
+  [108141] = {
+    CheckVision = false,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [2] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [3] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 12,
+        UnitNumFix = 12
+      },
+      [4] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      },
+      [5] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 9,
+        UnitNumFix = 9
+      },
+      [6] = {
+        UnitId = 6004001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 108141,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 3000,
+    UnitSpawnTotalNum = 99
+  },
   [110051] = {
     CheckVision = false,
     DetectTime = 3,
@@ -13654,6 +15210,414 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnRadiusMin = 1500,
     UnitSpawnTotalNum = 5
   },
+  [200601] = {
+    CheckVision = true,
+    DetectTime = 6,
+    DetectTimeFix = 3,
+    FilterReachable = false,
+    FirstPercentFix = 60,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [2] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 10,
+        UnitNumFix = 10
+      },
+      [3] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 6,
+        UnitNumFix = 6
+      },
+      [4] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 6,
+        UnitNumFix = 6
+      },
+      [5] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [6] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 2,
+        UnitNumFix = 2
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 28,
+    UnitSpawnId = 200601,
+    UnitSpawnRadiusMax = 10000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = -1
+  },
+  [200602] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    FirstPercentFix = 60,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [2] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 12,
+        UnitNumFix = 12
+      },
+      [3] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      },
+      [4] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [5] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 11,
+        UnitNumFix = 11
+      },
+      [6] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 200602,
+    UnitSpawnRadiusMax = 5000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = -1
+  },
+  [200603] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    FirstPercentFix = 60,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [2] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 12,
+        UnitNumFix = 12
+      },
+      [3] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [4] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [5] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 11,
+        UnitNumFix = 11
+      },
+      [6] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 200603,
+    UnitSpawnRadiusMax = 5000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = -1
+  },
+  [200604] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    FirstPercentFix = 60,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [2] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 12,
+        UnitNumFix = 12
+      },
+      [3] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      },
+      [4] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [5] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 11,
+        UnitNumFix = 11
+      },
+      [6] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 200604,
+    UnitSpawnRadiusMax = 5000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = -1
+  },
+  [200605] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    FirstPercentFix = 60,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 10005001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [2] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 12,
+        UnitNumFix = 12
+      },
+      [3] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [4] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [5] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 11,
+        UnitNumFix = 11
+      },
+      [6] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 200605,
+    UnitSpawnRadiusMax = 5000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = -1
+  },
+  [200606] = {
+    CheckVision = true,
+    DetectTime = 8,
+    DetectTimeFix = 4,
+    FilterReachable = false,
+    FirstPercentFix = 60,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 15,
+        UnitNumFix = 15
+      },
+      [2] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 12,
+        UnitNumFix = 12
+      },
+      [3] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      },
+      [4] = {
+        UnitId = 6017001,
+        UnitLevel = 0,
+        UnitNum = 8,
+        UnitNumFix = 8
+      },
+      [5] = {
+        UnitId = 6016001,
+        UnitLevel = 0,
+        UnitNum = 11,
+        UnitNumFix = 11
+      },
+      [6] = {
+        UnitId = 6015001,
+        UnitLevel = 0,
+        UnitNum = 3,
+        UnitNumFix = 3
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1.2,
+      1.4,
+      1.6
+    },
+    PhoneUnitSpawnRadiusMax = 5000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 35,
+    UnitSpawnId = 200606,
+    UnitSpawnRadiusMax = 10000,
+    UnitSpawnRadiusMin = 1500,
+    UnitSpawnTotalNum = -1
+  },
   [780101] = {
     CheckVision = true,
     DetectTime = 1,
@@ -13798,9 +15762,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -13834,9 +15798,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -13870,9 +15834,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -13906,9 +15870,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -13942,9 +15906,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -13978,9 +15942,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -14014,9 +15978,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -14050,9 +16014,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
     PhoneUnitSpawnRadiusMin = 1000,
@@ -14085,9 +16049,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14100,7 +16064,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911510,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911520] = {
     DetectTime = 1,
@@ -14120,9 +16084,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14135,7 +16099,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911520,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911530] = {
     DetectTime = 1,
@@ -14155,9 +16119,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14170,7 +16134,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911530,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911540] = {
     DetectTime = 1,
@@ -14190,9 +16154,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14205,7 +16169,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911540,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911550] = {
     DetectTime = 1,
@@ -14225,9 +16189,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14240,7 +16204,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911550,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911560] = {
     DetectTime = 1,
@@ -14260,9 +16224,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14275,7 +16239,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911560,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911570] = {
     DetectTime = 1,
@@ -14295,9 +16259,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14310,7 +16274,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911570,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911580] = {
     DetectTime = 1,
@@ -14330,9 +16294,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14345,7 +16309,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911580,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911590] = {
     DetectTime = 1,
@@ -14365,9 +16329,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14380,7 +16344,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911590,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911600] = {
     DetectTime = 1,
@@ -14400,9 +16364,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14415,7 +16379,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911600,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911610] = {
     DetectTime = 1,
@@ -14435,9 +16399,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14450,7 +16414,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911610,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911620] = {
     DetectTime = 1,
@@ -14470,9 +16434,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14485,7 +16449,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911620,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911630] = {
     DetectTime = 1,
@@ -14505,9 +16469,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14520,7 +16484,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911630,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911640] = {
     DetectTime = 1,
@@ -14540,9 +16504,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14555,7 +16519,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911640,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911650] = {
     DetectTime = 1,
@@ -14575,9 +16539,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14590,7 +16554,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911650,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911660] = {
     DetectTime = 1,
@@ -14610,9 +16574,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14625,7 +16589,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911660,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911670] = {
     DetectTime = 1,
@@ -14645,9 +16609,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14660,7 +16624,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911670,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911680] = {
     DetectTime = 1,
@@ -14680,9 +16644,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14695,7 +16659,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911680,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911690] = {
     DetectTime = 1,
@@ -14715,9 +16679,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14730,7 +16694,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911690,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911700] = {
     DetectTime = 1,
@@ -14750,9 +16714,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14765,7 +16729,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911700,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911710] = {
     DetectTime = 1,
@@ -14785,9 +16749,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14800,7 +16764,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911710,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911720] = {
     DetectTime = 1,
@@ -14820,9 +16784,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14835,7 +16799,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911720,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911730] = {
     DetectTime = 1,
@@ -14855,9 +16819,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14870,7 +16834,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911730,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911740] = {
     DetectTime = 1,
@@ -14890,9 +16854,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14905,7 +16869,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911740,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911750] = {
     DetectTime = 1,
@@ -14925,9 +16889,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14940,7 +16904,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911750,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911760] = {
     DetectTime = 1,
@@ -14960,9 +16924,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -14975,7 +16939,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911760,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911770] = {
     DetectTime = 1,
@@ -14995,9 +16959,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -15010,7 +16974,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911770,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911780] = {
     DetectTime = 1,
@@ -15030,9 +16994,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -15045,7 +17009,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911780,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911790] = {
     DetectTime = 1,
@@ -15065,9 +17029,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -15080,7 +17044,7 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911790,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911800] = {
     DetectTime = 1,
@@ -15100,9 +17064,9 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 1500,
     PhoneUnitSpawnRadiusMin = 100,
@@ -15115,152 +17079,13 @@ return ReadOnly("MonsterSpawn", {
     UnitSpawnId = 911800,
     UnitSpawnRadiusMax = 1500,
     UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
-  },
-  [911810] = {
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Defence",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 6013017,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 911810,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
-  },
-  [911820] = {
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Defence",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 6001012,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 911820,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
-  },
-  [911830] = {
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Defence",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 6002015,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 911830,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
-  },
-  [911840] = {
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Defence",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 6013017,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 911840,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnTotalNum = 2
   },
   [911850] = {
+    CheckVision = false,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Defence",
     MonsterSpawnInfos = {
       [1] = {
@@ -15275,316 +17100,66 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
-    PhoneUnitSpawnRadiusMax = 1500,
-    PhoneUnitSpawnRadiusMin = 100,
+    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMin = 1500,
     PresetTargetInfo = {
       Player = ""
     },
+    RandomSpawn = true,
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 911850,
-    UnitSpawnRadiusMax = 1500,
-    UnitSpawnRadiusMin = 100,
-    UnitSpawnTotalNum = 3
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 3000,
+    UnitSpawnTotalNum = 2
+  },
+  [911860] = {
+    CheckVision = false,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Defence",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 6013017,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 8000,
+    PhoneUnitSpawnRadiusMin = 1500,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    RandomSpawn = true,
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 911860,
+    UnitSpawnRadiusMax = 12000,
+    UnitSpawnRadiusMin = 3000,
+    UnitSpawnTotalNum = 2
   },
   [912510] = {
     CheckVision = true,
     DetectTime = 1,
     DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9007023,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 912510,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 3
-  },
-  [912520] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9002024,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 912520,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 3
-  },
-  [912530] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9001017,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 912530,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 3
-  },
-  [912540] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9007022,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 912540,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 3
-  },
-  [912550] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9002023,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 912550,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 3
-  },
-  [912560] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9001024,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 912560,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 3
-  },
-  [912570] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9007019,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 912570,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 3
-  },
-  [912580] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
-    Mode = "Player",
-    MonsterSpawnInfos = {
-      [1] = {
-        UnitId = 9002019,
-        UnitLevel = 0,
-        UnitNum = 1,
-        UnitNumFix = 1
-      }
-    },
-    MultiInfo = {
-      Player = ""
-    },
-    MultiPara = {
-      1,
-      1.6,
-      1.8,
-      2
-    },
-    PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
-    PresetTargetInfo = {
-      Player = ""
-    },
-    SpawnType = "Random",
-    Tacmap = true,
-    Threshold = 1,
-    UnitSpawnId = 912580,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 3
-  },
-  [912590] = {
-    CheckVision = true,
-    DetectTime = 1,
-    DetectTimeFix = 1,
-    FilterReachable = true,
+    FilterReachable = false,
     Mode = "Player",
     MonsterSpawnInfos = {
       [1] = {
@@ -15599,92 +17174,380 @@ return ReadOnly("MonsterSpawn", {
     },
     MultiPara = {
       1,
-      1.6,
-      1.8,
-      2
+      1,
+      1,
+      1
     },
     PhoneUnitSpawnRadiusMax = 4000,
-    PhoneUnitSpawnRadiusMin = 1500,
+    PhoneUnitSpawnRadiusMin = 1000,
     PresetTargetInfo = {
       Player = ""
     },
     SpawnType = "Random",
-    Tacmap = true,
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 912510,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
+  },
+  [912520] = {
+    CheckVision = true,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 9007023,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 912520,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
+  },
+  [912530] = {
+    CheckVision = true,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 9002024,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 912530,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
+  },
+  [912540] = {
+    CheckVision = true,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 9001017,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 912540,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
+  },
+  [912550] = {
+    CheckVision = true,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 9007022,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 912550,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
+  },
+  [912560] = {
+    CheckVision = true,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 9002023,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 912560,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
+  },
+  [912570] = {
+    CheckVision = true,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 9001024,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 912570,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
+  },
+  [912580] = {
+    CheckVision = true,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 9007019,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
+    Threshold = 1,
+    UnitSpawnId = 912580,
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
+  },
+  [912590] = {
+    CheckVision = true,
+    DetectTime = 1,
+    DetectTimeFix = 1,
+    FilterReachable = false,
+    Mode = "Player",
+    MonsterSpawnInfos = {
+      [1] = {
+        UnitId = 9002019,
+        UnitLevel = 0,
+        UnitNum = 1,
+        UnitNumFix = 1
+      }
+    },
+    MultiInfo = {
+      Player = ""
+    },
+    MultiPara = {
+      1,
+      1,
+      1,
+      1
+    },
+    PhoneUnitSpawnRadiusMax = 4000,
+    PhoneUnitSpawnRadiusMin = 1000,
+    PresetTargetInfo = {
+      Player = ""
+    },
+    SpawnType = "Random",
+    Tacmap = false,
     Threshold = 1,
     UnitSpawnId = 912590,
-    UnitSpawnRadiusMax = 4000,
-    UnitSpawnRadiusMin = 1500,
-    UnitSpawnTotalNum = 3
+    UnitSpawnRadiusMax = 8000,
+    UnitSpawnRadiusMin = 1000,
+    UnitSpawnTotalNum = 2
   },
-  [4020101] = {
-    GroupSpawnId = 4020101,
+  [2200101] = {
+    GroupSpawnId = 2200101,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020101
+    UnitSpawnId = 2200101
   },
-  [4020102] = {
-    GroupSpawnId = 4020102,
+  [2200102] = {
+    GroupSpawnId = 2200102,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020102
+    UnitSpawnId = 2200102
   },
-  [4020201] = {
-    GroupSpawnId = 4020201,
+  [2200201] = {
+    GroupSpawnId = 2200201,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020201
+    UnitSpawnId = 2200201
   },
-  [4020202] = {
-    GroupSpawnId = 4020202,
+  [2200202] = {
+    GroupSpawnId = 2200202,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020202
+    UnitSpawnId = 2200202
   },
-  [4020301] = {
-    GroupSpawnId = 4020301,
+  [2200301] = {
+    GroupSpawnId = 2200301,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020301
+    UnitSpawnId = 2200301
   },
-  [4020302] = {
-    GroupSpawnId = 4020302,
+  [2200302] = {
+    GroupSpawnId = 2200302,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020302
+    UnitSpawnId = 2200302
   },
-  [4020401] = {
-    GroupSpawnId = 4020401,
+  [2200401] = {
+    GroupSpawnId = 2200401,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020401
+    UnitSpawnId = 2200401
   },
-  [4020402] = {
-    GroupSpawnId = 4020402,
+  [2200402] = {
+    GroupSpawnId = 2200402,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020402
+    UnitSpawnId = 2200402
   },
-  [4020501] = {
-    GroupSpawnId = 4020501,
+  [2200501] = {
+    GroupSpawnId = 2200501,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020501
+    UnitSpawnId = 2200501
   },
-  [4020502] = {
-    GroupSpawnId = 4020502,
+  [2200502] = {
+    GroupSpawnId = 2200502,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020502
+    UnitSpawnId = 2200502
   },
-  [4020601] = {
-    GroupSpawnId = 4020601,
+  [2200601] = {
+    GroupSpawnId = 2200601,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020601
+    UnitSpawnId = 2200601
   },
-  [4020602] = {
-    GroupSpawnId = 4020602,
+  [2200602] = {
+    GroupSpawnId = 2200602,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020602
+    UnitSpawnId = 2200602
   },
-  [4020701] = {
-    GroupSpawnId = 4020701,
+  [2200701] = {
+    GroupSpawnId = 2200701,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020701
+    UnitSpawnId = 2200701
   },
-  [4020702] = {
-    GroupSpawnId = 4020702,
+  [2200702] = {
+    GroupSpawnId = 2200702,
     OpenGroupSpawn = true,
-    UnitSpawnId = 4020702
+    UnitSpawnId = 2200702
   },
   [6001012] = {
     GroupSpawnId = 6001012,
@@ -15961,6 +17824,21 @@ return ReadOnly("MonsterSpawn", {
     OpenGroupSpawn = true,
     UnitSpawnId = 8002024
   },
+  [8002701] = {
+    GroupSpawnId = 8002701,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 8002701
+  },
+  [8002702] = {
+    GroupSpawnId = 8002702,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 8002702
+  },
+  [8002703] = {
+    GroupSpawnId = 8002703,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 8002703
+  },
   [8003011] = {
     GroupSpawnId = 8003011,
     OpenGroupSpawn = true,
@@ -16030,6 +17908,21 @@ return ReadOnly("MonsterSpawn", {
     GroupSpawnId = 8003024,
     OpenGroupSpawn = true,
     UnitSpawnId = 8003024
+  },
+  [8003701] = {
+    GroupSpawnId = 8003701,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 8003701
+  },
+  [8003702] = {
+    GroupSpawnId = 8003702,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 8003702
+  },
+  [8003703] = {
+    GroupSpawnId = 8003703,
+    OpenGroupSpawn = true,
+    UnitSpawnId = 8003703
   },
   [9000101] = {
     CheckVision = false,

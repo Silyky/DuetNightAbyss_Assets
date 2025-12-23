@@ -2796,7 +2796,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 10000
     },
     RewardId = 1016,
@@ -2822,7 +2822,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -2854,7 +2854,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -2886,7 +2886,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -2918,7 +2918,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -2950,7 +2950,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -2976,7 +2976,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 10000
     },
     RewardId = 1022,
@@ -3002,7 +3002,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3034,7 +3034,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3066,7 +3066,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3098,7 +3098,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3130,7 +3130,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3156,7 +3156,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 10000
     },
     RewardId = 1028,
@@ -3182,7 +3182,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3214,7 +3214,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3246,7 +3246,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3278,7 +3278,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3310,7 +3310,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3336,7 +3336,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 10000
     },
     RewardId = 1034,
@@ -3362,7 +3362,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3394,7 +3394,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3426,7 +3426,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3458,7 +3458,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3490,7 +3490,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3516,7 +3516,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 10000
     },
     RewardId = 1040,
@@ -3542,7 +3542,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3574,7 +3574,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3606,7 +3606,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3638,7 +3638,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -3670,7 +3670,7 @@ return ReadOnly("Reward", {
     },
     Mode = "Independent",
     Param = {
-      [1] = 10001,
+      [1] = 10000,
       [2] = 8000,
       [3] = 2000,
       [4] = 10000,
@@ -4591,6 +4591,160 @@ return ReadOnly("Reward", {
       [1] = "Resource",
       [2] = "Reward",
       [3] = "Drop"
+    }
+  },
+  [3014] = {
+    Count = {
+      [1] = 5
+    },
+    DetailDes = "Fixed",
+    Icon = "Resource",
+    Id = {
+      [1] = 29005
+    },
+    Mode = "Fixed",
+    RewardId = 3014,
+    Sound = "29005.0",
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [3015] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 5,
+      [4] = 1
+    },
+    Id = {
+      [1] = 2014,
+      [2] = 2014,
+      [3] = 2001,
+      [4] = 211
+    },
+    Mode = "Fixed",
+    RewardId = 3015,
+    Type = {
+      [1] = "Reward",
+      [2] = "Reward",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [3016] = {
+    Count = {
+      [1] = 2,
+      [2] = 2,
+      [3] = 2,
+      [4] = 10
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2014,
+      [3] = 64,
+      [4] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 3016,
+    Type = {
+      [1] = "Resource",
+      [2] = "Reward",
+      [3] = "Reward",
+      [4] = "Resource"
+    }
+  },
+  [3017] = {
+    Count = {
+      [1] = 5,
+      [2] = 5,
+      [3] = 5,
+      [4] = 15
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2014,
+      [3] = 64,
+      [4] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 3017,
+    Type = {
+      [1] = "Resource",
+      [2] = "Reward",
+      [3] = "Reward",
+      [4] = "Resource"
+    }
+  },
+  [3018] = {
+    Count = {
+      [1] = 2,
+      [2] = 3,
+      [3] = 1,
+      [4] = 15,
+      [5] = 2
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2014,
+      [3] = 64,
+      [4] = 2001,
+      [5] = 3002
+    },
+    Mode = "Fixed",
+    RewardId = 3018,
+    Type = {
+      [1] = "Resource",
+      [2] = "Reward",
+      [3] = "Reward",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [3019] = {
+    Count = {
+      [1] = 10,
+      [2] = 20,
+      [3] = 2,
+      [4] = 2
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2001,
+      [3] = 3003,
+      [4] = 1002
+    },
+    Mode = "Fixed",
+    RewardId = 3019,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [3020] = {
+    Count = {
+      [1] = 10,
+      [2] = 20,
+      [3] = 2,
+      [4] = 2,
+      [5] = 1
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2001,
+      [3] = 3003,
+      [4] = 1002,
+      [5] = 2000098
+    },
+    Mode = "Fixed",
+    RewardId = 3020,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource"
     }
   },
   [3021] = {
@@ -7174,20 +7328,17 @@ return ReadOnly("Reward", {
   [7423] = {
     Count = {
       [1] = 5000,
-      [2] = 1,
-      [3] = 1
+      [2] = 1
     },
     Id = {
       [1] = 101,
-      [2] = 10005,
-      [3] = 20039
+      [2] = 10005
     },
     Mode = "Fixed",
     RewardId = 7423,
     Type = {
       [1] = "Resource",
-      [2] = "Title",
-      [3] = "Title"
+      [2] = "Title"
     }
   },
   [7424] = {
@@ -8165,6 +8316,22 @@ return ReadOnly("Reward", {
       [2] = "TitleFrame"
     }
   },
+  [7484] = {
+    Count = {
+      [1] = 1,
+      [2] = 1
+    },
+    Id = {
+      [1] = 211,
+      [2] = 20066
+    },
+    Mode = "Fixed",
+    RewardId = 7484,
+    Type = {
+      [1] = "Resource",
+      [2] = "Title"
+    }
+  },
   [7501] = {
     Count = {
       [1] = 1
@@ -9006,6 +9173,166 @@ return ReadOnly("Reward", {
       [2] = "Resource"
     }
   },
+  [7929] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 100
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7929,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [7930] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7930,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [7931] = {
+    Count = {
+      [1] = 100
+    },
+    Id = {
+      [1] = 102
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7931,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [7932] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7932,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [7933] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 20013
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7933,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [7934] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7934,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [7935] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 1001
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7935,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [7936] = {
+    Count = {
+      [1] = 10,
+      [2] = 100
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7936,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [7937] = {
+    Count = {
+      [1] = 20,
+      [2] = 1
+    },
+    Id = {
+      [1] = 211,
+      [2] = 207
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7937,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [7938] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 211
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7938,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [7939] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3005
+    },
+    IpDes = "Fixed",
+    Mode = "Fixed",
+    RewardId = 7939,
+    Type = {
+      [1] = "Resource"
+    }
+  },
   [8001] = {
     Count = {
       [1] = 5
@@ -9293,7 +9620,7 @@ return ReadOnly("Reward", {
     Count = {
       [1] = 30,
       [2] = 30,
-      [3] = {200000}
+      [3] = 200000
     },
     DetailDes = "Pack_Des_Shop_Exp_02",
     FunctionDes = "UI_Pack",
@@ -10751,6 +11078,82 @@ return ReadOnly("Reward", {
       [2] = "Resource"
     }
   },
+  [12057] = {
+    Count = {
+      [1] = 20
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_WeaponUserChoose.T_Pack_WeaponUserChoose'",
+    Id = {
+      [1] = 110014
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_WeaponLevel_1",
+    Rarity = 4,
+    RewardId = 12057,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [12058] = {
+    Count = {
+      [1] = 50
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_WeaponUserChoose.T_Pack_WeaponUserChoose'",
+    Id = {
+      [1] = 110014
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_WeaponLevel_2",
+    Rarity = 4,
+    RewardId = 12058,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [12059] = {
+    Count = {
+      [1] = {600000}
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_CP_Mid.T_Pack_CP_Mid'",
+    Id = {
+      [1] = 101
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_Copper_1",
+    Rarity = 4,
+    RewardId = 12059,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [12060] = {
+    Count = {
+      [1] = {1500000}
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_CP_Big.T_Pack_CP_Big'",
+    Id = {
+      [1] = 101
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_Copper_2",
+    Rarity = 4,
+    RewardId = 12060,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource"
+    }
+  },
   [12099] = {
     Count = {
       [1] = 1,
@@ -10773,6 +11176,33 @@ return ReadOnly("Reward", {
       [2] = "WeaponSkin",
       [3] = "CharAccessory",
       [4] = "WeaponAccessory"
+    }
+  },
+  [12100] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1
+    },
+    Id = {
+      [1] = 240101,
+      [2] = 3010501,
+      [3] = 80002,
+      [4] = 10053,
+      [5] = 10024
+    },
+    Mode = "Fixed",
+    Rarity = 5,
+    RewardId = 12100,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Skin",
+      [2] = "WeaponSkin",
+      [3] = "CharAccessory",
+      [4] = "CharAccessory",
+      [5] = "WeaponAccessory"
     }
   },
   [12101] = {
@@ -10917,6 +11347,281 @@ return ReadOnly("Reward", {
       [2] = "Skin"
     }
   },
+  [12108] = {
+    Count = {
+      [1] = 150,
+      [2] = 5
+    },
+    Id = {
+      [1] = 99,
+      [2] = 1002
+    },
+    Mode = "Fixed",
+    RewardId = 12108,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [12109] = {
+    Count = {
+      [1] = 1,
+      [2] = 1
+    },
+    Id = {
+      [1] = 1002401,
+      [2] = 1002
+    },
+    Mode = "Fixed",
+    RewardId = 12109,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [12110] = {
+    Count = {
+      [1] = 1
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_LimitTimeGacha01.T_Pack_LimitTimeGacha01'",
+    Id = {
+      [1] = 1004
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_11_Gacha01",
+    Rarity = 5,
+    RewardId = 12110,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [12111] = {
+    Count = {
+      [1] = 3,
+      [2] = 20000
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_LimitTimeGacha02.T_Pack_LimitTimeGacha02'",
+    Id = {
+      [1] = 1004,
+      [2] = 101
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_11_Gacha02",
+    Rarity = 5,
+    RewardId = 12111,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [12112] = {
+    Count = {
+      [1] = 8,
+      [2] = 60000
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_LimitTimeGacha03.T_Pack_LimitTimeGacha03'",
+    Id = {
+      [1] = 1004,
+      [2] = 101
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_11_Gacha03",
+    Rarity = 5,
+    RewardId = 12112,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [12113] = {
+    Count = {
+      [1] = 12
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_LimitTimeGacha04.T_Pack_LimitTimeGacha04'",
+    Id = {
+      [1] = 1004
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_11_Gacha04",
+    Rarity = 5,
+    RewardId = 12113,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [12114] = {
+    Count = {
+      [1] = 15
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_LimitTimeGacha05.T_Pack_LimitTimeGacha05'",
+    Id = {
+      [1] = 1004
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_11_Gacha05",
+    Rarity = 5,
+    RewardId = 12114,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [12115] = {
+    Count = {
+      [1] = 25
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_LimitTimeGacha06.T_Pack_LimitTimeGacha06'",
+    Id = {
+      [1] = 1004
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_11_Gacha06",
+    Rarity = 5,
+    RewardId = 12115,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [12116] = {
+    Count = {
+      [1] = 1,
+      [2] = 1
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_Common01.T_Pack_Common01'",
+    Id = {
+      [1] = 16010011,
+      [2] = 16010111
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_MainChar_General_2",
+    Rarity = 5,
+    RewardId = 12116,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Skin",
+      [2] = "Skin"
+    }
+  },
+  [12117] = {
+    Count = {
+      [1] = 150,
+      [2] = 5
+    },
+    Id = {
+      [1] = 99,
+      [2] = 1002
+    },
+    Mode = "Fixed",
+    RewardId = 12117,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [12118] = {
+    Count = {
+      [1] = 1,
+      [2] = 1
+    },
+    Id = {
+      [1] = 1001503,
+      [2] = 1002
+    },
+    Mode = "Fixed",
+    RewardId = 12118,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [12119] = {
+    Count = {
+      [1] = 10
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_Char_Baiheng.T_Pack_Char_Baiheng'",
+    Id = {
+      [1] = 1002401
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_CharPiece_111",
+    Rarity = 5,
+    RewardId = 12119,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [12120] = {
+    Count = {
+      [1] = 10
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_Char_Kezhou.T_Pack_Char_Kezhou'",
+    Id = {
+      [1] = 1001503
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_CharPiece_112",
+    Rarity = 5,
+    RewardId = 12120,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [12121] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1
+    },
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_Fashion_Christmas4In1.T_Pack_Fashion_Christmas4In1'",
+    Id = {
+      [1] = 110006,
+      [2] = 10049,
+      [3] = 20041,
+      [4] = 30019,
+      [5] = 40009
+    },
+    IpDes = "UI_Pack",
+    Mode = "Fixed",
+    Name = "Pack_Name_Christmas4In1",
+    Rarity = 5,
+    RewardId = 12121,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource",
+      [2] = "CharAccessory",
+      [3] = "CharAccessory",
+      [4] = "CharAccessory",
+      [5] = "CharAccessory"
+    }
+  },
   [20000] = {
     Count = {
       [1] = 5,
@@ -10953,6 +11658,32 @@ return ReadOnly("Reward", {
       [1] = "Resource",
       [2] = "Resource",
       [3] = "Resource"
+    }
+  },
+  [20300] = {
+    Count = {
+      [1] = 300
+    },
+    Id = {
+      [1] = 2004
+    },
+    Mode = "Fixed",
+    RewardId = 20300,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [20600] = {
+    Count = {
+      [1] = 500
+    },
+    Id = {
+      [1] = 2004
+    },
+    Mode = "Fixed",
+    RewardId = 20600,
+    Type = {
+      [1] = "Resource"
     }
   },
   [22000] = {
@@ -11152,7 +11883,7 @@ return ReadOnly("Reward", {
   },
   [40000] = {
     Count = {
-      [1] = 1000
+      [1] = 3000
     },
     Id = {
       [1] = 101
@@ -11321,7 +12052,7 @@ return ReadOnly("Reward", {
   },
   [40013] = {
     Count = {
-      [1] = 5000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -11334,7 +12065,7 @@ return ReadOnly("Reward", {
   },
   [40014] = {
     Count = {
-      [1] = 4000
+      [1] = 10000
     },
     Id = {
       [1] = 101
@@ -11347,7 +12078,7 @@ return ReadOnly("Reward", {
   },
   [40015] = {
     Count = {
-      [1] = 3000
+      [1] = 8000
     },
     Id = {
       [1] = 101
@@ -11360,7 +12091,7 @@ return ReadOnly("Reward", {
   },
   [40016] = {
     Count = {
-      [1] = 6000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -11373,7 +12104,7 @@ return ReadOnly("Reward", {
   },
   [40017] = {
     Count = {
-      [1] = 5000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -11386,7 +12117,7 @@ return ReadOnly("Reward", {
   },
   [40018] = {
     Count = {
-      [1] = 3000
+      [1] = 8000
     },
     Id = {
       [1] = 101
@@ -11399,7 +12130,7 @@ return ReadOnly("Reward", {
   },
   [40019] = {
     Count = {
-      [1] = 5000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -11412,7 +12143,7 @@ return ReadOnly("Reward", {
   },
   [40020] = {
     Count = {
-      [1] = 4000
+      [1] = 10000
     },
     Id = {
       [1] = 101
@@ -11425,7 +12156,7 @@ return ReadOnly("Reward", {
   },
   [40021] = {
     Count = {
-      [1] = 3000
+      [1] = 8000
     },
     Id = {
       [1] = 101
@@ -11438,7 +12169,7 @@ return ReadOnly("Reward", {
   },
   [40022] = {
     Count = {
-      [1] = 6000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -11451,7 +12182,7 @@ return ReadOnly("Reward", {
   },
   [40023] = {
     Count = {
-      [1] = 5000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -11464,7 +12195,7 @@ return ReadOnly("Reward", {
   },
   [40024] = {
     Count = {
-      [1] = 3000
+      [1] = 8000
     },
     Id = {
       [1] = 101
@@ -11750,7 +12481,7 @@ return ReadOnly("Reward", {
   },
   [40046] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -11763,7 +12494,7 @@ return ReadOnly("Reward", {
   },
   [40047] = {
     Count = {
-      [1] = 4000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -11776,7 +12507,7 @@ return ReadOnly("Reward", {
   },
   [40048] = {
     Count = {
-      [1] = 3000
+      [1] = 8000
     },
     Id = {
       [1] = 101
@@ -11789,7 +12520,7 @@ return ReadOnly("Reward", {
   },
   [40049] = {
     Count = {
-      [1] = 6000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -11802,7 +12533,7 @@ return ReadOnly("Reward", {
   },
   [40050] = {
     Count = {
-      [1] = 5000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -11815,7 +12546,7 @@ return ReadOnly("Reward", {
   },
   [40051] = {
     Count = {
-      [1] = 3000
+      [1] = 10000
     },
     Id = {
       [1] = 101
@@ -11828,7 +12559,7 @@ return ReadOnly("Reward", {
   },
   [40052] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -11841,7 +12572,7 @@ return ReadOnly("Reward", {
   },
   [40053] = {
     Count = {
-      [1] = 4000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -11854,7 +12585,7 @@ return ReadOnly("Reward", {
   },
   [40054] = {
     Count = {
-      [1] = 3000
+      [1] = 8000
     },
     Id = {
       [1] = 101
@@ -11867,7 +12598,7 @@ return ReadOnly("Reward", {
   },
   [40055] = {
     Count = {
-      [1] = 6000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -11880,7 +12611,7 @@ return ReadOnly("Reward", {
   },
   [40056] = {
     Count = {
-      [1] = 5000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -11893,7 +12624,7 @@ return ReadOnly("Reward", {
   },
   [40057] = {
     Count = {
-      [1] = 3000
+      [1] = 10000
     },
     Id = {
       [1] = 101
@@ -11906,7 +12637,7 @@ return ReadOnly("Reward", {
   },
   [40058] = {
     Count = {
-      [1] = 7000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -11919,7 +12650,7 @@ return ReadOnly("Reward", {
   },
   [40059] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -11932,7 +12663,7 @@ return ReadOnly("Reward", {
   },
   [40060] = {
     Count = {
-      [1] = 4000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -12257,7 +12988,7 @@ return ReadOnly("Reward", {
   },
   [40085] = {
     Count = {
-      [1] = 2
+      [1] = 3
     },
     Id = {
       [1] = 3014
@@ -12270,7 +13001,7 @@ return ReadOnly("Reward", {
   },
   [40086] = {
     Count = {
-      [1] = 1
+      [1] = 2
     },
     Id = {
       [1] = 3014
@@ -12296,7 +13027,7 @@ return ReadOnly("Reward", {
   },
   [40088] = {
     Count = {
-      [1] = 2
+      [1] = 3
     },
     Id = {
       [1] = 3012
@@ -12309,7 +13040,7 @@ return ReadOnly("Reward", {
   },
   [40089] = {
     Count = {
-      [1] = 1
+      [1] = 2
     },
     Id = {
       [1] = 3012
@@ -12780,7 +13511,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200005
+      [1] = 200004
     },
     Mode = "Fixed",
     RewardId = 40125,
@@ -12793,7 +13524,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200004
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40126,
@@ -12806,7 +13537,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200004
+      [1] = 200005
     },
     Mode = "Fixed",
     RewardId = 40127,
@@ -12819,7 +13550,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40128,
@@ -12832,7 +13563,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200001
+      [1] = 200002
     },
     Mode = "Fixed",
     RewardId = 40129,
@@ -12845,7 +13576,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200005
+      [1] = 200006
     },
     Mode = "Fixed",
     RewardId = 40130,
@@ -12858,7 +13589,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200003
+      [1] = 200004
     },
     Mode = "Fixed",
     RewardId = 40131,
@@ -12871,7 +13602,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40132,
@@ -12897,7 +13628,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200005
+      [1] = 200004
     },
     Mode = "Fixed",
     RewardId = 40134,
@@ -12910,7 +13641,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200004
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40135,
@@ -12923,7 +13654,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200003
+      [1] = 200005
     },
     Mode = "Fixed",
     RewardId = 40136,
@@ -12936,7 +13667,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40137,
@@ -12949,7 +13680,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200000
+      [1] = 200002
     },
     Mode = "Fixed",
     RewardId = 40138,
@@ -12962,7 +13693,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200004
+      [1] = 200006
     },
     Mode = "Fixed",
     RewardId = 40139,
@@ -12975,7 +13706,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200004
     },
     Mode = "Fixed",
     RewardId = 40140,
@@ -12988,7 +13719,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200001
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40141,
@@ -13001,7 +13732,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200005
+      [1] = 200007
     },
     Mode = "Fixed",
     RewardId = 40142,
@@ -13014,7 +13745,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200003
+      [1] = 200005
     },
     Mode = "Fixed",
     RewardId = 40143,
@@ -13027,7 +13758,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40144,
@@ -13053,7 +13784,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200005
+      [1] = 200004
     },
     Mode = "Fixed",
     RewardId = 40146,
@@ -13066,7 +13797,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200004
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40147,
@@ -13170,7 +13901,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200005
+      [1] = 200004
     },
     Mode = "Fixed",
     RewardId = 40155,
@@ -13183,7 +13914,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200004
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40156,
@@ -13209,7 +13940,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200005
+      [1] = 200004
     },
     Mode = "Fixed",
     RewardId = 40158,
@@ -13222,7 +13953,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200004
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40159,
@@ -13232,7 +13963,7 @@ return ReadOnly("Reward", {
   },
   [40160] = {
     Count = {
-      [1] = 8000
+      [1] = 25000
     },
     Id = {
       [1] = 101
@@ -13245,7 +13976,7 @@ return ReadOnly("Reward", {
   },
   [40161] = {
     Count = {
-      [1] = 7000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -13258,7 +13989,7 @@ return ReadOnly("Reward", {
   },
   [40162] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -13427,7 +14158,7 @@ return ReadOnly("Reward", {
   },
   [40175] = {
     Count = {
-      [1] = 8000
+      [1] = 42000
     },
     Id = {
       [1] = 101
@@ -13440,7 +14171,7 @@ return ReadOnly("Reward", {
   },
   [40176] = {
     Count = {
-      [1] = 7000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -13453,7 +14184,7 @@ return ReadOnly("Reward", {
   },
   [40177] = {
     Count = {
-      [1] = 5000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -13466,7 +14197,7 @@ return ReadOnly("Reward", {
   },
   [40178] = {
     Count = {
-      [1] = 8000
+      [1] = 42000
     },
     Id = {
       [1] = 101
@@ -13479,7 +14210,7 @@ return ReadOnly("Reward", {
   },
   [40179] = {
     Count = {
-      [1] = 7000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -13492,7 +14223,7 @@ return ReadOnly("Reward", {
   },
   [40180] = {
     Count = {
-      [1] = 5000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -13505,7 +14236,7 @@ return ReadOnly("Reward", {
   },
   [40181] = {
     Count = {
-      [1] = 6000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -13518,7 +14249,7 @@ return ReadOnly("Reward", {
   },
   [40182] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -13531,7 +14262,7 @@ return ReadOnly("Reward", {
   },
   [40183] = {
     Count = {
-      [1] = 3000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -13544,7 +14275,7 @@ return ReadOnly("Reward", {
   },
   [40184] = {
     Count = {
-      [1] = 7000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -13557,7 +14288,7 @@ return ReadOnly("Reward", {
   },
   [40185] = {
     Count = {
-      [1] = 5000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -13570,7 +14301,7 @@ return ReadOnly("Reward", {
   },
   [40186] = {
     Count = {
-      [1] = 4000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -13583,7 +14314,7 @@ return ReadOnly("Reward", {
   },
   [40187] = {
     Count = {
-      [1] = 8000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -13596,7 +14327,7 @@ return ReadOnly("Reward", {
   },
   [40188] = {
     Count = {
-      [1] = 7000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -13609,7 +14340,7 @@ return ReadOnly("Reward", {
   },
   [40189] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -13622,7 +14353,7 @@ return ReadOnly("Reward", {
   },
   [40190] = {
     Count = {
-      [1] = 7000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -13635,7 +14366,7 @@ return ReadOnly("Reward", {
   },
   [40191] = {
     Count = {
-      [1] = 5000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -13648,7 +14379,7 @@ return ReadOnly("Reward", {
   },
   [40192] = {
     Count = {
-      [1] = 4000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -13661,7 +14392,7 @@ return ReadOnly("Reward", {
   },
   [40193] = {
     Count = {
-      [1] = 7000
+      [1] = 25000
     },
     Id = {
       [1] = 101
@@ -13674,7 +14405,7 @@ return ReadOnly("Reward", {
   },
   [40194] = {
     Count = {
-      [1] = 6000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -13687,7 +14418,7 @@ return ReadOnly("Reward", {
   },
   [40195] = {
     Count = {
-      [1] = 4000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -13700,7 +14431,7 @@ return ReadOnly("Reward", {
   },
   [40196] = {
     Count = {
-      [1] = 140
+      [1] = 400
     },
     Id = {
       [1] = 102
@@ -13713,7 +14444,7 @@ return ReadOnly("Reward", {
   },
   [40197] = {
     Count = {
-      [1] = 100
+      [1] = 320
     },
     Id = {
       [1] = 102
@@ -13726,7 +14457,7 @@ return ReadOnly("Reward", {
   },
   [40198] = {
     Count = {
-      [1] = 80
+      [1] = 280
     },
     Id = {
       [1] = 102
@@ -13739,7 +14470,7 @@ return ReadOnly("Reward", {
   },
   [40199] = {
     Count = {
-      [1] = 140
+      [1] = 500
     },
     Id = {
       [1] = 102
@@ -13752,7 +14483,7 @@ return ReadOnly("Reward", {
   },
   [40200] = {
     Count = {
-      [1] = 120
+      [1] = 360
     },
     Id = {
       [1] = 102
@@ -13765,7 +14496,7 @@ return ReadOnly("Reward", {
   },
   [40201] = {
     Count = {
-      [1] = 80
+      [1] = 280
     },
     Id = {
       [1] = 102
@@ -13778,7 +14509,7 @@ return ReadOnly("Reward", {
   },
   [40202] = {
     Count = {
-      [1] = 8000
+      [1] = 25000
     },
     Id = {
       [1] = 101
@@ -13791,7 +14522,7 @@ return ReadOnly("Reward", {
   },
   [40203] = {
     Count = {
-      [1] = 7000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -13804,7 +14535,7 @@ return ReadOnly("Reward", {
   },
   [40204] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -13817,10 +14548,10 @@ return ReadOnly("Reward", {
   },
   [40205] = {
     Count = {
-      [1] = 8000
+      [1] = 500
     },
     Id = {
-      [1] = 101
+      [1] = 102
     },
     Mode = "Fixed",
     RewardId = 40205,
@@ -13830,10 +14561,10 @@ return ReadOnly("Reward", {
   },
   [40206] = {
     Count = {
-      [1] = 7000
+      [1] = 360
     },
     Id = {
-      [1] = 101
+      [1] = 102
     },
     Mode = "Fixed",
     RewardId = 40206,
@@ -13843,10 +14574,10 @@ return ReadOnly("Reward", {
   },
   [40207] = {
     Count = {
-      [1] = 5000
+      [1] = 280
     },
     Id = {
-      [1] = 101
+      [1] = 102
     },
     Mode = "Fixed",
     RewardId = 40207,
@@ -13859,7 +14590,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200003
+      [1] = 200005
     },
     Mode = "Fixed",
     RewardId = 40208,
@@ -13872,7 +14603,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40209,
@@ -13885,7 +14616,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200000
+      [1] = 200002
     },
     Mode = "Fixed",
     RewardId = 40210,
@@ -13898,7 +14629,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200004
+      [1] = 200006
     },
     Mode = "Fixed",
     RewardId = 40211,
@@ -13911,7 +14642,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200004
     },
     Mode = "Fixed",
     RewardId = 40212,
@@ -13924,7 +14655,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200001
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40213,
@@ -13937,7 +14668,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200003
+      [1] = 200005
     },
     Mode = "Fixed",
     RewardId = 40214,
@@ -13950,7 +14681,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40215,
@@ -13963,7 +14694,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200000
+      [1] = 200002
     },
     Mode = "Fixed",
     RewardId = 40216,
@@ -13976,7 +14707,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200004
+      [1] = 200006
     },
     Mode = "Fixed",
     RewardId = 40217,
@@ -13989,7 +14720,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200004
     },
     Mode = "Fixed",
     RewardId = 40218,
@@ -14002,7 +14733,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200001
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40219,
@@ -14015,7 +14746,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200005
+      [1] = 200007
     },
     Mode = "Fixed",
     RewardId = 40220,
@@ -14028,7 +14759,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200003
+      [1] = 200005
     },
     Mode = "Fixed",
     RewardId = 40221,
@@ -14041,7 +14772,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40222,
@@ -14051,10 +14782,10 @@ return ReadOnly("Reward", {
   },
   [40223] = {
     Count = {
-      [1] = 7000
+      [1] = 400
     },
     Id = {
-      [1] = 101
+      [1] = 102
     },
     Mode = "Fixed",
     RewardId = 40223,
@@ -14064,10 +14795,10 @@ return ReadOnly("Reward", {
   },
   [40224] = {
     Count = {
-      [1] = 6000
+      [1] = 320
     },
     Id = {
-      [1] = 101
+      [1] = 102
     },
     Mode = "Fixed",
     RewardId = 40224,
@@ -14077,10 +14808,10 @@ return ReadOnly("Reward", {
   },
   [40225] = {
     Count = {
-      [1] = 4000
+      [1] = 280
     },
     Id = {
-      [1] = 101
+      [1] = 102
     },
     Mode = "Fixed",
     RewardId = 40225,
@@ -14090,10 +14821,10 @@ return ReadOnly("Reward", {
   },
   [40226] = {
     Count = {
-      [1] = 8000
+      [1] = 500
     },
     Id = {
-      [1] = 101
+      [1] = 102
     },
     Mode = "Fixed",
     RewardId = 40226,
@@ -14103,10 +14834,10 @@ return ReadOnly("Reward", {
   },
   [40227] = {
     Count = {
-      [1] = 7000
+      [1] = 360
     },
     Id = {
-      [1] = 101
+      [1] = 102
     },
     Mode = "Fixed",
     RewardId = 40227,
@@ -14116,10 +14847,10 @@ return ReadOnly("Reward", {
   },
   [40228] = {
     Count = {
-      [1] = 5000
+      [1] = 280
     },
     Id = {
-      [1] = 101
+      [1] = 102
     },
     Mode = "Fixed",
     RewardId = 40228,
@@ -14129,7 +14860,7 @@ return ReadOnly("Reward", {
   },
   [40229] = {
     Count = {
-      [1] = 6
+      [1] = 12
     },
     Id = {
       [1] = 3004
@@ -14142,7 +14873,7 @@ return ReadOnly("Reward", {
   },
   [40230] = {
     Count = {
-      [1] = 5
+      [1] = 8
     },
     Id = {
       [1] = 3004
@@ -14155,7 +14886,7 @@ return ReadOnly("Reward", {
   },
   [40231] = {
     Count = {
-      [1] = 3
+      [1] = 5
     },
     Id = {
       [1] = 3004
@@ -14207,7 +14938,7 @@ return ReadOnly("Reward", {
   },
   [40235] = {
     Count = {
-      [1] = 8000
+      [1] = 25000
     },
     Id = {
       [1] = 101
@@ -14220,7 +14951,7 @@ return ReadOnly("Reward", {
   },
   [40236] = {
     Count = {
-      [1] = 7000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -14233,7 +14964,7 @@ return ReadOnly("Reward", {
   },
   [40237] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -14327,7 +15058,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200005
+      [1] = 200007
     },
     Mode = "Fixed",
     RewardId = 40244,
@@ -14340,7 +15071,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200003
+      [1] = 200005
     },
     Mode = "Fixed",
     RewardId = 40245,
@@ -14353,7 +15084,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200002
+      [1] = 200003
     },
     Mode = "Fixed",
     RewardId = 40246,
@@ -14363,7 +15094,7 @@ return ReadOnly("Reward", {
   },
   [40247] = {
     Count = {
-      [1] = 8000
+      [1] = 42000
     },
     Id = {
       [1] = 101
@@ -14376,7 +15107,7 @@ return ReadOnly("Reward", {
   },
   [40248] = {
     Count = {
-      [1] = 7000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -14389,7 +15120,7 @@ return ReadOnly("Reward", {
   },
   [40249] = {
     Count = {
-      [1] = 5000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -14480,7 +15211,7 @@ return ReadOnly("Reward", {
   },
   [40256] = {
     Count = {
-      [1] = 8000
+      [1] = 25000
     },
     Id = {
       [1] = 101
@@ -14493,7 +15224,7 @@ return ReadOnly("Reward", {
   },
   [40257] = {
     Count = {
-      [1] = 7000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -14506,7 +15237,7 @@ return ReadOnly("Reward", {
   },
   [40258] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -14519,85 +15250,85 @@ return ReadOnly("Reward", {
   },
   [40259] = {
     Count = {
-      [1] = 1
+      [1] = 16000
     },
     Id = {
-      [1] = 200004
+      [1] = 101
     },
     Mode = "Fixed",
     RewardId = 40259,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource"
     }
   },
   [40260] = {
     Count = {
-      [1] = 1
+      [1] = 12000
     },
     Id = {
-      [1] = 200002
+      [1] = 101
     },
     Mode = "Fixed",
     RewardId = 40260,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource"
     }
   },
   [40261] = {
     Count = {
-      [1] = 1
+      [1] = 10000
     },
     Id = {
-      [1] = 200001
+      [1] = 101
     },
     Mode = "Fixed",
     RewardId = 40261,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource"
     }
   },
   [40262] = {
     Count = {
-      [1] = 1
+      [1] = 18000
     },
     Id = {
-      [1] = 200005
+      [1] = 101
     },
     Mode = "Fixed",
     RewardId = 40262,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource"
     }
   },
   [40263] = {
     Count = {
-      [1] = 1
+      [1] = 14000
     },
     Id = {
-      [1] = 200003
+      [1] = 101
     },
     Mode = "Fixed",
     RewardId = 40263,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource"
     }
   },
   [40264] = {
     Count = {
-      [1] = 1
+      [1] = 12000
     },
     Id = {
-      [1] = 200002
+      [1] = 101
     },
     Mode = "Fixed",
     RewardId = 40264,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource"
     }
   },
   [40265] = {
     Count = {
-      [1] = 5
+      [1] = 9
     },
     Id = {
       [1] = 3004
@@ -14610,7 +15341,7 @@ return ReadOnly("Reward", {
   },
   [40266] = {
     Count = {
-      [1] = 4
+      [1] = 6
     },
     Id = {
       [1] = 3004
@@ -14623,7 +15354,7 @@ return ReadOnly("Reward", {
   },
   [40267] = {
     Count = {
-      [1] = 2
+      [1] = 4
     },
     Id = {
       [1] = 3004
@@ -14636,7 +15367,7 @@ return ReadOnly("Reward", {
   },
   [40268] = {
     Count = {
-      [1] = 8000
+      [1] = 25000
     },
     Id = {
       [1] = 101
@@ -14649,7 +15380,7 @@ return ReadOnly("Reward", {
   },
   [40269] = {
     Count = {
-      [1] = 7000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -14662,7 +15393,7 @@ return ReadOnly("Reward", {
   },
   [40270] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -14675,7 +15406,7 @@ return ReadOnly("Reward", {
   },
   [40271] = {
     Count = {
-      [1] = 5
+      [1] = 8
     },
     Id = {
       [1] = 3004
@@ -14688,7 +15419,7 @@ return ReadOnly("Reward", {
   },
   [40272] = {
     Count = {
-      [1] = 3
+      [1] = 5
     },
     Id = {
       [1] = 3004
@@ -14701,7 +15432,7 @@ return ReadOnly("Reward", {
   },
   [40273] = {
     Count = {
-      [1] = 2
+      [1] = 4
     },
     Id = {
       [1] = 3004
@@ -14714,7 +15445,7 @@ return ReadOnly("Reward", {
   },
   [40274] = {
     Count = {
-      [1] = 7000
+      [1] = 25000
     },
     Id = {
       [1] = 101
@@ -14727,7 +15458,7 @@ return ReadOnly("Reward", {
   },
   [40275] = {
     Count = {
-      [1] = 6000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -14740,7 +15471,7 @@ return ReadOnly("Reward", {
   },
   [40276] = {
     Count = {
-      [1] = 4000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -14753,7 +15484,7 @@ return ReadOnly("Reward", {
   },
   [40277] = {
     Count = {
-      [1] = 8000
+      [1] = 42000
     },
     Id = {
       [1] = 101
@@ -14766,7 +15497,7 @@ return ReadOnly("Reward", {
   },
   [40278] = {
     Count = {
-      [1] = 7000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -14779,7 +15510,7 @@ return ReadOnly("Reward", {
   },
   [40279] = {
     Count = {
-      [1] = 5000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -14792,7 +15523,7 @@ return ReadOnly("Reward", {
   },
   [40280] = {
     Count = {
-      [1] = 8000
+      [1] = 25000
     },
     Id = {
       [1] = 101
@@ -14805,7 +15536,7 @@ return ReadOnly("Reward", {
   },
   [40281] = {
     Count = {
-      [1] = 7000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -14818,7 +15549,7 @@ return ReadOnly("Reward", {
   },
   [40282] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -14831,7 +15562,7 @@ return ReadOnly("Reward", {
   },
   [40283] = {
     Count = {
-      [1] = 7000
+      [1] = 25000
     },
     Id = {
       [1] = 101
@@ -14844,7 +15575,7 @@ return ReadOnly("Reward", {
   },
   [40284] = {
     Count = {
-      [1] = 6000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -14857,7 +15588,7 @@ return ReadOnly("Reward", {
   },
   [40285] = {
     Count = {
-      [1] = 4000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -14870,7 +15601,7 @@ return ReadOnly("Reward", {
   },
   [40286] = {
     Count = {
-      [1] = 8000
+      [1] = 42000
     },
     Id = {
       [1] = 101
@@ -14883,7 +15614,7 @@ return ReadOnly("Reward", {
   },
   [40287] = {
     Count = {
-      [1] = 7000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -14896,7 +15627,7 @@ return ReadOnly("Reward", {
   },
   [40288] = {
     Count = {
-      [1] = 5000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -14909,7 +15640,7 @@ return ReadOnly("Reward", {
   },
   [40289] = {
     Count = {
-      [1] = 7000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -14922,7 +15653,7 @@ return ReadOnly("Reward", {
   },
   [40290] = {
     Count = {
-      [1] = 6000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -14935,7 +15666,7 @@ return ReadOnly("Reward", {
   },
   [40291] = {
     Count = {
-      [1] = 4000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -14948,7 +15679,7 @@ return ReadOnly("Reward", {
   },
   [40292] = {
     Count = {
-      [1] = 8000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -14961,7 +15692,7 @@ return ReadOnly("Reward", {
   },
   [40293] = {
     Count = {
-      [1] = 7000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -14974,7 +15705,7 @@ return ReadOnly("Reward", {
   },
   [40294] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -14990,7 +15721,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200035
+      [1] = 200036
     },
     Mode = "Fixed",
     RewardId = 40295,
@@ -15003,7 +15734,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200033
+      [1] = 200034
     },
     Mode = "Fixed",
     RewardId = 40296,
@@ -15016,7 +15747,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200032
+      [1] = 200033
     },
     Mode = "Fixed",
     RewardId = 40297,
@@ -15029,7 +15760,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200036
+      [1] = 200037
     },
     Mode = "Fixed",
     RewardId = 40298,
@@ -15042,7 +15773,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200035
+      [1] = 200036
     },
     Mode = "Fixed",
     RewardId = 40299,
@@ -15055,7 +15786,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200034
+      [1] = 200033
     },
     Mode = "Fixed",
     RewardId = 40300,
@@ -15065,7 +15796,7 @@ return ReadOnly("Reward", {
   },
   [40301] = {
     Count = {
-      [1] = 6
+      [1] = 12
     },
     Id = {
       [1] = 3004
@@ -15078,7 +15809,7 @@ return ReadOnly("Reward", {
   },
   [40302] = {
     Count = {
-      [1] = 5
+      [1] = 8
     },
     Id = {
       [1] = 3004
@@ -15091,7 +15822,7 @@ return ReadOnly("Reward", {
   },
   [40303] = {
     Count = {
-      [1] = 3
+      [1] = 5
     },
     Id = {
       [1] = 3004
@@ -15104,7 +15835,7 @@ return ReadOnly("Reward", {
   },
   [40304] = {
     Count = {
-      [1] = 7000
+      [1] = 25000
     },
     Id = {
       [1] = 101
@@ -15117,7 +15848,7 @@ return ReadOnly("Reward", {
   },
   [40305] = {
     Count = {
-      [1] = 6000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -15130,7 +15861,7 @@ return ReadOnly("Reward", {
   },
   [40306] = {
     Count = {
-      [1] = 4000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -15143,7 +15874,7 @@ return ReadOnly("Reward", {
   },
   [40307] = {
     Count = {
-      [1] = 8000
+      [1] = 42000
     },
     Id = {
       [1] = 101
@@ -15156,7 +15887,7 @@ return ReadOnly("Reward", {
   },
   [40308] = {
     Count = {
-      [1] = 7000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -15169,7 +15900,7 @@ return ReadOnly("Reward", {
   },
   [40309] = {
     Count = {
-      [1] = 5000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -15182,80 +15913,80 @@ return ReadOnly("Reward", {
   },
   [40310] = {
     Count = {
-      [1] = 5
+      [1] = 1
     },
     Id = {
-      [1] = 3004
+      [1] = 200037
     },
     Mode = "Fixed",
     RewardId = 40310,
     Type = {
-      [1] = "Resource"
+      [1] = "Reward"
     }
   },
   [40311] = {
     Count = {
-      [1] = 4
+      [1] = 1
     },
     Id = {
-      [1] = 3004
+      [1] = 200036
     },
     Mode = "Fixed",
     RewardId = 40311,
     Type = {
-      [1] = "Resource"
+      [1] = "Reward"
     }
   },
   [40312] = {
     Count = {
-      [1] = 2
+      [1] = 1
     },
     Id = {
-      [1] = 3004
+      [1] = 200033
     },
     Mode = "Fixed",
     RewardId = 40312,
     Type = {
-      [1] = "Resource"
+      [1] = "Reward"
     }
   },
   [40313] = {
     Count = {
-      [1] = 6
+      [1] = 1
     },
     Id = {
-      [1] = 3004
+      [1] = 200038
     },
     Mode = "Fixed",
     RewardId = 40313,
     Type = {
-      [1] = "Resource"
+      [1] = "Reward"
     }
   },
   [40314] = {
     Count = {
-      [1] = 5
+      [1] = 1
     },
     Id = {
-      [1] = 3004
+      [1] = 200037
     },
     Mode = "Fixed",
     RewardId = 40314,
     Type = {
-      [1] = "Resource"
+      [1] = "Reward"
     }
   },
   [40315] = {
     Count = {
-      [1] = 3
+      [1] = 1
     },
     Id = {
-      [1] = 3004
+      [1] = 200034
     },
     Mode = "Fixed",
     RewardId = 40315,
     Type = {
-      [1] = "Resource"
+      [1] = "Reward"
     }
   },
   [40316] = {
@@ -15650,7 +16381,7 @@ return ReadOnly("Reward", {
   },
   [40346] = {
     Count = {
-      [1] = 2
+      [1] = 3
     },
     Id = {
       [1] = 3010
@@ -15663,7 +16394,7 @@ return ReadOnly("Reward", {
   },
   [40347] = {
     Count = {
-      [1] = 1
+      [1] = 2
     },
     Id = {
       [1] = 3010
@@ -15689,7 +16420,7 @@ return ReadOnly("Reward", {
   },
   [40349] = {
     Count = {
-      [1] = 2
+      [1] = 3
     },
     Id = {
       [1] = 3012
@@ -15702,7 +16433,7 @@ return ReadOnly("Reward", {
   },
   [40350] = {
     Count = {
-      [1] = 1
+      [1] = 2
     },
     Id = {
       [1] = 3012
@@ -15806,7 +16537,7 @@ return ReadOnly("Reward", {
   },
   [40358] = {
     Count = {
-      [1] = 4
+      [1] = 6
     },
     Id = {
       [1] = 3004
@@ -15819,7 +16550,7 @@ return ReadOnly("Reward", {
   },
   [40359] = {
     Count = {
-      [1] = 3
+      [1] = 4
     },
     Id = {
       [1] = 3004
@@ -15832,7 +16563,7 @@ return ReadOnly("Reward", {
   },
   [40360] = {
     Count = {
-      [1] = 1
+      [1] = 3
     },
     Id = {
       [1] = 3004
@@ -15848,7 +16579,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200036
+      [1] = 200037
     },
     Mode = "Fixed",
     RewardId = 40361,
@@ -15861,7 +16592,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200035
+      [1] = 200036
     },
     Mode = "Fixed",
     RewardId = 40362,
@@ -15874,7 +16605,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200034
+      [1] = 200033
     },
     Mode = "Fixed",
     RewardId = 40363,
@@ -15887,7 +16618,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200036
+      [1] = 200037
     },
     Mode = "Fixed",
     RewardId = 40364,
@@ -15900,7 +16631,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200035
+      [1] = 200036
     },
     Mode = "Fixed",
     RewardId = 40365,
@@ -15913,7 +16644,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200034
+      [1] = 200033
     },
     Mode = "Fixed",
     RewardId = 40366,
@@ -15923,7 +16654,7 @@ return ReadOnly("Reward", {
   },
   [40367] = {
     Count = {
-      [1] = 6
+      [1] = 12
     },
     Id = {
       [1] = 3004
@@ -15936,7 +16667,7 @@ return ReadOnly("Reward", {
   },
   [40368] = {
     Count = {
-      [1] = 5
+      [1] = 8
     },
     Id = {
       [1] = 3004
@@ -15949,7 +16680,7 @@ return ReadOnly("Reward", {
   },
   [40369] = {
     Count = {
-      [1] = 3
+      [1] = 5
     },
     Id = {
       [1] = 3004
@@ -16235,7 +16966,7 @@ return ReadOnly("Reward", {
   },
   [40391] = {
     Count = {
-      [1] = 4
+      [1] = 6
     },
     Id = {
       [1] = 3004
@@ -16248,7 +16979,7 @@ return ReadOnly("Reward", {
   },
   [40392] = {
     Count = {
-      [1] = 3
+      [1] = 4
     },
     Id = {
       [1] = 3004
@@ -16261,7 +16992,7 @@ return ReadOnly("Reward", {
   },
   [40393] = {
     Count = {
-      [1] = 1
+      [1] = 3
     },
     Id = {
       [1] = 3004
@@ -16274,7 +17005,7 @@ return ReadOnly("Reward", {
   },
   [40394] = {
     Count = {
-      [1] = 5
+      [1] = 8
     },
     Id = {
       [1] = 3004
@@ -16287,7 +17018,7 @@ return ReadOnly("Reward", {
   },
   [40395] = {
     Count = {
-      [1] = 3
+      [1] = 5
     },
     Id = {
       [1] = 3004
@@ -16300,7 +17031,7 @@ return ReadOnly("Reward", {
   },
   [40396] = {
     Count = {
-      [1] = 2
+      [1] = 4
     },
     Id = {
       [1] = 3004
@@ -16313,7 +17044,7 @@ return ReadOnly("Reward", {
   },
   [40397] = {
     Count = {
-      [1] = 5
+      [1] = 9
     },
     Id = {
       [1] = 3004
@@ -16326,7 +17057,7 @@ return ReadOnly("Reward", {
   },
   [40398] = {
     Count = {
-      [1] = 4
+      [1] = 6
     },
     Id = {
       [1] = 3004
@@ -16339,7 +17070,7 @@ return ReadOnly("Reward", {
   },
   [40399] = {
     Count = {
-      [1] = 2
+      [1] = 4
     },
     Id = {
       [1] = 3004
@@ -16352,7 +17083,7 @@ return ReadOnly("Reward", {
   },
   [40400] = {
     Count = {
-      [1] = 6
+      [1] = 12
     },
     Id = {
       [1] = 3004
@@ -16365,7 +17096,7 @@ return ReadOnly("Reward", {
   },
   [40401] = {
     Count = {
-      [1] = 5
+      [1] = 8
     },
     Id = {
       [1] = 3004
@@ -16378,7 +17109,7 @@ return ReadOnly("Reward", {
   },
   [40402] = {
     Count = {
-      [1] = 3
+      [1] = 5
     },
     Id = {
       [1] = 3004
@@ -16550,7 +17281,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200035
+      [1] = 200036
     },
     Mode = "Fixed",
     RewardId = 40415,
@@ -16563,7 +17294,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200033
+      [1] = 200034
     },
     Mode = "Fixed",
     RewardId = 40416,
@@ -16576,7 +17307,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200032
+      [1] = 200033
     },
     Mode = "Fixed",
     RewardId = 40417,
@@ -16589,7 +17320,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200036
+      [1] = 200037
     },
     Mode = "Fixed",
     RewardId = 40418,
@@ -16602,7 +17333,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200035
+      [1] = 200036
     },
     Mode = "Fixed",
     RewardId = 40419,
@@ -16615,7 +17346,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200034
+      [1] = 200033
     },
     Mode = "Fixed",
     RewardId = 40420,
@@ -16628,7 +17359,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200035
+      [1] = 200036
     },
     Mode = "Fixed",
     RewardId = 40421,
@@ -16641,7 +17372,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200033
+      [1] = 200034
     },
     Mode = "Fixed",
     RewardId = 40422,
@@ -16654,7 +17385,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200032
+      [1] = 200033
     },
     Mode = "Fixed",
     RewardId = 40423,
@@ -16667,7 +17398,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200036
+      [1] = 200037
     },
     Mode = "Fixed",
     RewardId = 40424,
@@ -16680,7 +17411,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200035
+      [1] = 200036
     },
     Mode = "Fixed",
     RewardId = 40425,
@@ -16693,7 +17424,7 @@ return ReadOnly("Reward", {
       [1] = 1
     },
     Id = {
-      [1] = 200034
+      [1] = 200033
     },
     Mode = "Fixed",
     RewardId = 40426,
@@ -16703,7 +17434,7 @@ return ReadOnly("Reward", {
   },
   [40427] = {
     Count = {
-      [1] = 7000
+      [1] = 18000
     },
     Id = {
       [1] = 101
@@ -16716,7 +17447,7 @@ return ReadOnly("Reward", {
   },
   [40428] = {
     Count = {
-      [1] = 5000
+      [1] = 14000
     },
     Id = {
       [1] = 101
@@ -16729,7 +17460,7 @@ return ReadOnly("Reward", {
   },
   [40429] = {
     Count = {
-      [1] = 4000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -16742,7 +17473,7 @@ return ReadOnly("Reward", {
   },
   [40430] = {
     Count = {
-      [1] = 8000
+      [1] = 42000
     },
     Id = {
       [1] = 101
@@ -16755,7 +17486,7 @@ return ReadOnly("Reward", {
   },
   [40431] = {
     Count = {
-      [1] = 7000
+      [1] = 20000
     },
     Id = {
       [1] = 101
@@ -16768,7 +17499,7 @@ return ReadOnly("Reward", {
   },
   [40432] = {
     Count = {
-      [1] = 5000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -16781,7 +17512,7 @@ return ReadOnly("Reward", {
   },
   [40433] = {
     Count = {
-      [1] = 7000
+      [1] = 16000
     },
     Id = {
       [1] = 101
@@ -16794,7 +17525,7 @@ return ReadOnly("Reward", {
   },
   [40434] = {
     Count = {
-      [1] = 5000
+      [1] = 12000
     },
     Id = {
       [1] = 101
@@ -16807,13 +17538,1339 @@ return ReadOnly("Reward", {
   },
   [40435] = {
     Count = {
-      [1] = 4000
+      [1] = 10000
     },
     Id = {
       [1] = 101
     },
     Mode = "Fixed",
     RewardId = 40435,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40436] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200004
+    },
+    Mode = "Fixed",
+    RewardId = 40436,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40437] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200002
+    },
+    Mode = "Fixed",
+    RewardId = 40437,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40438] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200001
+    },
+    Mode = "Fixed",
+    RewardId = 40438,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40439] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200005
+    },
+    Mode = "Fixed",
+    RewardId = 40439,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40440] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200003
+    },
+    Mode = "Fixed",
+    RewardId = 40440,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40441] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200002
+    },
+    Mode = "Fixed",
+    RewardId = 40441,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40442] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40442,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40443] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40443,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40444] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40444,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40445] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40445,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40446] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40446,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40447] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40447,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40448] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40448,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40449] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40449,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40450] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40450,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40451] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40451,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40452] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40452,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40453] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40453,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40454] = {
+    Count = {
+      [1] = 9
+    },
+    Id = {
+      [1] = 3004
+    },
+    Mode = "Fixed",
+    RewardId = 40454,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40455] = {
+    Count = {
+      [1] = 6
+    },
+    Id = {
+      [1] = 3004
+    },
+    Mode = "Fixed",
+    RewardId = 40455,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40456] = {
+    Count = {
+      [1] = 4
+    },
+    Id = {
+      [1] = 3004
+    },
+    Mode = "Fixed",
+    RewardId = 40456,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40457] = {
+    Count = {
+      [1] = 12
+    },
+    Id = {
+      [1] = 3004
+    },
+    Mode = "Fixed",
+    RewardId = 40457,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40458] = {
+    Count = {
+      [1] = 8
+    },
+    Id = {
+      [1] = 3004
+    },
+    Mode = "Fixed",
+    RewardId = 40458,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40459] = {
+    Count = {
+      [1] = 5
+    },
+    Id = {
+      [1] = 3004
+    },
+    Mode = "Fixed",
+    RewardId = 40459,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40460] = {
+    Count = {
+      [1] = 18000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40460,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40461] = {
+    Count = {
+      [1] = 14000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40461,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40462] = {
+    Count = {
+      [1] = 12000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40462,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40463] = {
+    Count = {
+      [1] = 20000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40463,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40464] = {
+    Count = {
+      [1] = 16000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40464,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40465] = {
+    Count = {
+      [1] = 14000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40465,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40466] = {
+    Count = {
+      [1] = 20000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40466,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40467] = {
+    Count = {
+      [1] = 16000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40467,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40468] = {
+    Count = {
+      [1] = 14000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40468,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40469] = {
+    Count = {
+      [1] = 25000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40469,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40470] = {
+    Count = {
+      [1] = 18000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40470,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40471] = {
+    Count = {
+      [1] = 14000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 40471,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40472] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40472,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40473] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40473,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40474] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40474,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40475] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40475,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40476] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40476,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40477] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40477,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40478] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40478,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40479] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40479,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40480] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40480,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40481] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40481,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40482] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40482,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40483] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40483,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40484] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40484,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40485] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40485,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40486] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3019
+    },
+    Mode = "Fixed",
+    RewardId = 40486,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40487] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40487,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40488] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40488,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40489] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40489,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40490] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200036
+    },
+    Mode = "Fixed",
+    RewardId = 40490,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40491] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200034
+    },
+    Mode = "Fixed",
+    RewardId = 40491,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40492] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200033
+    },
+    Mode = "Fixed",
+    RewardId = 40492,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40493] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200037
+    },
+    Mode = "Fixed",
+    RewardId = 40493,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40494] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200036
+    },
+    Mode = "Fixed",
+    RewardId = 40494,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40495] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 200033
+    },
+    Mode = "Fixed",
+    RewardId = 40495,
+    Type = {
+      [1] = "Reward"
+    }
+  },
+  [40496] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40496,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40497] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40497,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40498] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40498,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40499] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40499,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40500] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40500,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40501] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40501,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40502] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40502,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40503] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40503,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40504] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40504,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40505] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40505,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40506] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40506,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40507] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40507,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40508] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40508,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40509] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40509,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40510] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40510,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40511] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40511,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40512] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40512,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40513] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40513,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40514] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40514,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40515] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40515,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40516] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40516,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40517] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40517,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40518] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40518,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40519] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3020
+    },
+    Mode = "Fixed",
+    RewardId = 40519,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40520] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40520,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40521] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40521,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40522] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3021
+    },
+    Mode = "Fixed",
+    RewardId = 40522,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40523] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40523,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40524] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40524,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40525] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40525,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40526] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40526,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40527] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40527,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40528] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40528,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40529] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40529,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40530] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40530,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40531] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40531,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40532] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40532,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40533] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40533,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40534] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3017
+    },
+    Mode = "Fixed",
+    RewardId = 40534,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40535] = {
+    Count = {
+      [1] = 3
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40535,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40536] = {
+    Count = {
+      [1] = 2
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40536,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [40537] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 3018
+    },
+    Mode = "Fixed",
+    RewardId = 40537,
     Type = {
       [1] = "Resource"
     }
@@ -18638,6 +20695,846 @@ return ReadOnly("Reward", {
       [6] = "Resource"
     }
   },
+  [46031] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46031,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46032] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46032,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46033] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46033,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46034] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46034,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46035] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46035,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46036] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46036,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46037] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46037,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46038] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46038,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46039] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46039,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46040] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46040,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46041] = {
+    Count = {
+      [1] = 2,
+      [2] = 200,
+      [3] = 3,
+      [4] = 3,
+      [5] = 300,
+      [6] = 15000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46041,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46042] = {
+    Count = {
+      [1] = 2,
+      [2] = 200,
+      [3] = 3,
+      [4] = 3,
+      [5] = 300,
+      [6] = 15000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46042,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46043] = {
+    Count = {
+      [1] = 2,
+      [2] = 200,
+      [3] = 3,
+      [4] = 3,
+      [5] = 300,
+      [6] = 15000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46043,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46044] = {
+    Count = {
+      [1] = 2,
+      [2] = 200,
+      [3] = 3,
+      [4] = 3,
+      [5] = 300,
+      [6] = 15000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46044,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46045] = {
+    Count = {
+      [1] = 2,
+      [2] = 200,
+      [3] = 3,
+      [4] = 3,
+      [5] = 300,
+      [6] = 15000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46045,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46046] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46046,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46047] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46047,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46048] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46048,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46049] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46049,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46050] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46050,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46051] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46051,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46052] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46052,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46053] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46053,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46054] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46054,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46055] = {
+    Count = {
+      [1] = 1,
+      [2] = 150,
+      [3] = 2,
+      [4] = 2,
+      [5] = 200,
+      [6] = 10000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46055,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46056] = {
+    Count = {
+      [1] = 2,
+      [2] = 200,
+      [3] = 3,
+      [4] = 3,
+      [5] = 300,
+      [6] = 15000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46056,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46057] = {
+    Count = {
+      [1] = 2,
+      [2] = 200,
+      [3] = 3,
+      [4] = 3,
+      [5] = 300,
+      [6] = 15000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46057,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46058] = {
+    Count = {
+      [1] = 2,
+      [2] = 200,
+      [3] = 3,
+      [4] = 3,
+      [5] = 300,
+      [6] = 15000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46058,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46059] = {
+    Count = {
+      [1] = 2,
+      [2] = 200,
+      [3] = 3,
+      [4] = 3,
+      [5] = 300,
+      [6] = 15000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46059,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [46060] = {
+    Count = {
+      [1] = 2,
+      [2] = 200,
+      [3] = 3,
+      [4] = 3,
+      [5] = 300,
+      [6] = 15000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2013,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 46060,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
   [48001] = {
     Count = {
       [1] = 7,
@@ -18742,6 +21639,140 @@ return ReadOnly("Reward", {
     },
     Mode = "Fixed",
     RewardId = 48006,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [48007] = {
+    Count = {
+      [1] = 7,
+      [2] = 200,
+      [3] = 3,
+      [4] = 300,
+      [5] = 12000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214,
+      [3] = 2009,
+      [4] = 102,
+      [5] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 48007,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [48008] = {
+    Count = {
+      [1] = 4,
+      [2] = 75
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 214
+    },
+    Mode = "Fixed",
+    RewardId = 48008,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource"
+    }
+  },
+  [48009] = {
+    Count = {
+      [1] = 20
+    },
+    Id = {
+      [1] = 214
+    },
+    Mode = "Fixed",
+    RewardId = 48009,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [48010] = {
+    Count = {
+      [1] = 7,
+      [2] = 200,
+      [3] = 3,
+      [4] = 300,
+      [5] = 12000
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214,
+      [3] = 2009,
+      [4] = 102,
+      [5] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 48010,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [48011] = {
+    Count = {
+      [1] = 4,
+      [2] = 75
+    },
+    Id = {
+      [1] = 1004,
+      [2] = 214
+    },
+    Mode = "Fixed",
+    RewardId = 48011,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Resource"
+    }
+  },
+  [48012] = {
+    Count = {
+      [1] = 20
+    },
+    Id = {
+      [1] = 214
+    },
+    Mode = "Fixed",
+    RewardId = 48012,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [48013] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 214
+    },
+    Mode = "Fixed",
+    RewardId = 48013,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [48014] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 214
+    },
+    Mode = "Fixed",
+    RewardId = 48014,
     Type = {
       [1] = "Resource"
     }
@@ -20131,8 +23162,7 @@ return ReadOnly("Reward", {
       [6] = 5,
       [7] = 1,
       [8] = 5,
-      [9] = 1,
-      [10] = 1
+      [9] = 1
     },
     Id = {
       [1] = 211,
@@ -20143,8 +23173,7 @@ return ReadOnly("Reward", {
       [6] = 20010,
       [7] = 20013,
       [8] = 3001,
-      [9] = 31004003,
-      [10] = 20025
+      [9] = 31004003
     },
     Mode = "Fixed",
     RewardId = 50503,
@@ -20157,8 +23186,7 @@ return ReadOnly("Reward", {
       [6] = "Resource",
       [7] = "Resource",
       [8] = "Resource",
-      [9] = "Resource",
-      [10] = "Title"
+      [9] = "Resource"
     }
   },
   [50504] = {
@@ -20805,8 +23833,7 @@ return ReadOnly("Reward", {
       [3] = 45000,
       [4] = 10,
       [5] = 10,
-      [6] = 1,
-      [7] = 1
+      [6] = 1
     },
     Id = {
       [1] = 211,
@@ -20814,8 +23841,7 @@ return ReadOnly("Reward", {
       [3] = 101,
       [4] = 2013,
       [5] = 2009,
-      [6] = 31009007,
-      [7] = 10067
+      [6] = 31009007
     },
     Mode = "Fixed",
     RewardId = 50526,
@@ -20825,8 +23851,7 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource",
-      [7] = "Title"
+      [6] = "Resource"
     }
   },
   [50527] = {
@@ -20958,6 +23983,162 @@ return ReadOnly("Reward", {
     RewardId = 50531,
     Type = {
       [1] = "CharAccessory"
+    }
+  },
+  [50532] = {
+    Count = {
+      [1] = 5,
+      [2] = 500,
+      [3] = 30000,
+      [4] = 5
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2001,
+      [3] = 101,
+      [4] = 2009
+    },
+    Mode = "Fixed",
+    RewardId = 50532,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [50533] = {
+    Count = {
+      [1] = 5,
+      [2] = 500,
+      [3] = 30000,
+      [4] = 5
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2001,
+      [3] = 101,
+      [4] = 2013
+    },
+    Mode = "Fixed",
+    RewardId = 50533,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [50534] = {
+    Count = {
+      [1] = 30,
+      [2] = 10,
+      [3] = 800,
+      [4] = 45000,
+      [5] = 6,
+      [6] = 6,
+      [7] = 800
+    },
+    Id = {
+      [1] = 1001601,
+      [2] = 211,
+      [3] = 2001,
+      [4] = 101,
+      [5] = 2009,
+      [6] = 2013,
+      [7] = 102
+    },
+    Mode = "Fixed",
+    RewardId = 50534,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource",
+      [7] = "Resource"
+    }
+  },
+  [50535] = {
+    Count = {
+      [1] = 30,
+      [2] = 10,
+      [3] = 500,
+      [4] = 30000,
+      [5] = 5
+    },
+    Id = {
+      [1] = 1001601,
+      [2] = 211,
+      [3] = 2001,
+      [4] = 101,
+      [5] = 2009
+    },
+    Mode = "Fixed",
+    RewardId = 50535,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [50536] = {
+    Count = {
+      [1] = 10,
+      [2] = 500,
+      [3] = 30000,
+      [4] = 5
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2001,
+      [3] = 101,
+      [4] = 2013
+    },
+    Mode = "Fixed",
+    RewardId = 50536,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [50537] = {
+    Count = {
+      [1] = 30,
+      [2] = 15,
+      [3] = 1200,
+      [4] = 45000,
+      [5] = 8,
+      [6] = 8,
+      [7] = 800,
+      [8] = 80
+    },
+    Id = {
+      [1] = 1001601,
+      [2] = 211,
+      [3] = 2001,
+      [4] = 101,
+      [5] = 2009,
+      [6] = 2013,
+      [7] = 102,
+      [8] = 19000
+    },
+    Mode = "Fixed",
+    RewardId = 50537,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource",
+      [7] = "Resource",
+      [8] = "Resource"
     }
   },
   [50550] = {
@@ -21752,7 +24933,7 @@ return ReadOnly("Reward", {
       [6] = 2001,
       [7] = 1005101,
       [8] = 1020,
-      [9] = 20048
+      [9] = 4049
     },
     Mode = "Fixed",
     RewardId = 50577,
@@ -21765,7 +24946,7 @@ return ReadOnly("Reward", {
       [6] = "Resource",
       [7] = "Resource",
       [8] = "Walnut",
-      [9] = "Title"
+      [9] = "Pet"
     }
   },
   [50578] = {
@@ -22220,6 +25401,258 @@ return ReadOnly("Reward", {
       [4] = "Resource",
       [5] = "Resource",
       [6] = "Title"
+    }
+  },
+  [50596] = {
+    Count = {
+      [1] = 1000,
+      [2] = 1,
+      [3] = 5,
+      [4] = 1,
+      [5] = 100,
+      [6] = 150
+    },
+    Id = {
+      [1] = 101,
+      [2] = 3001,
+      [3] = 211,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 50596,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [50597] = {
+    Count = {
+      [1] = 1000,
+      [2] = 1,
+      [3] = 5,
+      [4] = 1,
+      [5] = 100,
+      [6] = 150
+    },
+    Id = {
+      [1] = 101,
+      [2] = 3001,
+      [3] = 211,
+      [4] = 2013,
+      [5] = 102,
+      [6] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 50597,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [50598] = {
+    Count = {
+      [1] = 1000,
+      [2] = 1,
+      [3] = 5,
+      [4] = 1,
+      [5] = 100,
+      [6] = 150
+    },
+    Id = {
+      [1] = 101,
+      [2] = 3001,
+      [3] = 211,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 50598,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [50599] = {
+    Count = {
+      [1] = 1000,
+      [2] = 1,
+      [3] = 5,
+      [4] = 1,
+      [5] = 100,
+      [6] = 150
+    },
+    Id = {
+      [1] = 101,
+      [2] = 3001,
+      [3] = 211,
+      [4] = 2013,
+      [5] = 102,
+      [6] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 50599,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [50600] = {
+    Count = {
+      [1] = 1000,
+      [2] = 1,
+      [3] = 5,
+      [4] = 1,
+      [5] = 100,
+      [6] = 150
+    },
+    Id = {
+      [1] = 101,
+      [2] = 3001,
+      [3] = 211,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 50600,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [50601] = {
+    Count = {
+      [1] = 1000,
+      [2] = 1,
+      [3] = 5,
+      [4] = 1,
+      [5] = 100,
+      [6] = 150
+    },
+    Id = {
+      [1] = 101,
+      [2] = 3001,
+      [3] = 211,
+      [4] = 2013,
+      [5] = 102,
+      [6] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 50601,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [50602] = {
+    Count = {
+      [1] = 1000,
+      [2] = 1,
+      [3] = 5,
+      [4] = 1,
+      [5] = 100,
+      [6] = 150
+    },
+    Id = {
+      [1] = 101,
+      [2] = 3001,
+      [3] = 211,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 50602,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [50603] = {
+    Count = {
+      [1] = 1000,
+      [2] = 1,
+      [3] = 5,
+      [4] = 1,
+      [5] = 100,
+      [6] = 150
+    },
+    Id = {
+      [1] = 101,
+      [2] = 3001,
+      [3] = 211,
+      [4] = 2013,
+      [5] = 102,
+      [6] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 50603,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    }
+  },
+  [50604] = {
+    Count = {
+      [1] = 1000,
+      [2] = 1,
+      [3] = 5,
+      [4] = 1,
+      [5] = 100,
+      [6] = 150
+    },
+    Id = {
+      [1] = 101,
+      [2] = 3001,
+      [3] = 211,
+      [4] = 2009,
+      [5] = 102,
+      [6] = 2001
+    },
+    Mode = "Fixed",
+    RewardId = 50604,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
     }
   },
   [50800] = {
@@ -29533,99 +32966,120 @@ return ReadOnly("Reward", {
   },
   [53001] = {
     Count = {
-      [1] = 1
+      [1] = 2,
+      [2] = 1
     },
     Id = {
-      [1] = 53000
+      [1] = 216,
+      [2] = 53000
     },
     Mode = "Fixed",
     RewardId = 53001,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource",
+      [2] = "Reward"
     }
   },
   [53002] = {
     Count = {
-      [1] = 1
+      [1] = 2,
+      [2] = 1
     },
     Id = {
-      [1] = 53000
+      [1] = 216,
+      [2] = 53000
     },
     Mode = "Fixed",
     RewardId = 53002,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource",
+      [2] = "Reward"
     }
   },
   [53003] = {
     Count = {
-      [1] = 1
+      [1] = 2,
+      [2] = 1
     },
     Id = {
-      [1] = 53000
+      [1] = 216,
+      [2] = 53000
     },
     Mode = "Fixed",
     RewardId = 53003,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource",
+      [2] = "Reward"
     }
   },
   [53004] = {
     Count = {
-      [1] = {
+      [1] = 3,
+      [2] = {
         1, 2
       }
     },
     Id = {
-      [1] = 53000
+      [1] = 216,
+      [2] = 53000
     },
     Mode = "Fixed",
     RewardId = 53004,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource",
+      [2] = "Reward"
     }
   },
   [53005] = {
     Count = {
-      [1] = {
+      [1] = 3,
+      [2] = {
         1, 2
       }
     },
     Id = {
-      [1] = 53000
+      [1] = 216,
+      [2] = 53000
     },
     Mode = "Fixed",
     RewardId = 53005,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource",
+      [2] = "Reward"
     }
   },
   [53006] = {
     Count = {
-      [1] = 2
+      [1] = 4,
+      [2] = 2
     },
     Id = {
-      [1] = 53000
+      [1] = 216,
+      [2] = 53000
     },
     Mode = "Fixed",
     RewardId = 53006,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource",
+      [2] = "Reward"
     }
   },
   [53007] = {
     Count = {
-      [1] = {
+      [1] = 5,
+      [2] = {
         2, 3
       }
     },
     Id = {
-      [1] = 53000
+      [1] = 216,
+      [2] = 53000
     },
     Mode = "Fixed",
     RewardId = 53007,
     Type = {
-      [1] = "Reward"
+      [1] = "Resource",
+      [2] = "Reward"
     }
   },
   [55000] = {
@@ -34305,6 +37759,45 @@ return ReadOnly("Reward", {
       [1] = "HeadFrame"
     }
   },
+  [82017] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 10017
+    },
+    Mode = "Fixed",
+    RewardId = 82017,
+    Type = {
+      [1] = "HeadFrame"
+    }
+  },
+  [82018] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 10018
+    },
+    Mode = "Fixed",
+    RewardId = 82018,
+    Type = {
+      [1] = "HeadFrame"
+    }
+  },
+  [82019] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 10019
+    },
+    Mode = "Fixed",
+    RewardId = 82019,
+    Type = {
+      [1] = "HeadFrame"
+    }
+  },
   [91001] = {
     Count = {
       [1] = 1
@@ -34459,6 +37952,28 @@ return ReadOnly("Reward", {
     },
     Mode = "Fixed",
     RewardId = 100002,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [100003] = {
+    Count = {
+      [1] = 200,
+      [2] = 1,
+      [3] = 5,
+      [4] = 5000
+    },
+    Id = {
+      [1] = 100,
+      [2] = 110012,
+      [3] = 208,
+      [4] = 2004
+    },
+    Mode = "Fixed",
+    RewardId = 100003,
     Type = {
       [1] = "Resource",
       [2] = "Resource",
@@ -34998,6 +38513,700 @@ return ReadOnly("Reward", {
       [2] = "Resource",
       [3] = "Resource",
       [4] = "Resource"
+    }
+  },
+  [110301] = {
+    Count = {
+      [1] = 30,
+      [2] = 40000,
+      [3] = 2
+    },
+    Id = {
+      [1] = 211,
+      [2] = 101,
+      [3] = 2013
+    },
+    Mode = "Fixed",
+    RewardId = 110301,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110302] = {
+    Count = {
+      [1] = 30,
+      [2] = 200,
+      [3] = 2
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 2009
+    },
+    Mode = "Fixed",
+    RewardId = 110302,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110303] = {
+    Count = {
+      [1] = 30,
+      [2] = 40000,
+      [3] = 2
+    },
+    Id = {
+      [1] = 211,
+      [2] = 101,
+      [3] = 2013
+    },
+    Mode = "Fixed",
+    RewardId = 110303,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110304] = {
+    Count = {
+      [1] = 30,
+      [2] = 200,
+      [3] = 2
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 2009
+    },
+    Mode = "Fixed",
+    RewardId = 110304,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110305] = {
+    Count = {
+      [1] = 30,
+      [2] = 40000,
+      [3] = 2
+    },
+    Id = {
+      [1] = 211,
+      [2] = 101,
+      [3] = 2013
+    },
+    Mode = "Fixed",
+    RewardId = 110305,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110306] = {
+    Count = {
+      [1] = 30,
+      [2] = 200,
+      [3] = 2
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 2009
+    },
+    Mode = "Fixed",
+    RewardId = 110306,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110307] = {
+    Count = {
+      [1] = 20,
+      [2] = 60000,
+      [3] = 300
+    },
+    Id = {
+      [1] = 20013,
+      [2] = 101,
+      [3] = 102
+    },
+    Mode = "Fixed",
+    RewardId = 110307,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110308] = {
+    Count = {
+      [1] = 30,
+      [2] = 60000,
+      [3] = 300
+    },
+    Id = {
+      [1] = 20013,
+      [2] = 101,
+      [3] = 102
+    },
+    Mode = "Fixed",
+    RewardId = 110308,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110309] = {
+    Count = {
+      [1] = 30,
+      [2] = 60000,
+      [3] = 600
+    },
+    Id = {
+      [1] = 20013,
+      [2] = 101,
+      [3] = 102
+    },
+    Mode = "Fixed",
+    RewardId = 110309,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110310] = {
+    Count = {
+      [1] = 80,
+      [2] = 400,
+      [3] = 3
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 2009
+    },
+    Mode = "Fixed",
+    RewardId = 110310,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110311] = {
+    Count = {
+      [1] = 40,
+      [2] = 40000,
+      [3] = 3
+    },
+    Id = {
+      [1] = 20013,
+      [2] = 101,
+      [3] = 2013
+    },
+    Mode = "Fixed",
+    RewardId = 110311,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110312] = {
+    Count = {
+      [1] = 40,
+      [2] = 60000,
+      [3] = 600
+    },
+    Id = {
+      [1] = 20013,
+      [2] = 101,
+      [3] = 102
+    },
+    Mode = "Fixed",
+    RewardId = 110312,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110401] = {
+    Count = {
+      [1] = 15,
+      [2] = 20000,
+      [3] = 2
+    },
+    Id = {
+      [1] = 211,
+      [2] = 101,
+      [3] = 2013
+    },
+    Mode = "Fixed",
+    RewardId = 110401,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110402] = {
+    Count = {
+      [1] = 20,
+      [2] = 20000,
+      [3] = 2
+    },
+    Id = {
+      [1] = 211,
+      [2] = 101,
+      [3] = 2009
+    },
+    Mode = "Fixed",
+    RewardId = 110402,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110403] = {
+    Count = {
+      [1] = 20,
+      [2] = 20000,
+      [3] = 400
+    },
+    Id = {
+      [1] = 20013,
+      [2] = 101,
+      [3] = 102
+    },
+    Mode = "Fixed",
+    RewardId = 110403,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [110501] = {
+    Count = {
+      [1] = 40,
+      [2] = 600,
+      [3] = 100000,
+      [4] = 1,
+      [5] = 40
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 101,
+      [4] = 202,
+      [5] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 110501,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [110502] = {
+    Count = {
+      [1] = 60,
+      [2] = 800,
+      [3] = {150000},
+      [4] = 1,
+      [5] = 60
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 101,
+      [4] = 201,
+      [5] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 110502,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [110503] = {
+    Count = {
+      [1] = 100,
+      [2] = 1000,
+      [3] = 200000,
+      [4] = 1,
+      [5] = 80
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 101,
+      [4] = 10100,
+      [5] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 110503,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [110504] = {
+    Count = {
+      [1] = 25000,
+      [2] = 2,
+      [3] = 2,
+      [4] = 1
+    },
+    Id = {
+      [1] = 101,
+      [2] = 2009,
+      [3] = 2013,
+      [4] = 4030001
+    },
+    Mode = "Fixed",
+    RewardId = 110504,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [110505] = {
+    Count = {
+      [1] = 50000,
+      [2] = 4,
+      [3] = 4,
+      [4] = 1,
+      [5] = 2
+    },
+    Id = {
+      [1] = 101,
+      [2] = 2009,
+      [3] = 2013,
+      [4] = 110506,
+      [5] = 4030001
+    },
+    Mode = "Fixed",
+    RewardId = 110505,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Reward",
+      [5] = "Resource"
+    }
+  },
+  [110506] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1
+    },
+    DetailDes = "Pack_Des_TheaterEvent_01",
+    FunctionDes = "UI_Pack",
+    Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Pack_Mod01.T_Pack_Mod01'",
+    Id = {
+      [1] = 4030002,
+      [2] = 4030003,
+      [3] = 4030004,
+      [4] = 4030005,
+      [5] = 4030006
+    },
+    IpDes = "UI_Pack",
+    Mode = "Sequence",
+    Name = "Pack_Name_TheaterEvent_01",
+    Param = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1
+    },
+    Rarity = 4,
+    RewardId = 110506,
+    Sound = "SOUND_ITEM_NORMAL",
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [110507] = {
+    Count = {
+      [1] = 1,
+      [2] = 10000
+    },
+    Id = {
+      [1] = 4030001,
+      [2] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 110507,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [110508] = {
+    Count = {
+      [1] = 1,
+      [2] = 1
+    },
+    Id = {
+      [1] = 4030001,
+      [2] = 2013
+    },
+    Mode = "Fixed",
+    RewardId = 110508,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [110509] = {
+    Count = {
+      [1] = 1,
+      [2] = 1
+    },
+    Id = {
+      [1] = 4030001,
+      [2] = 2009
+    },
+    Mode = "Fixed",
+    RewardId = 110509,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [110510] = {
+    Count = {
+      [1] = 1,
+      [2] = 200
+    },
+    Id = {
+      [1] = 4030001,
+      [2] = 102
+    },
+    Mode = "Fixed",
+    RewardId = 110510,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [110511] = {
+    Count = {
+      [1] = 1,
+      [2] = 10
+    },
+    Id = {
+      [1] = 4030001,
+      [2] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 110511,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [110512] = {
+    Count = {
+      [1] = 10,
+      [2] = 60000,
+      [3] = 25,
+      [4] = 1
+    },
+    Id = {
+      [1] = 4030001,
+      [2] = 101,
+      [3] = 20013,
+      [4] = 10078
+    },
+    Mode = "Fixed",
+    RewardId = 110512,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Title"
+    }
+  },
+  [110513] = {
+    Count = {
+      [1] = 10,
+      [2] = 60000,
+      [3] = 1000,
+      [4] = 1
+    },
+    Id = {
+      [1] = 4030001,
+      [2] = 101,
+      [3] = 102,
+      [4] = 10079
+    },
+    Mode = "Fixed",
+    RewardId = 110513,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Title"
+    }
+  },
+  [110514] = {
+    Count = {
+      [1] = 10,
+      [2] = 60000,
+      [3] = 3,
+      [4] = 1
+    },
+    Id = {
+      [1] = 4030001,
+      [2] = 101,
+      [3] = 2010,
+      [4] = 20067
+    },
+    Mode = "Fixed",
+    RewardId = 110514,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Title"
+    }
+  },
+  [110515] = {
+    Count = {
+      [1] = 10,
+      [2] = 60000,
+      [3] = 3,
+      [4] = 1
+    },
+    Id = {
+      [1] = 4030001,
+      [2] = 101,
+      [3] = 2014,
+      [4] = 20068
+    },
+    Mode = "Fixed",
+    RewardId = 110515,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Title"
+    }
+  },
+  [110516] = {
+    Count = {
+      [1] = 1,
+      [2] = 20
+    },
+    Id = {
+      [1] = 10080,
+      [2] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 110516,
+    Type = {
+      [1] = "Title",
+      [2] = "Resource"
+    }
+  },
+  [110517] = {
+    Count = {
+      [1] = 1,
+      [2] = 20
+    },
+    Id = {
+      [1] = 10081,
+      [2] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 110517,
+    Type = {
+      [1] = "Title",
+      [2] = "Resource"
+    }
+  },
+  [110518] = {
+    Count = {
+      [1] = 1,
+      [2] = 20
+    },
+    Id = {
+      [1] = 10082,
+      [2] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 110518,
+    Type = {
+      [1] = "Title",
+      [2] = "Resource"
+    }
+  },
+  [110519] = {
+    Count = {
+      [1] = 1,
+      [2] = 20
+    },
+    Id = {
+      [1] = 10083,
+      [2] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 110519,
+    Type = {
+      [1] = "Title",
+      [2] = "Resource"
+    }
+  },
+  [110520] = {
+    Count = {
+      [1] = 1,
+      [2] = 20
+    },
+    Id = {
+      [1] = 10084,
+      [2] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 110520,
+    Type = {
+      [1] = "Title",
+      [2] = "Resource"
     }
   },
   [118011] = {
@@ -36779,6 +40988,56 @@ return ReadOnly("Reward", {
       [3] = "Drop"
     }
   },
+  [136007] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1
+    },
+    Id = {
+      [1] = 141755,
+      [2] = 142411,
+      [3] = 143403
+    },
+    IsFixedByBonus = true,
+    Mode = "Sequence",
+    Param = {
+      [1] = 10,
+      [2] = 45,
+      [3] = 45
+    },
+    RewardId = 136007,
+    Type = {
+      [1] = "Drop",
+      [2] = "Drop",
+      [3] = "Drop"
+    }
+  },
+  [136008] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1
+    },
+    Id = {
+      [1] = 141756,
+      [2] = 142413,
+      [3] = 143405
+    },
+    IsFixedByBonus = true,
+    Mode = "Sequence",
+    Param = {
+      [1] = 10,
+      [2] = 45,
+      [3] = 45
+    },
+    RewardId = 136008,
+    Type = {
+      [1] = "Drop",
+      [2] = "Drop",
+      [3] = "Drop"
+    }
+  },
   [136501] = {
     Count = {
       [1] = 1,
@@ -37176,6 +41435,122 @@ return ReadOnly("Reward", {
       [4] = 30
     },
     RewardId = 138001,
+    Type = {
+      [1] = "Draft",
+      [2] = "Draft",
+      [3] = "Draft",
+      [4] = "Draft"
+    }
+  },
+  [138002] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1
+    },
+    Id = {
+      [1] = 156151,
+      [2] = 151002,
+      [3] = 151003,
+      [4] = 151007
+    },
+    IsFixedByBonus = true,
+    Mode = "Sequence",
+    Param = {
+      [1] = 10,
+      [2] = 30,
+      [3] = 30,
+      [4] = 30
+    },
+    RewardId = 138002,
+    Type = {
+      [1] = "Draft",
+      [2] = "Draft",
+      [3] = "Draft",
+      [4] = "Draft"
+    }
+  },
+  [138003] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1
+    },
+    Id = {
+      [1] = 156153,
+      [2] = 151002,
+      [3] = 151003,
+      [4] = 151007
+    },
+    IsFixedByBonus = true,
+    Mode = "Sequence",
+    Param = {
+      [1] = 10,
+      [2] = 30,
+      [3] = 30,
+      [4] = 30
+    },
+    RewardId = 138003,
+    Type = {
+      [1] = "Draft",
+      [2] = "Draft",
+      [3] = "Draft",
+      [4] = "Draft"
+    }
+  },
+  [138004] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1
+    },
+    Id = {
+      [1] = 156152,
+      [2] = 151002,
+      [3] = 151003,
+      [4] = 151007
+    },
+    IsFixedByBonus = true,
+    Mode = "Sequence",
+    Param = {
+      [1] = 10,
+      [2] = 30,
+      [3] = 30,
+      [4] = 30
+    },
+    RewardId = 138004,
+    Type = {
+      [1] = "Draft",
+      [2] = "Draft",
+      [3] = "Draft",
+      [4] = "Draft"
+    }
+  },
+  [138005] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1
+    },
+    Id = {
+      [1] = 156154,
+      [2] = 151002,
+      [3] = 151003,
+      [4] = 151007
+    },
+    IsFixedByBonus = true,
+    Mode = "Sequence",
+    Param = {
+      [1] = 10,
+      [2] = 30,
+      [3] = 30,
+      [4] = 30
+    },
+    RewardId = 138005,
     Type = {
       [1] = "Draft",
       [2] = "Draft",
@@ -38720,6 +43095,31 @@ return ReadOnly("Reward", {
       [3] = 10000
     },
     RewardId = 150009,
+    Type = {
+      [1] = "Reward",
+      [2] = "Drop",
+      [3] = "Drop"
+    }
+  },
+  [150010] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1
+    },
+    Id = {
+      [1] = 1101,
+      [2] = 1001,
+      [3] = 1003
+    },
+    IsCombatReward = true,
+    Mode = "Independent",
+    Param = {
+      [1] = 100,
+      [2] = 100,
+      [3] = 100
+    },
+    RewardId = 150010,
     Type = {
       [1] = "Reward",
       [2] = "Drop",
@@ -40272,32 +44672,35 @@ return ReadOnly("Reward", {
   },
   [200000] = {
     Count = {
-      [1] = 1,
+      [1] = 2,
       [2] = 1,
       [3] = 1,
       [4] = 1,
       [5] = 1,
-      [6] = 1
+      [6] = 1,
+      [7] = 1
     },
     DetailDes = "Pack_Name_Battle_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Normal02.T_Resource_Normal02",
     Id = {
-      [1] = 20002,
-      [2] = 20005,
-      [3] = 20009,
-      [4] = 20010,
-      [5] = 20011,
-      [6] = 20012
+      [1] = 20013,
+      [2] = 20002,
+      [3] = 20005,
+      [4] = 20009,
+      [5] = 20010,
+      [6] = 20011,
+      [7] = 20012
     },
     Mode = "Independent",
     Name = "Pack_Name_Battle_Dispatch_1",
     Param = {
       [1] = 10000,
-      [2] = 1000,
+      [2] = 10000,
       [3] = 1000,
       [4] = 1000,
       [5] = 1000,
-      [6] = 1000
+      [6] = 1000,
+      [7] = 1000
     },
     Rarity = 1,
     RewardId = 200000,
@@ -40308,37 +44711,41 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource"
+      [6] = "Resource",
+      [7] = "Resource"
     }
   },
   [200001] = {
     Count = {
-      [1] = 1,
+      [1] = 3,
       [2] = 1,
       [3] = 1,
       [4] = 1,
       [5] = 1,
-      [6] = 1
+      [6] = 1,
+      [7] = 1
     },
     DetailDes = "Pack_Name_Battle_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Normal02.T_Resource_Normal02",
     Id = {
-      [1] = 20002,
-      [2] = 20005,
-      [3] = 20009,
-      [4] = 20010,
-      [5] = 20011,
-      [6] = 20012
+      [1] = 20013,
+      [2] = 20002,
+      [3] = 20005,
+      [4] = 20009,
+      [5] = 20010,
+      [6] = 20011,
+      [7] = 20012
     },
     Mode = "Independent",
     Name = "Pack_Name_Battle_Dispatch_2",
     Param = {
       [1] = 10000,
-      [2] = 2000,
+      [2] = 10000,
       [3] = 2000,
       [4] = 2000,
       [5] = 2000,
-      [6] = 2000
+      [6] = 2000,
+      [7] = 2000
     },
     Rarity = 1,
     RewardId = 200001,
@@ -40349,37 +44756,41 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource"
+      [6] = "Resource",
+      [7] = "Resource"
     }
   },
   [200002] = {
     Count = {
-      [1] = 2,
+      [1] = 4,
       [2] = 2,
       [3] = 2,
       [4] = 2,
       [5] = 2,
-      [6] = 2
+      [6] = 2,
+      [7] = 2
     },
     DetailDes = "Pack_Name_Battle_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Normal02.T_Resource_Normal02",
     Id = {
-      [1] = 20002,
-      [2] = 20005,
-      [3] = 20009,
-      [4] = 20010,
-      [5] = 20011,
-      [6] = 20012
+      [1] = 20013,
+      [2] = 20002,
+      [3] = 20005,
+      [4] = 20009,
+      [5] = 20010,
+      [6] = 20011,
+      [7] = 20012
     },
     Mode = "Independent",
     Name = "Pack_Name_Battle_Dispatch_3",
     Param = {
       [1] = 10000,
-      [2] = 3000,
+      [2] = 10000,
       [3] = 3000,
       [4] = 3000,
       [5] = 3000,
-      [6] = 3000
+      [6] = 3000,
+      [7] = 3000
     },
     Rarity = 2,
     RewardId = 200002,
@@ -40390,37 +44801,41 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource"
+      [6] = "Resource",
+      [7] = "Resource"
     }
   },
   [200003] = {
     Count = {
-      [1] = 2,
+      [1] = 5,
       [2] = 2,
       [3] = 2,
       [4] = 2,
       [5] = 2,
-      [6] = 2
+      [6] = 2,
+      [7] = 2
     },
     DetailDes = "Pack_Name_Battle_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Normal02.T_Resource_Normal02",
     Id = {
-      [1] = 20002,
-      [2] = 20005,
-      [3] = 20009,
-      [4] = 20010,
-      [5] = 20011,
-      [6] = 20012
+      [1] = 20013,
+      [2] = 20002,
+      [3] = 20005,
+      [4] = 20009,
+      [5] = 20010,
+      [6] = 20011,
+      [7] = 20012
     },
     Mode = "Independent",
     Name = "Pack_Name_Battle_Dispatch_4",
     Param = {
       [1] = 10000,
-      [2] = 4000,
+      [2] = 10000,
       [3] = 4000,
       [4] = 4000,
       [5] = 4000,
-      [6] = 4000
+      [6] = 4000,
+      [7] = 4000
     },
     Rarity = 2,
     RewardId = 200003,
@@ -40431,37 +44846,41 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource"
+      [6] = "Resource",
+      [7] = "Resource"
     }
   },
   [200004] = {
     Count = {
-      [1] = 3,
+      [1] = 6,
       [2] = 3,
       [3] = 3,
       [4] = 3,
       [5] = 3,
-      [6] = 3
+      [6] = 3,
+      [7] = 3
     },
     DetailDes = "Pack_Name_Battle_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Normal02.T_Resource_Normal02",
     Id = {
-      [1] = 20002,
-      [2] = 20005,
-      [3] = 20009,
-      [4] = 20010,
-      [5] = 20011,
-      [6] = 20012
+      [1] = 20013,
+      [2] = 20002,
+      [3] = 20005,
+      [4] = 20009,
+      [5] = 20010,
+      [6] = 20011,
+      [7] = 20012
     },
     Mode = "Independent",
     Name = "Pack_Name_Battle_Dispatch_5",
     Param = {
       [1] = 10000,
-      [2] = 5000,
+      [2] = 10000,
       [3] = 5000,
       [4] = 5000,
       [5] = 5000,
-      [6] = 5000
+      [6] = 5000,
+      [7] = 5000
     },
     Rarity = 3,
     RewardId = 200004,
@@ -40472,37 +44891,41 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource"
+      [6] = "Resource",
+      [7] = "Resource"
     }
   },
   [200005] = {
     Count = {
-      [1] = 3,
+      [1] = 8,
       [2] = 3,
       [3] = 3,
       [4] = 3,
       [5] = 3,
-      [6] = 3
+      [6] = 3,
+      [7] = 3
     },
     DetailDes = "Pack_Name_Battle_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Normal02.T_Resource_Normal02",
     Id = {
-      [1] = 20002,
-      [2] = 20005,
-      [3] = 20009,
-      [4] = 20010,
-      [5] = 20011,
-      [6] = 20012
+      [1] = 20013,
+      [2] = 20002,
+      [3] = 20005,
+      [4] = 20009,
+      [5] = 20010,
+      [6] = 20011,
+      [7] = 20012
     },
     Mode = "Independent",
     Name = "Pack_Name_Battle_Dispatch_6",
     Param = {
       [1] = 10000,
-      [2] = 6000,
+      [2] = 10000,
       [3] = 6000,
       [4] = 6000,
       [5] = 6000,
-      [6] = 6000
+      [6] = 6000,
+      [7] = 6000
     },
     Rarity = 3,
     RewardId = 200005,
@@ -40513,37 +44936,41 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource"
+      [6] = "Resource",
+      [7] = "Resource"
     }
   },
   [200006] = {
     Count = {
-      [1] = 4,
+      [1] = 10,
       [2] = 4,
       [3] = 4,
       [4] = 4,
       [5] = 4,
-      [6] = 4
+      [6] = 4,
+      [7] = 4
     },
     DetailDes = "Pack_Name_Battle_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Normal02.T_Resource_Normal02",
     Id = {
-      [1] = 20002,
-      [2] = 20005,
-      [3] = 20009,
-      [4] = 20010,
-      [5] = 20011,
-      [6] = 20012
+      [1] = 20013,
+      [2] = 20002,
+      [3] = 20005,
+      [4] = 20009,
+      [5] = 20010,
+      [6] = 20011,
+      [7] = 20012
     },
     Mode = "Independent",
     Name = "Pack_Name_Battle_Dispatch_7",
     Param = {
       [1] = 10000,
-      [2] = 7000,
+      [2] = 10000,
       [3] = 7000,
       [4] = 7000,
       [5] = 7000,
-      [6] = 7000
+      [6] = 7000,
+      [7] = 7000
     },
     Rarity = 4,
     RewardId = 200006,
@@ -40554,37 +44981,41 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource"
+      [6] = "Resource",
+      [7] = "Resource"
     }
   },
   [200007] = {
     Count = {
-      [1] = 4,
+      [1] = 12,
       [2] = 4,
       [3] = 4,
       [4] = 4,
       [5] = 4,
-      [6] = 4
+      [6] = 4,
+      [7] = 4
     },
     DetailDes = "Pack_Name_Battle_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Normal02.T_Resource_Normal02",
     Id = {
-      [1] = 20002,
-      [2] = 20005,
-      [3] = 20009,
-      [4] = 20010,
-      [5] = 20011,
-      [6] = 20012
+      [1] = 20013,
+      [2] = 20002,
+      [3] = 20005,
+      [4] = 20009,
+      [5] = 20010,
+      [6] = 20011,
+      [7] = 20012
     },
     Mode = "Independent",
     Name = "Pack_Name_Battle_Dispatch_8",
     Param = {
       [1] = 10000,
-      [2] = 8000,
+      [2] = 10000,
       [3] = 8000,
       [4] = 8000,
       [5] = 8000,
-      [6] = 8000
+      [6] = 8000,
+      [7] = 8000
     },
     Rarity = 4,
     RewardId = 200007,
@@ -40595,37 +45026,41 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource"
+      [6] = "Resource",
+      [7] = "Resource"
     }
   },
   [200008] = {
     Count = {
-      [1] = 5,
+      [1] = 15,
       [2] = 5,
       [3] = 5,
       [4] = 5,
       [5] = 5,
-      [6] = 5
+      [6] = 5,
+      [7] = 5
     },
     DetailDes = "Pack_Name_Battle_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Normal02.T_Resource_Normal02",
     Id = {
-      [1] = 20002,
-      [2] = 20005,
-      [3] = 20009,
-      [4] = 20010,
-      [5] = 20011,
-      [6] = 20012
+      [1] = 20013,
+      [2] = 20002,
+      [3] = 20005,
+      [4] = 20009,
+      [5] = 20010,
+      [6] = 20011,
+      [7] = 20012
     },
     Mode = "Independent",
     Name = "Pack_Name_Battle_Dispatch_9",
     Param = {
       [1] = 10000,
-      [2] = 9000,
+      [2] = 10000,
       [3] = 9000,
       [4] = 9000,
       [5] = 9000,
-      [6] = 9000
+      [6] = 9000,
+      [7] = 9000
     },
     Rarity = 5,
     RewardId = 200008,
@@ -40636,27 +45071,30 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource"
+      [6] = "Resource",
+      [7] = "Resource"
     }
   },
   [200009] = {
     Count = {
-      [1] = 5,
+      [1] = 18,
       [2] = 5,
       [3] = 5,
       [4] = 5,
       [5] = 5,
-      [6] = 5
+      [6] = 5,
+      [7] = 5
     },
     DetailDes = "Pack_Name_Battle_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Normal02.T_Resource_Normal02",
     Id = {
-      [1] = 20002,
-      [2] = 20005,
-      [3] = 20009,
-      [4] = 20010,
-      [5] = 20011,
-      [6] = 20012
+      [1] = 20013,
+      [2] = 20002,
+      [3] = 20005,
+      [4] = 20009,
+      [5] = 20010,
+      [6] = 20011,
+      [7] = 20012
     },
     Mode = "Independent",
     Name = "Pack_Name_Battle_Dispatch_10",
@@ -40666,7 +45104,8 @@ return ReadOnly("Reward", {
       [3] = 10000,
       [4] = 10000,
       [5] = 10000,
-      [6] = 10000
+      [6] = 10000,
+      [7] = 10000
     },
     Rarity = 5,
     RewardId = 200009,
@@ -40677,7 +45116,8 @@ return ReadOnly("Reward", {
       [3] = "Resource",
       [4] = "Resource",
       [5] = "Resource",
-      [6] = "Resource"
+      [6] = "Resource",
+      [7] = "Resource"
     }
   },
   [200010] = {
@@ -41742,12 +46182,12 @@ return ReadOnly("Reward", {
   },
   [200030] = {
     Count = {
-      [1] = 1,
-      [2] = 1,
-      [3] = 1,
-      [4] = 1,
-      [5] = 1,
-      [6] = 1
+      [1] = 2,
+      [2] = 2,
+      [3] = 2,
+      [4] = 2,
+      [5] = 2,
+      [6] = 2
     },
     DetailDes = "Pack_Name_Fish_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/AngLingFish/T_Fish_Sea_Normal_1",
@@ -41783,12 +46223,12 @@ return ReadOnly("Reward", {
   },
   [200031] = {
     Count = {
-      [1] = 1,
-      [2] = 1,
-      [3] = 1,
-      [4] = 1,
-      [5] = 1,
-      [6] = 1
+      [1] = 2,
+      [2] = 2,
+      [3] = 2,
+      [4] = 2,
+      [5] = 2,
+      [6] = 2
     },
     DetailDes = "Pack_Name_Fish_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/AngLingFish/T_Fish_Sea_Normal_1",
@@ -41824,12 +46264,12 @@ return ReadOnly("Reward", {
   },
   [200032] = {
     Count = {
-      [1] = 2,
-      [2] = 2,
-      [3] = 2,
-      [4] = 2,
-      [5] = 2,
-      [6] = 2
+      [1] = 4,
+      [2] = 4,
+      [3] = 4,
+      [4] = 4,
+      [5] = 4,
+      [6] = 4
     },
     DetailDes = "Pack_Name_Fish_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/AngLingFish/T_Fish_Sea_Normal_1",
@@ -41865,12 +46305,12 @@ return ReadOnly("Reward", {
   },
   [200033] = {
     Count = {
-      [1] = 2,
-      [2] = 2,
-      [3] = 2,
-      [4] = 2,
-      [5] = 2,
-      [6] = 2
+      [1] = 4,
+      [2] = 4,
+      [3] = 4,
+      [4] = 4,
+      [5] = 4,
+      [6] = 4
     },
     DetailDes = "Pack_Name_Fish_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/AngLingFish/T_Fish_Sea_Normal_1",
@@ -41906,12 +46346,12 @@ return ReadOnly("Reward", {
   },
   [200034] = {
     Count = {
-      [1] = 3,
-      [2] = 3,
-      [3] = 3,
-      [4] = 3,
-      [5] = 3,
-      [6] = 3
+      [1] = 6,
+      [2] = 6,
+      [3] = 6,
+      [4] = 6,
+      [5] = 6,
+      [6] = 6
     },
     DetailDes = "Pack_Name_Fish_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/AngLingFish/T_Fish_Sea_Normal_1",
@@ -41947,12 +46387,12 @@ return ReadOnly("Reward", {
   },
   [200035] = {
     Count = {
-      [1] = 3,
-      [2] = 3,
-      [3] = 3,
-      [4] = 3,
-      [5] = 3,
-      [6] = 3
+      [1] = 6,
+      [2] = 6,
+      [3] = 6,
+      [4] = 6,
+      [5] = 6,
+      [6] = 6
     },
     DetailDes = "Pack_Name_Fish_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/AngLingFish/T_Fish_Sea_Normal_1",
@@ -41988,12 +46428,12 @@ return ReadOnly("Reward", {
   },
   [200036] = {
     Count = {
-      [1] = 4,
-      [2] = 4,
-      [3] = 4,
-      [4] = 4,
-      [5] = 4,
-      [6] = 4
+      [1] = 8,
+      [2] = 8,
+      [3] = 8,
+      [4] = 8,
+      [5] = 8,
+      [6] = 8
     },
     DetailDes = "Pack_Name_Fish_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/AngLingFish/T_Fish_Sea_Normal_1",
@@ -42029,12 +46469,12 @@ return ReadOnly("Reward", {
   },
   [200037] = {
     Count = {
-      [1] = 4,
-      [2] = 4,
-      [3] = 4,
-      [4] = 4,
-      [5] = 4,
-      [6] = 4
+      [1] = 8,
+      [2] = 8,
+      [3] = 8,
+      [4] = 8,
+      [5] = 8,
+      [6] = 8
     },
     DetailDes = "Pack_Name_Fish_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/AngLingFish/T_Fish_Sea_Normal_1",
@@ -42070,12 +46510,12 @@ return ReadOnly("Reward", {
   },
   [200038] = {
     Count = {
-      [1] = 5,
-      [2] = 5,
-      [3] = 5,
-      [4] = 5,
-      [5] = 5,
-      [6] = 5
+      [1] = 10,
+      [2] = 10,
+      [3] = 10,
+      [4] = 10,
+      [5] = 10,
+      [6] = 10
     },
     DetailDes = "Pack_Name_Fish_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/AngLingFish/T_Fish_Sea_Normal_1",
@@ -42111,12 +46551,12 @@ return ReadOnly("Reward", {
   },
   [200039] = {
     Count = {
-      [1] = 5,
-      [2] = 5,
-      [3] = 5,
-      [4] = 5,
-      [5] = 5,
-      [6] = 5
+      [1] = 10,
+      [2] = 10,
+      [3] = 10,
+      [4] = 10,
+      [5] = 10,
+      [6] = 10
     },
     DetailDes = "Pack_Name_Fish_Dispatch_Des",
     Icon = "/Game/UI/Texture/Dynamic/Atlas/AngLingFish/T_Fish_Sea_Normal_1",
@@ -46341,12 +50781,395 @@ return ReadOnly("Reward", {
       [2] = "Char"
     }
   },
+  [300302] = {
+    Count = {
+      [1] = 30
+    },
+    Id = {
+      [1] = 1003301
+    },
+    Mode = "Fixed",
+    RewardId = 300302,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300303] = {
+    Count = {
+      [1] = 5
+    },
+    Id = {
+      [1] = 217
+    },
+    Mode = "Fixed",
+    RewardId = 300303,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300304] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 217
+    },
+    Mode = "Fixed",
+    RewardId = 300304,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300305] = {
+    Count = {
+      [1] = 15
+    },
+    Id = {
+      [1] = 217
+    },
+    Mode = "Fixed",
+    RewardId = 300305,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300306] = {
+    Count = {
+      [1] = 20
+    },
+    Id = {
+      [1] = 217
+    },
+    Mode = "Fixed",
+    RewardId = 300306,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300307] = {
+    Count = {
+      [1] = 25
+    },
+    Id = {
+      [1] = 217
+    },
+    Mode = "Fixed",
+    RewardId = 300307,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300308] = {
+    Count = {
+      [1] = 25
+    },
+    Id = {
+      [1] = 217
+    },
+    Mode = "Fixed",
+    RewardId = 300308,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300309] = {
+    Count = {
+      [1] = 500
+    },
+    Id = {
+      [1] = 218
+    },
+    Mode = "Fixed",
+    RewardId = 300309,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300310] = {
+    Count = {
+      [1] = 1000
+    },
+    Id = {
+      [1] = 218
+    },
+    Mode = "Fixed",
+    RewardId = 300310,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300311] = {
+    Count = {
+      [1] = 1500
+    },
+    Id = {
+      [1] = 218
+    },
+    Mode = "Fixed",
+    RewardId = 300311,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300312] = {
+    Count = {
+      [1] = 3000
+    },
+    Id = {
+      [1] = 218
+    },
+    Mode = "Fixed",
+    RewardId = 300312,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300313] = {
+    Count = {
+      [1] = 4000
+    },
+    Id = {
+      [1] = 218
+    },
+    Mode = "Fixed",
+    RewardId = 300313,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300314] = {
+    Count = {
+      [1] = 5000
+    },
+    Id = {
+      [1] = 218
+    },
+    Mode = "Fixed",
+    RewardId = 300314,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300315] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 218
+    },
+    Mode = "Fixed",
+    RewardId = 300315,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300316] = {
+    Count = {
+      [1] = 1,
+      [2] = 3000,
+      [3] = 2,
+      [4] = 2
+    },
+    Id = {
+      [1] = 10008,
+      [2] = 218,
+      [3] = 201,
+      [4] = 202
+    },
+    Mode = "Fixed",
+    RewardId = 300316,
+    Type = {
+      [1] = "TitleFrame",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [300317] = {
+    Count = {
+      [1] = 1,
+      [2] = 2500,
+      [3] = 2,
+      [4] = 2
+    },
+    Id = {
+      [1] = 10009,
+      [2] = 218,
+      [3] = 201,
+      [4] = 202
+    },
+    Mode = "Fixed",
+    RewardId = 300317,
+    Type = {
+      [1] = "TitleFrame",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [300318] = {
+    Count = {
+      [1] = 1,
+      [2] = 2000,
+      [3] = 2,
+      [4] = 2
+    },
+    Id = {
+      [1] = 10010,
+      [2] = 218,
+      [3] = 201,
+      [4] = 202
+    },
+    Mode = "Fixed",
+    RewardId = 300318,
+    Type = {
+      [1] = "TitleFrame",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [300319] = {
+    Count = {
+      [1] = 1,
+      [2] = 1500,
+      [3] = 1,
+      [4] = 1
+    },
+    Id = {
+      [1] = 10012,
+      [2] = 218,
+      [3] = 201,
+      [4] = 202
+    },
+    Mode = "Fixed",
+    RewardId = 300319,
+    Type = {
+      [1] = "TitleFrame",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [300320] = {
+    Count = {
+      [1] = 1,
+      [2] = 1000,
+      [3] = 1,
+      [4] = 1
+    },
+    Id = {
+      [1] = 10011,
+      [2] = 218,
+      [3] = 201,
+      [4] = 202
+    },
+    Mode = "Fixed",
+    RewardId = 300320,
+    Type = {
+      [1] = "TitleFrame",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource"
+    }
+  },
+  [300321] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 217
+    },
+    Mode = "Fixed",
+    RewardId = 300321,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300322] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 217
+    },
+    Mode = "Fixed",
+    RewardId = 300322,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300323] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 217
+    },
+    Mode = "Fixed",
+    RewardId = 300323,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300324] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 217
+    },
+    Mode = "Fixed",
+    RewardId = 300324,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300325] = {
+    Count = {
+      [1] = 30
+    },
+    Id = {
+      [1] = 218
+    },
+    Mode = "Fixed",
+    RewardId = 300325,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300326] = {
+    Count = {
+      [1] = 40
+    },
+    Id = {
+      [1] = 218
+    },
+    Mode = "Fixed",
+    RewardId = 300326,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [300327] = {
+    Count = {
+      [1] = 50
+    },
+    Id = {
+      [1] = 218
+    },
+    Mode = "Fixed",
+    RewardId = 300327,
+    Type = {
+      [1] = "Resource"
+    }
+  },
   [500000] = {
     Count = {
       [1] = 1
     },
     DetailDes = "Pack_Des_Walnut_Order_001_015",
-    Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Draft/T_Draft_Mod01.T_Draft_Mod01",
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/T_Icon_Random_Box_01.T_Icon_Random_Box_01",
     Id = {
       [1] = 1001
     },
@@ -46621,6 +51444,278 @@ return ReadOnly("Reward", {
     RewardId = 1010014,
     Type = {
       [1] = "Resource"
+    }
+  },
+  [1010041] = {
+    Count = {
+      [1] = 20,
+      [2] = 20
+    },
+    Id = {
+      [1] = 20013,
+      [2] = 211
+    },
+    Mode = "Fixed",
+    RewardId = 1010041,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [1010042] = {
+    Count = {
+      [1] = 30000,
+      [2] = 20
+    },
+    Id = {
+      [1] = 101,
+      [2] = 211
+    },
+    Mode = "Fixed",
+    RewardId = 1010042,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [1010043] = {
+    Count = {
+      [1] = 1,
+      [2] = 20
+    },
+    Id = {
+      [1] = 1001,
+      [2] = 211
+    },
+    Mode = "Fixed",
+    RewardId = 1010043,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [1010044] = {
+    Count = {
+      [1] = 600,
+      [2] = 20
+    },
+    Id = {
+      [1] = 102,
+      [2] = 211
+    },
+    Mode = "Fixed",
+    RewardId = 1010044,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [1010045] = {
+    Count = {
+      [1] = 1,
+      [2] = 20
+    },
+    Id = {
+      [1] = 1001,
+      [2] = 211
+    },
+    Mode = "Fixed",
+    RewardId = 1010045,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [1101033] = {
+    Count = {
+      [1] = 3,
+      [2] = 1,
+      [3] = 1,
+      [4] = 3,
+      [5] = 10000
+    },
+    Id = {
+      [1] = 2050,
+      [2] = 2050,
+      [3] = 2050,
+      [4] = 10103,
+      [5] = 101
+    },
+    Mode = "Independent",
+    Param = {
+      [1] = 10000,
+      [2] = 8000,
+      [3] = 2000,
+      [4] = 10000,
+      [5] = 10000
+    },
+    RewardId = 1101033,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Walnut",
+      [3] = "Walnut",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [1101038] = {
+    Count = {
+      [1] = 3,
+      [2] = 1,
+      [3] = 1,
+      [4] = 3,
+      [5] = 10000
+    },
+    Id = {
+      [1] = 2052,
+      [2] = 2052,
+      [3] = 2052,
+      [4] = 10104,
+      [5] = 101
+    },
+    Mode = "Independent",
+    Param = {
+      [1] = 10000,
+      [2] = 8000,
+      [3] = 2000,
+      [4] = 10000,
+      [5] = 10000
+    },
+    RewardId = 1101038,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Walnut",
+      [3] = "Walnut",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [1101042] = {
+    Count = {
+      [1] = 3,
+      [2] = 1,
+      [3] = 1,
+      [4] = 3,
+      [5] = 10000
+    },
+    Id = {
+      [1] = 1005,
+      [2] = 1005,
+      [3] = 1005,
+      [4] = 10101,
+      [5] = 101
+    },
+    Mode = "Independent",
+    Param = {
+      [1] = 10000,
+      [2] = 8000,
+      [3] = 2000,
+      [4] = 10000,
+      [5] = 10000
+    },
+    RewardId = 1101042,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Walnut",
+      [3] = "Walnut",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [1111023] = {
+    Count = {
+      [1] = 3,
+      [2] = 1,
+      [3] = 1,
+      [4] = 3,
+      [5] = 10000
+    },
+    Id = {
+      [1] = 2051,
+      [2] = 2051,
+      [3] = 2051,
+      [4] = 10102,
+      [5] = 101
+    },
+    Mode = "Independent",
+    Param = {
+      [1] = 10000,
+      [2] = 8000,
+      [3] = 2000,
+      [4] = 10000,
+      [5] = 10000
+    },
+    RewardId = 1111023,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Walnut",
+      [3] = "Walnut",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [1111030] = {
+    Count = {
+      [1] = 3,
+      [2] = 1,
+      [3] = 1,
+      [4] = 3,
+      [5] = 10000
+    },
+    Id = {
+      [1] = 1008,
+      [2] = 1008,
+      [3] = 1008,
+      [4] = 10103,
+      [5] = 101
+    },
+    Mode = "Independent",
+    Param = {
+      [1] = 10000,
+      [2] = 8000,
+      [3] = 2000,
+      [4] = 10000,
+      [5] = 10000
+    },
+    RewardId = 1111030,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Walnut",
+      [3] = "Walnut",
+      [4] = "Resource",
+      [5] = "Resource"
+    }
+  },
+  [1111032] = {
+    Count = {
+      [1] = 3,
+      [2] = 1,
+      [3] = 1,
+      [4] = 3,
+      [5] = 10000
+    },
+    Id = {
+      [1] = 2047,
+      [2] = 2047,
+      [3] = 2047,
+      [4] = 10103,
+      [5] = 101
+    },
+    Mode = "Independent",
+    Param = {
+      [1] = 10000,
+      [2] = 8000,
+      [3] = 2000,
+      [4] = 10000,
+      [5] = 10000
+    },
+    RewardId = 1111032,
+    Type = {
+      [1] = "Walnut",
+      [2] = "Walnut",
+      [3] = "Walnut",
+      [4] = "Resource",
+      [5] = "Resource"
     }
   },
   [1131000] = {
@@ -47209,17 +52304,15 @@ return ReadOnly("Reward", {
   [4000012] = {
     Count = {
       [1] = 1,
-      [2] = 2,
+      [2] = 1,
       [3] = 1,
-      [4] = 1,
-      [5] = 1
+      [4] = 1
     },
     Id = {
       [1] = 910402,
-      [2] = 20027,
+      [2] = 20032,
       [3] = 12082,
-      [4] = 12083,
-      [5] = 12084
+      [4] = 12083
     },
     Mode = "Fixed",
     RewardId = 4000012,
@@ -47227,8 +52320,7 @@ return ReadOnly("Reward", {
       [1] = "Draft",
       [2] = "Resource",
       [3] = "Resource",
-      [4] = "Resource",
-      [5] = "Resource"
+      [4] = "Resource"
     }
   },
   [4000013] = {
@@ -47534,6 +52626,97 @@ return ReadOnly("Reward", {
       [1] = "Resource"
     }
   },
+  [4010016] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 4010014
+    },
+    Mode = "Fixed",
+    RewardId = 4010016,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [4010017] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 4010015
+    },
+    Mode = "Fixed",
+    RewardId = 4010017,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [4010018] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 4010016
+    },
+    Mode = "Fixed",
+    RewardId = 4010018,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [4010019] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 4010017
+    },
+    Mode = "Fixed",
+    RewardId = 4010019,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [4010020] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 4010018
+    },
+    Mode = "Fixed",
+    RewardId = 4010020,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [4010021] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 4010019
+    },
+    Mode = "Fixed",
+    RewardId = 4010021,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [4010022] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 4010020
+    },
+    Mode = "Fixed",
+    RewardId = 4010022,
+    Type = {
+      [1] = "Resource"
+    }
+  },
   [4020001] = {
     Count = {
       [1] = 1
@@ -47645,6 +52828,34 @@ return ReadOnly("Reward", {
     RewardId = 4021005,
     Type = {
       [1] = "Drop"
+    }
+  },
+  [4021006] = {
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1
+    },
+    Id = {
+      [1] = 40106,
+      [2] = 40107,
+      [3] = 40108,
+      [4] = 40109
+    },
+    Mode = "Weight",
+    Param = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1
+    },
+    RewardId = 4021006,
+    Type = {
+      [1] = "Drop",
+      [2] = "Drop",
+      [3] = "Drop",
+      [4] = "Drop"
     }
   },
   [10000101] = {
@@ -47798,7 +53009,7 @@ return ReadOnly("Reward", {
   [10200107] = {
     Count = {
       [1] = 1,
-      [2] = 7000
+      [2] = {7000}
     },
     Id = {
       [1] = 211,
@@ -48481,6 +53692,405 @@ return ReadOnly("Reward", {
     Type = {
       [1] = "Resource",
       [2] = "Resource"
+    }
+  },
+  [10200201] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2013,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200201,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200202] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2009,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200202,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200203] = {
+    Count = {
+      [1] = 20,
+      [2] = 400,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200203,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200204] = {
+    Count = {
+      [1] = 20,
+      [2] = 1,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 202,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200204,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200205] = {
+    Count = {
+      [1] = 30,
+      [2] = 1,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 201,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200205,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200206] = {
+    Count = {
+      [1] = 50,
+      [2] = 1,
+      [3] = 50000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 10100,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200206,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200207] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2013,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200207,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200208] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2009,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200208,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200209] = {
+    Count = {
+      [1] = 20,
+      [2] = 500,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200209,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200210] = {
+    Count = {
+      [1] = 20,
+      [2] = 500,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200210,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200211] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2013,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200211,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200212] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2009,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200212,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200213] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2013,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200213,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200214] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2009,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200214,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200215] = {
+    Count = {
+      [1] = 20,
+      [2] = 500,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200215,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200216] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2009,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200216,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200217] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2013,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200217,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200218] = {
+    Count = {
+      [1] = 20,
+      [2] = 500,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200218,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200219] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 30000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2013,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200219,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200220] = {
+    Count = {
+      [1] = 20,
+      [2] = 3,
+      [3] = 15000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 2009,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200220,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
+    }
+  },
+  [10200221] = {
+    Count = {
+      [1] = 20,
+      [2] = 400,
+      [3] = 15000
+    },
+    Id = {
+      [1] = 211,
+      [2] = 102,
+      [3] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 10200221,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource"
     }
   },
   [10400101] = {
@@ -49367,6 +54977,656 @@ return ReadOnly("Reward", {
       [1] = "Resource"
     }
   },
+  [100005051] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005051,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005052] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005052,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005053] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005053,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005054] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005054,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005055] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    Mode = "Fixed",
+    RewardId = 100005055,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005056] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005056,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005057] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005057,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005058] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005058,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005059] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005059,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005060] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    Mode = "Fixed",
+    RewardId = 100005060,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005061] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005061,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005062] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005062,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005063] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005063,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005064] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005064,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005065] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    Mode = "Fixed",
+    RewardId = 100005065,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005066] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005066,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005067] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005067,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005068] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005068,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005069] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005069,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005070] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    Mode = "Fixed",
+    RewardId = 100005070,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005071] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005071,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005072] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005072,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005073] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005073,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005074] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005074,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005075] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    Mode = "Fixed",
+    RewardId = 100005075,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005076] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005076,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005077] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005077,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005078] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005078,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005079] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005079,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005080] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    Mode = "Fixed",
+    RewardId = 100005080,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005081] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005081,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005082] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005082,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005083] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005083,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005084] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005084,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005085] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    Mode = "Fixed",
+    RewardId = 100005085,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005086] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005086,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005087] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005087,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005088] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005088,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005089] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005089,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005090] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    Mode = "Fixed",
+    RewardId = 100005090,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005091] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005091,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005092] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005092,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005093] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005093,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005094] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005094,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005095] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    Mode = "Fixed",
+    RewardId = 100005095,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005096] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005096,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005097] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005097,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005098] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005098,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005099] = {
+    Count = {
+      [1] = 10000
+    },
+    Id = {
+      [1] = 101
+    },
+    Mode = "Fixed",
+    RewardId = 100005099,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100005100] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 207
+    },
+    Mode = "Fixed",
+    RewardId = 100005100,
+    Type = {
+      [1] = "Resource"
+    }
+  },
   [100006001] = {
     Count = {
       [1] = 3,
@@ -50045,6 +56305,784 @@ return ReadOnly("Reward", {
     },
     Mode = "Fixed",
     RewardId = 100006050,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [100006051] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006051,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006052] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006052,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006053] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006053,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006054] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006054,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006055] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    Mode = "Fixed",
+    RewardId = 100006055,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006056] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006056,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006057] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006057,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006058] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006058,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006059] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006059,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006060] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    Mode = "Fixed",
+    RewardId = 100006060,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006061] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006061,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006062] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006062,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006063] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006063,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006064] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006064,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006065] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    Mode = "Fixed",
+    RewardId = 100006065,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006066] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006066,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006067] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006067,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006068] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006068,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006069] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006069,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006070] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    Mode = "Fixed",
+    RewardId = 100006070,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006071] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006071,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006072] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006072,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006073] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006073,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006074] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006074,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006075] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    Mode = "Fixed",
+    RewardId = 100006075,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006076] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006076,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006077] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006077,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006078] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006078,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006079] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006079,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006080] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    Mode = "Fixed",
+    RewardId = 100006080,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006081] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006081,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006082] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006082,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006083] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006083,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006084] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006084,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006085] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    Mode = "Fixed",
+    RewardId = 100006085,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006086] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006086,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006087] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006087,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006088] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006088,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006089] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006089,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006090] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    Mode = "Fixed",
+    RewardId = 100006090,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006091] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006091,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006092] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006092,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006093] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006093,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006094] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006094,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006095] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    Mode = "Fixed",
+    RewardId = 100006095,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006096] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006096,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006097] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006097,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006098] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006098,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006099] = {
+    Count = {
+      [1] = 10
+    },
+    Id = {
+      [1] = 20013
+    },
+    Mode = "Fixed",
+    RewardId = 100006099,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [100006100] = {
+    Count = {
+      [1] = 1
+    },
+    Id = {
+      [1] = 208
+    },
+    Mode = "Fixed",
+    RewardId = 100006100,
+    Type = {
+      [1] = "Resource"
+    }
+  },
+  [1000060011] = {
+    Count = {
+      [1] = 1,
+      [2] = 100
+    },
+    Id = {
+      [1] = 30087,
+      [2] = 100
+    },
+    Mode = "Fixed",
+    RewardId = 1000060011,
+    Type = {
+      [1] = "HeadSculpture",
+      [2] = "Resource"
+    }
+  },
+  [1000060012] = {
+    Count = {
+      [1] = 1,
+      [2] = 100
+    },
+    Id = {
+      [1] = 30088,
+      [2] = 100
+    },
+    Mode = "Fixed",
+    RewardId = 1000060012,
+    Type = {
+      [1] = "HeadSculpture",
+      [2] = "Resource"
+    }
+  },
+  [1000060021] = {
+    Count = {
+      [1] = 3,
+      [2] = 3
+    },
+    Id = {
+      [1] = 2009,
+      [2] = 2013
+    },
+    Mode = "Fixed",
+    RewardId = 1000060021,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [1000060051] = {
+    Count = {
+      [1] = 2,
+      [2] = 1200
+    },
+    Id = {
+      [1] = 208,
+      [2] = 102
+    },
+    Mode = "Fixed",
+    RewardId = 1000060051,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [1000060101] = {
+    Count = {
+      [1] = 1,
+      [2] = 2000
+    },
+    Id = {
+      [1] = 1003,
+      [2] = 102
+    },
+    Mode = "Fixed",
+    RewardId = 1000060101,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [1000060201] = {
+    Count = {
+      [1] = 1,
+      [2] = 2400
+    },
+    Id = {
+      [1] = 201,
+      [2] = 102
+    },
+    Mode = "Fixed",
+    RewardId = 1000060201,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [1000060401] = {
+    Count = {
+      [1] = 2,
+      [2] = 1
+    },
+    Id = {
+      [1] = 1003,
+      [2] = 41034
+    },
+    Mode = "Fixed",
+    RewardId = 1000060401,
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource"
+    }
+  },
+  [1000060402] = {
+    Count = {
+      [1] = 2,
+      [2] = 1
+    },
+    Id = {
+      [1] = 1003,
+      [2] = 41036
+    },
+    Mode = "Fixed",
+    RewardId = 1000060402,
     Type = {
       [1] = "Resource",
       [2] = "Resource"

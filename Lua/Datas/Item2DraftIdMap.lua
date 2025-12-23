@@ -180,6 +180,24 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 2
     },
+    [10033] = {
+      DraftIds = {
+        [1] = 310032
+      },
+      MaxLen = 2
+    },
+    [10034] = {
+      DraftIds = {
+        [1] = 310033
+      },
+      MaxLen = 2
+    },
+    [10052] = {
+      DraftIds = {
+        [1] = 310031
+      },
+      MaxLen = 2
+    },
     [20001] = {
       DraftIds = {
         [1] = 320001
@@ -396,6 +414,12 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 2
     },
+    [30021] = {
+      DraftIds = {
+        [1] = 330007
+      },
+      MaxLen = 2
+    },
     [40001] = {
       DraftIds = {
         [1] = 340001
@@ -413,9 +437,24 @@ return ReadOnly("Item2DraftIdMap", {
         [1] = 340003
       },
       MaxLen = 2
+    },
+    [40008] = {
+      DraftIds = {
+        [1] = 340004
+      },
+      MaxLen = 2
     }
   },
   Mod = {
+    [31004] = {
+      MaxLen = 1
+    },
+    [31202] = {
+      MaxLen = 1
+    },
+    [31301] = {
+      MaxLen = 1
+    },
     [32101] = {
       MaxLen = 1
     },
@@ -648,6 +687,12 @@ return ReadOnly("Item2DraftIdMap", {
       MaxLen = 1
     },
     [41754] = {
+      MaxLen = 1
+    },
+    [41755] = {
+      MaxLen = 1
+    },
+    [41756] = {
       MaxLen = 1
     },
     [41761] = {
@@ -1247,6 +1292,18 @@ return ReadOnly("Item2DraftIdMap", {
       },
       MaxLen = 2
     },
+    [51755] = {
+      DraftIds = {
+        [1] = 151755
+      },
+      MaxLen = 4
+    },
+    [51756] = {
+      DraftIds = {
+        [1] = 151756
+      },
+      MaxLen = 4
+    },
     [51761] = {
       DraftIds = {
         [1] = 151761
@@ -1600,6 +1657,30 @@ return ReadOnly("Item2DraftIdMap", {
         [1] = 155103
       },
       MaxLen = 2
+    },
+    [56151] = {
+      DraftIds = {
+        [1] = 156151
+      },
+      MaxLen = 2
+    },
+    [56152] = {
+      DraftIds = {
+        [1] = 156152
+      },
+      MaxLen = 3
+    },
+    [56153] = {
+      DraftIds = {
+        [1] = 156153
+      },
+      MaxLen = 2
+    },
+    [56154] = {
+      DraftIds = {
+        [1] = 156154
+      },
+      MaxLen = 3
     }
   },
   Resource = {
@@ -2314,6 +2395,21 @@ return ReadOnly("Item2DraftIdMap", {
     [12132] = {
       MaxLen = 1
     },
+    [12133] = {
+      MaxLen = 1
+    },
+    [12134] = {
+      MaxLen = 1
+    },
+    [12135] = {
+      MaxLen = 1
+    },
+    [12136] = {
+      MaxLen = 1
+    },
+    [12137] = {
+      MaxLen = 1
+    },
     [20002] = {
       MaxLen = 1
     },
@@ -2501,6 +2597,24 @@ return ReadOnly("Item2DraftIdMap", {
     [4010012] = {
       MaxLen = 1
     },
+    [4010014] = {
+      MaxLen = 1
+    },
+    [4010015] = {
+      MaxLen = 1
+    },
+    [4010016] = {
+      MaxLen = 1
+    },
+    [4010017] = {
+      MaxLen = 1
+    },
+    [4010018] = {
+      MaxLen = 1
+    },
+    [4010019] = {
+      MaxLen = 1
+    },
     [4020003] = {
       MaxLen = 1
     }
@@ -2563,6 +2677,12 @@ return ReadOnly("Item2DraftIdMap", {
     [10206] = {
       DraftIds = {
         [1] = 910206
+      },
+      MaxLen = 4
+    },
+    [10208] = {
+      DraftIds = {
+        [1] = 910208
       },
       MaxLen = 4
     },
@@ -2762,6 +2882,12 @@ return ReadOnly("Item2DraftIdMap", {
     [20504] = {
       DraftIds = {
         [1] = 920504
+      },
+      MaxLen = 4
+    },
+    [20506] = {
+      DraftIds = {
+        [1] = 920506
       },
       MaxLen = 4
     },

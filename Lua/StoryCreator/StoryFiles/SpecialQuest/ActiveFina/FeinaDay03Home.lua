@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101105,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "TargetPoint_LeaveOutsidersHome"
+        StoryGuidePointName = "TargetPoint_LeaveOutsidersHome",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {

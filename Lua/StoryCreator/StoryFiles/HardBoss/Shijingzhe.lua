@@ -11,18 +11,6 @@ return {
     {
       startStory = "1748589440643384321",
       startPort = "StoryStart",
-      endStory = "1748589440643384324",
-      endPort = "In"
-    },
-    {
-      startStory = "1748589440643384324",
-      startPort = "Success",
-      endStory = "1748589440643384322",
-      endPort = "StoryEnd"
-    },
-    {
-      startStory = "1748589440643384321",
-      startPort = "StoryStart",
       endStory = "1748589440643384323",
       endPort = "In"
     }
@@ -82,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -136,72 +126,6 @@ return {
               HideNpcs = true,
               HideMonsters = true
             }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["1748589440643384324"] = {
-      isStoryNode = true,
-      key = "1748589440643384324",
-      type = "StoryNode",
-      name = "结束剧情",
-      pos = {x = 385, y = 292},
-      propsData = {
-        QuestId = 10199,
-        QuestDescriptionComment = "",
-        QuestDescription = "",
-        QuestDeatil = "",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = false,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "1748589440643384329",
-            startPort = "QuestStart",
-            endQuest = "1748589440643384330",
-            endPort = "Success"
-          }
-        },
-        nodeData = {
-          ["1748589440643384329"] = {
-            key = "1748589440643384329",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 100, y = 140},
-            propsData = {ModeType = 0}
-          },
-          ["1748589440643384330"] = {
-            key = "1748589440643384330",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 1500, y = 140},
-            propsData = {ModeType = 0}
-          },
-          ["1748589440643384331"] = {
-            key = "1748589440643384331",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 1500, y = 340},
-            propsData = {}
           }
         },
         commentData = {}

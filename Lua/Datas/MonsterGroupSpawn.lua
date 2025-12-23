@@ -16,7 +16,9 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupSpawnId = 1,
     GroupThreshold = 20,
     GroupUnitSpawnCenterRange = {500, 510},
-    GroupWeight = {2, 2},
+    GroupWeight = {
+      2, 2
+    },
     MonsterGroupIds = {7010, 7020}
   },
   [2] = {
@@ -451,6 +453,118 @@ return ReadOnly("MonsterGroupSpawn", {
       6030
     }
   },
+  [60200] = {
+    GroupDetectDelayTime = 2,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      200, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0
+    },
+    GroupLimit = 35,
+    GroupNumber = {
+      2,
+      1,
+      1
+    },
+    GroupRadius = 800,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 60200,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      200, 3000
+    },
+    GroupWeight = {
+      3,
+      1,
+      1
+    },
+    MonsterGroupIds = {
+      6040,
+      6041,
+      6042
+    }
+  },
+  [60201] = {
+    GroupDetectDelayTime = 2,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      1200, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0,
+      0
+    },
+    GroupLimit = 40,
+    GroupNumber = {
+      2,
+      1,
+      1,
+      0
+    },
+    GroupRadius = 500,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 60201,
+    GroupThreshold = 35,
+    GroupUnitSpawnCenterRange = {
+      1000, 3000
+    },
+    GroupWeight = {
+      3,
+      2,
+      2,
+      1
+    },
+    MonsterGroupIds = {
+      6040,
+      6041,
+      6042,
+      6030
+    }
+  },
+  [60501] = {
+    GroupDetectDelayTime = 3,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      600, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0
+    },
+    GroupLimit = 35,
+    GroupNumber = {
+      2,
+      1,
+      1
+    },
+    GroupRadius = 800,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 60501,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      400, 3000
+    },
+    GroupWeight = {
+      3,
+      1,
+      1
+    },
+    MonsterGroupIds = {
+      6050,
+      6051,
+      6052
+    }
+  },
   [70037] = {
     GroupDetectDelayTime = 0,
     GroupDetectTime = 1,
@@ -679,6 +793,70 @@ return ReadOnly("MonsterGroupSpawn", {
       6020
     }
   },
+  [70200] = {
+    GroupDetectDelayTime = 2,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      200, 2000
+    },
+    GroupLevel = {
+      0, 0
+    },
+    GroupLimit = 35,
+    GroupNumber = {
+      2, 2
+    },
+    GroupRadius = 800,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 70200,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      200, 3000
+    },
+    GroupWeight = {2, 1},
+    MonsterGroupIds = {7040, 7041}
+  },
+  [70201] = {
+    GroupDetectDelayTime = 2,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      1200, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0,
+      0
+    },
+    GroupLimit = 40,
+    GroupNumber = {
+      2,
+      2,
+      0,
+      0
+    },
+    GroupRadius = 500,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 70201,
+    GroupThreshold = 35,
+    GroupUnitSpawnCenterRange = {
+      1000, 3000
+    },
+    GroupWeight = {
+      3,
+      2,
+      1,
+      1
+    },
+    MonsterGroupIds = {
+      7040,
+      7041,
+      7042,
+      7044
+    }
+  },
   [80037] = {
     GroupDetectDelayTime = 0,
     GroupDetectTime = 1,
@@ -789,6 +967,150 @@ return ReadOnly("MonsterGroupSpawn", {
       8010,
       8020,
       6020
+    }
+  },
+  [80200] = {
+    GroupDetectDelayTime = 2,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      200, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0
+    },
+    GroupLimit = 35,
+    GroupNumber = {
+      1,
+      1,
+      2
+    },
+    GroupRadius = 800,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 80200,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      200, 3000
+    },
+    GroupWeight = {
+      1,
+      1,
+      2
+    },
+    MonsterGroupIds = {
+      6040,
+      6042,
+      8040
+    }
+  },
+  [80201] = {
+    GroupDetectDelayTime = 2,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      1200, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0
+    },
+    GroupLimit = 40,
+    GroupNumber = {
+      1,
+      1,
+      2
+    },
+    GroupRadius = 600,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 80201,
+    GroupThreshold = 35,
+    GroupUnitSpawnCenterRange = {
+      1000, 3000
+    },
+    GroupWeight = {
+      1,
+      1,
+      2
+    },
+    MonsterGroupIds = {
+      6040,
+      6042,
+      8040
+    }
+  },
+  [80501] = {
+    GroupDetectDelayTime = 1,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      600, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0
+    },
+    GroupLimit = 40,
+    GroupNumber = {
+      1,
+      1,
+      2
+    },
+    GroupRadius = 800,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 80501,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      400, 3000
+    },
+    GroupWeight = {
+      1,
+      1,
+      2
+    },
+    MonsterGroupIds = {
+      6050,
+      6052,
+      8050
+    }
+  },
+  [80502] = {
+    GroupDetectDelayTime = 1,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      600, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0
+    },
+    GroupLimit = 30,
+    GroupNumber = {
+      1,
+      1,
+      2
+    },
+    GroupRadius = 800,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 80502,
+    GroupThreshold = 25,
+    GroupUnitSpawnCenterRange = {
+      400, 3000
+    },
+    GroupWeight = {
+      1,
+      1,
+      2
+    },
+    MonsterGroupIds = {
+      6050,
+      6052,
+      8050
     }
   },
   [90037] = {
@@ -903,13 +1225,159 @@ return ReadOnly("MonsterGroupSpawn", {
       6020
     }
   },
-  [4020101] = {
-    GroupDetectDelayTime = 3,
-    GroupDetectTime = 1,
+  [90200] = {
+    GroupDetectDelayTime = 2,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      200, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0
+    },
+    GroupLimit = 35,
+    GroupNumber = {
+      1,
+      1,
+      2
+    },
+    GroupRadius = 800,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 90200,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      200, 3000
+    },
+    GroupWeight = {
+      1,
+      1,
+      2
+    },
+    MonsterGroupIds = {
+      6040,
+      6042,
+      9040
+    }
+  },
+  [90201] = {
+    GroupDetectDelayTime = 2,
+    GroupDetectTime = 0.5,
     GroupInitUnitSpawnCenterRange = {
       1200, 2000
     },
     GroupLevel = {
+      0,
+      0,
+      0
+    },
+    GroupLimit = 40,
+    GroupNumber = {
+      1,
+      1,
+      2
+    },
+    GroupRadius = 600,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 90201,
+    GroupThreshold = 35,
+    GroupUnitSpawnCenterRange = {
+      1000, 3000
+    },
+    GroupWeight = {
+      1,
+      1,
+      2
+    },
+    MonsterGroupIds = {
+      6040,
+      6042,
+      9040
+    }
+  },
+  [90501] = {
+    GroupDetectDelayTime = 1,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      600, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0
+    },
+    GroupLimit = 40,
+    GroupNumber = {
+      1,
+      1,
+      2
+    },
+    GroupRadius = 800,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 90501,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      600, 3000
+    },
+    GroupWeight = {
+      1,
+      1,
+      2
+    },
+    MonsterGroupIds = {
+      6050,
+      6052,
+      9050
+    }
+  },
+  [90502] = {
+    GroupDetectDelayTime = 1,
+    GroupDetectTime = 0.5,
+    GroupInitUnitSpawnCenterRange = {
+      600, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0
+    },
+    GroupLimit = 30,
+    GroupNumber = {
+      1,
+      1,
+      2
+    },
+    GroupRadius = 800,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 1,
+    GroupSpawnId = 90502,
+    GroupThreshold = 25,
+    GroupUnitSpawnCenterRange = {
+      600, 3000
+    },
+    GroupWeight = {
+      1,
+      1,
+      2
+    },
+    MonsterGroupIds = {
+      6050,
+      6052,
+      9050
+    }
+  },
+  [2200101] = {
+    GroupDetectDelayTime = 3,
+    GroupDetectTime = 1,
+    GroupInitUnitSpawnCenterRange = {
+      800, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
       0,
       0,
       0,
@@ -918,78 +1386,46 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupLimit = 50,
     GroupNumber = {
       3,
+      3,
       1,
+      3,
       3,
       1
     },
-    GroupRadius = 500,
+    GroupRadius = 600,
     GroupRangeZ = 500,
-    GroupReplenishInterval = 1,
-    GroupSpawnId = 4020101,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200101,
     GroupThreshold = 30,
     GroupUnitSpawnCenterRange = {
       1200, 2000
     },
     GroupWeight = {
       2,
+      2,
       1,
+      2,
       2,
       1
     },
     MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
+      6012,
+      6022,
+      6023,
+      8011,
+      8021,
+      8022
     }
   },
-  [4020102] = {
-    GroupDetectDelayTime = 3,
-    GroupDetectTime = 2,
-    GroupInitUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupLevel = {
-      0,
-      0,
-      0,
-      0
-    },
-    GroupLimit = 25,
-    GroupNumber = {
-      3,
-      1,
-      3,
-      1
-    },
-    GroupRadius = 500,
-    GroupRangeZ = 500,
-    GroupReplenishInterval = 2,
-    GroupSpawnId = 4020102,
-    GroupThreshold = 15,
-    GroupUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupWeight = {
-      2,
-      1,
-      2,
-      1
-    },
-    MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
-    }
-  },
-  [4020201] = {
+  [2200102] = {
     GroupDetectDelayTime = 3,
     GroupDetectTime = 1,
     GroupInitUnitSpawnCenterRange = {
-      1200, 2000
+      0, 2000
     },
     GroupLevel = {
+      0,
+      0,
       0,
       0,
       0,
@@ -998,78 +1434,46 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupLimit = 50,
     GroupNumber = {
       3,
+      3,
       1,
+      3,
       3,
       1
     },
-    GroupRadius = 500,
+    GroupRadius = 600,
     GroupRangeZ = 500,
-    GroupReplenishInterval = 1,
-    GroupSpawnId = 4020201,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200102,
     GroupThreshold = 30,
     GroupUnitSpawnCenterRange = {
-      1200, 2000
+      0, 2000
     },
     GroupWeight = {
       2,
+      2,
       1,
+      2,
       2,
       1
     },
     MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
+      6012,
+      6022,
+      6023,
+      8011,
+      8021,
+      8022
     }
   },
-  [4020202] = {
-    GroupDetectDelayTime = 3,
-    GroupDetectTime = 2,
-    GroupInitUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupLevel = {
-      0,
-      0,
-      0,
-      0
-    },
-    GroupLimit = 25,
-    GroupNumber = {
-      3,
-      1,
-      3,
-      1
-    },
-    GroupRadius = 500,
-    GroupRangeZ = 500,
-    GroupReplenishInterval = 2,
-    GroupSpawnId = 4020202,
-    GroupThreshold = 15,
-    GroupUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupWeight = {
-      2,
-      1,
-      2,
-      1
-    },
-    MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
-    }
-  },
-  [4020301] = {
+  [2200201] = {
     GroupDetectDelayTime = 3,
     GroupDetectTime = 1,
     GroupInitUnitSpawnCenterRange = {
-      1200, 2000
+      800, 2000
     },
     GroupLevel = {
+      0,
+      0,
       0,
       0,
       0,
@@ -1078,78 +1482,46 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupLimit = 50,
     GroupNumber = {
       3,
+      3,
       1,
+      3,
       3,
       1
     },
-    GroupRadius = 500,
+    GroupRadius = 600,
     GroupRangeZ = 500,
-    GroupReplenishInterval = 1,
-    GroupSpawnId = 4020301,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200201,
     GroupThreshold = 30,
     GroupUnitSpawnCenterRange = {
       1200, 2000
     },
     GroupWeight = {
       2,
+      2,
       1,
+      2,
       2,
       1
     },
     MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
+      6012,
+      6022,
+      6023,
+      7012,
+      7023,
+      7024
     }
   },
-  [4020302] = {
-    GroupDetectDelayTime = 3,
-    GroupDetectTime = 2,
-    GroupInitUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupLevel = {
-      0,
-      0,
-      0,
-      0
-    },
-    GroupLimit = 25,
-    GroupNumber = {
-      3,
-      1,
-      3,
-      1
-    },
-    GroupRadius = 500,
-    GroupRangeZ = 500,
-    GroupReplenishInterval = 2,
-    GroupSpawnId = 4020302,
-    GroupThreshold = 15,
-    GroupUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupWeight = {
-      2,
-      1,
-      2,
-      1
-    },
-    MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
-    }
-  },
-  [4020401] = {
+  [2200202] = {
     GroupDetectDelayTime = 3,
     GroupDetectTime = 1,
     GroupInitUnitSpawnCenterRange = {
-      1200, 2000
+      0, 2000
     },
     GroupLevel = {
+      0,
+      0,
       0,
       0,
       0,
@@ -1158,78 +1530,45 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupLimit = 50,
     GroupNumber = {
       3,
+      3,
       1,
+      3,
       3,
       1
     },
-    GroupRadius = 500,
+    GroupRadius = 600,
     GroupRangeZ = 500,
-    GroupReplenishInterval = 1,
-    GroupSpawnId = 4020401,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200202,
     GroupThreshold = 30,
     GroupUnitSpawnCenterRange = {
-      1200, 2000
+      0, 2000
     },
     GroupWeight = {
       2,
+      2,
       1,
+      2,
       2,
       1
     },
     MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
+      6012,
+      6022,
+      6023,
+      7012,
+      7023,
+      7024
     }
   },
-  [4020402] = {
-    GroupDetectDelayTime = 3,
-    GroupDetectTime = 2,
-    GroupInitUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupLevel = {
-      0,
-      0,
-      0,
-      0
-    },
-    GroupLimit = 25,
-    GroupNumber = {
-      3,
-      1,
-      3,
-      1
-    },
-    GroupRadius = 500,
-    GroupRangeZ = 500,
-    GroupReplenishInterval = 2,
-    GroupSpawnId = 4020402,
-    GroupThreshold = 15,
-    GroupUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupWeight = {
-      2,
-      1,
-      2,
-      1
-    },
-    MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
-    }
-  },
-  [4020501] = {
+  [2200301] = {
     GroupDetectDelayTime = 3,
     GroupDetectTime = 1,
     GroupInitUnitSpawnCenterRange = {
-      1200, 2000
+      800, 1200
     },
     GroupLevel = {
+      0,
       0,
       0,
       0,
@@ -1238,78 +1577,42 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupLimit = 50,
     GroupNumber = {
       3,
+      3,
       1,
       3,
-      1
+      3
     },
-    GroupRadius = 500,
+    GroupRadius = 600,
     GroupRangeZ = 500,
-    GroupReplenishInterval = 1,
-    GroupSpawnId = 4020501,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200301,
     GroupThreshold = 30,
     GroupUnitSpawnCenterRange = {
       1200, 2000
     },
     GroupWeight = {
       2,
+      2,
       1,
       2,
-      1
+      2
     },
     MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
+      6012,
+      6022,
+      6023,
+      9011,
+      9021
     }
   },
-  [4020502] = {
-    GroupDetectDelayTime = 3,
-    GroupDetectTime = 2,
-    GroupInitUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupLevel = {
-      0,
-      0,
-      0,
-      0
-    },
-    GroupLimit = 25,
-    GroupNumber = {
-      3,
-      1,
-      3,
-      1
-    },
-    GroupRadius = 500,
-    GroupRangeZ = 500,
-    GroupReplenishInterval = 2,
-    GroupSpawnId = 4020502,
-    GroupThreshold = 15,
-    GroupUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupWeight = {
-      2,
-      1,
-      2,
-      1
-    },
-    MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
-    }
-  },
-  [4020601] = {
+  [2200302] = {
     GroupDetectDelayTime = 3,
     GroupDetectTime = 1,
     GroupInitUnitSpawnCenterRange = {
-      1200, 2000
+      0, 2000
     },
     GroupLevel = {
+      0,
       0,
       0,
       0,
@@ -1318,78 +1621,43 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupLimit = 50,
     GroupNumber = {
       3,
+      3,
       1,
       3,
-      1
+      3
     },
-    GroupRadius = 500,
+    GroupRadius = 600,
     GroupRangeZ = 500,
-    GroupReplenishInterval = 1,
-    GroupSpawnId = 4020601,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200302,
     GroupThreshold = 30,
     GroupUnitSpawnCenterRange = {
-      1200, 2000
+      0, 2000
     },
     GroupWeight = {
       2,
+      2,
       1,
       2,
-      1
+      2
     },
     MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
+      6012,
+      6022,
+      6023,
+      9011,
+      9021
     }
   },
-  [4020602] = {
-    GroupDetectDelayTime = 3,
-    GroupDetectTime = 2,
-    GroupInitUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupLevel = {
-      0,
-      0,
-      0,
-      0
-    },
-    GroupLimit = 25,
-    GroupNumber = {
-      3,
-      1,
-      3,
-      1
-    },
-    GroupRadius = 500,
-    GroupRangeZ = 500,
-    GroupReplenishInterval = 2,
-    GroupSpawnId = 4020602,
-    GroupThreshold = 15,
-    GroupUnitSpawnCenterRange = {
-      1200, 2000
-    },
-    GroupWeight = {
-      2,
-      1,
-      2,
-      1
-    },
-    MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
-    }
-  },
-  [4020701] = {
+  [2200401] = {
     GroupDetectDelayTime = 3,
     GroupDetectTime = 1,
     GroupInitUnitSpawnCenterRange = {
-      1200, 2000
+      800, 2000
     },
     GroupLevel = {
+      0,
+      0,
       0,
       0,
       0,
@@ -1398,69 +1666,355 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupLimit = 50,
     GroupNumber = {
       3,
+      3,
       1,
+      3,
       3,
       1
     },
-    GroupRadius = 500,
+    GroupRadius = 600,
     GroupRangeZ = 500,
-    GroupReplenishInterval = 1,
-    GroupSpawnId = 4020701,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200401,
     GroupThreshold = 30,
     GroupUnitSpawnCenterRange = {
       1200, 2000
     },
     GroupWeight = {
       2,
+      2,
       1,
+      2,
       2,
       1
     },
     MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
+      6012,
+      6022,
+      6023,
+      7012,
+      7023,
+      7024
     }
   },
-  [4020702] = {
+  [2200402] = {
     GroupDetectDelayTime = 3,
-    GroupDetectTime = 2,
+    GroupDetectTime = 1,
     GroupInitUnitSpawnCenterRange = {
-      1200, 2000
+      0, 2000
     },
     GroupLevel = {
       0,
       0,
       0,
+      0,
+      0,
       0
     },
-    GroupLimit = 25,
+    GroupLimit = 50,
     GroupNumber = {
+      3,
       3,
       1,
       3,
+      3,
       1
     },
-    GroupRadius = 500,
+    GroupRadius = 600,
     GroupRangeZ = 500,
-    GroupReplenishInterval = 2,
-    GroupSpawnId = 4020702,
-    GroupThreshold = 15,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200402,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      0, 2000
+    },
+    GroupWeight = {
+      2,
+      2,
+      1,
+      2,
+      2,
+      1
+    },
+    MonsterGroupIds = {
+      6012,
+      6022,
+      6023,
+      7012,
+      7023,
+      7024
+    }
+  },
+  [2200501] = {
+    GroupDetectDelayTime = 3,
+    GroupDetectTime = 1,
+    GroupInitUnitSpawnCenterRange = {
+      800, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    },
+    GroupLimit = 50,
+    GroupNumber = {
+      3,
+      3,
+      1,
+      3,
+      3,
+      1
+    },
+    GroupRadius = 600,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200501,
+    GroupThreshold = 30,
     GroupUnitSpawnCenterRange = {
       1200, 2000
     },
     GroupWeight = {
       2,
+      2,
       1,
+      2,
       2,
       1
     },
     MonsterGroupIds = {
-      6010,
-      6011,
-      6020,
-      6021
+      6012,
+      6022,
+      6023,
+      8011,
+      8021,
+      8022
+    }
+  },
+  [2200502] = {
+    GroupDetectDelayTime = 3,
+    GroupDetectTime = 1,
+    GroupInitUnitSpawnCenterRange = {
+      0, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    },
+    GroupLimit = 50,
+    GroupNumber = {
+      3,
+      3,
+      1,
+      3,
+      3,
+      1
+    },
+    GroupRadius = 600,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200502,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      0, 2000
+    },
+    GroupWeight = {
+      2,
+      2,
+      1,
+      2,
+      2,
+      1
+    },
+    MonsterGroupIds = {
+      6012,
+      6022,
+      6023,
+      8011,
+      8021,
+      8022
+    }
+  },
+  [2200601] = {
+    GroupDetectDelayTime = 3,
+    GroupDetectTime = 1,
+    GroupInitUnitSpawnCenterRange = {
+      800, 1200
+    },
+    GroupLevel = {
+      0,
+      0,
+      0,
+      0,
+      0
+    },
+    GroupLimit = 50,
+    GroupNumber = {
+      3,
+      3,
+      1,
+      3,
+      3
+    },
+    GroupRadius = 600,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200601,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      1200, 2000
+    },
+    GroupWeight = {
+      2,
+      2,
+      1,
+      2,
+      2
+    },
+    MonsterGroupIds = {
+      6012,
+      6022,
+      6023,
+      9011,
+      9021
+    }
+  },
+  [2200602] = {
+    GroupDetectDelayTime = 3,
+    GroupDetectTime = 1,
+    GroupInitUnitSpawnCenterRange = {
+      0, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0,
+      0,
+      0
+    },
+    GroupLimit = 50,
+    GroupNumber = {
+      3,
+      3,
+      1,
+      3,
+      3
+    },
+    GroupRadius = 600,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200602,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      0, 2000
+    },
+    GroupWeight = {
+      2,
+      2,
+      1,
+      2,
+      2
+    },
+    MonsterGroupIds = {
+      6012,
+      6022,
+      6023,
+      9011,
+      9021
+    }
+  },
+  [2200701] = {
+    GroupDetectDelayTime = 3,
+    GroupDetectTime = 1,
+    GroupInitUnitSpawnCenterRange = {
+      800, 1200
+    },
+    GroupLevel = {
+      0,
+      0,
+      0,
+      0,
+      0
+    },
+    GroupLimit = 50,
+    GroupNumber = {
+      3,
+      3,
+      1,
+      3,
+      3
+    },
+    GroupRadius = 600,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200701,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      1200, 2000
+    },
+    GroupWeight = {
+      2,
+      2,
+      1,
+      2,
+      2
+    },
+    MonsterGroupIds = {
+      6012,
+      6022,
+      6023,
+      9011,
+      9021
+    }
+  },
+  [2200702] = {
+    GroupDetectDelayTime = 3,
+    GroupDetectTime = 1,
+    GroupInitUnitSpawnCenterRange = {
+      0, 2000
+    },
+    GroupLevel = {
+      0,
+      0,
+      0,
+      0,
+      0
+    },
+    GroupLimit = 50,
+    GroupNumber = {
+      3,
+      3,
+      1,
+      3,
+      3
+    },
+    GroupRadius = 600,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0.5,
+    GroupSpawnId = 2200702,
+    GroupThreshold = 30,
+    GroupUnitSpawnCenterRange = {
+      0, 2000
+    },
+    GroupWeight = {
+      2,
+      2,
+      1,
+      2,
+      2
+    },
+    MonsterGroupIds = {
+      6012,
+      6022,
+      6023,
+      9011,
+      9021
     }
   },
   [6001012] = {
@@ -2639,6 +3193,69 @@ return ReadOnly("MonsterGroupSpawn", {
     GroupWeight = 1,
     MonsterGroupIds = {8002024}
   },
+  [8002701] = {
+    CloseGroupReplenish = true,
+    GroupDetectDelayTime = 0,
+    GroupDetectTime = 0,
+    GroupInitUnitSpawnCenterRange = {
+      1000, 3000
+    },
+    GroupLevel = 0,
+    GroupLimit = 60,
+    GroupNumber = 1,
+    GroupRadius = 300,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0,
+    GroupSpawnId = 8002701,
+    GroupThreshold = 10,
+    GroupUnitSpawnCenterRange = {
+      1500, 2000
+    },
+    GroupWeight = 1,
+    MonsterGroupIds = {8002701}
+  },
+  [8002702] = {
+    CloseGroupReplenish = true,
+    GroupDetectDelayTime = 0,
+    GroupDetectTime = 0,
+    GroupInitUnitSpawnCenterRange = {
+      1000, 3000
+    },
+    GroupLevel = 0,
+    GroupLimit = 60,
+    GroupNumber = 1,
+    GroupRadius = 300,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0,
+    GroupSpawnId = 8002702,
+    GroupThreshold = 10,
+    GroupUnitSpawnCenterRange = {
+      1500, 2000
+    },
+    GroupWeight = 1,
+    MonsterGroupIds = {8002702}
+  },
+  [8002703] = {
+    CloseGroupReplenish = true,
+    GroupDetectDelayTime = 0,
+    GroupDetectTime = 0,
+    GroupInitUnitSpawnCenterRange = {
+      1000, 3000
+    },
+    GroupLevel = 0,
+    GroupLimit = 60,
+    GroupNumber = 1,
+    GroupRadius = 300,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0,
+    GroupSpawnId = 8002703,
+    GroupThreshold = 10,
+    GroupUnitSpawnCenterRange = {
+      1500, 2000
+    },
+    GroupWeight = 1,
+    MonsterGroupIds = {8002703}
+  },
   [8003011] = {
     CloseGroupReplenish = true,
     GroupDetectDelayTime = 0,
@@ -2932,6 +3549,69 @@ return ReadOnly("MonsterGroupSpawn", {
     },
     GroupWeight = 1,
     MonsterGroupIds = {8003024}
+  },
+  [8003701] = {
+    CloseGroupReplenish = true,
+    GroupDetectDelayTime = 0,
+    GroupDetectTime = 0,
+    GroupInitUnitSpawnCenterRange = {
+      1000, 3000
+    },
+    GroupLevel = 0,
+    GroupLimit = 60,
+    GroupNumber = 1,
+    GroupRadius = 300,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0,
+    GroupSpawnId = 8003701,
+    GroupThreshold = 10,
+    GroupUnitSpawnCenterRange = {
+      1500, 2000
+    },
+    GroupWeight = 1,
+    MonsterGroupIds = {8003701}
+  },
+  [8003702] = {
+    CloseGroupReplenish = true,
+    GroupDetectDelayTime = 0,
+    GroupDetectTime = 0,
+    GroupInitUnitSpawnCenterRange = {
+      1000, 3000
+    },
+    GroupLevel = 0,
+    GroupLimit = 60,
+    GroupNumber = 1,
+    GroupRadius = 300,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0,
+    GroupSpawnId = 8003702,
+    GroupThreshold = 10,
+    GroupUnitSpawnCenterRange = {
+      1500, 2000
+    },
+    GroupWeight = 1,
+    MonsterGroupIds = {8003702}
+  },
+  [8003703] = {
+    CloseGroupReplenish = true,
+    GroupDetectDelayTime = 0,
+    GroupDetectTime = 0,
+    GroupInitUnitSpawnCenterRange = {
+      1000, 3000
+    },
+    GroupLevel = 0,
+    GroupLimit = 60,
+    GroupNumber = 1,
+    GroupRadius = 300,
+    GroupRangeZ = 500,
+    GroupReplenishInterval = 0,
+    GroupSpawnId = 8003703,
+    GroupThreshold = 10,
+    GroupUnitSpawnCenterRange = {
+      1500, 2000
+    },
+    GroupWeight = 1,
+    MonsterGroupIds = {8003703}
   },
   [9001011] = {
     CloseGroupReplenish = true,

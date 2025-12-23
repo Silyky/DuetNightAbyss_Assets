@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -154,12 +156,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17561051737804426909",
-            startPort = "Out",
-            endQuest = "175611390619111989531",
-            endPort = "In"
-          },
-          {
             startQuest = "1751359489765264",
             startPort = "QuestStart",
             endQuest = "1751359489766271",
@@ -171,14 +167,14 @@ return {
             key = "1751359489765264",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 338, y = 204},
+            pos = {x = 759.8620683002509, y = 172.27586515338186},
             propsData = {ModeType = 0}
           },
           ["1751359489766271"] = {
             key = "1751359489766271",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 852.2249762254951, y = 225.15297178548144},
+            pos = {x = 1350.7964253710543, y = 112.51258348917008},
             propsData = {ModeType = 0}
           },
           ["1751359489766278"] = {
@@ -450,7 +446,7 @@ return {
             key = "175611390619111989531",
             type = "ShowGuideButtonNode",
             name = "Button显示/隐藏信息",
-            pos = {x = 2102.275862084085, y = 1142.2068966726815},
+            pos = {x = 2283.7044295578276, y = 923.6354728657319},
             propsData = {
               ShowEnable = true,
               MessageId = 303407,

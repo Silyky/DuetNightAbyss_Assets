@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "2090245"
+        StoryGuidePointName = "Mechanism_2090245",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -82,16 +84,34 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "1753691648347932",
+            startPort = "Out",
+            endQuest = "17536916572561126",
+            endPort = "In"
+          },
+          {
             startQuest = "17536916572561126",
+            startPort = "Out",
+            endQuest = "1763467417497674344",
+            endPort = "In"
+          },
+          {
+            startQuest = "1763467417497674344",
             startPort = "Out",
             endQuest = "17536916621051230",
             endPort = "In"
           },
           {
-            startQuest = "1753691648347932",
-            startPort = "Out",
-            endQuest = "17536916572561126",
+            startQuest = "17533583198611267434",
+            startPort = "QuestStart",
+            endQuest = "17643196935421277401",
             endPort = "In"
+          },
+          {
+            startQuest = "17643196935421277401",
+            startPort = "Out",
+            endQuest = "17533583198611267436",
+            endPort = "Fail"
           }
         },
         nodeData = {
@@ -106,14 +126,14 @@ return {
             key = "17533583198611267435",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2041.2422360248445, y = 387.5776397515528},
+            pos = {x = 2287.2422360248447, y = 384.5776397515528},
             propsData = {ModeType = 0}
           },
           ["17533583198611267436"] = {
             key = "17533583198611267436",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2800, y = 700},
+            pos = {x = 2008.3333333333333, y = 641.6666666666666},
             propsData = {}
           },
           ["1753691648347932"] = {
@@ -134,13 +154,13 @@ return {
             key = "17536916572561126",
             type = "KillMonsterNode",
             name = "击杀怪物",
-            pos = {x = 1415.3392857142858, y = 373.7714285714285},
+            pos = {x = 1443.8392857142858, y = 375.2714285714285},
             propsData = {
               KillMonsterType = "Id",
               MonsterNeedNums = 2,
-              IsShow = true,
+              IsShow = false,
               GuideType = "N",
-              GuideName = "Monster_BiAn_2090161",
+              GuideName = "Mechanism_2090245",
               IsShowMonsterGuide = true,
               StaticCreatorIdList = {2090246, 2090247}
             }
@@ -149,7 +169,21 @@ return {
             key = "17536916621051230",
             type = "SpecialQuestSuccessNode",
             name = "成功完成特殊任务",
-            pos = {x = 1746.4107142857144, y = 390.91428571428565},
+            pos = {x = 2014.5773809523812, y = 379.58095238095234},
+            propsData = {}
+          },
+          ["1763467417497674344"] = {
+            key = "1763467417497674344",
+            type = "WaitOfTimeNode",
+            name = "延迟等待",
+            pos = {x = 1710.461846087854, y = 384.84871100432537},
+            propsData = {WaitTime = 0}
+          },
+          ["17643196935421277401"] = {
+            key = "17643196935421277401",
+            type = "WaitingSpecialQuestFailNode",
+            name = "等待特殊任务失败",
+            pos = {x = 1501.6466007351557, y = 634.853814013644},
             propsData = {}
           }
         },

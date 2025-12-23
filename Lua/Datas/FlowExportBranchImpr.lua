@@ -1,4 +1,6 @@
-local ReadOnly = (DataMgr or {}).ReadOnly or function(n, x)
-  return x
-end
-return ReadOnly("FlowExportBranchImpr", {})
+return ReadOnly("FlowExportBranchImpr", {
+  [120104291] = {},
+  [120104292] = {},
+  [120131061] = {},
+  [120131062] = {}
+})

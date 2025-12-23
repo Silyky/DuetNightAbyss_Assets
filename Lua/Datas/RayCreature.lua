@@ -228,7 +228,7 @@ return ReadOnly("RayCreature", {
     },
     HitScene = 2050632,
     LifeTime = 1,
-    RayFXID = 2050401,
+    RayFXID = 2050602,
     RayLength = 2000,
     SpawnSocket = {
       SpawnSocket = "gunpoint_01",
@@ -253,7 +253,7 @@ return ReadOnly("RayCreature", {
     },
     HitScene = 2050632,
     LifeTime = 1,
-    RayFXID = 2050401,
+    RayFXID = 2050602,
     RayLength = 2000,
     SpawnSocket = {
       SpawnSocket = "gunpoint_01",
@@ -278,7 +278,7 @@ return ReadOnly("RayCreature", {
     },
     HitScene = 2050632,
     LifeTime = 1,
-    RayFXID = 2050401,
+    RayFXID = 2050603,
     RayLength = 2000,
     SpawnSocket = {
       SpawnSocket = "gunpoint_01",
@@ -303,7 +303,7 @@ return ReadOnly("RayCreature", {
     },
     HitScene = 2050632,
     LifeTime = 1,
-    RayFXID = 2050401,
+    RayFXID = 2050603,
     RayLength = 2000,
     SpawnSocket = {
       SpawnSocket = "gunpoint_01",
@@ -339,13 +339,31 @@ return ReadOnly("RayCreature", {
     AttackRangeType = "RayLength",
     CreatureId = 4200101,
     EffectMultiple = false,
-    HitEnemy = {4200102},
     HitOthers = {
       1,
       0,
       1
     },
-    HitScene = {4200103},
+    RayLength = 2900,
+    SpawnSocket = {
+      SpawnSocket = "gunpoint_01",
+      UseLocation = "Weapon"
+    },
+    Tags = {
+      "Bullet"
+    }
+  },
+  [4200102] = {
+    AttackRangeType = "RayLength",
+    CreatureId = 4200102,
+    EffectMultiple = false,
+    HitEnemy = 4200105,
+    HitOthers = {
+      1,
+      0,
+      1
+    },
+    HitScene = 4200105,
     RayLength = 2900,
     SpawnSocket = {
       SpawnSocket = "gunpoint_01",

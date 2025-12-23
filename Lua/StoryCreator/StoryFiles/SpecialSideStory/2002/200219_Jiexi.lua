@@ -100,8 +100,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_20021901"
+        StoryGuidePointName = "QuestPoint_20021901",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -220,6 +222,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -254,16 +257,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 700148},
-                {TalkActorType = "Npc", TalkActorId = 700147},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "Player",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -314,8 +313,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_20021902"
+        StoryGuidePointName = "QuestPoint_20021902",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -360,8 +361,7 @@ return {
               ImpressionTalkTriggerId = 510070,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_ForeignMerchant_1190709",
-              GuideStaticCreatorId = 700149
+              NPCStaticCreaterName = "Npc_ForeignMerchant_1190709"
             }
           },
           ["1721493152775712198"] = {
@@ -459,8 +459,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "Npc_Conductor_1190705"
+        StoryGuidePointName = "Npc_Conductor_1190705",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -508,8 +510,7 @@ return {
               ImpressionTalkTriggerId = 510074,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_Conductor_1190705",
-              GuideStaticCreatorId = 700147
+              NPCStaticCreaterName = "Npc_Conductor_1190705"
             }
           },
           ["17418649844084359005"] = {
@@ -540,6 +541,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -563,10 +565,6 @@ return {
                   TalkActorId = 700147,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700148},
-                {TalkActorType = "Npc", TalkActorId = 700147}
               },
               OptionType = "plus",
               FreezeWorldComposition = false,
@@ -609,8 +607,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_daye20021904_1191720"
+        StoryGuidePointName = "Npc_daye20021904_1191720",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -683,6 +683,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -696,7 +697,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -752,8 +752,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_20021906xingxing_1191262"
+        StoryGuidePointName = "Mechanism_20021906xingxing_1191262",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -807,8 +809,7 @@ return {
               ImpressionTalkTriggerId = 510074,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_Conductor_1190705",
-              GuideStaticCreatorId = 700147
+              NPCStaticCreaterName = "Npc_Conductor_1190705"
             }
           },
           ["17422017188813288795"] = {
@@ -870,8 +871,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_20021906xingxing_1191262"
+        StoryGuidePointName = "Mechanism_20021906xingxing_1191262",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -919,8 +922,7 @@ return {
               ImpressionTalkTriggerId = 510074,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_Conductor_1190705",
-              GuideStaticCreatorId = 700147
+              NPCStaticCreaterName = "Npc_Conductor_1190705"
             }
           },
           ["17418657005486809652"] = {
@@ -952,6 +954,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -975,10 +978,6 @@ return {
                   TalkActorId = 700147,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700148},
-                {TalkActorType = "Npc", TalkActorId = 700147}
               },
               OptionType = "plus",
               FreezeWorldComposition = false,

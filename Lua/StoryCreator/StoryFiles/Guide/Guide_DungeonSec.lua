@@ -44,8 +44,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -295,7 +297,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "WalnutBagMain.Panel_ItemList:3:1",
+              HighLightUIPath = "WalnutBagMain.Walnut_Detail.ScrollBox_Detail:2",
               UICompName = "",
               GamePadWidgetName = "",
               IsAutoClick = false,
@@ -315,7 +317,7 @@ return {
             key = "1753864491234653",
             type = "ShowGuideButtonNode",
             name = "Button显示/隐藏信息",
-            pos = {x = 1820.9468622501472, y = 605.4376834221663},
+            pos = {x = 1820.9468622501472, y = 603.8247802162074},
             propsData = {
               ShowEnable = true,
               MessageId = 302909,
@@ -325,7 +327,7 @@ return {
               IsControlPlayer = false,
               IsTimePause = true,
               IsShowCursor = true,
-              HighLightUIPath = "WalnutBagMain.Panel_ItemList:3:2",
+              HighLightUIPath = "WalnutBagMain.Btn_Goto",
               UICompName = "Button_Area",
               GamePadWidgetName = "Key_GamePad",
               IsAutoClick = false,
@@ -484,7 +486,7 @@ return {
               UIShape = "Square",
               IsForbidInAnim = false,
               IsForbidOutAnim = false,
-              ForbidSuccessAnim = false,
+              ForbidSuccessAnim = true,
               IsNotForceRelease = false,
               UICompSizeOffset = {X = 0, Y = 0},
               UICompLocOffset = {X = 0, Y = 0},

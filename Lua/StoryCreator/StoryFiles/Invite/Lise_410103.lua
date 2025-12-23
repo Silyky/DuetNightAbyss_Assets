@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -168,6 +170,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -197,15 +200,12 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 790044},
-                {TalkActorType = "Npc", TalkActorId = 790008},
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -268,13 +268,14 @@ return {
             pos = {x = 1485.9914460339492, y = 604.1421079321022},
             propsData = {
               SoundStateType = 0,
-              SoundPriority = 1,
+              SoundPriority = 0,
               SoundType = 0,
-              SoundPath = "event:/bgm/cbt03/0071_lise_secret",
+              SoundPath = "event:/bgm/mute",
               ParamKey = "",
               ParamValue = 0,
               RelatedRegionId = {},
-              ClientRelatedRegionId = {}
+              ClientRelatedRegionId = {},
+              bStoreToServer = false
             }
           },
           ["1758249945472935320"] = {
@@ -284,7 +285,7 @@ return {
             pos = {x = 1798.8920545532192, y = 293.2191870396073},
             propsData = {
               SoundStateType = 3,
-              SoundPriority = 1,
+              SoundPriority = 0,
               SoundType = 0
             }
           }

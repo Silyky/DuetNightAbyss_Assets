@@ -14,6 +14,7 @@ return ReadOnly("UniversalConfig", {
     IfInitPlayer = true,
     IfStartStoryMode = 1,
     IfWaitDead = 1,
+    QuestBattleWheelID = 1,
     StartBlackScreen = {
       0.5, 0.5
     },
@@ -61,9 +62,6 @@ return ReadOnly("UniversalConfig", {
     StartBlackScreen = {
       0, 0
     },
-    SuccessBlackScreen = {
-      0, 0
-    },
     UniversalConfigId = 102
   },
   [103] = {
@@ -81,9 +79,6 @@ return ReadOnly("UniversalConfig", {
     IfInitPlayer = true,
     IfStartStoryMode = 1,
     StartBlackScreen = {
-      0, 0
-    },
-    SuccessBlackScreen = {
       0, 0
     },
     UniversalConfigId = 103
@@ -153,7 +148,9 @@ return ReadOnly("UniversalConfig", {
     IfInitPlayer = true,
     IfStartStoryMode = 1,
     SetPlayerTransform = "QuestPoint_SaiqiWalkStart",
-    StartBlackScreen = {0, 0.5},
+    StartBlackScreen = {
+      0, 0
+    },
     SuccessBlackScreen = {
       0, 0
     },
@@ -175,6 +172,9 @@ return ReadOnly("UniversalConfig", {
     IfStartStoryMode = 1,
     IfWaitDead = 1,
     SetPlayerTransform = "QuestPoint_SaiqiWalk_GetCamera",
+    StartBlackScreen = {
+      0, 0
+    },
     SuccessBlackScreen = {
       0, 0
     },
@@ -228,6 +228,9 @@ return ReadOnly("UniversalConfig", {
     RegionDataType = {
       "RDT_QuestData",
       "RDT_CommonData"
+    },
+    SuccessBlackScreen = {
+      0, 0
     },
     UniversalConfigId = 111
   },
@@ -316,9 +319,7 @@ return ReadOnly("UniversalConfig", {
     IfStartStoryMode = 1,
     IfWaitDead = 1,
     RegionDataType = {
-      "RDT_QuestData",
-      "RDT_CommonData",
-      "RDT_None"
+      "RDT_QuestData"
     },
     StartBlackScreen = {
       0, 0
@@ -358,6 +359,7 @@ return ReadOnly("UniversalConfig", {
     HideBattlePet = true,
     HideBattleWheel = true,
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfDestoryPhantom = 1,
     IfInitPlayer = true,
     IfStartStoryMode = 1,
@@ -748,7 +750,9 @@ return ReadOnly("UniversalConfig", {
       "RDT_RarelyData",
       "RDT_CommonData"
     },
-    StartBlackScreen = {0, 1},
+    StartBlackScreen = {
+      0, 1
+    },
     SuccessBlackScreen = {
       0, 0
     },
@@ -879,6 +883,7 @@ return ReadOnly("UniversalConfig", {
     HideBattlePet = true,
     HideBattleWheel = true,
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfDestoryPhantom = 1,
     IfInActiveInteractive = {
       Type = "Off"
@@ -1171,6 +1176,7 @@ return ReadOnly("UniversalConfig", {
     HideBattlePet = true,
     HideBattleWheel = true,
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfDestoryPhantom = 1,
     IfInitPlayer = true,
     IfStartStoryMode = 1,
@@ -1192,9 +1198,9 @@ return ReadOnly("UniversalConfig", {
       2
     },
     FailBlackScreenText = "UI_Quest_QuestFail",
-    HideBattlePet = true,
     HideBattleWheel = true,
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfDestoryPhantom = 1,
     IfInitPlayer = true,
     IfStartStoryMode = 1,
@@ -1204,6 +1210,9 @@ return ReadOnly("UniversalConfig", {
     },
     SetPlayerTransform = "QuestPoint_Nai02StartPoint",
     StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
       0, 0
     },
     UniversalConfigId = 2002
@@ -1216,9 +1225,9 @@ return ReadOnly("UniversalConfig", {
       2
     },
     FailBlackScreenText = "UI_Quest_QuestFail",
-    HideBattlePet = true,
     HideBattleWheel = true,
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfDestoryPhantom = 1,
     IfInitPlayer = true,
     IfStartStoryMode = 1,
@@ -1226,7 +1235,11 @@ return ReadOnly("UniversalConfig", {
     RegionDataType = {
       "All"
     },
+    SetPlayerTransform = "QuestPoint_Nai03StartPoint",
     StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
       0, 0
     },
     UniversalConfigId = 2003
@@ -1239,9 +1252,17 @@ return ReadOnly("UniversalConfig", {
     },
     FailBlackScreenText = "UI_Quest_QuestFail",
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfWaitDead = 1,
     RegionDataType = {
       "All"
+    },
+    SetPlayerTransform = "SpawnPoint_Heilang",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
     },
     UniversalConfigId = 2004
   },
@@ -1253,6 +1274,7 @@ return ReadOnly("UniversalConfig", {
     },
     FailBlackScreenText = "UI_Quest_QuestFail",
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfWaitDead = 1,
     RegionDataType = {
       "All"
@@ -1260,25 +1282,52 @@ return ReadOnly("UniversalConfig", {
     UniversalConfigId = 2005
   },
   [2006] = {
-    DisableBattleWheel = true,
     FailBlackScreen = {
       0.5,
       0,
       2
     },
     FailBlackScreenText = "UI_Quest_QuestFail",
-    HideBattlePet = true,
-    HideBattleWheel = true,
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfDestoryPhantom = 1,
     IfInitPlayer = true,
     IfStartStoryMode = 1,
     IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
     RegionDataType = {
       "All"
     },
     SetPlayerTransform = "QuestPoint_Batt01StartPoint",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
     UniversalConfigId = 2006
+  },
+  [2007] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "All"
+    },
+    SetPlayerTransform = "SpecialQuestPoint_SQ02Start",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2007
   },
   [2008] = {
     FailBlackScreen = {
@@ -1287,8 +1336,8 @@ return ReadOnly("UniversalConfig", {
       2
     },
     FailBlackScreenText = "UI_Quest_QuestFail",
-    HideBattlePet = true,
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfDestoryPhantom = 1,
     IfInitPlayer = true,
     IfStartStoryMode = 1,
@@ -1297,6 +1346,12 @@ return ReadOnly("UniversalConfig", {
       "All"
     },
     SetPlayerTransform = "QuestPoint_Batt01StartPoint",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
     UniversalConfigId = 2008
   },
   [2009] = {
@@ -1306,8 +1361,8 @@ return ReadOnly("UniversalConfig", {
       2
     },
     FailBlackScreenText = "UI_Quest_QuestFail",
-    HideBattlePet = true,
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfDestoryPhantom = 1,
     IfInitPlayer = true,
     IfStartStoryMode = 1,
@@ -1316,6 +1371,12 @@ return ReadOnly("UniversalConfig", {
       "All"
     },
     SetPlayerTransform = "QuestPoint_Batt02StartPoint",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
     UniversalConfigId = 2009
   },
   [2010] = {
@@ -1325,8 +1386,115 @@ return ReadOnly("UniversalConfig", {
       2
     },
     FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    IsBossBattle = true,
+    RegionDataType = {
+      "All"
+    },
+    SetPlayerTransform = "QuestPoint_Batt03StartPoint",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2010
+  },
+  [2011] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    IsBossBattle = true,
+    RegionDataType = {
+      "All"
+    },
+    SetPlayerTransform = "QuestPoint_YumingBossFight",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2011
+  },
+  [2012] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    IsBossBattle = true,
+    RegionDataType = {
+      "RDT_QuestData"
+    },
+    SetPlayerTransform = "QuestPoint_HeilongBossFight",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2012
+  },
+  [2013] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
     HideBattlePet = true,
     IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInActiveInteractive = {
+      Type = "Off"
+    },
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "RDT_QuestData"
+    },
+    SetPlayerTransform = "QuestPoint_PorJiebei",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2013
+  },
+  [2014] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
     IfDestoryPhantom = 1,
     IfInitPlayer = true,
     IfStartStoryMode = 1,
@@ -1334,8 +1502,444 @@ return ReadOnly("UniversalConfig", {
     RegionDataType = {
       "All"
     },
-    SetPlayerTransform = "QuestPoint_Batt03StartPoint",
-    UniversalConfigId = 2010
+    SetPlayerTransform = "QuestPoint_HeilongBossHook",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2014
+  },
+  [2015] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "All"
+    },
+    SetPlayerTransform = "QuestPoint_HeilongBossWalk",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2015
+  },
+  [2016] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "All"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2016
+  },
+  [2017] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "RDT_QuestData"
+    },
+    SetPlayerTransform = "RespawnPoint_Heilongling",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2017
+  },
+  [2018] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2018
+  },
+  [2019] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    HideBattlePet = true,
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData"
+    },
+    SetPlayerTransform = "RespawnPoint_HeilonglingWalk02",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2019
+  },
+  [2020] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    SetPlayerTransform = "RespawnPoint_SprFight01",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2020
+  },
+  [2021] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData",
+      "RDT_RarelyData",
+      "RDT_None",
+      "RDT_CommonData"
+    },
+    UniversalConfigId = 2021
+  },
+  [2022] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2022
+  },
+  [2023] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "RDT_QuestData",
+      "RDT_RarelyData",
+      "RDT_None",
+      "RDT_CommonData"
+    },
+    StartBlackScreen = {
+      0, 1
+    },
+    UniversalConfigId = 2023
+  },
+  [2024] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    HideBattlePet = true,
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData",
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2024
+  },
+  [2025] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData",
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2025
+  },
+  [2026] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData",
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2026
+  },
+  [2027] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData",
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2027
+  },
+  [2028] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData",
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2028
+  },
+  [2029] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData",
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2029
+  },
+  [2030] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData",
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2030
+  },
+  [2031] = {
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    QuestBattleWheelID = 10001,
+    RegionDataType = {
+      "RDT_QuestData",
+      "RDT_RarelyData",
+      "RDT_CommonData"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 2031
   },
   [2051] = {
     DisableBattleWheel = true,
@@ -1999,7 +2603,7 @@ return ReadOnly("UniversalConfig", {
     IfStartStoryMode = 1,
     IfWaitDead = 1,
     RegionDataType = {
-      "All"
+      "RDT_QuestData"
     },
     SetPlayerTransform = "QuestPoint_Feina04Fight",
     StartBlackScreen = {
@@ -2191,6 +2795,146 @@ return ReadOnly("UniversalConfig", {
     },
     UniversalConfigId = 12000307
   },
+  [12020101] = {
+    DisableBattleWheel = true,
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    HideBattlePet = true,
+    HideBattleWheel = true,
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "All"
+    },
+    SetPlayerTransform = "12020101StartBP_NewTargetPoint",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 12020101
+  },
+  [12020201] = {
+    DisableBattleWheel = true,
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    HideBattlePet = true,
+    HideBattleWheel = true,
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "All"
+    },
+    SetPlayerTransform = "12020101StartBP_NewTargetPoint",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 12020201
+  },
+  [12020208] = {
+    DisableBattleWheel = true,
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    HideBattlePet = true,
+    HideBattleWheel = true,
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "All"
+    },
+    SetPlayerTransform = "12020101StartBP_NewTargetPoint",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 12020208
+  },
+  [12020210] = {
+    DisableBattleWheel = true,
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    HideBattlePet = true,
+    HideBattleWheel = true,
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "All"
+    },
+    SetPlayerTransform = "12020101StartBP_NewTargetPoint",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 12020210
+  },
+  [12020212] = {
+    DisableBattleWheel = true,
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    HideBattlePet = true,
+    HideBattleWheel = true,
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "All"
+    },
+    SetPlayerTransform = "12020101StartBP_NewTargetPoint",
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 12020212
+  },
   [20020901] = {
     FailBlackScreen = {
       0.5,
@@ -2234,5 +2978,32 @@ return ReadOnly("UniversalConfig", {
       "All"
     },
     UniversalConfigId = 20030402
+  },
+  [20030802] = {
+    DisableBattleWheel = true,
+    FailBlackScreen = {
+      0.5,
+      0,
+      2
+    },
+    FailBlackScreenText = "UI_Quest_QuestFail",
+    HideBattlePet = true,
+    HideBattleWheel = true,
+    IfChangeESC = 1,
+    IfCloseRegionOnline = true,
+    IfDestoryPhantom = 1,
+    IfInitPlayer = true,
+    IfStartStoryMode = 1,
+    IfWaitDead = 1,
+    RegionDataType = {
+      "All"
+    },
+    StartBlackScreen = {
+      0, 0
+    },
+    SuccessBlackScreen = {
+      0, 0
+    },
+    UniversalConfigId = 20030802
   }
 })

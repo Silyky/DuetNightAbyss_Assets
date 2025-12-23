@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -122,6 +124,12 @@ return {
             startPort = "Out",
             endQuest = "1733902486715652142",
             endPort = "Success"
+          },
+          {
+            startQuest = "1733902630476653385",
+            startPort = "Out",
+            endQuest = "176189348864117697795",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -268,6 +276,17 @@ return {
               DialogueId = 0,
               UseTalkFadeOut = false,
               TalkFadeOutTime = 0
+            }
+          },
+          ["176189348864117697795"] = {
+            key = "176189348864117697795",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1726.7229040981902, y = 114.04576659038905},
+            propsData = {
+              NewDescription = "DynQuest_CloudFeichuan_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -166,18 +168,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17288950336501335",
-            startPort = "Out",
-            endQuest = "1730015867841786306",
-            endPort = "In"
-          },
-          {
-            startQuest = "1730015867841786306",
-            startPort = "Out",
-            endQuest = "17288963002872516",
-            endPort = "In"
-          },
-          {
             startQuest = "1730015084644779526",
             startPort = "Out",
             endQuest = "1730015567690783680",
@@ -205,6 +195,30 @@ return {
             startQuest = "17397790020321413",
             startPort = "Out",
             endQuest = "17397779813211875",
+            endPort = "In"
+          },
+          {
+            startQuest = "1730015084644779526",
+            startPort = "Out",
+            endQuest = "176189312024815655183",
+            endPort = "In"
+          },
+          {
+            startQuest = "17397779813211875",
+            startPort = "Out",
+            endQuest = "1730015867841786306",
+            endPort = "In"
+          },
+          {
+            startQuest = "17288950336501335",
+            startPort = "Out",
+            endQuest = "17288963002872516",
+            endPort = "In"
+          },
+          {
+            startQuest = "1729568141535766204",
+            startPort = "Out",
+            endQuest = "17635229732162358745",
             endPort = "In"
           }
         },
@@ -248,8 +262,8 @@ return {
             key = "17288950336501335",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 2248.6764743580325, y = 297.1200707187552},
-            propsData = {WaitTime = 2}
+            pos = {x = 2290.6764743580325, y = 293.52007071875516},
+            propsData = {WaitTime = 3}
           },
           ["17288963002872516"] = {
             key = "17288963002872516",
@@ -432,7 +446,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -460,13 +473,13 @@ return {
             key = "1730015867841786306",
             type = "TalkNode",
             name = "完成开车",
-            pos = {x = 2500.6967294001834, y = 280.52725094262354},
+            pos = {x = 2282.2967294001837, y = 132.92725094262354},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 71003207,
               FlowAssetPath = "",
               TalkType = "UnimportGuide",
-              bIsStandalone = false,
+              bIsStandalone = true,
               GuideMeshIndexList = {},
               IsPlayStartSound = false,
               GuideTalkStyle = "Normal",
@@ -510,6 +523,28 @@ return {
               StateId = 492061,
               IsGuideEnable = false,
               GuidePointName = "Mechanism_Dyn_1380113"
+            }
+          },
+          ["176189312024815655183"] = {
+            key = "176189312024815655183",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2196.25, y = 893},
+            propsData = {
+              NewDescription = "DynQuest_KuangkengClearstone_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["17635229732162358745"] = {
+            key = "17635229732162358745",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3292.920588235294, y = 630.3249999999999},
+            propsData = {
+              NewDescription = "DynQuest_KuangkengClearstone_Des",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

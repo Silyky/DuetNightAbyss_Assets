@@ -1,4 +1,86 @@
 return ReadOnly("TeleportPoint", {
+  [101] = {
+    Id = 101,
+    MechanismPos = {7173, 3028},
+    MechanismStateId = 901002,
+    StaticId = 17,
+    TeleportPointName = "核心1",
+    TeleportPointPos = 2,
+    TeleportPointSubRegion = 999701,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [102] = {
+    Id = 102,
+    IsDefault = 1,
+    MechanismPos = {7874, 1050},
+    MechanismStateId = 901002,
+    StaticId = 18,
+    TeleportPointName = "核心2",
+    TeleportPointPos = 3,
+    TeleportPointSubRegion = 999701,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [103] = {
+    Id = 103,
+    MechanismPos = {9204, -17364},
+    MechanismStateId = 901002,
+    StaticId = 19,
+    TeleportPointName = "斜坡",
+    TeleportPointPos = 4,
+    TeleportPointSubRegion = 999701,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [104] = {
+    Id = 104,
+    MechanismPos = {-18292, -52533},
+    MechanismStateId = 901002,
+    StaticId = 20,
+    TeleportPointName = "绿色独立联机区域",
+    TeleportPointPos = 5,
+    TeleportPointSubRegion = 999701,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [105] = {
+    Id = 105,
+    MechanismPos = {3584, 510},
+    MechanismStateId = 901002,
+    StaticId = 21,
+    TeleportPointName = "电梯上",
+    TeleportPointPos = 6,
+    TeleportPointSubRegion = 999701,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [106] = {
+    Id = 106,
+    IsDefault = 1,
+    MechanismPos = {-1806, 7080},
+    MechanismStateId = 901002,
+    StaticId = 22,
+    TeleportPointName = "山上",
+    TeleportPointPos = 7,
+    TeleportPointSubRegion = 999701,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [107] = {
+    Id = 107,
+    MechanismPos = {-22066, -21810},
+    MechanismStateId = 901002,
+    StaticId = 23,
+    TeleportPointName = "彩色独立联机区域",
+    TeleportPointPos = 8,
+    TeleportPointSubRegion = 999701,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [108] = {
+    Id = 108,
+    MechanismPos = {8554, -5400},
+    MechanismStateId = 901002,
+    StaticId = 24,
+    TeleportPointName = "钓鱼点",
+    TeleportPointPos = 9,
+    TeleportPointSubRegion = 999701,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
   [1001] = {
     Block = {
       {
@@ -354,7 +436,9 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 2,
         FloorId = 0,
-        Small = {13, 14}
+        Small = {
+          13, 14
+        }
       },
       {
         Big = 3,
@@ -451,7 +535,9 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 11,
         FloorId = 0,
-        Small = {3, 4}
+        Small = {
+          3, 4
+        }
       }
     },
     Id = 1013,
@@ -512,12 +598,14 @@ return ReadOnly("TeleportPoint", {
   [1015] = {
     Block = {
       {
-        Big = 1,
-        FloorId = -1,
-        Small = {14, 15}
-      },
+  Big = 1,
+  FloorId = -1,
+  Small = {
+    14, 15
+  }
+},
       {
-        Big = 2,
+        Big = 3,
         FloorId = -1,
         Small = {
           1,
@@ -539,17 +627,17 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 3,
+        Big = 4,
         FloorId = -1,
         Small = 13
       },
       {
-        Big = 7,
+        Big = 8,
         FloorId = -1,
         Small = 4
       },
       {
-        Big = 8,
+        Big = 9,
         FloorId = -1,
         Small = {
           1, 5
@@ -571,7 +659,7 @@ return ReadOnly("TeleportPoint", {
   [1016] = {
     Block = {
       {
-        Big = 3,
+        Big = 4,
         FloorId = -1,
         Small = {
           8,
@@ -580,7 +668,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 4,
+        Big = 5,
         FloorId = -1,
         Small = {
           4,
@@ -599,7 +687,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 5,
+        Big = 6,
         FloorId = -1,
         Small = {
           1,
@@ -616,7 +704,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 9,
+        Big = 10,
         FloorId = -1,
         Small = {
           1,
@@ -631,7 +719,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 10,
+        Big = 11,
         FloorId = -1,
         Small = {
           1,
@@ -663,7 +751,7 @@ return ReadOnly("TeleportPoint", {
   [1017] = {
     Block = {
       {
-        Big = 8,
+        Big = 9,
         FloorId = -1,
         Small = {
           4,
@@ -686,7 +774,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 13,
+        Big = 14,
         FloorId = -1,
         Small = {
           2,
@@ -702,7 +790,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 14,
+        Big = 15,
         FloorId = -1,
         Small = {
           1, 5
@@ -724,7 +812,7 @@ return ReadOnly("TeleportPoint", {
   [1018] = {
     Block = {
       {
-        Big = 6,
+        Big = 7,
         FloorId = -1,
         Small = {
           11,
@@ -734,7 +822,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 7,
+        Big = 8,
         FloorId = -1,
         Small = {
           1,
@@ -755,12 +843,12 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 8,
+        Big = 9,
         FloorId = -1,
         Small = 13
       },
       {
-        Big = 11,
+        Big = 12,
         FloorId = -1,
         Small = {
           3,
@@ -770,7 +858,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 12,
+        Big = 13,
         FloorId = -1,
         Small = {
           1,
@@ -783,7 +871,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 13,
+        Big = 14,
         FloorId = -1,
         Small = {
           1, 5
@@ -805,10 +893,10 @@ return ReadOnly("TeleportPoint", {
   [1020] = {
     Block = {
       {
-        Big = 1,
-        FloorId = 0,
-        Small = {14}
-      },
+  Big = 1,
+  FloorId = 0,
+  Small = 14
+},
       {
         Big = 2,
         FloorId = 0,
@@ -857,7 +945,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 6,
+        Big = 7,
         FloorId = 0,
         Small = {
           1,
@@ -904,7 +992,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 1,
+        Big = 2,
         FloorId = -1,
         Small = {
           4,
@@ -914,7 +1002,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 2,
+        Big = 3,
         FloorId = -1,
         Small = {
           1,
@@ -928,7 +1016,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 3,
+        Big = 4,
         FloorId = -1,
         Small = {
           3,
@@ -942,7 +1030,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 4,
+        Big = 5,
         FloorId = -1,
         Small = {
           1,
@@ -1014,12 +1102,14 @@ return ReadOnly("TeleportPoint", {
   [1030] = {
     Block = {
       {
-        Big = 7,
+        Big = 8,
         FloorId = 0,
         Small = {
           1,
+          2,
           5,
           6,
+          7,
           8,
           9,
           10,
@@ -1032,25 +1122,21 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 8,
-        FloorId = 0,
-        Small = {
-          5,
-          6,
-          9,
-          10
-        }
-      },
-      {
         Big = 9,
         FloorId = 0,
         Small = {
+          5,
           6,
           9,
           10,
           13,
           14
         }
+      },
+      {
+        Big = 10,
+        FloorId = 0,
+        Small = {3}
       }
     },
     Id = 1030,
@@ -1067,24 +1153,35 @@ return ReadOnly("TeleportPoint", {
   [1031] = {
     Block = {
       {
-        Big = 2,
+  Big = 1,
+  FloorId = 0,
+  Small = 14
+},
+      {
+        Big = 3,
         FloorId = 0,
         Small = {
           2,
           3,
           4,
+          7,
           8,
+          11,
           12
         }
       },
       {
-        Big = 3,
+        Big = 4,
         FloorId = 0,
         Small = {
           1,
+          2,
           5,
+          6,
           9,
-          13
+          10,
+          13,
+          14
         }
       }
     },
@@ -1103,29 +1200,26 @@ return ReadOnly("TeleportPoint", {
   [1032] = {
     Block = {
       {
-        Big = 1,
+        Big = 2,
         FloorId = 0,
         Small = {
           8, 12
         }
       },
       {
-        Big = 2,
+        Big = 3,
         FloorId = 0,
         Small = {
           5,
           6,
-          7,
           9,
           10,
-          11,
           13,
-          14,
-          15
+          14
         }
       },
       {
-        Big = 5,
+        Big = 6,
         FloorId = 0,
         Small = {
           3,
@@ -1137,7 +1231,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 6,
+        Big = 7,
         FloorId = 0,
         Small = 1
       }
@@ -1156,22 +1250,19 @@ return ReadOnly("TeleportPoint", {
   [1033] = {
     Block = {
       {
-        Big = 3,
+        Big = 4,
         FloorId = 0,
         Small = {
-          3,
-          4,
           7,
           8,
           11,
           12,
-          14,
           15,
           16
         }
       },
       {
-        Big = 4,
+        Big = 5,
         FloorId = 0,
         Small = {
           5,
@@ -1180,7 +1271,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 6,
+        Big = 7,
         FloorId = 0,
         Small = {
           2,
@@ -1201,16 +1292,14 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 7,
+        Big = 8,
         FloorId = 0,
         Small = {
-          2,
-          3,
-          4
+          3, 4
         }
       },
       {
-        Big = 8,
+        Big = 9,
         FloorId = 0,
         Small = 1
       }
@@ -1265,7 +1354,7 @@ return ReadOnly("TeleportPoint", {
         Small = {9, 13}
       },
       {
-        Big = 7,
+        Big = 8,
         FloorId = 1,
         Small = {2, 3}
       }
@@ -1355,7 +1444,9 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 1,
         FloorId = 0,
-        Small = {4, 8}
+        Small = {
+          4, 8
+        }
       },
       {
         Big = 2,
@@ -1402,7 +1493,9 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 6,
         FloorId = 0,
-        Small = {1, 2}
+        Small = {
+          1, 2
+        }
       },
       {
         Big = 1,
@@ -1474,7 +1567,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 3,
+        Big = 4,
         FloorId = -1,
         Small = {
           5,
@@ -1488,7 +1581,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 4,
+        Big = 5,
         FloorId = -1,
         Small = {5, 9}
       }
@@ -1509,7 +1602,9 @@ return ReadOnly("TeleportPoint", {
       {
         Big = 7,
         FloorId = 0,
-        Small = {12, 16}
+        Small = {
+          12, 16
+        }
       },
       {
         Big = 8,
@@ -1546,7 +1641,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 8,
+        Big = 9,
         FloorId = 1,
         Small = {
           2,
@@ -1559,7 +1654,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 9,
+        Big = 10,
         FloorId = 1,
         Small = {
           1, 5
@@ -1641,7 +1736,7 @@ return ReadOnly("TeleportPoint", {
         }
       },
       {
-        Big = 4,
+        Big = 5,
         FloorId = -1,
         Small = {
           8, 12
@@ -1662,7 +1757,345 @@ return ReadOnly("TeleportPoint", {
   [1050] = {
     Block = {
       {
-        Big = 1,
+  Big = 1,
+  FloorId = 0,
+  Small = {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  }
+}
+    },
+    Id = 1050,
+    LevelName = "BH_Thea",
+    MechanismPos = {21110, 10770},
+    MechanismStateId = 901002,
+    StaticId = 1969954,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_101901_1",
+    TeleportPointPos = 1,
+    TeleportPointSubRegion = 101901,
+    Temples = {80302},
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1100] = {
+    Block = {
+      {
+        Big = 94,
+        FloorId = 0,
+        Small = {
+          7,
+          8,
+          11,
+          12,
+          15,
+          16
+        }
+      },
+      {
+        Big = 95,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 96,
+        FloorId = 0,
+        Small = {
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 97,
+        FloorId = 0,
+        Small = {
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 98,
+        FloorId = 0,
+        Small = {
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 108,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 109,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 110,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 111,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 112,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 118,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        }
+      },
+      {
+        Big = 119,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        }
+      },
+      {
+        Big = 120,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        }
+      },
+      {
+        Big = 121,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 122,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 127,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 128,
         FloorId = 0,
         Small = {
           1,
@@ -1684,22 +2117,10 @@ return ReadOnly("TeleportPoint", {
         }
       }
     },
-    Id = 1050,
-    LevelName = "BH_Thea",
-    MechanismPos = {21110, 10770},
-    MechanismStateId = 901002,
-    StaticId = 1969954,
-    TeleportPointName = "UI_TELEPORTPOINT_NAME_101901_1",
-    TeleportPointPos = 1,
-    TeleportPointSubRegion = 101901,
-    Temples = {80302},
-    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
-  },
-  [1100] = {
     Id = 1100,
     IsDefault = 1,
     LevelName = "Huaxu_Yanjindu_Art_1112BigObjs",
-    MechanismPos = {39438, 45856},
+    MechanismPos = {39437, 45854},
     MechanismStateId = 901002,
     StaticId = 2090006,
     TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_1",
@@ -1708,9 +2129,196 @@ return ReadOnly("TeleportPoint", {
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1101] = {
+    Block = {
+      {
+        Big = 66,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 67,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 68,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 80,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 81,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 82,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 83,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 96,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          8
+        }
+      },
+      {
+        Big = 97,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        }
+      },
+      {
+        Big = 98,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        }
+      }
+    },
     Id = 1101,
     LevelName = "Huaxu_Yanjindu_Art_1210BigObjs",
-    MechanismPos = {46525, 22636},
+    MechanismPos = {46155, 22382},
     MechanismStateId = 901002,
     StaticId = 2090007,
     TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_2",
@@ -1719,9 +2327,204 @@ return ReadOnly("TeleportPoint", {
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1102] = {
+    Block = {
+      {
+        Big = 37,
+        FloorId = 0,
+        Small = 16
+      },
+      {
+        Big = 38,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 39,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 40,
+        FloorId = 0,
+        Small = {
+          1,
+          5,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        }
+      },
+      {
+        Big = 49,
+        FloorId = 0,
+        Small = {
+          4,
+          8,
+          12,
+          16
+        }
+      },
+      {
+        Big = 50,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 51,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 52,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 53,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        }
+      },
+      {
+        Big = 63,
+        FloorId = 0,
+        Small = {
+          4, 8
+        }
+      },
+      {
+        Big = 64,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        }
+      },
+      {
+        Big = 65,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4
+        }
+      },
+      {
+        Big = 66,
+        FloorId = 0,
+        Small = {
+          1, 2
+        }
+      }
+    },
     Id = 1102,
     LevelName = "Huaxu_Yanjindu_Art_1108BigObjs",
-    MechanismPos = {30949, -6210},
+    MechanismPos = {31029, -6177},
     MechanismStateId = 901002,
     StaticId = 2110001,
     TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_4",
@@ -1730,9 +2533,94 @@ return ReadOnly("TeleportPoint", {
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1103] = {
+    Block = {
+      {
+        Big = 63,
+        FloorId = 0,
+        Small = {
+          11,
+          12,
+          15,
+          16
+        }
+      },
+      {
+        Big = 64,
+        FloorId = 0,
+        Small = {
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 65,
+        FloorId = 0,
+        Small = {
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 66,
+        FloorId = 0,
+        Small = {5}
+      },
+      {
+        Big = 78,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          8
+        }
+      },
+      {
+        Big = 79,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12
+        }
+      },
+      {
+        Big = 80,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          5,
+          6,
+          9
+        }
+      }
+    },
     Id = 1103,
     LevelName = "Huaxu_Yanjindu_Art_1109BigObjs",
-    MechanismPos = {35036, 12212},
+    MechanismPos = {35037, 12202},
     MechanismStateId = 901002,
     StaticId = 2080002,
     TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_5",
@@ -1741,9 +2629,91 @@ return ReadOnly("TeleportPoint", {
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1104] = {
+    Block = {
+      {
+  Big = 1,
+  FloorId = -1,
+  Small = {
+    14, 15
+  }
+},
+      {
+        Big = 3,
+        FloorId = -1,
+        Small = {
+          13, 14
+        }
+      },
+      {
+        Big = 5,
+        FloorId = -1,
+        Small = {
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 6,
+        FloorId = -1,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 7,
+        FloorId = -1,
+        Small = {
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10
+        }
+      },
+      {
+        Big = 9,
+        FloorId = -1,
+        Small = {
+          3, 4
+        }
+      },
+      {
+        Big = 10,
+        FloorId = -1,
+        Small = 1
+      }
+    },
+    BuildingNameAndId = "Yanjindu_L-1",
     Id = 1104,
     LevelName = "Huaxu_Yanjindu_Art_0910BigObjs",
-    MechanismPos = {9926, 22736},
+    MechanismPos = {9817, 22799},
     MechanismStateId = 901002,
     StaticId = 2040001,
     TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_6",
@@ -1752,6 +2722,105 @@ return ReadOnly("TeleportPoint", {
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1105] = {
+    Block = {
+      {
+        Big = 46,
+        FloorId = 0,
+        Small = {
+          15, 16
+        }
+      },
+      {
+        Big = 47,
+        FloorId = 0,
+        Small = {
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 48,
+        FloorId = 0,
+        Small = {
+          13, 14
+        }
+      },
+      {
+        Big = 60,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          7,
+          8,
+          12,
+          16
+        }
+      },
+      {
+        Big = 61,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 62,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        }
+      },
+      {
+        Big = 76,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          7,
+          8
+        }
+      },
+      {
+        Big = 77,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          5
+        }
+      }
+    },
     Id = 1105,
     LevelName = "Huaxu_Yanjindu_Art_0709BigObjs",
     MechanismPos = {-16352, 11053},
@@ -1763,9 +2832,607 @@ return ReadOnly("TeleportPoint", {
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1106] = {
+    Block = {
+      {
+        Big = 19,
+        FloorId = 0,
+        Small = {
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 29,
+        FloorId = 0,
+        Small = {
+          8,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 30,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 31,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 32,
+        FloorId = 0,
+        Small = {
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 33,
+        FloorId = 0,
+        Small = {
+          5,
+          9,
+          13
+        }
+      },
+      {
+        Big = 42,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+  Big = 1,
+  FloorId = 0,
+  Small = {
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  }
+},
+      {
+        Big = 43,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 44,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 45,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 46,
+        FloorId = 0,
+        Small = {
+          1,
+          5,
+          6,
+          9,
+          10,
+          13,
+          14
+        }
+      },
+      {
+        Big = 55,
+        FloorId = 0,
+        Small = {
+          4,
+          8,
+          12,
+          16
+        }
+      },
+      {
+        Big = 56,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 57,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 58,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 59,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 60,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          5,
+          6,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        }
+      },
+      {
+        Big = 70,
+        FloorId = 0,
+        Small = {
+          4,
+          8,
+          12,
+          16
+        }
+      },
+      {
+        Big = 71,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 72,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 73,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 74,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 75,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        }
+      },
+      {
+        Big = 86,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 87,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 88,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 89,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 90,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        }
+      },
+      {
+        Big = 101,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 102,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      }
+    },
     Id = 1106,
     LevelName = "Huaxu_Yanjindu_Art_0509BigObjs",
-    MechanismPos = {-41338, 7512},
+    MechanismPos = {-41158, 6354},
     MechanismStateId = 901002,
     StaticId = 2030001,
     TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_8",
@@ -1774,9 +3441,289 @@ return ReadOnly("TeleportPoint", {
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1107] = {
+    Block = {
+      {
+        Big = 4,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 5,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 11,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 12,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 13,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 14,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          5,
+          6,
+          9,
+          10,
+          13,
+          14
+        }
+      },
+      {
+        Big = 21,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          7,
+          8,
+          11,
+          12,
+          15,
+          16
+        }
+      },
+      {
+        Big = 22,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 23,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 24,
+        FloorId = 0,
+        Small = {
+          1, 2
+        }
+      },
+      {
+        Big = 33,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          7,
+          8,
+          11,
+          12,
+          15,
+          16
+        }
+      },
+      {
+        Big = 34,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 35,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          14
+        }
+      },
+      {
+        Big = 46,
+        FloorId = 0,
+        Small = {
+          4,
+          8,
+          12
+        }
+      },
+      {
+        Big = 47,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        }
+      },
+      {
+        Big = 48,
+        FloorId = 0,
+        Small = {
+          1,
+          5,
+          9
+        }
+      }
+    },
     Id = 1107,
     LevelName = "Huaxu_Yanjindu_Art_0606BigObjs",
-    MechanismPos = {-23356, -24687},
+    MechanismPos = {-23383, -24272},
     MechanismStateId = 901002,
     StaticId = 2060001,
     TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_9",
@@ -1796,6 +3743,87 @@ return ReadOnly("TeleportPoint", {
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1109] = {
+    Block = {
+      {
+        Big = 35,
+        FloorId = 0,
+        Small = {
+          12,
+          15,
+          16
+        }
+      },
+      {
+        Big = 36,
+        FloorId = 0,
+        Small = {
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        }
+      },
+      {
+        Big = 48,
+        FloorId = 0,
+        Small = {
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          15,
+          16
+        }
+      },
+      {
+        Big = 49,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15
+        }
+      },
+      {
+        Big = 62,
+        FloorId = 0,
+        Small = {
+          4,
+          8,
+          12
+        }
+      },
+      {
+        Big = 63,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10
+        }
+      }
+    },
     Id = 1109,
     LevelName = "Huaxu_Yanjindu_Art_0908BigObjs",
     MechanismPos = {7731, -9705},
@@ -1807,9 +3835,203 @@ return ReadOnly("TeleportPoint", {
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1110] = {
+    Block = {
+      {
+        Big = 7,
+        FloorId = 0,
+        Small = {
+          12,
+          15,
+          16
+        }
+      },
+      {
+        Big = 8,
+        FloorId = 0,
+        Small = {
+          9,
+          13,
+          14
+        }
+      },
+      {
+        Big = 14,
+        FloorId = 0,
+        Small = {
+          2,
+          3,
+          4,
+          7,
+          8,
+          11,
+          12,
+          15,
+          16
+        }
+      },
+      {
+        Big = 15,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 16,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 24,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 25,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 26,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 35,
+        FloorId = 0,
+        Small = {
+          4, 8
+        }
+      },
+      {
+        Big = 36,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          12,
+          16
+        }
+      },
+      {
+        Big = 37,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        }
+      },
+      {
+        Big = 38,
+        FloorId = 0,
+        Small = {
+          1, 2
+        }
+      }
+    },
     Id = 1110,
     LevelName = "Huaxu_Yanjindu_Art_1006BigObjs",
-    MechanismPos = {18596, -25296},
+    MechanismPos = {18608, -25303},
     MechanismStateId = 901002,
     StaticId = 2070001,
     TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_11",
@@ -1818,37 +4040,521 @@ return ReadOnly("TeleportPoint", {
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1111] = {
+    Block = {
+      {
+        Big = 62,
+        FloorId = 0,
+        Small = 16
+      },
+      {
+        Big = 63,
+        FloorId = 0,
+        Small = {
+          13, 14
+        }
+      },
+      {
+        Big = 75,
+        FloorId = 0,
+        Small = {
+          12, 16
+        }
+      },
+      {
+        Big = 76,
+        FloorId = 0,
+        Small = {
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 77,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 78,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 90,
+        FloorId = 0,
+        Small = 4
+      },
+      {
+        Big = 91,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 92,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        }
+      },
+      {
+        Big = 93,
+        FloorId = 0,
+        Small = {
+          1, 5
+        }
+      },
+      {
+        Big = 106,
+        FloorId = 0,
+        Small = {
+          1, 2
+        }
+      }
+    },
     Id = 1111,
     LevelName = "Huaxu_Yanjindu_Art_0810BigObjs",
-    MechanismPos = {2422, 18134},
+    MechanismPos = {2376, 23863},
     MechanismStateId = 901002,
     StaticId = 2080026,
-    TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_13",
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_14",
     TeleportPointPos = 3,
     TeleportPointSubRegion = 104107,
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1112] = {
+    Block = {
+      {
+        Big = 79,
+        FloorId = 0,
+        Small = {
+          9,
+          10,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 92,
+        FloorId = 0,
+        Small = 16
+      },
+      {
+        Big = 93,
+        FloorId = 0,
+        Small = {
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 94,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          13,
+          14
+        }
+      },
+      {
+        Big = 106,
+        FloorId = 0,
+        Small = {
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 107,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        }
+      },
+      {
+        Big = 108,
+        FloorId = 0,
+        Small = {
+          1,
+          2,
+          5,
+          6,
+          9,
+          13
+        }
+      }
+    },
     Id = 1112,
     LevelName = "Huaxu_Yanjindu_Art_1011BigObjs",
-    MechanismPos = {26814, 33011},
+    MechanismPos = {26937, 33106},
     MechanismStateId = 901002,
     StaticId = 2080027,
-    TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_14",
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_13",
     TeleportPointPos = 4,
     TeleportPointSubRegion = 104107,
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
   },
   [1113] = {
     Id = 1113,
-    LevelName = "Huaxu_Yanjindu_Art_0904BigObjs",
-    MechanismPos = {10407, -61582},
+    IsDefault = 1,
+    MechanismPos = {10608, -61626},
     MechanismStateId = 901002,
     StaticId = 2020005,
-    TeleportPointName = "UI_TELEPORTPOINT_NAME_104101_15",
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_105701_1",
     TeleportPointPos = 1,
-    TeleportPointSubRegion = 104101,
+    TeleportPointSubRegion = 105701,
     UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1200] = {
+    Id = 1200,
+    IsDefault = 1,
+    MechanismPos = {43600, -14370},
+    MechanismStateId = 901002,
+    StaticId = 2010067,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104501_1",
+    TeleportPointPos = 1,
+    TeleportPointSubRegion = 104501,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1201] = {
+    Id = 1201,
+    MechanismPos = {58470, -23380},
+    MechanismStateId = 901002,
+    StaticId = 2010068,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104501_2",
+    TeleportPointPos = 2,
+    TeleportPointSubRegion = 104501,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1202] = {
+    Id = 1202,
+    MechanismPos = {41624, -33922},
+    MechanismStateId = 901002,
+    StaticId = 2010069,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104501_3",
+    TeleportPointPos = 3,
+    TeleportPointSubRegion = 104501,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1203] = {
+    Id = 1203,
+    MechanismPos = {4950, -5600},
+    MechanismStateId = 901002,
+    StaticId = 2400013,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104502_1",
+    TeleportPointPos = 1,
+    TeleportPointSubRegion = 104502,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1204] = {
+    Id = 1204,
+    MechanismPos = {22960, -14060},
+    MechanismStateId = 901002,
+    StaticId = 2400014,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104502_2",
+    TeleportPointPos = 2,
+    TeleportPointSubRegion = 104502,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1205] = {
+    Id = 1205,
+    MechanismPos = {10370, -30760},
+    MechanismStateId = 901002,
+    StaticId = 2400015,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104502_3",
+    TeleportPointPos = 3,
+    TeleportPointSubRegion = 104502,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1206] = {
+    Id = 1206,
+    MechanismPos = {29940, -45290},
+    MechanismStateId = 901002,
+    StaticId = 2410015,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104503_1",
+    TeleportPointPos = 1,
+    TeleportPointSubRegion = 104503,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1207] = {
+    Id = 1207,
+    MechanismPos = {32380, -75570},
+    MechanismStateId = 901002,
+    StaticId = 2410016,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104503_2",
+    TeleportPointPos = 2,
+    TeleportPointSubRegion = 104503,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1208] = {
+    Id = 1208,
+    MechanismPos = {32320, -102370},
+    MechanismStateId = 901002,
+    StaticId = 2440008,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104506_1",
+    TeleportPointPos = 1,
+    TeleportPointSubRegion = 104506,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1209] = {
+    Id = 1209,
+    MechanismPos = {15200, -54130},
+    MechanismStateId = 901002,
+    StaticId = 2420027,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104504_1",
+    TeleportPointPos = 1,
+    TeleportPointSubRegion = 104504,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1210] = {
+    Id = 1210,
+    MechanismPos = {-11600, -54850},
+    MechanismStateId = 901002,
+    StaticId = 2420028,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104504_2",
+    TeleportPointPos = 2,
+    TeleportPointSubRegion = 104504,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1211] = {
+    Id = 1211,
+    MechanismPos = {-26960, -43930},
+    MechanismStateId = 901002,
+    StaticId = 2420029,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104504_3",
+    TeleportPointPos = 3,
+    TeleportPointSubRegion = 104504,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1212] = {
+    Id = 1212,
+    MechanismPos = {52710, -49110},
+    MechanismStateId = 901002,
+    StaticId = 2430044,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104505_1",
+    TeleportPointPos = 1,
+    TeleportPointSubRegion = 104505,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1213] = {
+    Id = 1213,
+    MechanismPos = {68490, -73070},
+    MechanismStateId = 901002,
+    StaticId = 2430045,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_104505_2",
+    TeleportPointPos = 2,
+    TeleportPointSubRegion = 104505,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1300] = {
+    Id = 1300,
+    MechanismPos = {-4760, 12720},
+    MechanismStateId = 901002,
+    StaticId = 2360004,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_105201_1",
+    TeleportPointPos = 1,
+    TeleportPointSubRegion = 105201,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1301] = {
+    Id = 1301,
+    MechanismPos = {7470, -1270},
+    MechanismStateId = 901002,
+    StaticId = 2360005,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_105201_2",
+    TeleportPointPos = 2,
+    TeleportPointSubRegion = 105201,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1400] = {
+    Id = 1400,
+    MechanismPos = {-11020, 23120},
+    MechanismStateId = 901002,
+    StaticId = 2370633,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_105301_1",
+    TeleportPointPos = 1,
+    TeleportPointSubRegion = 105301,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1401] = {
+    Id = 1401,
+    MechanismPos = {17960, 22600},
+    MechanismStateId = 901002,
+    StaticId = 2370634,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_105301_2",
+    TeleportPointPos = 2,
+    TeleportPointSubRegion = 105301,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [1500] = {
+    Id = 1500,
+    MechanismPos = {17560, 3410},
+    MechanismStateId = 901002,
+    StaticId = 2340003,
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_105501_1",
+    TeleportPointPos = 1,
+    TeleportPointSubRegion = 105501,
+    UnlockMsg = "UI_TELEPORTPOINT_UNLOCK"
+  },
+  [8000] = {
+    Id = 8000,
+    MechanismPos = {38273, 6442},
+    TeleportPointIcon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_AreaCoop.T_Gp_AreaCoop",
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_DEFENCE_1",
+    TeleportPointPos = 7,
+    TeleportPointSubRegion = 104107
+  },
+  [8001] = {
+    Id = 8001,
+    MechanismPos = {-22713, -15610},
+    TeleportPointIcon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_AreaCoop.T_Gp_AreaCoop",
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_SURVIVALMINIPRO_1",
+    TeleportPointPos = 2,
+    TeleportPointSubRegion = 104105
+  },
+  [8002] = {
+    Id = 8002,
+    MechanismPos = {19351, -18648},
+    TeleportPointIcon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_AreaCoop.T_Gp_AreaCoop",
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_EXTERMINATE_1",
+    TeleportPointPos = 4,
+    TeleportPointSubRegion = 104106
+  },
+  [8003] = {
+    Id = 8003,
+    MechanismPos = {45084, 42222},
+    TeleportPointIcon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_AreaCoop.T_Gp_AreaCoop",
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_EXTERNPRO_1",
+    TeleportPointPos = 7,
+    TeleportPointSubRegion = 104108
+  },
+  [8004] = {
+    BuildingNameAndId = "Yanjindu_L-1",
+    Id = 8004,
+    MechanismPos = {-6274, 23368},
+    TeleportPointIcon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_AreaCoop.T_Gp_AreaCoop",
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_DEFENCE_2",
+    TeleportPointPos = 3,
+    TeleportPointSubRegion = 104103
+  },
+  [8005] = {
+    Id = 8005,
+    MechanismPos = {6760, 22943},
+    TeleportPointIcon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_AreaCoop.T_Gp_AreaCoop",
+    TeleportPointName = "UI_TELEPORTPOINT_NAME_SURVIVALMINIPRO_2",
+    TeleportPointPos = 6,
+    TeleportPointSubRegion = 104107
   },
   [9000] = {
     Id = 9000,

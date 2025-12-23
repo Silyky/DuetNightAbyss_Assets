@@ -71,7 +71,7 @@ return {
       key = "17221462622692593667",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 346.9751359751365, y = 686.0887445887449},
+      pos = {x = 344.9061704578951, y = 686.0887445887449},
       propsData = {
         QuestId = 20021302,
         QuestDescriptionComment = "完成三个子任务",
@@ -94,8 +94,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -194,7 +196,8 @@ return {
                 }
               },
               IsSetCountInfo = false,
-              IsDifftation = false
+              IsDifftation = false,
+              AllDiffGuideOptions = {}
             }
           },
           ["17221468143983818566"] = {
@@ -222,7 +225,7 @@ return {
             key = "17221468343013819250",
             type = "CheckBranchQuestFinishedNode",
             name = "子任务结束节点",
-            pos = {x = 2213.3181195757916, y = 286.30969437232034},
+            pos = {x = 2108.3181195757916, y = 286.30969437232034},
             propsData = {
               InputBranchQuestNumber = 3,
               BranchQuestFinishOptions = {
@@ -264,8 +267,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Maerjie_1190646"
+        StoryGuidePointName = "Npc_Maerjie_1190646",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -277,6 +282,12 @@ return {
           },
           {
             startQuest = "17221464276083051411",
+            startPort = "Out",
+            endQuest = "17640534663403978",
+            endPort = "In"
+          },
+          {
+            startQuest = "17640534663403978",
             startPort = "Out",
             endQuest = "17221464276083051409",
             endPort = "Success"
@@ -294,7 +305,7 @@ return {
             key = "17221464276083051409",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2240.050604567846, y = 279.82086878638603},
+            pos = {x = 2352.1094280972584, y = 295.70322172756255},
             propsData = {ModeType = 0}
           },
           ["17221464276083051410"] = {
@@ -308,7 +319,7 @@ return {
             key = "17221464276083051411",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1642.6594623727347, y = 202.8485116719166},
+            pos = {x = 1734.0230987363711, y = 260.1212389446439},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
@@ -322,7 +333,7 @@ return {
               TalkType = "QuestImpression",
               TalkStageName = "Stage_20021401",
               BlendInTime = 0.5,
-              BlendOutTime = 0.5,
+              BlendOutTime = 0,
               InType = "FadeIn",
               OutType = "BlendOut",
               ShowFadeDetail = false,
@@ -332,6 +343,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -361,17 +373,28 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700127},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               OptionType = "plus",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               PlusOptions = {},
               OverrideFailBlend = false
+            }
+          },
+          ["17640534663403978"] = {
+            key = "17640534663403978",
+            type = "ChangeStaticCreatorNode",
+            name = "生成/销毁节点",
+            pos = {x = 2038.3374981085983, y = 287.659357550662},
+            propsData = {
+              ActiveEnable = false,
+              EnableBlackScreenSync = true,
+              EnableFadeIn = false,
+              EnableFadeOut = true,
+              NewTargetPointName = "",
+              StaticCreatorIdList = {1190646}
             }
           }
         },
@@ -406,8 +429,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_20021401"
+        StoryGuidePointName = "QuestPoint_20021401",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -456,7 +481,7 @@ return {
             key = "17221464276093051440",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 2205.367083939452, y = 321.64304482067615},
+            pos = {x = 2164.6527982251664, y = 338.7859019635333},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -512,8 +537,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_20021301"
+        StoryGuidePointName = "QuestPoint_20021301",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -581,7 +608,8 @@ return {
         QuestDescriptionComment = "",
         SubRegionId = 101101,
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Maerjie_1190523"
+        StoryGuidePointName = "Npc_Maerjie_1190523",
+        bIsPlayBlackScreenOnComplete = false
       },
       questNodeData = {
         lineData = {
@@ -638,9 +666,9 @@ return {
             pos = {x = 953.060762766645, y = -87.97349709114415},
             propsData = {
               SideQuestChainId = 200213,
-              EnableSequence = false,
-              SequencePath = "",
-              PauseMark = ""
+              EnableSequence = true,
+              SequencePath = "/Game/UI/Sequence/SQ_Task_DepthField.SQ_Task_DepthField",
+              PauseMark = "QuestAccept"
             }
           },
           ["17512713215858173000"] = {
@@ -679,6 +707,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -692,7 +721,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "plus",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,

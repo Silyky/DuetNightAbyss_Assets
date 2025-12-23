@@ -570,7 +570,7 @@ return ReadOnly("Pet", {
     PetType = 1,
     PremiumTransform = 4043,
     Rarity = 3,
-    SortPriority = 3011,
+    SortPriority = 3012,
     Sound = "SOUND_ITEM_PET",
     UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
     UnitId = 4042
@@ -619,10 +619,58 @@ return ReadOnly("Pet", {
     Premium = 1,
     PremiumTransform = 4043,
     Rarity = 3,
-    SortPriority = 3012,
+    SortPriority = 3013,
     Sound = "SOUND_ITEM_PET",
     UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
     UnitId = 4043
+  },
+  [4049] = {
+    BT = "/Game/AssetDesign/AI/Npc/Pet/BT_Npc_Pet_Patrol.BT_Npc_Pet_Patrol",
+    BattlePetId = 404,
+    BattleRoleId = 101,
+    CaptureResetMode = 1,
+    CollectRewardExp = 100,
+    DefenceCoreID = 390014,
+    EffectCreatureId = 4041,
+    GUID = 4041,
+    GachaIcon = "/Game/UI/Texture/Dynamic/Image/Head/Pet/T_Head_Pet_Zhamao01.T_Head_Pet_Zhamao01",
+    GuideIconAni = "/Game/UI/WBP/GuidePoint/WBP_GuidePoint_Pet.WBP_GuidePoint_Pet",
+    GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest",
+    GuideIconBPPath2 = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Pet.T_Gp_Pet",
+    Icon = "/Game/UI/Texture/Dynamic/Image/Head/Pet/T_Head_Pet_Zhamao01.T_Head_Pet_Zhamao01",
+    InteractiveInfo = {
+      PetNpcGame = 99999
+    },
+    IpDes = "Pet_IpDes_404",
+    MiniGamCamInitialLocation = {
+      250,
+      0,
+      24
+    },
+    MiniGamCamStayLocation = {
+      150,
+      0,
+      14
+    },
+    MiniGameCamOffset = {
+      30,
+      -52,
+      5,
+      10
+    },
+    MiniGameCaptureId = 901,
+    ModelId = 64041,
+    Name = "Pet_Name_4041",
+    PetExp = 70,
+    PetMaxLevel = 60,
+    PetNameTag = "Zhamao",
+    PetType = 1,
+    PremiumTransform = 4043,
+    Rarity = 3,
+    SortPriority = 3011,
+    Sound = "SOUND_ITEM_PET",
+    UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
+    UnitId = 4049
   },
   [4051] = {
     BT = "/Game/AssetDesign/AI/Npc/Pet/BT_Npc_Pet_Patrol.BT_Npc_Pet_Patrol",
@@ -667,7 +715,7 @@ return ReadOnly("Pet", {
     PetType = 1,
     PremiumTransform = 4053,
     Rarity = 3,
-    SortPriority = 3013,
+    SortPriority = 3014,
     Sound = "SOUND_ITEM_PET",
     UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
     UnitId = 4051
@@ -715,7 +763,7 @@ return ReadOnly("Pet", {
     PetType = 1,
     PremiumTransform = 4053,
     Rarity = 3,
-    SortPriority = 3014,
+    SortPriority = 3015,
     Sound = "SOUND_ITEM_PET",
     UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
     UnitId = 4052
@@ -764,7 +812,7 @@ return ReadOnly("Pet", {
     Premium = 1,
     PremiumTransform = 4053,
     Rarity = 3,
-    SortPriority = 3015,
+    SortPriority = 3016,
     Sound = "SOUND_ITEM_PET",
     UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
     UnitId = 4053
@@ -812,7 +860,7 @@ return ReadOnly("Pet", {
     PetType = 1,
     PremiumTransform = 4063,
     Rarity = 3,
-    SortPriority = 3016,
+    SortPriority = 3017,
     Sound = "SOUND_ITEM_PET",
     UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
     UnitId = 4061
@@ -860,7 +908,7 @@ return ReadOnly("Pet", {
     PetType = 1,
     PremiumTransform = 4063,
     Rarity = 3,
-    SortPriority = 3017,
+    SortPriority = 3018,
     Sound = "SOUND_ITEM_PET",
     UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
     UnitId = 4062
@@ -909,7 +957,7 @@ return ReadOnly("Pet", {
     Premium = 1,
     PremiumTransform = 4063,
     Rarity = 3,
-    SortPriority = 3018,
+    SortPriority = 3019,
     Sound = "SOUND_ITEM_PET",
     UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
     UnitId = 4063
@@ -2884,5 +2932,148 @@ return ReadOnly("Pet", {
     Sound = "SOUND_ITEM_PET",
     UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
     UnitId = 4936
+  },
+  [4941] = {
+    BT = "/Game/AssetDesign/AI/Npc/Pet/BT_Npc_Pet_Patrol.BT_Npc_Pet_Patrol",
+    BattlePetId = 496,
+    BattleRoleId = 101,
+    CaptureResetMode = 1,
+    CollectRewardExp = 100,
+    DefenceCoreID = 390014,
+    EffectCreatureId = 4934,
+    GUID = 4941,
+    GachaIcon = "/Game/UI/Texture/Dynamic/Image/Head/Pet/T_Head_Pet_YYD04.T_Head_Pet_YYD04",
+    GuideIconAni = "/Game/UI/WBP/GuidePoint/WBP_GuidePoint_Pet.WBP_GuidePoint_Pet",
+    GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest",
+    GuideIconBPPath2 = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Pet.T_Gp_Pet",
+    Icon = "/Game/UI/Texture/Dynamic/Image/Head/Pet/T_Head_Pet_YYD04.T_Head_Pet_YYD04",
+    InteractiveInfo = {
+      PetNpcGame = 99999
+    },
+    IpDes = "Pet_IpDes_493",
+    MiniGamCamInitialLocation = {
+      250,
+      0,
+      24
+    },
+    MiniGamCamStayLocation = {
+      150,
+      0,
+      14
+    },
+    MiniGameCamOffset = {
+      30,
+      -52,
+      5,
+      10
+    },
+    MiniGameCaptureId = 201,
+    ModelId = 64934,
+    Name = "Pet_Name_4941",
+    PetExp = 40,
+    PetMaxLevel = 1,
+    PetNameTag = "Yaoyao",
+    PetType = 2,
+    Rarity = 2,
+    SortPriority = 2012,
+    Sound = "SOUND_ITEM_PET",
+    UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
+    UnitId = 4941
+  },
+  [4942] = {
+    BT = "/Game/AssetDesign/AI/Npc/Pet/BT_Npc_Pet_Patrol.BT_Npc_Pet_Patrol",
+    BattlePetId = 496,
+    BattleRoleId = 101,
+    CaptureResetMode = 1,
+    CollectRewardExp = 100,
+    DefenceCoreID = 390014,
+    EffectCreatureId = 4934,
+    FixedPetEntry = 10171,
+    GUID = 4941,
+    GachaIcon = "/Game/UI/Texture/Dynamic/Image/Head/Pet/T_Head_Pet_YYD04.T_Head_Pet_YYD04",
+    GuideIconAni = "/Game/UI/WBP/GuidePoint/WBP_GuidePoint_Pet.WBP_GuidePoint_Pet",
+    GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest",
+    GuideIconBPPath2 = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Pet.T_Gp_Pet",
+    Icon = "/Game/UI/Texture/Dynamic/Image/Head/Pet/T_Head_Pet_YYD04.T_Head_Pet_YYD04",
+    InteractiveInfo = {
+      PetNpcGame = 99999
+    },
+    IpDes = "Pet_IpDes_493",
+    MiniGamCamInitialLocation = {
+      250,
+      0,
+      24
+    },
+    MiniGamCamStayLocation = {
+      150,
+      0,
+      14
+    },
+    MiniGameCamOffset = {
+      30,
+      -52,
+      5,
+      10
+    },
+    MiniGameCaptureId = 901,
+    ModelId = 64934,
+    Name = "Pet_Name_4942",
+    PetExp = 40,
+    PetMaxLevel = 1,
+    PetNameTag = "Yaoyao",
+    PetType = 2,
+    Rarity = 2,
+    SortPriority = 2013,
+    Sound = "SOUND_ITEM_PET",
+    UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
+    UnitId = 4942
+  },
+  [4943] = {
+    BT = "/Game/AssetDesign/AI/Npc/Pet/BT_Npc_Pet_Patrol.BT_Npc_Pet_Patrol",
+    BattlePetId = 496,
+    BattleRoleId = 101,
+    CaptureResetMode = 1,
+    CollectRewardExp = 100,
+    DefenceCoreID = 390014,
+    EffectCreatureId = 4934,
+    FixedPetEntry = 10161,
+    GUID = 4941,
+    GachaIcon = "/Game/UI/Texture/Dynamic/Image/Head/Pet/T_Head_Pet_YYD04.T_Head_Pet_YYD04",
+    GuideIconAni = "/Game/UI/WBP/GuidePoint/WBP_GuidePoint_Pet.WBP_GuidePoint_Pet",
+    GuideIconBPPath = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_DynQuest.T_Gp_DynQuest",
+    GuideIconBPPath2 = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Pet.T_Gp_Pet",
+    Icon = "/Game/UI/Texture/Dynamic/Image/Head/Pet/T_Head_Pet_YYD04.T_Head_Pet_YYD04",
+    InteractiveInfo = {
+      PetNpcGame = 99999
+    },
+    IpDes = "Pet_IpDes_493",
+    MiniGamCamInitialLocation = {
+      250,
+      0,
+      24
+    },
+    MiniGamCamStayLocation = {
+      150,
+      0,
+      14
+    },
+    MiniGameCamOffset = {
+      30,
+      -52,
+      5,
+      10
+    },
+    MiniGameCaptureId = 901,
+    ModelId = 64934,
+    Name = "Pet_Name_4943",
+    PetExp = 40,
+    PetMaxLevel = 1,
+    PetNameTag = "Yaoyao",
+    PetType = 2,
+    Rarity = 2,
+    SortPriority = 2014,
+    Sound = "SOUND_ITEM_PET",
+    UnitBPPath = "/Game/BluePrints/Char/BP_PetNpc/BP_PetNPC_Common",
+    UnitId = 4943
   }
 })

@@ -70,34 +70,24 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
+          {
+            startQuest = "17503211219441911533",
+            startPort = "Out",
+            endQuest = "17503211219441911531",
+            endPort = "Success"
+          },
           {
             startQuest = "17503211219441911530",
             startPort = "QuestStart",
             endQuest = "17503211219441911533",
             endPort = "In"
-          },
-          {
-            startQuest = "17503211219441911530",
-            startPort = "QuestStart",
-            endQuest = "176008107561713061767",
-            endPort = "In"
-          },
-          {
-            startQuest = "17503211219441911533",
-            startPort = "Out",
-            endQuest = "176008108718113062110",
-            endPort = "In"
-          },
-          {
-            startQuest = "176008108718113062110",
-            startPort = "Out",
-            endQuest = "17503211219441911531",
-            endPort = "Success"
           }
         },
         nodeData = {
@@ -112,7 +102,7 @@ return {
             key = "17503211219441911531",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1246.9218093320528, y = 294.37604826448637},
+            pos = {x = 1208.7399911502348, y = 295.73968462812275},
             propsData = {ModeType = 0}
           },
           ["17503211219441911532"] = {
@@ -126,7 +116,7 @@ return {
             key = "17503211219441911533",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 679.197097020625, y = 275.99522536287265},
+            pos = {x = 804.6516424751705, y = 275.99522536287265},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80160401,
@@ -144,6 +134,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -168,43 +159,14 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 93201},
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
-            }
-          },
-          ["176008107561713061767"] = {
-            key = "176008107561713061767",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = 687.5469807540242, y = 127.88478046721087},
-            propsData = {
-              SoundStateType = 0,
-              SoundPriority = 1,
-              SoundType = 0,
-              SoundPath = "event:/bgm/cbt01/0018_scene_iceground",
-              ParamKey = "",
-              ParamValue = 0,
-              RelatedRegionId = {},
-              ClientRelatedRegionId = {}
-            }
-          },
-          ["176008108718113062110"] = {
-            key = "176008108718113062110",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = 957.5469807540239, y = 295.61205319448356},
-            propsData = {
-              SoundStateType = 3,
-              SoundPriority = 1,
-              SoundType = 0
             }
           }
         },

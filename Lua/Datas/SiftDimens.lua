@@ -140,7 +140,8 @@ return ReadOnly("SiftDimens", {
       "MOD_Type_Name_FeatheredSnake01",
       "MOD_Type_Name_Fafnir01",
       "MOD_Type_Name_Cerberus02",
-      "MOD_Type_Name_Lilith02"
+      "MOD_Type_Name_Lilith02",
+      "MOD_Type_Name_Changeling01"
     },
     SelectionField = {"TypeName"},
     SelectionText = {
@@ -164,7 +165,8 @@ return ReadOnly("SiftDimens", {
       "MOD_Tag_Type_Name_FeatheredSnake01",
       "MOD_Tag_Type_Name_Fafnir01",
       "MOD_Tag_Type_Name_Cerberus02",
-      "MOD_Tag_Type_Name_Lilith02"
+      "MOD_Tag_Type_Name_Lilith02",
+      "MOD_Tag_Type_Name_Changeling01"
     },
     Title = "ModFilter_SubTitle_TypeName"
   },

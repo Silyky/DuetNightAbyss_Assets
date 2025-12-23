@@ -1,36 +1,4 @@
 return ReadOnly("BattleMonster", {
-  [5] = {
-    ATK = 30,
-    ATKLevelGrow = "ATKMon",
-    Attribute = "Default",
-    BTMotionParams = {
-      MaxAccelerationRun = 3000,
-      MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 400,
-      MaxSpeedWalk = 150
-    },
-    BattleRoleId = 5,
-    BuffTypeDurationCap = {
-      [49] = 15
-    },
-    CollisionLevel = 100,
-    DEF = 300,
-    DEFLevelGrow = "DEFMon",
-    MaxES = 0,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 300,
-    MaxHpLevelGrow = "MaxHpMon",
-    MaxTN = 70,
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    TN = 70,
-    TNRecoverS = 2,
-    TNRecoverTimeB = 5,
-    TNRecoverTimeZ = 3,
-    TNResistance = 1
-  },
   [97] = {
     ATK = 10,
     Attribute = "Default",
@@ -73,57 +41,6 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeB = 5,
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
-  },
-  [98] = {
-    ATK = 10,
-    ATKLevelGrow = "ATKMon",
-    Attribute = "Default",
-    BTMotionParams = {
-      MaxAccelerationRun = 3000,
-      MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 400,
-      MaxSpeedWalk = 150
-    },
-    BattleRoleId = 98,
-    CollisionLevel = 20,
-    DEF = 130,
-    DEFLevelGrow = "DEFMon",
-    MaxES = 0,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
-    MaxHpLevelGrow = "MaxHpMon",
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    SkillList = {700201, 700202}
-  },
-  [99] = {
-    ATK = 5.56,
-    ATKLevelGrow = "ATKMon",
-    Attribute = "Default",
-    BTBattleParams = {
-      MaxAttackRange = 1200, MinAttackRange = 800
-    },
-    BTMotionParams = {
-      MaxAccelerationRun = 3000,
-      MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 400,
-      MaxSpeedWalk = 150
-    },
-    BattleRoleId = 99,
-    CollisionLevel = 10,
-    DEF = 130,
-    DEFLevelGrow = "DEFMon",
-    MaxES = 0,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
-    MaxHpLevelGrow = "MaxHpMon",
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    SkillList = 700301
   },
   [100] = {
     ATK = 10,
@@ -224,7 +141,7 @@ return ReadOnly("BattleMonster", {
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
     RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    SkillList = 700301,
+    SkillList = {700301},
     TN = 150,
     TNRecoverS = 2,
     TNRecoverTimeB = 5,
@@ -300,54 +217,6 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeB = 5,
     TNRecoverTimeZ = 0.2,
     TNResistance = 0
-  },
-  [114] = {
-    ATK = 5.56,
-    ATKLevelGrow = "ATKMon",
-    Attribute = "Default",
-    BTBattleParams = {
-      MaxAttackRange = 1200, MinAttackRange = 800
-    },
-    BTMotionParams = {
-      MaxAccelerationRun = 3000,
-      MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 400,
-      MaxSpeedWalk = 150
-    },
-    BattleRoleId = 114,
-    BuffTypeDurationCap = {
-      [49] = 15
-    },
-    CollisionLevel = 10,
-    DEF = 130,
-    DEFLevelGrow = "DEFMon",
-    ESRecoverRate = 0.05,
-    ESRecoverTime = 5,
-    ESRecoverValue = 15,
-    MaxES = 34,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
-    MaxHpLevelGrow = "MaxHpMon",
-    MaxTN = 150,
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    SkillList = {
-      700301,
-      700302,
-      700303,
-      700304,
-      700305,
-      700311,
-      700306,
-      700307
-    },
-    TN = 150,
-    TNRecoverS = 2,
-    TNRecoverTimeB = 5,
-    TNRecoverTimeZ = 0.2,
-    TNResistance = 1
   },
   [115] = {
     ATK = 31.2,
@@ -452,100 +321,6 @@ return ReadOnly("BattleMonster", {
     TNRecoverS = 0,
     TNRecoverTimeB = 10,
     TNRecoverTimeZ = 1.5,
-    TNResistance = 1
-  },
-  [119] = {
-    ATK = 3.3,
-    ATKLevelGrow = "ATKMon",
-    Attribute = "Default",
-    BTBattleParams = {
-      MaxAttackRange = 1200, MinAttackRange = 800
-    },
-    BTMotionParams = {
-      MaxAccelerationRun = 3000,
-      MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 400,
-      MaxSpeedWalk = 150
-    },
-    BattleRoleId = 119,
-    BuffTypeDurationCap = {
-      [49] = 15
-    },
-    CollisionLevel = 10,
-    DEF = 75,
-    DEFLevelGrow = "DEFMon",
-    ESRecoverRate = 0.05,
-    ESRecoverTime = 5,
-    ESRecoverValue = 15,
-    MaxES = 36,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 36,
-    MaxHpLevelGrow = "MaxHpMon",
-    MaxTN = 120,
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    SkillList = {
-      700301,
-      700302,
-      700303,
-      700304,
-      700305,
-      700311,
-      700306,
-      700307
-    },
-    TN = 120,
-    TNRecoverS = 2,
-    TNRecoverTimeB = 5,
-    TNRecoverTimeZ = 0.2,
-    TNResistance = 1
-  },
-  [120] = {
-    ATK = 3.3,
-    ATKLevelGrow = "ATKMon",
-    Attribute = "Default",
-    BTBattleParams = {
-      MaxAttackRange = 1600, MinAttackRange = 1200
-    },
-    BTMotionParams = {
-      MaxAccelerationRun = 3000,
-      MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 400,
-      MaxSpeedWalk = 150
-    },
-    BattleRoleId = 120,
-    BuffTypeDurationCap = {
-      [49] = 15
-    },
-    CollisionLevel = 10,
-    DEF = 75,
-    DEFLevelGrow = "DEFMon",
-    ESRecoverRate = 0.05,
-    ESRecoverTime = 5,
-    ESRecoverValue = 15,
-    MaxES = 36,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 36,
-    MaxHpLevelGrow = "MaxHpMon",
-    MaxTN = 100,
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    SkillList = {
-      700101,
-      700102,
-      700103,
-      700104,
-      700105,
-      700111
-    },
-    TN = 100,
-    TNRecoverS = 2,
-    TNRecoverTimeB = 5,
-    TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
   [304] = {
@@ -858,6 +633,38 @@ return ReadOnly("BattleMonster", {
     TNRecoverS = 2,
     TNRecoverTimeB = 5,
     TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [1000] = {
+    ATK = 30,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 1000,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 100,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 300,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 70,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    TN = 70,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
     TNResistance = 1
   },
   [10001] = {
@@ -2273,6 +2080,38 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 3,
     TNResistance = 1
   },
+  [150401] = {
+    ATK = 30,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Light",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 150401,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 100,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 999999,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 70,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    TN = 70,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
   [180101] = {
     ATK = 30,
     ATKLevelGrow = "ATKMon",
@@ -2735,6 +2574,31 @@ return ReadOnly("BattleMonster", {
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
     RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    TN = 70,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [390051] = {
+    ATK = 7,
+    ATKLevelGrow = "ATKTrapB",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 390051,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 999,
+    DEF = 0,
+    MaxES = 0,
+    MaxHp = 1,
+    MaxTN = 70,
     TN = 70,
     TNRecoverS = 2,
     TNRecoverTimeB = 5,
@@ -3956,6 +3820,46 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [6001071] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6001071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 71,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      600101,
+      600102,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [6001101] = {
     ATK = 10,
     ATKLevelGrow = "ATKMon",
@@ -4131,7 +4035,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
+    MaxHp = 350,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -4144,43 +4048,6 @@ return ReadOnly("BattleMonster", {
       600103,
       600111,
       600104
-    },
-    TN = 150,
-    TNRecoverS = 2,
-    TNRecoverTimeB = 5,
-    TNRecoverTimeZ = 0.2,
-    TNResistance = 1
-  },
-  [6001701] = {
-    ATK = 10,
-    ATKLevelGrow = "ATKMon",
-    Attribute = "Default",
-    BTMotionParams = {
-      MaxAccelerationRun = 3000,
-      MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 400,
-      MaxSpeedWalk = 150
-    },
-    BattleRoleId = 6001701,
-    BuffTypeDurationCap = {
-      [49] = 15
-    },
-    CollisionLevel = 20,
-    DEF = 130,
-    DEFLevelGrow = "DEFMon",
-    MaxES = 0,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
-    MaxHpLevelGrow = "MaxHpMon",
-    MaxTN = 150,
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    SkillList = {
-      600101,
-      600102,
-      6000012
     },
     TN = 150,
     TNRecoverS = 2,
@@ -4819,6 +4686,49 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [6002071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600,
+      MinAttackRange = 1200,
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6002071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 71,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      600202,
+      600271,
+      600203,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [6002101] = {
     ATK = 5.56,
     ATKLevelGrow = "ATKMon",
@@ -4969,7 +4879,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
+    MaxHp = 350,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -4983,47 +4893,6 @@ return ReadOnly("BattleMonster", {
       600211,
       600204,
       600205
-    },
-    TN = 150,
-    TNRecoverS = 2,
-    TNRecoverTimeB = 5,
-    TNRecoverTimeZ = 0.2,
-    TNResistance = 1
-  },
-  [6002701] = {
-    ATK = 5.56,
-    ATKLevelGrow = "ATKMon",
-    Attribute = "Default",
-    BTBattleParams = {
-      MaxAttackRange = 1600, MinAttackRange = 1200
-    },
-    BTMotionParams = {
-      MaxAccelerationRun = 3000,
-      MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 400,
-      MaxSpeedWalk = 150
-    },
-    BattleRoleId = 6002701,
-    BuffTypeDurationCap = {
-      [49] = 15
-    },
-    CollisionLevel = 10,
-    DEF = 130,
-    DEFLevelGrow = "DEFMon",
-    MaxES = 0,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
-    MaxHpLevelGrow = "MaxHpMon",
-    MaxTN = 150,
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
-    SkillList = {
-      600201,
-      600202,
-      600203,
-      6000012
     },
     TN = 150,
     TNRecoverS = 2,
@@ -5795,6 +5664,49 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [6003071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1000, TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationFly = 2048,
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedFly = 400,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6003071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 71,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      600303,
+      600371,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [6003101] = {
     ATK = 5.56,
     ATKLevelGrow = "ATKMon",
@@ -6000,7 +5912,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
+    MaxHp = 350,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -6825,6 +6737,48 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [6004071] = {
+    ATK = 18.75,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6004071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 40,
+    DEF = 200,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 245,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 300,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      600401,
+      600402,
+      600471,
+      6000015,
+      6000012
+    },
+    TN = 300,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [6004101] = {
     ATK = 18.75,
     ATKLevelGrow = "ATKMon",
@@ -6924,7 +6878,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 1250,
+    MaxHp = 600,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 300,
     RougeATKLevelGrow = "RougeATKMon",
@@ -7046,7 +7000,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 245,
+    MaxHp = 1225,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 300,
     RougeATKLevelGrow = "RougeATKMon",
@@ -7142,6 +7096,48 @@ return ReadOnly("BattleMonster", {
       600504,
       600505,
       6000010
+    },
+    TN = 600,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6005071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1000, TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6005071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 71,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 600,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      600501,
+      600571,
+      6000010,
+      6000012
     },
     TN = 600,
     TNRecoverS = 2,
@@ -7264,7 +7260,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
+    MaxHp = 350,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 600,
     RougeATKLevelGrow = "RougeATKMon",
@@ -7365,7 +7361,8 @@ return ReadOnly("BattleMonster", {
       600601,
       600602,
       600603,
-      600611
+      600611,
+      6000020
     },
     TN = 150,
     TNRecoverS = 2,
@@ -7398,7 +7395,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
+    MaxHp = 350,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -8152,7 +8149,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
+    MaxHp = 350,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -8755,6 +8752,47 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [6011071] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6011071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 71,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      600101,
+      600102,
+      600171,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [6011201] = {
     ATK = 10,
     ATKLevelGrow = "ATKMon",
@@ -8854,7 +8892,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
+    MaxHp = 350,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -9532,6 +9570,49 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [6012071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600,
+      MinAttackRange = 1200,
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6012071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 71,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601201,
+      600272,
+      600203,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [6012201] = {
     ATK = 11,
     ATKLevelGrow = "ATKMon",
@@ -9644,7 +9725,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
+    MaxHp = 350,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -10403,7 +10484,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 71,
+    MaxHp = 350,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -11155,7 +11236,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 245,
+    MaxHp = 1225,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 300,
     RougeATKLevelGrow = "RougeATKMon",
@@ -11218,6 +11299,468 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [6015011] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015011,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6015013] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015013,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6015015] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015015,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6015016] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015016,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6015017] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015017,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6015018] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015018,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6015019] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015019,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6015021] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015021,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6015022] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015022,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6015023] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015023,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6015024] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 400
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6015024,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601501,
+      601502,
+      601511,
+      6000000,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [6016001] = {
     ATK = 5.56,
     ATKLevelGrow = "ATKMon",
@@ -11254,6 +11797,490 @@ return ReadOnly("BattleMonster", {
       601611,
       601604,
       601605
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016011] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016011,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016013] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016013,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016015] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016015,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016016] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016016,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016017] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016017,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016018] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016018,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016019] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016019,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016021] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016021,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016022] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016022,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016023] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016023,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6016024] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6016024,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601601,
+      601602,
+      601603,
+      601611,
+      601604,
+      601605,
+      6000000
     },
     TN = 150,
     TNRecoverS = 2,
@@ -11300,6 +12327,446 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [6017011] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017011,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6017012] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017012,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6017014] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017014,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6017016] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017016,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6017017] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017017,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6017018] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017018,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6017019] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017019,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6017020] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017020,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6017021] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017021,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6017023] = {
+    ATK = 11,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017023,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [6017024] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 6017024,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 510,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      601701,
+      601702,
+      601703,
+      601711,
+      601704,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [7001001] = {
     ATK = 5.56,
     ATKLevelGrow = "ATKMon",
@@ -11339,6 +12806,53 @@ return ReadOnly("BattleMonster", {
       700111,
       700104,
       700105
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [7001002] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7001002,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 34,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 47,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      700101,
+      700102,
+      700103,
+      700111,
+      700104,
+      700105,
+      6000020
     },
     TN = 150,
     TNRecoverS = 2,
@@ -12108,6 +13622,49 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [7001071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7001071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 34,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 47,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      700101,
+      700171,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [7001101] = {
     ATK = 5.56,
     ATKLevelGrow = "ATKMon",
@@ -12188,6 +13745,51 @@ return ReadOnly("BattleMonster", {
       700104,
       700105,
       6000016
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [7001103] = {
+    ATK = 1,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600, MinAttackRange = 1200
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7001103,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 16,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      700108,
+      700102,
+      700103,
+      700111,
+      700104,
+      700105,
+      6000016,
+      900001
     },
     TN = 150,
     TNRecoverS = 2,
@@ -12308,9 +13910,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 34,
+    MaxES = 170,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
+    MaxHp = 230,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -12366,6 +13968,49 @@ return ReadOnly("BattleMonster", {
       700203,
       700210,
       700211
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [7002002] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7002002,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 34,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 47,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      700201,
+      700202,
+      700203,
+      700210,
+      700211,
+      6000020
     },
     TN = 150,
     TNRecoverS = 2,
@@ -13005,6 +14650,49 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [7002071] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7002071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 34,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 47,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      700201,
+      700202,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [7002101] = {
     ATK = 10,
     ATKLevelGrow = "ATKMon",
@@ -13077,6 +14765,47 @@ return ReadOnly("BattleMonster", {
       700210,
       700211,
       6000016
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [7002103] = {
+    ATK = 1,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7002103,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 30,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      700201,
+      700202,
+      700203,
+      700210,
+      700211,
+      6000016,
+      900001
     },
     TN = 150,
     TNRecoverS = 2,
@@ -13188,9 +14917,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 34,
+    MaxES = 170,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
+    MaxHp = 230,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -14013,6 +15742,52 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [7003071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1200,
+      MinAttackRange = 800,
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7003071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 34,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 47,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      700301,
+      700371,
+      700304,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [7003101] = {
     ATK = 1,
     ATKLevelGrow = "ATKMon",
@@ -14055,6 +15830,56 @@ return ReadOnly("BattleMonster", {
       700306,
       700307,
       6000016
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [7003102] = {
+    ATK = 1,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1200, MinAttackRange = 800
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7003102,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 30,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      700301,
+      700302,
+      700303,
+      700304,
+      700305,
+      700311,
+      700306,
+      700307,
+      6000016,
+      900001
     },
     TN = 150,
     TNRecoverS = 2,
@@ -14179,9 +16004,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 34,
+    MaxES = 170,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
+    MaxHp = 230,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -14833,6 +16658,42 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [7004071] = {
+    ATK = 18.75,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7004071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 40,
+    DEF = 200,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 136,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 163,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 300,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {700401, 6000012},
+    TN = 300,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [7004101] = {
     ATK = 18.75,
     ATKLevelGrow = "ATKMon",
@@ -15021,9 +16882,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 136,
+    MaxES = 680,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 163,
+    MaxHp = 815,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 300,
     RougeATKLevelGrow = "RougeATKMon",
@@ -15315,7 +17176,7 @@ return ReadOnly("BattleMonster", {
     DEFLevelGrow = "DEFMon",
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 200,
+    MaxHp = 2,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 100,
     RougeATKLevelGrow = "RougeATKMon",
@@ -15370,7 +17231,8 @@ return ReadOnly("BattleMonster", {
       700807,
       700808,
       700809,
-      6000000
+      6000010,
+      6000012
     },
     TN = 600,
     TNRecoverS = 2,
@@ -16138,7 +18000,8 @@ return ReadOnly("BattleMonster", {
       700808,
       700809,
       700810,
-      6000000
+      6000010,
+      6000012
     },
     TN = 600,
     TNRecoverS = 2,
@@ -16186,7 +18049,52 @@ return ReadOnly("BattleMonster", {
       700808,
       700809,
       700810,
-      6000000
+      6000010,
+      6000012
+    },
+    TN = 600,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [7008072] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7008072,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 99,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 340,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 340,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 600,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      700801,
+      700871,
+      6000010,
+      6000012
     },
     TN = 600,
     TNRecoverS = 2,
@@ -16352,15 +18260,15 @@ return ReadOnly("BattleMonster", {
       [49] = 15
     },
     CollisionLevel = 99,
-    DEF = 300,
+    DEF = 200,
     DEFLevelGrow = "DEFMon",
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
     FilterTargetWeight = 10,
-    MaxES = 340,
+    MaxES = 680,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 340,
+    MaxHp = 815,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 600,
     RougeATKLevelGrow = "RougeATKMon",
@@ -17014,6 +18922,50 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [7009071] = {
+    ATK = 18.75,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7009071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 40,
+    DEF = 200,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    FilterTargetWeight = 5,
+    MaxES = 136,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 163,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 300,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      700901,
+      700971,
+      6000012
+    },
+    TN = 300,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [7009201] = {
     ATK = 20,
     ATKLevelGrow = "ATKMon",
@@ -17119,9 +19071,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverTime = 5,
     ESRecoverValue = 15,
     FilterTargetWeight = 5,
-    MaxES = 136,
+    MaxES = 680,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 163,
+    MaxHp = 815,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 300,
     RougeATKLevelGrow = "RougeATKMon",
@@ -17828,6 +19780,50 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [7010071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1000
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7010071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    FilterTargetWeight = 5,
+    MaxES = 34,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 47,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      701001,
+      701071,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [7010201] = {
     ATK = 11,
     ATKLevelGrow = "ATKMon",
@@ -17944,9 +19940,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverTime = 5,
     ESRecoverValue = 15,
     FilterTargetWeight = 5,
-    MaxES = 34,
+    MaxES = 170,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
+    MaxHp = 235,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -18831,9 +20827,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 34,
+    MaxES = 170,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
+    MaxHp = 235,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -18890,6 +20886,50 @@ return ReadOnly("BattleMonster", {
       700210,
       700211,
       701204
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [7012002] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7012002,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 34,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 47,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      701201,
+      701202,
+      701203,
+      700210,
+      700211,
+      701204,
+      6000020
     },
     TN = 150,
     TNRecoverS = 2,
@@ -19704,9 +21744,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 34,
+    MaxES = 170,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
+    MaxHp = 235,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -20461,6 +22501,52 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [7013071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1200,
+      MinAttackRange = 800,
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7013071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 99,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 34,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 47,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      701301,
+      700371,
+      700304,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [7013201] = {
     ATK = 11,
     ATKLevelGrow = "ATKMon",
@@ -20584,9 +22670,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 34,
+    MaxES = 170,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
+    MaxHp = 235,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -21283,6 +23369,47 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [7014071] = {
+    ATK = 18.75,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1200,
+      MinAttackRange = 800,
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7014071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 99,
+    DEF = 200,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 136,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 163,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 300,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {701401, 6000012},
+    TN = 300,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [7014201] = {
     ATK = 20,
     ATKLevelGrow = "ATKMon",
@@ -21398,9 +23525,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 136,
+    MaxES = 680,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 163,
+    MaxHp = 815,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 300,
     RougeATKLevelGrow = "RougeATKMon",
@@ -22138,6 +24265,50 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [7015071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 800
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 7015071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 34,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 47,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      701501,
+      701571,
+      6000015,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [7015201] = {
     ATK = 20,
     ATKLevelGrow = "ATKMon",
@@ -22253,9 +24424,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 34,
+    MaxES = 170,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 47,
+    MaxHp = 235,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -23016,6 +25187,52 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 3,
     TNResistance = 1
   },
+  [8001071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1600,
+      MinAttackRange = 1200,
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8001071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 82,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 14,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      800101,
+      800171,
+      800103,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
   [8001201] = {
     ATK = 11,
     ATKLevelGrow = "ATKMon",
@@ -23135,9 +25352,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 410,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 70,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -23873,6 +26090,50 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 3,
     TNResistance = 1
   },
+  [8002071] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8002071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 82,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 14,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      800201,
+      800202,
+      800271,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
   [8002201] = {
     ATK = 26.2,
     ATKLevelGrow = "ATKMon",
@@ -23979,9 +26240,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 410,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 70,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -23993,6 +26254,133 @@ return ReadOnly("BattleMonster", {
       800202,
       800203,
       800211
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [8002701] = {
+    ATK = 32,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8002701,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    FilterTargetWeight = 20,
+    MaxES = 3268,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 408,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      800201,
+      800202,
+      800203,
+      800211,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [8002702] = {
+    ATK = 32,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8002702,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 3268,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 408,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      800201,
+      800202,
+      800203,
+      800211,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [8002703] = {
+    ATK = 32,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8002703,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 3268,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 408,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      800201,
+      800202,
+      800203,
+      800211,
+      6000000
     },
     TN = 150,
     TNRecoverS = 2,
@@ -24689,6 +27077,49 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 3,
     TNResistance = 1
   },
+  [8003071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1000, TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8003071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 82,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 14,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      800301,
+      800371,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
   [8003201] = {
     ATK = 11,
     ATKLevelGrow = "ATKMon",
@@ -24806,9 +27237,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 410,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 70,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -24821,6 +27252,145 @@ return ReadOnly("BattleMonster", {
       800303,
       800304,
       800311
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [8003701] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1000
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8003701,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    FilterTargetWeight = 20,
+    MaxES = 3268,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 408,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      800301,
+      800302,
+      800303,
+      800304,
+      800311,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [8003702] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1000
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8003702,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 3268,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 408,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      800301,
+      800302,
+      800303,
+      800304,
+      800311,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [8003703] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1000
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8003703,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 3268,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 408,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      800301,
+      800302,
+      800303,
+      800304,
+      800311,
+      6000000
     },
     TN = 150,
     TNRecoverS = 2,
@@ -24939,6 +27509,192 @@ return ReadOnly("BattleMonster", {
     },
     TN = 8400,
     TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
+  [8500501] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 270
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8500501,
+    BossTNToZeroRecoverSpeed = 840,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 8400,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850011,
+      850012,
+      850013,
+      850014,
+      850015,
+      850016,
+      850017,
+      850018,
+      850019,
+      850020,
+      850021,
+      850022,
+      850023,
+      850024,
+      850025,
+      6000010,
+      6000013
+    },
+    TN = 8400,
+    TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
+  [8500502] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 270
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8500502,
+    BossTNToZeroRecoverSpeed = 1260,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 12600,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850011,
+      850012,
+      850013,
+      850014,
+      850015,
+      850016,
+      850017,
+      850018,
+      850019,
+      850020,
+      850021,
+      850022,
+      850023,
+      850024,
+      850025,
+      6000010,
+      6000013
+    },
+    TN = 12600,
+    TNRecoverS = 30,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
+  [8500503] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 270
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8500503,
+    BossTNToZeroRecoverSpeed = 1680,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 16800,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850011,
+      850012,
+      850013,
+      850014,
+      850015,
+      850016,
+      850017,
+      850018,
+      850019,
+      850020,
+      850021,
+      850022,
+      850023,
+      850024,
+      850025,
+      6000010,
+      6000013
+    },
+    TN = 16800,
+    TNRecoverS = 40,
     TNRecoverTimeB = 10,
     TNRecoverTimeZ = 0.5,
     TNResistance = 1
@@ -25320,7 +28076,7 @@ return ReadOnly("BattleMonster", {
     },
     CannotBePushed = 1,
     CollisionLevel = 999,
-    DEF = 200,
+    DEF = 0,
     DEFLevelGrow = "DEFElite",
     DeductToughnessHit = {
       [25] = "LightHit",
@@ -25338,7 +28094,7 @@ return ReadOnly("BattleMonster", {
     RougeMaxESLevelGrow = "RougeMaxESMon",
     RougeMaxHpLevelGrow = "RougeMaxHpMon",
     SkillList = {
-      850101,
+      850115,
       850102,
       850103,
       850104,
@@ -26588,6 +29344,231 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 1.5,
     TNResistance = 1
   },
+  [8502501] = {
+    ATK = 24,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8502501,
+    BossTNToZeroRecoverSpeed = 840,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 8400,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850220,
+      850221,
+      850222,
+      850223,
+      850224,
+      850225,
+      850226,
+      850227,
+      850228,
+      850229,
+      850230,
+      850231,
+      850232,
+      850233,
+      850234,
+      850235,
+      850236,
+      850237,
+      850238,
+      850239,
+      850240,
+      850241,
+      850242,
+      850243,
+      850244,
+      850245,
+      850246,
+      850247,
+      850248,
+      850249,
+      6000010,
+      6000013
+    },
+    TN = 8400,
+    TNRecoverS = 0,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 1.5,
+    TNResistance = 1
+  },
+  [8502502] = {
+    ATK = 24,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8502502,
+    BossTNToZeroRecoverSpeed = 1260,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 12600,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850220,
+      850221,
+      850222,
+      850223,
+      850224,
+      850225,
+      850226,
+      850227,
+      850228,
+      850229,
+      850230,
+      850231,
+      850232,
+      850233,
+      850234,
+      850235,
+      850236,
+      850237,
+      850238,
+      850239,
+      850240,
+      850241,
+      850242,
+      850243,
+      850244,
+      850245,
+      850246,
+      850247,
+      850248,
+      850249,
+      6000010,
+      6000013
+    },
+    TN = 12600,
+    TNRecoverS = 0,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 1.5,
+    TNResistance = 1
+  },
+  [8502503] = {
+    ATK = 24,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8502503,
+    BossTNToZeroRecoverSpeed = 1680,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 16800,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850220,
+      850221,
+      850222,
+      850223,
+      850224,
+      850225,
+      850226,
+      850227,
+      850228,
+      850229,
+      850230,
+      850231,
+      850232,
+      850233,
+      850234,
+      850235,
+      850236,
+      850237,
+      850238,
+      850239,
+      850240,
+      850241,
+      850242,
+      850243,
+      850244,
+      850245,
+      850246,
+      850247,
+      850248,
+      850249,
+      6000010,
+      6000013
+    },
+    TN = 16800,
+    TNRecoverS = 0,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 1.5,
+    TNResistance = 1
+  },
   [8502601] = {
     ATK = 24,
     ATKLevelGrow = "ATKElite",
@@ -26840,6 +29821,204 @@ return ReadOnly("BattleMonster", {
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
     RougeMaxHpLevelGrow = "RougeMaxHpMon"
+  },
+  [8503501] = {
+    ATK = 30,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 1000,
+      MaxSpeedWalk = 300
+    },
+    BattleRoleId = 8503501,
+    BossTNToZeroRecoverSpeed = 600,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 160,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 6000,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850316,
+      850317,
+      850318,
+      850319,
+      850320,
+      850321,
+      850307,
+      850322,
+      850323,
+      850324,
+      850325,
+      6000010,
+      6000013,
+      850326,
+      850327,
+      850328,
+      850329,
+      850330,
+      850331,
+      850332,
+      850333,
+      850334,
+      850335
+    },
+    TN = 6000,
+    TNRecoverS = 0,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 1.5,
+    TNResistance = 1
+  },
+  [8503502] = {
+    ATK = 30,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 1000,
+      MaxSpeedWalk = 300
+    },
+    BattleRoleId = 8503502,
+    BossTNToZeroRecoverSpeed = 900,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 160,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 9000,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850316,
+      850317,
+      850318,
+      850319,
+      850320,
+      850321,
+      850307,
+      850322,
+      850323,
+      850324,
+      850325,
+      6000010,
+      6000013,
+      850326,
+      850327,
+      850328,
+      850329,
+      850330,
+      850331,
+      850332,
+      850333,
+      850334,
+      850335
+    },
+    TN = 9000,
+    TNRecoverS = 0,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 1.5,
+    TNResistance = 1
+  },
+  [8503503] = {
+    ATK = 30,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 1000,
+      MaxSpeedWalk = 300
+    },
+    BattleRoleId = 8503503,
+    BossTNToZeroRecoverSpeed = 1200,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 160,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 12000,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850316,
+      850317,
+      850318,
+      850319,
+      850320,
+      850321,
+      850307,
+      850322,
+      850323,
+      850324,
+      850325,
+      6000010,
+      6000013,
+      850326,
+      850327,
+      850328,
+      850329,
+      850330,
+      850331,
+      850332,
+      850333,
+      850334,
+      850335
+    },
+    TN = 12000,
+    TNRecoverS = 0,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 1.5,
+    TNResistance = 1
   },
   [8503601] = {
     ATK = 30,
@@ -27129,6 +30308,180 @@ return ReadOnly("BattleMonster", {
       6000013
     },
     TN = 8400,
+    TNRecoverS = 0,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 1.5,
+    TNResistance = 1
+  },
+  [8505501] = {
+    ATK = 24,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8505501,
+    BossTNToZeroRecoverSpeed = 840,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 8400,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850521,
+      850522,
+      850523,
+      850524,
+      850525,
+      850526,
+      850527,
+      850528,
+      850529,
+      850530,
+      850531,
+      850532,
+      850533,
+      6000010,
+      6000013
+    },
+    TN = 8400,
+    TNRecoverS = 0,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 1.5,
+    TNResistance = 1
+  },
+  [8505502] = {
+    ATK = 24,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8505502,
+    BossTNToZeroRecoverSpeed = 1260,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 12600,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850521,
+      850522,
+      850523,
+      850524,
+      850525,
+      850526,
+      850527,
+      850528,
+      850529,
+      850530,
+      850531,
+      850532,
+      850533,
+      6000010,
+      6000013
+    },
+    TN = 12600,
+    TNRecoverS = 0,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 1.5,
+    TNResistance = 1
+  },
+  [8505503] = {
+    ATK = 24,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8505503,
+    BossTNToZeroRecoverSpeed = 1680,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 16800,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      850521,
+      850522,
+      850523,
+      850524,
+      850525,
+      850526,
+      850527,
+      850528,
+      850529,
+      850530,
+      850531,
+      850532,
+      850533,
+      6000010,
+      6000013
+    },
+    TN = 16800,
     TNRecoverS = 0,
     TNRecoverTimeB = 10,
     TNRecoverTimeZ = 1.5,
@@ -27455,7 +30808,7 @@ return ReadOnly("BattleMonster", {
       MaxSpeedWalk = 150
     },
     BattleRoleId = 8510001,
-    BossTNToZeroRecoverSpeed = 100,
+    BossTNToZeroRecoverSpeed = 450,
     BuffTypeDurationCap = {
       [49] = 15
     },
@@ -27468,7 +30821,7 @@ return ReadOnly("BattleMonster", {
     MaxESLevelGrow = "MaxESElite",
     MaxHp = 6000,
     MaxHpLevelGrow = "MaxHpElite",
-    MaxTN = 2000,
+    MaxTN = 4500,
     RougeATKLevelGrow = "RougeATKMon",
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
@@ -27483,12 +30836,12 @@ return ReadOnly("BattleMonster", {
       851007,
       851008,
       851009,
-      851011,
+      851010,
       6000010,
       6000013,
       6000014
     },
-    TN = 2000,
+    TN = 4500,
     TNRecoverS = 20,
     TNRecoverTimeB = 10,
     TNRecoverTimeZ = 0.5,
@@ -27514,6 +30867,58 @@ return ReadOnly("BattleMonster", {
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
     RougeMaxHpLevelGrow = "RougeMaxHpMon"
+  },
+  [8510003] = {
+    ATK = 30,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8510003,
+    BossTNToZeroRecoverSpeed = 100,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 0,
+    DEFLevelGrow = "DEFElite",
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 2000,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      851001,
+      851002,
+      851003,
+      851004,
+      851005,
+      851012,
+      851007,
+      851008,
+      851009,
+      851010,
+      851012,
+      851013,
+      6000010,
+      6000013,
+      6000014
+    },
+    TN = 2000,
+    TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
   },
   [8510601] = {
     ATK = 30,
@@ -27604,6 +31009,7 @@ return ReadOnly("BattleMonster", {
       851107,
       851108,
       851109,
+      851110,
       6000010
     },
     TN = 2000,
@@ -27990,6 +31396,216 @@ return ReadOnly("BattleMonster", {
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
     RougeMaxHpLevelGrow = "RougeMaxHpMon"
+  },
+  [8512501] = {
+    ATK = 24,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8512501,
+    BossTNToZeroRecoverSpeed = 840,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 8400,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      851251,
+      851252,
+      851253,
+      851254,
+      851255,
+      851256,
+      851257,
+      851258,
+      851259,
+      851260,
+      851261,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851271,
+      851272,
+      851273,
+      851274,
+      851275,
+      6000010,
+      6000013
+    },
+    TN = 8400,
+    TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
+  [8512502] = {
+    ATK = 24,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8512502,
+    BossTNToZeroRecoverSpeed = 1260,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 12600,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      851251,
+      851252,
+      851253,
+      851254,
+      851255,
+      851256,
+      851257,
+      851258,
+      851259,
+      851260,
+      851261,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851271,
+      851272,
+      851273,
+      851274,
+      851275,
+      6000010,
+      6000013
+    },
+    TN = 12600,
+    TNRecoverS = 30,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
+  [8512503] = {
+    ATK = 24,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8512503,
+    BossTNToZeroRecoverSpeed = 1680,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [0] = "LightHit",
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 16800,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      851251,
+      851252,
+      851253,
+      851254,
+      851255,
+      851256,
+      851257,
+      851258,
+      851259,
+      851260,
+      851261,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851201,
+      851271,
+      851272,
+      851273,
+      851274,
+      851275,
+      6000010,
+      6000013
+    },
+    TN = 16800,
+    TNRecoverS = 40,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
   },
   [8512601] = {
     ATK = 24,
@@ -29840,6 +33456,56 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.5,
     TNResistance = 1
   },
+  [8514701] = {
+    ATK = 60,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8514701,
+    BossTNToZeroRecoverSpeed = 200,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 225000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 4500,
+    MultiHpBar = 30,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      851401,
+      851402,
+      851403,
+      851404,
+      851405,
+      851406,
+      851407,
+      851408,
+      851409,
+      6000010,
+      6000018,
+      6000000
+    },
+    TN = 4500,
+    TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
   [8515001] = {
     ATK = 15,
     ATKLevelGrow = "ATKElite",
@@ -30686,6 +34352,58 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.5,
     TNResistance = 1
   },
+  [8515052] = {
+    ATK = 15,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8515052,
+    BossTNToZeroRecoverSpeed = 900,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 0,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [50] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 4500,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      851501,
+      851502,
+      851503,
+      851504,
+      851505,
+      851506,
+      851507,
+      851508,
+      851509,
+      6000010,
+      6000013,
+      6000014
+    },
+    TN = 4500,
+    TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
   [8515601] = {
     ATK = 15,
     ATKLevelGrow = "ATKElite",
@@ -30788,7 +34506,7 @@ return ReadOnly("BattleMonster", {
     TNResistance = 0.001
   },
   [8517001] = {
-    ATK = 15,
+    ATK = 24,
     ATKLevelGrow = "ATKElite",
     Attribute = "Default",
     BTMotionParams = {
@@ -30804,14 +34522,14 @@ return ReadOnly("BattleMonster", {
     },
     CannotBePushed = 1,
     CollisionLevel = 999,
-    DEF = 720,
+    DEF = 0,
     DEFLevelGrow = "DEFElite",
     FilterTargetWeight = 10,
     MaxES = 0,
     MaxESLevelGrow = "MaxESElite",
-    MaxHp = 4000,
+    MaxHp = 6000,
     MaxHpLevelGrow = "MaxHpElite",
-    MaxTN = 10000,
+    MaxTN = 99999,
     RougeATKLevelGrow = "RougeATKMon",
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
@@ -30823,16 +34541,18 @@ return ReadOnly("BattleMonster", {
       851704,
       851705,
       851706,
-      851707
+      851707,
+      6000010,
+      6000014
     },
-    TN = 1000,
+    TN = 99999,
     TNRecoverS = 20,
     TNRecoverTimeB = 10,
     TNRecoverTimeZ = 0.5,
-    TNResistance = 10
+    TNResistance = 1.0E-4
   },
   [8517002] = {
-    ATK = 15,
+    ATK = 24,
     ATKLevelGrow = "ATKElite",
     Attribute = "Default",
     BTMotionParams = {
@@ -30848,7 +34568,7 @@ return ReadOnly("BattleMonster", {
     },
     CannotBePushed = 1,
     CollisionLevel = 999,
-    DEF = 720,
+    DEF = 0,
     DEFLevelGrow = "DEFElite",
     FilterTargetWeight = 10,
     MaxES = 0,
@@ -30868,7 +34588,7 @@ return ReadOnly("BattleMonster", {
     TNResistance = 1
   },
   [8518001] = {
-    ATK = 15,
+    ATK = 20,
     ATKLevelGrow = "ATKElite",
     Attribute = "Default",
     BTMotionParams = {
@@ -30878,13 +34598,13 @@ return ReadOnly("BattleMonster", {
       MaxSpeedWalk = 150
     },
     BattleRoleId = 8518001,
-    BossTNToZeroRecoverSpeed = 250,
+    BossTNToZeroRecoverSpeed = 300,
     BuffTypeDurationCap = {
       [49] = 15
     },
     CannotBePushed = 1,
     CollisionLevel = 999,
-    DEF = 720,
+    DEF = 0,
     DEFLevelGrow = "DEFElite",
     DeductToughnessHit = {
       [50] = "LightHit"
@@ -30892,9 +34612,9 @@ return ReadOnly("BattleMonster", {
     FilterTargetWeight = 10,
     MaxES = 0,
     MaxESLevelGrow = "MaxESElite",
-    MaxHp = 2000,
+    MaxHp = 3000,
     MaxHpLevelGrow = "MaxHpElite",
-    MaxTN = 1000,
+    MaxTN = 3000,
     RougeATKLevelGrow = "RougeATKMon",
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
@@ -30907,9 +34627,72 @@ return ReadOnly("BattleMonster", {
       851805,
       851806,
       851807,
-      851808
+      851808,
+      6000010,
+      6000013,
+      6000014
     },
-    TN = 1000,
+    TN = 3000,
+    TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
+  [8518002] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8518002,
+    BossTNToZeroRecoverSpeed = 300,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 0,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [50] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 3000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 3000,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      851801,
+      851802,
+      851803,
+      851804,
+      851805,
+      851806,
+      851807,
+      851808,
+      851809,
+      851810,
+      851811,
+      851812,
+      851813,
+      851814,
+      851815,
+      851816,
+      851817,
+      851818,
+      851819,
+      851820
+    },
+    TN = 3000,
     TNRecoverS = 20,
     TNRecoverTimeB = 10,
     TNRecoverTimeZ = 0.5,
@@ -31300,6 +35083,209 @@ return ReadOnly("BattleMonster", {
       6000012
     },
     TN = 0,
+    TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
+  [8521001] = {
+    ATK = 15,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8521001,
+    BossTNToZeroRecoverSpeed = 600,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 6000,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      852101,
+      852102,
+      852103,
+      852104,
+      852105,
+      852106,
+      852107,
+      6000010,
+      6000013
+    },
+    TN = 6000,
+    TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
+  [8522001] = {
+    ATK = 15,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8522001,
+    BossTNToZeroRecoverSpeed = 450,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 300,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 4500,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      852201,
+      852202,
+      852203,
+      852204,
+      852205,
+      852206,
+      852207,
+      852208,
+      6000010,
+      6000013
+    },
+    TN = 4500,
+    TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
+  [8523001] = {
+    ATK = 15,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8523001,
+    BossTNToZeroRecoverSpeed = 200,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 0,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 2000,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      852301,
+      852302,
+      852303,
+      852304,
+      852305,
+      852306,
+      852307,
+      852308,
+      852309,
+      6000010,
+      6000013,
+      6000014
+    },
+    TN = 2000,
+    TNRecoverS = 20,
+    TNRecoverTimeB = 10,
+    TNRecoverTimeZ = 0.5,
+    TNResistance = 1
+  },
+  [8523002] = {
+    ATK = 15,
+    ATKLevelGrow = "ATKElite",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 8523002,
+    BossTNToZeroRecoverSpeed = 200,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 0,
+    DEFLevelGrow = "DEFElite",
+    DeductToughnessHit = {
+      [25] = "LightHit",
+      [50] = "LightHit",
+      [75] = "LightHit"
+    },
+    FilterTargetWeight = 10,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESElite",
+    MaxHp = 6000,
+    MaxHpLevelGrow = "MaxHpElite",
+    MaxTN = 2000,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      852310,
+      852311,
+      6000009,
+      6000010
+    },
+    TN = 2000,
     TNRecoverS = 20,
     TNRecoverTimeB = 10,
     TNRecoverTimeZ = 0.5,
@@ -31948,6 +35934,49 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [9001071] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 9001071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 82,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 14,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      900101,
+      900102,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [9001201] = {
     ATK = 12,
     ATKLevelGrow = "ATKMon",
@@ -32054,9 +36083,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 410,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 70,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -32778,6 +36807,51 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [9002071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1000,
+      MinAttackRange = 600,
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 9002071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 82,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 14,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      900201,
+      900271,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [9002201] = {
     ATK = 11,
     ATKLevelGrow = "ATKMon",
@@ -32895,9 +36969,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 410,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 70,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -36224,6 +40298,51 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
   },
+  [9007071] = {
+    ATK = 5.56,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTBattleParams = {
+      MaxAttackRange = 1000,
+      MinAttackRange = 600,
+      TimerKey = 10
+    },
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 9007071,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 10,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 82,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 14,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      900701,
+      900771,
+      6000012
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
   [9007201] = {
     ATK = 11,
     ATKLevelGrow = "ATKMon",
@@ -36341,9 +40460,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 410,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 70,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -36583,6 +40702,51 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeZ = 0.2,
     TNResistance = 0.2
   },
+  [9500102] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 1200,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 9500102,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 0,
+    DEFLevelGrow = "DEFMon",
+    FilterTargetWeight = 99,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 1000000000,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 10000,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      950001,
+      950002,
+      950003,
+      950004,
+      950010,
+      950006,
+      950009,
+      6000010,
+      6000019
+    },
+    TN = 10000,
+    TNRecoverS = 10000,
+    TNRecoverTimeB = 0.5,
+    TNRecoverTimeZ = 10,
+    TNResistance = 1
+  },
   [9501001] = {
     ATK = 5,
     ATKLevelGrow = "ATKMon",
@@ -36720,13 +40884,13 @@ return ReadOnly("BattleMonster", {
     TNResistance = 1
   },
   [9504001] = {
-    ATK = 50,
-    ATKLevelGrow = "ATKMon",
+    ATK = 494,
+    ATKLevelGrow = "ATKA",
     Attribute = "Default",
     BTMotionParams = {
       MaxAccelerationRun = 3000,
       MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 500,
+      MaxSpeedRun = 1000,
       MaxSpeedWalk = 150
     },
     BattleRoleId = 9504001,
@@ -36735,17 +40899,13 @@ return ReadOnly("BattleMonster", {
     },
     CannotBePushed = 1,
     CollisionLevel = 99,
-    DEF = 75,
-    DEFLevelGrow = "DEFMon",
+    DEF = 300,
+    DEFLevelGrow = "DEFA",
     MaxES = 0,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 1500,
-    MaxHpLevelGrow = "MaxHpMon",
+    MaxESLevelGrow = "MaxESA",
+    MaxHp = 500,
+    MaxHpLevelGrow = "MaxHpA",
     MaxTN = 0,
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
     SkillList = {
       950401,
       950402,
@@ -36754,13 +40914,13 @@ return ReadOnly("BattleMonster", {
     TN = 0
   },
   [9505001] = {
-    ATK = 50,
-    ATKLevelGrow = "ATKMon",
+    ATK = 494,
+    ATKLevelGrow = "ATKA",
     Attribute = "Default",
     BTMotionParams = {
       MaxAccelerationRun = 3000,
       MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 500,
+      MaxSpeedRun = 1000,
       MaxSpeedWalk = 150
     },
     BattleRoleId = 9505001,
@@ -36769,17 +40929,13 @@ return ReadOnly("BattleMonster", {
     },
     CannotBePushed = 1,
     CollisionLevel = 99,
-    DEF = 75,
-    DEFLevelGrow = "DEFMon",
+    DEF = 300,
+    DEFLevelGrow = "DEFA",
     MaxES = 0,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 1500,
-    MaxHpLevelGrow = "MaxHpMon",
+    MaxESLevelGrow = "MaxESA",
+    MaxHp = 500,
+    MaxHpLevelGrow = "MaxHpA",
     MaxTN = 0,
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
     SkillList = {
       950501,
       950502,
@@ -36788,13 +40944,13 @@ return ReadOnly("BattleMonster", {
     TN = 0
   },
   [9506001] = {
-    ATK = 50,
-    ATKLevelGrow = "ATKMon",
+    ATK = 494,
+    ATKLevelGrow = "ATKA",
     Attribute = "Default",
     BTMotionParams = {
       MaxAccelerationRun = 3000,
       MaxAccelerationWalk = 3000,
-      MaxSpeedRun = 500,
+      MaxSpeedRun = 1000,
       MaxSpeedWalk = 150
     },
     BattleRoleId = 9506001,
@@ -36803,17 +40959,13 @@ return ReadOnly("BattleMonster", {
     },
     CannotBePushed = 1,
     CollisionLevel = 99,
-    DEF = 75,
-    DEFLevelGrow = "DEFMon",
+    DEF = 300,
+    DEFLevelGrow = "DEFA",
     MaxES = 0,
-    MaxESLevelGrow = "MaxESMon",
-    MaxHp = 1500,
-    MaxHpLevelGrow = "MaxHpMon",
+    MaxESLevelGrow = "MaxESA",
+    MaxHp = 500,
+    MaxHpLevelGrow = "MaxHpA",
     MaxTN = 0,
-    RougeATKLevelGrow = "RougeATKMon",
-    RougeDEFLevelGrow = "RougeDEFMon",
-    RougeMaxESLevelGrow = "RougeMaxESMon",
-    RougeMaxHpLevelGrow = "RougeMaxHpMon",
     SkillList = {
       950601,
       950602,
@@ -36862,6 +41014,174 @@ return ReadOnly("BattleMonster", {
     TNRecoverTimeB = 5,
     TNRecoverTimeZ = 0.2,
     TNResistance = 1
+  },
+  [9508001] = {
+    ATK = 5,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 9508001,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 999,
+    DEF = 75,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    FilterTargetWeight = 20,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 200,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 1200,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      950101,
+      950102,
+      950103,
+      950104,
+      6000010
+    },
+    TN = 100,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [9508051] = {
+    ATK = 5,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 9508051,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 999,
+    DEF = 75,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    FilterTargetWeight = 20,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 200,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 1200,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      950101,
+      950102,
+      950103,
+      950104,
+      6000010,
+      6000000
+    },
+    TN = 100,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [9509001] = {
+    ATK = 5,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 9509001,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 999,
+    DEF = 75,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    FilterTargetWeight = 20,
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 200,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 1200,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      950101,
+      950102,
+      950103,
+      950104,
+      6000010
+    },
+    TN = 100,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [9509052] = {
+    ATK = 350,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 9509052,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CannotBePushed = 1,
+    CollisionLevel = 999,
+    DEF = 75,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 1000000000,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 0,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      950101,
+      950102,
+      950103,
+      950104,
+      6000010,
+      6000015,
+      6000019
+    },
+    TN = 0
   },
   [9801001] = {
     ATK = 10,
@@ -37169,7 +41489,7 @@ return ReadOnly("BattleMonster", {
     MaxES = 0,
     MaxHp = 1,
     MaxTN = 0,
-    SkillList = {980901, 980902},
+    SkillList = {980801, 980802},
     TN = 0,
     TNRecoverS = 0,
     TNRecoverTimeB = 5,
@@ -37203,10 +41523,52 @@ return ReadOnly("BattleMonster", {
     RougeMaxESLevelGrow = "RougeMaxESMon",
     RougeMaxHpLevelGrow = "RougeMaxHpMon",
     SkillList = {
-      980201,
-      980202,
-      980203,
-      980204,
+      980901,
+      980902,
+      980903,
+      980904,
+      980205,
+      980206,
+      980207,
+      6000015
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [9810001] = {
+    ATK = 10,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 700,
+      MaxSpeedWalk = 450
+    },
+    BattleRoleId = 9810001,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 130,
+    DEFLevelGrow = "DEFMon",
+    MaxES = 0,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 1,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      980901,
+      980902,
+      980903,
+      980904,
       980205,
       980206,
       980207,
@@ -39476,9 +43838,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 34,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 47,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -39490,6 +43852,468 @@ return ReadOnly("BattleMonster", {
       1000102,
       1000103,
       1000111
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001011] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001011,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001012] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001012,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001014] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001014,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001016] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001016,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001017] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001017,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001018] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001018,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001019] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001019,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001020] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001020,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001021] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001021,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001023] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001023,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10001024] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10001024,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000101,
+      1000102,
+      1000103,
+      1000111,
+      6000000
     },
     TN = 150,
     TNRecoverS = 2,
@@ -39517,9 +44341,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 34,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 47,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -39560,9 +44384,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 34,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 47,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -39620,7 +44444,55 @@ return ReadOnly("BattleMonster", {
       1000205,
       1000206,
       1000211,
-      6000000
+      6000010,
+      6000012
+    },
+    TN = 600,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 0.2,
+    TNResistance = 1
+  },
+  [10002051] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10002051,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 99,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 340,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 340,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 600,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000201,
+      1000202,
+      1000203,
+      1000204,
+      1000205,
+      1000206,
+      1000211,
+      1000207,
+      6000010,
+      6000012
     },
     TN = 600,
     TNRecoverS = 2,
@@ -39629,7 +44501,7 @@ return ReadOnly("BattleMonster", {
     TNResistance = 1
   },
   [10003001] = {
-    ATK = 15,
+    ATK = 20,
     ATKLevelGrow = "ATKMon",
     Attribute = "Default",
     BTMotionParams = {
@@ -39668,7 +44540,9 @@ return ReadOnly("BattleMonster", {
       1000305,
       1000306,
       1000307,
-      1000308
+      1000308,
+      6000010,
+      6000012
     },
     TN = 1000,
     TNRecoverS = 20,
@@ -39677,7 +44551,7 @@ return ReadOnly("BattleMonster", {
     TNResistance = 1
   },
   [10003061] = {
-    ATK = 15,
+    ATK = 24,
     ATKLevelGrow = "ATKMon",
     Attribute = "Default",
     BTMotionParams = {
@@ -39687,7 +44561,7 @@ return ReadOnly("BattleMonster", {
       MaxSpeedWalk = 225
     },
     BattleRoleId = 10003061,
-    BossTNToZeroRecoverSpeed = 250,
+    BossTNToZeroRecoverSpeed = 450,
     BuffTypeDurationCap = {
       [49] = 15
     },
@@ -39701,9 +44575,9 @@ return ReadOnly("BattleMonster", {
     FilterTargetWeight = 10,
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 510,
+    MaxHp = 3000,
     MaxHpLevelGrow = "MaxHpMon",
-    MaxTN = 1000,
+    MaxTN = 4500,
     RougeATKLevelGrow = "RougeATKMon",
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
@@ -39716,16 +44590,18 @@ return ReadOnly("BattleMonster", {
       1000305,
       1000306,
       1000307,
-      1000308
+      1000308,
+      6000010,
+      6000012
     },
-    TN = 1000,
+    TN = 4500,
     TNRecoverS = 20,
     TNRecoverTimeB = 10,
     TNRecoverTimeZ = 0.5,
     TNResistance = 1
   },
   [10003062] = {
-    ATK = 15,
+    ATK = 20,
     ATKLevelGrow = "ATKMon",
     Attribute = "Default",
     BTMotionParams = {
@@ -39764,7 +44640,9 @@ return ReadOnly("BattleMonster", {
       1000309,
       1000310,
       1000311,
-      1000308
+      1000308,
+      6000010,
+      6000012
     },
     TN = 1000,
     TNRecoverS = 20,
@@ -39773,7 +44651,7 @@ return ReadOnly("BattleMonster", {
     TNResistance = 1
   },
   [10004001] = {
-    ATK = 15,
+    ATK = 20,
     ATKLevelGrow = "ATKMon",
     Attribute = "Default",
     BTMotionParams = {
@@ -39816,7 +44694,9 @@ return ReadOnly("BattleMonster", {
       1000409,
       1000410,
       1000411,
-      1000412
+      1000412,
+      6000010,
+      6000012
     },
     TN = 1000,
     TNRecoverS = 20,
@@ -39825,7 +44705,7 @@ return ReadOnly("BattleMonster", {
     TNResistance = 1
   },
   [10004061] = {
-    ATK = 15,
+    ATK = 24,
     ATKLevelGrow = "ATKMon",
     Attribute = "Default",
     BTMotionParams = {
@@ -39835,7 +44715,7 @@ return ReadOnly("BattleMonster", {
       MaxSpeedWalk = 225
     },
     BattleRoleId = 10004061,
-    BossTNToZeroRecoverSpeed = 250,
+    BossTNToZeroRecoverSpeed = 450,
     BuffTypeDurationCap = {
       [49] = 15
     },
@@ -39849,9 +44729,9 @@ return ReadOnly("BattleMonster", {
     FilterTargetWeight = 10,
     MaxES = 0,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 510,
+    MaxHp = 3000,
     MaxHpLevelGrow = "MaxHpMon",
-    MaxTN = 1000,
+    MaxTN = 4500,
     RougeATKLevelGrow = "RougeATKMon",
     RougeDEFLevelGrow = "RougeDEFMon",
     RougeMaxESLevelGrow = "RougeMaxESMon",
@@ -39868,16 +44748,18 @@ return ReadOnly("BattleMonster", {
       1000409,
       1000410,
       1000411,
-      1000412
+      1000412,
+      6000010,
+      6000012
     },
-    TN = 1000,
+    TN = 4500,
     TNRecoverS = 20,
     TNRecoverTimeB = 10,
     TNRecoverTimeZ = 0.5,
     TNResistance = 1
   },
   [10004062] = {
-    ATK = 15,
+    ATK = 20,
     ATKLevelGrow = "ATKMon",
     Attribute = "Default",
     BTMotionParams = {
@@ -39920,7 +44802,9 @@ return ReadOnly("BattleMonster", {
       1000409,
       1000410,
       1000411,
-      1000412
+      1000412,
+      6000010,
+      6000012
     },
     TN = 1000,
     TNRecoverS = 20,
@@ -39948,9 +44832,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 34,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 47,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -39962,6 +44846,468 @@ return ReadOnly("BattleMonster", {
       1000502,
       1000503,
       1000511
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005011] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005011,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005012] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005012,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005014] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005014,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005016] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005016,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005017] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005017,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005018] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005018,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005019] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005019,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005020] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005020,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005021] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005021,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005023] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005023,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
+    },
+    TN = 150,
+    TNRecoverS = 2,
+    TNRecoverTimeB = 5,
+    TNRecoverTimeZ = 3,
+    TNResistance = 1
+  },
+  [10005024] = {
+    ATK = 20,
+    ATKLevelGrow = "ATKMon",
+    Attribute = "Default",
+    BTMotionParams = {
+      MaxAccelerationRun = 3000,
+      MaxAccelerationWalk = 3000,
+      MaxSpeedRun = 400,
+      MaxSpeedWalk = 150
+    },
+    BattleRoleId = 10005024,
+    BuffTypeDurationCap = {
+      [49] = 15
+    },
+    CollisionLevel = 20,
+    DEF = 300,
+    DEFLevelGrow = "DEFMon",
+    ESRecoverRate = 0.05,
+    ESRecoverTime = 5,
+    ESRecoverValue = 15,
+    MaxES = 817,
+    MaxESLevelGrow = "MaxESMon",
+    MaxHp = 102,
+    MaxHpLevelGrow = "MaxHpMon",
+    MaxTN = 150,
+    RougeATKLevelGrow = "RougeATKMon",
+    RougeDEFLevelGrow = "RougeDEFMon",
+    RougeMaxESLevelGrow = "RougeMaxESMon",
+    RougeMaxHpLevelGrow = "RougeMaxHpMon",
+    SkillList = {
+      1000501,
+      1000502,
+      1000503,
+      1000511,
+      6000000
     },
     TN = 150,
     TNRecoverS = 2,
@@ -39989,9 +45335,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 34,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 47,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",
@@ -40032,9 +45378,9 @@ return ReadOnly("BattleMonster", {
     ESRecoverRate = 0.05,
     ESRecoverTime = 5,
     ESRecoverValue = 15,
-    MaxES = 82,
+    MaxES = 34,
     MaxESLevelGrow = "MaxESMon",
-    MaxHp = 14,
+    MaxHp = 47,
     MaxHpLevelGrow = "MaxHpMon",
     MaxTN = 150,
     RougeATKLevelGrow = "RougeATKMon",

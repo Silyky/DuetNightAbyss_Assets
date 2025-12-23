@@ -173,6 +173,13 @@ return ReadOnly("ArmoryCameraData", {
       370,
       110
     },
+    LocationOffset = {
+      [1801] = {
+        5,
+        0,
+        0
+      }
+    },
     MobileLocationOffset = {
       [0] = {
         0,
@@ -392,9 +399,9 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Char_Appearance_Woman",
     Ease = 14,
     ForwardLocation = {
-      3,
-      160,
-      166
+      5,
+      120,
+      165
     },
     Location = {
       5,
@@ -405,7 +412,12 @@ return ReadOnly("ArmoryCameraData", {
       [1502] = {
         0,
         35,
-        10
+        0
+      },
+      [2401] = {
+        -7,
+        0,
+        -5
       }
     },
     MobileLocationOffset = {
@@ -1270,6 +1282,216 @@ return ReadOnly("ArmoryCameraData", {
     },
     Time = 1.2
   },
+  Char_FX_HelixLeap_Boy = {
+    BackwardLocation = {
+      -350,
+      -290,
+      93
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_FX_HelixLeap_Boy",
+    Ease = 14,
+    ForwardLocation = {
+      -310,
+      -260,
+      93
+    },
+    Location = {
+      -350,
+      -290,
+      93
+    },
+    Rotation = {
+      0,
+      0,
+      40
+    },
+    Time = 1.2
+  },
+  Char_FX_HelixLeap_Girl = {
+    BackwardLocation = {
+      -360,
+      -300,
+      90
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_FX_HelixLeap_Girl",
+    Ease = 14,
+    ForwardLocation = {
+      -300,
+      -253,
+      90
+    },
+    Location = {
+      -360,
+      -300,
+      90
+    },
+    Rotation = {
+      0,
+      0,
+      40
+    },
+    Time = 1.2
+  },
+  Char_FX_HelixLeap_Loli = {
+    BackwardLocation = {
+      -315,
+      -275,
+      80
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_FX_HelixLeap_Loli",
+    Ease = 14,
+    ForwardLocation = {
+      -255,
+      -225,
+      80
+    },
+    Location = {
+      -315,
+      -275,
+      80
+    },
+    Rotation = {
+      0,
+      0,
+      40
+    },
+    Time = 1.2
+  },
+  Char_FX_HelixLeap_Man = {
+    BackwardLocation = {
+      -395,
+      -330,
+      108
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_FX_HelixLeap_Man",
+    Ease = 14,
+    ForwardLocation = {
+      -360,
+      -300,
+      108
+    },
+    Location = {
+      -395,
+      -330,
+      108
+    },
+    Rotation = {
+      0,
+      0,
+      40
+    },
+    Time = 1.2
+  },
+  Char_FX_HelixLeap_Woman = {
+    BackwardLocation = {
+      -400,
+      -345,
+      105
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_FX_HelixLeap_Woman",
+    Ease = 14,
+    ForwardLocation = {
+      -345,
+      -292,
+      105
+    },
+    Location = {
+      -400,
+      -345,
+      105
+    },
+    Rotation = {
+      0,
+      0,
+      40
+    },
+    Time = 1.2
+  },
+  Char_FX_PlungingATK_Boy = {
+    CameraFocal = 24,
+    CameraName = "Char_FX_PlungingATK_Boy",
+    Ease = 14,
+    Location = {
+      5,
+      400,
+      163
+    },
+    Rotation = {
+      0,
+      -10,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_FX_PlungingATK_Girl = {
+    CameraFocal = 24,
+    CameraName = "Char_FX_PlungingATK_Girl",
+    Ease = 14,
+    Location = {
+      -10,
+      400,
+      163
+    },
+    Rotation = {
+      0,
+      -10,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_FX_PlungingATK_Loli = {
+    CameraFocal = 24,
+    CameraName = "Char_FX_PlungingATK_Loli",
+    Ease = 14,
+    Location = {
+      5,
+      350,
+      153
+    },
+    Rotation = {
+      0,
+      -10,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_FX_PlungingATK_Man = {
+    CameraFocal = 24,
+    CameraName = "Char_FX_PlungingATK_Man",
+    Ease = 14,
+    Location = {
+      5,
+      420,
+      183
+    },
+    Rotation = {
+      0,
+      -10,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_FX_PlungingATK_Woman = {
+    CameraFocal = 24,
+    CameraName = "Char_FX_PlungingATK_Woman",
+    Ease = 14,
+    Location = {
+      0,
+      400,
+      183
+    },
+    Rotation = {
+      0,
+      -10,
+      -90
+    },
+    Time = 1.2
+  },
   Char_FX_Teleport_Boy = {
     BackwardLocation = {
       5,
@@ -1409,9 +1631,9 @@ return ReadOnly("ArmoryCameraData", {
   },
   Char_Face_Boy = {
     BackwardLocation = {
-      85,
-      327,
-      75
+      100,
+      380,
+      89
     },
     CameraFocal = 38.6,
     CameraName = "Char_Face_Boy",
@@ -1419,12 +1641,12 @@ return ReadOnly("ArmoryCameraData", {
     ForwardLocation = {
       18,
       70,
-      130
+      149
     },
     Location = {
       65,
       255,
-      105
+      135
     },
     Rotation = {
       0,
@@ -1520,9 +1742,9 @@ return ReadOnly("ArmoryCameraData", {
   },
   Char_Face_Switch_Boy = {
     BackwardLocation = {
-      63,
-      253,
-      164
+      65,
+      255,
+      135
     },
     CameraFocal = 38.6,
     CameraName = "Char_Face_Switch_Boy",
@@ -1530,12 +1752,12 @@ return ReadOnly("ArmoryCameraData", {
     ForwardLocation = {
       18,
       70,
-      153
+      149
     },
     Location = {
       18,
       70,
-      153
+      149
     },
     Rotation = {
       0,
@@ -3817,6 +4039,16 @@ return ReadOnly("ArmoryCameraData", {
       172
     },
     LocationOffset = {
+      [1502] = {
+        10,
+        0,
+        0
+      },
+      [2401] = {
+        0,
+        0,
+        -10
+      },
       [3102] = {
         200,
         57,
@@ -3985,6 +4217,16 @@ return ReadOnly("ArmoryCameraData", {
       171
     },
     LocationOffset = {
+      [1502] = {
+        10,
+        0,
+        0
+      },
+      [2401] = {
+        0,
+        0,
+        -10
+      },
       [3102] = {
         170,
         57,
@@ -4015,10 +4257,15 @@ return ReadOnly("ArmoryCameraData", {
       171
     },
     LocationOffset = {
-      [2101] = {
+      [1502] = {
+        10,
+        0,
+        0
+      },
+      [2401] = {
         0,
         0,
-        5
+        -10
       },
       [3102] = {
         170,
@@ -4440,9 +4687,21 @@ return ReadOnly("ArmoryCameraData", {
       170
     },
     Location = {
-      0,
-      165,
-      170
+      5,
+      120,
+      165
+    },
+    LocationOffset = {
+      [1502] = {
+        0,
+        35,
+        0
+      },
+      [2401] = {
+        -7,
+        0,
+        -5
+      }
     },
     Rotation = {
       0,
@@ -4735,9 +4994,9 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Char_Woman",
     Ease = 14,
     ForwardLocation = {
-      3,
-      180,
-      175
+      5,
+      120,
+      165
     },
     Location = {
       5,
@@ -4748,7 +5007,12 @@ return ReadOnly("ArmoryCameraData", {
       [1502] = {
         0,
         35,
-        10
+        0
+      },
+      [2401] = {
+        -7,
+        0,
+        -5
       }
     },
     MobileLocationOffset = {
@@ -4871,15 +5135,15 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Nanzhu_Mix_Pet",
     Ease = 14,
     Location = {
-      -27,
+      -31,
       190,
       115
     },
     MobileLocationOffset = {
       [0] = {
-        5.5,
-        40,
-        0
+        8.5,
+        3,
+        -1
       }
     },
     Rotation = {
@@ -5045,15 +5309,15 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Nvzhu_Mix_Pet",
     Ease = 14,
     Location = {
-      -27,
+      -31,
       190,
       115
     },
     MobileLocationOffset = {
       [0] = {
-        5.5,
-        40,
-        0
+        8.5,
+        3,
+        -1
       }
     },
     Rotation = {
@@ -9713,9 +9977,9 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Weapon_Mod_Boy",
     Ease = 14,
     Location = {
-      15,
-      190,
-      140
+      16,
+      212,
+      117
     },
     Rotation = {
       0,
@@ -9729,9 +9993,9 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Weapon_Mod_Girl",
     Ease = 14,
     Location = {
-      10,
-      140,
-      135
+      16,
+      212,
+      117
     },
     Rotation = {
       0,
@@ -9747,7 +10011,7 @@ return ReadOnly("ArmoryCameraData", {
     Location = {
       16,
       250,
-      95
+      83
     },
     Rotation = {
       0,
@@ -9761,9 +10025,9 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Weapon_Mod_Man",
     Ease = 14,
     Location = {
-      20,
+      24,
       298,
-      141
+      133
     },
     Rotation = {
       0,
@@ -9779,7 +10043,7 @@ return ReadOnly("ArmoryCameraData", {
     Location = {
       22,
       298,
-      130
+      122
     },
     Rotation = {
       0,
@@ -13086,9 +13350,9 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Weapon_Ultra_Mod_1101",
     Ease = 14,
     Location = {
-      10,
-      140,
-      135
+      16,
+      212,
+      117
     },
     Rotation = {
       0,
@@ -13120,7 +13384,7 @@ return ReadOnly("ArmoryCameraData", {
     Location = {
       22,
       298,
-      130
+      122
     },
     Rotation = {
       0,
@@ -13134,9 +13398,9 @@ return ReadOnly("ArmoryCameraData", {
     CameraName = "Weapon_Ultra_Mod_5301",
     Ease = 14,
     Location = {
-      10,
-      140,
-      135
+      16,
+      212,
+      117
     },
     Rotation = {
       0,

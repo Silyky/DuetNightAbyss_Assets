@@ -1478,6 +1478,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         MaxSummonerCount = 2, UnitId = 240101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0, 1
       },
@@ -1488,6 +1489,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         MaxSummonerCount = 2, UnitId = 240101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0, 1
       },
@@ -1498,6 +1500,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         MaxSummonerCount = 3, UnitId = 240101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         2,
         3,
@@ -1512,6 +1515,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         MaxSummonerCount = 3, UnitId = 240101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         2,
         3,
@@ -1526,6 +1530,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         MaxSummonerCount = 3, UnitId = 240101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         2,
         3,
@@ -1540,6 +1545,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         MaxSummonerCount = 3, UnitId = 240101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         2,
         3,
@@ -1554,6 +1560,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         MaxSummonerCount = 3, UnitId = 240101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         2,
         3,
@@ -1777,6 +1784,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         FireBuffId = 110331
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -1793,6 +1801,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         FireBuffId = 110331
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -1809,6 +1818,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         FireBuffId = 110331
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -1825,6 +1835,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         FireBuffId = 110331
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -1841,6 +1852,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         FireBuffId = 110331
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -1857,6 +1869,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         FireBuffId = 110331
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -1873,6 +1886,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         FireBuffId = 110331
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -2831,6 +2845,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         BuffId = 150101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -2847,6 +2862,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         BuffId = 150101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -2863,6 +2879,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         BuffId = 150101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -2879,6 +2896,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         BuffId = 150101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -2895,6 +2913,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         BuffId = 150101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -2911,6 +2930,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         BuffId = 150101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -2927,6 +2947,7 @@ return ReadOnly("BattleCharUI", {
       Params = {
         BuffId = 150101
       },
+      ScaleNode = "Main",
       SkillGrade = {
         0,
         1,
@@ -2937,6 +2958,127 @@ return ReadOnly("BattleCharUI", {
         6
       },
       UIName = "UISkillBaonu"
+    }
+  },
+  [29] = {
+    [0] = {
+      ID = 29,
+      Params = {
+        CreatureId = 320202
+      },
+      ScaleNode = "Main",
+      SkillGrade = {
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      },
+      UIName = "UISkillKami"
+    },
+    [1] = {
+      ID = 29,
+      Params = {
+        CreatureId = 320202
+      },
+      ScaleNode = "Main",
+      SkillGrade = {
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      },
+      UIName = "UISkillKami"
+    },
+    [2] = {
+      ID = 29,
+      Params = {
+        CreatureId = 320202
+      },
+      ScaleNode = "Main",
+      SkillGrade = {
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      },
+      UIName = "UISkillKami"
+    },
+    [3] = {
+      ID = 29,
+      Params = {
+        CreatureId = 320202
+      },
+      ScaleNode = "Main",
+      SkillGrade = {
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      },
+      UIName = "UISkillKami"
+    },
+    [4] = {
+      ID = 29,
+      Params = {
+        CreatureId = 320202
+      },
+      ScaleNode = "Main",
+      SkillGrade = {
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      },
+      UIName = "UISkillKami"
+    },
+    [5] = {
+      ID = 29,
+      Params = {
+        CreatureId = 320202
+      },
+      ScaleNode = "Main",
+      SkillGrade = {
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      },
+      UIName = "UISkillKami"
+    },
+    [6] = {
+      ID = 29,
+      Params = {
+        CreatureId = 320202
+      },
+      ScaleNode = "Main",
+      SkillGrade = {
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      },
+      UIName = "UISkillKami"
     }
   }
 })

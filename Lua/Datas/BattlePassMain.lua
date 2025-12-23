@@ -84,5 +84,91 @@ return ReadOnly("BattlePassMain", {
       }
     },
     WeeklyMaxExp = 8000
+  },
+  [100003] = {
+    BPRewardTemplateID = 100002,
+    BPRewardTyppe = "Skin",
+    BattlePassEndTime = 1768856399,
+    BattlePassId = 100003,
+    BattlePassStartTime = 1766408400,
+    BattlePassTitle = "UI_BPTitle_100003",
+    LevelExp = 500,
+    MilestoneInterval = 5,
+    PetClaimLevel = 30,
+    PetId = {
+      4211,
+      4221,
+      4231,
+      4241,
+      4251,
+      4261
+    },
+    PreviewSkinSeries = "BP_02",
+    Rank2GoodsId = "com.hero.dna.Pay_BattlePassRank2",
+    Rank2RewardView = 10000368,
+    Rank2to3GoodsId = "com.hero.dna.Pay_BattlePassRank2to3",
+    Rank3GoodsId = "com.hero.dna.Pay_BattlePassRank3",
+    Rank3Reward = 100003,
+    Rank3RewardView = 100005,
+    RewardMailId = 100401,
+    SkyBoxColor = {
+      BaseColor2 = {
+        0.064562,
+        0.108577,
+        0.177083,
+        1
+      },
+      ColorCurve = 1,
+      StarColor = {
+        0.226286,
+        0.398611,
+        1,
+        1
+      }
+    },
+    WeeklyMaxExp = 8000
+  },
+  [100004] = {
+    BPRewardTemplateID = 100003,
+    BPRewardTyppe = "Skin",
+    BattlePassEndTime = 1770667200,
+    BattlePassId = 100004,
+    BattlePassStartTime = 1768856400,
+    BattlePassTitle = "UI_BPTitle_100004",
+    LevelExp = 500,
+    MilestoneInterval = 5,
+    PetClaimLevel = 30,
+    PetId = {
+      4211,
+      4221,
+      4231,
+      4241,
+      4251,
+      4261
+    },
+    PreviewSkinSeries = "BP_02",
+    Rank2GoodsId = "com.hero.dna.Pay_BattlePassRank2",
+    Rank2RewardView = 10000468,
+    Rank2to3GoodsId = "com.hero.dna.Pay_BattlePassRank2to3",
+    Rank3GoodsId = "com.hero.dna.Pay_BattlePassRank3",
+    Rank3Reward = 100003,
+    Rank3RewardView = 100005,
+    RewardMailId = 100401,
+    SkyBoxColor = {
+      BaseColor2 = {
+        0.064562,
+        0.108577,
+        0.177083,
+        1
+      },
+      ColorCurve = 1,
+      StarColor = {
+        0.226286,
+        0.398611,
+        1,
+        1
+      }
+    },
+    WeeklyMaxExp = 8000
   }
 })

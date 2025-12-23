@@ -947,7 +947,9 @@ return ReadOnly("Dispatch", {
   [102525] = {
     DispatchCD = 300,
     DispatchCondition = 89025,
-    DispatchDemand = {Morality = 3},
+    DispatchDemand = {
+      Morality = 3
+    },
     DispatchId = 102525,
     DispatchPerson = 2,
     DispatchType = "Social",
@@ -1168,7 +1170,7 @@ return ReadOnly("Dispatch", {
     DispatchCD = 300,
     DispatchCondition = 89052,
     DispatchDemand = {
-      Battle = 2
+      Collect = 2
     },
     DispatchId = 105203,
     DispatchPerson = 2,
@@ -1193,7 +1195,7 @@ return ReadOnly("Dispatch", {
     DispatchCD = 300,
     DispatchCondition = 89052,
     DispatchDemand = {
-      Battle = 2
+      Collect = 2
     },
     DispatchId = 105204,
     DispatchPerson = 2,
@@ -1438,6 +1440,404 @@ return ReadOnly("Dispatch", {
       40433,
       40434,
       40435,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [108203] = {
+    DispatchCD = 300,
+    DispatchCondition = 89082,
+    DispatchDemand = {
+      Battle = 2
+    },
+    DispatchId = 108203,
+    DispatchPerson = 2,
+    DispatchType = "Battle",
+    DispatchUIId = 108203,
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40436,
+      40437,
+      40438,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [108204] = {
+    DispatchCD = 300,
+    DispatchCondition = 89082,
+    DispatchDemand = {
+      Battle = 3
+    },
+    DispatchId = 108204,
+    DispatchPerson = 2,
+    DispatchType = "Battle",
+    DispatchUIId = 108204,
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40439,
+      40440,
+      40441,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [108923] = {
+    DispatchCD = 300,
+    DispatchCondition = 89089,
+    DispatchDemand = {
+      Morality = 2
+    },
+    DispatchId = 108923,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 108923,
+    ExcId = {108943},
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40496,
+      40497,
+      40498,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [108924] = {
+    DispatchCD = 300,
+    DispatchCondition = 89089,
+    DispatchDemand = {
+      Morality = 3
+    },
+    DispatchId = 108924,
+    DispatchPerson = 2,
+    DispatchType = "Social",
+    DispatchUIId = 108924,
+    ExcId = {108944},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40502,
+      40503,
+      40504,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [108943] = {
+    DispatchCD = 300,
+    DispatchCondition = 89089,
+    DispatchDemand = {
+      Empathy = 2
+    },
+    DispatchId = 108943,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 108943,
+    ExcId = {108923},
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40499,
+      40500,
+      40501,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [108944] = {
+    DispatchCD = 300,
+    DispatchCondition = 89089,
+    DispatchDemand = {
+      Empathy = 3
+    },
+    DispatchId = 108944,
+    DispatchPerson = 2,
+    DispatchType = "Social",
+    DispatchUIId = 108944,
+    ExcId = {108924},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40505,
+      40506,
+      40507,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [109024] = {
+    DispatchCD = 300,
+    DispatchCondition = 89090,
+    DispatchDemand = {
+      Morality = 3
+    },
+    DispatchId = 109024,
+    DispatchPerson = 2,
+    DispatchType = "Social",
+    DispatchUIId = 109024,
+    ExcId = {109054, 109044},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40514,
+      40515,
+      40516,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [109025] = {
+    DispatchCD = 300,
+    DispatchCondition = 89090,
+    DispatchDemand = {
+      Morality = 4
+    },
+    DispatchId = 109025,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 109025,
+    ExcId = {109055, 109045},
+    PlayerLevel = {
+      60, 65
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40523,
+      40524,
+      40525,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [109044] = {
+    DispatchCD = 300,
+    DispatchCondition = 89090,
+    DispatchDemand = {
+      Empathy = 3
+    },
+    DispatchId = 109044,
+    DispatchPerson = 2,
+    DispatchType = "Social",
+    DispatchUIId = 109044,
+    ExcId = {109054, 109024},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40508,
+      40509,
+      40510,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [109045] = {
+    DispatchCD = 300,
+    DispatchCondition = 89090,
+    DispatchDemand = {
+      Empathy = 4
+    },
+    DispatchId = 109045,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 109045,
+    ExcId = {109055, 109025},
+    PlayerLevel = {
+      60, 65
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40517,
+      40518,
+      40519,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [109054] = {
+    DispatchCD = 300,
+    DispatchCondition = 89090,
+    DispatchDemand = {
+      Chaos = 3
+    },
+    DispatchId = 109054,
+    DispatchPerson = 2,
+    DispatchType = "Social",
+    DispatchUIId = 109054,
+    ExcId = {109044, 109024},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40511,
+      40512,
+      40513,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [109055] = {
+    DispatchCD = 300,
+    DispatchCondition = 89090,
+    DispatchDemand = {
+      Chaos = 4
+    },
+    DispatchId = 109055,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 109055,
+    ExcId = {109045, 109025},
+    PlayerLevel = {
+      60, 65
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40520,
+      40521,
+      40522,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [109113] = {
+    DispatchCD = 300,
+    DispatchCondition = 89091,
+    DispatchDemand = {
+      Benefit = 2
+    },
+    DispatchId = 109113,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 109113,
+    ExcId = {109123},
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40526,
+      40527,
+      40528,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [109114] = {
+    DispatchCD = 300,
+    DispatchCondition = 89091,
+    DispatchDemand = {
+      Benefit = 3
+    },
+    DispatchId = 109114,
+    DispatchPerson = 2,
+    DispatchType = "Social",
+    DispatchUIId = 109114,
+    ExcId = {109124},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40532,
+      40533,
+      40534,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [109123] = {
+    DispatchCD = 300,
+    DispatchCondition = 89091,
+    DispatchDemand = {
+      Morality = 2
+    },
+    DispatchId = 109123,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 109123,
+    ExcId = {109113},
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40529,
+      40530,
+      40531,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [109124] = {
+    DispatchCD = 300,
+    DispatchCondition = 89091,
+    DispatchDemand = {
+      Morality = 3
+    },
+    DispatchId = 109124,
+    DispatchPerson = 2,
+    DispatchType = "Social",
+    DispatchUIId = 109124,
+    ExcId = {109114},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 1,
+    RegionId = 1041,
+    RewardId = {
+      40535,
+      40536,
+      40537,
       40000
     },
     Ttk = 600,
@@ -1889,7 +2289,7 @@ return ReadOnly("Dispatch", {
     DispatchCD = 450,
     DispatchCondition = 89033,
     DispatchDemand = {
-      Collect = 4
+      Mine = 4
     },
     DispatchId = 203305,
     DispatchPerson = 2,
@@ -1913,7 +2313,7 @@ return ReadOnly("Dispatch", {
     DispatchCD = 450,
     DispatchCondition = 89037,
     DispatchDemand = {
-      Collect = 3
+      Mine = 3
     },
     DispatchId = 203704,
     DispatchPerson = 2,
@@ -1937,7 +2337,7 @@ return ReadOnly("Dispatch", {
     DispatchCD = 450,
     DispatchCondition = 89037,
     DispatchDemand = {
-      Collect = 4
+      Mine = 4
     },
     DispatchId = 203705,
     DispatchPerson = 2,
@@ -2130,7 +2530,9 @@ return ReadOnly("Dispatch", {
   [206444] = {
     DispatchCD = 450,
     DispatchCondition = 89064,
-    DispatchDemand = {Empathy = 3},
+    DispatchDemand = {
+      Empathy = 3
+    },
     DispatchId = 206444,
     DispatchPerson = 2,
     DispatchType = "Social",
@@ -2481,7 +2883,9 @@ return ReadOnly("Dispatch", {
   [207345] = {
     DispatchCD = 450,
     DispatchCondition = 89073,
-    DispatchDemand = {Empathy = 4},
+    DispatchDemand = {
+      Empathy = 4
+    },
     DispatchId = 207345,
     DispatchPerson = 2,
     DispatchType = "Social",
@@ -2749,6 +3153,300 @@ return ReadOnly("Dispatch", {
       40427,
       40428,
       40429,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208503] = {
+    DispatchCD = 450,
+    DispatchCondition = 89085,
+    DispatchDemand = {
+      Collect = 2
+    },
+    DispatchId = 208503,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 208503,
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40460,
+      40461,
+      40462,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208504] = {
+    DispatchCD = 450,
+    DispatchCondition = 89085,
+    DispatchDemand = {
+      Collect = 3
+    },
+    DispatchId = 208504,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 208504,
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40463,
+      40464,
+      40465,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208604] = {
+    DispatchCD = 450,
+    DispatchCondition = 89086,
+    DispatchDemand = {
+      Collect = 3
+    },
+    DispatchId = 208604,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 208604,
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40466,
+      40467,
+      40468,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208605] = {
+    DispatchCD = 450,
+    DispatchCondition = 89086,
+    DispatchDemand = {
+      Collect = 4
+    },
+    DispatchId = 208605,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 208605,
+    PlayerLevel = {
+      60, 65
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40469,
+      40470,
+      40471,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208723] = {
+    DispatchCD = 450,
+    DispatchCondition = 89087,
+    DispatchDemand = {
+      Morality = 3
+    },
+    DispatchId = 208723,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 208723,
+    ExcId = {208733, 208753},
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40472,
+      40473,
+      40474,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208724] = {
+    DispatchCD = 450,
+    DispatchCondition = 89087,
+    DispatchDemand = {
+      Morality = 4
+    },
+    DispatchId = 208724,
+    DispatchPerson = 2,
+    DispatchType = "Social",
+    DispatchUIId = 208724,
+    ExcId = {208734, 208754},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40481,
+      40482,
+      40483,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208733] = {
+    DispatchCD = 450,
+    DispatchCondition = 89087,
+    DispatchDemand = {
+      Wisdom = 3
+    },
+    DispatchId = 208733,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 208733,
+    ExcId = {208723, 208753},
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40475,
+      40476,
+      40477,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208734] = {
+    DispatchCD = 450,
+    DispatchCondition = 89087,
+    DispatchDemand = {
+      Wisdom = 4
+    },
+    DispatchId = 208734,
+    DispatchPerson = 2,
+    DispatchType = "Social",
+    DispatchUIId = 208734,
+    ExcId = {208724, 208754},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40484,
+      40485,
+      40486,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208753] = {
+    DispatchCD = 450,
+    DispatchCondition = 89087,
+    DispatchDemand = {
+      Chaos = 3
+    },
+    DispatchId = 208753,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 208753,
+    ExcId = {208733, 208723},
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40478,
+      40479,
+      40480,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208754] = {
+    DispatchCD = 450,
+    DispatchCondition = 89087,
+    DispatchDemand = {
+      Chaos = 4
+    },
+    DispatchId = 208754,
+    DispatchPerson = 2,
+    DispatchType = "Social",
+    DispatchUIId = 208754,
+    ExcId = {208734, 208724},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40487,
+      40488,
+      40489,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208804] = {
+    DispatchCD = 450,
+    DispatchCondition = 89088,
+    DispatchDemand = {
+      Fish = 3
+    },
+    DispatchId = 208804,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 208804,
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40490,
+      40491,
+      40492,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [208805] = {
+    DispatchCD = 450,
+    DispatchCondition = 89088,
+    DispatchDemand = {
+      Fish = 4
+    },
+    DispatchId = 208805,
+    DispatchPerson = 2,
+    DispatchType = "Collect",
+    DispatchUIId = 208805,
+    PlayerLevel = {
+      60, 65
+    },
+    Rarity = 2,
+    RegionId = 1041,
+    RewardId = {
+      40493,
+      40494,
+      40495,
       40000
     },
     Ttk = 600,
@@ -3445,7 +4143,7 @@ return ReadOnly("Dispatch", {
     DispatchCD = 600,
     DispatchCondition = 89063,
     DispatchDemand = {
-      Pet = 3
+      Fish = 3
     },
     DispatchId = 306304,
     DispatchPerson = 3,
@@ -3468,9 +4166,7 @@ return ReadOnly("Dispatch", {
   [306305] = {
     DispatchCD = 600,
     DispatchCondition = 89063,
-    DispatchDemand = {
-      Pet = 5
-    },
+    DispatchDemand = {Fish = 5},
     DispatchId = 306305,
     DispatchPerson = 3,
     DispatchType = "Collect",
@@ -3659,6 +4355,152 @@ return ReadOnly("Dispatch", {
       40430,
       40431,
       40432,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [308314] = {
+    DispatchCD = 600,
+    DispatchCondition = 89083,
+    DispatchDemand = {
+      Benefit = 3
+    },
+    DispatchId = 308314,
+    DispatchPerson = 3,
+    DispatchType = "Social",
+    DispatchUIId = 308314,
+    ExcId = {308334},
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 3,
+    RegionId = 1041,
+    RewardId = {
+      40442,
+      40443,
+      40444,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [308315] = {
+    DispatchCD = 600,
+    DispatchCondition = 89083,
+    DispatchDemand = {
+      Benefit = 4
+    },
+    DispatchId = 308315,
+    DispatchPerson = 3,
+    DispatchType = "Social",
+    DispatchUIId = 308315,
+    ExcId = {308335},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 3,
+    RegionId = 1041,
+    RewardId = {
+      40448,
+      40449,
+      40450,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [308334] = {
+    DispatchCD = 600,
+    DispatchCondition = 89083,
+    DispatchDemand = {
+      Wisdom = 3
+    },
+    DispatchId = 308334,
+    DispatchPerson = 3,
+    DispatchType = "Social",
+    DispatchUIId = 308334,
+    ExcId = {308314},
+    PlayerLevel = {
+      40, 49
+    },
+    Rarity = 3,
+    RegionId = 1041,
+    RewardId = {
+      40445,
+      40446,
+      40447,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [308335] = {
+    DispatchCD = 600,
+    DispatchCondition = 89083,
+    DispatchDemand = {
+      Wisdom = 4
+    },
+    DispatchId = 308335,
+    DispatchPerson = 3,
+    DispatchType = "Social",
+    DispatchUIId = 308335,
+    ExcId = {308315},
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 3,
+    RegionId = 1041,
+    RewardId = {
+      40451,
+      40452,
+      40453,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [308404] = {
+    DispatchCD = 600,
+    DispatchCondition = 89084,
+    DispatchDemand = {Pet = 4},
+    DispatchId = 308404,
+    DispatchPerson = 3,
+    DispatchType = "Collect",
+    DispatchUIId = 308404,
+    PlayerLevel = {
+      50, 59
+    },
+    Rarity = 3,
+    RegionId = 1041,
+    RewardId = {
+      40454,
+      40455,
+      40456,
+      40000
+    },
+    Ttk = 600,
+    Weight = 1
+  },
+  [308405] = {
+    DispatchCD = 600,
+    DispatchCondition = 89084,
+    DispatchDemand = {
+      Pet = 5
+    },
+    DispatchId = 308405,
+    DispatchPerson = 3,
+    DispatchType = "Collect",
+    DispatchUIId = 308405,
+    PlayerLevel = {
+      60, 65
+    },
+    Rarity = 3,
+    RegionId = 1041,
+    RewardId = {
+      40457,
+      40458,
+      40459,
       40000
     },
     Ttk = 600,

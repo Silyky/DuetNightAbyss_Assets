@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -912,7 +914,10 @@ return {
             propsData = {
               SplineActorIndex = 10030501,
               WalkType = 2,
-              MoveSpeedRate = 0.22
+              MoveSpeedRate = 0.22,
+              ExitBlendTime = 0.5,
+              IsTriggerable = false,
+              CanMoveReverse = false
             }
           },
           ["17534310673911470"] = {

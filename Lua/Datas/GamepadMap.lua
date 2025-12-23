@@ -1120,8 +1120,8 @@ return ReadOnly("GamepadMap", {
       [4] = "DPad_Up"
     }
   },
-  TrainingKillMonsters = {
-    ActionName = "TrainingKillMonsters",
+  TrainingInvincible = {
+    ActionName = "TrainingInvincible",
     GamepadIcon = {
       [1] = {
         "Down"
@@ -1141,6 +1141,52 @@ return ReadOnly("GamepadMap", {
       [2] = "DPad_Down",
       [3] = "DPad_Down",
       [4] = "DPad_Down"
+    }
+  },
+  TrainingKillMonsters = {
+    ActionName = "TrainingKillMonsters",
+    GamepadIcon = {
+      [1] = {
+        "Right", "B"
+      },
+      [2] = {
+        "Right", "B"
+      },
+      [3] = {
+        "Right", "B"
+      },
+      [4] = {
+        "Right", "B"
+      }
+    },
+    SystemInput = {
+      [1] = "StoryInteractiveClose",
+      [2] = "StoryInteractiveClose",
+      [3] = "StoryInteractiveClose",
+      [4] = "StoryInteractiveClose"
+    }
+  },
+  TrainingMonstersActive = {
+    ActionName = "TrainingMonstersActive",
+    GamepadIcon = {
+      [1] = {
+        "Right", "A"
+      },
+      [2] = {
+        "Right", "A"
+      },
+      [3] = {
+        "Right", "A"
+      },
+      [4] = {
+        "Right", "A"
+      }
+    },
+    SystemInput = {
+      [1] = "StoryInteractive",
+      [2] = "StoryInteractive",
+      [3] = "StoryInteractive",
+      [4] = "StoryInteractive"
     }
   },
   TrainingOpenSetup = {

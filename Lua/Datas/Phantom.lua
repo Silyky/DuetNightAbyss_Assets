@@ -79,6 +79,36 @@ return ReadOnly("Phantom", {
     UnitName = "NPC-序章男主",
     WearMeleeWeapon = 1
   },
+  [113] = {
+    BT = {
+      [1] = "/Game/AssetDesign/AI/Player/BattleNPC/Nvzhu/BT_Phantom_Nvzhu.BT_Phantom_Nvzhu"
+    },
+    BattleRoleId = 1601,
+    Camp = "Player",
+    GuideIconAni = "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    HatredRatio = 0,
+    IsNPCPhantom = true,
+    IsPlayerMapping = true,
+    UnitBPPath = "/Game/BluePrints/Char/BP_Phantom/BP_NPCPhantom.BP_NPCPhantom",
+    UnitId = 113,
+    UnitName = "NPC-光属性-女主",
+    WearMeleeWeapon = 1
+  },
+  [114] = {
+    BT = {
+      [1] = "/Game/AssetDesign/AI/Player/BattleNPC/Nvzhu/BT_Phantom_Nvzhu.BT_Phantom_Nvzhu"
+    },
+    BattleRoleId = 160101,
+    Camp = "Player",
+    GuideIconAni = "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
+    HatredRatio = 0,
+    IsNPCPhantom = true,
+    IsPlayerMapping = true,
+    UnitBPPath = "/Game/BluePrints/Char/BP_Phantom/BP_NPCPhantom.BP_NPCPhantom",
+    UnitId = 114,
+    UnitName = "NPC-光属性-男主",
+    WearMeleeWeapon = 1
+  },
   [201] = {
     BT = {
       [1] = "/Game/AssetDesign/AI/Player/BattleNPC/Awa/BT_Phantom_Awa.BT_Phantom_Awa"
@@ -180,7 +210,7 @@ return ReadOnly("Phantom", {
     BT = {
       [1] = "/Game/AssetDesign/AI/Player/Yuming/BT_Phantom_Yuming.BT_Phantom_Yuming"
     },
-    BattleRoleId = 210,
+    BattleRoleId = 4201,
     Camp = "Player",
     GuideIconAni = "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
     HatredRatio = 0,
@@ -194,7 +224,7 @@ return ReadOnly("Phantom", {
     BT = {
       [1] = "/Game/AssetDesign/AI/Player/Baiheng/BT_Phantom_Baiheng.BT_Phantom_Baiheng"
     },
-    BattleRoleId = 211,
+    BattleRoleId = 2401,
     Camp = "Player",
     GuideIconAni = "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
     HatredRatio = 0,
@@ -208,7 +238,7 @@ return ReadOnly("Phantom", {
     BT = {
       [1] = "/Game/AssetDesign/AI/Player/Kezhou/BT_Phantom_Kezhou.BT_Phantom_Kezhou"
     },
-    BattleRoleId = 212,
+    BattleRoleId = 1503,
     Camp = "Player",
     GuideIconAni = "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
     HatredRatio = 0,
@@ -302,6 +332,7 @@ return ReadOnly("Phantom", {
     Camp = "Player",
     GuideIconAni = "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
     HatredRatio = 0.5,
+    IsPlayerMapping = true,
     RespawnUI = 20001,
     UnitBPPath = "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
     UnitId = 1601,
@@ -588,6 +619,7 @@ return ReadOnly("Phantom", {
     Camp = "Player",
     GuideIconAni = "/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Phantom.Guide_Icon_Phantom",
     HatredRatio = 0.5,
+    IsPlayerMapping = true,
     RespawnUI = 20001,
     UnitBPPath = "/Game/BluePrints/Char/BP_Phantom/BP_PhantomCharacter.BP_PhantomCharacter",
     UnitId = 160101,

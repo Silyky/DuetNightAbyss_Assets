@@ -622,19 +622,30 @@ return ReadOnly("BattleWeapon", {
   },
   [10208] = {
     ATKLevelGrow = "ATKS",
-    ATK_Slash = 3,
-    CRD = 1.5,
-    CRI = 0.15,
+    ATK_Smash = 21,
+    AddAttrs = {
+      [1] = {
+        AttrName = "CRI", Rate = "#1"
+      }
+    },
+    CRD = 1.85,
+    CRI = 0.2,
     ComboHoldTime = 10,
     MaxComboCount = 120,
     ModApplicationType = {
       2,
       102,
-      21
+      23
     },
     ModVolume = 1,
+    PassiveEffects = {10208},
+    PassiveEffectsDesc = "SKILL_10208_DESC",
+    PassiveEffectsDescValues = {
+      [1] = "$#BattleWeapon[10208].AddAttrs[1].Rate*100$%",
+      [2] = "$#PassiveEffect[10208].Vars.TriggerProb*100$%"
+    },
     ShowWeaponModel = true,
-    TriggerProbability = 0.35,
+    TriggerProbability = 0.3,
     WeaponBlueprint = "/Game/AssetDesign/Weapon/Polearm/BP_Polearm_01.BP_Polearm_01",
     WeaponId = 10208,
     WeaponMeshResourceId = 1020801,
@@ -725,7 +736,7 @@ return ReadOnly("BattleWeapon", {
     PassiveEffectsDesc = "SKILL_10301_DESC",
     PassiveEffectsDescValues = {
       [1] = "$#BattleWeapon[10301].AddAttrs[1].Rate*100$%",
-      [2] = "$#Buff[10301].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[10301].AddAttrs[1].Rate*100$%",
       [3] = "$#PassiveEffect[10301].Vars.LastTime$",
       [4] = "$#Buff[10301].MaxLayer$"
     },
@@ -1186,7 +1197,7 @@ return ReadOnly("BattleWeapon", {
     },
     ShowWeaponModel = true,
     TriggerProbability = 0.15,
-    WeaponBlueprint = "/Game/AssetDesign/Weapon/Swordwhip/BP_Swordwhip_Zeshi.BP_Swordwhip_Zeshi",
+    WeaponBlueprint = "/Game/AssetDesign/Weapon/Swordwhip/BP_Swordwhip_01.BP_Swordwhip_01",
     WeaponId = 10502,
     WeaponMeshResourceId = 1050201,
     WeaponSkillList = {
@@ -1671,6 +1682,55 @@ return ReadOnly("BattleWeapon", {
     WeaponSkillList = {
       2019901, 2019902
     },
+    WeaponSockets = {
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
+      UnbindHand = {
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
+    },
+    WeaponTag = {
+      "Ranged",
+      "Pistol",
+      "Almighty"
+    }
+  },
+  [20104] = {
+    ATKLevelGrow = "ATKS",
+    ATK_Smash = 15,
+    BulletConver = 0.4,
+    BulletInit = -1,
+    BulletMax = 150,
+    BulletType = 1,
+    CRD = 2.3,
+    CRI = 0.25,
+    FrontSight = {
+      SightUI = "Crossbow"
+    },
+    HelpAimDict = {
+      GamePad = "Pistol_02",
+      Mobile = "Pistol_02",
+      PC = "Pistol_01"
+    },
+    MagazineCapacity = 15,
+    MaxDistance = 2800,
+    ModApplicationType = {
+      3, 33
+    },
+    ModVolume = 1,
+    PlayFrontSightAnim = true,
+    ShowWeaponModel = true,
+    TriggerProbability = 0.4,
+    WeaponBlueprint = "/Game/AssetDesign/Weapon/Pistol/BP_Pistol.BP_Pistol",
+    WeaponHUDIcon = "Pistol_Chixing",
+    WeaponId = 20104,
+    WeaponMeshResourceId = 2010301,
+    WeaponSkillList = {2010401, 2010402},
     WeaponSockets = {
       HandHold = {
         SocketA = "Root", SocketB = "hook_arm_r"
@@ -2536,7 +2596,7 @@ return ReadOnly("BattleWeapon", {
     PassiveEffectsDesc = "SKILL_20405_DESC",
     PassiveEffectsDescValues = {
       [1] = "$#BattleWeapon[20405].AddAttrs[1].Rate*100$%",
-      [2] = "$#Buff[20405].AddAttrs[1].Value*100$%",
+      [2] = "$#Buff[20405].AddAttrs[1].Rate*100$%",
       [3] = "$#PassiveEffect[20405].Vars.LastTime$"
     },
     ShowWeaponModel = true,
@@ -2574,7 +2634,7 @@ return ReadOnly("BattleWeapon", {
     BulletConver = 0.5,
     BulletIcon = "Battle_Bullet_Shotgun",
     BulletInit = -1,
-    BulletMax = 40,
+    BulletMax = 10,
     BulletType = 1,
     CRD = 2,
     CRI = 0.1,
@@ -2586,12 +2646,13 @@ return ReadOnly("BattleWeapon", {
       Mobile = "Shotgun_02",
       PC = "Shotgun_01"
     },
-    MagazineCapacity = 5,
+    MagazineCapacity = 1,
     MaxDistance = 2800,
     ModApplicationType = {
       3, 33
     },
     ModVolume = 1,
+    PassiveEffects = {20406},
     ShowWeaponModel = true,
     TriggerProbability = 0.15,
     WeaponBlueprint = "/Game/AssetDesign/Weapon/Shotgun/BP_Shotgun_Qiege.BP_Shotgun_Qiege",
@@ -2599,6 +2660,56 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 20406,
     WeaponMeshResourceId = 2040401,
     WeaponSkillList = {2040601, 2040602},
+    WeaponSockets = {
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
+      UnbindHand = {
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
+    },
+    WeaponTag = {
+      "Ranged",
+      "Shotgun",
+      "Almighty"
+    }
+  },
+  [20407] = {
+    ATKLevelGrow = "ATKS",
+    ATK_Spike = 18,
+    BulletConver = 0.5,
+    BulletIcon = "Battle_Bullet_Shotgun",
+    BulletInit = -1,
+    BulletMax = 60,
+    BulletType = 1,
+    CRD = 1.8,
+    CRI = 0.2,
+    FrontSight = {
+      SightUI = "Shotgun"
+    },
+    HelpAimDict = {
+      GamePad = "Shotgun_02",
+      Mobile = "Shotgun_02",
+      PC = "Shotgun_01"
+    },
+    MagazineCapacity = 6,
+    MaxDistance = 2800,
+    ModApplicationType = {
+      3, 32
+    },
+    ModVolume = 1,
+    PlayFrontSightAnim = true,
+    ShowWeaponModel = true,
+    TriggerProbability = 0.2,
+    WeaponBlueprint = "/Game/AssetDesign/Weapon/Shotgun/BP_Shotgun.BP_Shotgun",
+    WeaponHUDIcon = "Shotgun_Chixing",
+    WeaponId = 20407,
+    WeaponMeshResourceId = 2040701,
+    WeaponSkillList = {2040701, 2040702},
     WeaponSockets = {
       HandHold = {
         SocketA = "Root", SocketB = "hook_arm_r"
@@ -2900,7 +3011,10 @@ return ReadOnly("BattleWeapon", {
     MagazineCapacity = 30,
     MaxDistance = 2900,
     ModApplicationType = {
-      3, 32
+      3,
+      32,
+      34,
+      35
     },
     ModVolume = 1,
     PassiveEffects = {20505},
@@ -2909,7 +3023,7 @@ return ReadOnly("BattleWeapon", {
     WeaponBlueprint = "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
     WeaponHUDIcon = "Machinegun_Fangzhu",
     WeaponId = 20505,
-    WeaponMeshResourceId = 2050201,
+    WeaponMeshResourceId = 2050501,
     WeaponSkillList = {2050501, 2050502},
     WeaponSockets = {
       HandHold = {
@@ -2931,14 +3045,20 @@ return ReadOnly("BattleWeapon", {
   },
   [20506] = {
     ATKLevelGrow = "ATKS",
-    ATK_Spike = 1,
-    BulletConver = 1.1,
+    ATK_Spike = 16,
+    AddAttrs = {
+      [1] = {
+        AttrName = "MagazineCapacity",
+        Rate = "#1"
+      }
+    },
+    BulletConver = 2.1,
     BulletIcon = "Battle_Bullet_Laser",
     BulletInit = -1,
-    BulletMax = 1000,
+    BulletMax = 150,
     BulletType = 1,
-    CRD = 2,
-    CRI = 0.15,
+    CRD = 2.1,
+    CRI = 0.22,
     FrontSight = {
       SightUI = "Thunder"
     },
@@ -2947,18 +3067,28 @@ return ReadOnly("BattleWeapon", {
       Mobile = "OnlyOpenAim_01",
       PC = "OnlyOpenAim_01"
     },
-    MagazineCapacity = 300,
+    MagazineCapacity = 60,
     MaxDistance = 2900,
     ModApplicationType = {
-      3, 32
+      3,
+      32,
+      35
     },
     ModVolume = 1,
+    PassiveEffects = {20506},
+    PassiveEffectsDesc = "SKILL_20506_DESC",
+    PassiveEffectsDescValues = {
+      [1] = "$#BattleWeapon[20506].AddAttrs[1].Rate*100$%",
+      [2] = "$#Buff[20506].AddAttrs[1].Value*100$%",
+      [3] = "$#PassiveEffect[20506].Vars.LastTime$",
+      [4] = "$#Buff[20506].MaxLayer$"
+    },
     ShowWeaponModel = true,
-    TriggerProbability = 0.1,
+    TriggerProbability = 0.15,
     WeaponBlueprint = "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun.BP_Machinegun",
-    WeaponHUDIcon = "Machinegun_Fangzhu",
+    WeaponHUDIcon = "Machinegun_Quewu",
     WeaponId = 20506,
-    WeaponMeshResourceId = 2040301,
+    WeaponMeshResourceId = 2050601,
     WeaponSkillList = {2050601, 2050602},
     WeaponSockets = {
       HandHold = {
@@ -3170,6 +3300,55 @@ return ReadOnly("BattleWeapon", {
     WeaponId = 20510,
     WeaponMeshResourceId = 2051001,
     WeaponSkillList = {2051001},
+    WeaponSockets = {
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_r"
+      },
+      HandHoldIK = {
+        SocketA = "butt"
+      },
+      UnbindHand = {
+        SocketA = "hook_shotgun_back",
+        SocketB = "root_point"
+      }
+    },
+    WeaponTag = {
+      "Ranged",
+      "Machinegun",
+      "Almighty"
+    }
+  },
+  [20511] = {
+    ATKLevelGrow = "ATKS",
+    ATK_Spike = 17,
+    BulletConver = 2,
+    BulletInit = -1,
+    BulletMax = 100,
+    BulletType = 1,
+    CRD = 2.25,
+    CRI = 0.23,
+    FrontSight = {
+      SightUI = "Crossbow"
+    },
+    HelpAimDict = {
+      GamePad = "Machinegun_02",
+      Mobile = "Machinegun_02",
+      PC = "Machinegun_01"
+    },
+    MagazineCapacity = 15,
+    MaxDistance = 2800,
+    ModApplicationType = {
+      3, 32
+    },
+    ModVolume = 1,
+    PlayFrontSightAnim = true,
+    ShowWeaponModel = true,
+    TriggerProbability = 0.3,
+    WeaponBlueprint = "/Game/AssetDesign/Weapon/Machinegun/BP_Machinegun_01.BP_Machinegun_01",
+    WeaponHUDIcon = "Machinegun_Chixing",
+    WeaponId = 20511,
+    WeaponMeshResourceId = 2050101,
+    WeaponSkillList = {2051101, 2051102},
     WeaponSockets = {
       HandHold = {
         SocketA = "Root", SocketB = "hook_arm_r"
@@ -3439,6 +3618,53 @@ return ReadOnly("BattleWeapon", {
       "Ranged",
       "Bow",
       "Bow01",
+      "Almighty"
+    }
+  },
+  [20605] = {
+    ATKLevelGrow = "ATKS",
+    ATK_Spike = 17,
+    BulletConver = 0.5,
+    BulletIcon = "Battle_Bullet_Arrow",
+    BulletInit = -1,
+    BulletMax = 50,
+    BulletType = 1,
+    CRD = 2,
+    CRI = 0.19,
+    FrontSight = {HeavyChargeId = 20605, SightUI = "Bow02"},
+    MagazineCapacity = 1,
+    MagazineUIType = "NoMagazine",
+    MaxDistance = 4000,
+    ModApplicationType = {
+      3, 32
+    },
+    ModVolume = 1,
+    PlayFrontSightAnim = true,
+    ShowWeaponModel = true,
+    TriggerProbability = 0.2,
+    UIHiddenAttrs = {
+      "MagazineCapacity",
+      "AttackSpeed_Reload"
+    },
+    UnconstrainedMC = 1,
+    WeaponBlueprint = "/Game/AssetDesign/Weapon/Bow/BP_Bow02.BP_Bow02",
+    WeaponHUDIcon = "Bow_Shashi",
+    WeaponId = 20605,
+    WeaponMeshResourceId = 2060101,
+    WeaponSkillList = {2060501, 2060502},
+    WeaponSockets = {
+      HandHold = {
+        SocketA = "Root", SocketB = "hook_arm_l"
+      },
+      UnbindHand = {
+        SocketA = "hook_Bow_back",
+        SocketB = "root_point"
+      }
+    },
+    WeaponTag = {
+      "Ranged",
+      "Bow",
+      "Bow02",
       "Almighty"
     }
   },
@@ -3785,8 +4011,8 @@ return ReadOnly("BattleWeapon", {
   [150401] = {
     ATKLevelGrow = "ATKS",
     ATK_Smash = 7,
-    BulletInit = 999,
-    BulletMax = 999,
+    BulletInit = 0,
+    BulletMax = 99999,
     CRD = 2,
     CRI = 0.3,
     ComboHoldTime = 10,
@@ -3795,7 +4021,7 @@ return ReadOnly("BattleWeapon", {
       TargetFilter = "Char_Bow_20603",
       Variable = "DetectGroup"
     },
-    MagazineCapacity = 999,
+    MagazineCapacity = 9999,
     MaxComboCount = 120,
     MaxDistance = 2800,
     ModApplicationType = {
@@ -3807,13 +4033,14 @@ return ReadOnly("BattleWeapon", {
     },
     ShowWeaponModel = false,
     TriggerProbability = 0.3,
-    WeaponBlueprint = "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_02.BP_Claymore_02",
+    WeaponBlueprint = "/Game/AssetDesign/Weapon/Claymore/BP_Claymore_04.BP_Claymore_04",
     WeaponId = 150401,
-    WeaponMeshResourceId = 150101,
+    WeaponMeshResourceId = 150402,
     WeaponSkillList = {150441, 150422},
     WeaponSockets = {
       HandHold = {
-        SocketA = "Root", SocketB = "hook_arm_r"
+        SocketA = "Root",
+        SocketB = "root_hook_arm_r"
       },
       UnbindHand = {
         SocketA = "root_Claymore_back",
@@ -3850,7 +4077,6 @@ return ReadOnly("BattleWeapon", {
     WeaponSkillList = {
       150511,
       150512,
-      150513,
       150514
     },
     WeaponSockets = {
@@ -4494,6 +4720,21 @@ return ReadOnly("BattleWeapon", {
       },
       HandHoldIK = {
         SocketA = "butt"
+      }
+    },
+    WeaponTag = {
+      "Mon", "Melee"
+    }
+  },
+  [852301] = {
+    ModVolume = 1,
+    ShowWeaponModel = false,
+    WeaponBlueprint = "/Game/AssetDesign/Weapon/Monster/Melee/BP_HX_Tianwei.BP_HX_Tianwei",
+    WeaponId = 852301,
+    WeaponMeshResourceId = 852303,
+    WeaponSockets = {
+      HandHold = {
+        SocketA = "root", SocketB = "hook_arm_r"
       }
     },
     WeaponTag = {

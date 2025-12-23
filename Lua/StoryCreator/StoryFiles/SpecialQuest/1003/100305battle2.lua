@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -154,45 +156,9 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1733816719998665145",
-            startPort = "Out",
-            endQuest = "17411622249891793",
-            endPort = "In"
-          },
-          {
-            startQuest = "17411622249891793",
-            startPort = "Out",
-            endQuest = "17411622273561885",
-            endPort = "In"
-          },
-          {
-            startQuest = "17411622273561885",
-            startPort = "Out",
-            endQuest = "17411622472152086",
-            endPort = "In"
-          },
-          {
             startQuest = "17411622472152086",
             startPort = "Out",
             endQuest = "1733816638023661070",
-            endPort = "In"
-          },
-          {
-            startQuest = "17411626815574045",
-            startPort = "Out",
-            endQuest = "17411626815574046",
-            endPort = "In"
-          },
-          {
-            startQuest = "17411626815574046",
-            startPort = "Out",
-            endQuest = "17411626815574047",
-            endPort = "In"
-          },
-          {
-            startQuest = "1733816936578668063",
-            startPort = "Out",
-            endQuest = "17411626815574045",
             endPort = "In"
           },
           {
@@ -362,6 +328,42 @@ return {
             startPort = "Out",
             endQuest = "17579353168701856757",
             endPort = "In"
+          },
+          {
+            startQuest = "1733816719998665145",
+            startPort = "Out",
+            endQuest = "17605999218901603",
+            endPort = "In"
+          },
+          {
+            startQuest = "17605999218901603",
+            startPort = "Out",
+            endQuest = "17411622249891793",
+            endPort = "In"
+          },
+          {
+            startQuest = "1733816936578668063",
+            startPort = "Out",
+            endQuest = "17605999728752300",
+            endPort = "In"
+          },
+          {
+            startQuest = "17605999728752300",
+            startPort = "Out",
+            endQuest = "17411626815574045",
+            endPort = "In"
+          },
+          {
+            startQuest = "17411626815574045",
+            startPort = "Out",
+            endQuest = "17411626815574047",
+            endPort = "In"
+          },
+          {
+            startQuest = "17411622249891793",
+            startPort = "Out",
+            endQuest = "17411622472152086",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -456,6 +458,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -485,15 +488,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100331},
-                {TalkActorType = "Npc", TalkActorId = 100328}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -741,16 +741,6 @@ return {
               UnitId = -1
             }
           },
-          ["17411622273561885"] = {
-            key = "17411622273561885",
-            type = "BossBattleFinishNode",
-            name = "完成BOSS战阶段",
-            pos = {x = -2004, y = -144},
-            propsData = {
-              SendMessage = "",
-              FinishCondition = "cp2alchbattle2seq1finish"
-            }
-          },
           ["17411622472152086"] = {
             key = "17411622472152086",
             type = "AsyncSetActorLocationAndRotationNode",
@@ -775,16 +765,6 @@ return {
               MessageType = "GameMode",
               MessageContent = "cp2alchbattle2seq2",
               UnitId = -1
-            }
-          },
-          ["17411626815574046"] = {
-            key = "17411626815574046",
-            type = "BossBattleFinishNode",
-            name = "完成BOSS战阶段",
-            pos = {x = -1135, y = -176},
-            propsData = {
-              SendMessage = "",
-              FinishCondition = "cp2alchbattle2seq2finish"
             }
           },
           ["17411626815574047"] = {
@@ -1005,6 +985,80 @@ return {
             name = "延迟等待",
             pos = {x = -315.6937779236263, y = -295.1969240904024},
             propsData = {WaitTime = 1}
+          },
+          ["17605999218901603"] = {
+            key = "17605999218901603",
+            type = "TalkNode",
+            name = "对话节点",
+            pos = {x = -2564.1514832358844, y = -153.16277456584373},
+            propsData = {
+              IsNpcNode = false,
+              TalkType = "Cinematic",
+              TalkStageName = "",
+              ShowFilePath = "LevelSequence'/Game/AssetDesign/Level/Sequencer/Region/Imperial/Alch/Chapter01_Alch_JH_Init_1.Chapter01_Alch_JH_Init_1'",
+              BlendInTime = 0,
+              BlendOutTime = 0,
+              InType = "FadeIn",
+              OutType = "FadeOut",
+              ShowFadeDetail = false,
+              ShowSkipButton = true,
+              ShowReviewButton = true,
+              ShowWikiButton = true,
+              PauseGameGlobal = false,
+              HideNpcs = false,
+              HideMonsters = true,
+              HideAllBattleEntity = true,
+              HideEffectCreature = true,
+              HideMechanismsFX = true,
+              DisableNpcOptimization = false,
+              DoNotReceiveCharacterShadow = false,
+              BeginNewTargetPointName = "",
+              EndNewTargetPointName = "",
+              CameraLookAtTartgetPoint = "",
+              RestoreStand = false,
+              TalkActors = {},
+              FreezeWorldComposition = false,
+              bTravelFullLoadWorldComposition = false,
+              SwitchToMaster = "None",
+              OverrideFailBlend = false
+            }
+          },
+          ["17605999728752300"] = {
+            key = "17605999728752300",
+            type = "TalkNode",
+            name = "对话节点",
+            pos = {x = -1555.4014832358846, y = 69.02472543415638},
+            propsData = {
+              IsNpcNode = false,
+              TalkType = "Cinematic",
+              TalkStageName = "",
+              ShowFilePath = "LevelSequence'/Game/AssetDesign/Level/Sequencer/Region/Imperial/Alch/Chapter01_Alch_JH_Init_2.Chapter01_Alch_JH_Init_2'",
+              BlendInTime = 0,
+              BlendOutTime = 0,
+              InType = "FadeIn",
+              OutType = "FadeOut",
+              ShowFadeDetail = false,
+              ShowSkipButton = true,
+              ShowReviewButton = true,
+              ShowWikiButton = true,
+              PauseGameGlobal = false,
+              HideNpcs = false,
+              HideMonsters = true,
+              HideAllBattleEntity = true,
+              HideEffectCreature = true,
+              HideMechanismsFX = true,
+              DisableNpcOptimization = false,
+              DoNotReceiveCharacterShadow = false,
+              BeginNewTargetPointName = "",
+              EndNewTargetPointName = "",
+              CameraLookAtTartgetPoint = "",
+              RestoreStand = false,
+              TalkActors = {},
+              FreezeWorldComposition = false,
+              bTravelFullLoadWorldComposition = false,
+              SwitchToMaster = "None",
+              OverrideFailBlend = false
+            }
           }
         },
         commentData = {}

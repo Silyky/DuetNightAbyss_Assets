@@ -58,6 +58,16 @@ return ReadOnly("ShopTabSub", {
     },
     TabType = "Skin"
   },
+  [1207] = {
+    MainTabId = 120,
+    ReddotNode = "Shop_Skin_Effect",
+    SubName = "UI_SHOP_MAINTAB_ACCESSORY_EFFECT",
+    SubTabId = 1207,
+    TabCoin = {
+      99, 100
+    },
+    TabType = "Skin"
+  },
   [1401] = {
     MainTabId = 140,
     ReddotNode = "Shop_Gacha_Higth",
@@ -184,12 +194,34 @@ return ReadOnly("ShopTabSub", {
   },
   [2001] = {
     MainTabId = 200,
-    SubName = "UI_SHOP_MAINTAB_COMPLEX",
+    SubName = "UI_SHOP_MAINTAB_COMPLEX_1",
     SubTabId = 2001,
     TabCoin = {
       99, 100
     },
     TabType = "Complex"
+  },
+  [2002] = {
+    ConditionId = "Rouge",
+    MainTabId = 200,
+    SubName = "UI_SHOP_MAINTAB_COMPLEX_2",
+    SubTabId = 2002,
+    TabCoin = {
+      99, 100
+    },
+    TabType = "Complex",
+    UnlockHide = true
+  },
+  [2003] = {
+    ConditionId = "RegionalShopTab",
+    MainTabId = 200,
+    SubName = "UI_SHOP_MAINTAB_COMPLEX_3",
+    SubTabId = 2003,
+    TabCoin = {
+      99, 100
+    },
+    TabType = "Complex",
+    UnlockHide = true
   },
   [7010] = {
     MainTabId = 701,
@@ -214,6 +246,15 @@ return ReadOnly("ShopTabSub", {
     TabType = "Normal",
     UnlockHide = true
   },
+  [7040] = {
+    ConditionId = "YanjinduShopTab",
+    MainTabId = 704,
+    SubName = "UI_SHOP_TAB_ExploreBadge_East01",
+    SubTabId = 7040,
+    TabCoin = {29004},
+    TabType = "Normal",
+    UnlockHide = true
+  },
   [8010] = {
     MainTabId = 801,
     SubName = "UI_SHOP_SUBTAB_NAME_FISHING",
@@ -232,6 +273,35 @@ return ReadOnly("ShopTabSub", {
     },
     TabType = "Normal"
   },
+  [8020] = {
+    ConditionId = "YanjinduShopTab",
+    MainTabId = 802,
+    SubName = "UI_SHOP_SUBTAB_NAME_FISHING",
+    SubTabId = 8020,
+    TabCoin = {
+      210, 101
+    },
+    TabType = "Normal",
+    UnlockHide = true
+  },
+  [8021] = {
+    ConditionId = "YanjinduShopTab",
+    MainTabId = 802,
+    SubName = "UI_SHOP_MAINTAB_ITEM",
+    SubTabId = 8021,
+    TabCoin = {
+      210, 101
+    },
+    TabType = "Normal",
+    UnlockHide = true
+  },
+  [99010] = {
+    MainTabId = 9901,
+    SubName = "MAIN_UI_SHOP",
+    SubTabId = 99010,
+    TabCoin = {101},
+    TabType = "Normal"
+  },
   [100001] = {
     MainTabId = 10000,
     SubName = "Abyss_ExchangeStore",
@@ -241,9 +311,11 @@ return ReadOnly("ShopTabSub", {
   },
   [100011] = {
     MainTabId = 10001,
-    SubName = "UI_SHOP_TAB_Fishing",
+    SubName = "HuaxuEventShop",
     SubTabId = 100011,
-    TabCoin = {6000001},
+    TabCoin = {
+      210, 101
+    },
     TabType = "Normal"
   },
   [100021] = {
@@ -265,6 +337,27 @@ return ReadOnly("ShopTabSub", {
     SubName = "UI_SHOP_MOD_RANGEUWEAPON",
     SubTabId = 100023,
     TabCoin = 215,
+    TabType = "Normal"
+  },
+  [100031] = {
+    MainTabId = 10003,
+    SubName = "WeeklyDungeonShop",
+    SubTabId = 100031,
+    TabCoin = {216},
+    TabType = "Normal"
+  },
+  [100041] = {
+    MainTabId = 10004,
+    SubName = "RaidDungeon_Shop_Name",
+    SubTabId = 100041,
+    TabCoin = {218},
+    TabType = "Normal"
+  },
+  [100051] = {
+    MainTabId = 10005,
+    SubName = "HuaxuExploreShop",
+    SubTabId = 100051,
+    TabCoin = {29005},
     TabType = "Normal"
   }
 })

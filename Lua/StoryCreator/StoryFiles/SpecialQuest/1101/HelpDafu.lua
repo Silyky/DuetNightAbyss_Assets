@@ -47,7 +47,7 @@ return {
       key = "1721630102392394468",
       type = "StoryNode",
       name = "前往临时救助站",
-      pos = {x = 1108.9049255543787, y = 350.3472990335694},
+      pos = {x = 1108.9049255543787, y = 351.92624640199045},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -298,6 +300,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -322,14 +325,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110022}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -445,6 +446,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -457,9 +459,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -674,11 +673,8 @@ return {
             key = "17537756271031822",
             type = "FirstObservationCompleteNode",
             name = "首次观察完成",
-            pos = {x = 182.36001565177747, y = 1101.1490014562098},
-            propsData = {
-              StaticCreatorId = 1640637,
-              ObservationPointName = "Mechanism_TalkTriggerId_1640637"
-            }
+            pos = {x = 178.89847719023902, y = 1103.4566937639022},
+            propsData = {StaticCreatorId = 1640637, ObservationPointName = ""}
           },
           ["17537756449062114"] = {
             key = "17537756449062114",

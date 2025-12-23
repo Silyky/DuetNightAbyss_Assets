@@ -59,7 +59,7 @@ return ReadOnly("WikiText", {
     EntryId = 101008,
     TextDetail = "WikiText_10100801",
     TextId = 10100801,
-    TextRelatedDialogue = 11013601,
+    TextRelatedDialogue = 11018819,
     TextUnlock = 10100801
   },
   [10100901] = {
@@ -93,7 +93,7 @@ return ReadOnly("WikiText", {
     EntryId = 201002,
     TextDetail = "WikiText_20100201",
     TextId = 20100201,
-    TextRelatedDialogue = {10011901},
+    TextRelatedDialogue = {10010204},
     TextUnlock = 20100201
   },
   [20100301] = {
@@ -187,11 +187,17 @@ return ReadOnly("WikiText", {
     TextRelatedDialogue = {10106101},
     TextUnlock = 20101001
   },
+  [20101002] = {
+    EntryId = 201010,
+    TextDetail = "WikiText_20101002",
+    TextId = 20101002,
+    TextUnlock = 20101002
+  },
   [20101101] = {
     EntryId = 201011,
     TextDetail = "WikiText_20101101",
     TextId = 20101101,
-    TextRelatedDialogue = {10113001},
+    TextRelatedDialogue = {10130601},
     TextUnlock = 20101101
   },
   [20101102] = {
@@ -217,7 +223,7 @@ return ReadOnly("WikiText", {
     EntryId = 201011,
     TextDetail = "WikiText_20101105",
     TextId = 20101105,
-    TextRelatedDialogue = {10035231, 10035244},
+    TextRelatedDialogue = {10035231},
     TextUnlock = 20101105
   },
   [20101106] = {
@@ -283,7 +289,7 @@ return ReadOnly("WikiText", {
     EntryId = 201015,
     TextDetail = "WikiText_20101501",
     TextId = 20101501,
-    TextRelatedDialogue = {11011801},
+    TextRelatedDialogue = {11011802},
     TextUnlock = 20101501
   },
   [20101502] = {
@@ -297,7 +303,7 @@ return ReadOnly("WikiText", {
     EntryId = 201016,
     TextDetail = "WikiText_20101601",
     TextId = 20101601,
-    TextRelatedDialogue = 11013601,
+    TextRelatedDialogue = 11018819,
     TextUnlock = 20101601
   },
   [20101602] = {
@@ -311,7 +317,7 @@ return ReadOnly("WikiText", {
     EntryId = 201017,
     TextDetail = "WikiText_20101701",
     TextId = 20101701,
-    TextRelatedDialogue = 11013601,
+    TextRelatedDialogue = 11018819,
     TextUnlock = 20101701
   },
   [20101801] = {
@@ -383,6 +389,12 @@ return ReadOnly("WikiText", {
     TextRelatedDialogue = {10032301},
     TextUnlock = 20102301
   },
+  [20102302] = {
+    EntryId = 201023,
+    TextDetail = "WikiText_20102302",
+    TextId = 20102302,
+    TextUnlock = 20102302
+  },
   [20102401] = {
     EntryId = 201024,
     TextDetail = "WikiText_20102401",
@@ -416,6 +428,115 @@ return ReadOnly("WikiText", {
     TextDetail = "WikiText_20102602",
     TextId = 20102602,
     TextUnlock = 20102602
+  },
+  [20102701] = {
+    EntryId = 201027,
+    TextDetail = "WikiText_20102701",
+    TextId = 20102701,
+    TextUnlock = 20102701
+  },
+  [20102801] = {
+    EntryId = 201028,
+    TextDetail = "WikiText_20102801",
+    TextId = 20102801,
+    TextUnlock = 20102801
+  },
+  [20300101] = {
+    EntryId = 203001,
+    TextDetail = "WikiText_20300101",
+    TextId = 20300101,
+    TextRelatedDialogue = {12001123},
+    TextUnlock = 20300101
+  },
+  [20300102] = {
+    EntryId = 203001,
+    TextDetail = "WikiText_20300102",
+    TextId = 20300102,
+    TextUnlock = 20300102
+  },
+  [20300103] = {
+    EntryId = 203001,
+    TextDetail = "WikiText_20300103",
+    TextId = 20300103,
+    TextRelatedDialogue = {12010125},
+    TextUnlock = 20300103
+  },
+  [20300104] = {
+    EntryId = 203001,
+    TextDetail = "WikiText_20300104",
+    TextId = 20300104,
+    TextRelatedDialogue = 12010801,
+    TextUnlock = 20300104
+  },
+  [20300105] = {
+    EntryId = 203001,
+    TextDetail = "WikiText_20300105",
+    TextId = 20300105,
+    TextRelatedDialogue = {12022209},
+    TextUnlock = 20300105
+  },
+  [20300201] = {
+    EntryId = 203002,
+    TextDetail = "WikiText_20300201",
+    TextId = 20300201,
+    TextRelatedDialogue = 12010201,
+    TextUnlock = 20300201
+  },
+  [20300301] = {
+    EntryId = 203003,
+    TextDetail = "WikiText_20300301",
+    TextId = 20300301,
+    TextRelatedDialogue = 12010429,
+    TextUnlock = 20300301
+  },
+  [20300401] = {
+    EntryId = 203004,
+    TextDetail = "WikiText_20300401",
+    TextId = 20300401,
+    TextRelatedDialogue = 12012001,
+    TextUnlock = 20300401
+  },
+  [20300402] = {
+    EntryId = 203004,
+    TextDetail = "WikiText_20300402",
+    TextId = 20300402,
+    TextRelatedDialogue = {12020501},
+    TextUnlock = 20300402
+  },
+  [20300501] = {
+    EntryId = 203005,
+    TextDetail = "WikiText_20300501",
+    TextId = 20300501,
+    TextRelatedDialogue = {12012609},
+    TextUnlock = 20300501
+  },
+  [20300502] = {
+    EntryId = 203005,
+    TextDetail = "WikiText_20300502",
+    TextId = 20300502,
+    TextRelatedDialogue = 12013501,
+    TextUnlock = 20300502
+  },
+  [20300601] = {
+    EntryId = 203006,
+    TextDetail = "WikiText_20300601",
+    TextId = 20300601,
+    TextRelatedDialogue = 12013101,
+    TextUnlock = 20300601
+  },
+  [20300602] = {
+    EntryId = 203006,
+    TextDetail = "WikiText_20300602",
+    TextId = 20300602,
+    TextRelatedDialogue = {12015513},
+    TextUnlock = 20300602
+  },
+  [20300701] = {
+    EntryId = 203007,
+    TextDetail = "WikiText_20300701",
+    TextId = 20300701,
+    TextRelatedDialogue = {12019301},
+    TextUnlock = 20300701
   },
   [20400101] = {
     EntryId = 204001,
@@ -525,6 +646,27 @@ return ReadOnly("WikiText", {
     TextRelatedDialogue = 10100401,
     TextUnlock = 30100601
   },
+  [30100701] = {
+    EntryId = 301007,
+    TextDetail = "WikiText_30100701",
+    TextId = 30100701,
+    TextRelatedDialogue = 12010801,
+    TextUnlock = 30100701
+  },
+  [30100801] = {
+    EntryId = 301008,
+    TextDetail = "WikiText_30100801",
+    TextId = 30100801,
+    TextRelatedDialogue = {12013420},
+    TextUnlock = 30100801
+  },
+  [30100901] = {
+    EntryId = 301009,
+    TextDetail = "WikiText_30100901",
+    TextId = 30100901,
+    TextRelatedDialogue = 12014001,
+    TextUnlock = 30100901
+  },
   [30300101] = {
     EntryId = 303001,
     TextDetail = "WikiText_30300101",
@@ -613,6 +755,69 @@ return ReadOnly("WikiText", {
     TextRelatedDialogue = 10102401,
     TextUnlock = 30300701
   },
+  [30300801] = {
+    EntryId = 303008,
+    TextDetail = "WikiText_30300801",
+    TextId = 30300801,
+    TextRelatedDialogue = 12010201,
+    TextUnlock = 30300801
+  },
+  [30300901] = {
+    EntryId = 303009,
+    TextDetail = "WikiText_30300901",
+    TextId = 30300901,
+    TextRelatedDialogue = 12010227,
+    TextUnlock = 30300901
+  },
+  [30300902] = {
+    EntryId = 303009,
+    TextDetail = "WikiText_30300902",
+    TextId = 30300902,
+    TextRelatedDialogue = 12010401,
+    TextUnlock = 30300902
+  },
+  [30301001] = {
+    EntryId = 303010,
+    TextDetail = "WikiText_30301001",
+    TextId = 30301001,
+    TextRelatedDialogue = 12010508,
+    TextUnlock = 30301001
+  },
+  [30301101] = {
+    EntryId = 303011,
+    TextDetail = "WikiText_30301101",
+    TextId = 30301101,
+    TextRelatedDialogue = 12010801,
+    TextUnlock = 30301101
+  },
+  [30301102] = {
+    EntryId = 303011,
+    TextDetail = "WikiText_30301102",
+    TextId = 30301102,
+    TextRelatedDialogue = {12022001},
+    TextUnlock = 30301102
+  },
+  [30301103] = {
+    EntryId = 303011,
+    TextDetail = "WikiText_30301103",
+    TextId = 30301103,
+    TextRelatedDialogue = {12022008},
+    TextUnlock = 30301103
+  },
+  [30301201] = {
+    EntryId = 303012,
+    TextDetail = "WikiText_30301201",
+    TextId = 30301201,
+    TextRelatedDialogue = 12014001,
+    TextUnlock = 30301201
+  },
+  [30301202] = {
+    EntryId = 303012,
+    TextDetail = "WikiText_30301202",
+    TextId = 30301202,
+    TextRelatedDialogue = {12014401},
+    TextUnlock = 30301202
+  },
   [30400101] = {
     EntryId = 304001,
     TextDetail = "WikiText_30400101",
@@ -639,6 +844,69 @@ return ReadOnly("WikiText", {
     TextRelatedDialogue = {10113101},
     TextUnlock = 30400203
   },
+  [30400301] = {
+    EntryId = 304003,
+    TextDetail = "WikiText_30400301",
+    TextId = 30400301,
+    TextRelatedDialogue = 12010227,
+    TextUnlock = 30400301
+  },
+  [30400302] = {
+    EntryId = 304003,
+    TextDetail = "WikiText_30400302",
+    TextId = 30400302,
+    TextRelatedDialogue = 12010429,
+    TextUnlock = 30400302
+  },
+  [30400303] = {
+    EntryId = 304003,
+    TextDetail = "WikiText_30400303",
+    TextId = 30400303,
+    TextRelatedDialogue = {12012315},
+    TextUnlock = 30400303
+  },
+  [30400401] = {
+    EntryId = 304004,
+    TextDetail = "WikiText_30400401",
+    TextId = 30400401,
+    TextRelatedDialogue = 12010301,
+    TextUnlock = 30400401
+  },
+  [30400501] = {
+    EntryId = 304005,
+    TextDetail = "WikiText_30400501",
+    TextId = 30400501,
+    TextRelatedDialogue = 12013101,
+    TextUnlock = 30400501
+  },
+  [30400502] = {
+    EntryId = 304005,
+    TextDetail = "WikiText_30400502",
+    TextId = 30400502,
+    TextRelatedDialogue = 12013201,
+    TextUnlock = 30400502
+  },
+  [30400601] = {
+    EntryId = 304006,
+    TextDetail = "WikiText_30400601",
+    TextId = 30400601,
+    TextRelatedDialogue = {12013418},
+    TextUnlock = 30400601
+  },
+  [30400701] = {
+    EntryId = 304007,
+    TextDetail = "WikiText_30400701",
+    TextId = 30400701,
+    TextRelatedDialogue = {12013419},
+    TextUnlock = 30400701
+  },
+  [30400801] = {
+    EntryId = 304008,
+    TextDetail = "WikiText_30400801",
+    TextId = 30400801,
+    TextRelatedDialogue = {12015901},
+    TextUnlock = 30400801
+  },
   [40100101] = {
     EntryId = 401001,
     TextDetail = "WikiText_40100101",
@@ -653,12 +921,33 @@ return ReadOnly("WikiText", {
     TextRelatedDialogue = 10033914,
     TextUnlock = 40100201
   },
+  [40100301] = {
+    EntryId = 401003,
+    TextDetail = "WikiText_40100301",
+    TextId = 40100301,
+    TextRelatedDialogue = {12022901},
+    TextUnlock = 40100301
+  },
+  [40100401] = {
+    EntryId = 401004,
+    TextDetail = "WikiText_40100401",
+    TextId = 40100401,
+    TextRelatedDialogue = {12015501},
+    TextUnlock = 40100401
+  },
   [40200101] = {
     EntryId = 402001,
     TextDetail = "WikiText_40200101",
     TextId = 40200101,
     TextRelatedDialogue = {10125901},
     TextUnlock = 40200101
+  },
+  [40200201] = {
+    EntryId = 402002,
+    TextDetail = "WikiText_40200201",
+    TextId = 40200201,
+    TextRelatedDialogue = {51010322},
+    TextUnlock = 40200201
   },
   [40300101] = {
     EntryId = 403001,
@@ -677,7 +966,7 @@ return ReadOnly("WikiText", {
     EntryId = 403003,
     TextDetail = "WikiText_40300301",
     TextId = 40300301,
-    TextRelatedDialogue = 11013601,
+    TextRelatedDialogue = 11018819,
     TextUnlock = 40300301
   },
   [40300401] = {
@@ -692,6 +981,41 @@ return ReadOnly("WikiText", {
     TextId = 40300402,
     TextRelatedDialogue = {10037623},
     TextUnlock = 40300402
+  },
+  [40300501] = {
+    EntryId = 403005,
+    TextDetail = "WikiText_40300501",
+    TextId = 40300501,
+    TextRelatedDialogue = 12010113,
+    TextUnlock = 40300501
+  },
+  [40300502] = {
+    EntryId = 403005,
+    TextDetail = "WikiText_40300502",
+    TextId = 40300502,
+    TextRelatedDialogue = 12010508,
+    TextUnlock = 40300502
+  },
+  [40300503] = {
+    EntryId = 403005,
+    TextDetail = "WikiText_40300503",
+    TextId = 40300503,
+    TextRelatedDialogue = 12010601,
+    TextUnlock = 40300503
+  },
+  [40300601] = {
+    EntryId = 403006,
+    TextDetail = "WikiText_40300601",
+    TextId = 40300601,
+    TextRelatedDialogue = {12012701},
+    TextUnlock = 40300601
+  },
+  [40300701] = {
+    EntryId = 403007,
+    TextDetail = "WikiText_40300701",
+    TextId = 40300701,
+    TextRelatedDialogue = {12018901},
+    TextUnlock = 40300701
   },
   [40400101] = {
     EntryId = 404001,
@@ -819,6 +1143,69 @@ return ReadOnly("WikiText", {
     TextRelatedDialogue = 10031210,
     TextUnlock = 40500601
   },
+  [40500701] = {
+    EntryId = 405007,
+    TextDetail = "WikiText_40500701",
+    TextId = 40500701,
+    TextRelatedDialogue = 12010001,
+    TextUnlock = 40500701
+  },
+  [40500801] = {
+    EntryId = 405008,
+    TextDetail = "WikiText_40500801",
+    TextId = 40500801,
+    TextRelatedDialogue = 12010113,
+    TextUnlock = 40500801
+  },
+  [40500901] = {
+    EntryId = 405009,
+    TextDetail = "WikiText_40500901",
+    TextId = 40500901,
+    TextRelatedDialogue = 12010401,
+    TextUnlock = 40500901
+  },
+  [40500902] = {
+    EntryId = 405009,
+    TextDetail = "WikiText_40500902",
+    TextId = 40500902,
+    TextRelatedDialogue = 12010429,
+    TextUnlock = 40500902
+  },
+  [40501001] = {
+    EntryId = 405010,
+    TextDetail = "WikiText_40501001",
+    TextId = 40501001,
+    TextRelatedDialogue = 12010401,
+    TextUnlock = 40501001
+  },
+  [40501002] = {
+    EntryId = 405010,
+    TextDetail = "WikiText_40501002",
+    TextId = 40501002,
+    TextRelatedDialogue = 12012001,
+    TextUnlock = 40501002
+  },
+  [40501101] = {
+    EntryId = 405011,
+    TextDetail = "WikiText_40501101",
+    TextId = 40501101,
+    TextRelatedDialogue = 12010508,
+    TextUnlock = 40501101
+  },
+  [40501201] = {
+    EntryId = 405012,
+    TextDetail = "WikiText_40501201",
+    TextId = 40501201,
+    TextRelatedDialogue = 12013101,
+    TextUnlock = 40501201
+  },
+  [40501301] = {
+    EntryId = 405013,
+    TextDetail = "WikiText_40501301",
+    TextId = 40501301,
+    TextRelatedDialogue = 12013201,
+    TextUnlock = 40501301
+  },
   [40600101] = {
     EntryId = 406001,
     TextDetail = "WikiText_40600101",
@@ -840,11 +1227,25 @@ return ReadOnly("WikiText", {
     TextRelatedDialogue = {10032501},
     TextUnlock = 40600301
   },
+  [40600401] = {
+    EntryId = 406004,
+    TextDetail = "WikiText_40600401",
+    TextId = 40600401,
+    TextRelatedDialogue = 12010301,
+    TextUnlock = 40600401
+  },
+  [40600501] = {
+    EntryId = 406005,
+    TextDetail = "WikiText_40600501",
+    TextId = 40600501,
+    TextRelatedDialogue = 12013501,
+    TextUnlock = 40600501
+  },
   [40700101] = {
     EntryId = 407001,
     TextDetail = "WikiText_40700101",
     TextId = 40700101,
-    TextRelatedDialogue = {11011301},
+    TextRelatedDialogue = {11011302},
     TextUnlock = 40700101
   },
   [40700201] = {
@@ -868,6 +1269,34 @@ return ReadOnly("WikiText", {
     TextRelatedDialogue = {10032701},
     TextUnlock = 40700401
   },
+  [40700501] = {
+    EntryId = 407005,
+    TextDetail = "WikiText_40700501",
+    TextId = 40700501,
+    TextRelatedDialogue = 12010113,
+    TextUnlock = 40700501
+  },
+  [40700601] = {
+    EntryId = 407006,
+    TextDetail = "WikiText_40700601",
+    TextId = 40700601,
+    TextRelatedDialogue = 12010601,
+    TextUnlock = 40700601
+  },
+  [40700701] = {
+    EntryId = 407007,
+    TextDetail = "WikiText_40700701",
+    TextId = 40700701,
+    TextRelatedDialogue = {12010709},
+    TextUnlock = 40700701
+  },
+  [40700801] = {
+    EntryId = 407008,
+    TextDetail = "WikiText_40700801",
+    TextId = 40700801,
+    TextRelatedDialogue = {12013410},
+    TextUnlock = 40700801
+  },
   [40800101] = {
     EntryId = 408001,
     TextDetail = "WikiText_40800101",
@@ -879,7 +1308,7 @@ return ReadOnly("WikiText", {
     EntryId = 408002,
     TextDetail = "WikiText_40800201",
     TextId = 40800201,
-    TextRelatedDialogue = {10012801},
+    TextRelatedDialogue = {10019401},
     TextUnlock = 40800201
   },
   [40800301] = {
@@ -956,5 +1385,53 @@ return ReadOnly("WikiText", {
     TextId = 40800901,
     TextRelatedDialogue = 11017101,
     TextUnlock = 40800901
+  },
+  [40801001] = {
+    EntryId = 408010,
+    TextDetail = "WikiText_40801001",
+    TextId = 40801001,
+    TextUnlock = 40801001
+  },
+  [40801002] = {
+    EntryId = 408010,
+    TextDetail = "WikiText_40801002",
+    TextId = 40801002,
+    TextRelatedDialogue = {12010014},
+    TextUnlock = 40801002
+  },
+  [40801101] = {
+    EntryId = 408011,
+    TextDetail = "WikiText_40801101",
+    TextId = 40801101,
+    TextRelatedDialogue = 12010001,
+    TextUnlock = 40801101
+  },
+  [40801201] = {
+    EntryId = 408012,
+    TextDetail = "WikiText_40801201",
+    TextId = 40801201,
+    TextRelatedDialogue = {12010901},
+    TextUnlock = 40801201
+  },
+  [40801301] = {
+    EntryId = 408013,
+    TextDetail = "WikiText_40801301",
+    TextId = 40801301,
+    TextRelatedDialogue = 12014001,
+    TextUnlock = 40801301
+  },
+  [40801401] = {
+    EntryId = 408014,
+    TextDetail = "WikiText_40801401",
+    TextId = 40801401,
+    TextRelatedDialogue = {12018601},
+    TextUnlock = 40801401
+  },
+  [40801501] = {
+    EntryId = 408015,
+    TextDetail = "WikiText_40801501",
+    TextId = 40801501,
+    TextRelatedDialogue = {12020701},
+    TextUnlock = 40801501
   }
 })

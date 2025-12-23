@@ -4,7 +4,7 @@ return ReadOnly("SystemUI", {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/Mobile/Shop/WBP_Rouge_ItemUpgrade_M.WBP_Rouge_ItemUpgrade_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/Shop/WBP_Rouge_ItemUpgrade_P.WBP_Rouge_ItemUpgrade_P'",
     UIName = " RougeUpgradeTip",
-    ZOrder = 101
+    ZOrder = 99
   },
   AbyssEntry = {
     ConfigName = "OnlyUIMode",
@@ -89,8 +89,15 @@ return ReadOnly("SystemUI", {
     Popup = true,
     UIName = "AchievementSystem"
   },
+  ActionOnline = {
+    ConfigName = "StackAndUIMode",
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/Online_Action/WBP_Battle_OnlineAction_M.WBP_Battle_OnlineAction_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/PC/Online_Action/WBP_Battle_OnlineAction_P.WBP_Battle_OnlineAction_P'",
+    UIName = "ActionOnline",
+    ZOrder = 52
+  },
   ActivityEastTask = {
-    ConfigName = "OnlyUIMode",
+    ConfigName = "StackAndUIMode",
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Mobile/East/Season01/WBP_Activity_East_Sason01_Task_M.WBP_Activity_East_Sason01_Task_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/PC/East/Season01/WBP_Activity_East_Sason01_Task_P.WBP_Activity_East_Sason01_Task_P'",
     UIName = "ActivityEastTask",
@@ -104,7 +111,7 @@ return ReadOnly("SystemUI", {
     ZOrder = 56
   },
   ActivityFortTask = {
-    ConfigName = "OnlyUIMode",
+    ConfigName = "StackAndUIMode",
     IsHideBattleUnit = 1,
     IsStopGame = 1,
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Mobile/Fort/WBP_Activity_Fort_Task_M.WBP_Activity_Fort_Task_M'",
@@ -135,15 +142,6 @@ return ReadOnly("SystemUI", {
     UIName = "ActivityMain",
     ZOrder = 55
   },
-  ActivitySettlement = {
-    ConditionShowStateTags = {
-      "Talk"
-    },
-    ConfigName = "OnlyUIMode",
-    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Mobile/WBP_Activity_Settlement_M.WBP_Activity_Settlement_M'",
-    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/PC/WBP_Activity_Settlement_P.WBP_Activity_Settlement_P'",
-    UIName = "ActivitySettlement"
-  },
   ActivityShop = {
     ConfigName = "OnlyUIMode",
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Mobile/Shop/WBP_Activity_Shop_M.WBP_Activity_Shop_M'",
@@ -151,11 +149,26 @@ return ReadOnly("SystemUI", {
     Popup = true,
     UIName = "ActivityShop"
   },
+  ActivityTempleSoloTask = {
+    ConfigName = "StackAndUIMode",
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Mobile/Temple/Solo/WBP_Activity_Temple_Solo_LevelDetail_M.WBP_Activity_Temple_Solo_LevelDetail_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/PC/Temple/Solo/WBP_Activity_Temple_Solo_LevelDetail_P.WBP_Activity_Temple_Solo_LevelDetail_P'",
+    UIName = "ActivityTempleSoloTask",
+    ZOrder = 56
+  },
   ActivityTheaterTask = {
-    ConfigName = "OnlyUIMode",
+    ConfigName = "StackAndUIMode",
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Mobile/TheaterOnline/WBP_Activity_Theater_Task_M.WBP_Activity_Theater_Task_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/PC/TheaterOnline/WBP_Activity_Theater_Task_P.WBP_Activity_Theater_Task_P'",
+    Popup = true,
     UIName = "ActivityTheaterTask",
+    ZOrder = 56
+  },
+  ActivityWuyoushengMain = {
+    ConfigName = "StackAndUIMode",
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Mobile/Wuyousheng/WBP_Activity_Wuyousheng_Main_M.WBP_Activity_Wuyousheng_Main_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/PC/Wuyousheng/WBP_Activity_Wuyousheng_Main_P.WBP_Activity_Wuyousheng_Main_P'",
+    UIName = "ActivityWuyoushengMain",
     ZOrder = 56
   },
   AimLock = {
@@ -182,23 +195,11 @@ return ReadOnly("SystemUI", {
   },
   AnglingNewFish = {
     ConfigName = "StackAndUIMode",
-    IsStopGame = 1,
+    IsStopGame = 2,
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Angling/Widget/WBP_Angling_FishUnlock.WBP_Angling_FishUnlock'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Angling/Widget/WBP_Angling_FishUnlock.WBP_Angling_FishUnlock'",
     Popup = true,
     UIName = "AnglingNewFish"
-  },
-  AnnouncementMain = {
-    ConfigName = "StackAndUIMode",
-    IsStopGame = 2,
-    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Announcement/Widget/WBP_Announcement_Main.WBP_Announcement_Main'",
-    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Announcement/Widget/WBP_Announcement_Main.WBP_Announcement_Main'",
-    Params = {
-      IsAllowEscape = 1
-    },
-    Popup = true,
-    System = "Announcement",
-    UIName = "AnnouncementMain"
   },
   ArchiveBookDetail = {
     ConfigName = "OnlyUIMode",
@@ -397,12 +398,24 @@ return ReadOnly("SystemUI", {
     },
     StateTag = 1,
     System = "Armory",
-    TabCoin = {
-      99,
-      100,
-      110
-    },
+    TabCoin = {100},
     UIName = "ArmorySkin",
+    ZOrder = 55
+  },
+  ArmorySkinVideo = {
+    ConfigName = "StackAndUIMode",
+    GlobalGameUITag = "Armory",
+    IsHideDrop = true,
+    IsStopGame = 2,
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Armory/Widget/Appearance/WBP_Armory_SkinVideo.WBP_Armory_SkinVideo'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Armory/Widget/Appearance/WBP_Armory_SkinVideo.WBP_Armory_SkinVideo'",
+    Popup = true,
+    SpecialUINameList = {
+      "GuideBook_Tips"
+    },
+    StateTag = 1,
+    System = "Armory",
+    UIName = "ArmorySkinVideo",
     ZOrder = 55
   },
   ArmoryTraceDetails = {
@@ -572,7 +585,7 @@ return ReadOnly("SystemUI", {
   BlackScreeCharChange = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/ChapterStart/Widget/WBP_Chapter_CharChange.WBP_Chapter_CharChange'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/ChapterStart/Widget/WBP_Chapter_CharChange.WBP_Chapter_CharChange'",
-    UIName = "BlackScreeCharChange ",
+    UIName = "BlackScreeCharChange",
     ZOrder = 105
   },
   BlackScreenHeadPhone = {
@@ -638,6 +651,14 @@ return ReadOnly("SystemUI", {
     UIName = "BrokenShieldEffect",
     ZOrder = 8
   },
+  ChapterStart_East_YanJinDu = {
+    ConditionShowStateTags = {
+      "Talk"
+    },
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/ChapterStart/Widget/WBP_ChapterStart_East_YanJinDu.WBP_ChapterStart_East_YanJinDu'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/ChapterStart/Widget/WBP_ChapterStart_East_YanJinDu.WBP_ChapterStart_East_YanJinDu'",
+    UIName = "ChapterStart_East_YanJinDu"
+  },
   ChapterStart_IceLakeCity = {
     ConditionShowStateTags = {
       "Talk"
@@ -663,6 +684,10 @@ return ReadOnly("SystemUI", {
   CharLevelUp = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Char_LevelUp.WBP_Char_LevelUp'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Char_LevelUp.WBP_Char_LevelUp'",
+    SpecialUINameList = {
+      "RegionOnlineFloat"
+    },
+    StateTag = 1,
     System = "Battle",
     UIName = "CharLevelUp",
     ZOrder = -9
@@ -801,6 +826,27 @@ return ReadOnly("SystemUI", {
     UIName = "ConnectLine",
     ZOrder = 50
   },
+  CustomHUDSetting = {
+    ConfigName = "StackAndUIMode",
+    IsStopGame = 1,
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/WBP_SettingCustomBtn_M.WBP_SettingCustomBtn_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/WBP_SettingCustomBtn_M.WBP_SettingCustomBtn_M'",
+    Popup = true,
+    UIName = "CustomHUDSetting"
+  },
+  DayAndNight = {
+    CombatconditionIdList = {11},
+    ConditiontextList = {
+      "UI_Toast_OpenSys_InCombat"
+    },
+    ConfigName = "StackAndUIMode",
+    IsStopGame = 1,
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/DayAndNight/Mobile/WBP_DayAndNight_M.WBP_DayAndNight_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/DayAndNight/PC/WBP_DayAndNight_P.WBP_DayAndNight_P'",
+    System = "PersonInfo",
+    UIName = "DayAndNight",
+    ZOrder = 55
+  },
   DefeatedInteract = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/PC/WBP_Battle_Execute_P.WBP_Battle_Execute_P_C'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/PC/WBP_Battle_Execute_P.WBP_Battle_Execute_P_C'",
@@ -823,6 +869,9 @@ return ReadOnly("SystemUI", {
     UIName = "DestoryAlarm"
   },
   DetectiveAssociate = {
+    ConditionShowStateTags = {
+      "Talk"
+    },
     ConfigName = "OnlyUIMode",
     IsHideBattleUnit = 1,
     IsHideDrop = true,
@@ -834,6 +883,9 @@ return ReadOnly("SystemUI", {
     ZOrder = 61
   },
   DetectiveAssociateSuccess = {
+    ConditionShowStateTags = {
+      "Talk"
+    },
     ConfigName = "OnlyUIMode",
     IsHideBattleUnit = 1,
     IsHideDrop = true,
@@ -1216,6 +1268,12 @@ return ReadOnly("SystemUI", {
     TabCoin = {99, 100},
     UIName = "GachaMain"
   },
+  GameReview = {
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/GameReview/WBP_GameReview_Main.WBP_GameReview_Main'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/GameReview/WBP_GameReview_Main.WBP_GameReview_Main'",
+    UIName = "GameReview",
+    ZOrder = 105
+  },
   GetCharPage = {
     ConditionShowStateTags = {
       "Talk"
@@ -1288,6 +1346,17 @@ return ReadOnly("SystemUI", {
     System = "Common",
     UIName = "GetWeaponPage",
     ZOrder = 99
+  },
+  GlobalWebBrowser = {
+    ConfigName = "UIModeAndForceShow",
+    IsStopGame = 2,
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Menu/Widget/WBP_InnerWebBrowser.WBP_InnerWebBrowser'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Menu/Widget/WBP_InnerWebBrowser.WBP_InnerWebBrowser'",
+    Params = {
+      IsAllowEscape = 1
+    },
+    UIName = "GlobalWebBrowser",
+    ZOrder = 101
   },
   GuideBook = {
     ConfigName = "OnlyUIMode",
@@ -1390,10 +1459,47 @@ return ReadOnly("SystemUI", {
     UIName = "GuideTouch",
     ZOrder = 103
   },
+  GuildWarEnvironment = {
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_Environment.WBP_Activity_GuildWar_Environment'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_Environment.WBP_Activity_GuildWar_Environment'",
+    UIName = "GuildWarEnvironment",
+    ZOrder = 56
+  },
+  GuildWarGroupConfirm = {
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_GroupConfirm.WBP_Activity_GuildWar_GroupConfirm'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_GroupConfirm.WBP_Activity_GuildWar_GroupConfirm'",
+    UIName = "GuildWarGroupConfirm",
+    ZOrder = 56
+  },
+  GuildWarLevel = {
+    ConfigName = "StackAndUIMode",
+    IsHideBattleUnit = 11,
+    IsStopGame = 2,
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Mobile/GuildWar/WBP_Activity_GuildWar_LevelSelect_M.WBP_Activity_GuildWar_LevelSelect_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/PC/GuildWar/WBP_Activity_GuildWar_LevelSelect_P.WBP_Activity_GuildWar_LevelSelect_P'",
+    Popup = true,
+    PopupInfoId = 100279,
+    TabCoin = {217, 218},
+    UIName = "GuildWarLevel",
+    ZOrder = 56
+  },
+  GuildWarRank = {
+    ConfigName = "StackAndUIMode",
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Mobile/GuildWar/WBP_Activity_GuildWar_Ranking_M.WBP_Activity_GuildWar_Ranking_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/PC/GuildWar/WBP_Activity_GuildWar_Ranking_P.WBP_Activity_GuildWar_Ranking_P'",
+    UIName = "GuildWarRank"
+  },
+  GuildWarRewardPop = {
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_Reward.WBP_Activity_GuildWar_Reward'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_Reward.WBP_Activity_GuildWar_Reward'",
+    UIName = "GuildWarRewardPop",
+    ZOrder = 56
+  },
   HardBossBattleOpen = {
     ConfigName = "UIModeAndNotAddToStack",
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Play/Widget/HardBoss/WBP_Play_HardBoss_BattleOpen.WBP_Play_HardBoss_BattleOpen'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Play/Widget/HardBoss/WBP_Play_HardBoss_BattleOpen.WBP_Play_HardBoss_BattleOpen'",
+    Popup = true,
     System = "Hardboss",
     UIName = "HardBossBattleOpen",
     ZOrder = 66
@@ -1410,20 +1516,11 @@ return ReadOnly("SystemUI", {
     UIName = "HardBossLevelChoose",
     ZOrder = -2
   },
-  HardBossMain = {
-    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Play/Widget/HardBoss/WBP_Play_HardBoss_Main.WBP_Play_HardBoss_Main'",
-    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Play/Widget/HardBoss/WBP_Play_HardBoss_Main.WBP_Play_HardBoss_Main'",
-    Popup = true,
-    System = "Hardboss",
-    TabCoin = {
-      101, 102
-    },
-    UIName = "HardBossMain"
-  },
   HardBossMapTips = {
     IsBanAccess = true,
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Play/Widget/HardBoss/WBP_Play_HardBoss_MapTips.WBP_Play_HardBoss_MapTips'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Play/Widget/HardBoss/WBP_Play_HardBoss_MapTips.WBP_Play_HardBoss_MapTips'",
+    Popup = true,
     System = "Hardboss",
     TabCoin = {
       101, 102
@@ -1456,6 +1553,7 @@ return ReadOnly("SystemUI", {
     ConditionShowStateTags = {
       "Talk"
     },
+    IsBanAccess = true,
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Impression/Mobile/WBP_Impression_M.WBP_Impression_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Impression/PC/WBP_Impression_P.WBP_Impression_P'",
     System = "Story",
@@ -1494,6 +1592,15 @@ return ReadOnly("SystemUI", {
     System = "Battle",
     UIName = "ItemInformation",
     ZOrder = 102
+  },
+  LayoutPlan = {
+    ConfigName = "StackAndUIMode",
+    IsStopGame = 2,
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/WBP_Battle_LayoutPlan_M.WBP_Battle_LayoutPlan_M'",
+    PauseAfterLoadingState = {"LayoutPlan"},
+    Popup = true,
+    UIName = "LayoutPlan",
+    ZOrder = 101
   },
   LevelMapMain = {
     ConfigName = "StackAndFullScreen",
@@ -1588,7 +1695,9 @@ return ReadOnly("SystemUI", {
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/ModArchive/Widget/WBP_ModArchive_HudTips.WBP_ModArchive_HudTips'",
     SpecialUINameList = {
       "SubSystemUnlock",
-      "GuideBook_Tips"
+      "GuideBook_Tips",
+      "CommonNewMonster",
+      "AchievementPanel"
     },
     StateTag = 1,
     System = "ModArchive",
@@ -1625,6 +1734,21 @@ return ReadOnly("SystemUI", {
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/MiniGame/PC/WBP_MiniGame_Mima_P.WBP_MiniGame_Mima_P'",
     Popup = true,
     UIName = "Morse"
+  },
+  MountsMain = {
+    ConfigName = "StackAndUIMode",
+    IsHideBattleUnit = 1,
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Mounts/Mobile/WBP_MountsMain_M.WBP_MountsMain_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Mounts/PC/WBP_MountsMain_P.WBP_MountsMain_P'",
+    UIName = "MountsMain"
+  },
+  MultiplayerChallenge = {
+    ConfigName = "StackAndUIMode",
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/AreaCoop/Widget/WBP_AreaCoop_LevelChoose.WBP_AreaCoop_LevelChoose'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/AreaCoop/Widget/WBP_AreaCoop_LevelChoose.WBP_AreaCoop_LevelChoose'",
+    Popup = true,
+    UIName = "MultiplayerChallenge",
+    ZOrder = -2
   },
   NearDeathBlood = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/WBP_Battle_NearDeath_M.WBP_Battle_NearDeath_M'",
@@ -1926,7 +2050,7 @@ return ReadOnly("SystemUI", {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/Mobile/GetItemTips/WBP_Rouge_GetItemTips_M.WBP_Rouge_GetItemTips_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/GetItemTips/WBP_Rouge_GetItemTips_P.WBP_Rouge_GetItemTips_P'",
     UIName = "RougeGetItemsTip",
-    ZOrder = 101
+    ZOrder = 99
   },
   RougeItemDetailPopUp = {
     ConfigName = "OnlyUIMode",
@@ -1940,7 +2064,7 @@ return ReadOnly("SystemUI", {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/Mobile/WBP_Rouge_Heat_M.WBP_Rouge_Heat_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/WBP_Rouge_Heat_P.WBP_Rouge_Heat_P'",
     UIName = "RougeLikeContractPanel",
-    ZOrder = 99
+    ZOrder = 58
   },
   RougeLikeEnterToastUI = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/Widget/WBP_Rouge_EnterToast.WBP_Rouge_EnterToast_C'",
@@ -1958,14 +2082,14 @@ return ReadOnly("SystemUI", {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/Mobile/WBP_Rouge_MenuHeatPage_M.WBP_Rouge_MenuHeatPage_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/WBP_Rouge_MenuHeatPage_P.WBP_Rouge_MenuHeatPage_P'",
     UIName = "RougeLikeMenuContractPanel",
-    ZOrder = 53
+    ZOrder = 58
   },
   RougeMain = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/WBP_Rouge_Main_P.WBP_Rouge_Main_P'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/WBP_Rouge_Main_P.WBP_Rouge_Main_P'",
     TabCoin = 205,
     UIName = "RougeMain",
-    ZOrder = 98
+    ZOrder = 50
   },
   RougeReward = {
     ConfigName = "OnlyUIMode",
@@ -2005,7 +2129,8 @@ return ReadOnly("SystemUI", {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/Mobile/TalentTree/WBP_Rouge_TalentPage_M.WBP_Rouge_TalentPage_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/RougeLike/PC/TalentTree/WBP_Rouge_TalentPage_P.WBP_Rouge_TalentPage_P'",
     TabCoin = 205,
-    UIName = "RougeTalentPage"
+    UIName = "RougeTalentPage",
+    ZOrder = 50
   },
   RougeTransition = {
     KeyboardSetName = "InDeliver",
@@ -2072,6 +2197,12 @@ return ReadOnly("SystemUI", {
     PCBPPath = "/Game/UI/WBP/RougeLike/PC/3Choose1/WBP_Rouge_Treasure3Choose1_P.WBP_Rouge_Treasure3Choose1_P_C",
     UIName = "Rouge_Treasure_3Choose1",
     ZOrder = 58
+  },
+  SWSCannonHUD = {
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Common/Progress/WBP_Com_ProgressOrgan.WBP_Com_ProgressOrgan'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Common/Progress/WBP_Com_ProgressOrgan.WBP_Com_ProgressOrgan'",
+    System = "BattleSubsystem",
+    UIName = "SWSCannonHUD"
   },
   SaiqiFantasy = {
     ConditionShowStateTags = {
@@ -2234,7 +2365,7 @@ return ReadOnly("SystemUI", {
     UIName = "StoryWeaponSelect"
   },
   StyleOfPlay = {
-    CombatconditionIdList = {21},
+    CombatconditionIdList = {506},
     ConfigName = "StackAndUIMode",
     GlobalGameUITag = "Play",
     IsChat = true,
@@ -2295,13 +2426,25 @@ return ReadOnly("SystemUI", {
     UIName = "TalkGuideUI"
   },
   TaskChapterBeginEndTip = {
-    IsStopGame = 1,
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Guide/Mobile/WBP_Guide_ChapterBegin_M.WBP_Guide_ChapterBegin_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Guide/PC/WBP_Guide_ChapterBegin_P.WBP_Guide_ChapterBegin_P'",
     PauseAfterLoadingState = {
       "MainLineQuest"
     },
+    SpecialUINameList = {
+      "CharLevelUp",
+      "RegionOnlineFloat"
+    },
+    StateTag = 1,
+    System = "Battle",
     UIName = "TaskChapterBeginEndTip"
+  },
+  TaskFullfillPopup = {
+    ConfigName = "StackAndUIMode",
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Task/Widget/WBP_Task_Fullfill_Popup.WBP_Task_Fullfill_Popup'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Task/Widget/WBP_Task_Fullfill_Popup.WBP_Task_Fullfill_Popup'",
+    Popup = true,
+    UIName = "TaskFullfillPopup"
   },
   TaskIndicator = {
     PCBPPath = "WidgetBlueprint'/Game/UI/UI_PC/Guide/Guide_Point/Guide_Icon_Task.Guide_Icon_Task'",
@@ -2333,6 +2476,14 @@ return ReadOnly("SystemUI", {
     UIName = "TeamInSystem",
     ZOrder = 20
   },
+  TeamInSystemSame = {
+    ConfigName = "OnlyAllowMulti",
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Team/PC/WBP_Team_Main_P.WBP_Team_Main_P'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Team/PC/WBP_Team_Main_P.WBP_Team_Main_P'",
+    System = "Team",
+    UIName = "TeamInSystemSame",
+    ZOrder = 20
+  },
   TeamInviteTip = {
     ConfigName = "Default",
     KeyboardSetName = "PopupConfirm",
@@ -2346,6 +2497,16 @@ return ReadOnly("SystemUI", {
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Team/Widget/WBP_Team_Toast.WBP_Team_Toast_C'",
     UIName = "TeamToast",
     ZOrder = 100
+  },
+  TheaterTaskTime = {
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Widget/TheaterOnline/WBP_Activity_TheaterTask.WBP_Activity_TheaterTask'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Widget/TheaterOnline/WBP_Activity_TheaterTask.WBP_Activity_TheaterTask'",
+    UIName = "TheaterTaskTime"
+  },
+  TheaterToast = {
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/Mobile/TheaterOnline/WBP_Activity_Theater_Toast_M.WBP_Activity_Theater_Toast_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Activity/PC/TheaterOnline/WBP_Activity_Theater_Toast_P.WBP_Activity_Theater_Toast_P'",
+    UIName = "TheaterToast"
   },
   TiaoPin = {
     ConfigName = "StackAndUIMode",
@@ -2367,6 +2528,14 @@ return ReadOnly("SystemUI", {
     System = "Training",
     UIName = "TrainingGroundSetup",
     ZOrder = 1
+  },
+  TrainingSettingPage = {
+    ConfigName = "OnlyUIMode",
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/Training/WBP_Battle_TrainingSettingPage_M.WBP_Battle_TrainingSettingPage_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Mobile/Training/WBP_Battle_TrainingSettingPage_M.WBP_Battle_TrainingSettingPage_M'",
+    System = "Training",
+    UIName = "TrainingSettingPage",
+    ZOrder = 52
   },
   TreasureToast = {
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Common/Toast/Mobile/WBP_Com_ToastTreasure_M.WBP_Com_ToastTreasure_M'",
@@ -2450,6 +2619,12 @@ return ReadOnly("SystemUI", {
     System = "Battle",
     UIName = "UISkillHeilong",
     ZOrder = -3
+  },
+  UISkillKami = {
+    ConfigName = "OnlyForceShow",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/ExclusiveSkill/WBP_Battle_Kami_Skill.WBP_Battle_Kami_Skill'",
+    System = "Battle",
+    UIName = "UISkillKami"
   },
   UISkillKezhou = {
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/ExclusiveSkill/WBP_Battle_KezhouSkill.WBP_Battle_KezhouSkill'",
@@ -2575,6 +2750,13 @@ return ReadOnly("SystemUI", {
     UIName = "Vote",
     ZOrder = 48
   },
+  WBP_Battle_Version = {
+    IfDevOnly = true,
+    IsGlobalUI = true,
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_Version.WBP_Battle_Version'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Battle/Widget/WBP_Battle_Version.WBP_Battle_Version'",
+    UIName = "WBP_Battle_Version"
+  },
   WalnutBagMain = {
     ConfigName = "StackAndUIMode",
     IsHideBattleUnit = 1,
@@ -2644,7 +2826,7 @@ return ReadOnly("SystemUI", {
     ZOrder = 53
   },
   Wiki = {
-    ConfigName = "OnlyUIMode",
+    ConfigName = "StackAndUIMode",
     IsStopGame = 1,
     MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Encyclopedia/Mobile/WBP_Encyclopedia_Entrance_M.WBP_Encyclopedia_Entrance_M'",
     PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Encyclopedia/PC/WBP_Encyclopedia_Entrance_P.WBP_Encyclopedia_Entrance_P'",
@@ -2664,6 +2846,11 @@ return ReadOnly("SystemUI", {
     System = "Wiki",
     UIName = "Wiki_Main",
     ZOrder = 54
+  },
+  ZhiLiuDoorQTE = {
+    MobileBPPath = "WidgetBlueprint'/Game/UI/WBP/Level/Mobile/WBP_Level_QTE_Zhiliu_M.WBP_Level_QTE_Zhiliu_M'",
+    PCBPPath = "WidgetBlueprint'/Game/UI/WBP/Level/PC/WBP_Level_QTE_Zhiliu_P.WBP_Level_QTE_Zhiliu_P'",
+    UIName = "ZhiLiuDoorQTE"
   },
   ZhiliuEventTask = {
     ConfigName = "StackAndUIMode",

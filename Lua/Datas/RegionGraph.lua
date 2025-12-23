@@ -439,6 +439,213 @@ return ReadOnly("RegionGraph", {
     },
     SubRegionStart = 102102
   },
+  [104102] = {
+    RegionStart = {
+      104102,
+      104103,
+      104104,
+      104105,
+      104106,
+      104107,
+      104108,
+      104109,
+      104110
+    },
+    SubRegionStart = 104102,
+    SubRegionTarget = {
+      RegionTarget = {
+        {
+  104901,
+  "TargetPoint_EnterQiuOffice",
+  1
+}
+      }
+    }
+  },
+  [104103] = {
+    RegionStart = {
+      104102,
+      104103,
+      104104,
+      104105,
+      104106,
+      104107,
+      104108,
+      104109,
+      104110
+    },
+    SubRegionStart = 104103,
+    SubRegionTarget = {
+      RegionTarget = {
+        {
+  104901,
+  "TargetPoint_EnterQiuOffice",
+  1
+}
+      }
+    }
+  },
+  [104104] = {
+    RegionStart = {
+      104102,
+      104103,
+      104104,
+      104105,
+      104106,
+      104107,
+      104108,
+      104109,
+      104110
+    },
+    SubRegionStart = 104104,
+    SubRegionTarget = {
+      RegionTarget = {
+        {
+  104901,
+  "TargetPoint_EnterQiuOffice",
+  1
+}
+      }
+    }
+  },
+  [104105] = {
+    RegionStart = {
+      104102,
+      104103,
+      104104,
+      104105,
+      104106,
+      104107,
+      104108,
+      104109,
+      104110
+    },
+    SubRegionStart = 104105,
+    SubRegionTarget = {
+      RegionTarget = {
+        {
+  104901,
+  "TargetPoint_EnterQiuOffice",
+  1
+}
+      }
+    }
+  },
+  [104106] = {
+    RegionStart = {
+      104102,
+      104103,
+      104104,
+      104105,
+      104106,
+      104107,
+      104108,
+      104109,
+      104110
+    },
+    SubRegionStart = 104106,
+    SubRegionTarget = {
+      RegionTarget = {
+        {
+  104901,
+  "TargetPoint_EnterQiuOffice",
+  1
+}
+      }
+    }
+  },
+  [104107] = {
+    RegionStart = {
+      104102,
+      104103,
+      104104,
+      104105,
+      104106,
+      104107,
+      104108,
+      104109,
+      104110
+    },
+    SubRegionStart = 104107,
+    SubRegionTarget = {
+      RegionTarget = {
+        {
+  104901,
+  "TargetPoint_EnterQiuOffice",
+  1
+}
+      }
+    }
+  },
+  [104108] = {
+    RegionStart = {
+      104102,
+      104103,
+      104104,
+      104105,
+      104106,
+      104107,
+      104108,
+      104109,
+      104110
+    },
+    SubRegionStart = 104108,
+    SubRegionTarget = {
+      RegionTarget = {
+        {
+  104901,
+  "TargetPoint_EnterQiuOffice",
+  1
+}
+      }
+    }
+  },
+  [104109] = {
+    RegionStart = {
+      104102,
+      104103,
+      104104,
+      104105,
+      104106,
+      104107,
+      104108,
+      104109,
+      104110
+    },
+    SubRegionStart = 104109,
+    SubRegionTarget = {
+      RegionTarget = {
+        {
+  104901,
+  "TargetPoint_EnterQiuOffice",
+  1
+}
+      }
+    }
+  },
+  [104110] = {
+    RegionStart = {
+      104102,
+      104103,
+      104104,
+      104105,
+      104106,
+      104107,
+      104108,
+      104109,
+      104110
+    },
+    SubRegionStart = 104110,
+    SubRegionTarget = {
+      RegionTarget = {
+        {
+  104901,
+  "TargetPoint_EnterQiuOffice",
+  1
+}
+      }
+    }
+  },
   [104901] = {
     SubRegionStart = 104901,
     SubRegionTarget = {

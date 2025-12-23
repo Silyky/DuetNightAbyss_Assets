@@ -70,23 +70,13 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_2090230"
+        StoryGuidePointName = "Mechanism_2090230",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
-          {
-            startQuest = "1753358093343572",
-            startPort = "QuestStart",
-            endQuest = "1755484441751581",
-            endPort = "In"
-          },
-          {
-            startQuest = "1755484441751581",
-            startPort = "Out",
-            endQuest = "17534266294761698",
-            endPort = "In"
-          },
           {
             startQuest = "17534266294761698",
             startPort = "Out",
@@ -100,16 +90,34 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17534266581982124",
-            startPort = "Out",
-            endQuest = "17554851012431765",
+            startQuest = "1753358093343572",
+            startPort = "QuestStart",
+            endQuest = "17534266294761698",
             endPort = "In"
           },
           {
-            startQuest = "17554851012431765",
+            startQuest = "17534266581982124",
+            startPort = "Out",
+            endQuest = "1763467294308436",
+            endPort = "In"
+          },
+          {
+            startQuest = "1763467294308436",
             startPort = "Out",
             endQuest = "1753527037161752",
             endPort = "In"
+          },
+          {
+            startQuest = "1753358093343572",
+            startPort = "QuestStart",
+            endQuest = "1764319633300496",
+            endPort = "In"
+          },
+          {
+            startQuest = "1764319633300496",
+            startPort = "Out",
+            endQuest = "1753358093344586",
+            endPort = "Fail"
           }
         },
         nodeData = {
@@ -124,14 +132,14 @@ return {
             key = "1753358093344579",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1824.496496711322, y = -68.89189981622104},
+            pos = {x = 2287.353639568465, y = 131.10810018377896},
             propsData = {ModeType = 0}
           },
           ["1753358093344586"] = {
             key = "1753358093344586",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2800, y = 700},
+            pos = {x = 2298.5714285714284, y = 535.7142857142857},
             propsData = {}
           },
           ["17534266294761698"] = {
@@ -156,9 +164,9 @@ return {
             propsData = {
               KillMonsterType = "Id",
               MonsterNeedNums = 2,
-              IsShow = true,
+              IsShow = false,
               GuideType = "N",
-              GuideName = "Monster_BiAn_2090161",
+              GuideName = "Mechanism_2090230",
               IsShowMonsterGuide = true,
               StaticCreatorIdList = {2090161, 2090162}
             }
@@ -187,29 +195,19 @@ return {
               OverrideFailBlend = false
             }
           },
-          ["1755484441751581"] = {
-            key = "1755484441751581",
-            type = "CreatePhantomNode",
-            name = "召唤/销毁剧情魅影",
-            pos = {x = 1242.1850649350654, y = 296.85026085026095},
-            propsData = {
-              IsCreate = true,
-              IsClearOtherPhantom = false,
-              IsSync = false,
-              StaticCreatorIdList = {2090342}
-            }
+          ["1763467294308436"] = {
+            key = "1763467294308436",
+            type = "WaitOfTimeNode",
+            name = "延迟等待",
+            pos = {x = 2002.0702770482806, y = 307.61831473139586},
+            propsData = {WaitTime = 2}
           },
-          ["17554851012431765"] = {
-            key = "17554851012431765",
-            type = "CreatePhantomNode",
-            name = "召唤/销毁剧情魅影",
-            pos = {x = 2030.1850649350654, y = 294.85026085026095},
-            propsData = {
-              IsCreate = false,
-              IsClearOtherPhantom = false,
-              IsSync = false,
-              StaticCreatorIdList = {2090342}
-            }
+          ["1764319633300496"] = {
+            key = "1764319633300496",
+            type = "WaitingSpecialQuestFailNode",
+            name = "等待特殊任务失败",
+            pos = {x = 1633.5384615384614, y = 543.4615384615385},
+            propsData = {}
           }
         },
         commentData = {}

@@ -1,4 +1,40 @@
 return ReadOnly("SurvivalMiniPro", {
+  [30601] = {
+    DungeonId = 30601,
+    MonsterSpawnId = 602,
+    SpMonsterSpawnId = 618,
+    SpMonsterSpawnTime = 40
+  },
+  [30602] = {
+    DungeonId = 30602,
+    MonsterSpawnId = 602,
+    SpMonsterSpawnId = 618,
+    SpMonsterSpawnTime = 40
+  },
+  [30603] = {
+    DungeonId = 30603,
+    MonsterSpawnId = 602,
+    SpMonsterSpawnId = 618,
+    SpMonsterSpawnTime = 40
+  },
+  [30604] = {
+    DungeonId = 30604,
+    MonsterSpawnId = 602,
+    SpMonsterSpawnId = 618,
+    SpMonsterSpawnTime = 40
+  },
+  [30605] = {
+    DungeonId = 30605,
+    MonsterSpawnId = 602,
+    SpMonsterSpawnId = 618,
+    SpMonsterSpawnTime = 40
+  },
+  [30606] = {
+    DungeonId = 30606,
+    MonsterSpawnId = 602,
+    SpMonsterSpawnId = 618,
+    SpMonsterSpawnTime = 40
+  },
   [60701] = {
     DungeonId = 60701,
     MonsterSpawnId = 601,
@@ -55,8 +91,8 @@ return ReadOnly("SurvivalMiniPro", {
   },
   [90604] = {
     DungeonId = 90604,
-    MonsterSpawnId = 601,
-    SpMonsterSpawnId = 612,
+    MonsterSpawnId = 200602,
+    SpMonsterSpawnId = 618,
     SpMonsterSpawnTime = 40
   },
   [90605] = {
@@ -76,5 +112,29 @@ return ReadOnly("SurvivalMiniPro", {
     MonsterSpawnId = 100601,
     SpMonsterSpawnId = {613},
     SpMonsterSpawnTime = 40
+  },
+  [91144] = {
+    DungeonId = 91144,
+    MonsterSpawnId = 200601,
+    SpMonsterSpawnId = {91144},
+    SpMonsterSpawnTime = 1
+  },
+  [91145] = {
+    DungeonId = 91145,
+    MonsterSpawnId = 200602,
+    SpMonsterSpawnId = {91145},
+    SpMonsterSpawnTime = 1
+  },
+  [91181] = {
+    DungeonId = 91181,
+    MonsterSpawnId = 200601,
+    SpMonsterSpawnId = {91181},
+    SpMonsterSpawnTime = 1
+  },
+  [91182] = {
+    DungeonId = 91182,
+    MonsterSpawnId = 200602,
+    SpMonsterSpawnId = {91182},
+    SpMonsterSpawnTime = 1
   }
 })

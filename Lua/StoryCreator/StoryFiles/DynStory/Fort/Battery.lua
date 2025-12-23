@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -349,6 +351,18 @@ return {
             startQuest = "1734946663111695402",
             startPort = "Out",
             endQuest = "17443550399244941113",
+            endPort = "In"
+          },
+          {
+            startQuest = "1734946641044694933",
+            startPort = "WeightBranch_1",
+            endQuest = "176189361281318378847",
+            endPort = "In"
+          },
+          {
+            startQuest = "1734946641044694933",
+            startPort = "WeightBranch_2",
+            endQuest = "176189362230618379087",
             endPort = "In"
           }
         },
@@ -972,6 +986,28 @@ return {
               StateId = 610033,
               IsGuideEnable = true,
               GuidePointName = "Drop_Dyn_1650516"
+            }
+          },
+          ["176189361281318378847"] = {
+            key = "176189361281318378847",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1115.2007223942207, y = -125.19401444788434},
+            propsData = {
+              NewDescription = "DynQuest_FortBattery_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189362230618379087"] = {
+            key = "176189362230618379087",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1118.7007223942207, y = 1682.3059855521155},
+            propsData = {
+              NewDescription = "DynQuest_FortBattery_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

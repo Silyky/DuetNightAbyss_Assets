@@ -9,60 +9,6 @@ return {
       endPort = "In"
     },
     {
-      startStory = "173027955144018163246",
-      startPort = "Success",
-      endStory = "1730376039493867",
-      endPort = "In"
-    },
-    {
-      startStory = "17304428894433154527",
-      startPort = "Success",
-      endStory = "17306883504171157",
-      endPort = "In"
-    },
-    {
-      startStory = "17306883504171157",
-      startPort = "Success",
-      endStory = "1730705513160408128",
-      endPort = "In"
-    },
-    {
-      startStory = "1730705513160408128",
-      startPort = "Success",
-      endStory = "17307071240024021459",
-      endPort = "In"
-    },
-    {
-      startStory = "17307071240024021459",
-      startPort = "Success",
-      endStory = "17307087592547637445",
-      endPort = "In"
-    },
-    {
-      startStory = "17307087592547637445",
-      startPort = "Success",
-      endStory = "17307092432499648427",
-      endPort = "In"
-    },
-    {
-      startStory = "17307092432499648427",
-      startPort = "Success",
-      endStory = "173070951718310853892",
-      endPort = "In"
-    },
-    {
-      startStory = "173070951718310853892",
-      startPort = "Success",
-      endStory = "173071010144912863815",
-      endPort = "In"
-    },
-    {
-      startStory = "173071010144912863815",
-      startPort = "Success",
-      endStory = "173071036030314069762",
-      endPort = "In"
-    },
-    {
       startStory = "173071205291817690514",
       startPort = "Success",
       endStory = "17307962001767295271",
@@ -87,12 +33,6 @@ return {
       endPort = "In"
     },
     {
-      startStory = "1730376039493867",
-      startPort = "Success",
-      endStory = "17414154533691564612",
-      endPort = "In"
-    },
-    {
       startStory = "17414154533691564612",
       startPort = "Success",
       endStory = "17501484720731287440",
@@ -113,14 +53,26 @@ return {
     {
       startStory = "173080027464112567025",
       startPort = "Success",
-      endStory = "17536985632864016862",
+      endStory = "17302779849025",
+      endPort = "StoryEnd"
+    },
+    {
+      startStory = "17629514992454019068",
+      startPort = "Success",
+      endStory = "1730376039493867",
       endPort = "In"
     },
     {
-      startStory = "17536985632864016862",
+      startStory = "1730376039493867",
       startPort = "Success",
-      endStory = "17302779849025",
-      endPort = "StoryEnd"
+      endStory = "17414154533691564612",
+      endPort = "In"
+    },
+    {
+      startStory = "173027955144018163246",
+      startPort = "Success",
+      endStory = "17629514992454019068",
+      endPort = "In"
     }
   },
   storyNodeData = {
@@ -129,7 +81,7 @@ return {
       key = "17302779849021",
       type = "StoryStartNode",
       name = "StoryStart",
-      pos = {x = 1690.7213720633424, y = 164.71880283110994},
+      pos = {x = 1789.89771554409, y = -242.40430077057152},
       propsData = {QuestChainId = 120105},
       questNodeData = {
         lineData = {},
@@ -142,7 +94,7 @@ return {
       key = "17302779849025",
       type = "StoryEndNode",
       name = "StoryEnd",
-      pos = {x = 4197.494125605872, y = -347.4393509164501},
+      pos = {x = 3860.525970303823, y = 565.7505829699901},
       propsData = {},
       questNodeData = {
         lineData = {},
@@ -155,7 +107,7 @@ return {
       key = "1730277995070232",
       type = "StoryNode",
       name = "前往虬先生办公室",
-      pos = {x = 2005.8113325009745, y = 25.81127543953619},
+      pos = {x = 2146.056925445467, y = -232.4859051953354},
       propsData = {
         QuestId = 12010501,
         QuestDescriptionComment = "",
@@ -178,8 +130,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -190,7 +144,19 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17536974818962008182",
+            startPort = "Out",
+            endQuest = "1730277995070239",
+            endPort = "In"
+          },
+          {
             startQuest = "17302876775582749664",
+            startPort = "Out",
+            endQuest = "17629519440334026933",
+            endPort = "In"
+          },
+          {
+            startQuest = "17629519440334026933",
             startPort = "Out",
             endQuest = "1730277995070237",
             endPort = "Success"
@@ -206,12 +172,6 @@ return {
             startPort = "Out",
             endQuest = "17536974818962008182",
             endPort = "In"
-          },
-          {
-            startQuest = "17536974818962008182",
-            startPort = "Out",
-            endQuest = "1730277995070239",
-            endPort = "In"
           }
         },
         nodeData = {
@@ -219,14 +179,14 @@ return {
             key = "1730277995070236",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 1635.5778432094223, y = 472.8671328671328},
+            pos = {x = 1252.3862509749792, y = 611.359086805274},
             propsData = {ModeType = 0}
           },
           ["1730277995070237"] = {
             key = "1730277995070237",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2837.0257008798526, y = 419.4957463853951},
+            pos = {x = 2915.768390938332, y = 597.5308341046933},
             propsData = {ModeType = 0}
           },
           ["1730277995070238"] = {
@@ -239,8 +199,8 @@ return {
           ["1730277995070239"] = {
             key = "1730277995070239",
             type = "GoToNode",
-            name = "前往虬先生办公室",
-            pos = {x = 2217.771239292285, y = 425.5723850782895},
+            name = "前往",
+            pos = {x = 2071.4045160325227, y = 589.4716493680463},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 2270009,
@@ -252,7 +212,7 @@ return {
             key = "17302876775582749664",
             type = "TalkNode",
             name = "站桩 - 和虬先生对话",
-            pos = {x = 2522.8432228590136, y = 506.03227951247555},
+            pos = {x = 2361.1322249340933, y = 589.5023794936112},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12018401,
@@ -260,7 +220,7 @@ return {
               TalkType = "FixSimple",
               TalkStageName = "East01_FixSimple_47",
               BlendInTime = 1,
-              BlendOutTime = 0.5,
+              BlendOutTime = 1,
               InType = "FadeIn",
               OutType = "FadeOut",
               ShowFadeDetail = false,
@@ -270,6 +230,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -304,16 +265,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 200002},
-                {TalkActorType = "Npc", TalkActorId = 210012},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -322,7 +279,7 @@ return {
             key = "17536974818962008182",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 2031.2574370709378, y = 646.5697940503431},
+            pos = {x = 1766.8793459806595, y = 609.2366821682537},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -336,118 +293,21 @@ return {
             key = "17536975002642008685",
             type = "GoToRegionNode",
             name = "进入区域",
-            pos = {x = 1873.3627002288326, y = 419.2013729977116},
+            pos = {x = 1490.9855072463763, y = 598.4645308924486},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
               RegionId = 104901,
-              bGuideUIEnable = false,
+              bGuideUIEnable = true,
               GuideType = "P",
-              GuideName = "RegionPoint_Off_Qiu"
+              GuideName = "TargetPoint_EnterQiuOffice"
             }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["173027955144018163246"] = {
-      isStoryNode = true,
-      key = "173027955144018163246",
-      type = "StoryNode",
-      name = "前往古战场",
-      pos = {x = 2287.366934481023, y = -115.1715133779492},
-      propsData = {
-        QuestId = 12010502,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_2",
-        QuestDeatil = "Content_120105_2",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "17302889708006277832",
-            startPort = "Out",
-            endQuest = "173027955144018163251",
-            endPort = "Success"
           },
-          {
-            startQuest = "173027955144018163250",
-            startPort = "QuestStart",
-            endQuest = "17302887340945493761",
-            endPort = "In"
-          },
-          {
-            startQuest = "17302883143974708983",
-            startPort = "Out",
-            endQuest = "17302885390785101426",
-            endPort = "In"
-          },
-          {
-            startQuest = "17302887340945493761",
-            startPort = "Out",
-            endQuest = "17302889708006277832",
-            endPort = "In"
-          },
-          {
-            startQuest = "173027955144018163250",
-            startPort = "QuestStart",
-            endQuest = "17302883143974708983",
-            endPort = "In"
-          }
-        },
-        nodeData = {
-          ["173027955144018163250"] = {
-            key = "173027955144018163250",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 1940.3146853146854, y = 442.8671328671328},
-            propsData = {ModeType = 0}
-          },
-          ["173027955144018163251"] = {
-            key = "173027955144018163251",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 3008.8744674832683, y = 439.6797528912232},
-            propsData = {ModeType = 0}
-          },
-          ["173027955144018163252"] = {
-            key = "173027955144018163252",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["17302883143974708983"] = {
-            key = "17302883143974708983",
-            type = "WaitOfTimeNode",
-            name = "延迟等待",
-            pos = {x = 2317.310601695097, y = 281.72698068666335},
-            propsData = {WaitTime = 1}
-          },
-          ["17302885390785101426"] = {
-            key = "17302885390785101426",
+          ["17629519440334026933"] = {
+            key = "17629519440334026933",
             type = "TalkNode",
-            name = "开车- 虬先生介绍",
-            pos = {x = 2670.5438085262167, y = 253.95942850450018},
+            name = "对话节点",
+            pos = {x = 2641.9668069191207, y = 596.6617410275231},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12018501,
@@ -459,32 +319,308 @@ return {
               GuideTalkStyle = "Normal",
               OverrideFailBlend = false
             }
+          }
+        },
+        commentData = {}
+      }
+    },
+    ["173027955144018163246"] = {
+      isStoryNode = true,
+      key = "173027955144018163246",
+      type = "StoryNode",
+      name = "前往黑市",
+      pos = {x = 2412.561485374385, y = -231.53983667887005},
+      propsData = {
+        QuestId = 12010502,
+        QuestDescriptionComment = "",
+        QuestDescription = "Description_120105_2",
+        QuestDeatil = "Content_120105_2",
+        TaskRegionReName = "",
+        TaskSubRegionReName = "",
+        RecommendLevel = -1,
+        bIsStartQuest = false,
+        bIsEndQuest = false,
+        bIsNotifyGameMode = true,
+        bIsStartChapter = true,
+        bIsEndChapter = false,
+        bIsShowOnComplete = true,
+        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnFail = false,
+        bIsDynamicEvent = false,
+        ResurgencePoint = "",
+        bUseQuestCoordinate = false,
+        bDeadTriggerQuestFail = false,
+        IsFairyLand = false,
+        SubRegionId = 104109,
+        SubRegionIdList = {104901},
+        StoryGuideType = "Point",
+        StoryGuidePointName = "RegionPoint_Shi_04",
+        JumpId = 0,
+        QuestUIId = 0
+      },
+      questNodeData = {
+        lineData = {
+          {
+            startQuest = "17629520977864027866",
+            startPort = "Out",
+            endQuest = "173027955144018163251",
+            endPort = "Success"
           },
-          ["17302887340945493761"] = {
-            key = "17302887340945493761",
+          {
+            startQuest = "173027955144018163250",
+            startPort = "QuestStart",
+            endQuest = "17648594085532240440",
+            endPort = "In"
+          },
+          {
+            startQuest = "17648594085532240440",
+            startPort = "Out",
+            endQuest = "17629520977864027866",
+            endPort = "In"
+          }
+        },
+        nodeData = {
+          ["173027955144018163250"] = {
+            key = "173027955144018163250",
+            type = "QuestStartNode",
+            name = "QuestStart",
+            pos = {x = 2034.2277287929464, y = 463.7366980845241},
+            propsData = {ModeType = 0}
+          },
+          ["173027955144018163251"] = {
+            key = "173027955144018163251",
+            type = "QuestSuccessNode",
+            name = "QuestSuccess",
+            pos = {x = 3070.7875109615293, y = 471.1797528912232},
+            propsData = {ModeType = 0}
+          },
+          ["173027955144018163252"] = {
+            key = "173027955144018163252",
+            type = "QuestFailNode",
+            name = "QuestFail",
+            pos = {x = 3953.71390273013, y = 788.3435935261493},
+            propsData = {}
+          },
+          ["17629519354064026679"] = {
+            key = "17629519354064026679",
+            type = "GoToNode",
+            name = "前往",
+            pos = {x = 2460.4536613272307, y = 773.4185679992821},
+            propsData = {
+              GuideUIEnable = true,
+              StaticCreatorId = 2100014,
+              GuideType = "M",
+              GuidePointName = "Mechanism_QuestTrigger_2100014"
+            }
+          },
+          ["17629520977864027866"] = {
+            key = "17629520977864027866",
+            type = "TalkNode",
+            name = "对话节点",
+            pos = {x = 2746.801487414188, y = 461.6794375644995},
+            propsData = {
+              IsNpcNode = false,
+              FirstDialogueId = 12018503,
+              FlowAssetPath = "",
+              TalkType = "Guide",
+              bIsStandalone = true,
+              GuideMeshIndexList = {},
+              IsPlayStartSound = false,
+              GuideTalkStyle = "Normal",
+              OverrideFailBlend = false
+            }
+          },
+          ["17648594085532240440"] = {
+            key = "17648594085532240440",
+            type = "GoToRegionNode",
+            name = "进入区域",
+            pos = {x = 2412, y = 468},
+            propsData = {
+              RegionType = 1,
+              IsEnter = "Enter",
+              RegionId = 104109,
+              bGuideUIEnable = true,
+              GuideType = "M",
+              GuideName = "Mechanism_QuestTrigger_2100014"
+            }
+          }
+        },
+        commentData = {}
+      }
+    },
+    ["1730376039493867"] = {
+      isStoryNode = true,
+      key = "1730376039493867",
+      type = "StoryNode",
+      name = "深入古战场",
+      pos = {x = 2973.8075893644495, y = -234.9878784978221},
+      propsData = {
+        QuestId = 12010504,
+        QuestDescriptionComment = "",
+        QuestDescription = "Description_120105_3",
+        QuestDeatil = "Content_120105_3",
+        TaskRegionReName = "",
+        TaskSubRegionReName = "",
+        RecommendLevel = -1,
+        bIsStartQuest = false,
+        bIsEndQuest = false,
+        bIsNotifyGameMode = true,
+        bIsStartChapter = false,
+        bIsEndChapter = false,
+        bIsShowOnComplete = true,
+        bIsPlayBlackScreenOnComplete = true,
+        bIsPlayBlackScreenOnFail = false,
+        bIsDynamicEvent = false,
+        ResurgencePoint = "",
+        bUseQuestCoordinate = false,
+        bDeadTriggerQuestFail = false,
+        IsFairyLand = false,
+        SubRegionId = 104102,
+        SubRegionIdList = {},
+        StoryGuideType = "Mechanism",
+        StoryGuidePointName = "Mechanism_QuestTrigger_1930143",
+        JumpId = 0
+      },
+      questNodeData = {
+        lineData = {
+          {
+            startQuest = "17629522977854030642",
+            startPort = "Out",
+            endQuest = "17629522977854030643",
+            endPort = "In"
+          },
+          {
+            startQuest = "1730376039493871",
+            startPort = "QuestStart",
+            endQuest = "17629522977854030642",
+            endPort = "In"
+          },
+          {
+            startQuest = "1730376039493871",
+            startPort = "QuestStart",
+            endQuest = "17630351064552019685",
+            endPort = "In"
+          },
+          {
+            startQuest = "17629522977854030643",
+            startPort = "Out",
+            endQuest = "17640391235938943900",
+            endPort = "In"
+          },
+          {
+            startQuest = "17527365187724806033",
+            startPort = "Out",
+            endQuest = "17640391767268944379",
+            endPort = "In"
+          },
+          {
+            startQuest = "17640391767268944379",
+            startPort = "Out",
+            endQuest = "1730376039493872",
+            endPort = "Success"
+          },
+          {
+            startQuest = "17640391235938943900",
+            startPort = "Out",
+            endQuest = "17527365187724806033",
+            endPort = "In"
+          }
+        },
+        nodeData = {
+          ["1730376039493871"] = {
+            key = "1730376039493871",
+            type = "QuestStartNode",
+            name = "QuestStart",
+            pos = {x = 1902.5289710289712, y = 658.7242757242757},
+            propsData = {ModeType = 0}
+          },
+          ["1730376039493872"] = {
+            key = "1730376039493872",
+            type = "QuestSuccessNode",
+            name = "QuestSuccess",
+            pos = {x = 3249.831610340411, y = 659.9083243197947},
+            propsData = {
+              ModeType = 1,
+              Id = 104201,
+              StartIndex = 1,
+              IsWhite = false
+            }
+          },
+          ["1730376039493873"] = {
+            key = "1730376039493873",
+            type = "QuestFailNode",
+            name = "QuestFail",
+            pos = {x = 3953.71390273013, y = 788.3435935261493},
+            propsData = {}
+          },
+          ["17527365187724806033"] = {
+            key = "17527365187724806033",
+            type = "TalkNode",
+            name = "【SC009】黑市小弟触发机关",
+            pos = {x = 2748.3928571428573, y = 643.9285714285714},
+            propsData = {
+              IsNpcNode = false,
+              TalkType = "Cinematic",
+              TalkStageName = "",
+              ShowFilePath = "/Game/Asset/Cinematics/Story/Ver01/Ver0101/Ver0101_SC009/SQ_Ver0101_SC009",
+              BlendInTime = 0,
+              BlendOutTime = 0,
+              InType = "FadeIn",
+              OutType = "FadeOut",
+              ShowFadeDetail = false,
+              ShowSkipButton = true,
+              ShowReviewButton = true,
+              ShowWikiButton = true,
+              PauseGameGlobal = true,
+              HideNpcs = true,
+              HideMonsters = true,
+              HideAllBattleEntity = true,
+              HideEffectCreature = true,
+              HideMechanismsFX = true,
+              DisableNpcOptimization = false,
+              DoNotReceiveCharacterShadow = false,
+              BeginNewTargetPointName = "",
+              EndNewTargetPointName = "",
+              CameraLookAtTartgetPoint = "",
+              RestoreStand = false,
+              TalkActors = {
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
+                }
+              },
+              FreezeWorldComposition = false,
+              bTravelFullLoadWorldComposition = false,
+              SwitchToMaster = "None",
+              OverrideFailBlend = false
+            }
+          },
+          ["17629522977854030642"] = {
+            key = "17629522977854030642",
             type = "GoToNode",
             name = "前往古战场",
-            pos = {x = 2320.1477120230998, y = 417.79548163542984},
+            pos = {x = 2186.97161599858, y = 639.1091119743091},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1930143,
-              GuideType = "P",
-              GuidePointName = "QuestPoint_12010502"
+              GuideType = "M",
+              GuidePointName = "Mechanism_QuestTrigger_1930143"
             }
           },
-          ["17302889708006277832"] = {
-            key = "17302889708006277832",
+          ["17629522977854030643"] = {
+            key = "17629522977854030643",
             type = "TalkNode",
             name = "站桩 - 和小弟对话",
-            pos = {x = 2663.906833736301, y = 429.84254045895926},
+            pos = {x = 2463.028384001418, y = 643.1766023114052},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12018601,
               FlowAssetPath = "",
-              TalkType = "FixSimple",
+              TalkType = "QuestImpression",
               TalkStageName = "East01_FixSimple_48",
               BlendInTime = 1,
-              BlendOutTime = 0.5,
+              BlendOutTime = 0,
               InType = "FadeIn",
               OutType = "FadeOut",
               ShowFadeDetail = false,
@@ -494,6 +630,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -528,623 +665,24 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 210010},
-                {TalkActorType = "Npc", TalkActorId = 210012},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
-              NormalOptions = {},
-              OverrideFailBlend = false
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["1730376039493867"] = {
-      isStoryNode = true,
-      key = "1730376039493867",
-      type = "StoryNode",
-      name = "深入古战场",
-      pos = {x = 2561.2283859331806, y = -239.28949140104788},
-      propsData = {
-        QuestId = 12010503,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_3",
-        QuestDeatil = "Content_120105_3",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "1730376039493871",
-            startPort = "QuestStart",
-            endQuest = "1730376039494876",
-            endPort = "In"
-          },
-          {
-            startQuest = "1730376039494876",
-            startPort = "Out",
-            endQuest = "17527365187724806033",
-            endPort = "In"
-          },
-          {
-            startQuest = "17527365187724806033",
-            startPort = "Out",
-            endQuest = "1730376039493872",
-            endPort = "Success"
-          }
-        },
-        nodeData = {
-          ["1730376039493871"] = {
-            key = "1730376039493871",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 1940.3146853146854, y = 442.8671328671328},
-            propsData = {ModeType = 0}
-          },
-          ["1730376039493872"] = {
-            key = "1730376039493872",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 2774.831610340411, y = 453.4797528912232},
-            propsData = {
-              ModeType = 1,
-              Id = 104201,
-              StartIndex = 1,
-              IsWhite = false
-            }
-          },
-          ["1730376039493873"] = {
-            key = "1730376039493873",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["1730376039494876"] = {
-            key = "1730376039494876",
-            type = "GoToNode",
-            name = "深入古战场",
-            pos = {x = 2213.2400708270866, y = 442.8931560540345},
-            propsData = {
-              GuideUIEnable = true,
-              StaticCreatorId = 1930147,
-              GuideType = "P",
-              GuidePointName = "QuestPoint_12010503"
-            }
-          },
-          ["17304426141212365975"] = {
-            key = "17304426141212365975",
-            type = "TalkNode",
-            name = "【SC009】黑市小弟触发机关",
-            pos = {x = 2510.1602990033225, y = 169.48353971609777},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12022519,
-              FlowAssetPath = "",
-              TalkType = "Black",
-              BlendInTime = 1,
-              BlendOutTime = 1,
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              ForceAutoPlay = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              TalkActors = {},
-              RemoveTalkActors = {},
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              OverrideFailBlend = false
-            }
-          },
-          ["17527365187724806033"] = {
-            key = "17527365187724806033",
-            type = "TalkNode",
-            name = "【SC009】黑市小弟触发机关",
-            pos = {x = 2499.25, y = 445.5},
-            propsData = {
-              IsNpcNode = false,
-              TalkType = "Cinematic",
-              TalkStageName = "",
-              ShowFilePath = "/Game/Asset/Cinematics/Story/Ver01/Ver0101/Ver0101_SC009/SQ_Ver0101_SC009",
-              BlendInTime = 0,
-              BlendOutTime = 0,
-              InType = "FadeIn",
-              OutType = "FadeOut",
-              ShowFadeDetail = false,
-              ShowSkipButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              PauseGameGlobal = true,
-              HideNpcs = true,
-              HideMonsters = true,
-              HideAllBattleEntity = true,
-              HideEffectCreature = true,
-              DisableNpcOptimization = false,
-              DoNotReceiveCharacterShadow = false,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              TalkActors = {
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = false
-                }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              OverrideFailBlend = false
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["17304428894433154527"] = {
-      isStoryNode = true,
-      key = "17304428894433154527",
-      type = "StoryNode",
-      name = "找虬先生交谈",
-      pos = {x = 1227.96224705527, y = 726.6913319238902},
-      propsData = {
-        QuestId = 12010504,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_4",
-        QuestDeatil = "Content_120105_4",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "17304428894433154531",
-            startPort = "QuestStart",
-            endQuest = "17304497462881706",
-            endPort = "In"
-          },
-          {
-            startQuest = "17304428894433154531",
-            startPort = "QuestStart",
-            endQuest = "1730449883345402879",
-            endPort = "In"
-          },
-          {
-            startQuest = "1730449883345402879",
-            startPort = "Out",
-            endQuest = "1730449919138802112",
-            endPort = "In"
-          },
-          {
-            startQuest = "1730449919138802112",
-            startPort = "Out",
-            endQuest = "1730449839528402056",
-            endPort = "In"
-          },
-          {
-            startQuest = "1730449839528402056",
-            startPort = "Out",
-            endQuest = "17304558022052399268",
-            endPort = "In"
-          },
-          {
-            startQuest = "17304558022052399268",
-            startPort = "Out",
-            endQuest = "17304428894433154532",
-            endPort = "Success"
-          }
-        },
-        nodeData = {
-          ["17304428894433154531"] = {
-            key = "17304428894433154531",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 1940.3146853146854, y = 442.8671328671328},
-            propsData = {ModeType = 0}
-          },
-          ["17304428894433154532"] = {
-            key = "17304428894433154532",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 3353.250965179121, y = 442.2539464396103},
-            propsData = {ModeType = 0}
-          },
-          ["17304428894433154533"] = {
-            key = "17304428894433154533",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["17304497462881706"] = {
-            key = "17304497462881706",
-            type = "TalkNode",
-            name = "开车- 这是哪里",
-            pos = {x = 2239.336892498185, y = 287.4651226909291},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12018801,
-              FlowAssetPath = "",
-              TalkType = "Guide",
-              bIsStandalone = true,
-              GuideMeshIndexList = {},
-              IsPlayStartSound = false,
-              GuideTalkStyle = "Normal",
-              OverrideFailBlend = false
-            }
-          },
-          ["1730449839528402056"] = {
-            key = "1730449839528402056",
-            type = "TalkNode",
-            name = "站桩 - 和虬先生对话",
-            pos = {x = 2791.5591147204073, y = 448.11028398125165},
-            propsData = {
-              IsNpcNode = true,
-              NpcNodeInteractiveName = "",
-              NpcId = 210012,
-              GuideUIEnable = true,
-              GuideType = "N",
-              GuidePointName = "Npc_MrQiu_1980001",
-              DelayShowGuideTime = 0,
-              FirstDialogueId = 12018901,
-              FlowAssetPath = "",
-              TalkType = "FixSimple",
-              TalkStageName = "Stage_BattleField01",
-              BlendInTime = 1,
-              BlendOutTime = 0.5,
-              InType = "FadeIn",
-              OutType = "FadeOut",
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              UseProceduralCamera = false,
-              ProceduralCameraId = 1,
-              HideNpcs = false,
-              HideMonsters = true,
-              HideAllBattleEntity = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              SkipToOption = false,
-              DisableNpcOptimization = false,
-              DoNotReceiveCharacterShadow = false,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              PauseNpcBT = true,
-              TalkActors = {
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = false
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 200002,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 210012,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 100001,
-                  TalkActorVisible = true
-                }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 200002},
-                {TalkActorType = "Npc", TalkActorId = 210012},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
-              OptionType = "normal",
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
           },
-          ["1730449883345402879"] = {
-            key = "1730449883345402879",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2222.383487480263, y = 443.88089330024815},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104201,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_MS01"
-            }
-          },
-          ["1730449919138802112"] = {
-            key = "1730449919138802112",
-            type = "ChangeStaticCreatorNode",
-            name = "生成虬先生",
-            pos = {x = 2498.5483620322348, y = 440.5834022608214},
-            propsData = {
-              ActiveEnable = true,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {1980001}
-            }
-          },
-          ["17304558022052399268"] = {
-            key = "17304558022052399268",
-            type = "ChangeStaticCreatorNode",
-            name = "销毁虬先生",
-            pos = {x = 3069.301050204279, y = 440.8342983181694},
-            propsData = {
-              ActiveEnable = false,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {1980001}
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["17306883504171157"] = {
-      isStoryNode = true,
-      key = "17306883504171157",
-      type = "StoryNode",
-      name = "敲石碑",
-      pos = {x = 1507.1994139293988, y = 728.3937674020133},
-      propsData = {
-        QuestId = 12010505,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_5",
-        QuestDeatil = "Content_120105_5",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "17307057800741211085",
-            startPort = "Out",
-            endQuest = "17306883504171162",
-            endPort = "Success"
-          },
-          {
-            startQuest = "17306883504171161",
-            startPort = "QuestStart",
-            endQuest = "17307057800741211085",
-            endPort = "In"
-          }
-        },
-        nodeData = {
-          ["17306883504171161"] = {
-            key = "17306883504171161",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 2502.814685314686, y = 452.5099900099899},
-            propsData = {ModeType = 0}
-          },
-          ["17306883504171162"] = {
-            key = "17306883504171162",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 3294.359339563358, y = 440.148035109561},
-            propsData = {ModeType = 0}
-          },
-          ["17306883504171163"] = {
-            key = "17306883504171163",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["17307057800741211085"] = {
-            key = "17307057800741211085",
+          ["17630351064552019685"] = {
+            key = "17630351064552019685",
             type = "TalkNode",
-            name = "敲石碑",
-            pos = {x = 2900.247784863092, y = 433.1609864593609},
+            name = "对话节点",
+            pos = {x = 2191.8742554916703, y = 454.21160622143566},
             propsData = {
               IsNpcNode = false,
-              FirstDialogueId = 12018909,
-              FlowAssetPath = "",
-              TalkType = "Black",
-              BlendInTime = 1,
-              BlendOutTime = 0.5,
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              ForceAutoPlay = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              TalkActors = {},
-              RemoveTalkActors = {},
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              OverrideFailBlend = false
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["1730705513160408128"] = {
-      isStoryNode = true,
-      key = "1730705513160408128",
-      type = "StoryNode",
-      name = "前往第一层终点",
-      pos = {x = 1772.534797850105, y = 725.6467007450752},
-      propsData = {
-        QuestId = 12010506,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_6",
-        QuestDeatil = "Content_120105_6",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "1730705513161408132",
-            startPort = "QuestStart",
-            endQuest = "1730705513161408135",
-            endPort = "In"
-          },
-          {
-            startQuest = "1730705513161408132",
-            startPort = "QuestStart",
-            endQuest = "1730705513161408137",
-            endPort = "In"
-          },
-          {
-            startQuest = "1730705513161408137",
-            startPort = "Out",
-            endQuest = "17307063617212415819",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307063617212415819",
-            startPort = "Out",
-            endQuest = "17307067898833218739",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307067898833218739",
-            startPort = "Out",
-            endQuest = "1730705513161408133",
-            endPort = "Success"
-          }
-        },
-        nodeData = {
-          ["1730705513161408132"] = {
-            key = "1730705513161408132",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 1940.3146853146854, y = 442.8671328671328},
-            propsData = {ModeType = 0}
-          },
-          ["1730705513161408133"] = {
-            key = "1730705513161408133",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 3152.34187427003, y = 445.89031007597396},
-            propsData = {ModeType = 0}
-          },
-          ["1730705513161408134"] = {
-            key = "1730705513161408134",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["1730705513161408135"] = {
-            key = "1730705513161408135",
-            type = "TalkNode",
-            name = "开车- 闯关提示",
-            pos = {x = 2220.4480036092964, y = 299.6873449131513},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12019001,
+              FirstDialogueId = 12018508,
               FlowAssetPath = "",
               TalkType = "Guide",
               bIsStandalone = true,
@@ -1154,1127 +692,32 @@ return {
               OverrideFailBlend = false
             }
           },
-          ["1730705513161408137"] = {
-            key = "1730705513161408137",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2222.383487480263, y = 443.88089330024815},
+          ["17640391235938943900"] = {
+            key = "17640391235938943900",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 2726.25, y = 488.53571428571433},
             propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104201,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_MS01"
+              SoundStateType = 0,
+              SoundPriority = 0,
+              SoundType = 0,
+              SoundPath = "event:/bgm/1_1/0118_cs_bad_guy_trigger_gear",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {},
+              ClientRelatedRegionId = {104102},
+              bStoreToServer = false
             }
           },
-          ["17307063617212415819"] = {
-            key = "17307063617212415819",
-            type = "GoToNode",
-            name = "抵达终点",
-            pos = {x = 2510.8906420059493, y = 443.87527217364635},
+          ["17640391767268944379"] = {
+            key = "17640391767268944379",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 2992.3214285714284, y = 662.4642857142857},
             propsData = {
-              GuideUIEnable = true,
-              StaticCreatorId = 1980004,
-              GuideType = "P",
-              GuidePointName = "QuestPoint_12010506"
-            }
-          },
-          ["17307067898833218739"] = {
-            key = "17307067898833218739",
-            type = "TalkNode",
-            name = "开车- 敲两个石碑",
-            pos = {x = 2817.504003536813, y = 431.62099130387065},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12019101,
-              FlowAssetPath = "",
-              TalkType = "Guide",
-              bIsStandalone = true,
-              GuideMeshIndexList = {},
-              IsPlayStartSound = false,
-              GuideTalkStyle = "Normal",
-              OverrideFailBlend = false
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["17307071240024021459"] = {
-      isStoryNode = true,
-      key = "17307071240024021459",
-      type = "StoryNode",
-      name = "和刻舟对话",
-      pos = {x = 2048.259248292058, y = 726.7459552288348},
-      propsData = {
-        QuestId = 12010507,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_7",
-        QuestDeatil = "Content_120105_7",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "17307071240024021463",
-            startPort = "QuestStart",
-            endQuest = "17307071240024021467",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307071240024021467",
-            startPort = "Out",
-            endQuest = "17307078940965629816",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307078940965629816",
-            startPort = "Out",
-            endQuest = "17307073225034423790",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307073225034423790",
-            startPort = "Out",
-            endQuest = "17307077404594825352",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307077404594825352",
-            startPort = "Out",
-            endQuest = "17307078940965629815",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307078940965629815",
-            startPort = "Out",
-            endQuest = "17307078940965629817",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307078940965629817",
-            startPort = "Out",
-            endQuest = "17307071240024021464",
-            endPort = "Success"
-          }
-        },
-        nodeData = {
-          ["17307071240024021463"] = {
-            key = "17307071240024021463",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 1796.148018648019, y = 414.5337995337994},
-            propsData = {ModeType = 0}
-          },
-          ["17307071240024021464"] = {
-            key = "17307071240024021464",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 3649.8418742700296, y = 420.89031007597396},
-            propsData = {ModeType = 0}
-          },
-          ["17307071240024021465"] = {
-            key = "17307071240024021465",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["17307071240024021467"] = {
-            key = "17307071240024021467",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2094.4668208135963, y = 415.5475599669148},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104201,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_MS3"
-            }
-          },
-          ["17307073225034423790"] = {
-            key = "17307073225034423790",
-            type = "AsyncSetActorLocationAndRotationNode",
-            name = "异步设置玩家位置旋转",
-            pos = {x = 2589.9389019717105, y = 417.2062726891523},
-            propsData = {
-              UnitId = 0,
-              NewTargetPointName = "FallingPoint_12010507",
-              FadeIn = true,
-              FadeOut = true,
-              bResetCamera = true,
-              bForceAsyncLoading = false,
-              IsWhite = false
-            }
-          },
-          ["17307077404594825352"] = {
-            key = "17307077404594825352",
-            type = "TalkNode",
-            name = "开车- 疼疼疼疼",
-            pos = {x = 2846.605568638379, y = 407.2062726891521},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12019201,
-              FlowAssetPath = "",
-              TalkType = "Guide",
-              bIsStandalone = true,
-              GuideMeshIndexList = {},
-              IsPlayStartSound = false,
-              GuideTalkStyle = "Normal",
-              OverrideFailBlend = false
-            }
-          },
-          ["17307078940965629815"] = {
-            key = "17307078940965629815",
-            type = "TalkNode",
-            name = "站桩 - 和刻舟对话",
-            pos = {x = 3087.5733105738627, y = 406.39982107624894},
-            propsData = {
-              IsNpcNode = true,
-              NpcNodeInteractiveName = "",
-              NpcId = 210021,
-              GuideUIEnable = true,
-              GuideType = "N",
-              GuidePointName = "Npc_Kezhou_1980008",
-              DelayShowGuideTime = 0,
-              FirstDialogueId = 12019301,
-              FlowAssetPath = "",
-              TalkType = "FixSimple",
-              TalkStageName = "Stage_BattleField02",
-              BlendInTime = 1,
-              BlendOutTime = 0.5,
-              InType = "FadeIn",
-              OutType = "FadeOut",
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              UseProceduralCamera = false,
-              ProceduralCameraId = 1,
-              HideNpcs = false,
-              HideMonsters = true,
-              HideAllBattleEntity = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              SkipToOption = false,
-              DisableNpcOptimization = false,
-              DoNotReceiveCharacterShadow = false,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              PauseNpcBT = true,
-              TalkActors = {
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = false
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 200002,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 210021,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 100001,
-                  TalkActorVisible = true
-                }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 200002},
-                {TalkActorType = "Npc", TalkActorId = 210021},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
-              OptionType = "normal",
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              NormalOptions = {},
-              OverrideFailBlend = false
-            }
-          },
-          ["17307078940965629816"] = {
-            key = "17307078940965629816",
-            type = "ChangeStaticCreatorNode",
-            name = "生成刻舟",
-            pos = {x = 2346.229224552357, y = 415.5396060224854},
-            propsData = {
-              ActiveEnable = true,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {1980008}
-            }
-          },
-          ["17307078940965629817"] = {
-            key = "17307078940965629817",
-            type = "ChangeStaticCreatorNode",
-            name = "销毁刻舟",
-            pos = {x = 3356.9819127244014, y = 420.5127243020556},
-            propsData = {
-              ActiveEnable = false,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {1980008}
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["17307087592547637445"] = {
-      isStoryNode = true,
-      key = "17307087592547637445",
-      type = "StoryNode",
-      name = "敲机关",
-      pos = {x = 955.0274559644191, y = 930.0398967045058},
-      propsData = {
-        QuestId = 12010508,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_8",
-        QuestDeatil = "Content_120105_8",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "17307088474068040745",
-            startPort = "Out",
-            endQuest = "17307088474068040746",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307087592557637449",
-            startPort = "QuestStart",
-            endQuest = "17307088474068040745",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307088474068040746",
-            startPort = "Out",
-            endQuest = "17307088958878041948",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307088958878041948",
-            startPort = "Out",
-            endQuest = "17307088474068040747",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307088474068040747",
-            startPort = "Out",
-            endQuest = "17307087592557637450",
-            endPort = "Success"
-          }
-        },
-        nodeData = {
-          ["17307087592557637449"] = {
-            key = "17307087592557637449",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 2590.8908757908753, y = 510.3052281052279},
-            propsData = {ModeType = 0}
-          },
-          ["17307087592557637450"] = {
-            key = "17307087592557637450",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 3851.8418742700296, y = 494.60459579025957},
-            propsData = {ModeType = 0}
-          },
-          ["17307087592557637451"] = {
-            key = "17307087592557637451",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["17307088474068040745"] = {
-            key = "17307088474068040745",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2814.595916874888, y = 510.317510864759},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104201,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_MS04"
-            }
-          },
-          ["17307088474068040746"] = {
-            key = "17307088474068040746",
-            type = "GoToNode",
-            name = "抵达目标点",
-            pos = {x = 3050.8173571148604, y = 509.45474688101433},
-            propsData = {
-              GuideUIEnable = true,
-              StaticCreatorId = 1980009,
-              GuideType = "P",
-              GuidePointName = "QuestPoint_MS04"
-            }
-          },
-          ["17307088474068040747"] = {
-            key = "17307088474068040747",
-            type = "TalkNode",
-            name = "开车- 敲机关",
-            pos = {x = 3548.573575788581, y = 490.6290374398101},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12019401,
-              FlowAssetPath = "",
-              TalkType = "Guide",
-              bIsStandalone = true,
-              GuideMeshIndexList = {},
-              IsPlayStartSound = false,
-              GuideTalkStyle = "Normal",
-              OverrideFailBlend = false
-            }
-          },
-          ["17307088958878041948"] = {
-            key = "17307088958878041948",
-            type = "TalkNode",
-            name = "敲石碑",
-            pos = {x = 3298.633328350076, y = 498.2207366712107},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12018909,
-              FlowAssetPath = "",
-              TalkType = "Black",
-              BlendInTime = 1,
-              BlendOutTime = 0.5,
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              ForceAutoPlay = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              TalkActors = {},
-              RemoveTalkActors = {},
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              OverrideFailBlend = false
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["17307092432499648427"] = {
-      isStoryNode = true,
-      key = "17307092432499648427",
-      type = "StoryNode",
-      name = "前往终点",
-      pos = {x = 1236.2027589195063, y = 927.7385938140679},
-      propsData = {
-        QuestId = 12010509,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_9",
-        QuestDeatil = "Content_120105_9",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "17307092432499648435",
-            startPort = "Out",
-            endQuest = "17307092432499648432",
-            endPort = "Success"
-          },
-          {
-            startQuest = "17307092432499648431",
-            startPort = "QuestStart",
-            endQuest = "17307092432499648435",
-            endPort = "In"
-          }
-        },
-        nodeData = {
-          ["17307092432499648431"] = {
-            key = "17307092432499648431",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 2841.275491175491, y = 514.9206127206126},
-            propsData = {ModeType = 0}
-          },
-          ["17307092432499648432"] = {
-            key = "17307092432499648432",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 3568.984731412887, y = 510.89031007597384},
-            propsData = {ModeType = 0}
-          },
-          ["17307092432499648433"] = {
-            key = "17307092432499648433",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["17307092432499648434"] = {
-            key = "17307092432499648434",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2868.9255872045587, y = 310.7021262493744},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104201,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_MS05"
-            }
-          },
-          ["17307092432499648435"] = {
-            key = "17307092432499648435",
-            type = "GoToNode",
-            name = "抵达目标点",
-            pos = {x = 3157.9602142577173, y = 512.0261754524429},
-            propsData = {
-              GuideUIEnable = true,
-              StaticCreatorId = 1980010,
-              GuideType = "P",
-              GuidePointName = "QuestPoint_MS05"
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["173070951718310853892"] = {
-      isStoryNode = true,
-      key = "173070951718310853892",
-      type = "StoryNode",
-      name = "击杀怪物",
-      pos = {x = 1509.1739127656574, y = 929.6135938140679},
-      propsData = {
-        QuestId = 12010510,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_10",
-        QuestDeatil = "Content_120105_10",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "173070951718310853896",
-            startPort = "QuestStart",
-            endQuest = "173070951718310853899",
-            endPort = "In"
-          },
-          {
-            startQuest = "173070978611911256708",
-            startPort = "Out",
-            endQuest = "173070978612011256710",
-            endPort = "In"
-          },
-          {
-            startQuest = "173070951718310853899",
-            startPort = "Out",
-            endQuest = "173070951718310853897",
-            endPort = "Success"
-          }
-        },
-        nodeData = {
-          ["173070951718310853896"] = {
-            key = "173070951718310853896",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 2590.8908757908753, y = 510.3052281052279},
-            propsData = {ModeType = 0}
-          },
-          ["173070951718310853897"] = {
-            key = "173070951718310853897",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 3187.99950973801, y = 509.5307041646438},
-            propsData = {ModeType = 0}
-          },
-          ["173070951718310853898"] = {
-            key = "173070951718310853898",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["173070951718310853899"] = {
-            key = "173070951718310853899",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2875.4530597320313, y = 510.317510864759},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104201,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_MS05"
-            }
-          },
-          ["173070978611911256708"] = {
-            key = "173070978611911256708",
-            type = "ChangeStaticCreatorNode",
-            name = "生成/销毁节点",
-            pos = {x = 3117.718166883187, y = 315.5316288441718},
-            propsData = {
-              ActiveEnable = true,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {
-                1980011,
-                1980012,
-                1980013,
-                1980014
-              }
-            }
-          },
-          ["173070978612011256709"] = {
-            key = "173070978612011256709",
-            type = "KillMonsterNode",
-            name = "击杀怪物",
-            pos = {x = 3694.898243511539, y = 306.65259217203163},
-            propsData = {
-              KillMonsterType = "Nums",
-              MonsterNeedNums = 1,
-              IsShow = false,
-              GuideType = "P",
-              GuideName = ""
-            }
-          },
-          ["173070978612011256710"] = {
-            key = "173070978612011256710",
-            type = "TalkNode",
-            name = "开车- 打怪物",
-            pos = {x = 3416.569836286581, y = 328.458831909306},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12019501,
-              FlowAssetPath = "",
-              TalkType = "Guide",
-              bIsStandalone = true,
-              GuideMeshIndexList = {},
-              IsPlayStartSound = false,
-              GuideTalkStyle = "Normal",
-              OverrideFailBlend = false
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["173071010144912863815"] = {
-      isStoryNode = true,
-      key = "173071010144912863815",
-      type = "StoryNode",
-      name = "敲机关",
-      pos = {x = 1783.107446523988, y = 928.1113118668062},
-      propsData = {
-        QuestId = 12010511,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_11",
-        QuestDeatil = "Content_120105_11",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "173071010144912863822",
-            startPort = "Out",
-            endQuest = "173071010144912863823",
-            endPort = "In"
-          },
-          {
-            startQuest = "173071010144912863819",
-            startPort = "QuestStart",
-            endQuest = "173071010144912863822",
-            endPort = "In"
-          },
-          {
-            startQuest = "173071010144912863823",
-            startPort = "Out",
-            endQuest = "173071010144912863825",
-            endPort = "In"
-          },
-          {
-            startQuest = "173071010144912863825",
-            startPort = "Out",
-            endQuest = "173071010144912863824",
-            endPort = "In"
-          },
-          {
-            startQuest = "173071010144912863824",
-            startPort = "Out",
-            endQuest = "173071010144912863820",
-            endPort = "Success"
-          }
-        },
-        nodeData = {
-          ["173071010144912863819"] = {
-            key = "173071010144912863819",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 2568.13225510122, y = 510.3052281052279},
-            propsData = {ModeType = 0}
-          },
-          ["173071010144912863820"] = {
-            key = "173071010144912863820",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 3851.8418742700296, y = 494.60459579025957},
-            propsData = {ModeType = 0}
-          },
-          ["173071010144912863821"] = {
-            key = "173071010144912863821",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["173071010144912863822"] = {
-            key = "173071010144912863822",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2813.5614341162677, y = 510.317510864759},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104201,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_MS06"
-            }
-          },
-          ["173071010144912863823"] = {
-            key = "173071010144912863823",
-            type = "GoToNode",
-            name = "抵达目标点",
-            pos = {x = 3050.8173571148604, y = 509.45474688101433},
-            propsData = {
-              GuideUIEnable = true,
-              StaticCreatorId = 1980015,
-              GuideType = "P",
-              GuidePointName = "QuestPoint_MS06"
-            }
-          },
-          ["173071010144912863824"] = {
-            key = "173071010144912863824",
-            type = "TalkNode",
-            name = "开车- 敲机关",
-            pos = {x = 3549.6080585472014, y = 500.6290374398101},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12019601,
-              FlowAssetPath = "",
-              TalkType = "Guide",
-              bIsStandalone = true,
-              GuideMeshIndexList = {},
-              IsPlayStartSound = false,
-              GuideTalkStyle = "Normal",
-              OverrideFailBlend = false
-            }
-          },
-          ["173071010144912863825"] = {
-            key = "173071010144912863825",
-            type = "TalkNode",
-            name = "敲石碑",
-            pos = {x = 3298.633328350076, y = 498.2207366712107},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12018909,
-              FlowAssetPath = "",
-              TalkType = "Black",
-              BlendInTime = 1,
-              BlendOutTime = 0.5,
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              ForceAutoPlay = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              TalkActors = {},
-              RemoveTalkActors = {},
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              OverrideFailBlend = false
-            }
-          }
-        },
-        commentData = {}
-      }
-    },
-    ["173071036030314069762"] = {
-      isStoryNode = true,
-      key = "173071036030314069762",
-      type = "StoryNode",
-      name = "前往第二层终点",
-      pos = {x = 2043.7971016964016, y = 927.9173463495648},
-      propsData = {
-        QuestId = 12010512,
-        QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_12",
-        QuestDeatil = "Content_120105_12",
-        TaskRegionReName = "",
-        TaskSubRegionReName = "",
-        RecommendLevel = -1,
-        bIsStartQuest = false,
-        bIsEndQuest = false,
-        bIsNotifyGameMode = true,
-        bIsStartChapter = false,
-        bIsEndChapter = false,
-        bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
-        bIsPlayBlackScreenOnFail = false,
-        bIsDynamicEvent = false,
-        ResurgencePoint = "",
-        bUseQuestCoordinate = false,
-        bDeadTriggerQuestFail = false,
-        IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
-      },
-      questNodeData = {
-        lineData = {
-          {
-            startQuest = "173071036030314069766",
-            startPort = "QuestStart",
-            endQuest = "173071036030314069770",
-            endPort = "In"
-          },
-          {
-            startQuest = "173071137896614472779",
-            startPort = "Out",
-            endQuest = "173071138714814473040",
-            endPort = "In"
-          },
-          {
-            startQuest = "173071138714814473040",
-            startPort = "Out",
-            endQuest = "173071036030314069767",
-            endPort = "Success"
-          },
-          {
-            startQuest = "173071036030314069770",
-            startPort = "Out",
-            endQuest = "17307879208101220541",
-            endPort = "In"
-          },
-          {
-            startQuest = "17307879208101220541",
-            startPort = "Out",
-            endQuest = "173071137896614472779",
-            endPort = "In"
-          }
-        },
-        nodeData = {
-          ["173071036030314069766"] = {
-            key = "173071036030314069766",
-            type = "QuestStartNode",
-            name = "QuestStart",
-            pos = {x = 1584.4526163491682, y = 436.66023631540867},
-            propsData = {ModeType = 0}
-          },
-          ["173071036030314069767"] = {
-            key = "173071036030314069767",
-            type = "QuestSuccessNode",
-            name = "QuestSuccess",
-            pos = {x = 3125.4453225458924, y = 422.0972066276981},
-            propsData = {
-              ModeType = 1,
-              Id = 104101,
-              StartIndex = 2,
-              IsWhite = true
-            }
-          },
-          ["173071036030314069768"] = {
-            key = "173071036030314069768",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
-            propsData = {}
-          },
-          ["173071036030314069770"] = {
-            key = "173071036030314069770",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2049.6248667906075, y = 439.7429622657654},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104201,
-              bGuideUIEnable = false,
-              GuideType = "P",
-              GuideName = ""
-            }
-          },
-          ["173071137896614472779"] = {
-            key = "173071137896614472779",
-            type = "TalkNode",
-            name = "站桩 - 和刻舟告别",
-            pos = {x = 2554.80023649264, y = 426.5380360047373},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12019701,
-              FlowAssetPath = "",
-              TalkType = "FixSimple",
-              TalkStageName = "Stage_BattleField03",
-              BlendInTime = 1,
-              BlendOutTime = 0,
-              InType = "FadeIn",
-              OutType = "FadeOut",
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              UseProceduralCamera = false,
-              ProceduralCameraId = 1,
-              HideNpcs = false,
-              HideMonsters = true,
-              HideAllBattleEntity = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              SkipToOption = false,
-              DisableNpcOptimization = false,
-              DoNotReceiveCharacterShadow = false,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              PauseNpcBT = true,
-              TalkActors = {
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = false
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 100001,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 200002,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 210021,
-                  TalkActorVisible = true
-                }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 200002},
-                {TalkActorType = "Npc", TalkActorId = 210021}
-              },
-              OptionType = "normal",
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              NormalOptions = {},
-              OverrideFailBlend = false
-            }
-          },
-          ["173071138714814473040"] = {
-            key = "173071138714814473040",
-            type = "TalkNode",
-            name = "站桩 - 和虬先生对话",
-            pos = {x = 2852.7312709753987, y = 429.64148428059923},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12019801,
-              FlowAssetPath = "",
-              TalkType = "FixSimple",
-              TalkStageName = "Stage_BattleField04",
-              BlendInTime = 0,
-              BlendOutTime = 1,
-              InType = "FadeIn",
-              OutType = "FadeOut",
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              UseProceduralCamera = false,
-              ProceduralCameraId = 1,
-              HideNpcs = false,
-              HideMonsters = true,
-              HideAllBattleEntity = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              SkipToOption = false,
-              DisableNpcOptimization = false,
-              DoNotReceiveCharacterShadow = false,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              PauseNpcBT = true,
-              TalkActors = {
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = false
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 100001,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 200002,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 210012,
-                  TalkActorVisible = true
-                }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 200002},
-                {TalkActorType = "Npc", TalkActorId = 210012}
-              },
-              OptionType = "normal",
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              NormalOptions = {},
-              OverrideFailBlend = false
-            }
-          },
-          ["17307879208101220541"] = {
-            key = "17307879208101220541",
-            type = "GoToNode",
-            name = "抵达目标点",
-            pos = {x = 2299.2173913043453, y = 439.3853073463269},
-            propsData = {
-              GuideUIEnable = true,
-              StaticCreatorId = 1980016,
-              GuideType = "P",
-              GuidePointName = "QuestPoint_MS08"
+              SoundStateType = 3,
+              SoundPriority = 0,
+              SoundType = 0
             }
           }
         },
@@ -2286,12 +729,12 @@ return {
       key = "173071205291817690514",
       type = "StoryNode",
       name = "传送回古战场",
-      pos = {x = 3022.269844470868, y = 372.115863349806},
+      pos = {x = 2595.437493168348, y = 534.771243736256},
       propsData = {
         QuestId = 12010513,
         QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_13",
-        QuestDeatil = "Content_120105_13",
+        QuestDescription = "Description_120105_14",
+        QuestDeatil = "Content_120105_14",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -2301,42 +744,56 @@ return {
         bIsStartChapter = false,
         bIsEndChapter = false,
         bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnComplete = true,
         bIsPlayBlackScreenOnFail = false,
         bIsDynamicEvent = false,
         ResurgencePoint = "",
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
-        SubRegionId = 0,
+        SubRegionId = 104102,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "QuestPoint_YumingBossFight",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
           {
-            startQuest = "173071205291817690521",
+            startQuest = "173071205291817690518",
+            startPort = "QuestStart",
+            endQuest = "17629388368042017017",
+            endPort = "In"
+          },
+          {
+            startQuest = "17629388368042017017",
             startPort = "Out",
             endQuest = "173071205291817690523",
             endPort = "In"
           },
           {
-            startQuest = "173071205291817690518",
-            startPort = "QuestStart",
-            endQuest = "173071205291817690521",
+            startQuest = "17544824228863370",
+            startPort = "Out",
+            endQuest = "176485570682010842461",
             endPort = "In"
+          },
+          {
+            startQuest = "176485570682010842461",
+            startPort = "Out",
+            endQuest = "173071205291817690519",
+            endPort = "Success"
           },
           {
             startQuest = "173071205291817690523",
             startPort = "Out",
-            endQuest = "17544824228863370",
+            endQuest = "176485570582710842403",
             endPort = "In"
           },
           {
-            startQuest = "17544824228863370",
+            startQuest = "176485570582710842403",
             startPort = "Out",
-            endQuest = "173071205291817690519",
-            endPort = "Success"
+            endQuest = "17544824228863370",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -2344,14 +801,14 @@ return {
             key = "173071205291817690518",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 2217.5560646250296, y = 466.6602363154086},
+            pos = {x = 2197.1350119934505, y = 461.29181526277705},
             propsData = {ModeType = 0}
           },
           ["173071205291817690519"] = {
             key = "173071205291817690519",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 3274.8097192948862, y = 457.44361237219425},
+            pos = {x = 3730.4347192948862, y = 490.25611237219425},
             propsData = {ModeType = 0}
           },
           ["173071205291817690520"] = {
@@ -2361,32 +818,18 @@ return {
             pos = {x = 3953.71390273013, y = 788.3435935261493},
             propsData = {}
           },
-          ["173071205291817690521"] = {
-            key = "173071205291817690521",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2496.3243741797696, y = 451.122272610593},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104102,
-              bGuideUIEnable = false,
-              GuideType = "P",
-              GuideName = ""
-            }
-          },
           ["173071205291817690523"] = {
             key = "173071205291817690523",
             type = "TalkNode",
             name = "站桩 - 逮捕煜明",
-            pos = {x = 2760.5253438637665, y = 448.65158449365066},
+            pos = {x = 2716.9703626607593, y = 448.96690404252286},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12019901,
-              FlowAssetPath = "",
+              FlowAssetPath = "DialogueAsset'/Game/Dialogue/MainStory/1201/120105/12019901.12019901'",
               TalkType = "FixSimple",
               TalkStageName = "East01_FixSimple_51",
-              BlendInTime = 1,
+              BlendInTime = 0,
               BlendOutTime = 0,
               InType = "FadeIn",
               OutType = "FadeOut",
@@ -2397,6 +840,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -2431,37 +875,21 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 210012},
-                {TalkActorType = "Npc", TalkActorId = 210007}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
-            }
-          },
-          ["17307915915615675180"] = {
-            key = "17307915915615675180",
-            type = "SkipRegionNode",
-            name = "跨区域传送设置玩家位置",
-            pos = {x = 2265.7691154422773, y = 309.0404797601199},
-            propsData = {
-              ModeType = 1,
-              Id = 104101,
-              StartIndex = 1,
-              IsWhite = false
             }
           },
           ["17544824228863370"] = {
             key = "17544824228863370",
             type = "TalkNode",
             name = "【SC010】逮捕煜明",
-            pos = {x = 3006.2096927839957, y = 444.9455525125029},
+            pos = {x = 3214.9737905283564, y = 447.8905713094954},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -2480,6 +908,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -2493,13 +922,53 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
               OverrideFailBlend = false
+            }
+          },
+          ["17629388368042017017"] = {
+            key = "17629388368042017017",
+            type = "AsyncSetActorLocationAndRotationNode",
+            name = "异步设置玩家位置旋转",
+            pos = {x = 2478.6148090815277, y = 449.42092363261094},
+            propsData = {
+              UnitId = 0,
+              NewTargetPointName = "QuestPoint_BattWonderland",
+              FadeIn = false,
+              FadeOut = false,
+              bResetCamera = true,
+              bForceAsyncLoading = false,
+              IsWhite = false
+            }
+          },
+          ["176485570582710842403"] = {
+            key = "176485570582710842403",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 2972.5, y = 449.5625},
+            propsData = {
+              SoundStateType = 0,
+              SoundPriority = 0,
+              SoundType = 0,
+              SoundPath = "event:/bgm/1_1/0128_cs_qiusir_attack_player",
+              ParamKey = "",
+              ParamValue = 0,
+              RelatedRegionId = {104102},
+              ClientRelatedRegionId = {},
+              bStoreToServer = false
+            }
+          },
+          ["176485570682010842461"] = {
+            key = "176485570682010842461",
+            type = "PlayOrStopBGMNode",
+            name = "BGM节点",
+            pos = {x = 3450, y = 461.75},
+            propsData = {
+              SoundStateType = 3,
+              SoundPriority = 0,
+              SoundType = 0
             }
           }
         },
@@ -2511,7 +980,7 @@ return {
       key = "17307962001767295271",
       type = "StoryNode",
       name = "击败煜明",
-      pos = {x = 3282.704352618894, y = 204.72309886515285},
+      pos = {x = 2878.204843766117, y = 532.0442661528737},
       propsData = {
         QuestId = 12010514,
         QuestDescriptionComment = "",
@@ -2526,54 +995,74 @@ return {
         bIsStartChapter = false,
         bIsEndChapter = false,
         bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnComplete = true,
         bIsPlayBlackScreenOnFail = false,
         bIsDynamicEvent = false,
         ResurgencePoint = "",
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
-        SubRegionId = 0,
+        SubRegionId = 104102,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "QuestPoint_YumingBossFight",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
           {
-            startQuest = "17307962001767295275",
-            startPort = "QuestStart",
-            endQuest = "17307962001767295278",
+            startQuest = "175716174417910657959",
+            startPort = "Fail",
+            endQuest = "175716184501310658697",
             endPort = "In"
           },
           {
-            startQuest = "17307969394587701290",
-            startPort = "Out",
-            endQuest = "17307969394587701291",
+            startQuest = "175716174417910657959",
+            startPort = "PassiveFail",
+            endQuest = "175716184501310658697",
             endPort = "In"
           },
           {
-            startQuest = "17307969394587701292",
+            startQuest = "175716184501310658697",
             startPort = "Out",
-            endQuest = "17307969394587701293",
+            endQuest = "17307962001767295277",
+            endPort = "Fail"
+          },
+          {
+            startQuest = "175716174417910657959",
+            startPort = "Success",
+            endQuest = "17307962001767295276",
+            endPort = "Success"
+          },
+          {
+            startQuest = "176033555097718499200",
+            startPort = "true",
+            endQuest = "176033555097718499199",
             endPort = "In"
           },
           {
-            startQuest = "17307962001767295278",
-            startPort = "Out",
+            startQuest = "176033555097718499200",
+            startPort = "false",
             endQuest = "17307969394587701290",
             endPort = "In"
           },
           {
             startQuest = "17307969394587701290",
             startPort = "Out",
-            endQuest = "17307969394587701292",
+            endQuest = "175716174417910657959",
             endPort = "In"
           },
           {
-            startQuest = "17307969394587701293",
-            startPort = "Out",
-            endQuest = "17307962001767295276",
-            endPort = "Success"
+            startQuest = "17307962001767295275",
+            startPort = "QuestStart",
+            endQuest = "176033555097718499200",
+            endPort = "In"
+          },
+          {
+            startQuest = "176033555097718499200",
+            startPort = "true",
+            endQuest = "175716174417910657959",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -2581,93 +1070,79 @@ return {
             key = "17307962001767295275",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 1977.5560646250296, y = 453.21196045333966},
+            pos = {x = 1836.7139593618717, y = 470.6505569445677},
             propsData = {ModeType = 0}
           },
           ["17307962001767295276"] = {
             key = "17307962001767295276",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 3295.1004949596845, y = 454.1661721449394},
+            pos = {x = 3302.659935519125, y = 437.93418673904097},
             propsData = {ModeType = 0}
           },
           ["17307962001767295277"] = {
             key = "17307962001767295277",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
+            pos = {x = 3299.547894824992, y = 703.2092061743707},
             propsData = {}
-          },
-          ["17307962001767295278"] = {
-            key = "17307962001767295278",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2235.831763342331, y = 453.19123812783437},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104102,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_12010514"
-            }
           },
           ["17307969394587701290"] = {
             key = "17307969394587701290",
             type = "GoToNode",
             name = "和煜明战斗",
-            pos = {x = 2487.2310233238964, y = 453.3131945931797},
+            pos = {x = 2415.4532455461185, y = 677.63065491064},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1930153,
               GuideType = "P",
-              GuidePointName = "QuestPoint_12010514"
+              GuidePointName = "QuestPoint_YumingBossFight"
             }
           },
-          ["17307969394587701291"] = {
-            key = "17307969394587701291",
-            type = "TalkNode",
-            name = "开车- 黑龙战斗",
-            pos = {x = 2736.243064922145, y = 263.0436269960259},
+          ["175716174417910657959"] = {
+            key = "175716174417910657959",
+            type = "WaitingSpecialQuestStartAndFinishNode",
+            name = "等待特殊任务开始并完成",
+            pos = {x = 2703.5542451446345, y = 452.1789667870903},
+            propsData = {SpecialConfigId = 2011, BlackScreenImmediately = true}
+          },
+          ["175716184501310658697"] = {
+            key = "175716184501310658697",
+            type = "AsyncSetActorLocationAndRotationNode",
+            name = "异步设置玩家位置旋转",
+            pos = {x = 2986.598347495372, y = 671.5511892760177},
             propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12020101,
-              FlowAssetPath = "",
-              TalkType = "Guide",
-              bIsStandalone = true,
-              GuideMeshIndexList = {},
-              IsPlayStartSound = false,
-              GuideTalkStyle = "Normal",
-              OverrideFailBlend = false
+              UnitId = 0,
+              NewTargetPointName = "RespawnPoint_YumingBossFight",
+              FadeIn = false,
+              FadeOut = true,
+              bResetCamera = true,
+              bForceAsyncLoading = false,
+              IsWhite = false
             }
           },
-          ["17307969394587701292"] = {
-            key = "17307969394587701292",
-            type = "ChangeStaticCreatorNode",
-            name = "生成/销毁节点",
-            pos = {x = 2743.272724802039, y = 454.0449215240841},
+          ["176033555097718499199"] = {
+            key = "176033555097718499199",
+            type = "SetVarNode",
+            name = "设置变量值",
+            pos = {x = 2437.685840337055, y = 332.0320276447246},
             propsData = {
-              ActiveEnable = true,
-              EnableBlackScreenSync = true,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {1930152}
+              VarName = "East01YumingBoss",
+              VarValue = 1
             }
           },
-          ["17307969394587701293"] = {
-            key = "17307969394587701293",
-            type = "KillMonsterNode",
-            name = "击杀怪物",
-            pos = {x = 3031.4796213537625, y = 458.544921524084},
+          ["176033555097718499200"] = {
+            key = "176033555097718499200",
+            type = "ExecuteBlueprintFunctionCheckVarNode",
+            name = "是否在阶段1",
+            pos = {x = 2140.2948753511982, y = 459.65655464850863},
             propsData = {
-              KillMonsterType = "Id",
-              MonsterNeedNums = 1,
-              IsShow = false,
-              GuideType = "P",
-              GuideName = "",
-              IsShowMonsterGuide = true,
-              StaticCreatorIdList = {1930152}
+              FunctionName = "Equal",
+              VarName = "East01YumingBoss",
+              Duration = 0,
+              VarInfos = {
+                {VarName = "Value", VarValue = "0"}
+              }
             }
           }
         },
@@ -2679,7 +1154,7 @@ return {
       key = "173079802280910132367",
       type = "StoryNode",
       name = "战后对话",
-      pos = {x = 3515.211517867438, y = 4.160626854404967},
+      pos = {x = 3156.3490577556863, y = 531.6199906230643},
       propsData = {
         QuestId = 12010515,
         QuestDescriptionComment = "",
@@ -2701,9 +1176,11 @@ return {
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
-        SubRegionId = 0,
+        SubRegionId = 104102,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "QuestPoint_YumingBossFight",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -2714,21 +1191,15 @@ return {
             endPort = "Success"
           },
           {
-            startQuest = "173079802280910132371",
-            startPort = "QuestStart",
-            endQuest = "17531951931161952441",
-            endPort = "In"
-          },
-          {
-            startQuest = "17531951931161952441",
-            startPort = "Out",
-            endQuest = "17536984965884015963",
-            endPort = "In"
-          },
-          {
             startQuest = "17536984965884015963",
             startPort = "Out",
             endQuest = "173079927219211755541",
+            endPort = "In"
+          },
+          {
+            startQuest = "173079802280910132371",
+            startPort = "QuestStart",
+            endQuest = "17536984965884015963",
             endPort = "In"
           }
         },
@@ -2737,14 +1208,14 @@ return {
             key = "173079802280910132371",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 1644.0560646250296, y = 493.71196045333966},
+            pos = {x = 1750.7227312916964, y = 488.71196045333966},
             propsData = {ModeType = 0}
           },
           ["173079802280910132372"] = {
             key = "173079802280910132372",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2807.159318489096, y = 450.63676038023357},
+            pos = {x = 2811.072361967357, y = 467.593282119364},
             propsData = {ModeType = 0}
           },
           ["173079802280910132373"] = {
@@ -2753,20 +1224,6 @@ return {
             name = "QuestFail",
             pos = {x = 3953.71390273013, y = 788.3435935261493},
             propsData = {}
-          },
-          ["173079802280910132374"] = {
-            key = "173079802280910132374",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2254.361175107037, y = 273.19123812783437},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104101,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_12010514"
-            }
           },
           ["173079850958511350020"] = {
             key = "173079850958511350020",
@@ -2792,7 +1249,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -2803,16 +1259,16 @@ return {
             key = "173079927219211755541",
             type = "TalkNode",
             name = "站桩 - 和刻舟、虬先生对话",
-            pos = {x = 2514.4904448228363, y = 439.1418996384161},
+            pos = {x = 2489.7078361271842, y = 469.1418996384161},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12020301,
-              FlowAssetPath = "",
+              FlowAssetPath = "DialogueAsset'/Game/Dialogue/MainStory/1201/120105/12020301.12020301'",
               TalkType = "FixSimple",
               TalkStageName = "East01_FixSimple_52",
               BlendInTime = 0,
-              BlendOutTime = 0.5,
-              InType = "BlendIn",
+              BlendOutTime = 1,
+              InType = "FadeIn",
               OutType = "FadeOut",
               ShowFadeDetail = false,
               BlendEaseExp = 2,
@@ -2821,6 +1277,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -2860,40 +1317,21 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 200002},
-                {TalkActorType = "Npc", TalkActorId = 210012},
-                {TalkActorType = "Npc", TalkActorId = 210021}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
-            }
-          },
-          ["17531951931161952441"] = {
-            key = "17531951931161952441",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 1967.8478260869565, y = 436.9347826086956},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104102,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_12010514"
             }
           },
           ["17536984965884015963"] = {
             key = "17536984965884015963",
             type = "TalkNode",
             name = "【SC011】刻舟救场",
-            pos = {x = 2238.146739130435, y = 444.881483600305},
+            pos = {x = 2151.842391304348, y = 471.5481502669717},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -2912,6 +1350,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -2924,9 +1363,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -2943,7 +1379,7 @@ return {
       key = "173080027464112567025",
       type = "StoryNode",
       name = "和刻舟对话",
-      pos = {x = 3753.577607659999, y = -152.03523205342162},
+      pos = {x = 3437.5476234252183, y = 535.4100563077338},
       propsData = {
         QuestId = 12010516,
         QuestDescriptionComment = "",
@@ -2956,7 +1392,7 @@ return {
         bIsEndQuest = true,
         bIsNotifyGameMode = true,
         bIsStartChapter = false,
-        bIsEndChapter = false,
+        bIsEndChapter = true,
         bIsShowOnComplete = true,
         bIsPlayBlackScreenOnComplete = false,
         bIsPlayBlackScreenOnFail = false,
@@ -2965,24 +1401,14 @@ return {
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
-        SubRegionId = 0,
+        SubRegionId = 104102,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "Npc_Kezhou_1930157",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
-          {
-            startQuest = "173080027464112567029",
-            startPort = "QuestStart",
-            endQuest = "173080027464112567032",
-            endPort = "In"
-          },
-          {
-            startQuest = "173080027464112567032",
-            startPort = "Out",
-            endQuest = "173080045654912973954",
-            endPort = "In"
-          },
           {
             startQuest = "173080045654912973954",
             startPort = "Out",
@@ -2990,16 +1416,28 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "173080027464112567029",
+            startPort = "QuestStart",
+            endQuest = "173080091057415001673",
+            endPort = "In"
+          },
+          {
+            startQuest = "173080027464112567029",
+            startPort = "QuestStart",
+            endQuest = "173080045654912973954",
+            endPort = "In"
+          },
+          {
             startQuest = "173080072999313379658",
+            startPort = "Out",
+            endQuest = "17650326072902887056",
+            endPort = "In"
+          },
+          {
+            startQuest = "17650326072902887056",
             startPort = "Out",
             endQuest = "173080027464112567030",
             endPort = "Success"
-          },
-          {
-            startQuest = "173080027464112567032",
-            startPort = "Out",
-            endQuest = "173080091057415001673",
-            endPort = "In"
           }
         },
         nodeData = {
@@ -3014,7 +1452,7 @@ return {
             key = "173080027464112567030",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2909.659318489096, y = 451.4700937135669},
+            pos = {x = 3187.659318489096, y = 457.4700937135669},
             propsData = {ModeType = 0}
           },
           ["173080027464112567031"] = {
@@ -3024,25 +1462,11 @@ return {
             pos = {x = 3953.71390273013, y = 788.3435935261493},
             propsData = {}
           },
-          ["173080027464112567032"] = {
-            key = "173080027464112567032",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2079.7959577157326, y = 452.44848450464593},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104102,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_12010514"
-            }
-          },
           ["173080045654912973954"] = {
             key = "173080045654912973954",
             type = "ChangeStaticCreatorNode",
             name = "生成刻舟",
-            pos = {x = 2345.328397205752, y = 456.62770664003835},
+            pos = {x = 2245.328397205752, y = 458.29437330670504},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -3070,15 +1494,17 @@ return {
               TalkType = "FixSimple",
               TalkStageName = "East01_FixSimple_53",
               BlendInTime = 0.5,
-              BlendOutTime = 0.5,
-              InType = "BlendIn",
-              OutType = "BlendOut",
+              BlendOutTime = 0,
+              InType = "FadeIn",
+              OutType = "FadeOut",
+              ShowFadeDetail = false,
               BlendEaseExp = 2,
               UseProceduralCamera = false,
               ProceduralCameraId = 1,
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -3108,15 +1534,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 210021}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -3125,7 +1548,7 @@ return {
             key = "173080091057415001673",
             type = "TalkNode",
             name = "开车- 小白吐槽",
-            pos = {x = 2347.8283972057525, y = 309.12770664003835},
+            pos = {x = 2241.8283972057525, y = 221.12770664003835},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12020401,
@@ -3137,6 +1560,20 @@ return {
               GuideTalkStyle = "Normal",
               OverrideFailBlend = false
             }
+          },
+          ["17650326072902887056"] = {
+            key = "17650326072902887056",
+            type = "ChangeStaticCreatorNode",
+            name = "生成刻舟",
+            pos = {x = 2908, y = 458.00000000000006},
+            propsData = {
+              ActiveEnable = false,
+              EnableBlackScreenSync = true,
+              EnableFadeIn = false,
+              EnableFadeOut = true,
+              NewTargetPointName = "",
+              StaticCreatorIdList = {1930157}
+            }
           }
         },
         commentData = {}
@@ -3147,12 +1584,12 @@ return {
       key = "17414154533691564612",
       type = "StoryNode",
       name = "古战场副本I",
-      pos = {x = 2611.3509751689962, y = -2.1983574777626416},
+      pos = {x = 2417.7148768587044, y = 154.6739927526521},
       propsData = {
         QuestId = 12010517,
         QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_4",
-        QuestDeatil = "Content_120105_4",
+        QuestDescription = "Description_120105_20",
+        QuestDeatil = "Content_120105_20",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -3162,16 +1599,18 @@ return {
         bIsStartChapter = false,
         bIsEndChapter = false,
         bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnComplete = true,
         bIsPlayBlackScreenOnFail = false,
         bIsDynamicEvent = false,
         ResurgencePoint = "",
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
-        IsFairyLand = true,
+        IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "0"
+        StoryGuidePointName = "0",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -3180,12 +1619,6 @@ return {
             startPort = "Fail",
             endQuest = "17414154533691564621",
             endPort = "In"
-          },
-          {
-            startQuest = "17414154533691564621",
-            startPort = "Out",
-            endQuest = "17414154533691564619",
-            endPort = "Fail"
           },
           {
             startQuest = "17414154533691564620",
@@ -3228,6 +1661,12 @@ return {
             startPort = "QuestStart",
             endQuest = "17536979506683010410",
             endPort = "In"
+          },
+          {
+            startQuest = "17414154533691564621",
+            startPort = "Out",
+            endQuest = "17414154533691564619",
+            endPort = "Fail"
           }
         },
         nodeData = {
@@ -3235,14 +1674,14 @@ return {
             key = "17414154533691564617",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 3722.541690688082, y = 571.2841075103231},
+            pos = {x = 3706.041690688082, y = 646.9269646531803},
             propsData = {ModeType = 0}
           },
           ["17414154533691564618"] = {
             key = "17414154533691564618",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 4758.4782689977155, y = 489.48468562945095},
+            pos = {x = 4754.74017375962, y = 462.1275427723081},
             propsData = {
               ModeType = 1,
               Id = 104601,
@@ -3254,21 +1693,21 @@ return {
             key = "17414154533691564619",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 4756.283057713077, y = 746.8578808702475},
+            pos = {x = 4733.925914855935, y = 822.8816903940572},
             propsData = {}
           },
           ["17414154533691564620"] = {
             key = "17414154533691564620",
             type = "WaitingSpecialQuestStartAndFinishNode",
             name = "2008古战场<1>",
-            pos = {x = 4349.637260204876, y = 552.2692939244662},
+            pos = {x = 4319.500896568512, y = 559.0030601582324},
             propsData = {SpecialConfigId = 2008, BlackScreenImmediately = false}
           },
           ["17414154533691564621"] = {
             key = "17414154533691564621",
             type = "SkipRegionNode",
             name = "送回幻境外",
-            pos = {x = 4758.7654134813965, y = 617.4235084838532},
+            pos = {x = 4731.241603957586, y = 623.637794198139},
             propsData = {
               ModeType = 1,
               Id = 104102,
@@ -3280,7 +1719,7 @@ return {
             key = "17414154533691564623",
             type = "CommonBlackFadeInOutNode",
             name = "对话黑屏淡入淡出节点",
-            pos = {x = 3656.9659158046243, y = 919.1371639113572},
+            pos = {x = 4136.965915804624, y = -22.86283608864278},
             propsData = {FadeTime = 0, FadeType = "FadeIn"}
           },
           ["174901916246333185788"] = {
@@ -3307,7 +1746,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -3318,7 +1756,7 @@ return {
             key = "17536979366283010240",
             type = "GoToRegionNode",
             name = "进入区域",
-            pos = {x = 4115.728199174407, y = 382.4456914344686},
+            pos = {x = 3905.7281991744067, y = 325.6599771487543},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
@@ -3332,7 +1770,7 @@ return {
             key = "17536979506683010409",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 4285.321263334719, y = 860.6924663309553},
+            pos = {x = 4302.55685230715, y = 854.7801856292009},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 2030014,
@@ -3344,7 +1782,7 @@ return {
             key = "17536979506683010410",
             type = "JudgeRegionNode",
             name = "判断位于区域",
-            pos = {x = 4022.4702291378335, y = 809.4474027920154},
+            pos = {x = 4021.106592774197, y = 787.1268286293359},
             propsData = {
               IsWaitingEnterRegion = false,
               RegionIds = {104201}
@@ -3354,7 +1792,7 @@ return {
             key = "17536979506683010411",
             type = "SkipRegionNode",
             name = "跨区域传送设置玩家位置",
-            pos = {x = 4554.98616921098, y = 876.9439800769219},
+            pos = {x = 4572.407221842559, y = 899.1118998764207},
             propsData = {
               ModeType = 1,
               Id = 104201,
@@ -3366,14 +1804,29 @@ return {
             key = "17536979561713010575",
             type = "GoToRegionNode",
             name = "进入区域",
-            pos = {x = 4023.2281991744067, y = 571.4456914344686},
+            pos = {x = 4022.156770602978, y = 571.4456914344686},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
               RegionId = 104201,
               bGuideUIEnable = false,
               GuideType = "P",
-              GuideName = "QuestPoint_Batt01StartPoint"
+              GuideName = ""
+            }
+          },
+          ["17571615295079690749"] = {
+            key = "17571615295079690749",
+            type = "AsyncSetActorLocationAndRotationNode",
+            name = "异步设置玩家位置旋转",
+            pos = {x = 5197.194547095347, y = 591.8853432245797},
+            propsData = {
+              UnitId = 0,
+              NewTargetPointName = "QuestPoint_BattWonderland",
+              FadeIn = false,
+              FadeOut = true,
+              bResetCamera = true,
+              bForceAsyncLoading = false,
+              IsWhite = false
             }
           }
         },
@@ -3385,12 +1838,12 @@ return {
       key = "17501484720731287440",
       type = "StoryNode",
       name = "古战场副本II",
-      pos = {x = 2666.0502392344497, y = 232.13590797074778},
+      pos = {x = 2701.9797323220077, y = 152.90825820116254},
       propsData = {
         QuestId = 12010518,
         QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_4",
-        QuestDeatil = "Content_120105_4",
+        QuestDescription = "Description_120105_20",
+        QuestDeatil = "Content_120105_20",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -3400,16 +1853,18 @@ return {
         bIsStartChapter = false,
         bIsEndChapter = false,
         bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnComplete = true,
         bIsPlayBlackScreenOnFail = false,
         bIsDynamicEvent = false,
         ResurgencePoint = "",
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
-        IsFairyLand = true,
+        IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "0"
+        StoryGuidePointName = "0",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -3418,12 +1873,6 @@ return {
             startPort = "Fail",
             endQuest = "17501484720731287449",
             endPort = "In"
-          },
-          {
-            startQuest = "17501484720731287449",
-            startPort = "Out",
-            endQuest = "17501484720731287447",
-            endPort = "Fail"
           },
           {
             startQuest = "17501484720731287448",
@@ -3466,6 +1915,12 @@ return {
             startPort = "QuestStart",
             endQuest = "17536981218533012503",
             endPort = "In"
+          },
+          {
+            startQuest = "17501484720731287449",
+            startPort = "Out",
+            endQuest = "17501484720731287447",
+            endPort = "Fail"
           }
         },
         nodeData = {
@@ -3480,7 +1935,7 @@ return {
             key = "17501484720731287446",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 4758.4782689977155, y = 489.48468562945095},
+            pos = {x = 5008.95379347324, y = 563.3488214935868},
             propsData = {
               ModeType = 1,
               Id = 104701,
@@ -3492,21 +1947,21 @@ return {
             key = "17501484720731287447",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 4756.283057713077, y = 746.8578808702475},
+            pos = {x = 5016.557782987803, y = 961.8029358153025},
             propsData = {}
           },
           ["17501484720731287448"] = {
             key = "17501484720731287448",
             type = "WaitingSpecialQuestStartAndFinishNode",
             name = "2009古战场<2>",
-            pos = {x = 4372.915037982653, y = 548.8804050355773},
+            pos = {x = 4328.761191828808, y = 564.9573281125004},
             propsData = {SpecialConfigId = 2009, BlackScreenImmediately = false}
           },
           ["17501484720731287449"] = {
             key = "17501484720731287449",
             type = "SkipRegionNode",
             name = "送回幻境外",
-            pos = {x = 4758.7654134813965, y = 616.1735084838532},
+            pos = {x = 5009.905273621256, y = 761.4262557366004},
             propsData = {
               ModeType = 1,
               Id = 104102,
@@ -3514,42 +1969,11 @@ return {
               IsWhite = true
             }
           },
-          ["17501484720731287451"] = {
-            key = "17501484720731287451",
-            type = "TalkNode",
-            name = "【幻境】进入古战场",
-            pos = {x = 4442.611611506773, y = 85.86300258880837},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12023807,
-              FlowAssetPath = "",
-              TalkType = "Black",
-              BlendInTime = 0,
-              BlendOutTime = 0,
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              ForceAutoPlay = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              TalkActors = {},
-              RemoveTalkActors = {},
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              OverrideFailBlend = false
-            }
-          },
           ["17536981218533012502"] = {
             key = "17536981218533012502",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 4289.389116791892, y = 818.74763057526},
+            pos = {x = 4303.389116791892, y = 1160.5937844214138},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 2030014,
@@ -3561,7 +1985,7 @@ return {
             key = "17536981218533012503",
             type = "JudgeRegionNode",
             name = "判断位于区域",
-            pos = {x = 4005.538082595006, y = 778.0025670363201},
+            pos = {x = 3983.6919287488518, y = 1162.3102593440126},
             propsData = {
               IsWaitingEnterRegion = false,
               RegionIds = {104601}
@@ -3571,7 +1995,7 @@ return {
             key = "17536981218533012504",
             type = "SkipRegionNode",
             name = "跨区域传送设置玩家位置",
-            pos = {x = 4535.054022668152, y = 845.4991443212266},
+            pos = {x = 4587.74633036046, y = 1162.4222212443035},
             propsData = {
               ModeType = 1,
               Id = 104601,
@@ -3583,14 +2007,29 @@ return {
             key = "17536981218533012505",
             type = "GoToRegionNode",
             name = "进入区域",
-            pos = {x = 4022.796052631579, y = 535.5008556787733},
+            pos = {x = 4007.264280056328, y = 568.2266081871344},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
               RegionId = 104601,
               bGuideUIEnable = false,
               GuideType = "P",
-              GuideName = "QuestPoint_Batt02StartPoint"
+              GuideName = ""
+            }
+          },
+          ["17571615576079691372"] = {
+            key = "17571615576079691372",
+            type = "AsyncSetActorLocationAndRotationNode",
+            name = "异步设置玩家位置旋转",
+            pos = {x = 4678.817182817183, y = 178.22477522477527},
+            propsData = {
+              UnitId = 0,
+              NewTargetPointName = "QuestPoint_BattWonderland",
+              FadeIn = false,
+              FadeOut = true,
+              bResetCamera = true,
+              bForceAsyncLoading = false,
+              IsWhite = false
             }
           }
         },
@@ -3602,12 +2041,12 @@ return {
       key = "17501484732221287532",
       type = "StoryNode",
       name = "古战场副本III",
-      pos = {x = 2708.2842105263153, y = 465.08077363140296},
+      pos = {x = 2978.768640075261, y = 151.6098198539976},
       propsData = {
         QuestId = 12010519,
         QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_4",
-        QuestDeatil = "Content_120105_4",
+        QuestDescription = "Description_120105_20",
+        QuestDeatil = "Content_120105_20",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -3617,16 +2056,18 @@ return {
         bIsStartChapter = false,
         bIsEndChapter = false,
         bIsShowOnComplete = true,
-        bIsPlayBlackScreenOnComplete = false,
+        bIsPlayBlackScreenOnComplete = true,
         bIsPlayBlackScreenOnFail = false,
         bIsDynamicEvent = false,
         ResurgencePoint = "",
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
-        IsFairyLand = true,
+        IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "0"
+        StoryGuidePointName = "0",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -3635,12 +2076,6 @@ return {
             startPort = "Fail",
             endQuest = "17501484732231287541",
             endPort = "In"
-          },
-          {
-            startQuest = "17501484732231287541",
-            startPort = "Out",
-            endQuest = "17501484732231287539",
-            endPort = "Fail"
           },
           {
             startQuest = "17501484732231287540",
@@ -3683,6 +2118,12 @@ return {
             startPort = "QuestStart",
             endQuest = "17536981964883014360",
             endPort = "In"
+          },
+          {
+            startQuest = "17501484732231287541",
+            startPort = "Out",
+            endQuest = "17501484732231287539",
+            endPort = "Fail"
           }
         },
         nodeData = {
@@ -3690,40 +2131,14 @@ return {
             key = "17501484732231287537",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 3754.827404973796, y = 605.5698217960373},
+            pos = {x = 3756.1910413374326, y = 672.3880036142192},
             propsData = {ModeType = 0}
           },
           ["17501484732231287538"] = {
             key = "17501484732231287538",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 4769.530900576663, y = 476.8531066820825},
-            propsData = {
-              ModeType = 1,
-              Id = 104102,
-              StartIndex = 1,
-              IsWhite = false
-            }
-          },
-          ["17501484732231287539"] = {
-            key = "17501484732231287539",
-            type = "QuestFailNode",
-            name = "QuestFail",
-            pos = {x = 4808.764260720596, y = 774.8278056822777},
-            propsData = {}
-          },
-          ["17501484732231287540"] = {
-            key = "17501484732231287540",
-            type = "WaitingSpecialQuestStartAndFinishNode",
-            name = "等待特殊任务开始并完成",
-            pos = {x = 4398.994403062019, y = 576.3407224958947},
-            propsData = {SpecialConfigId = 2010, BlackScreenImmediately = false}
-          },
-          ["17501484732231287541"] = {
-            key = "17501484732231287541",
-            type = "SkipRegionNode",
-            name = "送回幻境外",
-            pos = {x = 4758.7654134813965, y = 614.5945611154322},
+            pos = {x = 5008.316600003094, y = 585.8815324896847},
             propsData = {
               ModeType = 1,
               Id = 104102,
@@ -3731,63 +2146,51 @@ return {
               IsWhite = true
             }
           },
-          ["17501484732231287542"] = {
-            key = "17501484732231287542",
-            type = "CommonBlackFadeInOutNode",
-            name = "对话黑屏淡入淡出节点",
-            pos = {x = 4701.965915804624, y = 76.28002105421433},
-            propsData = {FadeTime = 0, FadeType = "FadeIn"}
+          ["17501484732231287539"] = {
+            key = "17501484732231287539",
+            type = "QuestFailNode",
+            name = "QuestFail",
+            pos = {x = 5014.430319807708, y = 881.7654148567289},
+            propsData = {}
           },
-          ["17501484732231287543"] = {
-            key = "17501484732231287543",
-            type = "TalkNode",
-            name = "【幻境】进入古战场",
-            pos = {x = 4442.611611506773, y = 85.86300258880837},
+          ["17501484732231287540"] = {
+            key = "17501484732231287540",
+            type = "WaitingSpecialQuestStartAndFinishNode",
+            name = "等待特殊任务开始并完成",
+            pos = {x = 4521.721675789292, y = 604.9770861322584},
+            propsData = {SpecialConfigId = 2010, BlackScreenImmediately = false}
+          },
+          ["17501484732231287541"] = {
+            key = "17501484732231287541",
+            type = "SkipRegionNode",
+            name = "送回幻境外",
+            pos = {x = 5012.2045118861715, y = 721.7797259378967},
             propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12023807,
-              FlowAssetPath = "",
-              TalkType = "Black",
-              BlendInTime = 0,
-              BlendOutTime = 0,
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              ForceAutoPlay = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              TalkActors = {},
-              RemoveTalkActors = {},
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              OverrideFailBlend = false
+              ModeType = 1,
+              Id = 104102,
+              StartIndex = 1,
+              IsWhite = false
             }
           },
           ["17536981964883014359"] = {
             key = "17536981964883014359",
             type = "GoToRegionNode",
             name = "进入区域",
-            pos = {x = 4121.84962406015, y = 586.6485779255667},
+            pos = {x = 4120.178777665165, y = 598.7269478315227},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
               RegionId = 104701,
               bGuideUIEnable = false,
               GuideType = "P",
-              GuideName = "QuestPoint_Batt03StartPoint"
+              GuideName = ""
             }
           },
           ["17536981964883014360"] = {
             key = "17536981964883014360",
             type = "JudgeRegionNode",
             name = "判断位于区域",
-            pos = {x = 4130.305939737863, y = 794.8645749973992},
+            pos = {x = 4124.723763293617, y = 810.0728150332255},
             propsData = {
               IsWaitingEnterRegion = false,
               RegionIds = {104701}
@@ -3797,7 +2200,7 @@ return {
             key = "17536981964883014361",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 4425.585545363321, y = 881.3239242506248},
+            pos = {x = 4408.011952289728, y = 887.0454249721256},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 2030014,
@@ -3809,7 +2212,7 @@ return {
             key = "17536981964883014362",
             type = "SkipRegionNode",
             name = "跨区域传送设置玩家位置",
-            pos = {x = 4719.82187981101, y = 979.5040094251628},
+            pos = {x = 4683.913510402641, y = 1006.847443768597},
             propsData = {
               ModeType = 1,
               Id = 104701,
@@ -3821,17 +2224,17 @@ return {
         commentData = {}
       }
     },
-    ["17536985632864016862"] = {
+    ["17629514992454019068"] = {
       isStoryNode = true,
-      key = "17536985632864016862",
+      key = "17629514992454019068",
       type = "StoryNode",
-      name = "和刻舟对话",
-      pos = {x = 3985.688502673797, y = -219.80066141289052},
+      name = "到达古战场",
+      pos = {x = 2691.521368409395, y = -230.69954608645153},
       propsData = {
-        QuestId = 12010550,
+        QuestId = 12010503,
         QuestDescriptionComment = "",
-        QuestDescription = "Description_120105_16",
-        QuestDeatil = "Content_120105_16",
+        QuestDescription = "Description_120105_2",
+        QuestDeatil = "Content_120105_2",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -3839,7 +2242,7 @@ return {
         bIsEndQuest = false,
         bIsNotifyGameMode = true,
         bIsStartChapter = false,
-        bIsEndChapter = true,
+        bIsEndChapter = false,
         bIsShowOnComplete = true,
         bIsPlayBlackScreenOnComplete = false,
         bIsPlayBlackScreenOnFail = false,
@@ -3848,177 +2251,129 @@ return {
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
-        SubRegionId = 0,
-        StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        SubRegionId = 104102,
+        SubRegionIdList = {},
+        StoryGuideType = "Mechanism",
+        StoryGuidePointName = "Mechanism_QuestTrigger_2030042",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
           {
-            startQuest = "17536985632864016867",
+            startQuest = "17629514992454019069",
             startPort = "QuestStart",
-            endQuest = "17536985632864016870",
+            endQuest = "17629522361454029026",
             endPort = "In"
           },
           {
-            startQuest = "17536985632864016870",
+            startQuest = "17629522624694029654",
             startPort = "Out",
-            endQuest = "17536985632864016871",
-            endPort = "In"
-          },
-          {
-            startQuest = "17536985632864016871",
-            startPort = "Out",
-            endQuest = "17536985632864016872",
-            endPort = "In"
-          },
-          {
-            startQuest = "17536985632864016872",
-            startPort = "Out",
-            endQuest = "17536985632864016868",
+            endQuest = "17629514992464019072",
             endPort = "Success"
           },
           {
-            startQuest = "17536985632864016870",
+            startQuest = "17629522361454029026",
             startPort = "Out",
-            endQuest = "17536985632864016873",
+            endQuest = "17629524532614033205",
+            endPort = "In"
+          },
+          {
+            startQuest = "17629524532614033205",
+            startPort = "Out",
+            endQuest = "17629522624694029654",
             endPort = "In"
           }
         },
         nodeData = {
-          ["17536985632864016867"] = {
-            key = "17536985632864016867",
+          ["17629514992454019069"] = {
+            key = "17629514992454019069",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 1817.9137083837954, y = 455.18484497881883},
+            pos = {x = 823.1818181818181, y = 330},
             propsData = {ModeType = 0}
           },
-          ["17536985632864016868"] = {
-            key = "17536985632864016868",
+          ["17629514992464019072"] = {
+            key = "17629514992464019072",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2909.659318489096, y = 451.4700937135669},
+            pos = {x = 2057.9665071770332, y = 342.4162679425837},
             propsData = {ModeType = 0}
           },
-          ["17536985632864016869"] = {
-            key = "17536985632864016869",
+          ["17629514992464019075"] = {
+            key = "17629514992464019075",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 3953.71390273013, y = 788.3435935261493},
+            pos = {x = 2800, y = 700},
             propsData = {}
           },
-          ["17536985632864016870"] = {
-            key = "17536985632864016870",
-            type = "GoToRegionNode",
-            name = "进入古战场区域检测",
-            pos = {x = 2079.7959577157326, y = 452.44848450464593},
+          ["17629522361454029026"] = {
+            key = "17629522361454029026",
+            type = "GoToNode",
+            name = "前往",
+            pos = {x = 1126.0372373621801, y = 319.83107967547323},
             propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 104102,
-              bGuideUIEnable = true,
-              GuideType = "P",
-              GuideName = "QuestPoint_12010514"
-            }
-          },
-          ["17536985632864016871"] = {
-            key = "17536985632864016871",
-            type = "ChangeStaticCreatorNode",
-            name = "生成刻舟",
-            pos = {x = 2345.328397205752, y = 456.62770664003835},
-            propsData = {
-              ActiveEnable = true,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {1930157}
-            }
-          },
-          ["17536985632864016872"] = {
-            key = "17536985632864016872",
-            type = "TalkNode",
-            name = "【53】刻舟对话",
-            pos = {x = 2631.161730539086, y = 445.3777066400383},
-            propsData = {
-              IsNpcNode = true,
-              NpcNodeInteractiveName = "",
-              NpcId = 210021,
               GuideUIEnable = true,
-              GuideType = "N",
-              GuidePointName = "Npc_Kezhou_1930157",
-              DelayShowGuideTime = 0,
-              FirstDialogueId = 12020501,
-              FlowAssetPath = "",
-              TalkType = "FixSimple",
-              TalkStageName = "East01_FixSimple_53",
-              BlendInTime = 0.5,
-              BlendOutTime = 0.5,
-              InType = "BlendIn",
-              OutType = "BlendOut",
-              BlendEaseExp = 2,
-              UseProceduralCamera = false,
-              ProceduralCameraId = 1,
-              HideNpcs = false,
-              HideMonsters = true,
-              HideAllBattleEntity = true,
+              StaticCreatorId = 2030042,
+              GuideType = "M",
+              GuidePointName = "Mechanism_QuestTrigger_2030042"
+            }
+          },
+          ["17629522624694029654"] = {
+            key = "17629522624694029654",
+            type = "TalkNode",
+            name = "【Show_Batt_RegionUI】",
+            pos = {x = 1734.9532972748082, y = 322.02069898065326},
+            propsData = {
+              IsNpcNode = false,
+              TalkType = "Cinematic",
+              TalkStageName = "",
+              ShowFilePath = "/Game/AssetDesign/Story/Sequence/East01/Batt/Show_Batt_RegionUI",
+              BlendInTime = 0,
+              BlendOutTime = 0,
+              InType = "FadeIn",
+              OutType = "FadeOut",
+              ShowFadeDetail = false,
               ShowSkipButton = true,
-              ShowAutoPlayButton = true,
               ShowReviewButton = true,
               ShowWikiButton = true,
-              SkipToOption = false,
+              PauseGameGlobal = true,
+              HideNpcs = true,
+              HideMonsters = true,
+              HideAllBattleEntity = true,
+              HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
               EndNewTargetPointName = "",
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
-              PauseNpcBT = true,
               TalkActors = {
                 {
                   TalkActorType = "Player",
                   TalkActorId = 0,
                   TalkActorVisible = false
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 100001,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 210021,
-                  TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 210021}
-              },
-              OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
-              NormalOptions = {},
               OverrideFailBlend = false
             }
           },
-          ["17536985632864016873"] = {
-            key = "17536985632864016873",
-            type = "TalkNode",
-            name = "开车- 小白吐槽",
-            pos = {x = 2347.8283972057525, y = 309.12770664003835},
+          ["17629524532614033205"] = {
+            key = "17629524532614033205",
+            type = "AsyncSetActorLocationAndRotationNode",
+            name = "异步设置玩家位置旋转",
+            pos = {x = 1435.0045617997566, y = 320.58016582959374},
             propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12020401,
-              FlowAssetPath = "",
-              TalkType = "Guide",
-              bIsStandalone = true,
-              GuideMeshIndexList = {},
-              IsPlayStartSound = false,
-              GuideTalkStyle = "Normal",
-              OverrideFailBlend = false
+              UnitId = 0,
+              NewTargetPointName = "RespawnPoint_Batt01",
+              FadeIn = false,
+              FadeOut = false,
+              bResetCamera = true,
+              bForceAsyncLoading = false,
+              IsWhite = false
             }
           }
         },
@@ -4026,5 +2381,24 @@ return {
       }
     }
   },
-  commentData = {}
+  commentData = {
+    ["17629548192785038825"] = {
+      key = "17629548192785038825",
+      name = "Boss",
+      position = {x = 2553.930063444313, y = 430.1604024679777},
+      size = {width = 1155.6000000000001, height = 247.19999999999996}
+    },
+    ["17629548304865039151"] = {
+      key = "17629548304865039151",
+      name = "Dream",
+      position = {x = 2371.1511160758914, y = 52.349876152188116},
+      size = {width = 906.0000000000001, height = 277.19999999999993}
+    },
+    ["17629548394705039434"] = {
+      key = "17629548394705039434",
+      name = "Input Commment...",
+      position = {x = 2078.098484496944, y = -327.67117647939085},
+      size = {width = 1153.865397188624, height = 266.76577312847326}
+    }
+  }
 }

@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -187,12 +189,6 @@ return {
             startQuest = "17540308720989188140",
             startPort = "Out",
             endQuest = "17575064154252553",
-            endPort = "In"
-          },
-          {
-            startQuest = "17543045863014265583",
-            startPort = "Out",
-            endQuest = "17574939143533740288",
             endPort = "In"
           },
           {
@@ -424,12 +420,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17540308720989188189",
-            startPort = "Out",
-            endQuest = "17575130189803117400",
-            endPort = "In"
-          },
-          {
             startQuest = "17575732941191861661",
             startPort = "Out",
             endQuest = "17575732941191861662",
@@ -548,6 +538,12 @@ return {
             startPort = "QuestStart",
             endQuest = "17595033270791254",
             endPort = "In"
+          },
+          {
+            startQuest = "17543045863014265583",
+            startPort = "Out",
+            endQuest = "17635327170732048276",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -587,6 +583,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -616,15 +613,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 211001},
-                {TalkActorType = "Npc", TalkActorId = 211007}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -668,6 +662,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -697,15 +692,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 211001},
-                {TalkActorType = "Npc", TalkActorId = 211010}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -732,6 +724,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -766,16 +759,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 211001},
-                {TalkActorType = "Npc", TalkActorId = 211007},
-                {TalkActorType = "Npc", TalkActorId = 211013}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -808,6 +797,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -842,16 +832,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 211001},
-                {TalkActorType = "Npc", TalkActorId = 211007},
-                {TalkActorType = "Npc", TalkActorId = 211011}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1187,18 +1173,6 @@ return {
             pos = {x = 1120.6873578254654, y = 292.9578014035146},
             propsData = {
               StaticCreatorIdList = {1191962},
-              ManualItemIdList = {},
-              StateId = 3903603,
-              QuestId = 0
-            }
-          },
-          ["17574939143533740288"] = {
-            key = "17574939143533740288",
-            type = "SwitchMechanismStateNode",
-            name = "切换机关状态",
-            pos = {x = 1975.1269425374285, y = -36.74613149223423},
-            propsData = {
-              StaticCreatorIdList = {1191963},
               ManualItemIdList = {},
               StateId = 3903603,
               QuestId = 0
@@ -1576,13 +1550,6 @@ return {
               bDisableUserInput = false
             }
           },
-          ["17575130189803117400"] = {
-            key = "17575130189803117400",
-            type = "WaitOfTimeNode",
-            name = "延迟等待",
-            pos = {x = 5982.429971988797, y = -190.2226153619342},
-            propsData = {WaitTime = 1.5}
-          },
           ["17575732941191861658"] = {
             key = "17575732941191861658",
             type = "ChangeRoleNode",
@@ -1772,6 +1739,18 @@ return {
               AtmosphereTagList = {
                 "feina01decohide"
               }
+            }
+          },
+          ["17635327170732048276"] = {
+            key = "17635327170732048276",
+            type = "SwitchMechanismStateNode",
+            name = "切换机关状态",
+            pos = {x = 1688.2151029748284, y = 290.0918192219679},
+            propsData = {
+              StaticCreatorIdList = {1191963},
+              ManualItemIdList = {},
+              StateId = 3903603,
+              QuestId = 0
             }
           }
         },

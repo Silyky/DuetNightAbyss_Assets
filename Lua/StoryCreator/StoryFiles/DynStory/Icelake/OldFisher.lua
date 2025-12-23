@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -410,6 +412,42 @@ return {
             startPort = "Option_1",
             endQuest = "17444499949971878073",
             endPort = "In"
+          },
+          {
+            startQuest = "1735557002865702550",
+            startPort = "Out",
+            endQuest = "176189395280122464456",
+            endPort = "In"
+          },
+          {
+            startQuest = "17422974852211373",
+            startPort = "Out",
+            endQuest = "176189399935522465130",
+            endPort = "In"
+          },
+          {
+            startQuest = "17355573675241404536",
+            startPort = "Option_1",
+            endQuest = "176189403167122465626",
+            endPort = "In"
+          },
+          {
+            startQuest = "17355573687811404590",
+            startPort = "Option_1",
+            endQuest = "176189407864422465922",
+            endPort = "In"
+          },
+          {
+            startQuest = "17355573702351404645",
+            startPort = "Option_1",
+            endQuest = "176189409602022466155",
+            endPort = "In"
+          },
+          {
+            startQuest = "1735645444397714471",
+            startPort = "Out",
+            endQuest = "176189411981622466363",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -462,6 +500,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -475,7 +514,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -527,6 +565,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -540,7 +579,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -578,6 +616,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -591,7 +630,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -660,6 +698,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -673,7 +712,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -724,6 +762,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -737,7 +776,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -788,6 +826,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -801,7 +840,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -872,6 +910,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -885,7 +924,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -956,6 +994,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -969,7 +1008,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1008,6 +1046,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1021,7 +1060,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1109,6 +1147,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1122,7 +1161,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1172,6 +1210,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1185,7 +1224,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1495,6 +1533,72 @@ return {
               StaticCreatorId = 1240747,
               GuideType = "M",
               GuidePointName = "Mechanism_Dyn_1240747"
+            }
+          },
+          ["176189395280122464456"] = {
+            key = "176189395280122464456",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2400.285714285714, y = 288.5714285714286},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeOldFisher_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189399935522465130"] = {
+            key = "176189399935522465130",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1074.5714285714284, y = 611.4285714285714},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeOldFisher_Target6",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189403167122465626"] = {
+            key = "176189403167122465626",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1827.4285714285716, y = 494.2857142857144},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeOldFisher_Target3",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189407864422465922"] = {
+            key = "176189407864422465922",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1834.571428571429, y = 900},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeOldFisher_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189409602022466155"] = {
+            key = "176189409602022466155",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1863.1428571428573, y = 1148.5714285714287},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeOldFisher_Target4",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189411981622466363"] = {
+            key = "176189411981622466363",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2153.142857142858, y = 1794.2857142857142},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeOldFisher_Target5",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

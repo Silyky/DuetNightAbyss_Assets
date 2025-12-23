@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -206,6 +208,12 @@ return {
             startPort = "Out",
             endQuest = "17351096122601397",
             endPort = "Stop"
+          },
+          {
+            startQuest = "17351097555033399",
+            startPort = "Out",
+            endQuest = "176189371989620420405",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -290,6 +298,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -303,7 +312,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "branch",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -376,6 +384,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -389,7 +398,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -466,6 +474,17 @@ return {
             name = "监听Actor销毁节点",
             pos = {x = 2314.591354012121, y = 182.3152152957643},
             propsData = {StaticCreatorId = 1180536, DestroyReason = "Default"}
+          },
+          ["176189371989620420405"] = {
+            key = "176189371989620420405",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2957.5652173913045, y = 5.391304347826008},
+            propsData = {
+              NewDescription = "DynQuest_Clearice_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
           }
         },
         commentData = {}

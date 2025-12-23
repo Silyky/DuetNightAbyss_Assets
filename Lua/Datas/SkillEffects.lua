@@ -1,24 +1,34 @@
 return ReadOnly("SkillEffects", {
+  [4] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "ExecutePassiveFunction",
+        FunctionName = "HitWall",
+        PassiveEffectId = 1
+      }
+    },
+    TaskId = 4
+  },
   [5] = {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        AttrRates = {
-          ES = 0,
-          MaxES = 0,
-          MaxHp = 100
-        },
-        AutoAttach = 1,
-        FormationId = 510102,
-        Function = "CreateUnit",
-        LifeTime = -1,
-        MaxSummonCount = 1,
-        SingleSummonCount = 1,
-        UnitId = 5,
-        UnitType = "Monster"
+        CreatureId = 5,
+        Function = "CreateSkillCreature"
       }
     },
     TaskId = 5
+  },
+  [6] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 5,
+        Function = "RemoveSkillCreature"
+      }
+    },
+    TaskId = 6
   },
   [10] = {TaskId = 10},
   [11] = {
@@ -262,141 +272,20 @@ return ReadOnly("SkillEffects", {
   [42] = {
     TargetFilter = "Self",
     TaskEffects = {
-      [1] = {ComboCount = 1, Function = "HitCount"}
+      [1] = {
+        ComboCount = 1, Function = "HitCount"
+      }
     },
     TaskId = 42
   },
-  [92] = {
-    HatredIncrement = 40,
-    TargetFilter = "Char_Sphere_large",
+  [43] = {
+    TargetFilter = "RootSource",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
-        DamageType = "TrueDamage",
-        Function = "Damage",
-        Rate = 17
-      },
-      [2] = {
-        FXId = 92,
-        Function = "PlayFX",
-        Overlap = true
-      },
-      [3] = {
-        CauseHit = "HitFly_Force_Common",
-        Function = "CutToughness",
-        Value = 1000
-      },
-      [4] = {
-        Function = "MakeSound", SoundSourceId = 6
+        ComboCount = 1, Function = "HitCount"
       }
     },
-    TaskId = 92
-  },
-  [93] = {
-    HatredIncrement = 40,
-    TargetFilter = "Char_Sphere_large",
-    TaskEffects = {
-      [1] = {
-        BaseAttr = "ATK_Char",
-        Function = "Damage",
-        Rate = 17
-      },
-      [2] = {
-        FXId = 92,
-        Function = "PlayFX",
-        NormalToHit = true,
-        Overlap = true
-      },
-      [3] = {
-        CauseHit = "HitFly_Force_Common",
-        Function = "CutToughness",
-        Value = 1000
-      },
-      [4] = {
-        Function = "MakeSound", SoundSourceId = 6
-      }
-    },
-    TaskId = 93
-  },
-  [94] = {
-    EffectExecuteTiming = "Enter",
-    TaskEffects = {
-      [1] = {
-        Function = "ExecutePassiveFunction",
-        FunctionName = "ShootLoopStart",
-        PassiveEffectId = 91
-      }
-    },
-    TaskId = 94
-  },
-  [95] = {
-    TargetFilter = "Target",
-    TaskEffects = {
-      [1] = {
-        BaseAttr = "ATK",
-        DamageType = "TrueDamage",
-        Function = "Damage",
-        Rate = 1.7
-      },
-      [2] = {
-        FXId = 93,
-        Function = "PlayFX",
-        NormalToHit = true,
-        Overlap = true
-      },
-      [3] = {
-        CauseHit = "RangedWeapon_Shotgun",
-        Function = "CutToughness",
-        Value = 0.2
-      }
-    },
-    TaskId = 95
-  },
-  [96] = {
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {
-        FXId = 93,
-        Function = "PlayFX",
-        NormalToHit = true,
-        Overlap = true
-      }
-    },
-    TaskId = 96
-  },
-  [97] = {
-    TaskEffects = {
-      [1] = {
-        CreatureId = 91,
-        Function = "CreateSkillCreature"
-      },
-      [2] = {
-        Function = "AimDiffusion"
-      },
-      [3] = {
-        BaseChar = "Self",
-        Function = "PlaySE",
-        SEId = 2016
-      }
-    },
-    TaskId = 97
-  },
-  [98] = {
-    TaskEffects = {
-      [1] = {
-        CreatureId = 92,
-        Function = "CreateSkillCreature"
-      },
-      [2] = {
-        Function = "AimDiffusion"
-      },
-      [3] = {
-        BaseChar = "Self",
-        Function = "PlaySE",
-        SEId = 2018
-      }
-    },
-    TaskId = 98
+    TaskId = 43
   },
   [101] = {
     TargetFilter = "Target",
@@ -648,6 +537,9 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         Function = "CreateUnit",
         LifeTime = 0.6,
         MaxSummonCount = 1,
@@ -2568,7 +2460,7 @@ return ReadOnly("SkillEffects", {
     TaskId = 30494
   },
   [30495] = {
-    TargetFilter = "Mon_Cylinder_200_40_360_NoMch",
+    TargetFilter = "Mon_Cylinder_600_40_360",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
@@ -3632,17 +3524,44 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        BuffId = 4010014,
+        BuffId = 4010013,
         Function = "AddBuff",
-        LastTime = 5
+        LastTime = 6
       }
     },
     TaskId = 60104
   },
   [60200] = {
-    TargetFilter = "Char_Cylinder_Large",
     TaskEffects = {
       [1] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [3] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [4] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [5] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [6] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [7] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [8] = {
         CreatureId = 60200,
         Function = "CreateSkillCreature"
       }
@@ -3672,9 +3591,36 @@ return ReadOnly("SkillEffects", {
     TaskId = 60201
   },
   [60202] = {
-    TargetFilter = "Char_Cylinder_Large",
     TaskEffects = {
       [1] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [3] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [4] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [5] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [6] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [7] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [8] = {
         CreatureId = 60202,
         Function = "CreateSkillCreature"
       }
@@ -3707,10 +3653,9 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        BaseAttr = "MaxHp",
-        DamageType = "Default",
-        Function = "Heal",
-        Rate = 0.5
+        BuffId = 4010014,
+        Function = "AddBuff",
+        LastTime = 6
       },
       [2] = {
         FXId = 6023,
@@ -3719,6 +3664,80 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 60204
+  },
+  [60205] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [3] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [4] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [5] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [6] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [7] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      },
+      [8] = {
+        CreatureId = 60200,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 60205
+  },
+  [60206] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [3] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [4] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [5] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [6] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [7] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      },
+      [8] = {
+        CreatureId = 60202,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 60206
   },
   [60300] = {
     TargetFilter = "Self",
@@ -3767,6 +3786,16 @@ return ReadOnly("SkillEffects", {
     TaskId = 60302
   },
   [60303] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 60302,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 60303
+  },
+  [60304] = {
     TaskEffects = {
       [1] = {
         CreatureId = 60303,
@@ -3781,25 +3810,6 @@ return ReadOnly("SkillEffects", {
         Function = "CreateSkillCreature"
       }
     },
-    TaskId = 60303
-  },
-  [60304] = {
-    TargetFilter = "Target",
-    TaskEffects = {
-      [1] = {
-        BaseAttr = "ATK_Char",
-        DamageTag = {
-          "Support"
-        },
-        Function = "Damage",
-        Rate = 6
-      },
-      [2] = {
-        CauseHit = "HitFly_XY400Z600",
-        Function = "CutToughness",
-        Value = 15
-      }
-    },
     TaskId = 60304
   },
   [60305] = {
@@ -3808,7 +3818,7 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BuffId = 4010015,
         Function = "AddBuff",
-        LastTime = 5
+        LastTime = 6
       }
     },
     TaskId = 60305
@@ -3860,10 +3870,272 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BuffId = 4010016,
         Function = "AddBuff",
-        LastTime = 5
+        LastTime = 6
       }
     },
     TaskId = 60402
+  },
+  [90001] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 90001,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2016
+      }
+    },
+    TaskId = 90001
+  },
+  [90002] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_large",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        DamageType = "TrueDamage",
+        Function = "Damage",
+        Rate = 17
+      },
+      [2] = {
+        FXId = 90003,
+        Function = "PlayFX",
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 1000
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 90002
+  },
+  [90003] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_large",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Char",
+        Function = "Damage",
+        Rate = 17
+      },
+      [2] = {
+        FXId = 90003,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 1000
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 90003
+  },
+  [90004] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 90002,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2018
+      }
+    },
+    TaskId = 90004
+  },
+  [90005] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        DamageType = "TrueDamage",
+        Function = "Damage",
+        Rate = 1.7
+      },
+      [2] = {
+        FXId = 90004,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "RangedWeapon_Shotgun",
+        Function = "CutToughness",
+        Value = 0.2
+      }
+    },
+    TaskId = 90005
+  },
+  [90006] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        FXId = 90004,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      }
+    },
+    TaskId = 90006
+  },
+  [90007] = {
+    EffectExecuteTiming = "Enter",
+    TaskEffects = {
+      [1] = {
+        Function = "ExecutePassiveFunction",
+        FunctionName = "ShootLoopStart",
+        PassiveEffectId = 90002
+      }
+    },
+    TaskId = 90007
+  },
+  [90011] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 90011,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2016
+      }
+    },
+    TaskId = 90011
+  },
+  [90012] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_large",
+    TaskEffects = {
+      [1] = {
+        DamageType = "TrueDamage",
+        Function = "Damage",
+        Value = 200
+      },
+      [2] = {
+        FXId = 90003,
+        Function = "PlayFX",
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 1000
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 90012
+  },
+  [90013] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_large",
+    TaskEffects = {
+      [1] = {
+        DamageType = "TrueDamage",
+        Function = "Damage",
+        Value = 200
+      },
+      [2] = {
+        FXId = 90003,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 1000
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 90013
+  },
+  [90014] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 90012,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2018
+      }
+    },
+    TaskId = 90014
+  },
+  [90015] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        DamageType = "TrueDamage",
+        Function = "Damage",
+        Value = 20
+      },
+      [2] = {
+        FXId = 90004,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "RangedWeapon_Shotgun",
+        Function = "CutToughness",
+        Value = 0.2
+      }
+    },
+    TaskId = 90015
+  },
+  [90016] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        FXId = 90004,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      }
+    },
+    TaskId = 90016
+  },
+  [90017] = {
+    EffectExecuteTiming = "Enter",
+    TaskEffects = {
+      [1] = {
+        Function = "ExecutePassiveFunction",
+        FunctionName = "ShootLoopStart",
+        PassiveEffectId = 90012
+      }
+    },
+    TaskId = 90017
   },
   [110111] = {
     AllowSkillRangeModify = true,
@@ -4752,44 +5024,127 @@ return ReadOnly("SkillEffects", {
     TaskId = 110212
   },
   [110213] = {
-    NotifyName = {
-      "hit1"
-    },
+    EffectExecuteTiming = "Enter",
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        Function = "ExecuteClientPassiveFunction",
-        FunctionName = "Skill1Link"
+        BuffId = 110201,
+        Condition = 71,
+        Function = "AddBuff",
+        LastTime = 12
       }
     },
     TaskId = 110213
   },
-  [110214] = {
-    NotifyName = {
-      "hit2"
-    },
+  [110221] = {
+    EffectExecuteTiming = "Enter",
     TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        BuffId = 110202,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [2] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
+        AutoAttach = 1,
+        Delay = 3,
+        Function = "CreateUnit",
+        LifeTime = -1,
+        MaxSummonCount = 1,
+        UnitId = 110201,
+        UnitType = "Monster"
+      },
+      [3] = {
+        FXId = 110221,
+        Function = "PlayFX",
+        IsAttached = false,
+        IsEffectCreature = true
+      },
+      [4] = {
+        FXId = 110222,
+        Function = "PlayFX",
+        IsAttached = false,
+        IsEffectCreature = true
+      },
+      [5] = {
+        FXId = 110223,
+        Function = "PlayFX",
+        IsAttached = false,
+        IsEffectCreature = true
+      },
+      [6] = {
+        FXId = 110224,
+        Function = "PlayFX",
+        IsAttached = false,
+        IsEffectCreature = true
+      },
+      [7] = {
+        FXId = 110225,
+        Function = "PlayFX",
+        IsAttached = false,
+        IsEffectCreature = true
+      }
+    },
+    TaskId = 110221
+  },
+  [110222] = {
+    EffectExecuteTiming = "Enter",
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        BuffId = 110221, Function = "RemoveBuff"
+      },
+      [2] = {BuffId = 110202, Function = "RemoveBuff"},
+      [3] = {Function = "RemoveUnit", UnitId = 110201}
+    },
+    TaskId = 110222
+  },
+  [110223] = {
     TaskEffects = {
       [1] = {
         Function = "ExecutePassiveFunction",
-        FunctionName = "Skill1Slash",
+        FunctionName = "FuluoDollAttack",
         PassiveEffectId = 110201
       }
     },
-    TaskId = 110214
+    TaskId = 110223
   },
-  [110215] = {
+  [110231] = {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        CreatureId = 110212,
+        CreatureId = 110201,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "FuluoDoll"
+      },
+      [2] = {
+        BuffId = 110231,
+        Function = "AddBuff",
+        LastTime = 20
+      },
+      [3] = {
+        BuffId = 110232,
+        Function = "AddBuff",
+        LastTime = 20
+      }
+    },
+    TaskId = 110231
+  },
+  [110241] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 110202,
         Function = "CreateSkillCreature",
         UseSaveLoc = "FuluoStart"
       }
     },
-    TaskId = 110215
+    TaskId = 110241
   },
-  [110216] = {
+  [110242] = {
     HatredIncrement = 40,
     TargetFilter = "Target",
     TaskEffects = {
@@ -4813,42 +5168,9 @@ return ReadOnly("SkillEffects", {
         Value = 15
       }
     },
-    TaskId = 110216
+    TaskId = 110242
   },
-  [110221] = {
-    NotifyName = {
-      "hit1"
-    },
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {
-        BuffId = 110202,
-        Function = "AddBuff",
-        LastTime = -1
-      },
-      [2] = {
-        AutoAttach = 1,
-        Function = "CreateUnit",
-        LifeTime = -1,
-        MaxSummonCount = 1,
-        SingleSummonCount = 1,
-        UnitId = 110202,
-        UnitType = "MechanismSummon"
-      }
-    },
-    TaskId = 110221
-  },
-  [110222] = {
-    EffectExecuteTiming = "Enter",
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {BuffId = 110201, Function = "RemoveBuff"},
-      [2] = {BuffId = 110202, Function = "RemoveBuff"},
-      [3] = {Function = "RemoveUnit", UnitId = 110202}
-    },
-    TaskId = 110222
-  },
-  [110231] = {
+  [110251] = {
     AllowSkillRangeModify = true,
     HatredIncrement = 40,
     NotifyName = {
@@ -4882,28 +5204,30 @@ return ReadOnly("SkillEffects", {
         Function = "CreateSkillCreature"
       }
     },
-    TaskId = 110231
+    TaskId = 110251
   },
-  [110241] = {
+  [110252] = {
+    NotifyName = {
+      "hit2"
+    },
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        CreatureId = 110201,
-        Function = "CreateSkillCreature",
-        UseSaveLoc = "FuluoDoll"
+        Function = "ExecutePassiveFunction",
+        FunctionName = "ClearComboCount",
+        PassiveEffectId = 102
       },
       [2] = {
-        BuffId = 110231,
-        Function = "AddBuff",
-        LastTime = 20
+        BuffId = 110221, Function = "RemoveBuff"
       },
       [3] = {
-        BuffId = 110232,
+        BuffId = 110205,
+        Condition = 74,
         Function = "AddBuff",
         LastTime = 20
       }
     },
-    TaskId = 110241
+    TaskId = 110252
   },
   [110311] = {
     AllowSkillRangeModify = true,
@@ -5825,7 +6149,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Large",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill",
           "Skill2",
@@ -5874,7 +6198,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Large",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill",
           "Skill2",
@@ -5905,7 +6229,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Large",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill",
           "Skill2",
@@ -6846,7 +7170,11 @@ return ReadOnly("SkillEffects", {
         OuterRadius = 2000,
         ShakeClass = "BP_CS_Xibi_Skill01"
       },
-      [4] = {FXId = 150201, Function = "PlayFX"},
+      [4] = {
+        CanBeScaled = true,
+        FXId = 150201,
+        Function = "PlayFX"
+      },
       [5] = {
         BuffId = 150211,
         Condition = 72,
@@ -6894,7 +7222,11 @@ return ReadOnly("SkillEffects", {
         OuterRadius = 2000,
         ShakeClass = "BP_CS_Xibi_Skill01"
       },
-      [4] = {FXId = 150202, Function = "PlayFX"},
+      [4] = {
+        CanBeScaled = true,
+        FXId = 150202,
+        Function = "PlayFX"
+      },
       [5] = {
         BuffId = 150212,
         Condition = 72,
@@ -7171,7 +7503,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Sphere_large",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill", "Skill1"
         },
@@ -7179,7 +7511,7 @@ return ReadOnly("SkillEffects", {
         Rate = "#1"
       },
       [2] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill", "Skill1"
         },
@@ -7188,7 +7520,7 @@ return ReadOnly("SkillEffects", {
         Rate = "#2"
       },
       [3] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill", "Skill1"
         },
@@ -7228,7 +7560,7 @@ return ReadOnly("SkillEffects", {
   },
   [150321] = {
     NotifyName = {
-      "hit1"
+      "hit2"
     },
     TargetFilter = "Target",
     TaskEffects = {
@@ -7384,7 +7716,7 @@ return ReadOnly("SkillEffects", {
   },
   [150322] = {
     NotifyName = {
-      "hit1"
+      "hit2"
     },
     TargetFilter = "Target",
     TaskEffects = {
@@ -7543,7 +7875,7 @@ return ReadOnly("SkillEffects", {
   },
   [150325] = {
     NotifyName = {
-      "hit2"
+      "hit1"
     },
     TargetFilter = "Self",
     TaskEffects = {
@@ -7553,6 +7885,9 @@ return ReadOnly("SkillEffects", {
         LastTime = -1
       },
       [2] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         Function = "CreateUnit",
         LifeTime = -1,
         MaxSummonCount = 1,
@@ -7565,6 +7900,11 @@ return ReadOnly("SkillEffects", {
         Condition = 74,
         Function = "AddBuff",
         LastTime = 25
+      },
+      [4] = {
+        BuffId = 150320,
+        Function = "AddBuff",
+        LastTime = -1
       }
     },
     TaskId = 150325
@@ -7575,7 +7915,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Sphere_Middle",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill", "Skill2"
         },
@@ -7596,15 +7936,9 @@ return ReadOnly("SkillEffects", {
         NormalToHit = true
       },
       [4] = {
-        FXId = 150308,
-        Function = "PlayFX",
-        IsAttached = true,
-        NormalToHit = true
-      },
-      [5] = {
         FXId = 150314, Function = "PlayFX"
       },
-      [6] = {
+      [5] = {
         Function = "PlaySE",
         MeleeHitLevel = "Light",
         SEId = 104
@@ -7618,7 +7952,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Sphere_Middle",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill", "Skill2"
         },
@@ -7639,15 +7973,9 @@ return ReadOnly("SkillEffects", {
         NormalToHit = true
       },
       [4] = {
-        FXId = 150308,
-        Function = "PlayFX",
-        IsAttached = true,
-        NormalToHit = true
-      },
-      [5] = {
         FXId = 150314, Function = "PlayFX"
       },
-      [6] = {
+      [5] = {
         Function = "PlaySE",
         MeleeHitLevel = "Light",
         SEId = 104
@@ -7657,7 +7985,7 @@ return ReadOnly("SkillEffects", {
   },
   [150328] = {
     NotifyName = {
-      "hit1"
+      "hit2"
     },
     TargetFilter = "Self",
     TaskEffects = {
@@ -7737,7 +8065,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -7774,7 +8102,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -7811,7 +8139,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -7848,7 +8176,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -7986,7 +8314,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Sphere_large",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK_Ultra",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill", "Skill2"
         },
@@ -8094,7 +8422,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small180",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8141,7 +8469,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small180",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8188,7 +8516,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small180",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8289,7 +8617,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Middle180",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8347,7 +8675,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Middle",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8384,7 +8712,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8431,7 +8759,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8471,7 +8799,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8523,7 +8851,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8557,7 +8885,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8833,7 +9161,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8880,7 +9208,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small240",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8927,7 +9255,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small180",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -8974,7 +9302,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small240",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9021,7 +9349,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9061,7 +9389,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Middle",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9108,7 +9436,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Middle",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9173,7 +9501,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Middle",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9210,7 +9538,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9257,7 +9585,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small240",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9298,7 +9626,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small180",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9339,7 +9667,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small240",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9387,7 +9715,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9421,7 +9749,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9462,7 +9790,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Middle",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9527,7 +9855,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Middle",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9564,7 +9892,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Melee",
         DamageTag = {
           "Melee",
           "Weapon",
@@ -9602,19 +9930,10 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 150399
   },
-  [150411] = {
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {
-        FXId = 150401,
-        Function = "PlayFX",
-        IsEffectCreature = true
-      }
-    },
-    TaskId = 150411
-  },
   [150412] = {
-    EffectExecuteTiming = "Leave",
+    NotifyName = {
+      "hit1"
+    },
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
@@ -9634,18 +9953,16 @@ return ReadOnly("SkillEffects", {
     TaskId = 150412
   },
   [150413] = {
-    EffectExecuteTiming = "Enter",
+    EffectExecuteTiming = "Leave",
+    NotifyName = {
+      "hit1"
+    },
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
         Function = "ExecuteClientPassiveFunction",
         FunctionName = "EndJetRush"
-      },
-      [2] = {
-        CreatureId = 150401,
-        Function = "RemoveSkillCreature"
-      },
-      [3] = {BuffId = 150411, Function = "RemoveBuff"}
+      }
     },
     TaskId = 150413
   },
@@ -9681,6 +9998,45 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 150414
   },
+  [150415] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "Char_Cylinder_Large",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Char",
+        DamageTag = {
+          "Skill", "Skill1"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY800Z600_F",
+        Function = "CutToughness",
+        Value = 100
+      },
+      [3] = {
+        FXId = 26, Function = "PlayFX"
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 410104
+      }
+    },
+    TaskId = 150415
+  },
+  [150416] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 150401,
+        Function = "RemoveSkillCreature"
+      },
+      [2] = {BuffId = 150411, Function = "RemoveBuff"}
+    },
+    TaskId = 150416
+  },
   [150421] = {
     EffectExecuteTiming = "Enter",
     TargetFilter = "Self",
@@ -9691,20 +10047,21 @@ return ReadOnly("SkillEffects", {
         LastTime = -1
       },
       [2] = {
-        BuffId = 150402,
+        BuffId = 150404,
         Function = "AddBuff",
         LastTime = -1
       },
       [3] = {
-        BuffId = 150404,
-        Function = "AddBuff",
-        LastTime = -1
+        Function = "AddBullet",
+        TotalBullet = 1,
+        UltraWeapon = 1,
+        Value = -99999
       },
       [4] = {
         Function = "AddBullet",
         TotalBullet = 1,
         UltraWeapon = 1,
-        Value = 9999
+        Value = "$Source:GetInt('Skill02BulletNum')$"
       },
       [5] = {
         Function = "ChargeBullet"
@@ -9717,67 +10074,32 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {BuffId = 150401, Function = "RemoveBuff"},
-      [2] = {BuffId = 150402, Function = "RemoveBuff"},
-      [3] = {BuffId = 150403, Function = "RemoveBuff"},
-      [4] = {BuffId = 150404, Function = "RemoveBuff"},
-      [5] = {BuffId = 150405, Function = "RemoveBuff"},
-      [6] = {BuffId = 150406, Function = "RemoveBuff"},
-      [7] = {
+      [2] = {BuffId = 150403, Function = "RemoveBuff"},
+      [3] = {BuffId = 150404, Function = "RemoveBuff"},
+      [4] = {BuffId = 150406, Function = "RemoveBuff"},
+      [5] = {
         Function = "ExecuteClientPassiveFunction",
         FunctionName = "EndJetRush"
       }
     },
     TaskId = 150422
   },
-  [150423] = {
-    EffectExecuteTiming = "Enter",
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {
-        BuffId = 150401,
-        Function = "AddBuff",
-        LastTime = -1
-      },
-      [2] = {
-        BuffId = 150403,
-        Function = "AddBuff",
-        LastTime = -1
-      },
-      [3] = {
-        BuffId = 150404,
-        Function = "AddBuff",
-        LastTime = -1
-      }
-    },
-    TaskId = 150423
-  },
-  [150424] = {
-    EffectExecuteTiming = "Enter",
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {
-        BuffId = 150401,
-        Function = "AddBuff",
-        LastTime = -1
-      }
-    },
-    TaskId = 150424
-  },
   [150425] = {
     NotifyName = {
-      "hit2"
+      "hit1"
     },
-    TargetFilter = "ShootingTargets",
     TaskEffects = {
       [1] = {
         ATKBase = "ATK_Ultra",
+        Condition = 150402,
         CreatureId = 150421,
         Direction = "Camera",
+        Distance = 2000,
         Function = "CreateSkillCreature",
-        Rotation = {
-          0,
-          180,
-          0
+        Location = {
+          50,
+          50,
+          150
         }
       }
     },
@@ -9789,17 +10111,17 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK_Ranged",
+        BaseAttr = "ATK",
         DamageTag = {
-          "Ranged",
-          "Weapon",
-          "Explode"
+          "Skill",
+          "Skill2",
+          "SuyiSkill02Creature"
         },
         Function = "Damage",
-        Rate = 1.1
+        Rate = 1
       },
       [2] = {
-        CauseHit = "HitFly_Force_Common",
+        CauseHit = "HitFly_XY0Z500",
         Function = "CutToughness",
         Value = 50
       },
@@ -9812,25 +10134,27 @@ return ReadOnly("SkillEffects", {
   [150427] = {
     AttackRangeType = "Bullet",
     HatredIncrement = 40,
-    TargetFilter = "Char_Sphere_Small",
+    TargetFilter = "Char_Sphere_Xlarge",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK_Ranged",
+        BaseAttr = "ATK",
         DamageTag = {
-          "Ranged",
-          "Weapon",
-          "Explode"
+          "Skill",
+          "Skill2",
+          "SuyiSkill02Creature"
         },
         Function = "Damage",
-        Rate = 1.1
+        Rate = 1
       },
       [2] = {
-        FXId = 2030102, Function = "PlayFX"
-      },
-      [3] = {
         CauseHit = "HitFly_Force_Common",
         Function = "CutToughness",
         Value = 50
+      },
+      [3] = {
+        CanBeScaled = true,
+        FXId = 150461,
+        Function = "PlayFX"
       },
       [4] = {
         Function = "MakeSound", SoundSourceId = 6
@@ -9848,7 +10172,7 @@ return ReadOnly("SkillEffects", {
         Function = "StartLoopShoot",
         LoopInterval = 0.3,
         LoopShootId = 150431,
-        SkillEffect = {150433}
+        SkillEffect = {150433, 150436}
       }
     },
     TaskId = 150431
@@ -9862,6 +10186,10 @@ return ReadOnly("SkillEffects", {
       [1] = {
         Function = "EndLoopShoot",
         LoopShootId = 150431
+      },
+      [2] = {
+        Function = "ExecuteClientPassiveFunction",
+        FunctionName = "SwitchMontage"
       }
     },
     TaskId = 150432
@@ -9870,12 +10198,17 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "ShootingTargets",
     TaskEffects = {
       [1] = {
-        AimSkeletal = "hit1",
-        CreatureId = 150402,
-        Direction = "Camera",
-        Function = "CreateSkillCreature"
+        ClientSkillLogicId = 150402,
+        Function = "ExecuteClientSkillLogicFunction",
+        FunctionName = "SetShootLoc"
       },
       [2] = {
+        CreatureId = 150402,
+        Direction = "Camera",
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "SuyiShoot"
+      },
+      [3] = {
         BaseChar = "Self",
         Function = "PlaySE",
         SEId = 530105
@@ -9889,18 +10222,16 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Sphere_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK_Ranged",
+        BaseAttr = "ATK",
         DamageTag = {
-          "Ranged",
-          "Weapon",
-          "Explode"
+          "Skill",
+          "Skill2",
+          "SuyiWeapon"
         },
         Function = "Damage",
-        Rate = 1.1
+        Rate = 1
       },
-      [2] = {
-        FXId = 2030102, Function = "PlayFX"
-      },
+      [2] = {FXId = 150422, Function = "PlayFX"},
       [3] = {
         BossValue = 100,
         CauseHit = "HitFly_XY0Z500",
@@ -9919,17 +10250,25 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Sphere_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK_Ranged",
+        BaseAttr = "ATK",
         DamageTag = {
-          "Ranged",
-          "Weapon",
-          "Explode"
+          "Skill",
+          "Skill2",
+          "SuyiWeapon"
         },
         Function = "Damage",
-        Rate = 1.1
+        Rate = 1
       },
       [2] = {
-        FXId = 2030102, Function = "PlayFX"
+        FXId = 150422,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true,
+        RandomRotation = {
+          0,
+          0,
+          90
+        }
       },
       [3] = {
         BossValue = 100,
@@ -9943,34 +10282,50 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 150435
   },
-  [150441] = {
-    NotifyName = {
-      "hit2"
+  [150436] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      }
     },
+    TaskId = 150436
+  },
+  [150441] = {
     TargetFilter = "ShootingTargets",
     TaskEffects = {
       [1] = {
+        ClientSkillLogicId = 150402,
+        Function = "ExecuteClientSkillLogicFunction",
+        FunctionName = "SetShootLoc"
+      },
+      [2] = {
         AimSkeletal = "hit1",
         CreatureId = 150403,
         Direction = "Camera",
-        Function = "CreateSkillCreature"
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "SuyiShoot"
       },
-      [2] = {
+      [3] = {
         FXId = 2051005,
         Function = "PlayFX",
         IsAttached = true
       },
-      [3] = {
+      [4] = {
         Function = "MakeSound", SoundSourceId = 7
       },
-      [4] = {
+      [5] = {
         Function = "ChargeBullet"
       }
     },
     TaskId = 150441
   },
   [150442] = {
-    EffectExecuteTiming = "Enter",
+    NotifyName = {
+      "hit1"
+    },
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
@@ -9978,11 +10333,11 @@ return ReadOnly("SkillEffects", {
         Function = "StartLoopShoot",
         LoopInterval = 0.15,
         LoopShootId = 150401,
-        SkillEffect = {150444}
+        SkillEffect = {150444, 150436}
       },
       [2] = {
         Function = "StartLoopShoot",
-        LoopInterval = 1,
+        LoopInterval = 0.5,
         LoopShootId = 150402,
         SkillEffect = {150441}
       },
@@ -9996,7 +10351,6 @@ return ReadOnly("SkillEffects", {
     TaskId = 150442
   },
   [150443] = {
-    EffectExecuteTiming = "Leave",
     NotifyName = {
       "hit2"
     },
@@ -10014,6 +10368,10 @@ return ReadOnly("SkillEffects", {
         ClientSkillLogicId = 150401,
         Function = "ExecuteClientSkillLogicFunction",
         FunctionName = "EndShoot"
+      },
+      [4] = {
+        Function = "ExecuteClientPassiveFunction",
+        FunctionName = "SwitchMontage"
       }
     },
     TaskId = 150443
@@ -10033,9 +10391,11 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK_Char",
+        BaseAttr = "ATK",
         DamageTag = {
-          "Skill"
+          "Skill",
+          "Skill2",
+          "SuyiWeapon"
         },
         Function = "Damage",
         Rate = 1
@@ -10061,113 +10421,169 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 150446
   },
-  [150451] = {
-    AttackRangeType = "Normal",
-    HatredIncrement = 40,
-    NotifyName = {
-      "hit1"
-    },
-    TargetFilter = "ShootingTargets",
+  [150447] = {
+    TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        ATKBase = "ATK_Ultra",
+        BaseChar = "Target",
+        CreatureId = 150441,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 150447
+  },
+  [150451] = {
+    EffectExecuteTiming = "Enter",
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
         CreatureId = 150405,
-        Direction = "Camera",
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          30
-        },
-        Rotation = {
-          0,
-          0,
-          90
-        }
+        Function = "CreateSkillCreature"
       },
       [2] = {
-        ATKBase = "ATK_Ultra",
-        CreatureId = 150406,
-        Direction = "Camera",
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          30
-        },
-        Rotation = {
-          0,
-          0,
-          90
-        }
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
       },
       [3] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [4] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [5] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [6] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [7] = {
         Function = "PlaySE",
         MeleeHitLevel = "Normal",
         SEId = 104
+      },
+      [8] = {
+        BuffId = 150422,
+        Function = "AddBuff",
+        LastTime = -1
       }
     },
     TaskId = 150451
   },
   [150452] = {
-    AttackRangeType = "Normal",
-    HatredIncrement = 40,
-    NotifyName = {
-      "hit1"
-    },
-    TargetFilter = "ShootingTargets",
+    EffectExecuteTiming = "Leave",
+    TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        ATKBase = "ATK_Ultra",
         CreatureId = 150405,
-        Direction = "Camera",
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          30
-        },
-        Rotation = {
-          0,
-          0,
-          142
-        }
+        Function = "RemoveSkillCreature"
       },
       [2] = {
-        ATKBase = "ATK_Ultra",
-        CreatureId = 150406,
-        Direction = "Camera",
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          30
-        },
-        Rotation = {
-          0,
-          0,
-          142
-        }
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
       },
       [3] = {
-        Function = "PlaySE",
-        MeleeHitLevel = "Normal",
-        SEId = 104
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [4] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
       }
     },
     TaskId = 150452
   },
   [150453] = {
+    EffectExecuteTiming = "Enter",
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 150406,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [3] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [4] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [5] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [6] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [7] = {
+        Function = "PlaySE",
+        MeleeHitLevel = "Normal",
+        SEId = 104
+      }
+    },
+    TaskId = 150453
+  },
+  [150454] = {
+    EffectExecuteTiming = "Leave",
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 150406,
+        Function = "RemoveSkillCreature"
+      },
+      [2] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [3] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      },
+      [4] = {
+        BuffId = 150402,
+        Function = "AddBuff",
+        LastTime = -1
+      }
+    },
+    TaskId = 150454
+  },
+  [150455] = {
     HatredIncrement = 40,
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK_Ranged",
+        BaseAttr = "ATK",
         DamageTag = {
-          "Ranged", "Weapon"
+          "Skill",
+          "Skill2",
+          "SuyiWeapon"
         },
         Function = "Damage",
-        Rate = 0.14
+        Rate = 1
       },
       [2] = {
         FXId = 44,
@@ -10177,9 +10593,9 @@ return ReadOnly("SkillEffects", {
       },
       [3] = {
         BossValue = 100,
-        CauseHit = "HitFly_XY0Z500",
+        CauseHit = "HitFly_XY800Z300A270",
         Function = "CutToughness",
-        Value = 20
+        Value = 100
       },
       [4] = {
         BodyAccessoryEffect = true,
@@ -10190,9 +10606,46 @@ return ReadOnly("SkillEffects", {
         Function = "PlaySE", SEId = 2050702
       }
     },
-    TaskId = 150453
+    TaskId = 150455
   },
-  [150454] = {
+  [150456] = {
+    HatredIncrement = 40,
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        DamageTag = {
+          "Skill",
+          "Skill2",
+          "SuyiWeapon"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        FXId = 44,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      },
+      [3] = {
+        BossValue = 100,
+        CauseHit = "HitFly_XY800Z300A90",
+        Function = "CutToughness",
+        Value = 100
+      },
+      [4] = {
+        BodyAccessoryEffect = true,
+        DieEffect = true,
+        Function = "AdditionalHitFX"
+      },
+      [5] = {
+        Function = "PlaySE", SEId = 2050702
+      }
+    },
+    TaskId = 150456
+  },
+  [150457] = {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
@@ -10229,50 +10682,51 @@ return ReadOnly("SkillEffects", {
         SceneSe = true
       }
     },
-    TaskId = 150454
-  },
-  [150455] = {
-    NotifyName = {"hi3"},
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {
-        CreatureId = 150407,
-        Function = "CreateSkillCreature"
-      }
-    },
-    TaskId = 150455
-  },
-  [150456] = {
-    EffectExecuteTiming = "Leave",
-    NotifyName = {"hi4"},
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {
-        CreatureId = 150407,
-        Function = "RemoveSkillCreature"
-      }
-    },
-    TaskId = 150456
+    TaskId = 150457
   },
   [150461] = {
-    TargetFilter = "Target",
+    EffectExecuteTiming = "Enter",
+    TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        CreatureId = 150422,
-        Function = "CreateSkillCreature"
+        AttrRates = {
+          ATK = 0,
+          DEF = 0,
+          EnmityValue = 0,
+          MaxHp = "1",
+          SkillEfficiency = 0,
+          SkillIntensity = 0,
+          StrongValue = 0
+        },
+        AutoAttach = 1,
+        Function = "CreateUnit",
+        LifeTime = -1,
+        MaxSummonCount = 1,
+        SingleSummonCount = 1,
+        UnitId = 150401,
+        UnitType = "Monster"
       }
     },
     TaskId = 150461
   },
   [150462] = {
+    EffectExecuteTiming = "Enter",
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {Function = "RemoveUnit", UnitId = 150401}
+    },
+    TaskId = 150462
+  },
+  [150471] = {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        CreatureId = 150422,
-        Function = "RemoveSkillCreature"
+        CreatureId = 150411,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "SuyiGradeLoc"
       }
     },
-    TaskId = 150462
+    TaskId = 150471
   },
   [150511] = {
     EffectExecuteTiming = "Enter",
@@ -10286,26 +10740,67 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 150511
   },
-  [150512] = {
-    EffectExecuteTiming = "Leave",
+  [150521] = {
+    AllowSkillRangeModify = true,
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Char_Cylinder_Middle240",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack"
+        },
+        Function = "Damage",
+        Rate = 1
+      }
+    },
+    TaskId = 150521
+  },
+  [150522] = {
+    AllowSkillRangeModify = true,
+    EffectExecuteTiming = "Enter",
     TargetFilter = "Self",
     TaskEffects = {
-      [1] = {BuffId = 150501, Function = "RemoveBuff"}
+      [1] = {
+        Function = "ExecutePassiveFunction",
+        FunctionName = "BladeUp",
+        PassiveEffectId = 150501
+      },
+      [2] = {BuffId = 150502, Function = "RemoveBuff"}
     },
-    TaskId = 150512
+    TaskId = 150522
   },
   [150531] = {
     NotifyName = {
       "hit1"
     },
+    TargetFilter = "ShootingTargets",
     TaskEffects = {
       [1] = {
-        CreatureId = 160101,
+        CreatureId = 150501,
+        Direction = "Camera",
+        Distance = 2000,
         Function = "CreateSkillCreature",
         Rotation = {
           0,
           0,
           -5
+        }
+      },
+      [2] = {
+        Condition = 150501,
+        CreatureId = 150511,
+        Direction = "Camera",
+        Distance = 2000,
+        Function = "CreateSkillCreature",
+        Rotation = {
+          0,
+          0,
+          5
         }
       }
     },
@@ -10315,14 +10810,29 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit1"
     },
+    TargetFilter = "ShootingTargets",
     TaskEffects = {
       [1] = {
-        CreatureId = 160102,
+        CreatureId = 150502,
+        Direction = "Camera",
+        Distance = 2000,
         Function = "CreateSkillCreature",
         Rotation = {
           0,
           0,
-          80
+          90
+        }
+      },
+      [2] = {
+        Condition = 150501,
+        CreatureId = 150521,
+        Direction = "Camera",
+        Distance = 2000,
+        Function = "CreateSkillCreature",
+        Rotation = {
+          0,
+          0,
+          90
         }
       }
     },
@@ -10330,25 +10840,307 @@ return ReadOnly("SkillEffects", {
   },
   [150533] = {
     HatredIncrement = 40,
-    NotifyName = {
-      "hit1"
-    },
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        CreatureId = 1050121,
-        Function = "CreateSkillCreature"
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack"
+        },
+        Function = "Damage",
+        Rate = 1
       },
       [2] = {
-        Function = "ExecutePassiveFunction",
-        FunctionName = "ClearComboCount",
-        PassiveEffectId = 102
+        CauseHit = "LightHit_120",
+        Function = "CutToughness",
+        Value = 15
+      },
+      [3] = {
+        FXId = 25, Function = "PlayFX"
+      },
+      [4] = {
+        Function = "PlayFX",
+        MaxHitFXNum = 3,
+        WeaponFXGroupName = "Hit1"
       }
     },
     TaskId = 150533
   },
   [150534] = {
     HatredIncrement = 40,
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack"
+        },
+        Function = "Damage",
+        Rate = 2
+      },
+      [2] = {
+        CauseHit = "HitFly_XY500Z300",
+        Function = "CutToughness",
+        Value = 30
+      },
+      [3] = {
+        FXId = 25, Function = "PlayFX"
+      },
+      [4] = {
+        Function = "PlayFX", WeaponFXGroupName = "Hit1"
+      }
+    },
+    TaskId = 150534
+  },
+  [150541] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 150503,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "ExecutePassiveFunction",
+        FunctionName = "Skill1End",
+        PassiveEffectId = 150501
+      }
+    },
+    TaskId = 150541
+  },
+  [150542] = {
+    HatredIncrement = 40,
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack",
+          "NoCombo"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY200Z300",
+        Function = "CutToughness",
+        Value = 15
+      },
+      [3] = {
+        Function = "PlayFX",
+        MaxHitFXNum = 5,
+        WeaponFXGroupName = "Hit1"
+      }
+    },
+    TaskId = 150542
+  },
+  [150543] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Cylinder_Middle",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack",
+          "NoCombo"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY200Z300",
+        Function = "CutToughness",
+        Value = 15
+      },
+      [3] = {
+        FXId = 1060212,
+        Function = "PlayFX",
+        IsAttached = false
+      },
+      [4] = {
+        Function = "PlayFX",
+        MaxHitFXNum = 3,
+        WeaponFXGroupName = "Hit1"
+      }
+    },
+    TaskId = 150543
+  },
+  [150544] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Cylinder_Middle",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack",
+          "NoCombo"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY200Z300",
+        Function = "CutToughness",
+        Value = 15
+      },
+      [3] = {
+        FXId = 1060213,
+        Function = "PlayFX",
+        IsAttached = false
+      },
+      [4] = {
+        Function = "PlayFX",
+        MaxHitFXNum = 3,
+        WeaponFXGroupName = "Hit1"
+      }
+    },
+    TaskId = 150544
+  },
+  [150545] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Cylinder_Middle",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack",
+          "NoCombo"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY200Z300",
+        Function = "CutToughness",
+        Value = 15
+      },
+      [3] = {
+        FXId = 1060214,
+        Function = "PlayFX",
+        IsAttached = false
+      },
+      [4] = {
+        Function = "PlayFX",
+        MaxHitFXNum = 3,
+        WeaponFXGroupName = "Hit1"
+      }
+    },
+    TaskId = 150545
+  },
+  [150546] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Cylinder_Middle",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack",
+          "NoCombo"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY200Z300",
+        Function = "CutToughness",
+        Value = 15
+      },
+      [3] = {
+        FXId = 1060215,
+        Function = "PlayFX",
+        IsAttached = false
+      },
+      [4] = {
+        Function = "PlayFX",
+        MaxHitFXNum = 3,
+        WeaponFXGroupName = "Hit1"
+      }
+    },
+    TaskId = 150546
+  },
+  [150547] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Cylinder_Middle",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack",
+          "NoCombo"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY200Z300",
+        Function = "CutToughness",
+        Value = 15
+      },
+      [3] = {
+        FXId = 1060216,
+        Function = "PlayFX",
+        IsAttached = false
+      },
+      [4] = {
+        Function = "PlayFX",
+        MaxHitFXNum = 3,
+        WeaponFXGroupName = "Hit1"
+      }
+    },
+    TaskId = 150547
+  },
+  [150548] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Cylinder_Middle",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack",
+          "NoCombo"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY200Z300",
+        Function = "CutToughness",
+        Value = 15
+      },
+      [3] = {
+        FXId = 1060217,
+        Function = "PlayFX",
+        IsAttached = false
+      },
+      [4] = {
+        Function = "PlayFX",
+        MaxHitFXNum = 3,
+        WeaponFXGroupName = "Hit1"
+      }
+    },
+    TaskId = 150548
+  },
+  [150551] = {
     NotifyName = {
       "hit1"
     },
@@ -10359,12 +11151,113 @@ return ReadOnly("SkillEffects", {
         Function = "CreateSkillCreature",
         Location = {
           0,
-          0,
+          300,
           -90
         }
       }
     },
-    TaskId = 150534
+    TaskId = 150551
+  },
+  [150552] = {
+    HatredIncrement = 40,
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Char_Cylinder_Middle",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        Function = "PlayFX",
+        MaxHitFXNum = 5,
+        WeaponFXGroupName = "Hit1"
+      }
+    },
+    TaskId = 150552
+  },
+  [150553] = {
+    HatredIncrement = 40,
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        Function = "PlayFX",
+        MaxHitFXNum = 5,
+        WeaponFXGroupName = "Hit1"
+      }
+    },
+    TaskId = 150553
+  },
+  [150561] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 150504,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 150561
+  },
+  [150562] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 150504,
+        Function = "RemoveSkillCreature"
+      }
+    },
+    TaskId = 150562
+  },
+  [150563] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_Small_Trgt",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ultra",
+        DamageTag = {
+          "Melee",
+          "Weapon",
+          "Attack"
+        },
+        Function = "Damage",
+        Rate = 1
+      }
+    },
+    TaskId = 150563
+  },
+  [150564] = {
+    HatredIncrement = 40,
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        Function = "PlayFX",
+        FxRotator = {
+          -5,
+          90,
+          0
+        },
+        IsFaceToChar = true,
+        WeaponFXGroupName = "Hit"
+      }
+    },
+    TaskId = 150564
   },
   [160111] = {
     NotifyName = {
@@ -10768,6 +11661,9 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         Function = "CreateUnit",
         LifeTime = -1,
         MaxSummonCount = 1,
@@ -11201,6 +12097,9 @@ return ReadOnly("SkillEffects", {
         Function = "CreateUnit",
         LifeTime = -1,
         MaxSummonCount = 1,
+        SetInt = {
+          IsEveAdditionalSummon = 1
+        },
         SingleSummonCount = 1,
         UnitId = 210201,
         UnitType = "Monster"
@@ -11240,6 +12139,9 @@ return ReadOnly("SkillEffects", {
         Function = "CreateUnit",
         LifeTime = 99,
         MaxSummonCount = 2,
+        SetInt = {
+          IsEveAdditionalSummon = 1
+        },
         SingleSummonCount = 1,
         UnitId = 210203,
         UnitType = "Monster",
@@ -11287,6 +12189,9 @@ return ReadOnly("SkillEffects", {
         Function = "CreateUnit",
         LifeTime = -1,
         MaxSummonCount = 1,
+        SetInt = {
+          IsEveAdditionalSummon = 1
+        },
         SingleSummonCount = 1,
         UnitId = 210204,
         UnitType = "Monster",
@@ -11294,6 +12199,20 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 210216
+  },
+  [210217] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "RemoveUnit", UnitId = 210204
+      },
+      [2] = {
+        Function = "ExecutePassiveFunction",
+        FunctionName = "EndSkill02",
+        PassiveEffectId = 210201
+      }
+    },
+    TaskId = 210217
   },
   [210221] = {
     AllowSkillRangeModify = true,
@@ -11344,6 +12263,29 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 210222
+  },
+  [210223] = {
+    AllowSkillRangeModify = true,
+    TargetFilter = "Char_Cylinder_Small",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 12
+      },
+      [2] = {
+        FXId = 600008, Function = "PlayFX"
+      },
+      [3] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      },
+      [4] = {FXId = 33311, Function = "PlayFX"},
+      [5] = {
+        Function = "PlaySE", SEId = 1003
+      }
+    },
+    TaskId = 210223
   },
   [210231] = {
     NotifyName = {
@@ -11430,24 +12372,69 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 210242
   },
+  [210243] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        AllowSkillSustain = 1,
+        FixLocation = true,
+        Function = "CreateUnit",
+        LifeTime = 99,
+        MaxSummonCount = 9,
+        SetInt = {IsEveCopySummon = 1},
+        SingleSummonCount = 1,
+        UnitId = 210202,
+        UnitType = "Monster",
+        UseSaveLoc = "EveSkill02Copy"
+      }
+    },
+    TaskId = 210243
+  },
   [210251] = {
-    EffectExecuteTiming = "Enter",
+    NotifyName = {
+      "hit1"
+    },
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
         BuffId = 210202,
         Function = "RemoveBuff",
         LastTime = -1
+      },
+      [2] = {
+        Function = "RemoveUnit", UnitId = 210204
+      },
+      [3] = {
+        Function = "ExecutePassiveFunction",
+        FunctionName = "Skill02Off",
+        PassiveEffectId = 210201
       }
     },
     TaskId = 210251
   },
-  [210261] = {
+  [210252] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "ExecutePassiveFunction",
+        FunctionName = "ReSetQueenLocation",
+        PassiveEffectId = 210201
+      }
+    },
+    TaskId = 210252
+  },
+  [210253] = {
     AllowSkillRangeModify = true,
     NotifyName = {
       "hit1"
     },
-    TargetFilter = "Char_Cylinder_Small",
+    TargetFilter = "Char_Sphere_Xlarge",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
@@ -11458,20 +12445,49 @@ return ReadOnly("SkillEffects", {
         FXId = 600008, Function = "PlayFX"
       },
       [3] = {
-        CauseHit = "LightHit",
-        Function = "CutToughness"
+        BossValue = 120,
+        CauseHit = "HitFly_XY0Z800",
+        Function = "CutToughness",
+        Value = 120
       },
       [4] = {
         Function = "PlaySE", SEId = 1003
       }
     },
-    TaskId = 210261
+    TaskId = 210253
+  },
+  [210254] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        AllowSkillSustain = 1,
+        FixLocation = true,
+        FormationId = 210101,
+        Function = "CreateUnit",
+        LifeTime = 99,
+        MaxSummonCount = 9,
+        SetInt = {
+          IsEveAdditionalSummon = 1
+        },
+        SingleSummonCount = 1,
+        UnitId = 210202,
+        UnitType = "Monster"
+      }
+    },
+    TaskId = 210254
   },
   [210262] = {
     EffectExecuteTiming = "Enter",
     TargetFilter = "Self",
     TaskEffects = {
-      [1] = {Function = "RemoveUnit", UnitId = 210202}
+      [1] = {
+        Function = "RemoveUnit",
+        Num = 1,
+        UnitId = 210202
+      }
     },
     TaskId = 210262
   },
@@ -11484,14 +12500,18 @@ return ReadOnly("SkillEffects", {
       [1] = {
         AllowSkillSustain = 1,
         FixLocation = true,
+        FormationId = 210101,
         Function = "CreateUnit",
         LifeTime = 99,
         MaxSummonCount = 9,
+        SetInt = {
+          IsEveAdditionalSummon = 1
+        },
         SingleSummonCount = "$Source:GetRootSource():GetInt('PassiveWaitingNum')$",
         UnitId = 210202,
-        UnitType = "Monster",
-        UseSaveLoc = "EveQueen"
-      }
+        UnitType = "Monster"
+      },
+      [2] = {Function = "AddBullet", Value = 50}
     },
     TaskId = 210263
   },
@@ -11950,7 +12970,7 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK_Char",
         DamageTag = {
-          "Skill"
+          "Skill", "Skill2"
         },
         Function = "Damage",
         Rate = "#1"
@@ -12042,9 +13062,11 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "BossOnline_Skill20Cylinder1",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "MaxHp",
+        BaseChar = "Target",
+        DamageType = "TrueDamage",
         Function = "Damage",
-        Rate = 999
+        Rate = 10
       },
       [2] = {
         FXId = 900502, Function = "PlayFX"
@@ -12287,6 +13309,9 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         AllowSkillSustain = 1,
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         Function = "CreateUnit",
         LifeTime = 12,
         MaxSummonCount = 6,
@@ -12343,6 +13368,9 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         Function = "CreateUnit",
         MaxSummonCount = 1,
         SingleSummonCount = 1,
@@ -12557,6 +13585,9 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         Function = "CreateUnit",
         MaxSummonCount = 2,
         SingleSummonCount = 2,
@@ -12605,6 +13636,9 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         Function = "CreateUnit",
         LifeTime = 2,
         MaxSummonCount = 10,
@@ -12658,6 +13692,9 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         Function = "CreateUnit",
         LifeTime = 2,
         MaxSummonCount = 10,
@@ -12739,6 +13776,9 @@ return ReadOnly("SkillEffects", {
       },
       [2] = {
         AllowSkillSustain = 1,
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         FixLocation = true,
         Function = "CreateUnit",
         LifeTime = 15,
@@ -12975,7 +14015,7 @@ return ReadOnly("SkillEffects", {
   },
   [320212] = {
     NotifyName = {
-      "hit2"
+      "hit3"
     },
     TaskEffects = {
       [1] = {
@@ -12995,7 +14035,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Char_Cylinder_Small",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill", "Skill1"
         },
@@ -13201,7 +14241,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK_Ranged",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill",
           "Skill2",
@@ -13254,7 +14294,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill",
           "KamiPassive"
@@ -13276,7 +14316,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Skill",
           "KamiPassive"
@@ -14494,6 +15534,9 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         FormationId = 410201,
         Function = "CreateUnit",
         LifeTime = 7.8,
@@ -14741,12 +15784,15 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         FormationId = 410201,
         Function = "CreateUnit",
         LifeTime = 7.8,
         MaxSummonCount = 1,
         SingleSummonCount = 1,
-        UnitId = 410201,
+        UnitId = 410202,
         UnitType = "Monster"
       }
     },
@@ -14760,7 +15806,7 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         ATKBase = "ATK_Char",
-        CreatureId = 410221,
+        CreatureId = 410241,
         Function = "CreateSkillCreature",
         UseSaveLoc = "ZhiliuTD"
       },
@@ -14784,6 +15830,33 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 410261
+  },
+  [410262] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 410240,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 410262
+  },
+  [410264] = {
+    AllowSkillRangeModify = true,
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {FXId = 410233, Function = "PlayFX"},
+      [2] = {
+        CanBeScaled = true,
+        FXId = 410236,
+        Function = "PlayFX"
+      },
+      [3] = {
+        Function = "ExecuteClientPassiveFunction",
+        FunctionName = "EndPP"
+      }
+    },
+    TaskId = 410264
   },
   [410267] = {
     SkillEffectSourceFlag = "RootSource",
@@ -14971,13 +16044,15 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         AttrRates = {
-          ATK = 1,
+          ATK = 0,
           DEF = 0,
+          EnmityValue = 0,
           MaxHp = "#1",
-          SkillEfficiency = 1,
-          SkillIntensity = 1,
-          SkillRange = 1,
-          SkillSustain = 1
+          SkillEfficiency = 0,
+          SkillIntensity = 0,
+          SkillRange = 0,
+          SkillSustain = 0,
+          StrongValue = 0
         },
         AutoAttach = 1,
         Function = "CreateUnit",
@@ -15238,8 +16313,10 @@ return ReadOnly("SkillEffects", {
         AttrRates = {
           DEF = 0.5,
           ES = 0,
+          EnmityValue = 0,
           MaxES = 0,
-          MaxHp = 1
+          MaxHp = 1,
+          StrongValue = 0
         },
         Function = "CreateUnit",
         MaxSummonCount = 1,
@@ -15677,9 +16754,11 @@ return ReadOnly("SkillEffects", {
         AttrRates = {
           DEF = 0,
           ES = 0,
+          EnmityValue = 0,
           MaxES = 0,
-          MaxHp = 30000,
-          SkillIntensity = 1
+          MaxHp = 100000,
+          SkillIntensity = 0,
+          StrongValue = 0
         },
         Camp = "Enemy",
         FixLocation = true,
@@ -16027,8 +17106,10 @@ return ReadOnly("SkillEffects", {
       [1] = {
         AttrRates = {
           ES = 0,
+          EnmityValue = 0,
           MaxES = 0,
-          MaxHp = 100
+          MaxHp = 100,
+          StrongValue = 0
         },
         AutoAttach = 1,
         FormationId = 510102,
@@ -16071,7 +17152,8 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         CreatureId = 510101,
-        Function = "CreateSkillCreature"
+        Function = "CreateSkillCreature",
+        MaxCount = 1
       }
     },
     TaskId = 510124
@@ -16428,9 +17510,11 @@ return ReadOnly("SkillEffects", {
           ATK = 1,
           DEF = 1,
           ES = 0,
+          EnmityValue = 0,
           MaxES = 0,
           MaxHp = 1,
-          SkillIntensity = 1
+          SkillIntensity = 1,
+          StrongValue = 0
         },
         Function = "CreateUnit",
         IsShadow = 1,
@@ -16622,9 +17706,11 @@ return ReadOnly("SkillEffects", {
           ATK = 1,
           DEF = 1,
           ES = 0,
+          EnmityValue = 0,
           MaxES = 0,
           MaxHp = 1,
-          SkillIntensity = 1
+          SkillIntensity = 1,
+          StrongValue = 0
         },
         Function = "CreateUnit",
         IsShadow = 1,
@@ -17159,6 +18245,9 @@ return ReadOnly("SkillEffects", {
         LastTime = 12
       },
       [4] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         Function = "CreateUnit",
         LifeTime = 10,
         MaxSummonCount = 1,
@@ -17178,6 +18267,9 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         FormationId = 540201,
         Function = "CreateUnit",
         LifeTime = 10,
@@ -17196,6 +18288,9 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
+        AttrRates = {
+          EnmityValue = 0, StrongValue = 0
+        },
         FormationId = 540201,
         Function = "CreateUnit",
         LifeTime = 20,
@@ -17799,6 +18894,9 @@ return ReadOnly("SkillEffects", {
       },
       [2] = {
         FXId = 600009, Function = "PlayFX"
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 600401
       }
     },
     TaskId = 600404
@@ -17947,6 +19045,7 @@ return ReadOnly("SkillEffects", {
         Function = "CreateUnit",
         LifeTime = 10,
         MaxSummonCount = 5,
+        SaveLocTag = "Skill01",
         SaveToSaveLoc = 1,
         SingleSummonCount = 2,
         UnitId = 600501,
@@ -17955,12 +19054,12 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CreatureId = 600502,
         Function = "CreateSkillCreature",
-        SetSavelocAsTarget = "1"
+        SetSavelocAsTarget = "Skill011"
       },
       [3] = {
         CreatureId = 600502,
         Function = "CreateSkillCreature",
-        SetSavelocAsTarget = "2"
+        SetSavelocAsTarget = "Skill012"
       }
     },
     TaskId = 600504
@@ -18487,6 +19586,9 @@ return ReadOnly("SkillEffects", {
       },
       [4] = {
         Function = "PlaySE", SEId = 1003
+      },
+      [5] = {
+        Function = "PlaySE", SEId = 600401
       }
     },
     TaskId = 601402
@@ -18514,9 +19616,6 @@ return ReadOnly("SkillEffects", {
         BuffId = 6000301,
         Function = "AddBuff",
         LastTime = 5
-      },
-      [5] = {
-        Function = "PlaySE", SEId = 600401
       }
     },
     TaskId = 601403
@@ -25759,7 +26858,7 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit1"
     },
-    TargetFilter = "BTTarget",
+    TargetFilter = "AlmostAllEnemy",
     TaskEffects = {
       [1] = {
         Function = "ActiveStaticCreator",
@@ -25956,8 +27055,7 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         CauseHit = "BossLianhuo_Effect850507",
-        Function = "CutToughness",
-        Value = 10
+        Function = "GrabHit"
       },
       [2] = {
         BaseAttr = "ATK",
@@ -26182,7 +27280,7 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit17"
     },
-    TargetFilter = "AlmostAllEnemy",
+    TargetFilter = "BTTarget",
     TaskEffects = {
       [1] = {
         CantLockTime = -1,
@@ -26997,15 +28095,14 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY0Z1000",
         Function = "CutToughness"
       },
-      [3] = {FXId = 850902, Function = "PlayFX"},
-      [4] = {
+      [3] = {
         Falloff = 0.1,
         Function = "CameraShake",
         IsSceneCameraShake = true,
         OuterRadius = 2000,
         ShakeClass = "BP_Camera_BossTuosi_Burst"
       },
-      [5] = {
+      [4] = {
         Function = "PlaySE", SEId = 850919
       }
     },
@@ -27575,8 +28672,7 @@ return ReadOnly("SkillEffects", {
         CreatureId = 851003,
         Function = "CreateSkillCreature",
         UseSaveLoc = "center"
-      },
-      [2] = {FXId = 851002, Function = "PlayFX"}
+      }
     },
     TaskId = 851006
   },
@@ -27711,7 +28807,7 @@ return ReadOnly("SkillEffects", {
     TaskId = 851012
   },
   [851013] = {
-    TargetFilter = "Mon_Sphere_300_360",
+    TargetFilter = "BossHeilong_Skill05_Cylinder",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
@@ -27797,7 +28893,7 @@ return ReadOnly("SkillEffects", {
     TaskId = 851018
   },
   [851019] = {
-    TargetFilter = "BossHeilong_Skill05_Cylinder",
+    TargetFilter = "AlmostAllEnemy",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
@@ -27861,17 +28957,16 @@ return ReadOnly("SkillEffects", {
   [851023] = {
     TargetFilter = "Mon_Sphere_600_360",
     TaskEffects = {
-      [1] = {FXId = 851005, Function = "PlayFX"},
-      [2] = {
+      [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
         Rate = 5
       },
-      [3] = {
+      [2] = {
         CauseHit = "LightHit_200",
         Function = "CutToughness"
       },
-      [4] = {
+      [3] = {
         Function = "PlaySE", SEId = 851012
       }
     },
@@ -27970,42 +29065,42 @@ return ReadOnly("SkillEffects", {
         AttrRates = {
           ATK = 1,
           DEF = 0,
-          MaxHp = 0.02
+          MaxHp = 0.06
         },
         Function = "CreateUnit",
         LifeTime = 30,
         MaxSummonCount = 3,
         SingleSummonCount = 1,
-        UnitId = 851001,
-        UnitType = "MechanismSummon",
+        UnitId = 8510003,
+        UnitType = "Monster",
         UseSaveLoc = "IceBall1"
       },
       [2] = {
         AttrRates = {
           ATK = 1,
           DEF = 0,
-          MaxHp = 0.02
+          MaxHp = 0.06
         },
         Function = "CreateUnit",
         LifeTime = 30,
         MaxSummonCount = 3,
         SingleSummonCount = 1,
-        UnitId = 851001,
-        UnitType = "MechanismSummon",
+        UnitId = 8510003,
+        UnitType = "Monster",
         UseSaveLoc = "IceBall2"
       },
       [3] = {
         AttrRates = {
           ATK = 1,
           DEF = 0,
-          MaxHp = 0.02
+          MaxHp = 0.06
         },
         Function = "CreateUnit",
         LifeTime = 30,
         MaxSummonCount = 3,
         SingleSummonCount = 1,
-        UnitId = 851001,
-        UnitType = "MechanismSummon",
+        UnitId = 8510003,
+        UnitType = "Monster",
         UseSaveLoc = "IceBall3"
       }
     },
@@ -28062,7 +29157,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        CreatureId = 850208,
+        CreatureId = 851012,
         Function = "CreateSkillCreature",
         UseSaveLoc = "FireRingIn"
       }
@@ -28216,7 +29311,8 @@ return ReadOnly("SkillEffects", {
         Rate = 0.4
       },
       [2] = {
-        Function = "AddSp", SpChange = -3
+        CauseHit = "LightHit",
+        Function = "CutToughness"
       },
       [3] = {Function = "PlaySE", SEId = 851001}
     },
@@ -28235,13 +29331,119 @@ return ReadOnly("SkillEffects", {
         Rate = 0.4
       },
       [2] = {
-        Function = "AddSp", SpChange = -3
+        CauseHit = "LightHit",
+        Function = "CutToughness"
       },
       [3] = {
         Function = "PlaySE", SEId = 851016
       }
     },
     TaskId = 851043
+  },
+  [851044] = {
+    NotifyName = {
+      "hit6"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851013,
+        Function = "CreateSkillCreature",
+        SetSavelocAsTarget = "19",
+        UseSaveLoc = "25"
+      }
+    },
+    TaskId = 851044
+  },
+  [851045] = {
+    NotifyName = {
+      "hit7"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851013,
+        Function = "CreateSkillCreature",
+        SetSavelocAsTarget = "20",
+        UseSaveLoc = "25"
+      }
+    },
+    TaskId = 851045
+  },
+  [851046] = {
+    NotifyName = {
+      "hit8"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851013,
+        Function = "CreateSkillCreature",
+        SetSavelocAsTarget = "21",
+        UseSaveLoc = "25"
+      }
+    },
+    TaskId = 851046
+  },
+  [851047] = {
+    NotifyName = {
+      "hit9"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851013,
+        Function = "CreateSkillCreature",
+        SetSavelocAsTarget = "22",
+        UseSaveLoc = "25"
+      }
+    },
+    TaskId = 851047
+  },
+  [851048] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BossHeilong02_Skill06_Cylinder",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 2
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 851009
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 851010
+      }
+    },
+    TaskId = 851048
+  },
+  [851049] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "BossHeilong02_Skill06_Cylinder",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 2
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 851010
+      }
+    },
+    TaskId = 851049
   },
   [851101] = {
     NotifyName = {
@@ -28463,7 +29665,7 @@ return ReadOnly("SkillEffects", {
     TaskId = 851111
   },
   [851112] = {
-    TargetFilter = "Target",
+    TargetFilter = "LaserTarget",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
@@ -28602,6 +29804,66 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 851121
+  },
+  [851122] = {
+    NotifyName = {
+      "hit6"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851013,
+        Function = "CreateSkillCreature",
+        SetSavelocAsTarget = "21",
+        UseSaveLoc = "25"
+      }
+    },
+    TaskId = 851122
+  },
+  [851123] = {
+    NotifyName = {
+      "hit7"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851013,
+        Function = "CreateSkillCreature",
+        SetSavelocAsTarget = "22",
+        UseSaveLoc = "25"
+      }
+    },
+    TaskId = 851123
+  },
+  [851124] = {
+    NotifyName = {
+      "hit8"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851013,
+        Function = "CreateSkillCreature",
+        SetSavelocAsTarget = "19",
+        UseSaveLoc = "25"
+      }
+    },
+    TaskId = 851124
+  },
+  [851125] = {
+    NotifyName = {
+      "hit9"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851013,
+        Function = "CreateSkillCreature",
+        SetSavelocAsTarget = "20",
+        UseSaveLoc = "25"
+      }
+    },
+    TaskId = 851125
   },
   [851201] = {
     NotifyName = {
@@ -32018,28 +33280,11 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 851536
   },
-  [851601] = {
-    TargetFilter = "BTTarget",
-    TaskEffects = {
-      [1] = {
-        CreatureId = 851601,
-        Function = "CreateSkillCreature"
-      }
-    },
-    TaskId = 851601
-  },
-  [851602] = {
-    TargetFilter = "BTTarget",
-    TaskEffects = {
-      [1] = {
-        CreatureId = 851601,
-        Function = "RemoveSkillCreature"
-      }
-    },
-    TaskId = 851602
-  },
   [851603] = {
-    TargetFilter = "Target",
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BossFuer_Skill02",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
@@ -32055,31 +33300,6 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 851603
-  },
-  [851604] = {
-    TargetFilter = "BTTarget",
-    TaskEffects = {
-      [1] = {
-        CreatureId = 851602,
-        Function = "CreateSkillCreature",
-        Location = {
-          200,
-          0,
-          -100
-        }
-      }
-    },
-    TaskId = 851604
-  },
-  [851605] = {
-    TargetFilter = "BTTarget",
-    TaskEffects = {
-      [1] = {
-        CreatureId = 851602,
-        Function = "RemoveSkillCreature"
-      }
-    },
-    TaskId = 851605
   },
   [851607] = {
     NotifyName = {
@@ -32478,34 +33698,6 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 851632
   },
-  [851633] = {
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {
-        CreatureId = 851612,
-        Function = "CreateSkillCreature"
-      },
-      [2] = {
-        CreatureId = 851613,
-        Function = "CreateSkillCreature"
-      }
-    },
-    TaskId = 851633
-  },
-  [851634] = {
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {
-        CreatureId = 851612,
-        Function = "RemoveSkillCreature"
-      },
-      [2] = {
-        CreatureId = 851613,
-        Function = "RemoveSkillCreature"
-      }
-    },
-    TaskId = 851634
-  },
   [851635] = {
     NotifyName = {
       "hit5"
@@ -32518,9 +33710,8 @@ return ReadOnly("SkillEffects", {
         Rate = 1
       },
       [2] = {
-        CauseHit = "HitFly_XY600Z1000",
-        Function = "CutToughness",
-        Value = 100
+        CauseHit = "LightHit",
+        Function = "CutToughness"
       },
       [3] = {
         FXId = 600009, Function = "PlayFX"
@@ -32709,14 +33900,14 @@ return ReadOnly("SkillEffects", {
   },
   [851649] = {
     NotifyName = {
-      "hit1"
+      "hit5"
     },
-    TargetFilter = "BossFuer_Skill02_Left",
+    TargetFilter = "BossFuer_Skill01_5",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1
+        Rate = 0.25
       },
       [2] = {
         CauseHit = "LightHit",
@@ -32730,14 +33921,14 @@ return ReadOnly("SkillEffects", {
   },
   [851650] = {
     NotifyName = {
-      "hit2"
+      "hit6"
     },
-    TargetFilter = "BossFuer_Skill02_Right",
+    TargetFilter = "BossFuer_Skill01_6",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1
+        Rate = 0.25
       },
       [2] = {
         CauseHit = "LightHit",
@@ -32748,6 +33939,63 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 851650
+  },
+  [851651] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CauseHit = "HitFly_XY600Z1000",
+        Function = "CutToughness",
+        Value = 100
+      },
+      [2] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [3] = {
+        FXId = 600009, Function = "PlayFX"
+      }
+    },
+    TaskId = 851651
+  },
+  [851652] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851616,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 851652
+  },
+  [851653] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851616,
+        Function = "RemoveSkillCreature"
+      }
+    },
+    TaskId = 851653
+  },
+  [851654] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      },
+      [2] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [3] = {
+        FXId = 600009, Function = "PlayFX"
+      }
+    },
+    TaskId = 851654
   },
   [851701] = {
     NotifyName = {
@@ -32776,7 +34024,6 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit4"
     },
-    TargetFilter = "Mon_Cylinder_300_200_180",
     TaskEffects = {
       [1] = {
         CreatureId = 851702,
@@ -33028,27 +34275,6 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 851714
   },
-  [851715] = {
-    TargetFilter = "Target",
-    TaskEffects = {
-      [1] = {
-        BaseAttr = "ATK",
-        Function = "Damage",
-        Rate = 2
-      },
-      [2] = {
-        FXId = 851805,
-        Function = "PlayFX",
-        NormalToHit = true
-      },
-      [3] = {
-        CauseHit = "HitFly_XY800Z1000",
-        Function = "CutToughness",
-        Value = 100
-      }
-    },
-    TaskId = 851715
-  },
   [851801] = {
     NotifyName = {
       "hit1"
@@ -33057,7 +34283,7 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         Function = "CreateUnit",
-        LifeTime = 5,
+        LifeTime = 4.5,
         MaxSummonCount = 5,
         Rotation = {
           0,
@@ -33079,7 +34305,7 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         Function = "CreateUnit",
-        LifeTime = 5,
+        LifeTime = 3.05,
         MaxSummonCount = 5,
         Rotation = {
           0,
@@ -33108,7 +34334,8 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY600Z1000",
         Function = "CutToughness",
         Value = 100
-      }
+      },
+      [3] = {Function = "PlaySE", SEId = 851812}
     },
     TaskId = 851803
   },
@@ -33160,7 +34387,8 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CauseHit = "LightHit",
         Function = "CutToughness"
-      }
+      },
+      [3] = {Function = "PlaySE", SEId = 851804}
     },
     TaskId = 851807
   },
@@ -33168,7 +34396,7 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit3"
     },
-    TargetFilter = "Mon_Cylinder_300_200_180",
+    TargetFilter = "BossJuque_Skill01_Cylinder",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
@@ -33198,7 +34426,8 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY600Z1000",
         Function = "CutToughness",
         Value = 100
-      }
+      },
+      [3] = {Function = "PlaySE", SEId = 851803}
     },
     TaskId = 851810
   },
@@ -33305,17 +34534,6 @@ return ReadOnly("SkillEffects", {
         },
         UseRelativeOffset = true,
         UseSaveLoc = "First8"
-      },
-      [10] = {
-        CreatureId = 851802,
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          -10
-        },
-        UseRelativeOffset = true,
-        UseSaveLoc = "First8"
       }
     },
     TaskId = 851811
@@ -33324,7 +34542,7 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit1", "hit2"
     },
-    TargetFilter = "Mon_Cylinder_300_200_180",
+    TargetFilter = "BossJuque_Skill01_Cylinder",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
@@ -33334,7 +34552,8 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CauseHit = "LightHit",
         Function = "CutToughness"
-      }
+      },
+      [3] = {Function = "PlaySE", SEId = 851801}
     },
     TaskId = 851812
   },
@@ -33352,7 +34571,7 @@ return ReadOnly("SkillEffects", {
         }
       },
       [2] = {
-        CreatureId = 851803,
+        CreatureId = 851801,
         Function = "CreateSkillCreature",
         SetSavelocAsTarget = "",
         UseSaveLoc = "6"
@@ -33417,7 +34636,7 @@ return ReadOnly("SkillEffects", {
   },
   [851815] = {
     NotifyName = {
-      "hit1"
+      "hit2"
     },
     TargetFilter = "BossRobot_Skill06_Cylinder",
     TaskEffects = {
@@ -33430,7 +34649,8 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY600Z1000",
         Function = "CutToughness",
         Value = 100
-      }
+      },
+      [3] = {Function = "PlaySE", SEId = 851807}
     },
     TaskId = 851815
   },
@@ -33451,9 +34671,730 @@ return ReadOnly("SkillEffects", {
         CauseHit = "HitFly_XY600Z1000",
         Function = "CutToughness",
         Value = 100
-      }
+      },
+      [4] = {Function = "PlaySE", SEId = 851809}
     },
     TaskId = 851816
+  },
+  [851817] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "1"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "2"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "5"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "6"
+      }
+    },
+    TaskId = 851817
+  },
+  [851818] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "3"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "4"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "7"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "8"
+      }
+    },
+    TaskId = 851818
+  },
+  [851819] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "loop"
+      }
+    },
+    TaskId = 851819
+  },
+  [851820] = {
+    TargetFilter = "BossJuque_Creature_Rectangle",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 2
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 851820
+  },
+  [851821] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "SaveLoc", TargetType = "Target"
+      }
+    },
+    TaskId = 851821
+  },
+  [851822] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851806,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          600
+        },
+        UseSaveLoc = ""
+      }
+    },
+    TaskId = 851822
+  },
+  [851823] = {
+    TargetFilter = "Mon_Cylinder_500_40_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 2
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 851823
+  },
+  [851824] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "1"
+      }
+    },
+    TaskId = 851824
+  },
+  [851825] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "2"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "5"
+      }
+    },
+    TaskId = 851825
+  },
+  [851826] = {
+    NotifyName = {
+      "hit3"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "3"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "6"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "9"
+      }
+    },
+    TaskId = 851826
+  },
+  [851827] = {
+    NotifyName = {
+      "hit4"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "4"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "7"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "10"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "13"
+      }
+    },
+    TaskId = 851827
+  },
+  [851828] = {
+    NotifyName = {
+      "hit5"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "8"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "11"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "14"
+      }
+    },
+    TaskId = 851828
+  },
+  [851829] = {
+    NotifyName = {
+      "hit6"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "12"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "15"
+      }
+    },
+    TaskId = 851829
+  },
+  [851830] = {
+    NotifyName = {
+      "hit7"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "16"
+      }
+    },
+    TaskId = 851830
+  },
+  [851831] = {
+    NotifyName = {
+      "hit8"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851807,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "1"
+      }
+    },
+    TaskId = 851831
+  },
+  [851832] = {
+    NotifyName = {
+      "hit9"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851807,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "2"
+      }
+    },
+    TaskId = 851832
+  },
+  [851833] = {
+    NotifyName = {
+      "hit10"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851807,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "3"
+      }
+    },
+    TaskId = 851833
+  },
+  [851834] = {
+    NotifyName = {
+      "hit11"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851807,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "4"
+      }
+    },
+    TaskId = 851834
+  },
+  [851835] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY600Z1000",
+        Function = "CutToughness",
+        Value = 100
+      }
+    },
+    TaskId = 851835
+  },
+  [851836] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BuffId = 851003,
+        Function = "AddBuff",
+        LastTime = 99
+      },
+      [2] = {
+        CantLockTime = 18,
+        Function = "CameraUnlock"
+      }
+    },
+    TaskId = 851836
+  },
+  [851837] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {BuffId = 851003, Function = "RemoveBuff"}
+    },
+    TaskId = 851837
+  },
+  [851838] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "1"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "5"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "9"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "13"
+      }
+    },
+    TaskId = 851838
+  },
+  [851839] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "2"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "6"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "10"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "14"
+      }
+    },
+    TaskId = 851839
+  },
+  [851840] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "3"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "7"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "11"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "15"
+      }
+    },
+    TaskId = 851840
+  },
+  [851841] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "4"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "8"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "12"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "16"
+      }
+    },
+    TaskId = 851841
+  },
+  [851842] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "1"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "2"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "3"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "4"
+      }
+    },
+    TaskId = 851842
+  },
+  [851843] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "5"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "6"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "7"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "8"
+      }
+    },
+    TaskId = 851843
+  },
+  [851844] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "9"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "10"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "11"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "12"
+      }
+    },
+    TaskId = 851844
+  },
+  [851845] = {
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "13"
+      },
+      [2] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "14"
+      },
+      [3] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "15"
+      },
+      [4] = {
+        CreatureId = 851805,
+        Function = "CreateSkillCreature",
+        UseSaveLoc = "16"
+      }
+    },
+    TaskId = 851845
+  },
+  [851846] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 3
+      },
+      [2] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 4
+      },
+      [3] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 7
+      },
+      [4] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 8
+      },
+      [5] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 9
+      },
+      [6] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 10
+      },
+      [7] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 11
+      },
+      [8] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 12
+      }
+    },
+    TaskId = 851846
+  },
+  [851847] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 1
+      },
+      [2] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 2
+      },
+      [3] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 5
+      },
+      [4] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 6
+      }
+    },
+    TaskId = 851847
+  },
+  [851848] = {
+    NotifyName = {
+      "hit1"
+    },
+    TaskEffects = {
+      [1] = {
+        DanmakuTemplateId = 851801,
+        Duration = 3,
+        Function = "CreateDanmaku"
+      }
+    },
+    TaskId = 851848
+  },
+  [851849] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY600Z1000",
+        Function = "CutToughness",
+        Value = 100
+      }
+    },
+    TaskId = 851849
+  },
+  [851850] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 13
+      },
+      [2] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 14
+      },
+      [3] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 15
+      },
+      [4] = {
+        Function = "InactiveStaticCreator",
+        StaticCreatorId = 16
+      }
+    },
+    TaskId = 851850
+  },
+  [851851] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "ActiveStaticCreator",
+        StaticCreatorId = 13
+      },
+      [2] = {
+        Function = "ActiveStaticCreator",
+        StaticCreatorId = 14
+      },
+      [3] = {
+        Function = "ActiveStaticCreator",
+        StaticCreatorId = 15
+      },
+      [4] = {
+        Function = "ActiveStaticCreator",
+        StaticCreatorId = 16
+      }
+    },
+    TaskId = 851851
   },
   [851901] = {
     NotifyName = {
@@ -36440,7 +38381,9 @@ return ReadOnly("SkillEffects", {
     TaskId = 852055
   },
   [852056] = {
-    NotifyName = {"hit9"},
+    NotifyName = {
+      "hit9"
+    },
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
@@ -38090,10 +40033,10 @@ return ReadOnly("SkillEffects", {
   [900026] = {
     TargetFilter = "Target",
     TaskEffects = {
-      [1] = {Function = "Heal", Value = 500},
+      [1] = {Function = "Heal", Value = 800},
       [2] = {
         BaseChar = "Target",
-        FXId = 6,
+        FXId = 900074,
         Function = "PlayFX",
         IsAttached = true
       }
@@ -38132,7 +40075,7 @@ return ReadOnly("SkillEffects", {
       [1] = {Function = "Heal", Value = 300},
       [2] = {
         BaseChar = "Target",
-        FXId = 6,
+        FXId = 900074,
         Function = "PlayFX",
         IsAttached = true
       }
@@ -38186,7 +40129,9 @@ return ReadOnly("SkillEffects", {
   [900040] = {
     TargetFilter = "Mech_TouchBomb_Player",
     TaskEffects = {
-      [1] = {FXId = 900038, Function = "PlayFX"},
+      [1] = {
+        FXId = 900038, Function = "PlayFX"
+      },
       [2] = {
         BaseAttr = "ATK",
         Function = "Damage",
@@ -38642,6 +40587,38 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 900085
+  },
+  [900086] = {
+    TargetFilter = "Mech_Bomb",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 0,
+        Value = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY600Z1000",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 900086
+  },
+  [900087] = {
+    TargetFilter = "Mech_Bomb_Monster",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 50
+      },
+      [2] = {
+        CauseHit = "HitFly_XY600Z1000",
+        Function = "CutToughness",
+        Value = 500
+      }
+    },
+    TaskId = 900087
   },
   [900101] = {
     NotifyName = {
@@ -40105,6 +42082,58 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 950020
   },
+  [950021] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness",
+        Value = 10000
+      }
+    },
+    TaskId = 950021
+  },
+  [950022] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "SpawnDrop",
+        UnitId = 3014,
+        UnitType = "Drop"
+      }
+    },
+    TaskId = 950022
+  },
+  [950023] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        BuffId = 950002,
+        Function = "AddBuff",
+        LastTime = -1
+      }
+    },
+    TaskId = 950023
+  },
+  [950024] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {BuffId = 950002, Function = "RemoveBuff"}
+    },
+    TaskId = 950024
+  },
+  [950025] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "MaxHp",
+        DamageType = "TrueDamage",
+        Function = "Damage",
+        Rate = 1
+      }
+    },
+    TaskId = 950025
+  },
   [950101] = {
     NotifyName = {
       "hit1"
@@ -40293,7 +42322,7 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1
+        Rate = 0.5
       },
       [2] = {
         FXId = 950401,
@@ -40353,7 +42382,7 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CauseHit = "HitFly_XY200Z300",
         Function = "CutToughness",
-        Value = 600
+        Value = 1
       }
     },
     TaskId = 950405
@@ -40372,7 +42401,7 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CauseHit = "HitFly_XY200Z300",
         Function = "CutToughness",
-        Value = 600
+        Value = 1
       }
     },
     TaskId = 950406
@@ -40391,7 +42420,7 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CauseHit = "HitFly_XY200Z300",
         Function = "CutToughness",
-        Value = 600
+        Value = 1
       }
     },
     TaskId = 950407
@@ -40423,12 +42452,12 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1
+        Rate = 1.5
       },
       [2] = {
         CauseHit = "LightHit",
         Function = "CutToughness",
-        Value = 600
+        Value = 1
       },
       [3] = {FXId = 950501, Function = "PlayFX"}
     },
@@ -40443,12 +42472,12 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1
+        Rate = 0.8
       },
       [2] = {
         CauseHit = "HitFly_XY200Z300",
         Function = "CutToughness",
-        Value = 600
+        Value = 1
       }
     },
     TaskId = 950502
@@ -40462,12 +42491,12 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1
+        Rate = 1.8
       },
       [2] = {
         CauseHit = "LightHit",
         Function = "CutToughness",
-        Value = 600
+        Value = 1
       }
     },
     TaskId = 950601
@@ -40486,7 +42515,7 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CauseHit = "HitFly_XY200Z300_F",
         Function = "CutToughness",
-        Value = 600
+        Value = 1
       }
     },
     TaskId = 950602
@@ -40504,6 +42533,9 @@ return ReadOnly("SkillEffects", {
       },
       [2] = {
         FXId = 600008, Function = "PlayFX"
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 950701
       }
     },
     TaskId = 950701
@@ -40521,6 +42553,9 @@ return ReadOnly("SkillEffects", {
       },
       [2] = {
         FXId = 600008, Function = "PlayFX"
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 950701
       }
     },
     TaskId = 950702
@@ -41093,7 +43128,7 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.2
+        Rate = 1.8
       },
       [2] = {
         FXId = 600008, Function = "PlayFX"
@@ -41108,6 +43143,42 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 1000110
   },
+  [1000111] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        BuffId = 1000501,
+        Function = "AddBuff",
+        LastTime = -1
+      }
+    },
+    TaskId = 1000111
+  },
+  [1000112] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {BuffId = 1000501, Function = "RemoveBuff"}
+    },
+    TaskId = 1000112
+  },
+  [1000113] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        BuffId = 1000502,
+        Function = "AddBuff",
+        LastTime = -1
+      }
+    },
+    TaskId = 1000113
+  },
+  [1000114] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {BuffId = 1000502, Function = "RemoveBuff"}
+    },
+    TaskId = 1000114
+  },
   [1000201] = {
     NotifyName = {
       "hit1"
@@ -41117,12 +43188,16 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1
+        Rate = 1.8
       },
       [2] = {
         FXId = 600008, Function = "PlayFX"
       },
       [3] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      },
+      [4] = {
         Function = "PlaySE", SEId = 1003
       }
     },
@@ -41144,49 +43219,26 @@ return ReadOnly("SkillEffects", {
     TaskId = 1000202
   },
   [1000203] = {
-    NotifyName = {
-      "hit2"
-    },
-    TargetFilter = "Mon_Cylinder_300_200_180",
+    TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
-        Function = "Damage",
-        Rate = 1.2
-      },
-      [2] = {
-        FXId = 600008, Function = "PlayFX"
-      },
-      [3] = {
-        CauseHit = "LightHit",
-        Function = "CutToughness"
-      },
-      [4] = {
-        Function = "PlaySE", SEId = 1003
+        CreatureId = 1000202,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          100,
+          0
+        }
       }
     },
     TaskId = 1000203
   },
   [1000204] = {
-    NotifyName = {
-      "hit3"
-    },
-    TargetFilter = "Mon_Cylinder_300_200_360",
+    TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK",
-        Function = "Damage",
-        Rate = 1.2
-      },
-      [2] = {
-        FXId = 600008, Function = "PlayFX"
-      },
-      [3] = {
-        CauseHit = "LightHit",
-        Function = "CutToughness"
-      },
-      [4] = {
-        Function = "PlaySE", SEId = 1003
+        CreatureId = 1000202,
+        Function = "RemoveSkillCreature"
       }
     },
     TaskId = 1000204
@@ -41200,7 +43252,7 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.2
+        Rate = 2
       },
       [2] = {
         FXId = 600008, Function = "PlayFX"
@@ -41224,13 +43276,13 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.2
+        Rate = 2
       },
       [2] = {
         FXId = 600008, Function = "PlayFX"
       },
       [3] = {
-        CauseHit = "HitFly_XY0Z300",
+        CauseHit = "LightHit",
         Function = "CutToughness"
       },
       [4] = {
@@ -41248,7 +43300,7 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.2
+        Rate = 2
       },
       [2] = {
         FXId = 600008, Function = "PlayFX"
@@ -41302,10 +43354,10 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.5
+        Rate = 1.8
       },
       [2] = {
-        CauseHit = "HitFly_XY0Z300",
+        CauseHit = "LightHit",
         Function = "CutToughness"
       },
       [3] = {
@@ -41337,7 +43389,7 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.2
+        Rate = 1.5
       },
       [2] = {
         CauseHit = "HitFly_XY500Z1000",
@@ -41345,6 +43397,24 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 1000212
+  },
+  [1000213] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 2
+      },
+      [2] = {
+        FXId = 600008, Function = "PlayFX"
+      },
+      [3] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 1000213
   },
   [1000301] = {
     NotifyName = {
@@ -41360,6 +43430,9 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CauseHit = "LightHit",
         Function = "CutToughness"
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 10003001
       }
     },
     TaskId = 1000301
@@ -41390,9 +43463,10 @@ return ReadOnly("SkillEffects", {
         Rate = 1.87
       },
       [2] = {
-        CauseHit = "HitFly_XY500Z1000",
+        CauseHit = "LightHit",
         Function = "CutToughness"
-      }
+      },
+      [3] = {Function = "PlaySE", SEId = 10003002}
     },
     TaskId = 1000303
   },
@@ -41423,13 +43497,10 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.5
+        Rate = 1
       },
-      [2] = {
-        CauseHit = "LightHit_200",
-        Function = "CutToughness"
-      },
-      [3] = {FXId = 1000302, Function = "PlayFX"}
+      [2] = {FXId = 1000302, Function = "PlayFX"},
+      [3] = {Function = "PlaySE", SEId = 10003003}
     },
     TaskId = 1000305
   },
@@ -41453,17 +43524,18 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.5
+        Rate = 1.2
       },
       [2] = {
-        CauseHit = "LightHit_200",
+        CauseHit = "LightHit",
         Function = "CutToughness"
       },
       [3] = {
         FXId = 1000302,
         Function = "PlayFX",
         Overlap = true
-      }
+      },
+      [4] = {Function = "PlaySE", SEId = 10003005}
     },
     TaskId = 1000307
   },
@@ -41507,7 +43579,7 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.5
+        Rate = 1.2
       },
       [2] = {
         CauseHit = "HitFly_XY500Z1000",
@@ -41517,6 +43589,9 @@ return ReadOnly("SkillEffects", {
         FXId = 1000302,
         Function = "PlayFX",
         Overlap = true
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 10003008
       }
     },
     TaskId = 1000309
@@ -41540,7 +43615,8 @@ return ReadOnly("SkillEffects", {
         FXId = 1000302,
         Function = "PlayFX",
         Overlap = true
-      }
+      },
+      [4] = {Function = "PlaySE", SEId = 10003007}
     },
     TaskId = 1000310
   },
@@ -41553,7 +43629,7 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.5
+        Rate = 1.2
       },
       [2] = {
         CauseHit = "HitFly_XY500Z1000",
@@ -41563,6 +43639,9 @@ return ReadOnly("SkillEffects", {
         FXId = 1000302,
         Function = "PlayFX",
         Overlap = true
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 10003008
       }
     },
     TaskId = 1000311
@@ -41602,6 +43681,9 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CauseHit = "LightHit",
         Function = "CutToughness"
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 10003001
       }
     },
     TaskId = 1000314
@@ -41620,6 +43702,9 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CauseHit = "HitFly_XY500Z1000",
         Function = "CutToughness"
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 10003001
       }
     },
     TaskId = 1000315
@@ -41655,7 +43740,8 @@ return ReadOnly("SkillEffects", {
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
-      }
+      },
+      [3] = {Function = "PlaySE", SEId = 10004001}
     },
     TaskId = 1000402
   },
@@ -41708,7 +43794,8 @@ return ReadOnly("SkillEffects", {
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
-      }
+      },
+      [3] = {Function = "PlaySE", SEId = 10004002}
     },
     TaskId = 1000406
   },
@@ -41745,7 +43832,8 @@ return ReadOnly("SkillEffects", {
       },
       [3] = {
         FXId = 1000404, Function = "PlayFX"
-      }
+      },
+      [4] = {Function = "PlaySE", SEId = 10004004}
     },
     TaskId = 1000409
   },
@@ -41801,14 +43889,15 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.87
+        Rate = 1.2
       },
       [2] = {
         CauseHit = "HitFly_XY500Z1000",
         Function = "CutToughness",
         Value = 100
       },
-      [3] = {FXId = 1000402, Function = "PlayFX"}
+      [3] = {FXId = 1000402, Function = "PlayFX"},
+      [4] = {Function = "PlaySE", SEId = 10004007}
     },
     TaskId = 1000413
   },
@@ -41831,7 +43920,8 @@ return ReadOnly("SkillEffects", {
         FXId = 1000302,
         Function = "PlayFX",
         Overlap = true
-      }
+      },
+      [4] = {Function = "PlaySE", SEId = 10004008}
     },
     TaskId = 1000414
   },
@@ -41844,7 +43934,7 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK",
         Function = "Damage",
-        Rate = 1.5
+        Rate = 1.2
       },
       [2] = {
         CauseHit = "HitFly_XY500Z1000",
@@ -41854,7 +43944,8 @@ return ReadOnly("SkillEffects", {
         FXId = 1000302,
         Function = "PlayFX",
         Overlap = true
-      }
+      },
+      [4] = {Function = "PlaySE", SEId = 10004009}
     },
     TaskId = 1000415
   },
@@ -42539,13 +44630,13 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit1"
     },
-    TargetFilter = "Char_Cylinder_Large180",
+    TargetFilter = "Target",
     TaskEffects = {
       [1] = {
         CreatureId = 1010301,
         Function = "CreateSkillCreature",
         Rotation = {
-          -25,
+          -35,
           0,
           0
         }
@@ -42559,7 +44650,7 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit1"
     },
-    TargetFilter = "Char_Cylinder_Large180",
+    TargetFilter = "Char_Cylinder_Middle",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Melee",
@@ -42569,36 +44660,34 @@ return ReadOnly("SkillEffects", {
           "HeavyAttack"
         },
         Function = "Damage",
-        Rate = 1
+        Rate = 0.5
       },
       [2] = {
         Function = "PlayFX",
-        FxRotator = {
-          210,
-          90,
-          0
-        },
-        IsFaceToChar = true,
-        WeaponFXGroupName = "Hit"
+        MaxHitFXNum = 5,
+        WeaponFXGroupName = "Hit1"
       },
       [3] = {
-        CauseHit = "HitFly_XY800Z400_F",
+        CauseHit = "HitFly_XY0Z500",
         Function = "CutToughness",
-        Value = 80
+        Value = 40
       },
       [4] = {
-        Condition = 100,
-        Dilation = 0,
-        Duration = 0.03,
-        Function = "HitStop"
-      },
-      [5] = {
         Function = "PlaySE",
         MeleeHitLevel = "Heavy",
         SEId = 104
       }
     },
     TaskId = 1010322
+  },
+  [1020001] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "ChargeBullet"
+      }
+    },
+    TaskId = 1020001
   },
   [1020111] = {
     AttackRangeType = "Normal",
@@ -43042,15 +45131,6 @@ return ReadOnly("SkillEffects", {
       [1] = {BuffId = 1020121, Function = "RemoveBuff"}
     },
     TaskId = 1020162
-  },
-  [1020176] = {
-    TargetFilter = "Self",
-    TaskEffects = {
-      [1] = {
-        Function = "ChargeBullet"
-      }
-    },
-    TaskId = 1020176
   },
   [1020211] = {
     AttackRangeType = "Normal",
@@ -44844,6 +46924,11 @@ return ReadOnly("SkillEffects", {
       },
       [4] = {
         Function = "MakeSound", SoundSourceId = 7
+      },
+      [5] = {
+        Function = "PlaySE",
+        MeleeHitLevel = "Heavy",
+        SEId = 104
       }
     },
     TaskId = 1040132
@@ -45054,7 +47139,6 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         CreatureId = 1040222,
-        Delay = 0.1,
         Function = "CreateSkillCreature",
         Location = {
           0,
@@ -45063,43 +47147,54 @@ return ReadOnly("SkillEffects", {
         },
         Rotation = {
           0,
-          30,
+          45,
           0
         }
+      },
+      [2] = {
+        Function = "ExecutePassiveFunction",
+        FunctionName = "ClearComboCount",
+        PassiveEffectId = 102
       }
     },
     TaskId = 1040221
   },
   [1040222] = {
-    AttackRangeType = "Normal",
     HatredIncrement = 40,
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Melee",
         DamageTag = {
-          "Ranged", "Weapon"
+          "Melee",
+          "Weapon",
+          "HeavyAttack"
         },
         Function = "Damage",
-        Rate = 0.5
+        Rate = 0.88
       },
       [2] = {
-        CauseHit = "HitFly_XY200Z300",
-        Function = "CutToughness",
-        Value = 150
+        Function = "PlayFX",
+        MaxHitFXNum = 3,
+        WeaponFXGroupName = "Hit1"
       },
       [3] = {
-        Function = "MakeSound", SoundSourceId = 6
+        CauseHit = "HitFly_XY200Z300",
+        Function = "CutToughness",
+        Value = 28
       },
       [4] = {
-        FXId = 2030401, Function = "PlayFX"
+        Function = "PlaySE",
+        MeleeHitLevel = "Light",
+        SEId = 105
+      },
+      [5] = {
+        Function = "MakeSound", SoundSourceId = 6
       }
     },
     TaskId = 1040222
   },
   [1040223] = {
-    AttackRangeType = "Bullet",
-    HatredIncrement = 40,
     TargetFilter = "Char_Sphere_Small",
     TaskEffects = {
       [1] = {
@@ -47373,6 +49468,11 @@ return ReadOnly("SkillEffects", {
         IsSceneCameraShake = true,
         OuterRadius = 1500,
         ShakeClass = "BP_CS_Wuxu_Hit"
+      },
+      [7] = {
+        Function = "PlaySE",
+        SEId = 2010101,
+        SceneSe = true
       }
     },
     TaskId = 2010114
@@ -47413,6 +49513,11 @@ return ReadOnly("SkillEffects", {
         IsSceneCameraShake = true,
         OuterRadius = 1500,
         ShakeClass = "BP_CS_Wuxu_Hit"
+      },
+      [7] = {
+        Function = "PlaySE",
+        SEId = 2010101,
+        SceneSe = true
       }
     },
     TaskId = 2010115
@@ -47467,6 +49572,147 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 2010121
+  },
+  [2010411] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "ShootingTargets",
+    TaskEffects = {
+      [1] = {
+        AimSkeletal = "hit1",
+        CreatureId = 2010411,
+        Direction = "Camera",
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "MakeSound", SoundSourceId = 7
+      },
+      [3] = {
+        Function = "AimDiffusion"
+      },
+      [4] = {
+        FXId = 2019901,
+        Function = "PlayFX",
+        IsAttached = true
+      }
+    },
+    TaskId = 2010411
+  },
+  [2010412] = {
+    HatredIncrement = 40,
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ranged",
+        DamageTag = {
+          "Ranged", "Weapon"
+        },
+        Function = "Damage",
+        Rate = 0.71
+      },
+      [2] = {
+        FXId = 42,
+        Function = "PlayFX",
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HeavyHit_120",
+        Function = "CutToughness",
+        Value = 100
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 103
+      }
+    },
+    TaskId = 2010412
+  },
+  [2010413] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        FXId = 52,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true,
+        ReplaceFXId = {
+          Mud = 64,
+          Sand = 63,
+          Snow = 62,
+          Water = 61
+        }
+      },
+      [2] = {
+        FXId = 2020106,
+        Function = "PlayFX",
+        IsAttached = true,
+        IsDecalEffectCreature = true,
+        NormalToHit = true,
+        Overlap = true,
+        RefinedOverlap = true,
+        ReplaceFXId = {
+          Mud = 0,
+          Sand = 0,
+          Snow = 0,
+          Water = 0
+        }
+      },
+      [3] = {
+        Function = "PlaySE",
+        SEId = 103,
+        SceneSe = true
+      }
+    },
+    TaskId = 2010413
+  },
+  [2010414] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        Condition = 104,
+        CreatureId = 2010412,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 2010414
+  },
+  [2010415] = {
+    TargetFilter = "Char_Cylinder_Small",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        DamageTag = {
+          "Ranged", "Weapon"
+        },
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        BossValue = 100,
+        CauseHit = "LightHit",
+        Function = "CutToughness",
+        Value = 10
+      },
+      [3] = {
+        BuffId = 203,
+        Function = "AddBuff",
+        LastTime = 1.5
+      },
+      [4] = {FXId = 2010401, Function = "PlayFX"}
+    },
+    TaskId = 2010415
+  },
+  [2010421] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "ChargeBullet"
+      }
+    },
+    TaskId = 2010421
   },
   [2019911] = {
     NotifyName = {
@@ -48108,6 +50354,11 @@ return ReadOnly("SkillEffects", {
         IsSceneCameraShake = true,
         OuterRadius = 1500,
         ShakeClass = "BP_CS_Cannon_Hit"
+      },
+      [7] = {
+        Function = "PlaySE",
+        SEId = 2030201,
+        SceneSe = true
       }
     },
     TaskId = 2030212
@@ -48147,6 +50398,11 @@ return ReadOnly("SkillEffects", {
         IsSceneCameraShake = true,
         OuterRadius = 1500,
         ShakeClass = "BP_CS_Cannon_Hit"
+      },
+      [6] = {
+        Function = "PlaySE",
+        SEId = 2030201,
+        SceneSe = true
       }
     },
     TaskId = 2030213
@@ -48365,6 +50621,11 @@ return ReadOnly("SkillEffects", {
       },
       [5] = {
         Function = "PlaySE", SEId = 2030204
+      },
+      [6] = {
+        Function = "PlaySE",
+        SEId = 2030203,
+        SceneSe = true
       }
     },
     TaskId = 2030216
@@ -48446,6 +50707,11 @@ return ReadOnly("SkillEffects", {
         IsSceneCameraShake = true,
         OuterRadius = 1500,
         ShakeClass = "BP_CS_Chiqiang_Hit"
+      },
+      [6] = {
+        Function = "PlaySE",
+        SEId = 2030301,
+        SceneSe = true
       }
     },
     TaskId = 2030312
@@ -48490,6 +50756,11 @@ return ReadOnly("SkillEffects", {
         IsSceneCameraShake = true,
         OuterRadius = 1500,
         ShakeClass = "BP_CS_Chiqiang_Hit"
+      },
+      [6] = {
+        Function = "PlaySE",
+        SEId = 2030301,
+        SceneSe = true
       }
     },
     TaskId = 2030313
@@ -48519,6 +50790,12 @@ return ReadOnly("SkillEffects", {
         Delay = 0.6,
         Function = "PlaySE",
         SEId = 2030304
+      },
+      [4] = {
+        Delay = 0.6,
+        Function = "PlaySE",
+        SEId = 2030302,
+        SceneSe = true
       }
     },
     TaskId = 2030314
@@ -48548,6 +50825,12 @@ return ReadOnly("SkillEffects", {
         Delay = 0.6,
         Function = "PlaySE",
         SEId = 2030304
+      },
+      [4] = {
+        Delay = 0.6,
+        Function = "PlaySE",
+        SEId = 2030302,
+        SceneSe = true
       }
     },
     TaskId = 2030315
@@ -48577,6 +50860,12 @@ return ReadOnly("SkillEffects", {
         Delay = 0.6,
         Function = "PlaySE",
         SEId = 2030304
+      },
+      [4] = {
+        Delay = 0.6,
+        Function = "PlaySE",
+        SEId = 2030302,
+        SceneSe = true
       }
     },
     TaskId = 2030316
@@ -48606,6 +50895,12 @@ return ReadOnly("SkillEffects", {
         Delay = 0.6,
         Function = "PlaySE",
         SEId = 2030304
+      },
+      [4] = {
+        Delay = 0.6,
+        Function = "PlaySE",
+        SEId = 2030302,
+        SceneSe = true
       }
     },
     TaskId = 2030317
@@ -48798,9 +51093,7 @@ return ReadOnly("SkillEffects", {
       [3] = {
         Function = "MakeSound", SoundSourceId = 6
       },
-      [4] = {
-        FXId = 2030401, Function = "PlayFX"
-      },
+      [4] = {FXId = 2030401, Function = "PlayFX"},
       [5] = {
         Function = "PlaySE", SEId = 2030406
       }
@@ -49497,7 +51790,9 @@ return ReadOnly("SkillEffects", {
         Function = "Damage",
         Rate = 0.33
       },
-      [2] = {FXId = 2040504, Function = "PlayFX"},
+      [2] = {
+        FXId = 2040504, Function = "PlayFX"
+      },
       [3] = {
         CauseHit = "RangedWeapon_Common",
         Function = "CutToughness",
@@ -49670,59 +51965,69 @@ return ReadOnly("SkillEffects", {
       [1] = {
         CreatureId = 2040601,
         Direction = "Camera",
-        Function = "CreateSkillCreature"
+        Function = "CreateSkillCreature",
+        MaxCount = 5
       },
       [2] = {
         Function = "MakeSound", SoundSourceId = 7
       },
       [3] = {
         Function = "AimDiffusion"
+      },
+      [4] = {
+        Function = "ExecutePassiveFunction",
+        FunctionName = "CheckBullet",
+        PassiveEffectId = 20406
+      },
+      [5] = {
+        BaseChar = "Self",
+        ConsumeAmount = "$Source:GetInt('MagazineBulletNum_20406')$",
+        Function = "ConsumeBullet"
       }
     },
     TaskId = 2040611
   },
   [2040612] = {
+    HatredIncrement = 40,
+    TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        CreatureId = 2040602,
-        Delay = 0.1,
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          0
+        BaseAttr = "ATK_Ranged",
+        DamageTag = {
+          "Ranged", "Weapon"
         },
-        Rotation = {
-          0,
-          15,
-          0
-        }
+        Function = "Damage",
+        Rate = 0.33
       },
       [2] = {
-        CreatureId = 2040602,
-        Delay = 0.1,
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          0
-        },
-        Rotation = {
-          0,
-          -15,
-          0
-        }
+        FXId = 2040504, Function = "PlayFX"
       },
       [3] = {
-        Function = "MakeSound", SoundSourceId = 7
+        CauseHit = "RangedWeapon_Common",
+        Function = "CutToughness",
+        Value = 12
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
       }
     },
     TaskId = 2040612
   },
-  [2040613] = {
+  [2040614] = {
     AttackRangeType = "Bullet",
+    ExtraBPFilter = "Common_Random",
+    TargetFilter = "Char_Sphere_large",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 2040602,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 2040614
+  },
+  [2040615] = {
     HatredIncrement = 40,
-    TargetFilter = "Char_Sphere_Small",
+    TargetFilter = "Target",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Ranged",
@@ -49738,131 +52043,10 @@ return ReadOnly("SkillEffects", {
       [3] = {
         CauseHit = "HitFly_Force_Common",
         Function = "CutToughness",
-        Value = 30
+        Value = 1
       },
       [4] = {
         Function = "MakeSound", SoundSourceId = 6
-      }
-    },
-    TaskId = 2040613
-  },
-  [2040614] = {
-    TaskEffects = {
-      [1] = {
-        CreatureId = 2040602,
-        Delay = 0.1,
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          0
-        },
-        Rotation = {
-          0,
-          20,
-          0
-        }
-      },
-      [2] = {
-        CreatureId = 2040602,
-        Delay = 0.1,
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          0
-        },
-        Rotation = {
-          0,
-          0,
-          0
-        }
-      },
-      [3] = {
-        CreatureId = 2040602,
-        Delay = 0.1,
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          0
-        },
-        Rotation = {
-          0,
-          -20,
-          0
-        }
-      },
-      [4] = {
-        Function = "MakeSound", SoundSourceId = 7
-      }
-    },
-    TaskId = 2040614
-  },
-  [2040615] = {
-    TaskEffects = {
-      [1] = {
-        CreatureId = 2040602,
-        Delay = 0.1,
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          0
-        },
-        Rotation = {
-          0,
-          15,
-          0
-        }
-      },
-      [2] = {
-        CreatureId = 2040602,
-        Delay = 0.1,
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          0
-        },
-        Rotation = {
-          0,
-          -15,
-          0
-        }
-      },
-      [3] = {
-        CreatureId = 2040602,
-        Delay = 0.1,
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          0
-        },
-        Rotation = {
-          0,
-          30,
-          0
-        }
-      },
-      [4] = {
-        CreatureId = 2040602,
-        Delay = 0.1,
-        Function = "CreateSkillCreature",
-        Location = {
-          0,
-          0,
-          0
-        },
-        Rotation = {
-          0,
-          -30,
-          0
-        }
-      },
-      [5] = {
-        Function = "MakeSound", SoundSourceId = 7
       }
     },
     TaskId = 2040615
@@ -50160,6 +52344,129 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 2040618
+  },
+  [2040711] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "ShootingTargets",
+    TaskEffects = {
+      [1] = {
+        AimSkeletal = "hit1",
+        CreatureId = 2040711,
+        Direction = "Camera",
+        Function = "CreateSkillCreature",
+        Rotation = {
+          -10,
+          -20,
+          0
+        }
+      },
+      [2] = {
+        AimSkeletal = "hit1",
+        CreatureId = 2040711,
+        Direction = "Camera",
+        Function = "CreateSkillCreature",
+        Rotation = {
+          -10,
+          20,
+          0
+        }
+      },
+      [3] = {
+        AimSkeletal = "hit1",
+        CreatureId = 2040711,
+        Direction = "Camera",
+        Function = "CreateSkillCreature",
+        Rotation = {
+          10,
+          0,
+          0
+        }
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 7
+      },
+      [5] = {
+        Function = "AimDiffusion"
+      }
+    },
+    TaskId = 2040711
+  },
+  [2040712] = {
+    AttackRangeType = "Bullet",
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_Small",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ranged",
+        DamageTag = {
+          "Ranged",
+          "Weapon",
+          "Explode"
+        },
+        Function = "Damage",
+        Rate = 1.39
+      },
+      [2] = {
+        FXId = 2040702,
+        Function = "PlayFX",
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 25
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 2040712
+  },
+  [2040713] = {
+    AttackRangeType = "Bullet",
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_Small",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ranged",
+        DamageTag = {
+          "Ranged",
+          "Weapon",
+          "Explode"
+        },
+        Function = "Damage",
+        Rate = 1.39
+      },
+      [2] = {
+        FXId = 2040702,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 25
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 2040713
+  },
+  [2040721] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "ChargeBullet"
+      }
+    },
+    TaskId = 2040721
   },
   [2050001] = {
     TargetFilter = "AlmostAllOtFr",
@@ -50703,17 +53010,13 @@ return ReadOnly("SkillEffects", {
         Function = "Damage",
         Rate = 0.12
       },
-      [2] = {
-        FXId = 2050411, Function = "PlayFX"
-      },
+      [2] = {FXId = 2050411, Function = "PlayFX"},
       [3] = {
         CauseHit = "RangedWeapon_Common",
         Function = "CutToughness",
         Value = 3
       },
-      [4] = {
-        Function = "PlaySE", SEId = 2050401
-      }
+      [4] = {Function = "PlaySE", SEId = 2050401}
     },
     TaskId = 2050431
   },
@@ -50768,9 +53071,7 @@ return ReadOnly("SkillEffects", {
   [2050434] = {
     TargetFilter = "Self",
     TaskEffects = {
-      [1] = {
-        FXId = 2050414, Function = "PlayFX"
-      },
+      [1] = {FXId = 2050414, Function = "PlayFX"},
       [2] = {
         Function = "PlaySE",
         SEId = 2050404,
@@ -50814,21 +53115,13 @@ return ReadOnly("SkillEffects", {
       },
       [2] = {
         AimSaveLoc = true,
-        FXId = 2050201,
+        FXId = 2050501,
         Function = "PlayFX",
         IsAttached = true,
         LerpTime = 0.1
       },
       [3] = {
-        FXId = 2050204,
-        Function = "PlayFX",
-        IsAttached = true
-      },
-      [4] = {
         Function = "MakeSound", SoundSourceId = 7
-      },
-      [5] = {
-        Function = "AimDiffusion"
       }
     },
     TaskId = 2050511
@@ -50870,7 +53163,7 @@ return ReadOnly("SkillEffects", {
         Rate = 0.15
       },
       [2] = {
-        FXId = 2050205, Function = "PlayFX"
+        FXId = 2050503, Function = "PlayFX"
       },
       [3] = {Function = "PlaySE", SEId = 2050201}
     },
@@ -50915,6 +53208,11 @@ return ReadOnly("SkillEffects", {
         CreatureId = 2050511,
         Direction = "Camera",
         Function = "CreateSkillCreature"
+      },
+      [2] = {
+        FXId = 2050505,
+        Function = "PlayFX",
+        IsAttached = true
       }
     },
     TaskId = 2050516
@@ -50927,13 +53225,15 @@ return ReadOnly("SkillEffects", {
       [1] = {
         BaseAttr = "ATK_Ranged",
         DamageTag = {
-          "Ranged", "Weapon"
+          "Ranged",
+          "Weapon",
+          "Explode"
         },
         Function = "Damage",
         Rate = 1.5
       },
       [2] = {
-        FXId = 2030102,
+        FXId = 2050504,
         Function = "PlayFX",
         Overlap = true
       },
@@ -50952,7 +53252,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        FXId = 2050205, Function = "PlayFX"
+        FXId = 2050503, Function = "PlayFX"
       },
       [2] = {
         Function = "PlaySE",
@@ -50982,12 +53282,13 @@ return ReadOnly("SkillEffects", {
         Direction = "Camera",
         Function = "CreateRayCreature",
         InterpRotation = {
+          AllowAttackSpeed = 1,
           Rotate = {
             -90,
             0,
             -90
           },
-          Time = 2
+          Time = 1.5
         },
         RayEndLoc = true,
         Rotation = {
@@ -51001,12 +53302,13 @@ return ReadOnly("SkillEffects", {
         Direction = "Camera",
         Function = "CreateRayCreature",
         InterpRotation = {
+          AllowAttackSpeed = 1,
           Rotate = {
             90,
             0,
             90
           },
-          Time = 2
+          Time = 1.5
         },
         RayEndLoc = true,
         Rotation = {
@@ -51017,6 +53319,11 @@ return ReadOnly("SkillEffects", {
       },
       [3] = {
         Function = "MakeSound", SoundSourceId = 7
+      },
+      [4] = {
+        FXId = 2050601,
+        Function = "PlayFX",
+        IsAttached = true
       }
     },
     TaskId = 2050611
@@ -51074,12 +53381,13 @@ return ReadOnly("SkillEffects", {
         Direction = "Camera",
         Function = "CreateRayCreature",
         InterpRotation = {
+          AllowAttackSpeed = 1,
           Rotate = {
             -90,
             0,
             -90
           },
-          Time = 2
+          Time = 1.5
         },
         RayEndLoc = true,
         Rotation = {
@@ -51093,12 +53401,13 @@ return ReadOnly("SkillEffects", {
         Direction = "Camera",
         Function = "CreateRayCreature",
         InterpRotation = {
+          AllowAttackSpeed = 1,
           Rotate = {
             90,
             0,
             90
           },
-          Time = 2
+          Time = 1.5
         },
         RayEndLoc = true,
         Rotation = {
@@ -51112,12 +53421,13 @@ return ReadOnly("SkillEffects", {
         Direction = "Camera",
         Function = "CreateRayCreature",
         InterpRotation = {
+          AllowAttackSpeed = 1,
           Rotate = {
             -90,
             0,
             -90
           },
-          Time = 2
+          Time = 1.5
         },
         RayEndLoc = true,
         Rotation = {
@@ -51131,12 +53441,13 @@ return ReadOnly("SkillEffects", {
         Direction = "Camera",
         Function = "CreateRayCreature",
         InterpRotation = {
+          AllowAttackSpeed = 1,
           Rotate = {
             90,
             0,
             90
           },
-          Time = 2
+          Time = 1.5
         },
         RayEndLoc = true,
         Rotation = {
@@ -51146,6 +53457,11 @@ return ReadOnly("SkillEffects", {
         }
       },
       [5] = {
+        FXId = 2050601,
+        Function = "PlayFX",
+        IsAttached = true
+      },
+      [6] = {
         Function = "MakeSound", SoundSourceId = 7
       }
     },
@@ -51189,19 +53505,17 @@ return ReadOnly("SkillEffects", {
           "Ray"
         },
         Function = "Damage",
-        Rate = 0.12
+        Rate = 0.041
       },
       [2] = {
-        FXId = 2050411, Function = "PlayFX"
+        FXId = 2050604, Function = "PlayFX"
       },
       [3] = {
         CauseHit = "RangedWeapon_Common",
         Function = "CutToughness",
         Value = 3
       },
-      [4] = {
-        Function = "PlaySE", SEId = 2050401
-      }
+      [4] = {Function = "PlaySE", SEId = 2050603}
     },
     TaskId = 2050631
   },
@@ -51209,12 +53523,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        FXId = 2050414, Function = "PlayFX"
-      },
-      [2] = {
-        Function = "PlaySE",
-        SEId = 2050404,
-        SceneSe = true
+        FXId = 2050604, Function = "PlayFX"
       }
     },
     TaskId = 2050632
@@ -51526,6 +53835,115 @@ return ReadOnly("SkillEffects", {
       [2] = {Function = "PlaySE", SEId = 2051002}
     },
     TaskId = 2051022
+  },
+  [2051111] = {
+    TargetFilter = "ShootingTargets",
+    TaskEffects = {
+      [1] = {
+        AimSkeletal = "hit1",
+        CreatureId = 2051111,
+        Direction = "Camera",
+        ExtraRotation = 3,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        FXId = 2050102,
+        Function = "PlayFX",
+        IsAttached = true
+      },
+      [3] = {
+        Function = "MakeSound", SoundSourceId = 7
+      },
+      [4] = {
+        Function = "AimDiffusion"
+      },
+      [5] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 109
+      }
+    },
+    TaskId = 2051111
+  },
+  [2051113] = {
+    AttackRangeType = "Bullet",
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_Small",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ranged",
+        DamageTag = {
+          "Ranged",
+          "Weapon",
+          "Explode"
+        },
+        Function = "Damage",
+        Rate = 1.39
+      },
+      [2] = {
+        FXId = 2051102,
+        Function = "PlayFX",
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 25
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 2051113
+  },
+  [2051115] = {
+    EffectExecuteTiming = "Enter",
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "StartLoopShoot",
+        LoopInterval = 0.15,
+        LoopShootId = 20511,
+        SkillEffect = {2051111}
+      }
+    },
+    TaskId = 2051115
+  },
+  [2051116] = {
+    NotifyName = {
+      "hit2"
+    },
+    TaskEffects = {
+      [1] = {
+        Function = "EndLoopShoot",
+        LoopShootId = 20511
+      }
+    },
+    TaskId = 2051116
+  },
+  [2051121] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "ChargeBullet"
+      }
+    },
+    TaskId = 2051121
+  },
+  [2051122] = {
+    EffectExecuteTiming = "Enter",
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 2051111,
+        Function = "CallBackSkillCreature",
+        SetSpeed = 0.001
+      }
+    },
+    TaskId = 2051122
   },
   [2060111] = {
     NotifyName = {
@@ -52305,6 +54723,296 @@ return ReadOnly("SkillEffects", {
     },
     TaskId = 2060321
   },
+  [2060511] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "ShootingTargets",
+    TaskEffects = {
+      [1] = {
+        AimSkeletal = "hit1",
+        CreatureId = 2060511,
+        Direction = "Camera",
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "MakeSound", SoundSourceId = 7
+      },
+      [3] = {
+        FXId = 2060102,
+        Function = "PlayFX",
+        IsAttached = true
+      },
+      [4] = {
+        Function = "AimDiffusion"
+      },
+      [5] = {
+        Function = "ChargeBullet"
+      }
+    },
+    TaskId = 2060511
+  },
+  [2060512] = {
+    HatredIncrement = 40,
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ranged",
+        DamageTag = {
+          "Ranged", "Weapon"
+        },
+        Function = "Damage",
+        Rate = 0.35
+      },
+      [2] = {
+        FXId = 45,
+        Function = "PlayFX",
+        Overlap = true
+      },
+      [3] = {
+        AttachToMesh = true,
+        BaseChar = "Target",
+        DirectionByCreature = true,
+        FXId = 46,
+        Function = "PlayFX",
+        Overlap = true,
+        RandomRotation = {
+          10,
+          16,
+          10
+        }
+      },
+      [4] = {
+        CauseHit = "RangedWeapon_Common",
+        Function = "CutToughness",
+        Value = 8
+      },
+      [5] = {
+        Function = "PlaySE", SEId = 112
+      }
+    },
+    TaskId = 2060512
+  },
+  [2060513] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        FXId = 52,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true,
+        ReplaceFXId = {
+          Mud = 64,
+          Sand = 63,
+          Snow = 62,
+          Water = 61
+        }
+      },
+      [2] = {
+        Function = "PlaySE",
+        SEId = 112,
+        SceneSe = true
+      },
+      [3] = {
+        DirectionByCreature = true,
+        FXId = 46,
+        Function = "PlayFX",
+        Overlap = true,
+        RandomRotation = {
+          5,
+          5,
+          5
+        }
+      },
+      [4] = {
+        Function = "RemoveSkillCreature",
+        Self = true
+      }
+    },
+    TaskId = 2060513
+  },
+  [2060521] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "ShootingTargets",
+    TaskEffects = {
+      [1] = {
+        AimSkeletal = "hit1",
+        CreatureId = 2060521,
+        Direction = "Camera",
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "MakeSound", SoundSourceId = 7
+      },
+      [3] = {
+        FXId = 2060103,
+        Function = "PlayFX",
+        IsAttached = true
+      },
+      [4] = {
+        Function = "AimDiffusion"
+      },
+      [5] = {
+        Function = "ChargeBullet"
+      }
+    },
+    TaskId = 2060521
+  },
+  [2060522] = {
+    AttackRangeType = "Bullet",
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_Middle",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ranged",
+        DamageTag = {
+          "Ranged",
+          "Weapon",
+          "Explode"
+        },
+        Function = "Damage",
+        Rate = 1.39
+      },
+      [2] = {
+        FXId = 2060511,
+        Function = "PlayFX",
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 25
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 2060522
+  },
+  [2060523] = {
+    AttackRangeType = "Bullet",
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_Middle",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ranged",
+        DamageTag = {
+          "Ranged",
+          "Weapon",
+          "Explode"
+        },
+        Function = "Damage",
+        Rate = 1.39
+      },
+      [2] = {
+        FXId = 2060511,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 25
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 2060523
+  },
+  [2060524] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "ShootingTargets",
+    TaskEffects = {
+      [1] = {
+        AimSkeletal = "hit1",
+        CreatureId = 2060521,
+        Direction = "Camera",
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        AimSkeletal = "hit1",
+        CreatureId = 2060521,
+        Direction = "Camera",
+        Function = "CreateSkillCreature",
+        Rotation = {
+          0,
+          -12,
+          0
+        }
+      },
+      [3] = {
+        AimSkeletal = "hit1",
+        CreatureId = 2060521,
+        Direction = "Camera",
+        Function = "CreateSkillCreature",
+        Rotation = {
+          0,
+          12,
+          0
+        }
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 7
+      },
+      [5] = {
+        FXId = 2060103,
+        Function = "PlayFX",
+        IsAttached = true
+      },
+      [6] = {
+        Function = "AimDiffusion"
+      },
+      [7] = {
+        Function = "ChargeBullet"
+      }
+    },
+    TaskId = 2060524
+  },
+  [2060531] = {
+    EffectExecuteTiming = "Enter",
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "StartHeavyCharge",
+        GradeInterval = {
+          0.4,
+          0.4,
+          0.4
+        },
+        HeavyChargeId = 20605,
+        MaxGrade = 3
+      },
+      [2] = {
+        Function = "BeginAccumulate"
+      }
+    },
+    TaskId = 2060531
+  },
+  [2060532] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "ExecuteHeavyEffect",
+        HeavyChargeId = 20605,
+        SkillEffect = {
+          2060511,
+          2060521,
+          2060524,
+          2060521
+        }
+      }
+    },
+    TaskId = 2060532
+  },
   [2069911] = {
     NotifyName = {
       "hit1"
@@ -52541,21 +55249,6 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK_Ranged",
-        DamageTag = {
-          "Ranged",
-          "Weapon",
-          "Ray"
-        },
-        Function = "Damage",
-        Rate = 0.22
-      },
-      [2] = {
-        CauseHit = "RangedWeapon_Common",
-        Function = "CutToughness",
-        Value = 1
-      },
-      [3] = {
         FXId = 2050205, Function = "PlayFX"
       }
     },
@@ -52569,6 +55262,99 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 4200103
+  },
+  [4200104] = {
+    TargetFilter = "ShootingTargets",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 4200102,
+        Direction = "Camera",
+        Function = "CreateRayCreature",
+        RayEndLoc = true
+      }
+    },
+    TaskId = 4200104
+  },
+  [4200105] = {
+    HatredIncrement = 40,
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Ranged",
+        DamageTag = {
+          "Ray",
+          "Prop42001Ray"
+        },
+        Function = "Damage",
+        Rate = 0.25
+      }
+    },
+    TaskId = 4200105
+  },
+  [4200106] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 4200101,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2016
+      }
+    },
+    TaskId = 4200106
+  },
+  [4200107] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_large",
+    TaskEffects = {
+      [1] = {
+        DamageType = "TrueDamage",
+        Function = "Damage",
+        Value = 200
+      },
+      [2] = {
+        FXId = 90003,
+        Function = "PlayFX",
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 1000
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 4200107
+  },
+  [4200108] = {
+    HatredIncrement = 40,
+    TargetFilter = "Char_Sphere_large",
+    TaskEffects = {
+      [1] = {
+        DamageType = "TrueDamage",
+        Function = "Damage",
+        Value = 200
+      },
+      [2] = {
+        FXId = 90003,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_Force_Common",
+        Function = "CutToughness",
+        Value = 1000
+      },
+      [4] = {
+        Function = "MakeSound", SoundSourceId = 6
+      }
+    },
+    TaskId = 4200108
   },
   [4200201] = {
     TargetFilter = "ShootingTargets",
@@ -52586,21 +55372,30 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        BaseAttr = "ATK_Ranged",
+        BaseAttr = "ATK_Char",
         DamageTag = {
           "Ray",
           "Prop42002Ray"
         },
         Function = "Damage",
-        Rate = 0.25
+        Rate = 0.1
       },
-      [2] = {
-        CauseHit = "RangedWeapon_Common",
-        Function = "CutToughness",
-        Value = 1
-      }
+      [2] = {Function = "PlaySE", SEId = 2036}
     },
     TaskId = 4200202
+  },
+  [4200203] = {
+    TaskEffects = {
+      [1] = {
+        CheckRange = 50,
+        CheckType = 3,
+        Function = "FindTreasure",
+        GuideCloseRange = 100,
+        GuideDuration = 5,
+        ScanAll = true
+      }
+    },
+    TaskId = 4200203
   },
   [8500111] = {
     NotifyName = {
@@ -57155,12 +59950,11 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit3"
     },
-    TargetFilter = "BossShijingzhe_Skill13_GetActor",
+    TargetFilter = "Boss_Grab_GetActorByEid",
     TaskEffects = {
       [1] = {
         CauseHit = "BossShijingzhe_Effect8503182",
-        Function = "CutToughness",
-        Value = 10
+        Function = "GrabHit"
       },
       [2] = {
         BaseAttr = "ATK",
@@ -57174,7 +59968,7 @@ return ReadOnly("SkillEffects", {
     NotifyName = {
       "hit4"
     },
-    TargetFilter = "BossShijingzhe_Skill13_GetActor",
+    TargetFilter = "Boss_Grab_GetActorByEid",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK",
@@ -57639,6 +60433,14 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         CreatureId = 850325,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        CreatureId = 850328,
+        Function = "CreateSkillCreature"
+      },
+      [3] = {
+        CreatureId = 850329,
         Function = "CreateSkillCreature"
       }
     },
@@ -58983,8 +61785,7 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         CauseHit = "BossLianhuo_Effect850507",
-        Function = "CutToughness",
-        Value = 10
+        Function = "GrabHit"
       },
       [2] = {
         BaseAttr = "ATK",
@@ -59373,6 +62174,7 @@ return ReadOnly("SkillEffects", {
         FixLocationEndZ = -3500,
         Function = "SaveLoc",
         IsOnGround = true,
+        Tag = "FirePool",
         TargetType = "Target"
       }
     },
@@ -59387,7 +62189,8 @@ return ReadOnly("SkillEffects", {
         Vars = {
           Distance = 850,
           MaxNum = 3,
-          Radius = 1300
+          Radius = 1300,
+          Tag = "FirePool"
         }
       }
     },
@@ -59404,7 +62207,7 @@ return ReadOnly("SkillEffects", {
       [2] = {
         CreatureId = 850512,
         Function = "CreateSkillCreature",
-        UseSaveLoc = ""
+        UseSaveLoc = "FirePool"
       },
       [3] = {
         CreatureId = 850512,
@@ -60171,6 +62974,1050 @@ return ReadOnly("SkillEffects", {
       [1] = {BuffId = 6000204, Function = "RemoveBuff"}
     },
     TaskId = 8520121
+  },
+  [8521001] = {
+    NotifyName = {
+      "hit1", "hit2"
+    },
+    TargetFilter = "Mon_Cylinder_300_200_180",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      }
+    },
+    TaskId = 8521001
+  },
+  [8521002] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Mon_Cylinder_300_200_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY0Z800",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8521002
+  },
+  [8521003] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        FormationId = 852101,
+        Function = "BossSPSaveLocs",
+        SetSaveLocs = "Target"
+      },
+      [2] = {
+        CreatureId = 852101,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          -130
+        },
+        UseRelativeOffset = true,
+        UseSaveLoc = "Target1"
+      },
+      [3] = {
+        CreatureId = 852101,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          -130
+        },
+        UseRelativeOffset = true,
+        UseSaveLoc = "Target2"
+      },
+      [4] = {
+        CreatureId = 852101,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          -130
+        },
+        UseRelativeOffset = true,
+        UseSaveLoc = "Target3"
+      },
+      [5] = {
+        CreatureId = 852101,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          -130
+        },
+        UseRelativeOffset = true,
+        UseSaveLoc = "Target4"
+      },
+      [6] = {
+        CreatureId = 852101,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          -130
+        },
+        UseRelativeOffset = true,
+        UseSaveLoc = "Target5"
+      }
+    },
+    TaskId = 8521003
+  },
+  [8521004] = {
+    TargetFilter = "Mon_Cylinder_150_400_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit_300",
+        Function = "CutToughness",
+        Value = 100
+      },
+      [3] = {
+        FXId = 900038, Function = "PlayFX"
+      }
+    },
+    TaskId = 8521004
+  },
+  [8521005] = {
+    NotifyName = {
+      "hit2", "hit3"
+    },
+    TargetFilter = "Mon_Cylinder_300_200_180",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit_300",
+        Function = "CutToughness",
+        Value = 100
+      }
+    },
+    TaskId = 8521005
+  },
+  [8521006] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852102,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 8521006
+  },
+  [8521007] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness",
+        Value = 100
+      }
+    },
+    TaskId = 8521007
+  },
+  [8521008] = {
+    NotifyName = {
+      "hit2", "hit3"
+    },
+    TargetFilter = "Mon_Cylinder_300_200_180",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit_300",
+        Function = "CutToughness",
+        Value = 100
+      }
+    },
+    TaskId = 8521008
+  },
+  [8521009] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Mon_Cylinder_300_200_180",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY0Z800",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8521009
+  },
+  [8521010] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        Function = "EffectFunction",
+        FunctionName = "RandomAreaLocation",
+        Vars = {
+          Distance = 200,
+          MaxNum = 4,
+          Radius = 500
+        }
+      },
+      [2] = {
+        CreatureId = 852103,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          -120
+        },
+        UseRelativeOffset = true,
+        UseSaveLoc = "1"
+      },
+      [3] = {
+        CreatureId = 852103,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          -120
+        },
+        UseRelativeOffset = true,
+        UseSaveLoc = "2"
+      },
+      [4] = {
+        CreatureId = 852103,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          -120
+        },
+        UseRelativeOffset = true,
+        UseSaveLoc = "3"
+      },
+      [5] = {
+        CreatureId = 852103,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          0,
+          -120
+        },
+        UseRelativeOffset = true,
+        UseSaveLoc = "4"
+      }
+    },
+    TaskId = 8521010
+  },
+  [8521011] = {
+    TargetFilter = "Mon_Cylinder_150_400_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit_300",
+        Function = "CutToughness",
+        Value = 100
+      },
+      [3] = {
+        FXId = 900038, Function = "PlayFX"
+      }
+    },
+    TaskId = 8521011
+  },
+  [8522001] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BossTuisheng_Skill01_Cylinder1",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8522001
+  },
+  [8522002] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BossTuisheng_Skill02_Cylinder1",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit_300",
+        Function = "CutToughness"
+      },
+      [3] = {
+        Function = "EffectFunction",
+        FunctionName = "Mon_BossTuisheng_Skill02Hit1"
+      }
+    },
+    TaskId = 8522002
+  },
+  [8522003] = {
+    NotifyName = {
+      "hit2"
+    },
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852201,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 8522003
+  },
+  [8522004] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8522004
+  },
+  [8522005] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Mon_Cylinder_400_200_240",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8522005
+  },
+  [8522006] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "SaveLoc",
+        IsOnGround = true,
+        TargetType = "Target"
+      }
+    },
+    TaskId = 8522006
+  },
+  [8522007] = {
+    NotifyName = {
+      "hit3"
+    },
+    TargetFilter = "Mon_Cylinder_400_200_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY0Z800",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8522007
+  },
+  [8522008] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852202,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "EffectFunction",
+        FunctionName = "Mon_SetBool",
+        Vars = {
+          BoolKey = "BossTuisheng_Skill04CreatureHitResult",
+          BoolValue = false
+        }
+      }
+    },
+    TaskId = 8522008
+  },
+  [8522009] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BuffId = 852201,
+        Function = "AddBuff",
+        LastTime = 3
+      },
+      [2] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [3] = {
+        Function = "EffectFunction",
+        FunctionName = "Mon_SetBool",
+        Vars = {
+          BoolKey = "BossTuisheng_Skill04CreatureHitResult",
+          BoolValue = true
+        }
+      },
+      [4] = {
+        FXId = 851504, Function = "PlayFX"
+      }
+    },
+    TaskId = 8522009
+  },
+  [8522010] = {
+    TaskEffects = {
+      [1] = {
+        FXId = 851504, Function = "PlayFX"
+      }
+    },
+    TaskId = 8522010
+  },
+  [8522011] = {
+    NotifyName = {
+      "hit3"
+    },
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852203,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 8522011
+  },
+  [8522012] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "SaveLoc",
+        Tag = "BossTuishengSkill04",
+        TargetType = "Target"
+      }
+    },
+    TaskId = 8522012
+  },
+  [8522013] = {
+    NotifyName = {
+      "hit2"
+    },
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852204,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 8522013
+  },
+  [8522014] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "SaveLoc",
+        Tag = "BossTuishengSkill05",
+        TargetType = "Target"
+      }
+    },
+    TaskId = 8522014
+  },
+  [8522015] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852205,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 8522015
+  },
+  [8522016] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      }
+    },
+    TaskId = 8522016
+  },
+  [8522017] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852206,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        FXId = 851504, Function = "PlayFX"
+      }
+    },
+    TaskId = 8522017
+  },
+  [8522018] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      }
+    },
+    TaskId = 8522018
+  },
+  [8522019] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "Mon_Cylinder_400_200_180",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8522019
+  },
+  [8522020] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "Mon_Cylinder_400_200_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8522020
+  },
+  [8522021] = {
+    NotifyName = {
+      "hit1"
+    },
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852207,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 8522021
+  },
+  [8522022] = {
+    TargetFilter = "Mon_Cylinder_500_400_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY300Z800",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8522022
+  },
+  [8522023] = {
+    TargetFilter = "Mon_Cylinder_800_400_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      }
+    },
+    TaskId = 8522023
+  },
+  [8523001] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BossJishi_Attack01",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523001
+  },
+  [8523002] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "BossJishi_Attack01",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523002
+  },
+  [8523003] = {
+    NotifyName = {
+      "hit3"
+    },
+    TargetFilter = "BossJishi_Attack01",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY300Z800",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523003
+  },
+  [8523004] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BossJishi_Skill02",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523004
+  },
+  [8523005] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "SaveLoc",
+        IsOnGround = true,
+        Tag = "Skill03Loc",
+        TargetType = "Target"
+      }
+    },
+    TaskId = 8523005
+  },
+  [8523006] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852301,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 8523006
+  },
+  [8523007] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852301,
+        Function = "RemoveSkillCreature"
+      }
+    },
+    TaskId = 8523007
+  },
+  [8523008] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1.2
+      },
+      [2] = {
+        FXId = 600008, Function = "PlayFX"
+      },
+      [3] = {
+        CauseHit = "HitFly_XY300Z800",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523008
+  },
+  [8523009] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "SaveLoc",
+        IsOnGround = true,
+        Tag = "Skill04Loc",
+        TargetType = "Target"
+      }
+    },
+    TaskId = 8523009
+  },
+  [8523010] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "BossJishi_Attack02",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY0Z800",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523010
+  },
+  [8523013] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BossJishi_Attack02",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1.2
+      },
+      [2] = {
+        FXId = 600008, Function = "PlayFX"
+      },
+      [3] = {
+        Function = "PlaySE", SEId = 1003
+      },
+      [4] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523013
+  },
+  [8523014] = {
+    NotifyName = {
+      "hit2"
+    },
+    TargetFilter = "BossJishi_Attack02",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1.2
+      },
+      [2] = {
+        FXId = 600008, Function = "PlayFX"
+      },
+      [3] = {
+        CauseHit = "HitFly_XY300Z800",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523014
+  },
+  [8523015] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852303,
+        Function = "CreateSkillCreature",
+        Location = {
+          0,
+          60,
+          0
+        }
+      }
+    },
+    TaskId = 8523015
+  },
+  [8523016] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852303,
+        Function = "RemoveSkillCreature"
+      }
+    },
+    TaskId = 8523016
+  },
+  [8523017] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        AttrRates = {
+          ATK = 0.3,
+          DEF = 0,
+          MaxES = 0.5,
+          MaxHp = 0.5
+        },
+        FixLocation = true,
+        FixLocationNav = 1,
+        FixLocationZ = 0,
+        FormationId = 852301,
+        Function = "CreateUnit",
+        MaxSummonCount = 3,
+        SingleSummonCount = 3,
+        UnitId = 8523002,
+        UnitType = "Monster"
+      }
+    },
+    TaskId = 8523017
+  },
+  [8523018] = {
+    NotifyName = {
+      "hit1"
+    },
+    TargetFilter = "BTTarget",
+    TaskEffects = {
+      [1] = {
+        Function = "SaveLoc",
+        IsOnGround = true,
+        Tag = "SumSkill01Loc",
+        TargetType = "Target"
+      }
+    },
+    TaskId = 8523018
+  },
+  [8523019] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852304,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 8523019
+  },
+  [8523020] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852304,
+        Function = "RemoveSkillCreature"
+      }
+    },
+    TaskId = 8523020
+  },
+  [8523021] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {FXId = 852302, Function = "PlayFX"}
+    },
+    TaskId = 8523021
+  },
+  [8523025] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852309,
+        Function = "CreateSkillCreature",
+        Location = {
+          60,
+          60,
+          100
+        }
+      }
+    },
+    TaskId = 8523025
+  },
+  [8523026] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852309,
+        Function = "RemoveSkillCreature"
+      }
+    },
+    TaskId = 8523026
+  },
+  [8523027] = {
+    TargetFilter = "Mon_Sphere_50_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 0.5
+      },
+      [2] = {
+        FXId = 852306,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      }
+    },
+    TaskId = 8523027
+  },
+  [8523028] = {
+    NotifyName = {
+      "hit3"
+    },
+    TargetFilter = "BossJishi_Attack01",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523028
+  },
+  [8523029] = {
+    NotifyName = {
+      "hit4"
+    },
+    TargetFilter = "BossJishi_Attack01",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1
+      },
+      [2] = {
+        CauseHit = "HitFly_XY300Z800",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523029
+  },
+  [8523030] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852310,
+        Function = "CreateSkillCreature"
+      }
+    },
+    TaskId = 8523030
+  },
+  [8523031] = {
+    TargetFilter = "Self",
+    TaskEffects = {
+      [1] = {
+        CreatureId = 852310,
+        Function = "RemoveSkillCreature"
+      }
+    },
+    TaskId = 8523031
+  },
+  [8523032] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 1.2
+      },
+      [2] = {
+        FXId = 600008, Function = "PlayFX"
+      },
+      [3] = {
+        CauseHit = "LightHit",
+        Function = "CutToughness"
+      }
+    },
+    TaskId = 8523032
   },
   [101011041] = {
     TargetFilter = "Self",
@@ -61924,7 +65771,7 @@ return ReadOnly("SkillEffects", {
         Rate = 17
       },
       [2] = {
-        FXId = 92,
+        FXId = 90003,
         Function = "PlayFX",
         Overlap = true
       },
@@ -61949,7 +65796,7 @@ return ReadOnly("SkillEffects", {
         Rate = 17
       },
       [2] = {
-        FXId = 92,
+        FXId = 90003,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
@@ -61975,7 +65822,7 @@ return ReadOnly("SkillEffects", {
         Rate = 1.7
       },
       [2] = {
-        FXId = 93,
+        FXId = 90004,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
@@ -61992,7 +65839,7 @@ return ReadOnly("SkillEffects", {
     TargetFilter = "Self",
     TaskEffects = {
       [1] = {
-        FXId = 93,
+        FXId = 90004,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
@@ -62033,7 +65880,7 @@ return ReadOnly("SkillEffects", {
         Rate = 1.7
       },
       [2] = {
-        FXId = 93,
+        FXId = 90004,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
@@ -62078,6 +65925,11 @@ return ReadOnly("SkillEffects", {
       },
       [2] = {
         Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2016
       }
     },
     TaskId = 401020001
@@ -62087,13 +65939,14 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
+        DamageType = "Default",
         Function = "Damage",
-        Rate = 17
+        Rate = 24
       },
       [2] = {
-        FXId = 92,
+        FXId = 90003,
         Function = "PlayFX",
+        NormalToHit = true,
         Overlap = true
       },
       [3] = {
@@ -62102,7 +65955,7 @@ return ReadOnly("SkillEffects", {
         Value = 1000
       },
       [4] = {
-        Function = "MakeSound", SoundSourceId = 6
+        Function = "PlaySE", SEId = 2017
       }
     },
     TaskId = 401020002
@@ -62129,12 +65982,12 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
+        DamageType = "Default",
         Function = "Damage",
-        Rate = 2
+        Rate = 2.8
       },
       [2] = {
-        FXId = 93,
+        FXId = 90004,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
@@ -62147,12 +66000,12 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
+        DamageType = "Default",
         Function = "Damage",
-        Rate = 2
+        Rate = 2.8
       },
       [2] = {
-        FXId = 93,
+        FXId = 90004,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
@@ -62182,12 +66035,12 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
+        DamageType = "Default",
         Function = "Damage",
-        Rate = 3.5
+        Rate = 5
       },
       [2] = {
-        FXId = 93,
+        FXId = 90004,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
@@ -62200,12 +66053,12 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
+        DamageType = "Default",
         Function = "Damage",
-        Rate = 3.5
+        Rate = 5
       },
       [2] = {
-        FXId = 93,
+        FXId = 90004,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
@@ -62249,28 +66102,37 @@ return ReadOnly("SkillEffects", {
       },
       [2] = {
         Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2016
       }
     },
     TaskId = 401020011
   },
   [401020012] = {
-    TargetFilter = "Mon_Sphere_800_360",
+    TargetFilter = "Mon_Sphere_600_360",
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
+        DamageType = "Default",
         Function = "Damage",
-        Rate = 17
+        Rate = 24
       },
       [2] = {
-        FXId = 92,
+        FXId = 90003,
         Function = "PlayFX",
+        NormalToHit = true,
         Overlap = true
       },
       [3] = {
         CauseHit = "HitFly_XY400Z300_F",
         Function = "CutToughness",
         Value = 1000
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 2017
       }
     },
     TaskId = 401020012
@@ -62283,6 +66145,11 @@ return ReadOnly("SkillEffects", {
       },
       [2] = {
         Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2016
       }
     },
     TaskId = 401020013
@@ -62292,9 +66159,9 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
+        DamageType = "Default",
         Function = "Damage",
-        Rate = 17
+        Rate = 24
       },
       [2] = {
         FXId = 40101003,
@@ -62302,15 +66169,12 @@ return ReadOnly("SkillEffects", {
         Overlap = true
       },
       [3] = {
-        Function = "CreateUnit",
-        LifeTime = 5,
-        UnitId = 40101001,
-        UnitType = "MechanismSummon"
-      },
-      [4] = {
         CauseHit = "HitFly_XY400Z300_F",
         Function = "CutToughness",
         Value = 1000
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 900402
       }
     },
     TaskId = 401020014
@@ -62352,12 +66216,12 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
+        DamageType = "Default",
         Function = "Damage",
-        Rate = 2
+        Rate = 2.8
       },
       [2] = {
-        FXId = 93,
+        FXId = 90004,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
@@ -62370,149 +66234,209 @@ return ReadOnly("SkillEffects", {
     TaskEffects = {
       [1] = {
         BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
+        DamageType = "Default",
         Function = "Damage",
-        Rate = 2
+        Rate = 4.3
       },
       [2] = {
-        FXId = 93,
+        FXId = 90004,
         Function = "PlayFX",
         NormalToHit = true,
         Overlap = true
-      },
-      [3] = {
-        BuffId = 40101016,
-        Function = "AddBuff",
-        LastTime = 1
       }
     },
     TaskId = 401020018
-  },
-  [401020019] = {
-    TargetFilter = "Target",
-    TaskEffects = {
-      [1] = {
-        BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
-        Function = "Damage",
-        Rate = 3
-      },
-      [2] = {
-        FXId = 93,
-        Function = "PlayFX",
-        NormalToHit = true,
-        Overlap = true
-      }
-    },
-    TaskId = 401020019
-  },
-  [401020020] = {
-    TargetFilter = "Target",
-    TaskEffects = {
-      [1] = {
-        BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
-        Function = "Damage",
-        Rate = 2
-      },
-      [2] = {
-        FXId = 93,
-        Function = "PlayFX",
-        NormalToHit = true,
-        Overlap = true
-      },
-      [3] = {
-        BuffId = 40101017,
-        Function = "AddBuff",
-        LastTime = 3
-      }
-    },
-    TaskId = 401020020
-  },
-  [401020021] = {
-    TargetFilter = "Target",
-    TaskEffects = {
-      [1] = {
-        BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
-        Function = "Damage",
-        Rate = 3
-      },
-      [2] = {
-        FXId = 93,
-        Function = "PlayFX",
-        NormalToHit = true,
-        Overlap = true
-      },
-      [3] = {
-        BuffId = 40101016,
-        Function = "AddBuff",
-        LastTime = 1
-      }
-    },
-    TaskId = 401020021
-  },
-  [401020022] = {
-    TargetFilter = "Target",
-    TaskEffects = {
-      [1] = {
-        BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
-        Function = "Damage",
-        Rate = 2
-      },
-      [2] = {
-        FXId = 93,
-        Function = "PlayFX",
-        NormalToHit = true,
-        Overlap = true
-      },
-      [3] = {
-        BuffId = 40101016,
-        Function = "AddBuff",
-        LastTime = 1
-      },
-      [4] = {
-        BuffId = 40101017,
-        Function = "AddBuff",
-        LastTime = 3
-      }
-    },
-    TaskId = 401020022
-  },
-  [401020023] = {
-    TargetFilter = "Target",
-    TaskEffects = {
-      [1] = {
-        BaseAttr = "ATK_Char",
-        DamageType = "TrueDamage",
-        Function = "Damage",
-        Rate = 3
-      },
-      [2] = {
-        FXId = 93,
-        Function = "PlayFX",
-        NormalToHit = true,
-        Overlap = true
-      },
-      [3] = {
-        BuffId = 40101017,
-        Function = "AddBuff",
-        LastTime = 3
-      }
-    },
-    TaskId = 401020023
   },
   [401020024] = {
     TargetFilter = "Target",
     TaskEffects = {
       [1] = {
-        CreatureId = 850518,
+        CreatureId = 4010209,
         Function = "CreateSkillCreature",
         UseSaveLoc = "Onground"
       }
     },
     TaskId = 401020024
+  },
+  [401020025] = {
+    TargetFilter = "AlmostAllOtFr",
+    TaskEffects = {
+      [1] = {
+        BuffId = 40101018,
+        Function = "AddBuff",
+        LastTime = 4
+      }
+    },
+    TaskId = 401020025
+  },
+  [401020026] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 4010106,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2018
+      }
+    },
+    TaskId = 401020026
+  },
+  [401020027] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 4010206,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2016
+      }
+    },
+    TaskId = 401020027
+  },
+  [401020028] = {
+    TargetFilter = "Mon_Sphere_800_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Char",
+        DamageType = "Default",
+        Function = "Damage",
+        Rate = 24
+      },
+      [2] = {
+        FXId = 40101007,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_XY400Z300_F",
+        Function = "CutToughness",
+        Value = 1000
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 2017
+      }
+    },
+    TaskId = 401020028
+  },
+  [401020029] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 4010207,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2016
+      }
+    },
+    TaskId = 401020029
+  },
+  [401020030] = {
+    TargetFilter = "Mon_Sphere_800_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Char",
+        DamageType = "Default",
+        Function = "Damage",
+        Rate = 24
+      },
+      [2] = {
+        FXId = 40101007,
+        Function = "PlayFX",
+        NormalToHit = true,
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_XY400Z300_F",
+        Function = "CutToughness",
+        Value = 1000
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 2017
+      }
+    },
+    TaskId = 401020030
+  },
+  [401020031] = {
+    TaskEffects = {
+      [1] = {
+        CreatureId = 4010208,
+        Function = "CreateSkillCreature"
+      },
+      [2] = {
+        Function = "AimDiffusion"
+      },
+      [3] = {
+        BaseChar = "Self",
+        Function = "PlaySE",
+        SEId = 2016
+      }
+    },
+    TaskId = 401020031
+  },
+  [401020032] = {
+    TargetFilter = "Mon_Sphere_800_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK_Char",
+        DamageType = "Default",
+        Function = "Damage",
+        Rate = 24
+      },
+      [2] = {
+        FXId = 40101008,
+        Function = "PlayFX",
+        Overlap = true
+      },
+      [3] = {
+        CauseHit = "HitFly_XY400Z300_F",
+        Function = "CutToughness",
+        Value = 1000
+      },
+      [4] = {
+        Function = "PlaySE", SEId = 900402
+      }
+    },
+    TaskId = 401020032
+  },
+  [401020033] = {
+    TargetFilter = "Mon_Cylinder_400_200_360",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 5
+      }
+    },
+    TaskId = 401020033
+  },
+  [401020034] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        Function = "CreateUnit",
+        LifeTime = 5,
+        UnitId = 40101001,
+        UnitType = "MechanismSummon",
+        UseSaveLoc = "Onground"
+      }
+    },
+    TaskId = 401020034
   },
   [500000001] = {
     TargetFilter = "Self",
@@ -62600,7 +66524,9 @@ return ReadOnly("SkillEffects", {
         Function = "Damage",
         Rate = 25
       },
-      [2] = {FXId = 500000306, Function = "PlayFX"}
+      [2] = {
+        FXId = 500000306, Function = "PlayFX"
+      }
     },
     TaskId = 500000306
   },
@@ -62672,6 +66598,69 @@ return ReadOnly("SkillEffects", {
       }
     },
     TaskId = 500000312
+  },
+  [500000401] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        CreateWithoutTarget = false,
+        CreatureId = 500000401,
+        Function = "CreateSkillCreature",
+        RandomVelocityX = {
+          -200, 200
+        },
+        RandomVelocityY = {
+          -200, 200
+        },
+        RandomVelocityZ = {400, 400}
+      }
+    },
+    TaskId = 500000401
+  },
+  [500000402] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "MaxHp",
+        BaseChar = "Target",
+        DamageType = "Default",
+        Function = "Damage",
+        Rate = 0.67
+      },
+      [2] = {
+        FXId = 500000306, Function = "PlayFX"
+      }
+    },
+    TaskId = 500000402
+  },
+  [500000403] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        Function = "Damage",
+        Rate = 2
+      },
+      [2] = {
+        CauseHit = "HitFly_XY400Z600",
+        Function = "CutToughness",
+        Value = 150
+      }
+    },
+    TaskId = 500000403
+  },
+  [500000404] = {
+    TargetFilter = "Target",
+    TaskEffects = {
+      [1] = {
+        BaseAttr = "ATK",
+        DamageType = "EsDamage",
+        Function = "Damage",
+        Rate = 5,
+        Value = 10
+      }
+    },
+    TaskId = 500000404
   },
   [600000101] = {
     TargetFilter = "Target",
@@ -62941,9 +66930,7 @@ return ReadOnly("SkillEffects", {
         Function = "Damage",
         Rate = 0.4
       },
-      [2] = {
-        Function = "AddSp", SpChange = -3
-      }
+      [2] = {Function = "AddSp", SpChange = -3}
     },
     TaskId = 600000602
   },

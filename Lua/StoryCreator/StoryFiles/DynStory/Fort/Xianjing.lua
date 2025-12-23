@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -199,6 +201,24 @@ return {
             startQuest = "17349348477974999640",
             startPort = "Out",
             endQuest = "17347746752342275188",
+            endPort = "In"
+          },
+          {
+            startQuest = "17347742139722273449",
+            startPort = "Out",
+            endQuest = "176189333931216335804",
+            endPort = "In"
+          },
+          {
+            startQuest = "17347746535552274906",
+            startPort = "Out",
+            endQuest = "176189336339216336427",
+            endPort = "In"
+          },
+          {
+            startQuest = "17349199938071815",
+            startPort = "Out",
+            endQuest = "176189337590416336782",
             endPort = "In"
           }
         },
@@ -530,6 +550,39 @@ return {
               ManualItemIdList = {1650005},
               StateId = 104011,
               QuestId = 0
+            }
+          },
+          ["176189333931216335804"] = {
+            key = "176189333931216335804",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2477.3486842105262, y = 9.736842105263122},
+            propsData = {
+              NewDescription = "DynQuest_FortXianjing_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189336339216336427"] = {
+            key = "176189336339216336427",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2767.3486842105262, y = 651.7368421052631},
+            propsData = {
+              NewDescription = "DynQuest_FortXianjing_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189337590416336782"] = {
+            key = "176189337590416336782",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 4280.848684210527, y = 264.7368421052631},
+            propsData = {
+              NewDescription = "DynQuest_FortXianjing_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

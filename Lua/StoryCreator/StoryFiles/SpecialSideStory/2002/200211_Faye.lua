@@ -100,8 +100,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_SSS_Faye"
+        StoryGuidePointName = "QuestPoint_SSS_Faye",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -174,6 +176,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -218,18 +221,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700088},
-                {TalkActorType = "Npc", TalkActorId = 700089},
-                {TalkActorType = "Npc", TalkActorId = 700090},
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 700012}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "Player",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -290,7 +287,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -301,7 +297,7 @@ return {
             key = "1747126578546580181",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1063.9453727235343, y = 450.6300744450058},
+            pos = {x = 1077.1453727235344, y = 505.5170309667449},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 51003821,
@@ -321,7 +317,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -360,8 +355,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Faye_1190471"
+        StoryGuidePointName = "Npc_Faye_1190471",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -415,8 +412,7 @@ return {
               ImpressionTalkTriggerId = 510039,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_Faye_1190471",
-              GuideStaticCreatorId = 700104
+              NPCStaticCreaterName = "Npc_Faye_1190471"
             }
           },
           ["1717052972673850373"] = {
@@ -465,8 +461,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_MeanStudent_1190479"
+        StoryGuidePointName = "Npc_MeanStudent_1190479",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -539,6 +537,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -583,18 +582,12 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700104},
-                {TalkActorType = "Npc", TalkActorId = 700088},
-                {TalkActorType = "Npc", TalkActorId = 700089},
-                {TalkActorType = "Npc", TalkActorId = 700090},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -649,8 +642,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_SSS_Faye"
+        StoryGuidePointName = "QuestPoint_SSS_Faye",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -786,6 +781,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -825,17 +821,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700088},
-                {TalkActorType = "Npc", TalkActorId = 700089},
-                {TalkActorType = "Npc", TalkActorId = 700090},
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "Player",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -864,7 +855,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -903,8 +893,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Faye_1190476"
+        StoryGuidePointName = "Npc_Faye_1190476",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -952,8 +944,7 @@ return {
               ImpressionTalkTriggerId = 510041,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_Faye_1190476",
-              GuideStaticCreatorId = 700105
+              NPCStaticCreaterName = "Npc_Faye_1190476"
             }
           }
         },
@@ -971,7 +962,8 @@ return {
         QuestDescriptionComment = "",
         SubRegionId = 101101,
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_NPC_Feiyi_1190334"
+        StoryGuidePointName = "Npc_NPC_Feiyi_1190334",
+        bIsPlayBlackScreenOnComplete = false
       },
       questNodeData = {
         lineData = {
@@ -1022,9 +1014,9 @@ return {
             pos = {x = 1512.8571428571427, y = 120.57539682539687},
             propsData = {
               SideQuestChainId = 200211,
-              EnableSequence = false,
-              SequencePath = "",
-              PauseMark = ""
+              EnableSequence = true,
+              SequencePath = "/Game/UI/Sequence/SQ_Task_DepthField.SQ_Task_DepthField",
+              PauseMark = "QuestAccept"
             }
           },
           ["17512712050785232457"] = {
@@ -1062,6 +1054,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1075,7 +1068,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "plus",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,

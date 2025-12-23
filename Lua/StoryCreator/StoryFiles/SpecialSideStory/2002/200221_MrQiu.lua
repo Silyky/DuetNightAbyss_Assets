@@ -94,8 +94,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -169,8 +171,7 @@ return {
               ImpressionTalkTriggerId = 510076,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_1190781",
-              GuideStaticCreatorId = 700173
+              NPCStaticCreaterName = "Npc_1190781"
             }
           },
           ["172586600166126039"] = {
@@ -219,8 +220,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -295,8 +298,8 @@ return {
               FirstDialogueId = 51007317,
               FlowAssetPath = "",
               TalkType = "FreeSimple",
-              BlendInTime = 0.5,
-              BlendOutTime = 0.5,
+              BlendInTime = 0,
+              BlendOutTime = 0,
               InType = "BlendIn",
               OutType = "BlendOut",
               BlendEaseExp = 2,
@@ -305,6 +308,7 @@ return {
               HideNpcs = false,
               HideMonsters = false,
               HideAllBattleEntity = false,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -318,7 +322,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -363,9 +366,9 @@ return {
             pos = {x = 1387.6499016906619, y = 337.49592442688305},
             propsData = {
               ActiveEnable = false,
-              EnableBlackScreenSync = false,
+              EnableBlackScreenSync = true,
               EnableFadeIn = false,
-              EnableFadeOut = false,
+              EnableFadeOut = true,
               NewTargetPointName = "下水道雪莉",
               StaticCreatorIdList = {1720184}
             }
@@ -402,8 +405,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -484,8 +489,8 @@ return {
               FirstDialogueId = 51007345,
               FlowAssetPath = "",
               TalkType = "FreeSimple",
-              BlendInTime = 0.5,
-              BlendOutTime = 0.5,
+              BlendInTime = 0,
+              BlendOutTime = 0,
               InType = "BlendIn",
               OutType = "BlendOut",
               BlendEaseExp = 2,
@@ -494,6 +499,7 @@ return {
               HideNpcs = false,
               HideMonsters = false,
               HideAllBattleEntity = false,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -507,7 +513,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -566,7 +571,7 @@ return {
             pos = {x = 1535.9581397428249, y = 511.53368990418085},
             propsData = {
               ActiveEnable = false,
-              EnableBlackScreenSync = false,
+              EnableBlackScreenSync = true,
               EnableFadeIn = false,
               EnableFadeOut = false,
               NewTargetPointName = "城门口雪莉",
@@ -605,8 +610,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -691,8 +698,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -740,8 +749,7 @@ return {
               ImpressionTalkTriggerId = 510075,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_Xueli_1220096",
-              GuideStaticCreatorId = 700077
+              NPCStaticCreaterName = "Npc_Xueli_1220096"
             }
           }
         },

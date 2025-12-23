@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -205,6 +207,30 @@ return {
             startQuest = "17235471948392145",
             startPort = "Out",
             endQuest = "172172125526918491",
+            endPort = "In"
+          },
+          {
+            startQuest = "17218750111354147",
+            startPort = "Option_2",
+            endQuest = "17618922952818846153",
+            endPort = "In"
+          },
+          {
+            startQuest = "17218750111354147",
+            startPort = "Option_1",
+            endQuest = "17618923627168846681",
+            endPort = "In"
+          },
+          {
+            startQuest = "172172078276514156",
+            startPort = "Out",
+            endQuest = "17618924428049526935",
+            endPort = "In"
+          },
+          {
+            startQuest = "172172125526918491",
+            startPort = "Out",
+            endQuest = "17618924524139527265",
             endPort = "In"
           }
         },
@@ -392,6 +418,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -405,7 +432,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -513,6 +539,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -526,7 +553,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -576,6 +602,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -589,7 +616,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -622,7 +648,7 @@ return {
             key = "172197835903618950",
             type = "DynamicQuestFailNode",
             name = "动态任务主动失败",
-            pos = {x = 1877.6705626400983, y = 769.7254987603055},
+            pos = {x = 1881.4205626400983, y = 917.2254987603055},
             propsData = {UseTalkFadeOut = true, TalkFadeOutTime = 1}
           },
           ["17235471948392145"] = {
@@ -636,6 +662,50 @@ return {
               StateId = 780040,
               IsGuideEnable = false,
               GuidePointName = ""
+            }
+          },
+          ["17618922952818846153"] = {
+            key = "17618922952818846153",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1850.75, y = 4.999999999999893},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityJianxiu_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["17618923627168846681"] = {
+            key = "17618923627168846681",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1874.5, y = 652.5},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityJianxiu_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["17618924428049526935"] = {
+            key = "17618924428049526935",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3563.25, y = -72.50000000000009},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityJianxiu_Target3",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["17618924524139527265"] = {
+            key = "17618924524139527265",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3199.5, y = 522.5},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityJianxiu_Target3",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

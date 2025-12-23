@@ -1555,7 +1555,7 @@ return ReadOnly("Achievement", {
     AchievementType = 8,
     TargetId = 3011,
     TargetProgress = 100,
-    TargetProgressRenew = {50}
+    TargetProgressRenew = 50
   },
   [301102] = {
     AchievementDescribe = "UI_Achievement_Des_3011",
@@ -3222,8 +3222,8 @@ return ReadOnly("Achievement", {
     AchievementDescribe = "UI_Achievement_Des_10104",
     AchievementId = 1010304,
     AchievementName = "UI_Achievement_Name_1010304",
-    AchievementRarity = 2,
-    AchievementReward = 7002,
+    AchievementRarity = 3,
+    AchievementReward = 7001,
     AchievementType = 10,
     NoRepeatField = "ResourceId",
     TargetId = {10104},
@@ -3297,6 +3297,7 @@ return ReadOnly("Achievement", {
     AchievementReward = 7002,
     AchievementType = 10,
     DesUnlockCon = 11010901,
+    NoRepeatField = "ResourceId",
     TargetId = {10125},
     TargetProgress = 10,
     TargetProgressRenew = 1
@@ -3309,8 +3310,35 @@ return ReadOnly("Achievement", {
     AchievementReward = 7002,
     AchievementType = 10,
     DesUnlockCon = 11010901,
+    NoRepeatField = "ResourceId",
     TargetId = {10126},
     TargetProgress = 4,
+    TargetProgressRenew = 1
+  },
+  [1012901] = {
+    AchievementDescribe = "UI_Achievement_Des_10129",
+    AchievementId = 1012901,
+    AchievementName = "UI_Achievement_Name_1012901",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 10,
+    DesUnlockCon = 11010901,
+    NoRepeatField = "ResourceId",
+    TargetId = {10129},
+    TargetProgress = 4,
+    TargetProgressRenew = 1
+  },
+  [1013201] = {
+    AchievementDescribe = "UI_Achievement_Des_10132",
+    AchievementId = 1013201,
+    AchievementName = "UI_Achievement_Name_1013201",
+    AchievementRarity = 1,
+    AchievementReward = 7003,
+    AchievementType = 10,
+    DesUnlockCon = 120003,
+    NoRepeatField = "ResourceId",
+    TargetId = {10132},
+    TargetProgress = 5,
     TargetProgressRenew = 1
   },
   [1020101] = {
@@ -3859,7 +3887,14 @@ return ReadOnly("Achievement", {
       50128,
       50129,
       50130,
-      50131
+      50131,
+      50132,
+      50133,
+      50135,
+      50136,
+      50137,
+      50138,
+      50139
     },
     TargetProgress = 10,
     TargetProgressRenew = {
@@ -3884,7 +3919,14 @@ return ReadOnly("Achievement", {
       50128,
       50129,
       50130,
-      50131
+      50131,
+      50132,
+      50133,
+      50135,
+      50136,
+      50137,
+      50138,
+      50139
     },
     TargetProgress = 100,
     TargetProgressRenew = {
@@ -3911,13 +3953,36 @@ return ReadOnly("Achievement", {
       50128,
       50129,
       50130,
-      50131
+      50131,
+      50132,
+      50133,
+      50135,
+      50136,
+      50137,
+      50138,
+      50139
     },
     TargetProgress = 1000,
     TargetProgressRenew = {
       250,
       500,
       750
+    }
+  },
+  [5013401] = {
+    AchievementDescribe = "UI_Achievement_Des_50134",
+    AchievementId = 5013401,
+    AchievementName = "UI_Achievement_Name_5013401",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 3,
+    DesUnlockCon = 120003,
+    TargetId = {50134},
+    TargetProgress = 100,
+    TargetProgressRenew = {
+      1,
+      10,
+      50
     }
   },
   [5040101] = {
@@ -4822,6 +4887,16 @@ return ReadOnly("Achievement", {
     TargetId = {70126},
     TargetProgress = 1
   },
+  [7012701] = {
+    AchievementDescribe = "UI_Achievement_Des_70127",
+    AchievementId = 7012701,
+    AchievementName = "UI_Achievement_Name_7012701",
+    AchievementRarity = 3,
+    AchievementReward = 7001,
+    AchievementType = 1,
+    TargetId = {70127},
+    TargetProgress = 1
+  },
   [7013101] = {
     AchievementDescribe = "UI_Achievement_Des_70131",
     AchievementId = 7013101,
@@ -5114,7 +5189,7 @@ return ReadOnly("Achievement", {
     AchievementId = 10010101,
     AchievementName = "UI_Achievement_Name_10010101",
     AchievementRarity = 3,
-    AchievementReward = 7480,
+    AchievementReward = 7001,
     AchievementType = 10,
     TargetId = 100101,
     TargetProgress = 20
@@ -5136,7 +5211,7 @@ return ReadOnly("Achievement", {
     AchievementName = "UI_Achievement_Name_10010103",
     AchievementRarity = 1,
     AchievementRequire = {10010102},
-    AchievementReward = 7481,
+    AchievementReward = 7003,
     AchievementType = 10,
     TargetId = 100101,
     TargetProgress = 100
@@ -5175,6 +5250,66 @@ return ReadOnly("Achievement", {
     TargetId = {101003},
     TargetProgress = 10,
     TargetProgressRenew = 1
+  },
+  [10100401] = {
+    AchievementDescribe = "UI_Achievement_Des_101004",
+    AchievementId = 10100401,
+    AchievementName = "UI_Achievement_Name_10100401",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 3,
+    DesUnlockCon = 120003,
+    TargetId = {101004},
+    TargetProgress = 8,
+    TargetProgressRenew = 1
+  },
+  [10100501] = {
+    AchievementDescribe = "UI_Achievement_Des_101005",
+    AchievementId = 10100501,
+    AchievementName = "UI_Achievement_Name_10100501",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 3,
+    DesUnlockCon = 120003,
+    TargetId = 101005,
+    TargetProgress = 10,
+    TargetProgressRenew = 1
+  },
+  [10100502] = {
+    AchievementDescribe = "UI_Achievement_Des_101005",
+    AchievementId = 10100502,
+    AchievementName = "UI_Achievement_Name_10100502",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 3,
+    DesUnlockCon = 120003,
+    TargetId = 101005,
+    TargetProgress = 80,
+    TargetProgressRenew = 50
+  },
+  [10100503] = {
+    AchievementDescribe = "UI_Achievement_Des_101005",
+    AchievementId = 10100503,
+    AchievementName = "UI_Achievement_Name_10100503",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 3,
+    DesUnlockCon = 120003,
+    TargetId = 101005,
+    TargetProgress = 160,
+    TargetProgressRenew = {100}
+  },
+  [10100504] = {
+    AchievementDescribe = "UI_Achievement_Des_101005",
+    AchievementId = 10100504,
+    AchievementName = "UI_Achievement_Name_10100504",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 3,
+    DesUnlockCon = 120003,
+    TargetId = 101005,
+    TargetProgress = 220,
+    TargetProgressRenew = {200}
   },
   [20010101] = {
     AchievementDescribe = "UI_Achievement_Des_200101",
@@ -5379,7 +5514,15 @@ return ReadOnly("Achievement", {
       501312,
       501313,
       501314,
-      501316
+      501316,
+      501320,
+      501321,
+      501322,
+      501323,
+      501324,
+      501325,
+      501326,
+      501327
     },
     TargetProgress = 1
   },
@@ -5406,7 +5549,15 @@ return ReadOnly("Achievement", {
       501312,
       501313,
       501314,
-      501316
+      501316,
+      501320,
+      501321,
+      501322,
+      501323,
+      501324,
+      501325,
+      501326,
+      501327
     },
     TargetProgress = 10,
     TargetProgressRenew = 5
@@ -5434,7 +5585,15 @@ return ReadOnly("Achievement", {
       501312,
       501313,
       501314,
-      501316
+      501316,
+      501320,
+      501321,
+      501322,
+      501323,
+      501324,
+      501325,
+      501326,
+      501327
     },
     TargetProgress = 50,
     TargetProgressRenew = 30
@@ -5462,7 +5621,15 @@ return ReadOnly("Achievement", {
       501312,
       501313,
       501314,
-      501316
+      501316,
+      501320,
+      501321,
+      501322,
+      501323,
+      501324,
+      501325,
+      501326,
+      501327
     },
     TargetProgress = 100,
     TargetProgressRenew = 80
@@ -5519,7 +5686,14 @@ return ReadOnly("Achievement", {
     AchievementRarity = 3,
     AchievementReward = 7001,
     AchievementType = 3,
-    TargetId = 501319,
+    TargetId = {
+      501319,
+      501328,
+      501329,
+      501330,
+      501331,
+      501332
+    },
     TargetProgress = 1
   },
   [50131902] = {
@@ -5530,7 +5704,14 @@ return ReadOnly("Achievement", {
     AchievementRequire = {50131901},
     AchievementReward = 7001,
     AchievementType = 3,
-    TargetId = 501319,
+    TargetId = {
+      501319,
+      501328,
+      501329,
+      501330,
+      501331,
+      501332
+    },
     TargetProgress = 5
   },
   [50131903] = {
@@ -5541,7 +5722,14 @@ return ReadOnly("Achievement", {
     AchievementRequire = {50131902},
     AchievementReward = 7002,
     AchievementType = 3,
-    TargetId = 501319,
+    TargetId = {
+      501319,
+      501328,
+      501329,
+      501330,
+      501331,
+      501332
+    },
     TargetProgress = 10
   },
   [50510101] = {
@@ -5580,6 +5768,43 @@ return ReadOnly("Achievement", {
     TargetId = {
       505101, 505102
     },
+    TargetProgress = 10
+  },
+  [50520301] = {
+    AchievementDescribe = "UI_Achievement_Des_505203",
+    AchievementId = 50520301,
+    AchievementName = "UI_Achievement_Name_50520301",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 3,
+    DesUnlockCon = 120003,
+    TargetId = 505203,
+    TargetProgress = 1
+  },
+  [50520302] = {
+    AchievementDescribe = "UI_Achievement_Des_505203",
+    AchievementId = 50520302,
+    AchievementName = "UI_Achievement_Name_50520302",
+    AchievementRarity = 2,
+    AchievementRequire = {50520301},
+    AchievementReward = 7002,
+    AchievementType = 3,
+    DesUnlockCon = 120003,
+    IsShowInList = true,
+    TargetId = 505203,
+    TargetProgress = 5
+  },
+  [50520303] = {
+    AchievementDescribe = "UI_Achievement_Des_505203",
+    AchievementId = 50520303,
+    AchievementName = "UI_Achievement_Name_50520303",
+    AchievementRarity = 2,
+    AchievementRequire = {50520302},
+    AchievementReward = 7002,
+    AchievementType = 3,
+    DesUnlockCon = 120003,
+    IsShowInList = true,
+    TargetId = 505203,
     TargetProgress = 10
   },
   [52000101] = {
@@ -5641,6 +5866,18 @@ return ReadOnly("Achievement", {
     TargetProgress = 6,
     TargetProgressRenew = 1
   },
+  [52000601] = {
+    AchievementDescribe = "UI_Achievement_Des_520006",
+    AchievementId = 52000601,
+    AchievementName = "UI_Achievement_Name_52000601",
+    AchievementRarity = 2,
+    AchievementReward = 7003,
+    AchievementType = 3,
+    DesUnlockCon = 120003,
+    TargetId = {520006},
+    TargetProgress = 13,
+    TargetProgressRenew = 1
+  },
   [52010001] = {
     AchievementDescribe = "UI_Achievement_Des_520100",
     AchievementId = 52010001,
@@ -5656,6 +5893,21 @@ return ReadOnly("Achievement", {
     },
     TargetProgress = 3
   },
+  [52020101] = {
+    AchievementDescribe = "UI_Achievement_Des_520201",
+    AchievementId = 52020101,
+    AchievementName = "UI_Achievement_Name_52020101",
+    AchievementRarity = 2,
+    AchievementReward = 7002,
+    AchievementType = 3,
+    TargetId = {
+      520201,
+      520202,
+      520203
+    },
+    TargetProgress = 5,
+    TargetProgressRenew = 1
+  },
   [107030501] = {
     AchievementDescribe = "UI_Achievement_Des_107030501",
     AchievementId = 107030501,
@@ -5664,7 +5916,7 @@ return ReadOnly("Achievement", {
     AchievementReward = 7473,
     AchievementType = 1,
     TargetId = {1070305},
-    TargetProgress = 35
+    TargetProgress = 34
   },
   [140010101] = {
     AchievementDescribe = "UI_Achievement_Des_1400101",
@@ -5919,7 +6171,7 @@ return ReadOnly("Achievement", {
     AchievementName = "UI_Achievement_Name_160010103",
     AchievementRarity = 1,
     AchievementRequire = {160010102},
-    AchievementReward = 7482,
+    AchievementReward = 7003,
     AchievementType = 10,
     TargetId = 1600101,
     TargetProgress = 75,

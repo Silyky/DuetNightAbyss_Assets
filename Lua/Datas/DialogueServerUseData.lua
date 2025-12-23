@@ -447,6 +447,429 @@ return ReadOnly("DialogueServerUseData", {
   [51012113] = {
     ImprPlusId = 1005
   },
+  [51100003] = {
+    ImprPlusId = 1208
+  },
+  [51100006] = {
+    ImprPlusId = 1207
+  },
+  [51100009] = {
+    ImprPlusId = 1210
+  },
+  [51100021] = {
+    ImprPlusId = 1207
+  },
+  [51100023] = {
+    ImprPlusId = 1209
+  },
+  [51100025] = {
+    ImprPlusId = 1210
+  },
+  [51100033] = {ImprCheckId = 1072},
+  [51100052] = {
+    ImprPlusId = 1209
+  },
+  [51100054] = {
+    ImprPlusId = 1208
+  },
+  [51100063] = {ImprCheckId = 1073},
+  [51100107] = {
+    ImprPlusId = 1208
+  },
+  [51100108] = {
+    ImprPlusId = 1209
+  },
+  [51100109] = {
+    ImprPlusId = 1206
+  },
+  [51100110] = {
+    ImprPlusId = 1210
+  },
+  [51100121] = {
+    ImprPlusId = 1207
+  },
+  [51100125] = {
+    ImprPlusId = 1208
+  },
+  [51100145] = {
+    ImprPlusId = 1207
+  },
+  [51100146] = {
+    ImprPlusId = 1209
+  },
+  [51101013] = {
+    ImprPlusId = 1207
+  },
+  [51101015] = {
+    ImprPlusId = 1206
+  },
+  [51101049] = {
+    ImprPlusId = 1209
+  },
+  [51101051] = {
+    ImprPlusId = 1210
+  },
+  [51102021] = {
+    ImprPlusId = 1207
+  },
+  [51102023] = {
+    ImprPlusId = 1206
+  },
+  [51103003] = {
+    ImprPlusId = 1203
+  },
+  [51103005] = {
+    ImprPlusId = 1205
+  },
+  [51103023] = {
+    ImprPlusId = 1204
+  },
+  [51103024] = {
+    ImprPlusId = 1201
+  },
+  [51103035] = {
+    ImprPlusId = 1202
+  },
+  [51103037] = {
+    ImprPlusId = 1201
+  },
+  [51103039] = {
+    ImprPlusId = 1205
+  },
+  [51103050] = {
+    ImprPlusId = 1202
+  },
+  [51103051] = {
+    ImprPlusId = 1205
+  },
+  [51104034] = {
+    ImprPlusId = 1206
+  },
+  [51104035] = {
+    ImprPlusId = 1203
+  },
+  [51104086] = {
+    ImprPlusId = 1209
+  },
+  [51104087] = {
+    ImprPlusId = 1203
+  },
+  [51105901] = {
+    ImprPlusId = 1206
+  },
+  [51105905] = {
+    ImprPlusId = 1208
+  },
+  [51105909] = {
+    ImprPlusId = 1210
+  },
+  [51105932] = {ImprCheckId = 1115},
+  [51105941] = {ImprCheckId = 1116},
+  [51106011] = {ImprCheckId = 1117},
+  [51106020] = {
+    ImprPlusId = 1208
+  },
+  [51106022] = {
+    ImprPlusId = 1210
+  },
+  [51106027] = {
+    ImprPlusId = 1207
+  },
+  [51106029] = {
+    ImprPlusId = 1206
+  },
+  [51106031] = {
+    ImprPlusId = 1210
+  },
+  [51107002] = {
+    ImprPlusId = 1206
+  },
+  [51107006] = {
+    ImprPlusId = 1209
+  },
+  [51107013] = {ImprCheckId = 1118},
+  [51107021] = {
+    ImprPlusId = 1208
+  },
+  [51108003] = {ImprCheckId = 1119},
+  [51108007] = {
+    ImprPlusId = 1208
+  },
+  [51108010] = {
+    ImprPlusId = 1209
+  },
+  [51108013] = {
+    ImprPlusId = 1207
+  },
+  [51109003] = {
+    ImprPlusId = 1207
+  },
+  [51109004] = {
+    ImprPlusId = 1210
+  },
+  [51109006] = {ImprCheckId = 1120},
+  [51110001] = {
+    ImprPlusId = 1207
+  },
+  [51110002] = {
+    ImprPlusId = 1206
+  },
+  [51110003] = {
+    ImprPlusId = 1210
+  },
+  [51110005] = {ImprCheckId = 1121},
+  [51110014] = {
+    ImprPlusId = 1209
+  },
+  [51110015] = {
+    ImprPlusId = 1207
+  },
+  [51110016] = {
+    ImprPlusId = 1210
+  },
+  [51110021] = {
+    ImprPlusId = 1209
+  },
+  [51110022] = {
+    ImprPlusId = 1207
+  },
+  [51110023] = {
+    ImprPlusId = 1210
+  },
+  [51111002] = {
+    ImprPlusId = 1208
+  },
+  [51111004] = {
+    ImprPlusId = 1210
+  },
+  [51112003] = {
+    ImprPlusId = 1207
+  },
+  [51112004] = {
+    ImprPlusId = 1206
+  },
+  [51112005] = {
+    ImprPlusId = 1210
+  },
+  [51112011] = {ImprCheckId = 1122},
+  [51113003] = {
+    ImprPlusId = 1207
+  },
+  [51113004] = {
+    ImprPlusId = 1208
+  },
+  [51113006] = {
+    ImprPlusId = 1210
+  },
+  [51113007] = {
+    ImprPlusId = 1206
+  },
+  [51114002] = {ImprCheckId = 1123},
+  [51114024] = {
+    ImprPlusId = 1207
+  },
+  [51114026] = {
+    ImprPlusId = 1208
+  },
+  [51114028] = {
+    ImprPlusId = 1210
+  },
+  [51115008] = {
+    ImprPlusId = 1209
+  },
+  [51115009] = {
+    ImprPlusId = 1208
+  },
+  [51115037] = {
+    ImprPlusId = 1207
+  },
+  [51115042] = {
+    ImprPlusId = 1209
+  },
+  [51115045] = {
+    ImprPlusId = 1206
+  },
+  [51116011] = {ImprCheckId = 1124},
+  [51116022] = {
+    ImprPlusId = 1207
+  },
+  [51116023] = {
+    ImprPlusId = 1206
+  },
+  [51116024] = {
+    ImprPlusId = 1210
+  },
+  [51117018] = {ImprCheckId = 1125},
+  [51117036] = {
+    ImprPlusId = 1207
+  },
+  [51117040] = {
+    ImprPlusId = 1209
+  },
+  [51117044] = {
+    ImprPlusId = 1210
+  },
+  [51118013] = {ImprCheckId = 1126},
+  [51118048] = {
+    ImprPlusId = 1209
+  },
+  [51118052] = {
+    ImprPlusId = 1208
+  },
+  [51119003] = {
+    ImprPlusId = 1208
+  },
+  [51119005] = {
+    ImprPlusId = 1206
+  },
+  [51119007] = {
+    ImprPlusId = 1209
+  },
+  [51120011] = {
+    ImprPlusId = 1208
+  },
+  [51120013] = {
+    ImprPlusId = 1207
+  },
+  [51120015] = {
+    ImprPlusId = 1206
+  },
+  [51121002] = {
+    ImprPlusId = 1207
+  },
+  [51121003] = {
+    ImprPlusId = 1210
+  },
+  [51121004] = {
+    ImprPlusId = 1209
+  },
+  [51121015] = {ImprCheckId = 1127},
+  [51122003] = {
+    ImprPlusId = 1207
+  },
+  [51122004] = {
+    ImprPlusId = 1206
+  },
+  [51122005] = {
+    ImprPlusId = 1210
+  },
+  [51122019] = {ImprCheckId = 1128},
+  [51123002] = {ImprCheckId = 1129},
+  [51123009] = {
+    ImprPlusId = 1209
+  },
+  [51123011] = {
+    ImprPlusId = 1210
+  },
+  [51124003] = {
+    ImprPlusId = 1209
+  },
+  [51124004] = {
+    ImprPlusId = 1207
+  },
+  [51124014] = {
+    ImprPlusId = 1209
+  },
+  [51124016] = {
+    ImprPlusId = 1210
+  },
+  [51124018] = {ImprCheckId = 1130},
+  [51125502] = {
+    ImprPlusId = 1207
+  },
+  [51125505] = {
+    ImprPlusId = 1210
+  },
+  [51125602] = {
+    ImprPlusId = 1209
+  },
+  [51125604] = {
+    ImprPlusId = 1210
+  },
+  [51125804] = {
+    ImprPlusId = 1208
+  },
+  [51125807] = {
+    ImprPlusId = 1207
+  },
+  [51126003] = {
+    ImprPlusId = 1207
+  },
+  [51126005] = {
+    ImprPlusId = 1209
+  },
+  [51126902] = {
+    ImprPlusId = 1207
+  },
+  [51126904] = {
+    ImprPlusId = 1210
+  },
+  [51127102] = {
+    ImprPlusId = 1208
+  },
+  [51127104] = {
+    ImprPlusId = 1209
+  },
+  [51127303] = {
+    ImprPlusId = 1208
+  },
+  [51127305] = {
+    ImprPlusId = 1209
+  },
+  [51127502] = {
+    ImprPlusId = 1203
+  },
+  [51127505] = {
+    ImprPlusId = 1205
+  },
+  [51127912] = {
+    ImprPlusId = 1207
+  },
+  [51127914] = {
+    ImprPlusId = 1211
+  },
+  [51128003] = {
+    ImprPlusId = 1208
+  },
+  [51128005] = {
+    ImprPlusId = 1207
+  },
+  [51128202] = {
+    ImprPlusId = 1207
+  },
+  [51128204] = {
+    ImprPlusId = 1205
+  },
+  [51140009] = {
+    ImprPlusId = 1208
+  },
+  [51140010] = {
+    ImprPlusId = 1206
+  },
+  [51140038] = {
+    ImprPlusId = 1209
+  },
+  [51140039] = {
+    ImprPlusId = 1207
+  },
+  [51140065] = {
+    ImprPlusId = 1211
+  },
+  [51140066] = {
+    ImprPlusId = 1211
+  },
+  [51140067] = {
+    ImprPlusId = 1211
+  },
+  [51140068] = {
+    ImprPlusId = 1208
+  },
+  [51151405] = {
+    ImprPlusId = 1207
+  },
+  [51151407] = {
+    ImprPlusId = 1208
+  },
   [72003404] = {
     ImprPlusId = 1003
   },
@@ -548,6 +971,81 @@ return ReadOnly("DialogueServerUseData", {
   },
   [101131173] = {
     ImprPlusId = 1010
+  },
+  [120101151] = {
+    ImprPlusId = 1202
+  },
+  [120101152] = {
+    ImprPlusId = 1205
+  },
+  [120104121] = {
+    ImprPlusId = 1203
+  },
+  [120104122] = {
+    ImprPlusId = 1201
+  },
+  [120104401] = {
+    ImprPlusId = 1202
+  },
+  [120104402] = {
+    ImprPlusId = 1205
+  },
+  [120105101] = {
+    ImprPlusId = 1204
+  },
+  [120105102] = {
+    ImprPlusId = 1201
+  },
+  [120120031] = {
+    ImprPlusId = 1202
+  },
+  [120120032] = {
+    ImprPlusId = 1205
+  },
+  [120126041] = {
+    ImprPlusId = 1202
+  },
+  [120126042] = {
+    ImprPlusId = 1205
+  },
+  [120131141] = {
+    ImprPlusId = 1202
+  },
+  [120131142] = {
+    ImprPlusId = 1204
+  },
+  [120131143] = {
+    ImprPlusId = 1201
+  },
+  [120136021] = {
+    ImprPlusId = 1204
+  },
+  [120136022] = {
+    ImprPlusId = 1201
+  },
+  [120186141] = {
+    ImprPlusId = 1202
+  },
+  [120186142] = {
+    ImprPlusId = 1205
+  },
+  [120223281] = {
+    ImprPlusId = 1204
+  },
+  [120223282] = {
+    ImprPlusId = 1201
+  },
+  [120230021] = {
+    ImprPlusId = 1204
+  },
+  [120230022] = {
+    ImprPlusId = 1202
+  },
+  [120230023] = {
+    ImprPlusId = 1201
+  },
+  [120230024] = {
+    ImprPlusId = 1205
   },
   [200005261] = {
     ImprPlusId = 1001

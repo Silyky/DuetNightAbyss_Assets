@@ -96,7 +96,7 @@ return ReadOnly("SpawnNPC", {
       143
     },
     CameraPositionM = {
-      -13,
+      -18,
       360,
       144
     },
@@ -115,9 +115,14 @@ return ReadOnly("SpawnNPC", {
       -105,
       0
     },
-    CameraRotation2 = {
+    CameraRotationDelta = {
       0,
       -11,
+      0
+    },
+    CameraRotationDeltaM = {
+      0,
+      7,
       0
     },
     CameraRotationM = {
@@ -173,7 +178,12 @@ return ReadOnly("SpawnNPC", {
       -104.5,
       0
     },
-    CameraRotation2 = {
+    CameraRotationDelta = {
+      0,
+      -10,
+      0
+    },
+    CameraRotationDeltaM = {
       0,
       -10,
       0
@@ -282,7 +292,12 @@ return ReadOnly("SpawnNPC", {
       230.3,
       0
     },
-    CameraRotation2 = {
+    CameraRotationDelta = {
+      5,
+      -9,
+      0
+    },
+    CameraRotationDeltaM = {
       5,
       -9,
       0
@@ -391,9 +406,14 @@ return ReadOnly("SpawnNPC", {
       -107,
       0
     },
-    CameraRotation2 = {
+    CameraRotationDelta = {
       0,
       -7,
+      0
+    },
+    CameraRotationDeltaM = {
+      0,
+      3.5,
       0
     },
     CameraRotationM = {

@@ -285,7 +285,7 @@ return ReadOnly("TargetFilter", {
   },
   BossBailong_Skill04_Rectangle_Left = {
     CenterOffset = {
-      0,
+      -200,
       0,
       0
     },
@@ -313,7 +313,7 @@ return ReadOnly("TargetFilter", {
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
       HalfHeight = 800,
-      HalfWidth = 1000,
+      HalfWidth = 800,
       Length = 4000,
       Type = "Rectangle"
     },
@@ -325,7 +325,7 @@ return ReadOnly("TargetFilter", {
   },
   BossBailong_Skill04_Rectangle_Right = {
     CenterOffset = {
-      -4000,
+      -3800,
       0,
       0
     },
@@ -359,19 +359,24 @@ return ReadOnly("TargetFilter", {
     ID = "BossBiAn_Corp_Cylinder",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      CylinderHeight = 200,
+      CylinderHeight = 300,
       Radius = 800,
       Type = "Cylinder"
     }
   },
   BossBiAn_Corp_Rectangle = {
     CampFilter = "Enemy",
+    CenterOffset = {
+      -600,
+      0,
+      0
+    },
     ID = "BossBiAn_Corp_Rectangle",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      HalfHeight = 400,
+      HalfHeight = 300,
       HalfWidth = 400,
-      Length = 2000,
+      Length = 1400,
       Type = "Rectangle"
     }
   },
@@ -437,27 +442,31 @@ return ReadOnly("TargetFilter", {
   },
   BossFuer_Skill01_1 = {
     CampFilter = "Enemy",
+    CenterOffset = {
+      400,
+      0,
+      -70
+    },
     ID = "BossFuer_Skill01_1",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      CylinderHeight = 400,
-      Radius = 600,
+      CylinderHeight = 450,
+      Radius = 280,
       Type = "Cylinder"
-    },
-    RangeAngle = 30,
-    Rotation = {
-      0,
-      -15,
-      0
     }
   },
   BossFuer_Skill01_2 = {
     CampFilter = "Enemy",
+    CenterOffset = {
+      0,
+      0,
+      -70
+    },
     ID = "BossFuer_Skill01_2",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      CylinderHeight = 400,
-      Radius = 600,
+      CylinderHeight = 450,
+      Radius = 700,
       Type = "Cylinder"
     },
     RangeAngle = 45,
@@ -469,11 +478,16 @@ return ReadOnly("TargetFilter", {
   },
   BossFuer_Skill01_3 = {
     CampFilter = "Enemy",
+    CenterOffset = {
+      0,
+      0,
+      -70
+    },
     ID = "BossFuer_Skill01_3",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      CylinderHeight = 400,
-      Radius = 600,
+      CylinderHeight = 450,
+      Radius = 700,
       Type = "Cylinder"
     },
     RangeAngle = 45,
@@ -485,54 +499,89 @@ return ReadOnly("TargetFilter", {
   },
   BossFuer_Skill01_4 = {
     CampFilter = "Enemy",
+    CenterOffset = {
+      0,
+      0,
+      -70
+    },
     ID = "BossFuer_Skill01_4",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      CylinderHeight = 400,
-      Radius = 600,
+      CylinderHeight = 450,
+      Radius = 700,
       Type = "Cylinder"
     },
     RangeAngle = 45
   },
-  BossFuer_Skill02_Left = {
+  BossFuer_Skill01_5 = {
     CampFilter = "Enemy",
-    ID = "BossFuer_Skill02_Left",
+    CenterOffset = {
+      0,
+      0,
+      -70
+    },
+    ID = "BossFuer_Skill01_5",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      CylinderHeight = 400,
-      Radius = 600,
+      CylinderHeight = 450,
+      Radius = 700,
       Type = "Cylinder"
     },
-    RangeAngle = 180,
+    RangeAngle = 45,
     Rotation = {
       0,
-      -90,
+      45,
       0
     }
   },
-  BossFuer_Skill02_Right = {
+  BossFuer_Skill01_6 = {
     CampFilter = "Enemy",
-    ID = "BossFuer_Skill02_Right",
+    CenterOffset = {
+      0,
+      0,
+      -70
+    },
+    ID = "BossFuer_Skill01_6",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      CylinderHeight = 400,
-      Radius = 600,
+      CylinderHeight = 450,
+      Radius = 700,
       Type = "Cylinder"
     },
-    RangeAngle = 180,
+    RangeAngle = 45,
     Rotation = {
       0,
       90,
       0
     }
   },
+  BossFuer_Skill02 = {
+    CampFilter = "Enemy",
+    CenterOffset = {
+      0,
+      0,
+      -70
+    },
+    ID = "BossFuer_Skill02",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 450,
+      Radius = 700,
+      Type = "Cylinder"
+    }
+  },
   BossFuer_Skill06_Cylinder = {
     CampFilter = "Enemy",
+    CenterOffset = {
+      0,
+      0,
+      -70
+    },
     ID = "BossFuer_Skill06_Cylinder",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      CylinderHeight = 400,
-      Radius = 650,
+      CylinderHeight = 450,
+      Radius = 700,
       Type = "Cylinder"
     }
   },
@@ -547,12 +596,28 @@ return ReadOnly("TargetFilter", {
       Type = "Rectangle"
     }
   },
+  BossHeilong02_Skill06_Cylinder = {
+    CampFilter = "Enemy",
+    CenterOffset = {
+      600,
+      -150,
+      -300
+    },
+    ID = "BossHeilong02_Skill06_Cylinder",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 700,
+      Radius = 5000,
+      Type = "Cylinder"
+    },
+    RangeAngle = 65
+  },
   BossHeilong_Skill02_Cylinder_Left = {
     CampFilter = "Enemy",
     CenterOffset = {
       1250,
       -880,
-      0
+      -250
     },
     ID = "BossHeilong_Skill02_Cylinder_Left",
     LuaFilter = "CheckRangeHit",
@@ -567,7 +632,7 @@ return ReadOnly("TargetFilter", {
     CenterOffset = {
       1250,
       400,
-      0
+      -250
     },
     ID = "BossHeilong_Skill02_Cylinder_Right",
     LuaFilter = "CheckRangeHit",
@@ -588,38 +653,31 @@ return ReadOnly("TargetFilter", {
     }
   },
   BossHeilong_Skill04_Cylinder_Out = {
-    BPFilter = "Mon_DisFilter",
-    BPFilterVars = {
-      RingInnerRadius = 1200.0
-    },
+    BPFilter = "SaveLoc_DisFilter",
+    BPFilterVars = {ActorName = "center", RingInnerRadius = 1200},
     CampFilter = "Enemy",
     ID = "BossHeilong_Skill04_Cylinder_Out",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
       CylinderHeight = 700,
-      Radius = 2000,
+      Radius = 2400,
       Type = "Cylinder"
     }
   },
   BossHeilong_Skill05_Cylinder = {
     CampFilter = "Enemy",
-    CenterOffset = {
-      0,
-      0,
-      -300
-    },
     ID = "BossHeilong_Skill05_Cylinder",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      CylinderHeight = 700,
-      Radius = 4000,
+      CylinderHeight = 300,
+      Radius = 450,
       Type = "Cylinder"
     }
   },
   BossHeilong_Skill06_Cylinder = {
     CampFilter = "Enemy",
     CenterOffset = {
-      -450,
+      -200,
       -300,
       -300
     },
@@ -637,8 +695,8 @@ return ReadOnly("TargetFilter", {
     ID = "BossHeilong_Skill07_Cylinder",
     LuaFilter = "CheckRangeHit",
     LuaFilterParaments = {
-      CylinderHeight = 600,
-      Radius = 200,
+      CylinderHeight = 1800,
+      Radius = 350,
       Type = "Cylinder"
     }
   },
@@ -652,6 +710,106 @@ return ReadOnly("TargetFilter", {
       Type = "Cylinder"
     },
     RangeAngle = 180
+  },
+  BossJishi_Attack01 = {
+    CampFilter = "Enemy",
+    ID = "BossJishi_Attack01",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 200,
+      Radius = 350,
+      Type = "Cylinder"
+    },
+    RangeAngle = 180
+  },
+  BossJishi_Attack02 = {
+    CampFilter = "Enemy",
+    ID = "BossJishi_Attack02",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 200,
+      Radius = 350,
+      Type = "Cylinder"
+    }
+  },
+  BossJishi_Skill02 = {
+    CampFilter = "Enemy",
+    ID = "BossJishi_Skill02",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      HalfHeight = 100,
+      HalfWidth = 100,
+      Length = 800,
+      Type = "Rectangle"
+    }
+  },
+  BossJuque_Creature_Rectangle = {
+    ID = "BossJuque_Creature_Rectangle",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      HalfHeight = 200,
+      HalfWidth = 500,
+      Length = 1000,
+      Type = "Rectangle"
+    }
+  },
+  BossJuque_Skill01_Cylinder = {
+    CampFilter = "Enemy",
+    CenterOffset = {
+      90,
+      -50,
+      -70
+    },
+    ID = "BossJuque_Skill01_Cylinder",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 300,
+      Radius = 300,
+      Type = "Cylinder"
+    },
+    RangeAngle = 180
+  },
+  BossJuque_Skill09_Rectangle = {
+    CampFilter = "Enemy",
+    CenterOffset = {
+      1500,
+      1000,
+      1200
+    },
+    ID = "BossJuque_Skill09_Rectangle",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      HalfHeight = 200,
+      HalfWidth = 1000,
+      Length = 2000,
+      Type = "Rectangle"
+    },
+    Rotation = {
+      0,
+      5,
+      0
+    }
+  },
+  BossJuque_Skill10_Rectangle = {
+    CampFilter = "Enemy",
+    CenterOffset = {
+      1500,
+      -1000,
+      1200
+    },
+    ID = "BossJuque_Skill10_Rectangle",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      HalfHeight = 200,
+      HalfWidth = 1000,
+      Length = 2000,
+      Type = "Rectangle"
+    },
+    Rotation = {
+      0,
+      -5,
+      0
+    }
   },
   BossJushi_Passive_Dot = {
     CampFilter = "Enemy",
@@ -1364,9 +1522,7 @@ return ReadOnly("TargetFilter", {
   },
   BossOnline_Skill05Damage = {
     BPFilter = "Mon_DisFilter",
-    BPFilterVars = {
-      RingInnerRadius = 1200.0
-    },
+    BPFilterVars = {RingInnerRadius = 1200},
     CampFilter = "Enemy",
     ID = "BossOnline_Skill05Damage",
     LuaFilter = "CheckRangeHit",
@@ -2269,6 +2425,38 @@ return ReadOnly("TargetFilter", {
     ID = "BossShijingzhe_Target",
     LuaFilter = "Target"
   },
+  BossTuisheng_Skill01_Cylinder1 = {
+    CampFilter = "Enemy",
+    CenterOffset = {
+      0,
+      0,
+      0
+    },
+    ID = "BossTuisheng_Skill01_Cylinder1",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 200,
+      Radius = 600,
+      Type = "Cylinder"
+    },
+    RangeAngle = 180
+  },
+  BossTuisheng_Skill02_Cylinder1 = {
+    CampFilter = "Enemy",
+    CenterOffset = {
+      0,
+      0,
+      0
+    },
+    ID = "BossTuisheng_Skill02_Cylinder1",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 200,
+      Radius = 500,
+      Type = "Cylinder"
+    },
+    RangeAngle = 300
+  },
   BossTuosi_Skill01_Cylinder01 = {
     CampFilter = "Enemy",
     ID = "BossTuosi_Skill01_Cylinder01",
@@ -2771,6 +2959,17 @@ return ReadOnly("TargetFilter", {
     LuaFilterParaments = {
       CylinderHeight = 100,
       Radius = 2100,
+      Type = "Cylinder"
+    }
+  },
+  Boss_Grab_GetActorByEid = {
+    BPFilter = "Grab_Get_Target",
+    CampFilter = "Enemy",
+    ID = "Boss_Grab_GetActorByEid",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 4000,
+      Radius = 5000,
       Type = "Cylinder"
     }
   },
@@ -3508,6 +3707,14 @@ return ReadOnly("TargetFilter", {
       Radius = 400, Type = "Sphere"
     }
   },
+  Mech_Bomb = {
+    CampFilter = "Enemy",
+    ID = "Mech_Bomb",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      Radius = 500, Type = "Sphere"
+    }
+  },
   Mech_Bomb_MonAndSelf = {
     CampFilter = "OtherFriend",
     ID = "Mech_Bomb_MonAndSelf",
@@ -3922,8 +4129,8 @@ return ReadOnly("TargetFilter", {
   Mon_Cylinder_300_200_360_Tianwei = {
     CampFilter = "Enemy",
     CenterOffset = {
-      60,
-      -25,
+      40,
+      -30,
       0
     },
     ID = "Mon_Cylinder_300_200_360_Tianwei",
@@ -4007,6 +4214,17 @@ return ReadOnly("TargetFilter", {
     },
     RangeAngle = 180
   },
+  Mon_Cylinder_400_200_240 = {
+    CampFilter = "Enemy",
+    ID = "Mon_Cylinder_400_200_240",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 200,
+      Radius = 400,
+      Type = "Cylinder"
+    },
+    RangeAngle = 240
+  },
   Mon_Cylinder_400_200_360 = {
     CampFilter = "Enemy",
     CenterOffset = {
@@ -4029,6 +4247,26 @@ return ReadOnly("TargetFilter", {
     LuaFilterParaments = {
       CylinderHeight = 200,
       Radius = 400,
+      Type = "Cylinder"
+    }
+  },
+  Mon_Cylinder_500_200_360 = {
+    CampFilter = "Enemy",
+    ID = "Mon_Cylinder_500_200_360",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 200,
+      Radius = 500,
+      Type = "Cylinder"
+    }
+  },
+  Mon_Cylinder_500_400_360 = {
+    CampFilter = "Enemy",
+    ID = "Mon_Cylinder_500_400_360",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 400,
+      Radius = 500,
       Type = "Cylinder"
     }
   },
@@ -4084,6 +4322,26 @@ return ReadOnly("TargetFilter", {
       Type = "Cylinder"
     }
   },
+  Mon_Cylinder_600_400_360 = {
+    CampFilter = "Enemy",
+    ID = "Mon_Cylinder_600_400_360",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 400,
+      Radius = 600,
+      Type = "Cylinder"
+    }
+  },
+  Mon_Cylinder_600_40_360 = {
+    CampFilter = "Enemy",
+    ID = "Mon_Cylinder_600_40_360",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 40,
+      Radius = 600,
+      Type = "Cylinder"
+    }
+  },
   Mon_Cylinder_650_200_100 = {
     CampFilter = "Enemy",
     ID = "Mon_Cylinder_650_200_100",
@@ -4113,6 +4371,16 @@ return ReadOnly("TargetFilter", {
     LuaFilterParaments = {
       CylinderHeight = 500,
       Radius = 700,
+      Type = "Cylinder"
+    }
+  },
+  Mon_Cylinder_800_400_360 = {
+    CampFilter = "Enemy",
+    ID = "Mon_Cylinder_800_400_360",
+    LuaFilter = "CheckRangeHit",
+    LuaFilterParaments = {
+      CylinderHeight = 400,
+      Radius = 800,
       Type = "Cylinder"
     }
   },
@@ -4299,8 +4567,8 @@ return ReadOnly("TargetFilter", {
   Mon_Sphere_500_360_Tianwei = {
     CampFilter = "Enemy",
     CenterOffset = {
-      60,
-      -25,
+      40,
+      -30,
       0
     },
     ID = "Mon_Sphere_500_360_Tianwei",

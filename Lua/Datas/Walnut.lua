@@ -3,7 +3,9 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -33,6 +35,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -59,7 +62,8 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -89,6 +93,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -115,7 +120,8 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -145,6 +151,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -170,7 +177,9 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -200,6 +209,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -221,12 +231,71 @@ return ReadOnly("Walnut", {
     WalnutNumber = 1,
     WalnutType = 1
   },
+  [1004] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    },
+    Count = {
+      [1] = 10,
+      [2] = 2,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Kezhou.T_Walnut_Char_Kezhou",
+    Id = {
+      [1] = 1001503,
+      [2] = 1001503,
+      [3] = 30001,
+      [4] = 2012,
+      [5] = 2008,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_1004",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 1004,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 1
+  },
   [1005] = {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_Abyss"
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -256,6 +325,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 105,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -281,7 +351,9 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -311,6 +383,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -336,7 +409,9 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -366,6 +441,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -387,11 +463,71 @@ return ReadOnly("Walnut", {
     WalnutNumber = 1,
     WalnutType = 1
   },
+  [1008] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    },
+    Count = {
+      [1] = 10,
+      [2] = 2,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Baiheng.T_Walnut_Char_Baiheng",
+    Id = {
+      [1] = 1002401,
+      [2] = 1002401,
+      [3] = 30001,
+      [4] = 2012,
+      [5] = 2008,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_1008",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 1008,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 1
+  },
   [1009] = {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -421,6 +557,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -442,12 +579,71 @@ return ReadOnly("Walnut", {
     WalnutNumber = 1,
     WalnutType = 1
   },
+  [1010] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    },
+    Count = {
+      [1] = 10,
+      [2] = 2,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Xier.T_Walnut_Char_Xier",
+    Id = {
+      [1] = 1003102,
+      [2] = 1003102,
+      [3] = 30001,
+      [4] = 2012,
+      [5] = 2008,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_1010",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 140,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 1010,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 1
+  },
   [1011] = {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -477,6 +673,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -503,7 +700,8 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -533,6 +731,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -554,11 +753,71 @@ return ReadOnly("Walnut", {
     WalnutNumber = 1,
     WalnutType = 1
   },
+  [1013] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    },
+    Count = {
+      [1] = 10,
+      [2] = 2,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Kami.T_Walnut_Char_Kami",
+    Id = {
+      [1] = 1003202,
+      [2] = 1003202,
+      [3] = 30001,
+      [4] = 2012,
+      [5] = 2008,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_1013",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 149,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 1013,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 1
+  },
   [1014] = {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -588,6 +847,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -614,7 +874,8 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -644,6 +905,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -665,11 +927,129 @@ return ReadOnly("Walnut", {
     WalnutNumber = 1,
     WalnutType = 1
   },
+  [1016] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    },
+    Count = {
+      [1] = 10,
+      [2] = 2,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Zhiliu.T_Walnut_Char_Zhiliu",
+    Id = {
+      [1] = 1004102,
+      [2] = 1004102,
+      [3] = 30001,
+      [4] = 2012,
+      [5] = 2008,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_1016",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 120,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 1016,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 1
+  },
+  [1017] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
+    },
+    Count = {
+      [1] = 10,
+      [2] = 2,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Avatar/T_Walnut_Char_Yuming.T_Walnut_Char_Yuming",
+    Id = {
+      [1] = 1004201,
+      [2] = 1004201,
+      [3] = 30001,
+      [4] = 2012,
+      [5] = 2008,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_1017",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 125,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Resource",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 1017,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 1
+  },
   [1018] = {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -699,6 +1079,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -724,7 +1105,9 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -754,6 +1137,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -780,7 +1164,8 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -810,6 +1195,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -835,7 +1221,9 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -865,6 +1253,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -891,7 +1280,8 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -921,6 +1311,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -946,7 +1337,9 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss",
+      "Abyss"
     },
     Count = {
       [1] = 10,
@@ -976,6 +1369,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1001,7 +1395,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1031,6 +1426,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1056,7 +1452,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1086,6 +1483,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1111,7 +1509,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1141,6 +1540,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1166,7 +1566,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1196,6 +1597,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1221,7 +1623,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1251,6 +1654,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1276,7 +1680,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1306,6 +1711,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1331,7 +1737,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1361,6 +1768,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1386,7 +1794,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1416,6 +1825,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1441,7 +1851,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1471,6 +1882,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1496,7 +1908,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1526,6 +1939,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1551,7 +1965,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1581,6 +1996,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1606,7 +2022,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1636,6 +2053,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1661,7 +2079,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1691,6 +2110,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1716,7 +2136,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1746,6 +2167,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1771,7 +2193,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1801,6 +2224,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1826,7 +2250,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1856,6 +2281,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1881,7 +2307,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1911,6 +2338,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1936,7 +2364,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -1966,6 +2395,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -1991,7 +2421,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2021,6 +2452,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2046,7 +2478,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2076,6 +2509,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2101,7 +2535,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2131,6 +2566,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2156,7 +2592,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2186,6 +2623,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2211,7 +2649,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2241,6 +2680,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2266,7 +2706,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2296,6 +2737,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2321,7 +2763,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2351,6 +2794,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2376,7 +2820,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2406,6 +2851,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2432,7 +2878,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2462,6 +2908,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2488,7 +2935,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2518,6 +2965,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2544,7 +2992,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2574,6 +3022,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2600,7 +3049,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2630,6 +3079,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2656,7 +3106,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2686,6 +3136,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2712,7 +3163,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2742,6 +3193,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2768,7 +3220,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2798,6 +3250,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2824,7 +3277,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2854,6 +3307,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2880,7 +3334,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2910,6 +3364,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2936,7 +3391,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -2966,6 +3421,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -2992,7 +3448,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3022,6 +3478,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3048,7 +3505,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3078,6 +3535,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3104,7 +3562,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3134,6 +3592,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3160,7 +3619,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3190,6 +3649,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3216,7 +3676,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3246,6 +3706,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3272,7 +3733,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3302,6 +3763,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3328,7 +3790,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3358,6 +3820,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3384,7 +3847,7 @@ return ReadOnly("Walnut", {
       "Dungeon",
       "Shop_Main",
       "Shop_Abyss",
-      "Text_HardBoss"
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3414,6 +3877,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3435,11 +3899,297 @@ return ReadOnly("Walnut", {
     WalnutNumber = 1,
     WalnutType = 2
   },
+  [2045] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/T_Walnut_Weapon.T_Walnut_Weapon",
+    Id = {
+      [1] = 910203,
+      [2] = 12024,
+      [3] = 30002,
+      [4] = 12025,
+      [5] = 211,
+      [6] = 2008
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_2045",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 120,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 2045,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 2
+  },
+  [2046] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/T_Walnut_Weapon.T_Walnut_Weapon",
+    Id = {
+      [1] = 910304,
+      [2] = 12055,
+      [3] = 30002,
+      [4] = 12056,
+      [5] = 211,
+      [6] = 2008
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_2046",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 120,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 2046,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 2
+  },
+  [2047] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Swordwhip_Zeshi.T_Walnut_Swordwhip_Zeshi",
+    Id = {
+      [1] = 910502,
+      [2] = 12057,
+      [3] = 30002,
+      [4] = 12058,
+      [5] = 211,
+      [6] = 2008
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_2047",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 2047,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 2
+  },
+  [2048] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/T_Walnut_Weapon.T_Walnut_Weapon",
+    Id = {
+      [1] = 920302,
+      [2] = 12059,
+      [3] = 30002,
+      [4] = 12060,
+      [5] = 12061,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_2048",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 140,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 2048,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 2
+  },
+  [2049] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Machinegun_Ruohua.T_Walnut_Machinegun_Ruohua",
+    Id = {
+      [1] = 920510,
+      [2] = 12062,
+      [3] = 30002,
+      [4] = 12063,
+      [5] = 12064,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_2049",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 2049,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 2
+  },
   [2050] = {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3469,6 +4219,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 105,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3490,11 +4241,126 @@ return ReadOnly("Walnut", {
     WalnutNumber = 1,
     WalnutType = 2
   },
+  [2051] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Melee/T_Walnut_Polearm_Yihe.T_Walnut_Polearm_Yihe",
+    Id = {
+      [1] = 910208,
+      [2] = 12133,
+      [3] = 30002,
+      [4] = 12134,
+      [5] = 211,
+      [6] = 2008
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_2051",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 2051,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 2
+  },
+  [2052] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 1,
+      [3] = 1,
+      [4] = 1,
+      [5] = 1,
+      [6] = 1
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Range/T_Walnut_Machinegun_Quewu.T_Walnut_Machinegun_Quewu",
+    Id = {
+      [1] = 920506,
+      [2] = 12135,
+      [3] = 30002,
+      [4] = 12136,
+      [5] = 12137,
+      [6] = 211
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_2052",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 2052,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 2
+  },
   [151321] = {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3524,6 +4390,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3549,7 +4416,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3579,6 +4447,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3604,7 +4473,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3634,6 +4504,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3659,7 +4530,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3689,6 +4561,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3714,7 +4587,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3744,6 +4618,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3769,7 +4644,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3799,6 +4675,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3824,7 +4701,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3854,6 +4732,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3879,7 +4758,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3909,6 +4789,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3934,7 +4815,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -3964,6 +4846,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -3989,7 +4872,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4019,6 +4903,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4044,7 +4929,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4074,6 +4960,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4099,7 +4986,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4129,6 +5017,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4154,7 +5043,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4184,6 +5074,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4209,7 +5100,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4239,6 +5131,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4264,7 +5157,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4294,6 +5188,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4319,7 +5214,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4349,6 +5245,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4374,7 +5271,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4404,6 +5302,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4429,7 +5328,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4459,6 +5359,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4484,7 +5385,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4514,6 +5416,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4539,7 +5442,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4569,6 +5473,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4594,7 +5499,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4624,6 +5530,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4649,7 +5556,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4679,6 +5587,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4704,7 +5613,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4734,6 +5644,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4759,7 +5670,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4789,6 +5701,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4814,7 +5727,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4844,6 +5758,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4869,7 +5784,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4899,6 +5815,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4924,7 +5841,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -4954,6 +5872,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -4979,7 +5898,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5009,6 +5929,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5034,7 +5955,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5064,6 +5986,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5089,7 +6012,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5119,6 +6043,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5144,7 +6069,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5174,6 +6100,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5199,7 +6126,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5229,6 +6157,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5254,7 +6183,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5284,6 +6214,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5309,7 +6240,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5339,6 +6271,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5364,7 +6297,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5394,6 +6328,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5419,7 +6354,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5449,6 +6385,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5474,7 +6411,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5504,6 +6442,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5529,7 +6468,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5559,6 +6499,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5584,7 +6525,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5614,6 +6556,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5639,7 +6582,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5669,6 +6613,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5694,7 +6639,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5724,6 +6670,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5749,7 +6696,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5779,6 +6727,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5804,7 +6753,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5834,6 +6784,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5859,7 +6810,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5889,6 +6841,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5914,7 +6867,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5944,6 +6898,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -5969,7 +6924,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -5999,6 +6955,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6024,7 +6981,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6054,6 +7012,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6079,7 +7038,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6109,6 +7069,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6134,7 +7095,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6164,6 +7126,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6189,7 +7152,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6219,6 +7183,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6244,7 +7209,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6274,6 +7240,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6299,7 +7266,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6329,6 +7297,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6354,7 +7323,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6384,6 +7354,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6409,7 +7380,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6439,6 +7411,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6464,7 +7437,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6494,6 +7468,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6519,7 +7494,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6549,6 +7525,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6574,7 +7551,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6604,6 +7582,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6629,7 +7608,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6659,6 +7639,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6684,7 +7665,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6714,6 +7696,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6739,7 +7722,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6769,6 +7753,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6794,7 +7779,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6824,6 +7810,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6849,7 +7836,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6879,6 +7867,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6900,11 +7889,126 @@ return ReadOnly("Walnut", {
     WalnutNumber = 1,
     WalnutType = 3
   },
+  [151755] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 100,
+      [3] = 50,
+      [4] = 30,
+      [5] = 20,
+      [6] = 10
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_FeatheredSnake01_Green",
+    Id = {
+      [1] = 151755,
+      [2] = 102,
+      [3] = 102,
+      [4] = 102,
+      [5] = 102,
+      [6] = 102
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_151755",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 151755,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 3
+  },
+  [151756] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 100,
+      [3] = 50,
+      [4] = 30,
+      [5] = 20,
+      [6] = 10
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_FeatheredSnake01_Green",
+    Id = {
+      [1] = 151756,
+      [2] = 102,
+      [3] = 102,
+      [4] = 102,
+      [5] = 102,
+      [6] = 102
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_151756",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 151756,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 3
+  },
   [151761] = {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6934,6 +8038,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -6959,7 +8064,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -6989,6 +8095,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7014,7 +8121,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7044,6 +8152,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7069,7 +8178,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7099,6 +8209,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7124,7 +8235,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7154,6 +8266,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7179,7 +8292,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7209,6 +8323,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7234,7 +8349,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7264,6 +8380,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7289,7 +8406,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7319,6 +8437,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7344,7 +8463,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7374,6 +8494,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7399,7 +8520,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7429,6 +8551,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7454,7 +8577,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7484,6 +8608,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7509,7 +8634,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7539,6 +8665,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7564,7 +8691,8 @@ return ReadOnly("Walnut", {
     AccessKey = {
       "Dungeon",
       "Shop_Main",
-      "Shop_Abyss"
+      "Shop_Abyss",
+      "HardBoss"
     },
     Count = {
       [1] = 1,
@@ -7594,6 +8722,7 @@ return ReadOnly("Walnut", {
       [6] = 13
     },
     Rarity = 5,
+    ReleaseVersion = 100,
     ResourceToCoinType = 211,
     ResourceValue = 5,
     RewardLv = {
@@ -7611,6 +8740,234 @@ return ReadOnly("Walnut", {
       [6] = "Resource"
     },
     WalnutId = 151962,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 3
+  },
+  [156151] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 100,
+      [3] = 50,
+      [4] = 30,
+      [5] = 20,
+      [6] = 10
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Changeling01",
+    Id = {
+      [1] = 156151,
+      [2] = 102,
+      [3] = 102,
+      [4] = 102,
+      [5] = 102,
+      [6] = 102
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_156151",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 156151,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 3
+  },
+  [156152] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 100,
+      [3] = 50,
+      [4] = 30,
+      [5] = 20,
+      [6] = 10
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Siren01_Green",
+    Id = {
+      [1] = 156152,
+      [2] = 102,
+      [3] = 102,
+      [4] = 102,
+      [5] = 102,
+      [6] = 102
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_156152",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 156152,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 3
+  },
+  [156153] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 100,
+      [3] = 50,
+      [4] = 30,
+      [5] = 20,
+      [6] = 10
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Changeling01",
+    Id = {
+      [1] = 156153,
+      [2] = 102,
+      [3] = 102,
+      [4] = 102,
+      [5] = 102,
+      [6] = 102
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_156153",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 156153,
+    WalnutIndex = "A",
+    WalnutNumber = 1,
+    WalnutType = 3
+  },
+  [156154] = {
+    AccessKey = {
+      "Dungeon",
+      "Shop_Main",
+      "Shop_Abyss",
+      "HardBoss"
+    },
+    Count = {
+      [1] = 1,
+      [2] = 100,
+      [3] = 50,
+      [4] = 30,
+      [5] = 20,
+      [6] = 10
+    },
+    Icon = "/Game/UI/Texture/Dynamic/Atlas/Walnut/Mod/T_Walnut_Mod_Siren01_Green",
+    Id = {
+      [1] = 156154,
+      [2] = 102,
+      [3] = 102,
+      [4] = 102,
+      [5] = 102,
+      [6] = 102
+    },
+    Mode = "SequenceCeiling",
+    Name = "UI_Name_Walnut_156154",
+    Param = {
+      [1] = 1,
+      [2] = 7,
+      [3] = 10,
+      [4] = 13,
+      [5] = 13,
+      [6] = 13
+    },
+    Rarity = 5,
+    ReleaseVersion = 110,
+    ResourceToCoinType = 211,
+    ResourceValue = 5,
+    RewardLv = {
+      1,
+      2,
+      3
+    },
+    Sound = "SOUND_ITEM_MIHAN",
+    Type = {
+      [1] = "Draft",
+      [2] = "Resource",
+      [3] = "Resource",
+      [4] = "Resource",
+      [5] = "Resource",
+      [6] = "Resource"
+    },
+    WalnutId = 156154,
     WalnutIndex = "A",
     WalnutNumber = 1,
     WalnutType = 3

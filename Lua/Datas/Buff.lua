@@ -53,7 +53,6 @@ return ReadOnly("Buff", {
       }
     },
     AddPassiveEffect = {1},
-    BuffAnimInstance = "Ride",
     BuffId = 5,
     DisableEmoIdle = true,
     MergeRule1 = "Personal",
@@ -62,11 +61,11 @@ return ReadOnly("Buff", {
       "LandHeavy",
       "Hit",
       "Crouch",
-      "Avoid",
       "Interactive",
       "Seating",
       "Shooting",
-      "Skill"
+      "Skill",
+      "Slide"
     }
   },
   [11] = {
@@ -215,62 +214,11 @@ return ReadOnly("Buff", {
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
-  [90] = {
-    ActivateSkills = {
-      Attack = 4010100,
-      HeavyShooting = 4010101,
-      Shooting = 4010101
-    },
-    BuffId = 90,
-    BuffType = 70,
-    DisableSkills = {
-      "FallAttack",
-      "HeavyAttack",
-      "SlideAttack",
-      "Skill1",
-      "Skill2",
-      "Reload"
-    },
-    MergeRule1 = "Personal",
-    MergeRule2 = "Merge"
-  },
-  [91] = {
-    ActivateSkills = {
-      Attack = 90,
-      HeavyShooting = 91,
-      Shooting = 91
-    },
-    BuffId = 91,
-    BuffType = 70,
-    DisableSkills = {
-      "FallAttack",
-      "HeavyAttack",
-      "SlideAttack",
-      "Skill1",
-      "Skill2",
-      "Reload"
-    },
-    MergeRule1 = "Personal",
-    MergeRule2 = "Merge"
-  },
-  [92] = {
-    ActivateSkills = {
-      Attack = 4010200,
-      HeavyShooting = 4010201,
-      Shooting = 4010201
-    },
-    BuffId = 92,
-    BuffType = 70,
-    DisableSkills = {
-      "FallAttack",
-      "HeavyAttack",
-      "SlideAttack",
-      "Skill1",
-      "Skill2",
-      "Reload"
-    },
-    MergeRule1 = "Personal",
-    MergeRule2 = "Merge"
+  [95] = {
+    BuffId = 95,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge",
+    VisualEffects = 160122
   },
   [96] = {
     AddAttrs = {
@@ -292,8 +240,8 @@ return ReadOnly("Buff", {
   [97] = {
     BuffId = 97,
     DeadNotRemove = true,
-    ExpRate = -0.9999,
-    IsAvatarBuff = true,
+    ForbidGetExp = true,
+    IsAvatarBuff = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -313,7 +261,7 @@ return ReadOnly("Buff", {
         Value = 5
       }
     },
-    IsAvatarBuff = true,
+    IsAvatarBuff = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -685,7 +633,7 @@ return ReadOnly("Buff", {
   [304] = {
     BuffId = 304,
     DeadNotRemove = true,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 1,
     LockHp = {
       Value = 1
     },
@@ -719,7 +667,7 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 306,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -759,7 +707,7 @@ return ReadOnly("Buff", {
     },
     BuffId = 309,
     DeadNotRemove = true,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -771,6 +719,14 @@ return ReadOnly("Buff", {
     DeadNotRemove = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
+  },
+  [311] = {
+    BuffId = 311,
+    BuffType = 11,
+    DisableSkills = {"Skill1", "Skill2"},
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge",
+    NotEnterCharacterTagType = {"Skill"}
   },
   [402] = {
     AddAttrs = {
@@ -1005,7 +961,7 @@ return ReadOnly("Buff", {
     },
     BuffId = 801,
     CombatConditionId = 502,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 2,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -1020,7 +976,7 @@ return ReadOnly("Buff", {
     },
     BuffId = 802,
     CombatConditionId = 502,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 2,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -1038,7 +994,7 @@ return ReadOnly("Buff", {
     },
     BuffId = 803,
     CombatConditionId = 502,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 2,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -1057,7 +1013,7 @@ return ReadOnly("Buff", {
     },
     BuffId = 804,
     CombatConditionId = 502,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 2,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -1158,7 +1114,6 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_1315.BP_Buff_1315",
     BuffId = 1315,
     BuffType = 6000206,
     MergeRule1 = "Global",
@@ -1625,7 +1580,7 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "SkillIntensity",
-        Rate = 1
+        Rate = "#1"
       }
     },
     BuffId = 6141,
@@ -1648,7 +1603,7 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "EnmityValue",
-        Value = 1
+        Value = "#1"
       }
     },
     BuffId = 6144,
@@ -1659,7 +1614,7 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "SkillIntensity",
-        Rate = 1
+        Rate = "#1"
       }
     },
     BuffId = 6151,
@@ -1682,7 +1637,7 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "EnmityValue",
-        Value = 1
+        Value = "#1"
       }
     },
     BuffId = 6154,
@@ -1798,8 +1753,8 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "SkillSustain",
-        Stackable = 1,
-        Value = "#1"
+        Rate = "#1",
+        Stackable = 1
       }
     },
     BuffEffects = {1006},
@@ -1855,7 +1810,7 @@ return ReadOnly("Buff", {
     BuffType = 10,
     BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
-    MergeRule1 = "Personal",
+    MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [10503] = {
@@ -2080,7 +2035,7 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "SkillEfficiency",
-        Value = "#1"
+        Rate = "#1"
       }
     },
     BuffEffects = 1004,
@@ -2107,6 +2062,24 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
+  },
+  [20506] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackSpeedModifierRate",
+        Stackable = 1,
+        Value = "#1"
+      }
+    },
+    AddPassiveEffect = 104,
+    BuffEffects = 1021,
+    BuffId = 20506,
+    BuffType = 10,
+    BuffTypeImgPath = "Weapon_Spd_Up",
+    IsShowInBillboard = true,
+    MaxLayer = 10,
+    MergeRule1 = "Personal",
+    MergeRule2 = "NewFree"
   },
   [20509] = {
     AddAttrs = {
@@ -2138,7 +2111,7 @@ return ReadOnly("Buff", {
     BuffType = 10,
     BuffTypeImgPath = "Atk_Up",
     IsShowInBillboard = true,
-    MaxLayer = 6,
+    MaxLayer = 9,
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree"
   },
@@ -2334,9 +2307,7 @@ return ReadOnly("Buff", {
     AllowSkillSustainModify = true,
     BuffId = 110101,
     BuffType = 70,
-    DisableSkills = {
-      "FallAttack"
-    },
+    DisableSkills = {"FallAttack"},
     DotDatas = {
       [1] = {
         DotDelay = 1,
@@ -2366,7 +2337,7 @@ return ReadOnly("Buff", {
     },
     RemoveWhenSpZero = true,
     UseSummonWeapon = 1,
-    VisualEffects = {110129}
+    VisualEffects = 110129
   },
   [110102] = {
     ActivateSkills = {
@@ -2380,7 +2351,7 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "SkillEfficiency",
-        Value = 0.08
+        Rate = 0.08
       }
     },
     BuffId = 110111,
@@ -2405,21 +2376,23 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge"
   },
   [110201] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "WeaponCRIModifierRate",
+        DamageTag = "Melee",
+        Value = 0.5
+      }
+    },
     BuffId = 110201,
-    BuffType = 11,
-    BuffTypeImgPath = "Common_Buff",
+    BuffType = 10,
+    BuffTypeImgPath = "Cri_Up",
     IconPriority = 1,
     IsShowInBillboard = true,
-    LayerExtraBuff = {
-      [6] = 110222
-    },
-    MaxLayer = 12,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [110202] = {
     ActivateSkills = {
-      [110201] = 110211,
       [110202] = 110221
     },
     AddAttrs = {
@@ -2431,12 +2404,12 @@ return ReadOnly("Buff", {
     AddPassiveEffect = 201,
     AllowSkillSustainModify = true,
     BuffId = 110202,
-    BuffType = 11,
+    BuffType = {11, 110202},
     BuffTypeImgPath = "BonusDmg_Dark",
     CameraParam = {
       "FuluoSkill02",
       "0.5",
-      "50"
+      "3"
     },
     DotDatas = {
       [1] = {
@@ -2445,17 +2418,15 @@ return ReadOnly("Buff", {
         Interval = 1,
         Type = "SpChange",
         Value = -20
+      },
+      [2] = {
+        DotDelay = 2,
+        EffectId = 110223,
+        Interval = 1,
+        Type = "SkillEffect"
       }
     },
     ForbidCatch = true,
-    HaloDatas = {
-      [1] = {
-        AllowSkillRange = 1,
-        AuraRange = 1000,
-        BuffId = 110223,
-        Camp = "Enemy"
-      }
-    },
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
@@ -2469,7 +2440,12 @@ return ReadOnly("Buff", {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_110203.BP_Buff_110203",
     BuffEffects = 110302,
     BuffId = 110203,
-    BuffType = 41,
+    BuffType = {
+      21,
+      41,
+      49,
+      44
+    },
     HitReplace = {HitFly = "HeavyHit"},
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
@@ -2478,48 +2454,72 @@ return ReadOnly("Buff", {
   [110204] = {
     AddAttrs = {
       [1] = {
-        AttrName = "WeaponCRDModifierRate",
+        AttrName = "AttackSpeedModifierRate",
         DamageTag = "Melee",
-        Value = 0.5
+        Value = 0.04
       }
     },
+    AllowSkillSustainModify = true,
     BuffId = 110204,
     BuffType = 10,
+    BuffTypeImgPath = "Weapon_Spd_Up",
+    IsShowInBillboard = true,
+    MaxLayer = 6,
+    MergeRule1 = "Personal",
+    MergeRule2 = "NewFree"
+  },
+  [110205] = {
+    BuffId = 110205,
+    BuffType = 10,
+    BuffTypeImgPath = "Hot_Up",
+    IsShowInBillboard = true,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
+  [110221] = {
+    BuffId = 110221,
+    BuffType = 11,
+    BuffTypeImgPath = "Common_Buff",
+    IconPriority = 1,
+    IsShowInBillboard = true,
+    LayerExtraBuff = {
+      [6] = 110222
+    },
+    MaxLayer = 12,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [110222] = {
-    ActivateSkills = {HeavyAttack = 110222},
+    ActivateSkills = {HeavyAttack = 110205},
     BuffId = 110222,
     BuffType = 70,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
-  [110223] = {
-    BuffId = 110223,
-    MergeRule1 = "Personal",
-    MergeRule2 = "Merge"
-  },
-  [110231] = {
-    AllowSkillSustainModify = true,
-    BuffId = 110231,
-    BuffType = 11,
-    BuffTypeImgPath = "Elite_Threefold",
-    IsShowInBillboard = true,
-    MaxLayer = 99,
-    MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
-  },
   [110232] = {
     AllowSkillSustainModify = true,
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_110232.BP_Buff_110232",
     BuffId = 110232,
-    BuffSpModify = {
-      [110202] = {Value = -10}
-    },
     BuffType = 11,
-    MaxLayer = 99,
+    MaxLayer = 42,
     MergeRule1 = "Global",
+    MergeRule2 = "NewFree"
+  },
+  [110241] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackSpeedModifierRate",
+        DamageTag = "Melee",
+        Value = 0.04
+      }
+    },
+    AllowSkillSustainModify = true,
+    BuffId = 110241,
+    BuffType = 10,
+    BuffTypeImgPath = "Weapon_Spd_Up",
+    IsShowInBillboard = true,
+    MaxLayer = 12,
+    MergeRule1 = "Personal",
     MergeRule2 = "NewFree"
   },
   [110301] = {
@@ -2541,6 +2541,7 @@ return ReadOnly("Buff", {
       [110302] = 110321
     },
     AllowSkillSustainModify = true,
+    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_110302.BP_Buff_110302",
     BuffId = 110302,
     BuffType = 70,
     CameraParam = {
@@ -2616,7 +2617,7 @@ return ReadOnly("Buff", {
   [110311] = {
     AddAttrs = {
       [1] = {
-        AttrName = "SkillRange", Value = 0.3
+        AttrName = "SkillRange", Rate = 0.3
       }
     },
     AllowSkillSustainModify = true,
@@ -2680,7 +2681,7 @@ return ReadOnly("Buff", {
   [110341] = {
     AddAttrs = {
       [1] = {
-        AttrName = "SkillRange", Value = 0.3
+        AttrName = "SkillRange", Rate = 0.3
       },
       [2] = {
         AttrName = "StrongValue",
@@ -2787,8 +2788,8 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "SkillIntensity",
-        Stackable = 1,
-        Value = 0.33
+        Rate = 0.33,
+        Stackable = 1
       }
     },
     BuffId = 110441,
@@ -3030,7 +3031,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     SetSeParam = {BaonuState = 1},
-    VisualEffects = {150103}
+    VisualEffects = 150103
   },
   [150121] = {
     BuffId = 150121,
@@ -3161,7 +3162,7 @@ return ReadOnly("Buff", {
   },
   [150222] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", ValueUseValue = 1}
+      [1] = {AttrName = "SkillRange", RateUseValue = 1}
     },
     AllowSkillSustainModify = true,
     BuffId = 150222,
@@ -3248,7 +3249,7 @@ return ReadOnly("Buff", {
     BuffId = 150305,
     BuffSpModify = {
       [150302] = {
-        Value = -20
+        Value = -30
       }
     },
     MergeRule1 = "Personal",
@@ -3258,7 +3259,7 @@ return ReadOnly("Buff", {
     BuffId = 150306,
     BuffSpModify = {
       [150321] = {
-        Value = -20
+        Value = -30
       }
     },
     MergeRule1 = "Personal",
@@ -3352,8 +3353,9 @@ return ReadOnly("Buff", {
   },
   [150313] = {
     AllowSkillSustainModify = true,
+    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_150313.BP_Buff_150313",
     BuffId = 150313,
-    BuffType = {150313, 11},
+    BuffType = {150313, 10},
     BuffTypeImgPath = "Weapon_Spd_Up",
     ForbidCatch = true,
     IsShowInBillboard = true,
@@ -3460,7 +3462,7 @@ return ReadOnly("Buff", {
       [1] = {
         AttrName = "DamageRate",
         RateZone = "Normal",
-        Value = 0.6
+        Value = 0.9
       }
     },
     BuffEffects = 1002,
@@ -3476,7 +3478,7 @@ return ReadOnly("Buff", {
       Value = -0.25
     },
     BuffId = 150327,
-    BuffType = 11,
+    BuffType = 10,
     BuffTypeImgPath = "Damaged_Down",
     ForbidCatch = true,
     IconPriority = 1,
@@ -3490,9 +3492,10 @@ return ReadOnly("Buff", {
   [150328] = {
     AddAttrs = {
       [1] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
         Stackable = 1,
-        Value = 0.09
+        Value = 0.03
       }
     },
     BuffId = 150328,
@@ -3501,7 +3504,7 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Damage_Ignore",
     IconPriority = 99,
     IsShowInBillboard = true,
-    MaxLayer = 6,
+    MaxLayer = 18,
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree"
   },
@@ -3510,7 +3513,8 @@ return ReadOnly("Buff", {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_150301.BP_Buff_150301",
     BuffId = 150329,
     MergeRule1 = "Personal",
-    MergeRule2 = "Merge"
+    MergeRule2 = "Merge",
+    VisualEffects = {150330}
   },
   [150331] = {
     BuffId = 150331,
@@ -3766,8 +3770,7 @@ return ReadOnly("Buff", {
   },
   [150401] = {
     ActivateSkills = {
-      [150402] = 150421,
-      [150423] = 150421
+      [150402] = 150421
     },
     AddAttrs = {
       [1] = {
@@ -3781,6 +3784,11 @@ return ReadOnly("Buff", {
       "0.5",
       "50"
     },
+    DisableSkills = {
+      "FallAttack",
+      "HeavyAttack",
+      "SlideAttack"
+    },
     EnableAnimFly = true,
     ForbidenJumpState = {
       "ESecondJump",
@@ -3790,7 +3798,7 @@ return ReadOnly("Buff", {
       "EFlipEaves"
     },
     MergeRule1 = "Personal",
-    MergeRule2 = "NewFree",
+    MergeRule2 = "Merge",
     NotEnterCharacterTagType = {
       "LandHeavy",
       "Crouch",
@@ -3806,50 +3814,79 @@ return ReadOnly("Buff", {
   },
   [150402] = {
     BuffId = 150402,
-    DisableSkills = {
-      "FallAttack"
-    },
+    MaxLayer = 600,
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree"
   },
   [150403] = {
-    BuffId = 150403,
-    DisableSkills = {
-      "FallAttack"
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackSpeedModifierRate",
+        Value = 0.1
+      }
     },
+    BuffId = 150403,
+    BuffTypeImgPath = "Weapon_Spd_Up",
+    IsShowInBillboard = true,
+    MaxLayer = 10,
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree"
   },
   [150404] = {
     BuffId = 150404,
     MergeRule1 = "Personal",
-    MergeRule2 = "NewFree",
+    MergeRule2 = "Merge",
     UseSummonWeapon = 1
   },
   [150405] = {
     ActivateSkills = {
-      [150402] = 150423
+      [150422] = 150431
     },
     BuffId = 150405,
+    ForbidCatch = true,
     MergeRule1 = "Personal",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge",
+    NotEnterCharacterTagType = {
+      "Hit"
+    }
+  },
+  [150406] = {
+    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_150406.BP_Buff_150406",
+    BuffId = 150406,
+    BuffType = 11,
+    ForbidCatch = true,
+    HpLink = 1,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge",
+    NotEnterCharacterTagType = {
+      "Hit"
+    }
   },
   [150407] = {
     ActivateSkills = {
       [150401] = 150411
     },
     BuffId = 150407,
+    BuffType = {150407},
+    CameraParam = {
+      "SuyiSkill01JetRush",
+      "0.2",
+      "50"
+    },
     DisperseBuffType = 150409,
     DotDatas = {
       [1] = {
         Interval = 0.1,
         Type = "SecondSpChange",
-        Value = -3
+        Value = -1.5
       }
     },
-    ForbidBuffType = 150409,
+    ForbidCatch = true,
     MergeRule1 = "Personal",
-    MergeRule2 = "NewFree",
+    MergeRule2 = "Merge",
+    NotEnterCharacterTagType = {
+      "Hit"
+    },
     VisualEffects = {
       510103,
       510104,
@@ -3858,6 +3895,7 @@ return ReadOnly("Buff", {
   },
   [150408] = {
     BuffId = 150408,
+    BuffType = {150408},
     DisperseBuffType = 150409,
     DotDatas = {
       [1] = {
@@ -3866,7 +3904,6 @@ return ReadOnly("Buff", {
         Value = -1
       }
     },
-    ForbidBuffType = 150409,
     ForbidenJumpState = {
       "ESecondJump",
       "EWallJump",
@@ -3875,7 +3912,7 @@ return ReadOnly("Buff", {
       "EFlipEaves"
     },
     MergeRule1 = "Personal",
-    MergeRule2 = "NewFree",
+    MergeRule2 = "Merge",
     NotEnterCharacterTagType = {
       "LandHeavy",
       "Crouch",
@@ -3892,6 +3929,7 @@ return ReadOnly("Buff", {
   [150409] = {
     BuffId = 150409,
     BuffType = 150409,
+    DisperseBuffType = {150407, 150408},
     DotDatas = {
       [1] = {
         DotDelay = 1,
@@ -3901,29 +3939,49 @@ return ReadOnly("Buff", {
       }
     },
     MergeRule1 = "Personal",
-    MergeRule2 = "NewFree"
-  },
-  [150410] = {
-    BuffId = 150410,
-    BuffType = 150409,
-    DotDatas = {
-      [1] = {
-        DotDelay = 1,
-        Interval = 0.1,
-        Type = "SecondSpChange",
-        Value = 2
-      }
-    },
-    MergeRule1 = "Personal",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge"
   },
   [150421] = {
     BuffId = 150421,
     MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
+  [150422] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "MoveSpeedAddRate",
+        Value = -0.95
+      }
+    },
+    BuffId = 150422,
+    CameraParam = {
+      "SuyiSkill02Attack",
+      "1",
+      "50"
+    },
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
+  [150461] = {
+    BuffId = 150461,
+    LayerExtraBuff = {
+      [2] = 150462
+    },
+    MaxLayer = 2,
+    MergeRule1 = "Personal",
     MergeRule2 = "NewFree"
   },
+  [150462] = {
+    BuffId = 150462,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge",
+    VisualEffects = {150451}
+  },
   [150501] = {
-    AllowSkillSustainModify = true,
+    ActivateSkills = {
+      [150501] = 150513
+    },
+    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_150501.BP_Buff_150501",
     BuffId = 150501,
     BuffType = 70,
     CameraParam = {
@@ -3942,6 +4000,45 @@ return ReadOnly("Buff", {
     },
     SetIdleTag = "SkillIdle",
     UseSummonWeapon = 1
+  },
+  [150502] = {
+    BuffId = 150502,
+    BuffTypeImgPath = "Damage_Up",
+    IsShowInBillboard = true,
+    LayerExtraBuff = {
+      [12] = 150521
+    },
+    MaxLayer = 12,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
+  [150503] = {
+    AllowSkillSustainModify = true,
+    BuffId = 150503,
+    BuffTypeImgPath = "Weapon_Spd_Up",
+    IsShowInBillboard = true,
+    LayerExtraBuff = {
+      [2] = 150531
+    },
+    MaxLayer = 2,
+    MergeRule1 = "Personal",
+    MergeRule2 = "NewFree",
+    VisualEffects = 150103
+  },
+  [150521] = {
+    ActivateSkills = {
+      [150502] = 150521
+    },
+    BuffId = 150521,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge",
+    VisualEffects = 160122
+  },
+  [150531] = {
+    BuffId = 150531,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge",
+    VisualEffects = 110129
   },
   [160101] = {
     AddAttrs = {
@@ -4173,13 +4270,13 @@ return ReadOnly("Buff", {
       },
       [2] = {
         AttrName = "SkillIntensity",
-        Stackable = 1,
-        Value = 0.02
+        Rate = 0.02,
+        Stackable = 1
       },
       [3] = {
         AttrName = "SkillRange",
-        Stackable = 1,
-        Value = 0.01
+        Rate = 0.01,
+        Stackable = 1
       }
     },
     AllowSkillSustainModify = true,
@@ -4477,7 +4574,6 @@ return ReadOnly("Buff", {
       [2] = {
         AttrName = "DamageRate",
         RateZone = "Almighty",
-        Stackable = 1,
         Value = 0.06
       }
     },
@@ -4506,7 +4602,6 @@ return ReadOnly("Buff", {
       [2] = {
         AttrName = "DamageRate",
         RateZone = "Almighty",
-        Stackable = 1,
         Value = 0.06
       }
     },
@@ -4535,7 +4630,6 @@ return ReadOnly("Buff", {
       [2] = {
         AttrName = "DamageRate",
         RateZone = "Almighty",
-        Stackable = 1,
         Value = 0.06
       }
     },
@@ -4564,7 +4658,6 @@ return ReadOnly("Buff", {
       [2] = {
         AttrName = "DamageRate",
         RateZone = "Almighty",
-        Stackable = 1,
         Value = 0.06
       }
     },
@@ -4785,6 +4878,7 @@ return ReadOnly("Buff", {
         Type = "Dot"
       }
     },
+    DotDeathSe = 210102,
     FXMID = {
       ParamType = "ShuimuDot"
     },
@@ -4818,6 +4912,7 @@ return ReadOnly("Buff", {
         Type = "Dot"
       }
     },
+    DotDeathSe = 210102,
     FXMID = {
       ParamType = "ShuimuDot"
     },
@@ -4856,6 +4951,7 @@ return ReadOnly("Buff", {
     ActivateSkills = {
       [210202] = 210221
     },
+    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_210202.BP_Buff_210202",
     BuffId = 210202,
     BuffType = 11,
     DotDatas = {
@@ -4888,8 +4984,7 @@ return ReadOnly("Buff", {
     BuffId = 210204,
     BuffType = 11,
     MergeRule1 = "Personal",
-    MergeRule2 = "Merge",
-    VisualEffects = {240122}
+    MergeRule2 = "Merge"
   },
   [230100] = {
     AllowSkillSustainModify = true,
@@ -4918,11 +5013,10 @@ return ReadOnly("Buff", {
         Value = "#1"
       }
     },
-    AddPassiveEffect = 202,
     AllowSkillSustainModify = true,
     BuffId = 230101,
     BuffType = 10,
-    BuffTypeImgPath = "BonusDmg_Water",
+    BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
@@ -5017,9 +5111,9 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 240121,
-    BuffType = 10,
+    BuffType = {10, 240121},
     BuffTypeImgPath = "Skill_Inten_Up",
-    EffectCreatureID = 240108,
+    EffectCreatureID = 240118,
     IconPriority = 15,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -5040,7 +5134,9 @@ return ReadOnly("Buff", {
     BuffId = 240122,
     BuffType = 10,
     BuffTypeImgPath = "Skill_Inten_Up",
-    EffectCreatureID = 240108,
+    DisperseBuffType = 240121,
+    EffectCreatureID = 240118,
+    ForbidBuffType = 240121,
     IconPriority = 15,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
@@ -5062,10 +5158,10 @@ return ReadOnly("Buff", {
     EnableRimLightModel = true,
     FresnelParams = {
       FresnelColor = {
-        0.108477,
-        0.9003,
+        0.7,
+        0.95,
         1,
-        0
+        1
       },
       FresnelColorRange = {
         Default = 0.5
@@ -5091,21 +5187,22 @@ return ReadOnly("Buff", {
       },
       [2] = {
         AttrName = "BonusDamage",
-        Type = "Water",
+        Type = "Attack",
         Value = 2.2
       }
     },
-    AddPassiveEffect = 202,
+    AddPassiveEffect = {211},
     AllowSkillSustainModify = true,
     BuffId = 240124,
     BuffType = 10,
     BuffTypeImgPath = "Weapon_Spd_Up",
+    EnableRimLightModel = true,
     FresnelParams = {
       FresnelColor = {
-        0.108477,
-        0.9003,
+        0.7,
+        0.95,
         1,
-        0
+        1
       },
       FresnelColorRange = {
         Default = 0.5
@@ -5151,7 +5248,7 @@ return ReadOnly("Buff", {
     },
     AllowSkillSustainModify = true,
     BuffId = 240133,
-    BuffType = 10,
+    BuffType = {10, 240133},
     BuffTypeImgPath = "Skill_Spd_Up",
     IsShowInBillboard = true,
     MaxLayer = 2,
@@ -5164,12 +5261,19 @@ return ReadOnly("Buff", {
         AttrName = "SkillSpeed",
         Rate = "#1",
         Stackable = 1
+      },
+      [2] = {
+        AttrName = "StrongValue",
+        Stackable = 1,
+        Value = 0.12
       }
     },
     AllowSkillSustainModify = true,
     BuffId = 240134,
     BuffType = 10,
     BuffTypeImgPath = "Skill_Spd_Up",
+    DisperseBuffType = 240133,
+    ForbidBuffType = 240133,
     IsShowInBillboard = true,
     MaxLayer = 3,
     MergeRule1 = "Global",
@@ -5179,8 +5283,8 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "SkillIntensity",
-        Stackable = 1,
-        Value = 0.33
+        Rate = 0.33,
+        Stackable = 1
       }
     },
     BuffId = 240141,
@@ -5318,7 +5422,6 @@ return ReadOnly("Buff", {
       [310102] = 310121
     },
     AllowSkillSustainModify = true,
-    AttackToFire = 1,
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_310120.BP_Buff_310120",
     BuffId = 310120,
     BuffType = 70,
@@ -5346,6 +5449,9 @@ return ReadOnly("Buff", {
     NotEnterCharacterTagType = {
       "Move", "Hit"
     },
+    ReplaceActions = {
+      Attack = "Fire"
+    },
     SetIdleTag = "SkillIdle",
     UseSummonWeapon = 1
   },
@@ -5355,7 +5461,6 @@ return ReadOnly("Buff", {
       [310102] = 310121
     },
     AllowSkillSustainModify = true,
-    AttackToFire = 1,
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_310120.BP_Buff_310120",
     BuffDamagedRate = {
       Value = -0.3
@@ -5385,6 +5490,9 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge",
     NotEnterCharacterTagType = {
       "Move", "Hit"
+    },
+    ReplaceActions = {
+      Attack = "Fire"
     },
     SetIdleTag = "SkillIdle",
     UseSummonWeapon = 1
@@ -5521,7 +5629,8 @@ return ReadOnly("Buff", {
   [310206] = {
     AddAttrs = {
       [1] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
         Value = 0.55
       }
     },
@@ -5633,7 +5742,7 @@ return ReadOnly("Buff", {
     AddAttrs = {
       [1] = {
         AttrName = "SkillEfficiency",
-        Value = 0.08
+        Rate = 0.08
       }
     },
     AllowSkillSustainModify = true,
@@ -5845,10 +5954,10 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MaxLayer = 20,
     MergeRule1 = "Personal",
-    MergeRule2 = "Merge"
+    MergeRule2 = "Merge",
+    VisualEffects = {320201}
   },
   [320203] = {
-    ActivateSkills = {Attack = 320211},
     AddAttrs = {
       [1] = {
         AttrName = "SkillSpeed",
@@ -5863,6 +5972,9 @@ return ReadOnly("Buff", {
     CannotBeHitted = true,
     ForbidCatch = true,
     IsShowInBillboard = true,
+    LayerExtraBuff = {
+      [1] = 320231
+    },
     MaxLayer = 10,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -5891,6 +6003,12 @@ return ReadOnly("Buff", {
     BuffId = 320206,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
+  },
+  [320231] = {
+    BuffId = 320231,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge",
+    ReplaceActions = {Attack = "Skill1"}
   },
   [330101] = {
     AddAttrs = {
@@ -6281,7 +6399,8 @@ return ReadOnly("Buff", {
   [410242] = {
     AddAttrs = {
       [1] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
         Value = 0.55
       }
     },
@@ -6363,7 +6482,9 @@ return ReadOnly("Buff", {
   },
   [420113] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", Rate = 0.3},
+      [1] = {
+        AttrName = "SkillRange", Rate = 0.3
+      },
       [2] = {
         AttrName = "AttackRangeModifierValue",
         Value = 60
@@ -6596,31 +6717,6 @@ return ReadOnly("Buff", {
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     VisualEffects = {430156}
-  },
-  [430123] = {
-    BuffId = 430123,
-    ForbidBuffType = {
-      10,
-      11,
-      12,
-      20,
-      21,
-      22,
-      30,
-      40,
-      41,
-      42,
-      43,
-      44,
-      49,
-      60,
-      61,
-      62,
-      63,
-      999
-    },
-    MergeRule1 = "Personal",
-    MergeRule2 = "Merge"
   },
   [510001] = {
     BuffId = 510001,
@@ -7051,7 +7147,6 @@ return ReadOnly("Buff", {
       [530102] = 530121
     },
     AllowSkillSustainModify = true,
-    AttackToFire = 1,
     BuffId = 530100,
     BuffType = {70, 530102},
     CameraParam = {
@@ -7084,6 +7179,9 @@ return ReadOnly("Buff", {
     EnableFlight = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
+    ReplaceActions = {
+      Attack = "Fire"
+    },
     UseSummonWeapon = 1
   },
   [530101] = {
@@ -7112,7 +7210,9 @@ return ReadOnly("Buff", {
     IsShowInBillboard = true,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
-    OverrideAttrs = {AttrName = "FakeHpRate", Value = 0.01}
+    OverrideAttrs = {
+      AttrName = "FakeHpRate", Value = 0.01
+    }
   },
   [530111] = {
     BuffId = 530111,
@@ -7909,7 +8009,7 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 100,
-    VisualEffects = 800202
+    VisualEffects = {800202}
   },
   [800301] = {
     BuffId = 800301,
@@ -8191,7 +8291,6 @@ return ReadOnly("Buff", {
       [530101] = 530111,
       [530102] = 530121
     },
-    AttackToFire = 1,
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_530101.BP_Buff_530101",
     BuffId = 850405,
     CameraParam = {
@@ -8215,6 +8314,9 @@ return ReadOnly("Buff", {
     EnableFlight = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
+    ReplaceActions = {
+      Attack = "Fire"
+    },
     UseSummonWeapon = 1,
     VisualEffects = 530121
   },
@@ -8307,7 +8409,9 @@ return ReadOnly("Buff", {
   },
   [850902] = {
     BuffId = 850902,
-    LockHp = {Rate = 0.8},
+    LockHp = {
+      Rate = 0.01
+    },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -8373,16 +8477,15 @@ return ReadOnly("Buff", {
     LockHpUI = 1
   },
   [851005] = {
-    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_530101.BP_Buff_530101",
     BuffId = 851005,
+    BuffType = 11,
     CameraParam = {
       "BossHeilongDefault",
       "0.5",
       "5"
     },
     MergeRule1 = "Personal",
-    MergeRule2 = "Merge",
-    VisualEffects = 530121
+    MergeRule2 = "Merge"
   },
   [851101] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_851101.BP_Buff_851101",
@@ -8399,6 +8502,8 @@ return ReadOnly("Buff", {
   [851201] = {
     BuffId = 851201,
     BuffType = 11,
+    CannotBeCutTN = true,
+    CannotBeHitted = true,
     EnableFlight = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
@@ -8741,6 +8846,19 @@ return ReadOnly("Buff", {
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
+  [852201] = {
+    BuffId = 852201,
+    BuffType = {
+      20, 41
+    },
+    BuffTypeImgPath = "Stun",
+    IsShowInBillboard = true,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge",
+    SetCharacterTag = "Stun",
+    StunType = "StunCommon",
+    VisualEffects = {852202}
+  },
   [900003] = {
     BuffEffects = 2000,
     BuffId = 900003,
@@ -8870,6 +8988,13 @@ return ReadOnly("Buff", {
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
+  [950002] = {
+    AddPassiveEffect = {950004},
+    BuffId = 950002,
+    BuffType = 30,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
   [950101] = {
     AddAttrs = {
       [1] = {
@@ -8922,34 +9047,34 @@ return ReadOnly("Buff", {
     BuffType = 11,
     DMMIParams = {
       DMMIColor = {
-        232,
-        82,
-        18,
+        25,
+        17.7,
+        12.5,
         1
       },
-      DMMILineWidth = 1
+      DMMILineWidth = 0.5
     },
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 100,
-    VisualEffects = 800201
+    VisualEffects = 1000101
   },
   [1000102] = {
     BuffId = 1000102,
     BuffType = 11,
     DMMIParams = {
       DMMIColor = {
-        204,
-        24,
-        0,
+        20,
+        25,
+        25,
         1
       },
-      DMMILineWidth = 1
+      DMMILineWidth = 0.5
     },
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 100,
-    VisualEffects = 800202
+    VisualEffects = 1000101
   },
   [1000301] = {
     AddAttrs = {
@@ -8966,6 +9091,40 @@ return ReadOnly("Buff", {
     MergeRule1 = "Personal",
     MergeRule2 = "Merge",
     VisualEffects = {1000407}
+  },
+  [1000501] = {
+    BuffId = 1000501,
+    BuffType = 11,
+    DMMIParams = {
+      DMMIColor = {
+        25,
+        17.7,
+        12.5,
+        1
+      },
+      DMMILineWidth = 0.5
+    },
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge",
+    Priority = 100,
+    VisualEffects = 1000101
+  },
+  [1000502] = {
+    BuffId = 1000502,
+    BuffType = 11,
+    DMMIParams = {
+      DMMIColor = {
+        7.2,
+        0,
+        25,
+        1
+      },
+      DMMILineWidth = 0.5
+    },
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge",
+    Priority = 100,
+    VisualEffects = 1000101
   },
   [1020121] = {
     ActivateSkills = {
@@ -9159,11 +9318,19 @@ return ReadOnly("Buff", {
       "Hit"
     }
   },
+  [2010005] = {
+    BuffId = 2010005,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge",
+    OverrideAttrs = {
+      AttrName = "MaxDamagedValue",
+      BaseAttr = "MaxHp",
+      Rate = 0.35
+    }
+  },
   [2010011] = {
     AddAttrs = {
-      [1] = {
-        AttrName = "ATK", Rate = 0.12
-      }
+      [1] = {AttrName = "ATK", Rate = 0.12}
     },
     BuffId = 2010011,
     BuffType = 11,
@@ -9173,6 +9340,36 @@ return ReadOnly("Buff", {
     MaxLayer = 10,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree"
+  },
+  [2010020] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "WaterDamagedRate",
+        Value = 4
+      },
+      [2] = {
+        AttrName = "LightDamagedRate",
+        Value = 4
+      }
+    },
+    BuffId = 2010020,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [2010025] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "WaterDamagedRate",
+        Value = 4
+      },
+      [2] = {
+        AttrName = "WindDamagedRate",
+        Value = 4
+      }
+    },
+    BuffId = 2010025,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
   },
   [2010035] = {
     AddAttrs = {
@@ -9186,7 +9383,6 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2010035,
-    BuffType = 999,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -9202,7 +9398,6 @@ return ReadOnly("Buff", {
       }
     },
     BuffId = 2010051,
-    BuffType = 999,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -9234,12 +9429,11 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge"
   },
   [2010201] = {
-    BuffDamagedRate = {
-      Value = -0.01
-    },
+    BuffDamagedRate = {Value = -0.01},
     BuffId = 2010201,
     BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
+    IconPriority = 200,
     IsShowInBillboard = true,
     MaxLayer = 80,
     MergeRule1 = "Global",
@@ -9252,6 +9446,7 @@ return ReadOnly("Buff", {
     BuffId = 2010202,
     BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
+    IconPriority = 200,
     IsShowInBillboard = true,
     MaxLayer = 40,
     MergeRule1 = "Global",
@@ -9264,8 +9459,44 @@ return ReadOnly("Buff", {
     BuffId = 2010203,
     BuffType = 11,
     BuffTypeImgPath = "Damaged_Down",
+    IconPriority = 200,
     IsShowInBillboard = true,
     MaxLayer = 40,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [2010204] = {
+    BuffDamagedRate = {
+      Value = -0.02
+    },
+    BuffId = 2010204,
+    BuffType = 11,
+    BuffTypeImgPath = "Damaged_Down",
+    IconPriority = 200,
+    IsShowInBillboard = true,
+    MaxLayer = 40,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [2010205] = {
+    BuffDamagedRate = {Value = -0.04},
+    BuffId = 2010205,
+    BuffType = 11,
+    BuffTypeImgPath = "Damaged_Down",
+    IconPriority = 200,
+    IsShowInBillboard = true,
+    MaxLayer = 20,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [2010206] = {
+    BuffDamagedRate = {Value = -0.06},
+    BuffId = 2010206,
+    BuffType = 11,
+    BuffTypeImgPath = "Damaged_Down",
+    IconPriority = 200,
+    IsShowInBillboard = true,
+    MaxLayer = 10,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -9328,6 +9559,9 @@ return ReadOnly("Buff", {
         Rate = 0.2
       }
     },
+    BuffDamagedRate = {
+      Value = -0.02
+    },
     BuffId = 2010304,
     BuffType = 11,
     BuffTypeImgPath = "Skill_Inten_Up",
@@ -9370,14 +9604,10 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge"
   },
   [2011111] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "DEF", Rate = 0.5
-      }
-    },
+    BuffDamagedRate = {Value = -0.1},
     BuffId = 2011111,
     BuffType = 11,
-    BuffTypeImgPath = "Def_Up",
+    BuffTypeImgPath = "Damaged_Down",
     HaloDatas = {
       [1] = {
         AuraRange = 2000,
@@ -9385,219 +9615,142 @@ return ReadOnly("Buff", {
         Camp = "OtherFriend"
       }
     },
-    IconPriority = 201,
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge"
-  },
-  [2011112] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "DEF", Rate = -0.1
-      }
-    },
-    BuffDamagedRate = {
-      Value = -0.25
-    },
-    BuffId = 2011112,
-    BuffType = 21,
-    BuffTypeImgPath = "Def_Down",
     IconPriority = 200,
     IsShowInBillboard = true,
-    MaxLayer = 5,
+    MaxLayer = 6,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
-  [2011114] = {
-    BuffId = 2011114,
-    BuffType = 11,
-    BuffTypeImgPath = "Damaged_Down",
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge",
-    OverrideAttrs = {
-      AttrName = "MaxDamagedValue",
-      BaseAttr = "MaxHp",
-      Rate = 0.1
-    }
-  },
-  [2011121] = {
-    BuffDamagedRate = {
-      Value = -0.01
-    },
-    BuffId = 2011121,
-    BuffType = 11,
-    BuffTypeImgPath = "Damaged_Up",
-    IsShowInBillboard = true,
-    MaxLayer = 80,
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge"
-  },
-  [2011122] = {
+  [2011113] = {
     AddAttrs = {
       [1] = {
-        AttrName = "ATK", Rate = 0.12
-      }
+        AttrName = "AttackSpeedModifierRate",
+        Value = 0.1
+      },
+      [2] = {AttrName = "SkillSpeed", Rate = 0.05}
     },
-    BuffId = 2011122,
-    BuffType = 11,
-    BuffTypeImgPath = "Weapon_Multishoot_Up",
-    IconPriority = 200,
-    IsShowInBillboard = true,
-    MaxLayer = 10,
-    MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
-  },
-  [2011212] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "ATK", Rate = 0.1
-      }
-    },
-    BuffDamagedRate = {
-      Value = -0.25
-    },
-    BuffId = 2011212,
-    BuffType = 11,
-    BuffTypeImgPath = "Mon_Roused",
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge"
-  },
-  [2011213] = {
-    BuffDamagedRate = {
-      Value = -0.02
-    },
-    BuffId = 2011213,
-    BuffType = 11,
-    BuffTypeImgPath = "Damaged_Up",
-    IsShowInBillboard = true,
-    MaxLayer = 40,
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge",
-    OverrideAttrs = {
-      AttrName = "MaxDamagedValue",
-      BaseAttr = "MaxHp",
-      Rate = 0.1
-    }
-  },
-  [2011221] = {
-    AddAttrs = {
-      [1] = {AttrName = "SkillSpeed", Rate = 0.05}
-    },
-    BuffId = 2011221,
+    BuffId = 2011113,
     BuffType = 11,
     BuffTypeImgPath = "Skill_Spd_Up",
     IconPriority = 1,
     IsShowInBillboard = true,
+    LayerExtraBuff = {
+      [6] = 2010004
+    },
     MaxLayer = 6,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree"
   },
-  [2011222] = {
-    BuffDamagedRate = {
-      Value = -0.01
-    },
-    BuffId = 2011222,
-    BuffType = 11,
-    BuffTypeImgPath = "Damaged_Up",
-    IsShowInBillboard = true,
-    MaxLayer = 80,
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge"
-  },
-  [2011223] = {
+  [2011121] = {
     AddAttrs = {
       [1] = {
-        AttrName = "DamagedRate",
-        DamageTag = "Ranged",
-        IndividualRateZone = 1,
-        Value = 0.3
+        AttrName = "WeaponCRIModifierRate",
+        Value = 0.1
       }
     },
-    BuffId = 2011223,
+    BuffId = 2011121,
     BuffType = 11,
-    BuffTypeImgPath = "Hot_Es",
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge"
-  },
-  [2011311] = {
-    BuffId = 2011311,
-    BuffType = 11,
-    BuffTypeImgPath = "Common_Buff_Aura",
-    HaloDatas = {
-      [1] = {
-        AuraRange = 2000,
-        BuffId = 2010102,
-        Camp = "OtherFriend"
-      }
-    },
-    IconPriority = 1,
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge"
-  },
-  [2011312] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "ATK", Rate = 0.1
-      }
-    },
-    BuffDamagedRate = {
-      Value = -0.25
-    },
-    BuffId = 2011312,
-    BuffType = 11,
-    BuffTypeImgPath = "Mon_Roused",
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge"
-  },
-  [2011313] = {
-    BuffDamagedRate = {
-      Value = -0.02
-    },
-    BuffId = 2011313,
-    BuffType = 11,
-    BuffTypeImgPath = "Damaged_Up",
-    IsShowInBillboard = true,
-    MaxLayer = 40,
-    MergeRule1 = "Global",
-    MergeRule2 = "Merge"
-  },
-  [2011321] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "ATK", Rate = 0.12
-      }
-    },
-    BuffId = 2011321,
-    BuffType = 11,
-    BuffTypeImgPath = "Atk_Up",
+    BuffTypeImgPath = "Cri_Up",
     IconPriority = 1,
     IsShowInBillboard = true,
     MaxLayer = 10,
     MergeRule1 = "Global",
     MergeRule2 = "NewFree"
   },
-  [2011322] = {
-    BuffDamagedRate = {
-      Value = -0.01
+  [2011122] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "DamageRate",
+        DamageTag = "Weapon",
+        IndividualRateZone = 1,
+        Value = -0.5
+      },
+      [2] = {
+        AttrName = "WeaponCRDModifierRate",
+        Value = 1
+      }
     },
-    BuffId = 2011322,
-    BuffType = 11,
-    BuffTypeImgPath = "Damaged_Up",
-    IsShowInBillboard = true,
-    MaxLayer = 80,
+    BuffId = 2011122,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
-  [2011323] = {
-    BuffId = 2011323,
+  [2011211] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "SkillIntensity",
+        Rate = 1
+      }
+    },
+    BuffId = 2011211,
     BuffType = 11,
-    BuffTypeImgPath = "Hot_Es",
+    BuffTypeImgPath = "Skill_Inten_Up",
+    CannotBeHitted = true,
+    ForbidCatch = true,
+    IconPriority = 1,
     IsShowInBillboard = true,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge",
+    NotEnterCharacterTagType = {
+      "Hit"
+    }
+  },
+  [2011212] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "WeaponCRDModifierRate",
+        Value = -1
+      },
+      [2] = {
+        AttrName = "DamageRate",
+        DamageTag = "Dot",
+        RateZone = "Abyss",
+        Value = 0.5
+      }
+    },
+    BuffId = 2011212,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [2011221] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "DamageRate",
+        DamageTag = "Weapon",
+        RateZone = "Abyss",
+        Value = 0.1
+      }
+    },
+    BuffId = 2011221,
+    BuffType = 11,
+    BuffTypeImgPath = "Damage_Up",
+    CannotBeHitted = true,
+    ForbidCatch = true,
+    IconPriority = 1,
+    IsShowInBillboard = true,
+    LayerExtraBuff = {
+      [5] = 2010004
+    },
+    MaxLayer = 5,
+    MergeRule1 = "Global",
+    MergeRule2 = "NewFree",
+    NotEnterCharacterTagType = {
+      "Hit"
+    }
+  },
+  [2011222] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "DamageRate",
+        DamageTag = "Skill",
+        IndividualRateZone = 1,
+        Value = -0.25
+      },
+      [2] = {
+        AttrName = "WeaponCRIModifierRate",
+        Value = 1
+      }
+    },
+    BuffId = 2011222,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -9613,11 +9766,20 @@ return ReadOnly("Buff", {
     MergeRule2 = "Merge",
     VisualEffects = {2060301}
   },
+  [3010001] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxHp", Rate = 5},
+      [2] = {AttrName = "MaxES", Rate = 5}
+    },
+    BuffId = 3010001,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
   [4010001] = {
     AddAttrs = {
       [1] = {
         AttrName = "SkillIntensity",
-        Rate = 0.1
+        Rate = 0.5
       }
     },
     BuffId = 4010001,
@@ -9626,103 +9788,111 @@ return ReadOnly("Buff", {
     DeadNotRemove = true,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge"
   },
   [4010002] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "SkillIntensity",
-        Rate = 0.2
-      }
-    },
-    BuffId = 4010002,
-    BuffType = 11,
-    BuffTypeImgPath = "Skill_Inten_Up",
-    DeadNotRemove = true,
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
-  },
-  [4010003] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "EnmityValue",
-        Value = 0.1
-      }
-    },
-    BuffId = 4010003,
-    BuffType = 11,
-    BuffTypeImgPath = "Berserk",
-    DeadNotRemove = true,
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
-  },
-  [4010004] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "EnmityValue",
-        Value = 0.2
-      }
-    },
-    BuffId = 4010004,
-    BuffType = 11,
-    BuffTypeImgPath = "Berserk",
-    DeadNotRemove = true,
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
-  },
-  [4010005] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "ATK", Rate = 1
-      }
-    },
-    BuffId = 4010005,
-    BuffType = 11,
-    BuffTypeImgPath = "Atk_Up",
-    DeadNotRemove = true,
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
-  },
-  [4010006] = {
-    AddAttrs = {
-      [1] = {AttrName = "ATK", Rate = 2}
-    },
-    BuffId = 4010006,
-    BuffType = 11,
-    BuffTypeImgPath = "Atk_Up",
-    DeadNotRemove = true,
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
-  },
-  [4010007] = {
     AddAttrs = {
       [1] = {
         AttrName = "DamageRate",
         DamageTag = "Skill",
         RateZone = "Normal",
-        Value = 1
+        Value = 0.5
       }
     },
-    BuffId = 4010007,
+    BuffId = 4010002,
     BuffType = 11,
     BuffTypeImgPath = "Damage_Up",
     DeadNotRemove = true,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge"
+  },
+  [4010003] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "MultiShootModifierRate",
+        Value = 1
+      }
+    },
+    BuffId = 4010003,
+    BuffType = 11,
+    BuffTypeImgPath = "Weapon_Multishoot_Up",
+    DeadNotRemove = true,
+    IsShowInBillboard = true,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [4010004] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Ranged",
+        Value = 1
+      }
+    },
+    BuffId = 4010004,
+    BuffType = 11,
+    BuffTypeImgPath = "Weapon_Spd_Up",
+    DeadNotRemove = true,
+    IsShowInBillboard = true,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [4010005] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "DamageRate",
+        DamageTag = "Weapon",
+        RateZone = "Normal",
+        Value = 1
+      }
+    },
+    BuffId = 4010005,
+    BuffType = 11,
+    BuffTypeImgPath = "Damage_Up",
+    DeadNotRemove = true,
+    IsShowInBillboard = true,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [4010006] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "AttackSpeedModifierRate",
+        Type = "Melee",
+        Value = 1
+      }
+    },
+    BuffId = 4010006,
+    BuffType = 11,
+    BuffTypeImgPath = "Weapon_Spd_Up",
+    DeadNotRemove = true,
+    IsShowInBillboard = true,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [4010007] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "SkillEfficiency",
+        Rate = 1
+      },
+      [2] = {AttrName = "SkillRange", Rate = 1}
+    },
+    BuffId = 4010007,
+    BuffType = 11,
+    BuffTypeImgPath = "Skill_Effi_Up",
+    DeadNotRemove = true,
+    IsShowInBillboard = true,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
   },
   [4010008] = {
     AddAttrs = {
       [1] = {
         AttrName = "DamageRate",
-        DamageTag = "Skill",
         RateZone = "Normal",
-        Value = 2
+        Value = 1
       }
     },
     BuffId = 4010008,
@@ -9731,7 +9901,7 @@ return ReadOnly("Buff", {
     DeadNotRemove = true,
     IsShowInBillboard = true,
     MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge"
   },
   [4010009] = {
     AddAttrs = {
@@ -9744,46 +9914,26 @@ return ReadOnly("Buff", {
     BuffType = 11,
     DeadNotRemove = true,
     MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge"
   },
   [4010010] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "SkillSpeed",
-        Rate = 0.1,
-        Stackable = 1
-      }
-    },
+    AddPassiveEffect = {605},
     BuffId = 4010010,
     BuffType = 11,
-    BuffTypeImgPath = "Skill_Spd_Up",
+    BuffTypeImgPath = "Damage_Up",
     IsShowInBillboard = true,
     MaxLayer = 5,
     MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
-  },
-  [4010011] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "EnmityValue",
-        Value = 0.5
-      }
-    },
-    BuffId = 4010011,
-    BuffType = 11,
-    BuffTypeImgPath = "Berserk",
-    DeadNotRemove = true,
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge"
   },
   [4010012] = {
     AddAttrs = {
       [1] = {
         AttrName = "DamageRate",
-        DamageTag = "HeavyAttack",
+        DamageTag = "Meele",
         RateZone = "Normal",
-        Value = 1
+        Stackable = 1,
+        Value = 0.02
       }
     },
     BuffId = 4010012,
@@ -9791,49 +9941,60 @@ return ReadOnly("Buff", {
     BuffTypeImgPath = "Damage_Up",
     DeadNotRemove = true,
     IsShowInBillboard = true,
+    MaxLayer = 50,
     MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge"
   },
   [4010013] = {
     AddAttrs = {
       [1] = {
-        AttrName = "ATK", Rate = 1
+        AttrName = "SkillSpeed", Rate = 0.5
       }
     },
     BuffId = 4010013,
-    BuffType = 11,
-    BuffTypeImgPath = "Atk_Up",
-    IsShowInBillboard = true,
-    MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
-  },
-  [4010014] = {
-    BuffId = 4010014,
-    BuffType = 11,
+    BuffType = 10,
     BuffTypeImgPath = "Hot_Energy",
     DotDatas = {
       [1] = {
         Interval = 1,
         Type = "SpChange",
-        Value = 20
+        Value = 30
       }
     },
     IsShowInBillboard = true,
     MergeRule1 = "Global",
-    MergeRule2 = "NewFree",
+    MergeRule2 = "Merge",
     VisualEffects = {6012}
+  },
+  [4010014] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "EnmityValue",
+        Value = 0.1
+      }
+    },
+    BuffId = 4010014,
+    BuffType = 10,
+    BuffTypeImgPath = "Berserk",
+    IsShowInBillboard = true,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge",
+    OverrideAttrs = {
+      AttrName = "FakeHpRate", Value = 0.01
+    }
   },
   [4010015] = {
     AddAttrs = {
       [1] = {
-        AttrName = "AttackSpeedModifierRate",
-        Type = "Melee",
-        Value = 1
+        AttrName = "DamageRate",
+        DamageTag = "HeavyAttack",
+        RateZone = "Normal",
+        Value = 0.5
       }
     },
     BuffId = 4010015,
-    BuffType = 11,
-    BuffTypeImgPath = "Weapon_Spd_Up",
+    BuffType = 10,
+    BuffTypeImgPath = "Damage_Up",
     DotDatas = {
       [1] = {
         Interval = 1,
@@ -9843,22 +10004,22 @@ return ReadOnly("Buff", {
     },
     IsShowInBillboard = true,
     MergeRule1 = "Global",
-    MergeRule2 = "NewFree",
+    MergeRule2 = "Merge",
     VisualEffects = {6032}
   },
   [4010016] = {
     AddAttrs = {
       [1] = {
-        AttrName = "ATK", Rate = 1
+        AttrName = "SkillSpeed", Rate = 0.5
       }
     },
     BuffEffects = {6042},
     BuffId = 4010016,
-    BuffType = 11,
-    BuffTypeImgPath = "Atk_Up",
+    BuffType = 10,
+    BuffTypeImgPath = "Weapon_Spd_Up",
     IsShowInBillboard = true,
     MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge"
   },
   [5000001] = {
     BuffEffects = 2031,
@@ -10077,7 +10238,6 @@ return ReadOnly("Buff", {
     BuffId = 5000015,
     BuffType = 11,
     BuffTypeImgPath = "Common_Buff",
-    ExpRate = 1,
     IsShowInBillboard = true,
     MaxLayer = 5,
     MergeRule1 = "Global",
@@ -10299,6 +10459,30 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     VisualEffects = 2105
+  },
+  [5000104] = {
+    AddAttrs = {
+      [1] = {AttrName = "Def", Rate = 99999999999}
+    },
+    BuffId = 5000104,
+    BuffType = 10,
+    BuffTypeImgPath = "Def_Up",
+    CannotBeHitted = true,
+    ForbidBuffType = {
+      40,
+      41,
+      42,
+      43,
+      44
+    },
+    ForbidCatch = true,
+    IsShowInBillboard = true,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge",
+    NotEnterCharacterTagType = {
+      "Controlled"
+    },
+    VisualEffects = 600000802
   },
   [5000201] = {
     BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff_5000201.BP_Buff_5000201",
@@ -10527,6 +10711,7 @@ return ReadOnly("Buff", {
         },
         DamageType = "TrueDamage",
         Interval = 1,
+        NotMortal = 1,
         Rate = 0.03,
         Type = "Dot",
         Value = 5
@@ -11116,9 +11301,7 @@ return ReadOnly("Buff", {
   },
   [6000112] = {
     AddAttrs = {
-      [1] = {
-        AttrName = "DEF", Rate = 0.5
-      },
+      [1] = {AttrName = "DEF", Rate = 0.5},
       [2] = {
         AttrName = "ATK", Rate = 0.5
       },
@@ -11137,7 +11320,7 @@ return ReadOnly("Buff", {
     MaxLayer = 3,
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
-    VisualEffects = {600000802}
+    VisualEffects = 600000802
   },
   [6000113] = {
     BuffId = 6000113,
@@ -11408,6 +11591,14 @@ return ReadOnly("Buff", {
     NotEnterCharacterTagType = {
       "Controlled"
     }
+  },
+  [6000211] = {
+    BuffId = 6000211,
+    LockHp = {
+      Value = 1
+    },
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
   },
   [6000301] = {
     BuffId = 6000301,
@@ -12639,6 +12830,82 @@ return ReadOnly("Buff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     Priority = 1000
+  },
+  [9000101] = {
+    ActivateSkills = {
+      Attack = 90001,
+      HeavyShooting = 90002,
+      Shooting = 90002
+    },
+    BuffId = 9000101,
+    BuffType = 70,
+    DisableSkills = {
+      "FallAttack",
+      "HeavyAttack",
+      "SlideAttack",
+      "Skill1",
+      "Skill2",
+      "Reload"
+    },
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
+  [9000102] = {
+    ActivateSkills = {
+      Attack = 90011,
+      HeavyShooting = 90012,
+      Shooting = 90012
+    },
+    BuffId = 9000102,
+    BuffType = 70,
+    DisableSkills = {
+      "FallAttack",
+      "HeavyAttack",
+      "SlideAttack",
+      "Skill1",
+      "Skill2",
+      "Reload"
+    },
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
+  [9000103] = {
+    ActivateSkills = {
+      Attack = 4010100,
+      HeavyShooting = 4010101,
+      Shooting = 4010101
+    },
+    BuffId = 9000103,
+    BuffType = 70,
+    DisableSkills = {
+      "FallAttack",
+      "HeavyAttack",
+      "SlideAttack",
+      "Skill1",
+      "Skill2",
+      "Reload"
+    },
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
+  [9000104] = {
+    ActivateSkills = {
+      Attack = 4010200,
+      HeavyShooting = 4010201,
+      Shooting = 4010201
+    },
+    BuffId = 9000104,
+    BuffType = 70,
+    DisableSkills = {
+      "FallAttack",
+      "HeavyAttack",
+      "SlideAttack",
+      "Skill1",
+      "Skill2",
+      "Reload"
+    },
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
   },
   [9999999] = {
     AddAttrs = {
@@ -14178,9 +14445,7 @@ return ReadOnly("Buff", {
   },
   [30400005] = {
     AddAttrs = {
-      [1] = {
-        AttrName = "DEF", Rate = -0.1
-      }
+      [1] = {AttrName = "DEF", Rate = -0.1}
     },
     BuffId = 30400005,
     BuffType = 21,
@@ -14487,6 +14752,21 @@ return ReadOnly("Buff", {
     MaxLayer = 4,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
+  },
+  [40101018] = {
+    BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/Bp_Buff_40101018.Bp_Buff_40101018",
+    BuffId = 40101018,
+    BuffType = 11,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge",
+    TimeDilation = 0.01
+  },
+  [40101019] = {
+    BuffId = 40101019,
+    BuffType = 11,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge",
+    VisualEffects = {40101006}
   },
   [99999999] = {
     AddAttrs = {

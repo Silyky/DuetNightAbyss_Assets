@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -124,12 +126,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "170131343218090665",
-            startPort = "QuestStart",
-            endQuest = "170131356009993691",
-            endPort = "In"
-          },
-          {
             startQuest = "1720320861754139951",
             startPort = "PC",
             endQuest = "17061685216765119",
@@ -146,18 +142,6 @@ return {
             startPort = "Out",
             endQuest = "1701325729204113500",
             endPort = "In"
-          },
-          {
-            startQuest = "1701325049951107772",
-            startPort = "Out",
-            endQuest = "17515421860753781026",
-            endPort = "In"
-          },
-          {
-            startQuest = "17515421860753781026",
-            startPort = "Out",
-            endQuest = "170131343218090667",
-            endPort = "Success"
           },
           {
             startQuest = "17555215467702834",
@@ -206,6 +190,48 @@ return {
             startPort = "Out",
             endQuest = "170131352756792747",
             endPort = "In"
+          },
+          {
+            startQuest = "17628286775063332108",
+            startPort = "Out",
+            endQuest = "170131343218090667",
+            endPort = "Success"
+          },
+          {
+            startQuest = "170131343218090665",
+            startPort = "QuestStart",
+            endQuest = "170131356009993691",
+            endPort = "In"
+          },
+          {
+            startQuest = "1701325049951107772",
+            startPort = "Out",
+            endQuest = "17628286430023331609",
+            endPort = "In"
+          },
+          {
+            startQuest = "17628286430023331609",
+            startPort = "Success",
+            endQuest = "17515421860753781026",
+            endPort = "In"
+          },
+          {
+            startQuest = "17515421860753781026",
+            startPort = "Out",
+            endQuest = "17628286775063332108",
+            endPort = "In"
+          },
+          {
+            startQuest = "17628286430023331609",
+            startPort = "Fail",
+            endQuest = "176283165226410644044",
+            endPort = "In"
+          },
+          {
+            startQuest = "176283165226410644044",
+            startPort = "Out",
+            endQuest = "170131343218090667",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -220,7 +246,7 @@ return {
             key = "170131343218090667",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2256.241445974705, y = 794.2255881044799},
+            pos = {x = 2913.8171934153015, y = 986.6498275629032},
             propsData = {ModeType = 0}
           },
           ["170131343218090669"] = {
@@ -835,7 +861,7 @@ return {
             key = "17515421860753781026",
             type = "ShowGuideButtonNode",
             name = "普通按钮",
-            pos = {x = 1952.150536883796, y = 801.4074062862982},
+            pos = {x = 2257.792048979035, y = 828.1643371214562},
             propsData = {
               ShowEnable = true,
               MessageId = 300715,
@@ -944,7 +970,7 @@ return {
               UIShape = "Square",
               IsForbidInAnim = false,
               IsForbidOutAnim = false,
-              ForbidSuccessAnim = false,
+              ForbidSuccessAnim = true,
               IsNotForceRelease = false,
               UICompSizeOffset = {X = 0, Y = 0},
               UICompLocOffset = {X = 0, Y = 0},
@@ -980,6 +1006,73 @@ return {
               UICompLocOffset = {X = 0, Y = 0},
               MessageParentLoc = "HighLightUI",
               MessageLoc = "Right",
+              MessageLocOffset = {X = 0, Y = 0}
+            }
+          },
+          ["17628286430023331609"] = {
+            key = "17628286430023331609",
+            type = "ConditionNode",
+            name = "条件节点",
+            pos = {x = 1946.69417226801, y = 909.1334556243075},
+            propsData = {ConditionId = 200700}
+          },
+          ["17628286775063332108"] = {
+            key = "17628286775063332108",
+            type = "ShowGuideButtonNode",
+            name = "Button显示/隐藏信息",
+            pos = {x = 2493.3790393135773, y = 844.8250877897708},
+            propsData = {
+              ShowEnable = true,
+              MessageId = 300716,
+              MessageNote = "",
+              DelayTime = 0,
+              IsForceClick = true,
+              IsControlPlayer = false,
+              IsTimePause = true,
+              IsShowCursor = true,
+              HighLightUIPath = "CommonDialog.Pos_Btn:1.Btn_Yes",
+              UICompName = "Button_Area",
+              GamePadWidgetName = "",
+              IsAutoClick = false,
+              IsAutoClickByGamepad = false,
+              UIShape = "Square",
+              IsResetPlayer = false,
+              IsForbidInAnim = true,
+              IsForbidOutAnim = true,
+              UICompSizeOffset = {X = 0, Y = 0},
+              UICompLocOffset = {X = 0, Y = 0},
+              MessageParentLoc = "HighLightUI",
+              MessageLoc = "Down",
+              MessageLocOffset = {X = 0, Y = 0}
+            }
+          },
+          ["176283165226410644044"] = {
+            key = "176283165226410644044",
+            type = "ShowGuideButtonNode",
+            name = "普通按钮",
+            pos = {x = 2322.621485726582, y = 1008.7743652152477},
+            propsData = {
+              ShowEnable = true,
+              MessageId = 300715,
+              MessageNote = "这里可以自动装配魔之楔。",
+              DelayTime = 0,
+              IsForceClick = true,
+              IsControlPlayer = false,
+              IsTimePause = false,
+              IsShowCursor = true,
+              HighLightUIPath = "ArmoryMod.Btn_Auto",
+              UICompName = "Button_Area",
+              GamePadWidgetName = "",
+              IsAutoClick = false,
+              IsAutoClickByGamepad = false,
+              UIShape = "Square",
+              IsResetPlayer = false,
+              IsForbidInAnim = true,
+              IsForbidOutAnim = true,
+              UICompSizeOffset = {X = 0, Y = 0},
+              UICompLocOffset = {X = 0, Y = 0},
+              MessageParentLoc = "HighLightUI",
+              MessageLoc = "UpLeft",
               MessageLocOffset = {X = 0, Y = 0}
             }
           }

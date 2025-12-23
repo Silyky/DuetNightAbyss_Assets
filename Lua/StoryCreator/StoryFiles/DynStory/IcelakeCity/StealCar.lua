@@ -47,7 +47,7 @@ return {
       key = "17188725123469119",
       type = "StoryNode",
       name = "偷车",
-      pos = {x = 1123.0442342398762, y = 296.66182938089014},
+      pos = {x = 1125.0442342398762, y = 296.66182938089014},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -176,6 +178,18 @@ return {
             startPort = "Out",
             endQuest = "1718877303907131048",
             endPort = "In"
+          },
+          {
+            startQuest = "171887393903425682",
+            startPort = "Out",
+            endQuest = "17618915696214083064",
+            endPort = "In"
+          },
+          {
+            startQuest = "171887280913814460",
+            startPort = "Option_2",
+            endQuest = "17618915778944083374",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -235,6 +249,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -248,11 +263,12 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {
                 {
                   OptionText = "710010020",
@@ -441,6 +457,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -454,7 +471,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -492,6 +508,28 @@ return {
               StateId = 780020,
               IsGuideEnable = false,
               GuidePointName = ""
+            }
+          },
+          ["17618915696214083064"] = {
+            key = "17618915696214083064",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2171.5217391304345, y = -328.1304347826088},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityStealCar_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["17618915778944083374"] = {
+            key = "17618915778944083374",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1916.3043478260868, y = 509.5434782608696},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityStealCar_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

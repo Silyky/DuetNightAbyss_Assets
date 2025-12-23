@@ -20,8 +20,8 @@ return ReadOnly("PureLogicBuff", {
   [97] = {
     BuffId = 97,
     DeadNotRemove = true,
-    ExpRate = -0.9999,
-    IsAvatarBuff = true,
+    ForbidGetExp = true,
+    IsAvatarBuff = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -35,14 +35,14 @@ return ReadOnly("PureLogicBuff", {
         Value = 5
       }
     },
-    IsAvatarBuff = true,
+    IsAvatarBuff = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [304] = {
     BuffId = 304,
     DeadNotRemove = true,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 1,
     LockHp = {
       Value = 1
     },
@@ -58,7 +58,7 @@ return ReadOnly("PureLogicBuff", {
       }
     },
     BuffId = 306,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 1,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -70,7 +70,7 @@ return ReadOnly("PureLogicBuff", {
     },
     BuffId = 801,
     CombatConditionId = 502,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 2,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -85,7 +85,7 @@ return ReadOnly("PureLogicBuff", {
     },
     BuffId = 802,
     CombatConditionId = 502,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 2,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -103,7 +103,7 @@ return ReadOnly("PureLogicBuff", {
     },
     BuffId = 803,
     CombatConditionId = 502,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 2,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -122,7 +122,7 @@ return ReadOnly("PureLogicBuff", {
     },
     BuffId = 804,
     CombatConditionId = 502,
-    IsAvatarBuff = true,
+    IsAvatarBuff = 2,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -134,6 +134,21 @@ return ReadOnly("PureLogicBuff", {
       Value = 1
     },
     MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
+  [1315] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "DamagedRate",
+        RateZone = "BossDown",
+        Value = "#1"
+      }
+    },
+    BuffId = 1315,
+    BuffType = {
+      [1] = 6000206
+    },
+    MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [1316] = {
@@ -326,7 +341,7 @@ return ReadOnly("PureLogicBuff", {
     AddAttrs = {
       [1] = {
         AttrName = "SkillIntensity",
-        Rate = 1
+        Rate = "#1"
       }
     },
     BuffId = 6141,
@@ -349,7 +364,7 @@ return ReadOnly("PureLogicBuff", {
     AddAttrs = {
       [1] = {
         AttrName = "EnmityValue",
-        Value = 1
+        Value = "#1"
       }
     },
     BuffId = 6144,
@@ -360,7 +375,7 @@ return ReadOnly("PureLogicBuff", {
     AddAttrs = {
       [1] = {
         AttrName = "SkillIntensity",
-        Rate = 1
+        Rate = "#1"
       }
     },
     BuffId = 6151,
@@ -383,7 +398,7 @@ return ReadOnly("PureLogicBuff", {
     AddAttrs = {
       [1] = {
         AttrName = "EnmityValue",
-        Value = 1
+        Value = "#1"
       }
     },
     BuffId = 6154,
@@ -629,26 +644,6 @@ return ReadOnly("PureLogicBuff", {
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
-  [110204] = {
-    AddAttrs = {
-      [1] = {
-        AttrName = "WeaponCRDModifierRate",
-        DamageTag = "Melee",
-        Value = 0.5
-      }
-    },
-    BuffId = 110204,
-    BuffType = {
-      [1] = 10
-    },
-    MergeRule1 = "Personal",
-    MergeRule2 = "Merge"
-  },
-  [110223] = {
-    BuffId = 110223,
-    MergeRule1 = "Personal",
-    MergeRule2 = "Merge"
-  },
   [110303] = {
     AddAttrs = {
       [1] = {
@@ -744,7 +739,7 @@ return ReadOnly("PureLogicBuff", {
   },
   [150222] = {
     AddAttrs = {
-      [1] = {AttrName = "SkillRange", ValueUseValue = 1}
+      [1] = {AttrName = "SkillRange", RateUseValue = 1}
     },
     AllowSkillSustainModify = true,
     BuffId = 150222,
@@ -837,7 +832,7 @@ return ReadOnly("PureLogicBuff", {
     BuffId = 150305,
     BuffSpModify = {
       [150302] = {
-        Value = -20
+        Value = -30
       }
     },
     MergeRule1 = "Personal",
@@ -847,7 +842,7 @@ return ReadOnly("PureLogicBuff", {
     BuffId = 150306,
     BuffSpModify = {
       [150321] = {
-        Value = -20
+        Value = -30
       }
     },
     MergeRule1 = "Personal",
@@ -1223,10 +1218,20 @@ return ReadOnly("PureLogicBuff", {
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree"
   },
+  [150402] = {
+    BuffId = 150402,
+    MaxLayer = 600,
+    MergeRule1 = "Personal",
+    MergeRule2 = "NewFree"
+  },
   [150409] = {
     BuffId = 150409,
     BuffType = {
       [1] = 150409
+    },
+    DisperseBuffType = {
+      [1] = 150407,
+      [2] = 150408
     },
     DotDatas = {
       [1] = {
@@ -1237,26 +1242,19 @@ return ReadOnly("PureLogicBuff", {
       }
     },
     MergeRule1 = "Personal",
-    MergeRule2 = "NewFree"
-  },
-  [150410] = {
-    BuffId = 150410,
-    BuffType = {
-      [1] = 150409
-    },
-    DotDatas = {
-      [1] = {
-        DotDelay = 1,
-        Interval = 0.1,
-        Type = "SecondSpChange",
-        Value = 2
-      }
-    },
-    MergeRule1 = "Personal",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge"
   },
   [150421] = {
     BuffId = 150421,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
+  [150461] = {
+    BuffId = 150461,
+    LayerExtraBuff = {
+      [2] = 150462
+    },
+    MaxLayer = 2,
     MergeRule1 = "Personal",
     MergeRule2 = "NewFree"
   },
@@ -1455,6 +1453,17 @@ return ReadOnly("PureLogicBuff", {
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
+  [210204] = {
+    AddPassiveEffect = {
+      [1] = 210212
+    },
+    BuffId = 210204,
+    BuffType = {
+      [1] = 11
+    },
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
   [230122] = {
     BuffId = 230122,
     BuffType = {
@@ -1605,7 +1614,8 @@ return ReadOnly("PureLogicBuff", {
   [310206] = {
     AddAttrs = {
       [1] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
         Value = 0.55
       }
     },
@@ -1699,6 +1709,12 @@ return ReadOnly("PureLogicBuff", {
     BuffId = 320206,
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
+  },
+  [320231] = {
+    BuffId = 320231,
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge",
+    ReplaceActions = {Attack = "Skill1"}
   },
   [330131] = {
     BuffId = 330131,
@@ -1808,7 +1824,8 @@ return ReadOnly("PureLogicBuff", {
   [410242] = {
     AddAttrs = {
       [1] = {
-        AttrName = "AlmightyDamageRate",
+        AttrName = "DamageRate",
+        RateZone = "Almighty",
         Value = 0.55
       }
     },
@@ -1910,31 +1927,6 @@ return ReadOnly("PureLogicBuff", {
       }
     },
     MergeRule1 = "Global",
-    MergeRule2 = "Merge"
-  },
-  [430123] = {
-    BuffId = 430123,
-    ForbidBuffType = {
-      [1] = 10,
-      [2] = 11,
-      [3] = 12,
-      [4] = 20,
-      [5] = 21,
-      [6] = 22,
-      [7] = 30,
-      [8] = 40,
-      [9] = 41,
-      [10] = 42,
-      [11] = 43,
-      [12] = 44,
-      [13] = 49,
-      [14] = 60,
-      [15] = 61,
-      [16] = 62,
-      [17] = 63,
-      [18] = 999
-    },
-    MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
   [510001] = {
@@ -2219,7 +2211,9 @@ return ReadOnly("PureLogicBuff", {
   },
   [850902] = {
     BuffId = 850902,
-    LockHp = {Rate = 0.8},
+    LockHp = {
+      Rate = 0.01
+    },
     MergeRule1 = "Personal",
     MergeRule2 = "Merge"
   },
@@ -2322,6 +2316,17 @@ return ReadOnly("PureLogicBuff", {
     SpecialEffect = {
       [1] = "Invisible"
     }
+  },
+  [950002] = {
+    AddPassiveEffect = {
+      [1] = 950004
+    },
+    BuffId = 950002,
+    BuffType = {
+      [1] = 30
+    },
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
   },
   [950101] = {
     AddAttrs = {
@@ -2440,6 +2445,46 @@ return ReadOnly("PureLogicBuff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
+  [2010005] = {
+    BuffId = 2010005,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge",
+    OverrideAttrs = {
+      AttrName = "MaxDamagedValue",
+      BaseAttr = "MaxHp",
+      Rate = 0.35
+    }
+  },
+  [2010020] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "WaterDamagedRate",
+        Value = 4
+      },
+      [2] = {
+        AttrName = "LightDamagedRate",
+        Value = 4
+      }
+    },
+    BuffId = 2010020,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [2010025] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "WaterDamagedRate",
+        Value = 4
+      },
+      [2] = {
+        AttrName = "WindDamagedRate",
+        Value = 4
+      }
+    },
+    BuffId = 2010025,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
   [2010035] = {
     AddAttrs = {
       [1] = {
@@ -2452,9 +2497,6 @@ return ReadOnly("PureLogicBuff", {
       }
     },
     BuffId = 2010035,
-    BuffType = {
-      [1] = 999
-    },
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -2470,9 +2512,57 @@ return ReadOnly("PureLogicBuff", {
       }
     },
     BuffId = 2010051,
-    BuffType = {
-      [1] = 999
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [2011122] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "DamageRate",
+        DamageTag = "Weapon",
+        IndividualRateZone = 1,
+        Value = -0.5
+      },
+      [2] = {
+        AttrName = "WeaponCRDModifierRate",
+        Value = 1
+      }
     },
+    BuffId = 2011122,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [2011212] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "WeaponCRDModifierRate",
+        Value = -1
+      },
+      [2] = {
+        AttrName = "DamageRate",
+        DamageTag = "Dot",
+        RateZone = "Abyss",
+        Value = 0.5
+      }
+    },
+    BuffId = 2011212,
+    MergeRule1 = "Global",
+    MergeRule2 = "Merge"
+  },
+  [2011222] = {
+    AddAttrs = {
+      [1] = {
+        AttrName = "DamageRate",
+        DamageTag = "Skill",
+        IndividualRateZone = 1,
+        Value = -0.25
+      },
+      [2] = {
+        AttrName = "WeaponCRIModifierRate",
+        Value = 1
+      }
+    },
+    BuffId = 2011222,
     MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
@@ -2480,6 +2570,15 @@ return ReadOnly("PureLogicBuff", {
     BuffId = 2050501,
     MaxLayer = 10,
     MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
+  },
+  [3010001] = {
+    AddAttrs = {
+      [1] = {AttrName = "MaxHp", Rate = 5},
+      [2] = {AttrName = "MaxES", Rate = 5}
+    },
+    BuffId = 3010001,
+    MergeRule1 = "Global",
     MergeRule2 = "Merge"
   },
   [4010009] = {
@@ -2495,7 +2594,7 @@ return ReadOnly("PureLogicBuff", {
     },
     DeadNotRemove = true,
     MergeRule1 = "Global",
-    MergeRule2 = "NewFree"
+    MergeRule2 = "Merge"
   },
   [5000006] = {
     BuffId = 5000006,
@@ -3017,6 +3116,14 @@ return ReadOnly("PureLogicBuff", {
     MergeRule1 = "Global",
     MergeRule2 = "Merge",
     NotEnterTarget = true
+  },
+  [6000211] = {
+    BuffId = 6000211,
+    LockHp = {
+      Value = 1
+    },
+    MergeRule1 = "Personal",
+    MergeRule2 = "Merge"
   },
   [10101202] = {
     BuffId = 10101202,

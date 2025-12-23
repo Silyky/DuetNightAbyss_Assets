@@ -171,6 +171,59 @@ return ReadOnly("PartyTopic", {
     PartyTopicReward = 7053,
     PartyTopicTalkId = "Invite/Nifu_150204.story"
   },
+  [150301] = {
+    ConditionId = 120101,
+    MemoryDescription = "PartyReward_Description_150301",
+    MemoryIconPath = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Entertainment/T_Entertainment_Kezhou_1.T_Entertainment_Kezhou_1'",
+    MemoryName = "PartyReward_Name_150301",
+    PartyTopicConsume = {
+      [19006] = 2
+    },
+    PartyTopicDescription = "PartyTopic_Description_150301",
+    PartyTopicId = 150301,
+    PartyTopicName = "PartyTopic_Name_150301",
+    PartyTopicReward = 7050,
+    PartyTopicTalkId = "Invite/Kezhou_150301.story"
+  },
+  [150302] = {
+    MemoryDescription = "PartyReward_Description_150302",
+    MemoryIconPath = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Entertainment/T_Entertainment_Kezhou_2.T_Entertainment_Kezhou_2'",
+    MemoryName = "PartyReward_Name_150302",
+    PartyTopicConsume = {
+      [19005] = 5
+    },
+    PartyTopicDescription = "PartyTopic_Description_150302",
+    PartyTopicId = 150302,
+    PartyTopicName = "PartyTopic_Name_150302",
+    PartyTopicReward = 7051,
+    PartyTopicTalkId = "Invite/Kezhou_150302.story"
+  },
+  [150303] = {
+    MemoryDescription = "PartyReward_Description_150303",
+    MemoryIconPath = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Entertainment/T_Entertainment_Kezhou_3.T_Entertainment_Kezhou_3'",
+    MemoryName = "PartyReward_Name_150303",
+    PartyTopicConsume = {
+      [19001] = 8
+    },
+    PartyTopicDescription = "PartyTopic_Description_150303",
+    PartyTopicId = 150303,
+    PartyTopicName = "PartyTopic_Name_150303",
+    PartyTopicReward = 7052,
+    PartyTopicTalkId = "Invite/Kezhou_150303.story"
+  },
+  [150304] = {
+    MemoryDescription = "PartyReward_Description_150304",
+    MemoryIconPath = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Entertainment/T_Entertainment_Kezhou_4.T_Entertainment_Kezhou_4'",
+    MemoryName = "PartyReward_Name_150304",
+    PartyTopicConsume = {
+      [19008] = 10
+    },
+    PartyTopicDescription = "PartyTopic_Description_150304",
+    PartyTopicId = 150304,
+    PartyTopicName = "PartyTopic_Name_150304",
+    PartyTopicReward = 7053,
+    PartyTopicTalkId = "Invite/Kezhou_150304.story"
+  },
   [180101] = {
     ConditionId = 100204,
     MemoryDescription = "PartyReward_Description_180101",

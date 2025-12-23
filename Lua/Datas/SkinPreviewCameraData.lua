@@ -136,6 +136,396 @@ return ReadOnly("SkinPreviewCameraData", {
     },
     Time = 1.2
   },
+  Char_Beach_01_Boy = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_01_Boy",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_01_Girl = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_01_Girl",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_01_Loli = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_01_Loli",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_01_Man = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_01_Man",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_01_Woman = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_01_Woman",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_02_Boy = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_02_Boy",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_02_Girl = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_02_Girl",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_02_Loli = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_02_Loli",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_02_Man = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_02_Man",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_02_Woman = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_02_Woman",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_03_Boy = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_03_Boy",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_03_Girl = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_03_Girl",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_03_Loli = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_03_Loli",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_03_Man = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_03_Man",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
+  Char_Beach_03_Woman = {
+    BackwardLocation = {
+      250,
+      1200,
+      720
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Beach_03_Woman",
+    Ease = 14,
+    ForwardLocation = {
+      90,
+      310,
+      257
+    },
+    Location = {
+      112,
+      472,
+      358
+    },
+    Rotation = {
+      0,
+      -25.6,
+      -97
+    },
+    Time = 1.2
+  },
   Char_Bed_Boy = {
     BackwardLocation = {
       165,
@@ -284,6 +674,136 @@ return ReadOnly("SkinPreviewCameraData", {
       45,
       408,
       87
+    },
+    Rotation = {
+      0,
+      0,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_Bubblegun_Boy = {
+    BackwardLocation = {
+      47,
+      505,
+      87
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Bubblegun_Boy",
+    Ease = 14,
+    ForwardLocation = {
+      16,
+      180,
+      140
+    },
+    Location = {
+      45,
+      408,
+      87
+    },
+    Rotation = {
+      0,
+      0,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_Bubblegun_Girl = {
+    BackwardLocation = {
+      54,
+      525,
+      84
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Bubblegun_Girl",
+    Ease = 14,
+    ForwardLocation = {
+      16,
+      130,
+      135
+    },
+    Location = {
+      54,
+      375,
+      84
+    },
+    Rotation = {
+      0,
+      0,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_Bubblegun_Loli = {
+    BackwardLocation = {
+      38,
+      410,
+      73
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Bubblegun_Loli",
+    Ease = 14,
+    ForwardLocation = {
+      15,
+      150,
+      105
+    },
+    Location = {
+      38,
+      340,
+      73
+    },
+    Rotation = {
+      0,
+      0,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_Bubblegun_Man = {
+    BackwardLocation = {
+      52,
+      450,
+      101
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Bubblegun_Man",
+    Ease = 14,
+    ForwardLocation = {
+      25,
+      185,
+      160
+    },
+    Location = {
+      52,
+      450,
+      101
+    },
+    Rotation = {
+      0,
+      0,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_Bubblegun_Woman = {
+    BackwardLocation = {
+      40,
+      510,
+      95
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_Bubblegun_Woman",
+    Ease = 14,
+    ForwardLocation = {
+      16,
+      170,
+      148
+    },
+    Location = {
+      40,
+      430,
+      95
     },
     Rotation = {
       0,
@@ -1356,6 +1876,266 @@ return ReadOnly("SkinPreviewCameraData", {
     Rotation = {
       0,
       -12,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_FX_HelixLeap_Boy = {
+    BackwardLocation = {
+      -465,
+      -300,
+      93
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_FX_HelixLeap_Boy",
+    Ease = 14,
+    ForwardLocation = {
+      -338,
+      -220,
+      93
+    },
+    Location = {
+      -394,
+      -253,
+      93
+    },
+    Rotation = {
+      0,
+      0,
+      40
+    },
+    Time = 1.2
+  },
+  Char_FX_HelixLeap_Girl = {
+    BackwardLocation = {
+      -470,
+      -300,
+      90
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_FX_HelixLeap_Girl",
+    Ease = 14,
+    ForwardLocation = {
+      -327,
+      -214,
+      90
+    },
+    Location = {
+      -387,
+      -250,
+      90
+    },
+    Rotation = {
+      0,
+      0,
+      40
+    },
+    Time = 1.2
+  },
+  Char_FX_HelixLeap_Loli = {
+    BackwardLocation = {
+      -430,
+      -282,
+      80
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_FX_HelixLeap_Loli",
+    Ease = 14,
+    ForwardLocation = {
+      -305,
+      -200,
+      80
+    },
+    Location = {
+      -356,
+      -232,
+      80
+    },
+    Rotation = {
+      0,
+      0,
+      40
+    },
+    Time = 1.2
+  },
+  Char_FX_HelixLeap_Man = {
+    BackwardLocation = {
+      -513,
+      -335,
+      108
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_FX_HelixLeap_Man",
+    Ease = 14,
+    ForwardLocation = {
+      -390,
+      -254,
+      108
+    },
+    Location = {
+      -442,
+      -285,
+      108
+    },
+    Rotation = {
+      0,
+      0,
+      40
+    },
+    Time = 1.2
+  },
+  Char_FX_HelixLeap_Woman = {
+    BackwardLocation = {
+      -534,
+      -350,
+      105
+    },
+    CameraFocal = 38.6,
+    CameraName = "Char_FX_HelixLeap_Woman",
+    Ease = 14,
+    ForwardLocation = {
+      -377,
+      -247,
+      105
+    },
+    Location = {
+      -440,
+      -292,
+      105
+    },
+    Rotation = {
+      0,
+      0,
+      40
+    },
+    Time = 1.2
+  },
+  Char_FX_PlungingATK_Boy = {
+    BackwardLocation = {
+      73,
+      450,
+      163
+    },
+    CameraFocal = 24,
+    CameraName = "Char_FX_PlungingATK_Boy",
+    Ease = 14,
+    ForwardLocation = {
+      73,
+      350,
+      163
+    },
+    Location = {
+      73,
+      400,
+      163
+    },
+    Rotation = {
+      0,
+      -10,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_FX_PlungingATK_Girl = {
+    BackwardLocation = {
+      60,
+      450,
+      163
+    },
+    CameraFocal = 24,
+    CameraName = "Char_FX_PlungingATK_Girl",
+    Ease = 14,
+    ForwardLocation = {
+      60,
+      315,
+      163
+    },
+    Location = {
+      60,
+      400,
+      163
+    },
+    Rotation = {
+      0,
+      -10,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_FX_PlungingATK_Loli = {
+    BackwardLocation = {
+      65,
+      400,
+      153
+    },
+    CameraFocal = 24,
+    CameraName = "Char_FX_PlungingATK_Loli",
+    Ease = 14,
+    ForwardLocation = {
+      65,
+      300,
+      153
+    },
+    Location = {
+      65,
+      350,
+      153
+    },
+    Rotation = {
+      0,
+      -10,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_FX_PlungingATK_Man = {
+    BackwardLocation = {
+      81,
+      460,
+      183
+    },
+    CameraFocal = 24,
+    CameraName = "Char_FX_PlungingATK_Man",
+    Ease = 14,
+    ForwardLocation = {
+      81,
+      360,
+      183
+    },
+    Location = {
+      81,
+      420,
+      183
+    },
+    Rotation = {
+      0,
+      -10,
+      -90
+    },
+    Time = 1.2
+  },
+  Char_FX_PlungingATK_Woman = {
+    BackwardLocation = {
+      77,
+      450,
+      183
+    },
+    CameraFocal = 24,
+    CameraName = "Char_FX_PlungingATK_Woman",
+    Ease = 14,
+    ForwardLocation = {
+      77,
+      350,
+      183
+    },
+    Location = {
+      77,
+      400,
+      183
+    },
+    Rotation = {
+      0,
+      -10,
       -90
     },
     Time = 1.2

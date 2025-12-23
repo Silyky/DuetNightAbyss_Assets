@@ -1,43 +1,19 @@
 return ReadOnly("SkillCreature", {
-  [91] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai.BP_Mechanism_Paotai",
+  [5] = {
+    AttachOwner = 1,
     BoundCount = 1,
-    BulletFXID = 90,
-    CreatureId = 91,
-    HitEnemy = {92},
-    HitScene = {93},
+    CreatureId = 5,
+    DestroyWithCreator = 1,
+    FixedBornRotation = true,
+    HitScene = {4},
     ShapeInfo = {
-      BoxHeight = 5,
-      BoxLength = 5,
-      BoxWidth = 5,
+      BoxHeight = 20,
+      BoxLength = 200,
+      BoxWidth = 20,
       ShapeType = "Box"
     },
-    Speed = 5000,
-    Tags = {
-      "ExplodeBullet",
-      "PauseInvisible"
-    },
-    TimeLife = 5
-  },
-  [92] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai.BP_Mechanism_Paotai",
-    BoundCount = 1,
-    BulletFXID = 91,
-    CreatureId = 92,
-    HitEnemy = {95},
-    HitScene = {96},
-    ShapeInfo = {
-      BoxHeight = 1,
-      BoxLength = 1,
-      BoxWidth = 1,
-      ShapeType = "Box"
-    },
-    Speed = 15000,
-    Tags = {
-      "ExplodeBullet",
-      "PauseInvisible"
-    },
-    TimeLife = 5
+    Speed = 0,
+    TimeLife = -1
   },
   [101] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Paoku_IceBomb.BP_Paoku_IceBomb",
@@ -376,7 +352,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 30414,
     DestroyWithCreator = 1,
     Speed = 0,
-    TimeLife = 10
+    TimeLife = 8.5
   },
   [30415] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossOnline_Skill13AttachDamageCreature.BP_BossOnline_Skill13AttachDamageCreature",
@@ -385,7 +361,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 30415,
     DestroyWithCreator = 1,
     Speed = 0,
-    TimeLife = 10
+    TimeLife = 8.5
   },
   [30416] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossOnline_ColorCreature.BP_BossOnline_ColorCreature",
@@ -495,7 +471,7 @@ return ReadOnly("SkillCreature", {
     CreatureId = 49100,
     SpawnSocket = {
       EffectCreatureId = 9011,
-      SpawnSocket = "Root",
+      SpawnSocket = "spine_03",
       UseLocation = "EffectCreature"
     },
     Speed = 0,
@@ -508,9 +484,6 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     CreatureEffects = {60101},
     CreatureId = 60100,
-    SpawnSocket = {
-      SpawnSocket = "Root", UseLocation = "Char"
-    },
     Speed = 0,
     Tags = {
       "PauseInvisible"
@@ -521,9 +494,6 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     CreatureEffects = {60103},
     CreatureId = 60102,
-    SpawnSocket = {
-      SpawnSocket = "Root", UseLocation = "Char"
-    },
     Speed = 0,
     Tags = {
       "PauseInvisible"
@@ -578,7 +548,7 @@ return ReadOnly("SkillCreature", {
   },
   [60300] = {
     AttachOwner = 1,
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Pet603_Skill01_Control.BP_Pet603_Skill01_Control",
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Pet603_Skill01_Control_Inside.BP_Pet603_Skill01_Control_Inside",
     BoundCount = -1,
     CreatureId = 60300,
     Speed = 0,
@@ -588,18 +558,15 @@ return ReadOnly("SkillCreature", {
     TimeLife = 5
   },
   [60301] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Pet603_Skill01_Creature.BP_Pet603_Skill01_Creature",
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Pet603_Skill01_Creature_Inside.BP_Pet603_Skill01_Creature_Inside",
     BoundCount = -1,
     BulletFXID = 6031,
     CreatureId = 60301,
-    HitEnemy = {60302},
+    HitEnemy = 60302,
     RefreshTargetParam = 0.2,
     RefreshTargetRule = 1,
     ShapeInfo = {
-      BoxHeight = 15,
-      BoxLength = 15,
-      BoxWidth = 15,
-      ShapeType = "Box"
+      Radius = 10, ShapeType = "Sphere"
     },
     Speed = 0,
     Tags = {
@@ -607,25 +574,113 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 4.9
   },
+  [60302] = {
+    AttachOwner = 1,
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Pet603_Skill01_Control_Outside.BP_Pet603_Skill01_Control_Outside",
+    BoundCount = -1,
+    CreatureId = 60302,
+    Speed = 0,
+    Tags = {
+      "PauseInvisible"
+    },
+    TimeLife = 5
+  },
   [60303] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Pet603_Skill01_Creature.BP_Pet603_Skill01_Creature",
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Pet603_Skill01_Creature_Outside.BP_Pet603_Skill01_Creature_Outside",
     BoundCount = -1,
     BulletFXID = 6033,
     CreatureId = 60303,
-    HitEnemy = {60304},
+    HitEnemy = 60302,
     RefreshTargetParam = 0.2,
     RefreshTargetRule = 1,
     ShapeInfo = {
-      BoxHeight = 30,
-      BoxLength = 30,
-      BoxWidth = 30,
-      ShapeType = "Box"
+      Radius = 20, ShapeType = "Sphere"
     },
     Speed = 0,
     Tags = {
       "PauseInvisible"
     },
     TimeLife = 4.9
+  },
+  [90001] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai.BP_Mechanism_Paotai",
+    BoundCount = 1,
+    BulletFXID = 90001,
+    CreatureId = 90001,
+    HitEnemy = {90002},
+    HitScene = {90003},
+    ShapeInfo = {
+      BoxHeight = 5,
+      BoxLength = 5,
+      BoxWidth = 5,
+      ShapeType = "Box"
+    },
+    Speed = 5000,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 5
+  },
+  [90002] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai.BP_Mechanism_Paotai",
+    BoundCount = 1,
+    BulletFXID = 90002,
+    CreatureId = 90002,
+    HitEnemy = {90005},
+    HitScene = {90006},
+    ShapeInfo = {
+      BoxHeight = 1,
+      BoxLength = 1,
+      BoxWidth = 1,
+      ShapeType = "Box"
+    },
+    Speed = 15000,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 5
+  },
+  [90011] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Temple.BP_Mechanism_Paotai_Temple",
+    BoundCount = 1,
+    BulletFXID = 90001,
+    CreatureId = 90011,
+    HitEnemy = {90012},
+    HitScene = {90013},
+    ShapeInfo = {
+      BoxHeight = 5,
+      BoxLength = 5,
+      BoxWidth = 5,
+      ShapeType = "Box"
+    },
+    Speed = 5000,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 5
+  },
+  [90012] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Temple.BP_Mechanism_Paotai_Temple",
+    BoundCount = 1,
+    BulletFXID = 90002,
+    CreatureId = 90012,
+    HitEnemy = {90015},
+    HitScene = {90016},
+    ShapeInfo = {
+      BoxHeight = 1,
+      BoxLength = 1,
+      BoxWidth = 1,
+      ShapeType = "Box"
+    },
+    Speed = 15000,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 5
   },
   [110141] = {
     AllowAttackRangeModify = {
@@ -831,21 +886,25 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 20
   },
-  [110212] = {
+  [110202] = {
+    AllowSkillRangeModify = {
+      true
+    },
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Fuluo_DollAttack.BP_Fuluo_DollAttack",
     BoundCount = -1,
-    CreatureId = 110212,
+    CreatureId = 110202,
+    EffectCreatureID = 110202,
     EnterPool = true,
     FixedBornRotation = true,
-    HitEnemy = {110216},
+    HitEnemy = {110242},
     ShapeInfo = {
-      Radius = 600, ShapeType = "Sphere"
+      Radius = 300, ShapeType = "Sphere"
     },
     Speed = 0,
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = 1
+    TimeLife = 2
   },
   [110301] = {
     AttachOwner = 1,
@@ -1028,6 +1087,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     CreatureEffects = {150213},
     CreatureId = 150201,
+    DestroyWithCreator = 1,
     EnterPool = true,
     FixedBornRotation = true,
     RealDestroyEffects = 150218,
@@ -1048,6 +1108,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     CreatureEffects = {150214},
     CreatureId = 150202,
+    DestroyWithCreator = 1,
     EnterPool = true,
     FixedBornRotation = true,
     RealDestroyEffects = 150217,
@@ -1068,6 +1129,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     CreatureEffects = {150224},
     CreatureId = 150203,
+    DestroyWithCreator = 1,
     EnterPool = true,
     FixedBornRotation = true,
     RealDestroyEffects = 150218,
@@ -1088,6 +1150,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = -1,
     CreatureEffects = {150225},
     CreatureId = 150204,
+    DestroyWithCreator = 1,
     EnterPool = true,
     FixedBornRotation = true,
     RealDestroyEffects = 150217,
@@ -1113,7 +1176,12 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = 0.9
+    TimeLife = 0.9,
+    WindInfo = {
+      Radius = 2.5,
+      Strength = 50,
+      WindMotorType = "Omni"
+    }
   },
   [150321] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Kezhou_Creature_Sword_Skill02.BP_Kezhou_Creature_Sword_Skill02",
@@ -1239,7 +1307,12 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = 0.8
+    TimeLife = 0.8,
+    WindInfo = {
+      Radius = 2.5,
+      Strength = 50,
+      WindMotorType = "Omni"
+    }
   },
   [150333] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Kezhou_ShadowSword_Creature.BP_Kezhou_ShadowSword_Creature",
@@ -1290,7 +1363,7 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 1,
     WindInfo = {
-      Radius = 2.5,
+      Radius = 1.5,
       Strength = 50,
       WindMotorType = "Omni"
     }
@@ -1317,11 +1390,8 @@ return ReadOnly("SkillCreature", {
       "PauseInvisible"
     },
     TimeLife = 2,
-    Vars = {
-      IsHeavyAttack = true
-    },
     WindInfo = {
-      Radius = 2.5,
+      Radius = 1.5,
       Strength = 50,
       WindMotorType = "Omni"
     }
@@ -1352,7 +1422,7 @@ return ReadOnly("SkillCreature", {
       IsHeavyAttack = true
     },
     WindInfo = {
-      Radius = 2.5,
+      Radius = 1.5,
       Strength = 50,
       WindMotorType = "Omni"
     }
@@ -1388,6 +1458,8 @@ return ReadOnly("SkillCreature", {
       Interval = 0.25,
       SkillEffects = 26
     },
+    RefreshTargetParam = 0.5,
+    RefreshTargetRule = 1,
     ShapeInfo = {
       BoxHeight = 150,
       BoxLength = 150,
@@ -1404,18 +1476,16 @@ return ReadOnly("SkillCreature", {
   },
   [150402] = {
     BoundCount = 1,
-    BulletFXID = 2030101,
+    BulletFXID = 150421,
     CreatureId = 150402,
     DestroyWithCreator = 1,
     EffectMultiple = true,
     FixSpeedByWeapon = true,
-    HitEnemy = {150434},
+    HitEnemy = 150434,
     HitScene = {150435},
     ParabolaInfo = {
-      Ecc = 0.96,
-      EccRange = {
-        0.92, 1
-      },
+      Ecc = 0.97,
+      EccRange = {0.95, 1},
       K = 0.5,
       Length = 3000
     },
@@ -1424,11 +1494,6 @@ return ReadOnly("SkillCreature", {
       BoxLength = 10,
       BoxWidth = 5,
       ShapeType = "Box"
-    },
-    SpawnSocket = {
-      EffectCreatureId = 150401,
-      SpawnSocket = "Root",
-      UseLocation = "EffectCreature"
     },
     Speed = 3000,
     Tags = {
@@ -1461,11 +1526,6 @@ return ReadOnly("SkillCreature", {
       BoxLength = 10,
       BoxWidth = 10,
       ShapeType = "Box"
-    },
-    SpawnSocket = {
-      EffectCreatureId = 150401,
-      SpawnSocket = "Root",
-      UseLocation = "EffectCreature"
     },
     Speed = 8000,
     Tags = {
@@ -1508,7 +1568,7 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "ExplodeBullet"
     },
-    TimeLife = 0.7,
+    TimeLife = 0.5,
     WindInfo = {
       Radius = 2,
       Strength = 20,
@@ -1516,112 +1576,348 @@ return ReadOnly("SkillCreature", {
     }
   },
   [150405] = {
+    AttachOwner = 1,
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Suyi_Skill01_Creature_02.BP_Suyi_Skill01_Creature_02",
     BoundCount = -1,
     ClientOwner = true,
     CreatureId = 150405,
-    HitEnemy = 150453,
-    ShapeInfo = {
-      BoxHeight = 400,
-      BoxLength = 1200,
-      BoxWidth = 1000,
-      ShapeType = "Box"
-    },
-    Speed = 15000,
-    Tags = {
-      "PauseInvisible"
-    },
-    TimeLife = 0.2,
-    WindInfo = {
-      Radius = 3,
-      Strength = 50,
-      WindMotorType = "Omni"
-    }
-  },
-  [150406] = {
-    BoundCount = 1,
-    ClientOwner = true,
-    CreatureId = 150406,
-    HitScene = {150454},
-    ShapeInfo = {
-      BoxHeight = 2,
-      BoxLength = 5,
-      BoxWidth = 2,
-      ShapeType = "Box"
-    },
-    Speed = 15000,
-    Tags = {
-      "PauseInvisible"
-    },
-    TimeLife = 0.2,
-    WindInfo = {
-      Radius = 3,
-      Strength = 50,
-      WindMotorType = "Omni"
-    }
-  },
-  [150407] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Suyi_Skill01_Creature_02.BP_Suyi_Skill01_Creature_02",
-    BoundCount = -1,
-    CreatureId = 150407,
     DestroyWithCreator = 1,
-    HitEnemy = 150453,
+    DirectionOnSocket = true,
+    FixedBornRotation = true,
+    HitEnemy = {150455},
     ShapeInfo = {
-      BoxHeight = 400,
-      BoxLength = 1200,
-      BoxWidth = 1000,
+      BoxHeight = 200,
+      BoxLength = 200,
+      BoxWidth = 2000,
       ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "root_hook_arm_r",
+      UseLocation = "Char"
     },
     Speed = 0,
-    TimeLife = -1,
-    WindInfo = {
-      Radius = 1,
-      Strength = 50,
-      WindMotorType = "Directional"
-    }
+    Tags = {
+      "PauseInvisible"
+    },
+    TickCollision = true,
+    TimeLife = -1
+  },
+  [150406] = {
+    AttachOwner = 1,
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Suyi_Skill01_Creature_02.BP_Suyi_Skill01_Creature_02",
+    BoundCount = -1,
+    ClientOwner = true,
+    CreatureId = 150406,
+    DestroyWithCreator = 1,
+    DirectionOnSocket = true,
+    FixedBornRotation = true,
+    HitEnemy = {150456},
+    ShapeInfo = {
+      BoxHeight = 200,
+      BoxLength = 200,
+      BoxWidth = 2000,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "root_hook_arm_r",
+      UseLocation = "Char"
+    },
+    Speed = 0,
+    Tags = {
+      "PauseInvisible"
+    },
+    TickCollision = true,
+    TimeLife = -1
+  },
+  [150411] = {
+    BoundCount = -1,
+    CreatureId = 150411,
+    DestroyWithCreator = 1,
+    RealDestroyEffects = 150434,
+    Speed = 0,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 0.01
   },
   [150421] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Suyi_Skill02_Creature.BP_Suyi_Skill02_Creature",
     BoundCount = 1,
     ClientOwner = true,
+    CollisionDelayTime = 0.8,
     CreatureId = 150421,
     DestroyWithCreator = 1,
-    DontDestroyExceptLife = true,
-    EffectCreatureID = 510111,
+    EffectCreatureID = 150413,
     HitEnemy = {150426},
     HitEnemyIgnore = 1,
     HitScene = {150427},
     ShapeInfo = {
-      BoxHeight = 50,
-      BoxLength = 100,
-      BoxWidth = 200,
-      ShapeType = "Box"
+      Radius = 10, ShapeType = "Sphere"
     },
-    Speed = 1000,
+    Speed = 3000,
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = 7,
+    TimeLife = 3,
     WindInfo = {
       Radius = 3,
       Strength = 50,
       WindMotorType = "Omni"
     }
   },
-  [150422] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Suyi_Skill02_Shield.BP_Suyi_Skill02_Shield",
+  [150441] = {
+    BornLocationOffset = {
+      5,
+      0,
+      90
+    },
     BoundCount = -1,
-    CreatureId = 150422,
+    CreatureId = 150441,
     DestroyWithCreator = 1,
+    EffectMultiple = true,
+    FixSpeedByWeapon = true,
+    HitOthers = {
+      1,
+      0,
+      0
+    },
     ShapeInfo = {
-      BoxHeight = 50,
-      BoxLength = 100,
-      BoxWidth = 200,
+      BoxHeight = 10,
+      BoxLength = 10,
+      BoxWidth = 10,
       ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "Root", UseLocation = "Weapon"
     },
     Speed = 0,
     Tags = {
+      "ExplodeBullet"
+    },
+    TimeLife = 0.5,
+    WindInfo = {
+      Radius = 2,
+      Strength = 20,
+      WindMotorType = "Omni"
+    }
+  },
+  [150501] = {
+    AllowAttackRangeModify = {
+      false,
+      true,
+      false
+    },
+    AllowSkillRangeModify = {
+      false,
+      true,
+      false
+    },
+    AttackRangeType = "Normal",
+    BoundCount = -1,
+    BulletFXID = 160101,
+    ClientOwner = true,
+    CreatureId = 150501,
+    DestroyWithCreator = 1,
+    HitEnemy = 150533,
+    ShapeInfo = {
+      BoxHeight = 50,
+      BoxLength = 500,
+      BoxWidth = 200,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "hook_arm_r", UseLocation = "Weapon"
+    },
+    Speed = 3500,
+    Tags = {
       "PauseInvisible"
     },
+    TimeLife = 2,
+    WindInfo = {
+      Radius = 2.5,
+      Strength = 50,
+      WindMotorType = "Omni"
+    }
+  },
+  [150502] = {
+    AllowAttackRangeModify = {
+      false,
+      true,
+      false
+    },
+    AllowSkillRangeModify = {
+      false,
+      true,
+      false
+    },
+    AttackRangeType = "Normal",
+    BoundCount = 1,
+    BulletFXID = 160102,
+    ClientOwner = true,
+    CreatureId = 150502,
+    DestroyWithCreator = 1,
+    HitEnemy = 150534,
+    ShapeInfo = {
+      BoxHeight = 100,
+      BoxLength = 500,
+      BoxWidth = 200,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "hook_arm_r", UseLocation = "Weapon"
+    },
+    Speed = 3500,
+    Tags = {
+      "PauseInvisible"
+    },
+    TimeLife = 2,
+    WindInfo = {
+      Radius = 2.5,
+      Strength = 50,
+      WindMotorType = "Omni"
+    }
+  },
+  [150503] = {
+    AllowAttackRangeModify = {
+      true,
+      true,
+      true
+    },
+    AllowSkillRangeModify = {
+      true,
+      true,
+      true
+    },
+    AttachOwner = 1,
+    AttackRangeType = "Normal",
+    BoundCount = -1,
+    CreatureId = 150503,
+    DestroyWithCreator = 1,
+    HitEnemy = {150542},
+    ShapeInfo = {
+      Height = 200,
+      Radius = 300,
+      ShapeType = "Cylinder"
+    },
+    SpawnSocket = {
+      SpawnSocket = "Root", UseLocation = "Char"
+    },
+    Speed = 0,
+    TimeLife = 0.5
+  },
+  [150504] = {
+    AllowAttackRangeModify = {
+      true,
+      true,
+      true
+    },
+    AllowSkillRangeModify = {
+      true,
+      true,
+      true
+    },
+    AttachOwner = 1,
+    AttackRangeType = "Normal",
+    BoundCount = 1,
+    BulletFXID = 150504,
+    CreatureId = 150504,
+    DestroyWithCreator = 1,
+    DontDestroyExceptLife = true,
+    HitEnemy = {150563, 150564},
+    RefreshTargetParam = 1,
+    RefreshTargetRule = 3,
+    ShapeInfo = {
+      Height = 200,
+      Radius = 600,
+      ShapeType = "Cylinder"
+    },
+    SpawnSocket = {
+      SpawnSocket = "Root", UseLocation = "Char"
+    },
+    Speed = 0,
+    TickCollision = true,
     TimeLife = -1
+  },
+  [150511] = {
+    AllowAttackRangeModify = {
+      false,
+      true,
+      false
+    },
+    AllowSkillRangeModify = {
+      false,
+      true,
+      false
+    },
+    AttackRangeType = "Normal",
+    BoundCount = -1,
+    BulletFXID = 160101,
+    ClientOwner = true,
+    CreatureId = 150511,
+    DestroyWithCreator = 1,
+    HitEnemy = 150533,
+    ShapeInfo = {
+      BoxHeight = 50,
+      BoxLength = 500,
+      BoxWidth = 200,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      EffectCreatureId = 150511,
+      SpawnSocket = "hook_arm_r",
+      UseLocation = "EffectCreature"
+    },
+    Speed = 3500,
+    Tags = {
+      "PauseInvisible"
+    },
+    TimeLife = 2,
+    WindInfo = {
+      Radius = 2.5,
+      Strength = 50,
+      WindMotorType = "Omni"
+    }
+  },
+  [150521] = {
+    AllowAttackRangeModify = {
+      false,
+      true,
+      false
+    },
+    AllowSkillRangeModify = {
+      false,
+      true,
+      false
+    },
+    AttackRangeType = "Normal",
+    BoundCount = 1,
+    BulletFXID = 160102,
+    ClientOwner = true,
+    CreatureId = 150521,
+    DestroyWithCreator = 1,
+    HitEnemy = 150534,
+    ShapeInfo = {
+      BoxHeight = 100,
+      BoxLength = 500,
+      BoxWidth = 200,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      EffectCreatureId = 150512,
+      SpawnSocket = "hook_arm_r",
+      UseLocation = "EffectCreature"
+    },
+    Speed = 3500,
+    Tags = {
+      "PauseInvisible"
+    },
+    TimeLife = 2,
+    WindInfo = {
+      Radius = 2.5,
+      Strength = 50,
+      WindMotorType = "Omni"
+    }
   },
   [160101] = {
     AllowSkillRangeModify = {
@@ -1649,7 +1945,7 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 2,
     WindInfo = {
-      Radius = 2.5,
+      Radius = 1,
       Strength = 50,
       WindMotorType = "Omni"
     }
@@ -1680,7 +1976,7 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 2,
     WindInfo = {
-      Radius = 2.5,
+      Radius = 1,
       Strength = 50,
       WindMotorType = "Omni"
     }
@@ -2163,6 +2459,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 1.3
   },
   [410230] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Zhiliu_Skill02_Common.BP_Zhiliu_Skill02_Common",
     BoundCount = 1,
     CreatureId = 410230,
     DestroyWithCreator = 1,
@@ -2176,7 +2473,10 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = 5
+    TimeLife = 5,
+    Vars = {
+      RotType = 1
+    }
   },
   [410231] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Zhiliu_Skill02_Common.BP_Zhiliu_Skill02_Common",
@@ -2235,6 +2535,37 @@ return ReadOnly("SkillCreature", {
       RotType = 1
     }
   },
+  [410240] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Zhiliu_Skill02_TD_Direct_W.BP_Zhiliu_Skill02_TD_Direct_W",
+    BoundCount = -1,
+    CreatureId = 410240,
+    DestroyWithCreator = 1,
+    FixedBornRotation = true,
+    FixedMoveRotation = true,
+    Speed = 0,
+    Tags = {
+      "PauseInvisible"
+    },
+    TimeLife = 5
+  },
+  [410241] = {
+    BoundCount = -1,
+    CreatureId = 410241,
+    DestroyWithCreator = 1,
+    FixedBornRotation = true,
+    FixedMoveRotation = true,
+    LoopExecuteSkillEffects = {
+      AllowSkillSpeed = 1,
+      Interval = 2.43,
+      Loop = 0,
+      SkillEffects = {410262, 410243}
+    },
+    Speed = 0,
+    Tags = {
+      "PauseInvisible"
+    },
+    TimeLife = 5
+  },
   [410244] = {
     BoundCount = -1,
     ClientOwner = true,
@@ -2248,7 +2579,7 @@ return ReadOnly("SkillCreature", {
       Loop = 0,
       SkillEffects = {
         410267,
-        410244,
+        410264,
         410245
       }
     },
@@ -2264,7 +2595,7 @@ return ReadOnly("SkillCreature", {
     },
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Zhiliu_Skill02_TD.BP_Zhiliu_Skill02_TD",
     BoundCount = -1,
-    BulletFXID = 410212,
+    BulletFXID = 410222,
     CreatureId = 410245,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
@@ -2402,7 +2733,12 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = 3
+    TimeLife = 3,
+    WindInfo = {
+      Radius = 3,
+      Strength = 50,
+      WindMotorType = "Directional"
+    }
   },
   [430113] = {
     AllowSkillRangeModify = {
@@ -2503,7 +2839,6 @@ return ReadOnly("SkillCreature", {
   },
   [510102] = {
     AttachOwner = 1,
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Songlu_SceneBox.BP_Songlu_SceneBox",
     BoundCount = 1,
     CreatureId = 510102,
     DestroyWithCreator = 1,
@@ -2581,7 +2916,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = -1,
     WindInfo = {
       Radius = 1,
-      Strength = 50,
+      Strength = 20,
       WindMotorType = "Directional"
     }
   },
@@ -4200,7 +4535,7 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 850205,
     CreatureId = 850208,
     FixedBornRotation = true,
-    HitEnemy = {850234},
+    HitEnemy = 850234,
     SpawnSocket = {
       SpawnSocket = "Root", UseLocation = "Char"
     },
@@ -4277,6 +4612,7 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 850207,
     CollisionDelayTime = 1.3,
     CreatureId = 850211,
+    DelayDestroyTime = 1,
     FixedBornRotation = true,
     HitEnemy = 850223,
     HitScene = 850223,
@@ -5008,7 +5344,9 @@ return ReadOnly("SkillCreature", {
     BulletFXID = 850302,
     CreatureId = 850325,
     DestroyWithCreator = 1,
-    HitEnemy = {8503158, 8503219},
+    HitEnemy = {
+      8503158, 8503219
+    },
     HitOthers = {
       1,
       0,
@@ -5024,7 +5362,8 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseRemovable"
     },
-    TimeLife = 5
+    TimeLife = 5,
+    Vars = {WaveTag = 1}
   },
   [850326] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Shijingzhe_Skill23_3.BP_Shijingzhe_Skill23_3",
@@ -5063,6 +5402,60 @@ return ReadOnly("SkillCreature", {
       "PauseRemovable"
     },
     TimeLife = 5
+  },
+  [850328] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Shijingzhe_Skill23_2.BP_Shijingzhe_Skill23_2",
+    BoundCount = -1,
+    BulletFXID = 850302,
+    CreatureId = 850328,
+    DestroyWithCreator = 1,
+    HitEnemy = {
+      8503158, 8503219
+    },
+    HitOthers = {
+      1,
+      0,
+      0
+    },
+    ShapeInfo = {
+      Radius = 150, ShapeType = "Sphere"
+    },
+    SpawnSocket = {
+      SpawnSocket = "Root", UseLocation = "Char"
+    },
+    Speed = 1000,
+    Tags = {
+      "PauseRemovable"
+    },
+    TimeLife = 5,
+    Vars = {WaveTag = 2}
+  },
+  [850329] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Shijingzhe_Skill23_2.BP_Shijingzhe_Skill23_2",
+    BoundCount = -1,
+    BulletFXID = 850302,
+    CreatureId = 850329,
+    DestroyWithCreator = 1,
+    HitEnemy = {
+      8503158, 8503219
+    },
+    HitOthers = {
+      1,
+      0,
+      0
+    },
+    ShapeInfo = {
+      Radius = 150, ShapeType = "Sphere"
+    },
+    SpawnSocket = {
+      SpawnSocket = "Root", UseLocation = "Char"
+    },
+    Speed = 1000,
+    Tags = {
+      "PauseRemovable"
+    },
+    TimeLife = 5,
+    Vars = {WaveTag = 3}
   },
   [850401] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Saiqi02_Skill10_Bullet.BP_Boss_Saiqi02_Skill10_Bullet",
@@ -5364,6 +5757,7 @@ return ReadOnly("SkillCreature", {
     FixedBornRotation = true,
     HitEnemy = 850534,
     HitScene = 850534,
+    ServerOwner = true,
     ShapeInfo = {
       Radius = 340, ShapeType = "Sphere"
     },
@@ -5402,6 +5796,7 @@ return ReadOnly("SkillCreature", {
     FixedBornRotation = true,
     HitEnemy = 850543,
     HitScene = 850543,
+    ServerOwner = true,
     ShapeInfo = {
       Radius = 340, ShapeType = "Sphere"
     },
@@ -5685,7 +6080,6 @@ return ReadOnly("SkillCreature", {
     TimeLife = 2
   },
   [851002] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Heilong_Skill04_Bullet.BP_Heilong_Skill04_Bullet",
     BoundCount = 1,
     BulletFXID = 851001,
     CollisionDelayTime = 0.1,
@@ -5701,11 +6095,9 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseRemovable"
     },
-    TimeLife = 3,
-    Vars = {DamageInterval = 1, SkillEffectId = 851009}
+    TimeLife = 3
   },
   [851003] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Heilong_Skill04_Bullet.BP_Heilong_Skill04_Bullet",
     BoundCount = 1,
     BulletFXID = 851002,
     CollisionDelayTime = 0.1,
@@ -5721,14 +6113,14 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseRemovable"
     },
-    TimeLife = 3,
-    Vars = {DamageInterval = 1, SkillEffectId = 851010}
+    TimeLife = 3
   },
   [851004] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Heilong_Skill07_02_Bullet.BP_Heilong_Skill07_02_Bullet",
     BoundCount = -1,
     BulletFXID = 851008,
     CreatureId = 851004,
+    DelayDestroyTime = 1.3,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     ShapeInfo = {
@@ -5744,7 +6136,7 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseRemovable"
     },
-    TimeLife = 16,
+    TimeLife = 15,
     TraceAxisLock = {
       Z = true
     },
@@ -5757,10 +6149,10 @@ return ReadOnly("SkillCreature", {
   [851005] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Heilong_Skill07_Bullet.BP_Heilong_Skill07_Bullet",
     BoundCount = 1,
-    BulletFXID = 851010,
+    BulletFXID = 851009,
     CollisionDelayTime = 1.3,
     CreatureId = 851005,
-    DelayPlayFX = 1.3,
+    DelayDestroyTime = 1,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     HitEnemy = 851020,
@@ -5772,15 +6164,15 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseRemovable"
     },
-    TimeLife = 1.5,
-    UnAttachBulletFXID = 851009
+    TimeLife = 1.5
   },
   [851006] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Heilong_Skill07_Bullet.BP_Heilong_Skill07_Bullet",
     BoundCount = 1,
-    BulletFXID = 851012,
+    BulletFXID = 851011,
     CollisionDelayTime = 1.3,
     CreatureId = 851006,
+    DelayDestroyTime = 3,
     DelayPlayFX = 1.3,
     FixedBornRotation = true,
     HitEnemy = 851023,
@@ -5793,20 +6185,21 @@ return ReadOnly("SkillCreature", {
       "PauseRemovable"
     },
     TimeLife = 1.5,
-    UnAttachBulletFXID = 851011,
     Vars = {Radius = 600}
   },
   [851007] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Heilong_Skill09_Bullet.BP_Heilong_Skill09_Bullet",
     BoundCount = -1,
-    BulletFXID = 851007,
+    BulletFXID = 851013,
     CreatureId = 851007,
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     HitEnemy = {851032},
     RefreshTargetParam = 0.5,
     RefreshTargetRule = 1,
-    ShapeInfo = {Radius = 350, ShapeType = "Sphere"},
+    ShapeInfo = {
+      Radius = 350, ShapeType = "Sphere"
+    },
     SpawnSocket = {
       SpawnSocket = "Root", UseLocation = "Char"
     },
@@ -5826,6 +6219,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     CollisionDelayTime = 1.5,
     CreatureId = 851008,
+    DontDestroyExceptLife = true,
     FixedBornRotation = true,
     HitEnemy = 851026,
     HitScene = 851026,
@@ -5838,7 +6232,7 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 2,
     Vars = {
-      Yaw = 0
+      Yaw = 180
     }
   },
   [851009] = {
@@ -5846,6 +6240,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     CollisionDelayTime = 1.5,
     CreatureId = 851009,
+    DontDestroyExceptLife = true,
     FixedBornRotation = true,
     HitEnemy = 851026,
     HitScene = 851026,
@@ -5866,6 +6261,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     CollisionDelayTime = 1.5,
     CreatureId = 851010,
+    DontDestroyExceptLife = true,
     FixedBornRotation = true,
     HitEnemy = 851026,
     HitScene = 851026,
@@ -5878,7 +6274,7 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 2,
     Vars = {
-      Yaw = 180
+      Yaw = 0
     }
   },
   [851011] = {
@@ -5886,6 +6282,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     CollisionDelayTime = 1.5,
     CreatureId = 851011,
+    DontDestroyExceptLife = true,
     FixedBornRotation = true,
     HitEnemy = 851026,
     HitScene = 851026,
@@ -5901,16 +6298,44 @@ return ReadOnly("SkillCreature", {
       Yaw = 270
     }
   },
+  [851012] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Common_ShockWave.BP_Common_ShockWave",
+    BoundCount = -1,
+    BulletFXID = 851014,
+    CreatureId = 851012,
+    FixedBornRotation = true,
+    HitEnemy = 850234,
+    SpawnSocket = {
+      SpawnSocket = "Root", UseLocation = "Char"
+    },
+    Speed = 0,
+    Tags = {
+      "PauseRemovable"
+    },
+    TimeLife = 3,
+    Vars = {Vector = 1400}
+  },
+  [851013] = {
+    BoundCount = 1,
+    BulletFXID = 851015,
+    CreatureId = 851013,
+    ShapeInfo = {
+      Radius = 350, ShapeType = "Sphere"
+    },
+    Speed = 2500,
+    Tags = {
+      "PauseRemovable"
+    },
+    TimeLife = 1,
+    TimeToHit = 1
+  },
   [851101] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Heilong_Skill04_Bullet.BP_Heilong_Skill04_Bullet",
     BoundCount = 1,
-    BulletFXID = 851001,
     CollisionDelayTime = 0.1,
     CreatureId = 851101,
     DontDestroyExceptLife = true,
     FixedBornRotation = true,
-    HitEnemy = 851106,
-    HitScene = 851106,
     ShapeInfo = {
       Radius = 3000, ShapeType = "Sphere"
     },
@@ -5919,22 +6344,15 @@ return ReadOnly("SkillCreature", {
       "PauseRemovable"
     },
     TimeLife = 3,
-    Vars = {DamageInterval = 1, SkillEffectId02 = 851108}
+    Vars = {SkillEffectId02 = 851106}
   },
   [851102] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Heilong_Skill04_Bullet.BP_Heilong_Skill04_Bullet",
     BoundCount = 1,
-    BulletFXID = 851002,
     CollisionDelayTime = 0.1,
     CreatureId = 851102,
     DontDestroyExceptLife = true,
     FixedBornRotation = true,
-    HitEnemy = {
-      851105, 851107
-    },
-    HitScene = {
-      851105, 851107
-    },
     ShapeInfo = {
       Radius = 3000, ShapeType = "Sphere"
     },
@@ -5943,17 +6361,14 @@ return ReadOnly("SkillCreature", {
       "PauseRemovable"
     },
     TimeLife = 3,
-    Vars = {
-      DamageInterval = 1,
-      SkillEffectId03 = 851109,
-      SkillEffectId04 = 851110
-    }
+    Vars = {SkillEffectId03 = 851105, SkillEffectId04 = 851107}
   },
   [851103] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Heilong_Skill08.BP_Boss_Heilong_Skill08",
     BoundCount = 1,
     CollisionDelayTime = 1.5,
     CreatureId = 851103,
+    DontDestroyExceptLife = true,
     FixedBornRotation = true,
     HitEnemy = 851026,
     HitScene = 851026,
@@ -5966,7 +6381,7 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 2,
     Vars = {
-      Yaw = 180
+      Yaw = 0
     }
   },
   [851104] = {
@@ -5974,6 +6389,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     CollisionDelayTime = 1.5,
     CreatureId = 851104,
+    DontDestroyExceptLife = true,
     FixedBornRotation = true,
     HitEnemy = 851026,
     HitScene = 851026,
@@ -5994,6 +6410,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     CollisionDelayTime = 1.5,
     CreatureId = 851105,
+    DontDestroyExceptLife = true,
     FixedBornRotation = true,
     HitEnemy = 851026,
     HitScene = 851026,
@@ -6006,7 +6423,7 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 2,
     Vars = {
-      Yaw = 0
+      Yaw = 180
     }
   },
   [851106] = {
@@ -6014,6 +6431,7 @@ return ReadOnly("SkillCreature", {
     BoundCount = 1,
     CollisionDelayTime = 1.5,
     CreatureId = 851106,
+    DontDestroyExceptLife = true,
     FixedBornRotation = true,
     HitEnemy = 851026,
     HitScene = 851026,
@@ -7800,54 +8218,6 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 4
   },
-  [851601] = {
-    AttachOwner = 1,
-    BoundCount = -1,
-    BulletFXID = 851601,
-    CreatureId = 851601,
-    DestroyWithCreator = 1,
-    DirectionOnSocket = true,
-    FixedBornRotation = true,
-    FixedMoveRotation = true,
-    ShapeInfo = {
-      BoxHeight = 150,
-      BoxLength = 150,
-      BoxWidth = 500,
-      ShapeType = "Box"
-    },
-    SpawnSocket = {
-      SpawnSocket = "LeftArm_slot",
-      UseLocation = "Char"
-    },
-    Tags = {
-      "PauseRemovable"
-    },
-    TimeLife = 1.5
-  },
-  [851602] = {
-    AttachOwner = 1,
-    BoundCount = -1,
-    BulletFXID = 851602,
-    CreatureId = 851602,
-    DestroyWithCreator = 1,
-    DirectionOnSocket = true,
-    FixedBornRotation = true,
-    FixedMoveRotation = true,
-    ShapeInfo = {
-      BoxHeight = 200,
-      BoxLength = 200,
-      BoxWidth = 800,
-      ShapeType = "Box"
-    },
-    SpawnSocket = {
-      SpawnSocket = "LeftArm_slot",
-      UseLocation = "Char"
-    },
-    Tags = {
-      "PauseRemovable"
-    },
-    TimeLife = 1.5
-  },
   [851603] = {
     BoundCount = 1,
     BulletFXID = 851605,
@@ -7949,10 +8319,7 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    SpawnSocket = {
-      SpawnSocket = "RightArm_slot",
-      UseLocation = "Char"
-    },
+    SpawnSocket = {SpawnSocket = "LaserShoot", UseLocation = "Char"},
     Tags = {
       "PauseRemovable"
     },
@@ -8007,54 +8374,6 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 2
   },
-  [851612] = {
-    AttachOwner = 1,
-    BoundCount = -1,
-    BulletFXID = 851618,
-    CreatureId = 851612,
-    DestroyWithCreator = 1,
-    DirectionOnSocket = true,
-    FixedBornRotation = true,
-    FixedMoveRotation = true,
-    ShapeInfo = {
-      BoxHeight = 300,
-      BoxLength = 300,
-      BoxWidth = 1200,
-      ShapeType = "Box"
-    },
-    SpawnSocket = {
-      SpawnSocket = "RightArm_slot",
-      UseLocation = "Char"
-    },
-    Tags = {
-      "PauseRemovable"
-    },
-    TimeLife = 6
-  },
-  [851613] = {
-    AttachOwner = 1,
-    BoundCount = -1,
-    BulletFXID = 851618,
-    CreatureId = 851613,
-    DestroyWithCreator = 1,
-    DirectionOnSocket = true,
-    FixedBornRotation = true,
-    FixedMoveRotation = true,
-    ShapeInfo = {
-      BoxHeight = 300,
-      BoxLength = 300,
-      BoxWidth = 1200,
-      ShapeType = "Box"
-    },
-    SpawnSocket = {
-      SpawnSocket = "LeftArm_slot",
-      UseLocation = "Char"
-    },
-    Tags = {
-      "PauseRemovable"
-    },
-    TimeLife = 6
-  },
   [851614] = {
     AttachOwner = 1,
     BoundCount = -1,
@@ -8062,8 +8381,10 @@ return ReadOnly("SkillCreature", {
     DestroyWithCreator = 1,
     FixedBornRotation = true,
     FixedMoveRotation = true,
-    HitEnemy = {851630},
-    ShapeInfo = {Radius = 900, ShapeType = "Sphere"},
+    HitEnemy = {851651},
+    ShapeInfo = {
+      Radius = 800, ShapeType = "Sphere"
+    },
     SpawnSocket = {
       SpawnSocket = "Root", UseLocation = "Char"
     },
@@ -8090,8 +8411,25 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 16
   },
-  [851701] = {
+  [851616] = {
+    AttachOwner = 1,
     BoundCount = -1,
+    CreatureId = 851616,
+    DestroyWithCreator = 1,
+    FixedBornRotation = true,
+    FixedMoveRotation = true,
+    HitEnemy = {851654},
+    ShapeInfo = {
+      Radius = 800, ShapeType = "Sphere"
+    },
+    SpawnSocket = {
+      SpawnSocket = "Root", UseLocation = "Char"
+    },
+    Speed = 0,
+    TimeLife = 2
+  },
+  [851701] = {
+    BoundCount = 1,
     BulletFXID = 851701,
     CreatureId = 851701,
     DestroyWithCreator = 1,
@@ -8107,7 +8445,7 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseRemovable"
     },
-    TimeLife = 6
+    TimeLife = 2
   },
   [851702] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Yuming_Attack_bullet.BP_Boss_Yuming_Attack_bullet",
@@ -8135,7 +8473,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 1.5
   },
   [851801] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossJuque_Skill04_Bullet.BP_BossJuque_Skill04_Bullet",
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossJuque_Skill05_Bullet.BP_BossJuque_Skill05_Bullet",
     BoundCount = 1,
     BulletFXID = 851803,
     CreatureId = 851801,
@@ -8158,7 +8496,7 @@ return ReadOnly("SkillCreature", {
       "Bullet",
       "PauseRemovable"
     },
-    TimeLife = 2.3,
+    TimeLife = 1.16,
     TimeToHit = 0.3,
     UseBulletCreature = true
   },
@@ -8166,7 +8504,6 @@ return ReadOnly("SkillCreature", {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossJuque_Skill02_Bullet.BP_BossJuque_Skill02_Bullet",
     BoundCount = 1,
     BulletFXID = 851802,
-    CollisionDelayTime = 2.3,
     CreatureId = 851802,
     DontDestroyExceptLife = true,
     EnterPool = true,
@@ -8185,7 +8522,7 @@ return ReadOnly("SkillCreature", {
     UseBulletCreature = true
   },
   [851803] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossJuque_Skill05_Bullet.BP_BossJuque_Skill05_Bullet",
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossJuque_Skill04_Bullet.BP_BossJuque_Skill04_Bullet",
     BoundCount = 1,
     BulletFXID = 851803,
     CreatureId = 851803,
@@ -8208,7 +8545,7 @@ return ReadOnly("SkillCreature", {
       "Bullet",
       "PauseRemovable"
     },
-    TimeLife = 1.15,
+    TimeLife = 1.2,
     TimeToHit = 0.3,
     UseBulletCreature = true
   },
@@ -8235,6 +8572,63 @@ return ReadOnly("SkillCreature", {
       "PauseRemovable"
     },
     TimeLife = 3,
+    UseBulletCreature = true
+  },
+  [851805] = {
+    BoundCount = 1,
+    BulletFXID = 850207,
+    CollisionDelayTime = 1.3,
+    CreatureId = 851805,
+    HitEnemy = 851820,
+    HitScene = 851820,
+    ShapeInfo = {
+      Radius = 30, ShapeType = "Sphere"
+    },
+    Speed = 0,
+    Tags = {
+      "Bullet",
+      "PauseRemovable"
+    },
+    TickCollision = true,
+    TimeLife = 2
+  },
+  [851806] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossJuque_Skill12_Bullet.BP_BossJuque_Skill12_Bullet",
+    BoundCount = 1,
+    CreatureId = 851806,
+    FixedBornRotation = true,
+    FixedMoveRotation = true,
+    GravityAdapt = true,
+    GravityCoefficient = 1,
+    GravityFactor = 7,
+    HitScene = 900016,
+    ShapeInfo = {
+      Radius = 30, ShapeType = "Sphere"
+    },
+    Speed = 0.1,
+    TickCollision = true,
+    TimeLife = 3
+  },
+  [851807] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_BossJuque_Skill13_Bullet.BP_BossJuque_Skill13_Bullet",
+    BoundCount = -1,
+    BulletFXID = 851802,
+    CreatureId = 851807,
+    DontDestroyExceptLife = true,
+    EnterPool = true,
+    HitEnemy = {851835},
+    ShapeInfo = {Radius = 500, ShapeType = "Sphere"},
+    SpawnSocket = {
+      SpawnSocket = "wing_left01_d2",
+      UseLocation = "Char"
+    },
+    Speed = 0,
+    Tags = {
+      "Bullet",
+      "PauseRemovable"
+    },
+    TickCollision = true,
+    TimeLife = 5,
     UseBulletCreature = true
   },
   [851901] = {
@@ -9124,6 +9518,215 @@ return ReadOnly("SkillCreature", {
     },
     TraceSpeed = 400
   },
+  [852101] = {
+    BoundCount = 1,
+    BulletFXID = 900501,
+    CreatureId = 852101,
+    FixedBornRotation = true,
+    RealDestroyEffects = {8521004},
+    ShapeInfo = {
+      Radius = 80, ShapeType = "Sphere"
+    },
+    Speed = 0,
+    Tags = {
+      "Bullet",
+      "PauseRemovable"
+    },
+    TimeLife = 2
+  },
+  [852102] = {
+    BoundCount = 1,
+    BulletFXID = 851206,
+    CreatureId = 852102,
+    HitEnemy = 8521007,
+    HitScene = 8521007,
+    ShapeInfo = {
+      Radius = 80, ShapeType = "Sphere"
+    },
+    Speed = 1500,
+    Tags = {
+      "Bullet",
+      "PauseRemovable"
+    },
+    TimeLife = 4
+  },
+  [852103] = {
+    BoundCount = 1,
+    BulletFXID = 900501,
+    CreatureId = 852103,
+    FixedBornRotation = true,
+    HitEnemy = {8521011},
+    ShapeInfo = {
+      Radius = 80, ShapeType = "Sphere"
+    },
+    Speed = 0,
+    Tags = {
+      "Bullet",
+      "PauseRemovable"
+    },
+    TimeLife = 6
+  },
+  [852201] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Tuisheng_Skill02Laser.BP_Boss_Tuisheng_Skill02Laser",
+    CreatureId = 852201,
+    DestroyWithCreator = 1,
+    SpawnSocket = {
+      SpawnSocket = "hand_r", UseLocation = "Char"
+    },
+    TimeLife = 10
+  },
+  [852202] = {
+    BoundCount = 1,
+    BulletFXID = 852201,
+    CreatureId = 852202,
+    DestroyWithCreator = 1,
+    HitEnemy = {8522009},
+    HitScene = {8522010},
+    ShapeInfo = {
+      BoxHeight = 50,
+      BoxLength = 50,
+      BoxWidth = 50,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "hand_r", UseLocation = "Char"
+    },
+    Speed = 3500,
+    TimeLife = 10
+  },
+  [852203] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Tuisheng_Skill04Laser.BP_Boss_Tuisheng_Skill04Laser",
+    CreatureId = 852203,
+    DestroyWithCreator = 1,
+    SpawnSocket = {
+      SpawnSocket = "hand_r", UseLocation = "Char"
+    },
+    TimeLife = 10
+  },
+  [852204] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Tuisheng_Skill05Laser.BP_Boss_Tuisheng_Skill05Laser",
+    CreatureId = 852204,
+    DestroyWithCreator = 1,
+    SpawnSocket = {
+      SpawnSocket = "hand_r", UseLocation = "Char"
+    },
+    TimeLife = 10
+  },
+  [852205] = {
+    BoundCount = 1,
+    BulletFXID = 852201,
+    CreatureId = 852205,
+    DestroyWithCreator = 1,
+    GravityAdapt = true,
+    GravityCoefficient = 2,
+    GravityFactor = 5,
+    HitEnemy = {8522016},
+    HitEnemyIgnore = 1,
+    HitScene = {8522017},
+    ShapeInfo = {
+      BoxHeight = 25,
+      BoxLength = 25,
+      BoxWidth = 25,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "hand_r", UseLocation = "Char"
+    },
+    Speed = 2500,
+    TimeLife = 10
+  },
+  [852206] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Tuisheng_Orb.BP_Boss_Tuisheng_Orb",
+    BoundCount = -1,
+    CreatureId = 852206,
+    DestroyWithCreator = 1,
+    FixedBornRotation = true,
+    HitEnemy = {8522018},
+    Speed = 0,
+    TimeLife = 2.4
+  },
+  [852207] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Boss_Tuisheng_Skill08Bullet.BP_Boss_Tuisheng_Skill08Bullet",
+    BoundCount = -1,
+    CreatureId = 852207,
+    DestroyWithCreator = 1,
+    SpawnSocket = {
+      SpawnSocket = "Root", UseLocation = "Char"
+    },
+    Speed = 0,
+    TimeLife = 2.1
+  },
+  [852301] = {
+    AttachOwner = 1,
+    BoundCount = -1,
+    CreatureId = 852301,
+    HitEnemy = 8523008,
+    ShapeInfo = {
+      BoxHeight = 100,
+      BoxLength = 180,
+      BoxWidth = 150,
+      ShapeType = "Box"
+    },
+    Speed = 0,
+    TimeLife = 1
+  },
+  [852303] = {
+    BoundCount = -1,
+    CreatureId = 852303,
+    DestroyWithCreator = 1,
+    DirectionOnSocket = true,
+    ShapeInfo = {
+      BoxHeight = 100,
+      BoxLength = 180,
+      BoxWidth = 75,
+      ShapeType = "Box"
+    },
+    Speed = 0,
+    TimeLife = 1.5
+  },
+  [852304] = {
+    AttachOwner = 1,
+    BoundCount = -1,
+    CreatureId = 852304,
+    HitEnemy = {8523032},
+    ShapeInfo = {
+      BoxHeight = 100,
+      BoxLength = 40,
+      BoxWidth = 150,
+      ShapeType = "Box"
+    },
+    Speed = 0,
+    TimeLife = 1
+  },
+  [852309] = {
+    AttachOwner = 1,
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_Jishi_Skill09Laser.BP_Jishi_Skill09Laser",
+    CreatureId = 852309,
+    DestroyWithCreator = 1,
+    FixedBornRotation = true,
+    FixedMoveRotation = true,
+    SpawnSocket = {
+      SpawnSocket = "root", UseLocation = "Char"
+    },
+    Tags = {
+      "PauseRemovable"
+    },
+    TimeLife = 1.5
+  },
+  [852310] = {
+    AttachOwner = 1,
+    BoundCount = -1,
+    CreatureId = 852310,
+    HitEnemy = 8523008,
+    ShapeInfo = {
+      BoxHeight = 100,
+      BoxLength = 40,
+      BoxWidth = 150,
+      ShapeType = "Box"
+    },
+    Speed = 0,
+    TimeLife = 1
+  },
   [900001] = {
     BoundCount = 1,
     BulletFXID = 900037,
@@ -9132,7 +9735,7 @@ return ReadOnly("SkillCreature", {
     GravityAdapt = true,
     GravityCoefficient = 1,
     GravityFactor = 7,
-    HitScene = {900016},
+    HitScene = 900016,
     ShapeInfo = {
       Radius = 80, ShapeType = "Sphere"
     },
@@ -9786,7 +10389,7 @@ return ReadOnly("SkillCreature", {
     HitEnemy = {1000210},
     HitScene = {1000211},
     ShapeInfo = {
-      BoxHeight = 100,
+      BoxHeight = 180,
       BoxLength = 100,
       BoxWidth = 30,
       ShapeType = "Box"
@@ -9800,6 +10403,20 @@ return ReadOnly("SkillCreature", {
       "PauseRemovable"
     },
     TimeLife = 2
+  },
+  [1000202] = {
+    AttachOwner = 1,
+    BoundCount = -1,
+    CreatureId = 1000202,
+    HitEnemy = {1000213},
+    ShapeInfo = {
+      BoxHeight = 100,
+      BoxLength = 180,
+      BoxWidth = 150,
+      ShapeType = "Box"
+    },
+    Speed = 0,
+    TimeLife = 1
   },
   [1000301] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_HeiBiAn_Skill02_Circular.BP_HeiBiAn_Skill02_Circular",
@@ -9865,7 +10482,7 @@ return ReadOnly("SkillCreature", {
     HitEnemy = 1000305,
     HitScene = 1000306,
     ShapeInfo = {
-      BoxHeight = 100,
+      BoxHeight = 150,
       BoxLength = 100,
       BoxWidth = 30,
       ShapeType = "Box"
@@ -10010,16 +10627,18 @@ return ReadOnly("SkillCreature", {
   [1010301] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Sword_Mod02_HeavyAttack.BP_Sword_Mod02_HeavyAttack",
     BoundCount = -1,
+    CreatureEffects = 1010322,
     CreatureId = 1010301,
+    DelayDestroyTime = 1,
     HitOthers = {
       0,
       0,
       2
     },
     LoopExecuteSkillEffects = {
-      Interval = 0.32,
-      Loop = 0,
-      SkillEffects = {1010333}
+      Interval = 0.6,
+      Loop = 1,
+      SkillEffects = 1010322
     },
     ShapeInfo = {
       Radius = 100, ShapeType = "Sphere"
@@ -10031,12 +10650,9 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = 3,
-    WeaponMesh = "Melee",
-    WindInfo = {
-      Radius = 2.5,
-      Strength = 50,
-      WindMotorType = "Omni"
+    TimeLife = 2.1,
+    Vars = {
+      IsHeavyAttack = true
     }
   },
   [1010601] = {
@@ -10263,7 +10879,7 @@ return ReadOnly("SkillCreature", {
       IsHeavyAttack = true
     },
     WindInfo = {
-      Radius = 2.5,
+      Radius = 1.5,
       Strength = 50,
       WindMotorType = "Omni"
     }
@@ -10286,7 +10902,12 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = 3
+    TimeLife = 3,
+    WindInfo = {
+      Radius = 3,
+      Strength = 75,
+      WindMotorType = "Omni"
+    }
   },
   [1020321] = {
     AttachOwner = 1,
@@ -10306,7 +10927,12 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = -1
+    TimeLife = -1,
+    WindInfo = {
+      Radius = 2.5,
+      Strength = 50,
+      WindMotorType = "Omni"
+    }
   },
   [1030201] = {
     AllowAttackRangeModify = {
@@ -10525,9 +11151,16 @@ return ReadOnly("SkillCreature", {
     }
   },
   [1040222] = {
+    AllowAttackRangeModify = {
+      true,
+      true,
+      true
+    },
+    AttackRangeType = "Normal",
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Dualblade_Mod01_HeavyAttack_02.BP_Dualblade_Mod01_HeavyAttack_02",
     BoundCount = -1,
     CreatureId = 1040222,
+    DestroyWithCreator = 1,
     HitEnemy = {1040222},
     HitOthers = {
       1,
@@ -10535,7 +11168,7 @@ return ReadOnly("SkillCreature", {
       1
     },
     RealDestroyEffects = {1040223},
-    RefreshTargetParam = 0.45,
+    RefreshTargetParam = 0.46,
     RefreshTargetRule = 1,
     ShapeInfo = {
       Radius = 300, ShapeType = "Sphere"
@@ -10545,10 +11178,13 @@ return ReadOnly("SkillCreature", {
       "PauseInvisible"
     },
     TimeLife = 0.9,
+    Vars = {
+      IsHeavyAttack = true
+    },
     WeaponMesh = "Melee",
     WindInfo = {
-      Radius = 2.5,
-      Strength = 50,
+      Radius = 3,
+      Strength = 75,
       WindMotorType = "Omni"
     }
   },
@@ -10573,7 +11209,12 @@ return ReadOnly("SkillCreature", {
     Tags = {
       "PauseInvisible"
     },
-    TimeLife = 0.6
+    TimeLife = 0.6,
+    WindInfo = {
+      Radius = 1,
+      Strength = 50,
+      WindMotorType = "Directional"
+    }
   },
   [1050121] = {
     BoundCount = -1,
@@ -10711,6 +11352,57 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 3,
     UseBulletCreature = true
+  },
+  [2010411] = {
+    BornLocationOffset = {
+      5,
+      0,
+      90
+    },
+    BoundCount = 1,
+    BulletFXID = 2020101,
+    ClientOwner = true,
+    CreatureId = 2010411,
+    EffectMultiple = true,
+    EnterPool = true,
+    FixSpeedByWeapon = true,
+    HitEnemy = {2010412},
+    HitScene = {2010413},
+    RealDestroyEffects = {2010414},
+    ShapeInfo = {
+      BoxHeight = 5,
+      BoxLength = 10,
+      BoxWidth = 5,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "gunpoint_01",
+      UseLocation = "Weapon"
+    },
+    Speed = 15000,
+    Tags = {
+      "Bullet",
+      "PauseInvisible"
+    },
+    TimeLife = 0.8,
+    UseBulletCreature = true
+  },
+  [2010412] = {
+    BulletFXID = 2040301,
+    CreatureId = 2010412,
+    RealDestroyEffects = {2010415},
+    ShapeInfo = {
+      BoxHeight = 15,
+      BoxLength = 15,
+      BoxWidth = 15,
+      ShapeType = "Box"
+    },
+    Speed = 0,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 0.5
   },
   [2019911] = {
     BornLocationOffset = {
@@ -11198,12 +11890,7 @@ return ReadOnly("SkillCreature", {
       "PauseInvisible"
     },
     TimeLife = 5,
-    UseBulletCreature = true,
-    WindInfo = {
-      Radius = 2.5,
-      Strength = 50,
-      WindMotorType = "Omni"
-    }
+    UseBulletCreature = true
   },
   [2030402] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Shotgun_20304.BP_Shotgun_20304",
@@ -11398,7 +12085,9 @@ return ReadOnly("SkillCreature", {
     },
     TimeLife = 8,
     TraceDelay = 0.11,
-    TraceRange = {Means = "Permanent", Range = 10},
+    TraceRange = {
+      Means = "Permanent", Range = 10
+    },
     TraceSpeed = 200
   },
   [2040511] = {
@@ -11465,19 +12154,24 @@ return ReadOnly("SkillCreature", {
   },
   [2040601] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Shotgun_20406_1.BP_Shotgun_20406_1",
-    BoundCount = 1,
+    BoundCount = -1,
     ClientOwner = true,
     CreatureId = 2040601,
     DelayDestroyTime = 1,
+    EffectMultiple = true,
     EnterPool = true,
     FixSpeedByWeapon = true,
-    HitEnemy = 2040613,
+    HitEnemy = {2040612},
     HitOthers = {
-      1,
       0,
-      1
+      0,
+      2
     },
-    HitScene = 2040613,
+    LoopExecuteSkillEffects = {
+      Interval = 0.15,
+      Loop = 1,
+      SkillEffects = {2040614}
+    },
     ShapeInfo = {
       BoxHeight = 50,
       BoxLength = 100,
@@ -11488,7 +12182,7 @@ return ReadOnly("SkillCreature", {
       SpawnSocket = "gunpoint_01",
       UseLocation = "Weapon"
     },
-    Speed = 2000,
+    Speed = 300,
     Tags = {
       "ExplodeBullet",
       "PauseInvisible"
@@ -11503,35 +12197,54 @@ return ReadOnly("SkillCreature", {
   },
   [2040602] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Shotgun_20406_2.BP_Shotgun_20406_2",
-    BoundAttenuation = 0.1,
-    BoundCount = 15,
+    BoundCount = 1,
     CreatureId = 2040602,
     FixSpeedByWeapon = true,
-    HitEnemy = 2030414,
-    HitOthers = {
-      0,
-      0,
-      1
-    },
+    HitEnemy = {2040615},
     RayCrossSceneCount = 1,
-    ScenceBound = 10,
     ShapeInfo = {
-      BoxHeight = 50,
-      BoxLength = 50,
-      BoxWidth = 50,
+      BoxHeight = 5,
+      BoxLength = 5,
+      BoxWidth = 5,
       ShapeType = "Box"
+    },
+    Speed = 1000,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 3
+  },
+  [2040711] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Shotgun_20407.BP_Shotgun_20407",
+    BoundCount = 1,
+    BulletFXID = 2040701,
+    CreatureId = 2040711,
+    EffectMultiple = true,
+    FixSpeedByWeapon = true,
+    HitEnemy = {2040712},
+    HitScene = {2040713},
+    ShapeInfo = {
+      BoxHeight = 15,
+      BoxLength = 15,
+      BoxWidth = 15,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "gunpoint_01",
+      UseLocation = "Weapon"
     },
     Speed = 3000,
     Tags = {
       "ExplodeBullet",
       "PauseInvisible"
     },
-    TimeLife = 8,
-    WindInfo = {
-      Radius = 2.5,
-      Strength = 50,
-      WindMotorType = "Omni"
-    }
+    TimeLife = 3,
+    TraceDelay = 0.11,
+    TraceRange = {
+      Means = "Permanent", Range = 10
+    },
+    TraceSpeed = 200
   },
   [2050111] = {
     BornLocationOffset = {
@@ -11597,7 +12310,7 @@ return ReadOnly("SkillCreature", {
     },
     Speed = 12000,
     Tags = {
-      "Bullet",
+      "ExplodeBullet",
       "PauseInvisible"
     },
     TimeLife = 2,
@@ -11677,6 +12390,49 @@ return ReadOnly("SkillCreature", {
       "PauseInvisible"
     },
     TimeLife = 5
+  },
+  [2051111] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Machinegun_20511_Creature.BP_Machinegun_20511_Creature",
+    BornLocationOffset = {
+      5,
+      0,
+      90
+    },
+    BoundCount = 1,
+    BulletFXID = 2051101,
+    ClientOwner = true,
+    CollisionDelayTime = 10,
+    CreatureId = 2051111,
+    EffectMultiple = true,
+    EnterPool = true,
+    FixSpeedByWeapon = true,
+    HitOthers = {
+      1,
+      0,
+      0
+    },
+    ShapeInfo = {
+      BoxHeight = 50,
+      BoxLength = 50,
+      BoxWidth = 50,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "gunpoint_01",
+      UseLocation = "Weapon"
+    },
+    Speed = 200,
+    Tags = {
+      "Bullet",
+      "PauseInvisible"
+    },
+    TimeLife = 10,
+    TraceDelay = 0.1,
+    TraceRange = {
+      Means = "Permanent", Range = 10
+    },
+    TraceSpeed = 100,
+    UseBulletCreature = true
   },
   [2060111] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Player/BP_Bow_20601.BP_Bow_20601",
@@ -11921,6 +12677,84 @@ return ReadOnly("SkillCreature", {
       WindMotorType = "Omni"
     }
   },
+  [2060511] = {
+    BornLocationOffset = {
+      5,
+      0,
+      90
+    },
+    BoundCount = 1,
+    BulletFXID = 2060101,
+    ClientOwner = true,
+    CreatureId = 2060511,
+    EffectMultiple = true,
+    EnterPool = true,
+    FixSpeedByWeapon = true,
+    GravityCoefficient = 1,
+    HitEnemy = {2060512},
+    HitScene = {2060513},
+    ParabolaDelay = 0.6,
+    RayCrossSceneCount = 1,
+    ShapeInfo = {
+      BoxHeight = 10,
+      BoxLength = 10,
+      BoxWidth = 10,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "Root", UseLocation = "Weapon"
+    },
+    Speed = 4000,
+    Tags = {
+      "Bullet"
+    },
+    TimeLife = 5,
+    UseBulletCreature = true,
+    WindInfo = {
+      Radius = 2,
+      Strength = 20,
+      WindMotorType = "Omni"
+    }
+  },
+  [2060521] = {
+    BornLocationOffset = {
+      5,
+      0,
+      90
+    },
+    BoundCount = 1,
+    BulletFXID = 2060111,
+    ClientOwner = true,
+    CreatureId = 2060521,
+    EffectMultiple = true,
+    EnterPool = true,
+    FixSpeedByWeapon = true,
+    GravityCoefficient = 1,
+    HitEnemy = {2060522},
+    HitScene = {2060523},
+    ParabolaDelay = 1.2,
+    RayCrossSceneCount = 1,
+    ShapeInfo = {
+      BoxHeight = 50,
+      BoxLength = 50,
+      BoxWidth = 50,
+      ShapeType = "Box"
+    },
+    SpawnSocket = {
+      SpawnSocket = "Root", UseLocation = "Weapon"
+    },
+    Speed = 9000,
+    Tags = {
+      "Bullet"
+    },
+    TimeLife = 5,
+    UseBulletCreature = true,
+    WindInfo = {
+      Radius = 2.5,
+      Strength = 50,
+      WindMotorType = "Omni"
+    }
+  },
   [2069911] = {
     BornLocationOffset = {
       5,
@@ -12002,7 +12836,7 @@ return ReadOnly("SkillCreature", {
   [4010101] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Rouge.BP_Mechanism_Paotai_Rouge",
     BoundCount = 1,
-    BulletFXID = 90,
+    BulletFXID = 90001,
     CreatureId = 4010101,
     DestroyWithCreator = 1,
     HitEnemy = {401010004},
@@ -12023,7 +12857,7 @@ return ReadOnly("SkillCreature", {
   [4010102] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Rouge.BP_Mechanism_Paotai_Rouge",
     BoundCount = 1,
-    BulletFXID = 91,
+    BulletFXID = 90002,
     CreatureId = 4010102,
     HitEnemy = 401010006,
     HitScene = 401010007,
@@ -12043,7 +12877,7 @@ return ReadOnly("SkillCreature", {
   [4010103] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Rouge.BP_Mechanism_Paotai_Rouge",
     BoundCount = 1,
-    BulletFXID = 91,
+    BulletFXID = 90002,
     CreatureId = 4010103,
     HitEnemy = 401010006,
     HitScene = 401010007,
@@ -12083,16 +12917,36 @@ return ReadOnly("SkillCreature", {
   [4010105] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Activity.BP_Mechanism_Paotai_Activity",
     BoundCount = 2,
-    BulletFXID = 91,
+    BulletFXID = 90002,
     CreatureId = 4010105,
-    HitEnemy = 401010006,
+    HitEnemy = 401020004,
     HitOthers = {
       2,
       0,
       2
     },
-    HitScene = 401010007,
-    RayCrossSceneCount = 1,
+    HitScene = 401020005,
+    RefreshTargetParam = 0.1,
+    RefreshTargetRule = 1,
+    Speed = 15000,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = -1
+  },
+  [4010106] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Activity.BP_Mechanism_Paotai_Activity",
+    BoundCount = 2,
+    BulletFXID = 90002,
+    CreatureId = 4010106,
+    HitEnemy = {401020006},
+    HitOthers = {
+      2,
+      0,
+      2
+    },
+    HitScene = 401020007,
     RefreshTargetParam = 0.1,
     RefreshTargetRule = 1,
     Speed = 15000,
@@ -12105,7 +12959,7 @@ return ReadOnly("SkillCreature", {
   [4010201] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Activity01.BP_Mechanism_Paotai_Activity01",
     BoundCount = 1,
-    BulletFXID = 90,
+    BulletFXID = 90001,
     CreatureId = 4010201,
     DestroyWithCreator = 1,
     HitEnemy = 401020002,
@@ -12126,10 +12980,10 @@ return ReadOnly("SkillCreature", {
   [4010202] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Activity01.BP_Mechanism_Paotai_Activity01",
     BoundCount = 1,
-    BulletFXID = 91,
+    BulletFXID = 90002,
     CreatureId = 4010202,
-    HitEnemy = {401020005},
-    HitScene = {401020004},
+    HitEnemy = 401020005,
+    HitScene = 401020004,
     ShapeInfo = {
       BoxHeight = 1,
       BoxLength = 1,
@@ -12146,10 +13000,10 @@ return ReadOnly("SkillCreature", {
   [4010203] = {
     BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Activity01.BP_Mechanism_Paotai_Activity01",
     BoundCount = 1,
-    BulletFXID = 91,
+    BulletFXID = 90002,
     CreatureId = 4010203,
     HitEnemy = {401020008},
-    HitScene = {401020007},
+    HitScene = 401020007,
     ShapeInfo = {
       BoxHeight = 1,
       BoxLength = 1,
@@ -12185,7 +13039,7 @@ return ReadOnly("SkillCreature", {
     TimeLife = 5
   },
   [4010205] = {
-    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Activity01.BP_Mechanism_Paotai_Activity01",
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Activity01_Ice.BP_Mechanism_Paotai_Activity01_Ice",
     BoundCount = 1,
     BulletFXID = 40101002,
     CreatureId = 4010205,
@@ -12196,6 +13050,105 @@ return ReadOnly("SkillCreature", {
       BoxHeight = 10,
       BoxLength = 50,
       BoxWidth = 10,
+      ShapeType = "Box"
+    },
+    Speed = 5000,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 5
+  },
+  [4010206] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Activity01.BP_Mechanism_Paotai_Activity01",
+    BoundCount = 1,
+    BulletFXID = 90001,
+    CreatureId = 4010206,
+    DestroyWithCreator = 1,
+    HitEnemy = 401020028,
+    HitScene = 401020028,
+    ShapeInfo = {
+      BoxHeight = 10,
+      BoxLength = 50,
+      BoxWidth = 10,
+      ShapeType = "Box"
+    },
+    Speed = 5000,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 5
+  },
+  [4010207] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Activity01_fire.BP_Mechanism_Paotai_Activity01_fire",
+    BoundCount = 1,
+    BulletFXID = 40101001,
+    CreatureId = 4010207,
+    DestroyWithCreator = 1,
+    HitEnemy = 401020030,
+    HitScene = 401020030,
+    ShapeInfo = {
+      BoxHeight = 10,
+      BoxLength = 50,
+      BoxWidth = 10,
+      ShapeType = "Box"
+    },
+    Speed = 5000,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 5
+  },
+  [4010208] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai_Activity01_Ice.BP_Mechanism_Paotai_Activity01_Ice",
+    BoundCount = 1,
+    BulletFXID = 40101002,
+    CreatureId = 4010208,
+    DestroyWithCreator = 1,
+    HitEnemy = 401020032,
+    HitScene = 401020032,
+    ShapeInfo = {
+      BoxHeight = 10,
+      BoxLength = 50,
+      BoxWidth = 10,
+      ShapeType = "Box"
+    },
+    Speed = 5000,
+    Tags = {
+      "ExplodeBullet",
+      "PauseInvisible"
+    },
+    TimeLife = 5
+  },
+  [4010209] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Monster/BP_PaoTaiActivity_Bullet.BP_PaoTaiActivity_Bullet",
+    BoundCount = -1,
+    BulletFXID = 40101009,
+    CreatureId = 4010209,
+    DestroyWithCreator = 1,
+    FixedBornRotation = true,
+    ShapeInfo = {
+      Radius = 400, ShapeType = "Sphere"
+    },
+    Speed = 0,
+    Tags = {
+      "PauseRemovable"
+    },
+    TimeLife = 10
+  },
+  [4200101] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_Paotai.BP_Mechanism_Paotai",
+    BoundCount = 1,
+    BulletFXID = 90001,
+    CreatureId = 4200101,
+    HitEnemy = {4200107},
+    HitScene = {4200108},
+    ShapeInfo = {
+      BoxHeight = 5,
+      BoxLength = 5,
+      BoxWidth = 5,
       ShapeType = "Box"
     },
     Speed = 5000,
@@ -12996,6 +13949,21 @@ return ReadOnly("SkillCreature", {
       Radius = 30, ShapeType = "Sphere"
     },
     Speed = 2000,
+    Tags = {
+      "PauseRemovable"
+    },
+    TimeLife = 8
+  },
+  [500000401] = {
+    BPPath = "/Game/BluePrints/Combat/SkillCreatures/Mechanism/BP_Mechanism_SilverBox.BP_Mechanism_SilverBox",
+    BoundCount = 1,
+    BulletFXID = 500000305,
+    CreatureId = 500000401,
+    HitEnemy = {500000402},
+    ShapeInfo = {
+      Radius = 50, ShapeType = "Sphere"
+    },
+    Speed = 1000,
     Tags = {
       "PauseRemovable"
     },

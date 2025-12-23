@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -230,6 +232,24 @@ return {
             startPort = "Out",
             endQuest = "172414404096810653",
             endPort = "In"
+          },
+          {
+            startQuest = "17241437656876420",
+            startPort = "Out",
+            endQuest = "176189282569913611726",
+            endPort = "In"
+          },
+          {
+            startQuest = "17241438528717391",
+            startPort = "Out",
+            endQuest = "176189283751113612038",
+            endPort = "In"
+          },
+          {
+            startQuest = "17268157180861037",
+            startPort = "Out",
+            endQuest = "176189284954413612316",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -313,6 +333,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -326,7 +347,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -378,6 +398,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -391,7 +412,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -523,6 +543,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -556,12 +577,6 @@ return {
                   TalkActorId = 100001,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 818007},
-                {TalkActorType = "Npc", TalkActorId = 818008},
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001}
               },
               OptionType = "normal",
               FreezeWorldComposition = false,
@@ -611,6 +626,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -644,12 +660,6 @@ return {
                   TalkActorId = 100001,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 818007},
-                {TalkActorType = "Npc", TalkActorId = 818008},
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001}
               },
               OptionType = "normal",
               FreezeWorldComposition = false,
@@ -800,6 +810,39 @@ return {
             name = "延迟等待",
             pos = {x = 2451.3333333333335, y = 454.01190476190493},
             propsData = {WaitTime = 5}
+          },
+          ["176189282569913611726"] = {
+            key = "176189282569913611726",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2773.344965675057, y = -96.1159420289855},
+            propsData = {
+              NewDescription = "DynQuest_TrafficwayProtectwuzi_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189283751113612038"] = {
+            key = "176189283751113612038",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3370.844965675057, y = 82.63405797101456},
+            propsData = {
+              NewDescription = "DynQuest_TrafficwayProtectwuzi_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189284954413612316"] = {
+            key = "176189284954413612316",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3004.594965675057, y = 641.3840579710145},
+            propsData = {
+              NewDescription = "DynQuest_TrafficwayProtectwuzi_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
           }
         },
         commentData = {}

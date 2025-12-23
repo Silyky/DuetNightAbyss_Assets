@@ -31,12 +31,60 @@ return ReadOnly("FishingAchievement", {
     Target = 28,
     TargetId = 10301
   },
+  [1005] = {
+    Describe = "UI_Achievement_Fishing_Des_1001",
+    FishingAchievementId = 1005,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 38,
+    TargetId = 10301
+  },
   [1006] = {
     Describe = "UI_Achievement_Fishing_Des_1001",
     FishingAchievementId = 1006,
     NoRepeatField = "ResourceId",
     RewardId = 7003,
     Target = 48,
+    TargetId = 10301
+  },
+  [1007] = {
+    Describe = "UI_Achievement_Fishing_Des_1001",
+    FishingAchievementId = 1007,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 58,
+    TargetId = 10301
+  },
+  [1008] = {
+    Describe = "UI_Achievement_Fishing_Des_1001",
+    FishingAchievementId = 1008,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 68,
+    TargetId = 10301
+  },
+  [1009] = {
+    Describe = "UI_Achievement_Fishing_Des_1001",
+    FishingAchievementId = 1009,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 78,
+    TargetId = 10301
+  },
+  [1010] = {
+    Describe = "UI_Achievement_Fishing_Des_1001",
+    FishingAchievementId = 1010,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 88,
+    TargetId = 10301
+  },
+  [1011] = {
+    Describe = "UI_Achievement_Fishing_Des_1001",
+    FishingAchievementId = 1011,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 98,
     TargetId = 10301
   },
   [2001] = {
@@ -87,6 +135,86 @@ return ReadOnly("FishingAchievement", {
     Target = 6,
     TargetId = 10302
   },
+  [2007] = {
+    Describe = "UI_Achievement_Fishing_Des_2001",
+    FishingAchievementId = 2007,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 7,
+    TargetId = 10302
+  },
+  [2008] = {
+    Describe = "UI_Achievement_Fishing_Des_2001",
+    FishingAchievementId = 2008,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 8,
+    TargetId = 10302
+  },
+  [2009] = {
+    Describe = "UI_Achievement_Fishing_Des_2001",
+    FishingAchievementId = 2009,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 9,
+    TargetId = 10302
+  },
+  [2010] = {
+    Describe = "UI_Achievement_Fishing_Des_2001",
+    FishingAchievementId = 2010,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 10,
+    TargetId = 10302
+  },
+  [2011] = {
+    Describe = "UI_Achievement_Fishing_Des_2001",
+    FishingAchievementId = 2011,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 11,
+    TargetId = 10302
+  },
+  [2012] = {
+    Describe = "UI_Achievement_Fishing_Des_2001",
+    FishingAchievementId = 2012,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 12,
+    TargetId = 10302
+  },
+  [2013] = {
+    Describe = "UI_Achievement_Fishing_Des_2001",
+    FishingAchievementId = 2013,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 13,
+    TargetId = 10302
+  },
+  [2014] = {
+    Describe = "UI_Achievement_Fishing_Des_2001",
+    FishingAchievementId = 2014,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 14,
+    TargetId = 10302
+  },
+  [2015] = {
+    Describe = "UI_Achievement_Fishing_Des_2001",
+    FishingAchievementId = 2015,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 15,
+    TargetId = 10302
+  },
+  [2016] = {
+    Describe = "UI_Achievement_Fishing_Des_2001",
+    FishingAchievementId = 2016,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 16,
+    TargetId = 10302
+  },
   [3001] = {
     Describe = "UI_Achievement_Fishing_Des_3001",
     FishingAchievementId = 3001,
@@ -110,5 +238,45 @@ return ReadOnly("FishingAchievement", {
     RewardId = 7003,
     Target = 10,
     TargetId = {10112}
+  },
+  [3004] = {
+    Describe = "UI_Achievement_Fishing_Des_3004",
+    FishingAchievementId = 3004,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 10,
+    TargetId = {10113}
+  },
+  [3005] = {
+    Describe = "UI_Achievement_Fishing_Des_3005",
+    FishingAchievementId = 3005,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 10,
+    TargetId = {10114}
+  },
+  [3006] = {
+    Describe = "UI_Achievement_Fishing_Des_3006",
+    FishingAchievementId = 3006,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 10,
+    TargetId = {10125}
+  },
+  [3007] = {
+    Describe = "UI_Achievement_Fishing_Des_3007",
+    FishingAchievementId = 3007,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 10,
+    TargetId = {10126}
+  },
+  [3008] = {
+    Describe = "UI_Achievement_Fishing_Des_3008",
+    FishingAchievementId = 3008,
+    NoRepeatField = "ResourceId",
+    RewardId = 7003,
+    Target = 10,
+    TargetId = {10127}
   }
 })

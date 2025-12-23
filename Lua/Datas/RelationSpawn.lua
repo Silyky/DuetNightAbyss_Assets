@@ -699,6 +699,70 @@ return ReadOnly("RelationSpawn", {
       1
     }
   },
+  [100303] = {
+    RelationId = 100303,
+    RelationSpawnTotalNum = {
+      1,
+      1,
+      2,
+      2
+    },
+    UnitId = {
+      6016011,
+      6016015,
+      6016016,
+      6016017,
+      6016018,
+      10005012,
+      10005014,
+      10005016,
+      10005018
+    },
+    UnitLevel = 3,
+    UnitWeight = {
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    }
+  },
+  [100305] = {
+    RelationId = 100305,
+    RelationSpawnTotalNum = {
+      1,
+      1,
+      2,
+      2
+    },
+    UnitId = {
+      6016011,
+      6016015,
+      6016016,
+      6016017,
+      6016018,
+      10005012,
+      10005014,
+      10005016,
+      10005018
+    },
+    UnitLevel = 3,
+    UnitWeight = {
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    }
+  },
   [10110101] = {
     RelationId = 10110101,
     RelationSpawnTotalNum = {

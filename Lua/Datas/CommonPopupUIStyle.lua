@@ -19,6 +19,10 @@ return ReadOnly("CommonPopupUIStyle", {
     ShowContent = {
       [1] = "WBP_Activity_BuffDialog"
     },
+    ShowRightButton = 1,
+    ShowTip = {
+      [1] = "Item_Tip1"
+    },
     StyleId = "Activity_BuffDialog"
   },
   Activity_RewardPreview = {
@@ -37,6 +41,13 @@ return ReadOnly("CommonPopupUIStyle", {
       [1] = "Item_Tip3"
     },
     StyleId = "AlertDefault"
+  },
+  Angling_Dayandnight_Dialog = {
+    ShowContent = {
+      [1] = "Angling_Dayandnight"
+    },
+    ShowRightButton = 1,
+    StyleId = "Angling_Dayandnight_Dialog"
   },
   Angling_RodSelect = {
     BigSize = true,
@@ -164,6 +175,12 @@ return ReadOnly("CommonPopupUIStyle", {
       [1] = "CombatData_List"
     },
     StyleId = "CombatData"
+  },
+  CommonDefinitionDialog = {
+    ShowContent = {
+      [1] = "WBP_Armory_DefinitionDialog"
+    },
+    StyleId = "CommonDefinitionDialog"
   },
   CommonDialogAttr2 = {
     ShowContent = {
@@ -707,7 +724,8 @@ return ReadOnly("CommonPopupUIStyle", {
     ShowLeftButton = 1,
     ShowRightButton = 2,
     ShowTip = {
-      [1] = "Item_Tip1"
+      [1] = "Item_Tip1",
+      [2] = "Item_Currency"
     },
     StyleId = "WBP_Bag_OptionalAvatar"
   },
@@ -726,7 +744,8 @@ return ReadOnly("CommonPopupUIStyle", {
     ShowLeftButton = 1,
     ShowRightButton = 2,
     ShowTip = {
-      [1] = "Item_Tip1"
+      [1] = "Item_Tip1",
+      [2] = "Item_Currency"
     },
     StyleId = "WBP_Bag_OptionalProp"
   },

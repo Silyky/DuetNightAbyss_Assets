@@ -47,7 +47,7 @@ return {
       key = "17255300579695757969",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 1518.1225085226179, y = 317.4616000567391},
+      pos = {x = 1516.4558418559511, y = 315.7949333900724},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {

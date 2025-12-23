@@ -697,6 +697,40 @@ return ReadOnly("HitPerformanceData", {
       MoveDis = 400
     }
   },
+  HitFly_XY800Z300A270 = {
+    CauseHit = "HitFly",
+    CauseHitParam = {
+      Angle = 270,
+      HitFlyXY = 800,
+      HitFlyZ = 300
+    },
+    HitFlyComboParam = {
+      Angle = 270,
+      HitFlyXY = 800,
+      HitFlyZ = 200
+    },
+    HitId = "HitFly_XY800Z300A270",
+    TNZeroHeavyHitParam = {
+      MoveDis = 500
+    }
+  },
+  HitFly_XY800Z300A90 = {
+    CauseHit = "HitFly",
+    CauseHitParam = {
+      Angle = 90,
+      HitFlyXY = 800,
+      HitFlyZ = 300
+    },
+    HitFlyComboParam = {
+      Angle = 90,
+      HitFlyXY = 800,
+      HitFlyZ = 200
+    },
+    HitId = "HitFly_XY800Z300A90",
+    TNZeroHeavyHitParam = {
+      MoveDis = 500
+    }
+  },
   HitFly_XY800Z400 = {
     CauseHit = "HitFly",
     CauseHitParam = {HitFlyXY = 800, HitFlyZ = 400},

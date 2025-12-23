@@ -523,273 +523,6 @@ return ReadOnly("BattleChar", {
     },
     WeaponId = 10101
   },
-  [210] = {
-    AIBTPath = "/Game/AssetDesign/AI/Player/Yuming/BT_TestAI_Yuming.BT_TestAI_Yuming",
-    ATK = 22,
-    ATKLevelGrow = "ATKS",
-    Attribute = "Thunder",
-    BTMotionParams = {
-      MaxAccelerationRun = 2048,
-      MaxAccelerationWalk = 2048,
-      MaxSpeedRun = 500,
-      MaxSpeedWalk = 100
-    },
-    BattleCharBuffUI = 4201,
-    BattleCharTag = {
-      "Man"
-    },
-    CapsuleInfo = {
-      Crouch = {
-        45, 200
-      },
-      OriHalfHeight = 96.5,
-      OriRadius = 20,
-      Slide = {
-        45, 200
-      }
-    },
-    CharGradeDescription = {
-      [1] = "GRADEUP_4201_01",
-      [2] = "GRADEUP_4201_02",
-      [3] = "GRADEUP_4201_03",
-      [4] = "GRADEUP_4201_04",
-      [5] = "GRADEUP_4201_05",
-      [6] = "GRADEUP_4201_06"
-    },
-    CharName = "UI_CHAR_NAME_4201",
-    CondemnWeapon = 30,
-    DEF = 300,
-    DEFLevelGrow = "DEFS",
-    ExcelWeaponRate = 0.2,
-    ExcelWeaponTags = {
-      "Polearm", "Machinegun"
-    },
-    GuideIconImg = "Mini_Yuming",
-    MaxES = 50,
-    MaxESLevelGrow = "MaxESS",
-    MaxHp = 165,
-    MaxHpLevelGrow = "MaxHpS",
-    MaxSp = 200,
-    ModApplicationType = {
-      1, 14
-    },
-    ModelId = 4201,
-    PassiveEffectClient = "Blueprint'/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Client/BP_Yuming_Client.BP_Yuming_Client'",
-    RangedWeapon = 20201,
-    RoleId = 210,
-    SkillList = {
-      420101,
-      420102,
-      420103,
-      420104,
-      420191
-    },
-    Sp = -1,
-    SummonId = 420101,
-    UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
-    UpgradeSkillExtraLevel = {
-      {
-  ExtraLv = 2,
-  Grade = 3,
-  SkillId = 420101
-},
-      {
-  ExtraLv = 2,
-  Grade = 5,
-  SkillId = 420102
-},
-      {
-  ExtraLv = 1,
-  Grade = 3,
-  SkillId = 420103
-},
-      {
-  ExtraLv = 1,
-  Grade = 5,
-  SkillId = 420103
-}
-    },
-    WeaponId = 10203
-  },
-  [211] = {
-    AIBTPath = "/Game/AssetDesign/AI/Player/Baiheng/BT_TestAI_Baiheng.BT_TestAI_Baiheng",
-    ATK = 23,
-    ATKLevelGrow = "ATKS",
-    Attribute = "Water",
-    BTMotionParams = {
-      MaxAccelerationRun = 2048,
-      MaxAccelerationWalk = 2048,
-      MaxSpeedRun = 500,
-      MaxSpeedWalk = 100
-    },
-    BattleCharBuffUI = 2401,
-    BattleCharTag = {
-      "Woman"
-    },
-    CapsuleInfo = {
-      Crouch = {
-        45, 200
-      },
-      OriHalfHeight = 87,
-      OriRadius = 20,
-      Slide = {
-        45, 200
-      }
-    },
-    CharGradeDescription = {
-      [1] = "GRADEUP_2401_01",
-      [2] = "GRADEUP_2401_02",
-      [3] = "GRADEUP_2401_03",
-      [4] = "GRADEUP_2401_04",
-      [5] = "GRADEUP_2401_05",
-      [6] = "GRADEUP_2401_06"
-    },
-    CharName = "UI_CHAR_NAME_2401",
-    CondemnWeapon = 30,
-    DEF = 315,
-    DEFLevelGrow = "DEFS",
-    ExcelWeaponRate = 0.2,
-    ExcelWeaponTags = {
-      "Swordwhip", "Bow"
-    },
-    GuideIconImg = "Mini_Baiheng",
-    MaxES = 105,
-    MaxESLevelGrow = "MaxESS",
-    MaxHp = 105,
-    MaxHpLevelGrow = "MaxHpS",
-    MaxSp = 150,
-    ModApplicationType = {
-      1, 12
-    },
-    ModelId = 2401,
-    RangedWeapon = 20201,
-    RoleId = 211,
-    SkillList = {
-      240101,
-      240102,
-      240103,
-      240104,
-      240191
-    },
-    Sp = -1,
-    SummonId = 240101,
-    UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
-    UpgradeSkillExtraLevel = {
-      {
-  ExtraLv = 2,
-  Grade = 3,
-  SkillId = 240101
-},
-      {
-  ExtraLv = 2,
-  Grade = 5,
-  SkillId = 240102
-},
-      {
-  ExtraLv = 1,
-  Grade = 3,
-  SkillId = 240103
-},
-      {
-  ExtraLv = 1,
-  Grade = 5,
-  SkillId = 240103
-}
-    },
-    WeaponId = 10101
-  },
-  [212] = {
-    ATK = 25,
-    ATKLevelGrow = "ATKS",
-    Attribute = "Light",
-    BTMotionParams = {
-      MaxAccelerationRun = 2048,
-      MaxAccelerationWalk = 2048,
-      MaxSpeedRun = 500,
-      MaxSpeedWalk = 100
-    },
-    BattleCharBuffUI = 1503,
-    BattleCharTag = {
-      "Man"
-    },
-    CapsuleInfo = {
-      Crouch = {
-        45, 200
-      },
-      OriHalfHeight = 96.5,
-      OriRadius = 20,
-      Slide = {
-        45, 200
-      }
-    },
-    CharGradeDescription = {
-      [1] = "GRADEUP_1503_01",
-      [2] = "GRADEUP_1503_02",
-      [3] = "GRADEUP_1503_03",
-      [4] = "GRADEUP_1503_04",
-      [5] = "GRADEUP_1503_05",
-      [6] = "GRADEUP_1503_06"
-    },
-    CharName = "UI_CHAR_NAME_1503",
-    CondemnWeapon = 30,
-    DEF = 315,
-    DEFLevelGrow = "DEFS",
-    ExcelWeaponRate = 0.2,
-    ExcelWeaponTags = {
-      "Almighty"
-    },
-    GuideIconImg = "Mini_Kezhou",
-    MaxES = 145,
-    MaxESLevelGrow = "MaxESS",
-    MaxHp = 145,
-    MaxHpLevelGrow = "MaxHpS",
-    MaxSp = 180,
-    ModApplicationType = {
-      1, 16
-    },
-    ModelId = 1503,
-    PassiveEffectClient = "Blueprint'/Game/BluePrints/Combat/PassiveEffect/DesignerBP/Client/BP_Kezhou_Client.BP_Kezhou_Client'",
-    RangedWeapon = 20201,
-    RoleId = 212,
-    SkillList = {
-      150301,
-      150302,
-      150303,
-      150304,
-      150003
-    },
-    Sp = -1,
-    UltraWeapon = {
-      150301,
-      150302,
-      150303,
-      150304
-    },
-    UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
-    UpgradeSkillExtraLevel = {
-      {
-  ExtraLv = 2,
-  Grade = 3,
-  SkillId = 150301
-},
-      {
-  ExtraLv = 2,
-  Grade = 5,
-  SkillId = 150302
-},
-      {
-  ExtraLv = 1,
-  Grade = 3,
-  SkillId = 150303
-},
-      {
-  ExtraLv = 1,
-  Grade = 5,
-  SkillId = 150303
-}
-    },
-    WeaponId = 10101
-  },
   [1101] = {
     AIBTPath = "/Game/AssetDesign/AI/Player/Heitao/BT_TestAI_Heitao.BT_TestAI_Heitao",
     ATK = 20,
@@ -829,7 +562,7 @@ return ReadOnly("BattleChar", {
       [6] = "GRADEUP_1101_06"
     },
     CharGradeParameter = {
-      [1] = "$#Buff[110111].AddAttrs[1].Value*100$%",
+      [1] = "$#Buff[110111].AddAttrs[1].Rate*100$%",
       [2] = "$#PassiveEffect[110101].Vars.Grade1LastTime$",
       [3] = "$#PassiveEffect[110101].Vars.Grade2BuffRate*100$%",
       [4] = "$#Buff[110112].AddAttrs[1].Rate*100$%",
@@ -1448,13 +1181,11 @@ return ReadOnly("BattleChar", {
     DEF = 315,
     DEFLevelGrow = "DEFS",
     ExcelWeaponRate = 0.2,
-    ExcelWeaponTags = {
-      "Almighty"
-    },
+    ExcelWeaponTags = {"Almighty"},
     GuideIconImg = "Mini_Kezhou",
-    MaxES = 145,
+    MaxES = 135,
     MaxESLevelGrow = "MaxESS",
-    MaxHp = 145,
+    MaxHp = 135,
     MaxHpLevelGrow = "MaxHpS",
     MaxSp = 180,
     ModApplicationType = {
@@ -1489,25 +1220,25 @@ return ReadOnly("BattleChar", {
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
     UpgradeSkillExtraLevel = {
       {
-  ExtraLv = 2,
-  Grade = 3,
-  SkillId = 150301
-},
+        ExtraLv = 2,
+        Grade = 3,
+        SkillId = 150301
+      },
       {
-  ExtraLv = 2,
-  Grade = 5,
-  SkillId = 150302
-},
+        ExtraLv = 2,
+        Grade = 5,
+        SkillId = 150302
+      },
       {
-  ExtraLv = 1,
-  Grade = 3,
-  SkillId = 150303
-},
+        ExtraLv = 1,
+        Grade = 3,
+        SkillId = 150303
+      },
       {
-  ExtraLv = 1,
-  Grade = 5,
-  SkillId = 150303
-}
+        ExtraLv = 1,
+        Grade = 5,
+        SkillId = 150303
+      }
     },
     WeaponId = 10101
   },
@@ -1523,6 +1254,7 @@ return ReadOnly("BattleChar", {
       MaxSpeedRun = 500,
       MaxSpeedWalk = 100
     },
+    BattleCharBuffUI = 1504,
     BattleCharTag = {
       "Girl"
     },
@@ -1564,12 +1296,13 @@ return ReadOnly("BattleChar", {
     SkillList = {
       150401,
       150402,
-      150403
+      150403,
+      150404
     },
     Sp = -1,
     UltraWeapon = {150401},
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
-    WeaponId = 10204
+    WeaponId = 10101
   },
   [1505] = {
     ATK = 21,
@@ -1581,6 +1314,7 @@ return ReadOnly("BattleChar", {
       MaxSpeedRun = 500,
       MaxSpeedWalk = 100
     },
+    BattleCharBuffUI = 1505,
     BattleCharTag = {
       "Woman"
     },
@@ -1594,7 +1328,7 @@ return ReadOnly("BattleChar", {
         45, 200
       }
     },
-    CharName = "莉兹贝尔",
+    CharName = "大暴怒",
     CondemnWeapon = 30,
     DEF = 255,
     DEFLevelGrow = "DEFS",
@@ -1611,7 +1345,7 @@ return ReadOnly("BattleChar", {
     ModApplicationType = {
       1, 16
     },
-    ModelId = 3201,
+    ModelId = 1505,
     Positioning = {
       "DPS",
       "Uweapon",
@@ -1628,7 +1362,8 @@ return ReadOnly("BattleChar", {
     SkillList = {
       150501,
       150502,
-      150503
+      150503,
+      150504
     },
     Sp = -1,
     UltraWeapon = {150501},
@@ -1784,8 +1519,8 @@ return ReadOnly("BattleChar", {
     },
     CharGradeParameter = {
       [1] = "$#Buff[180135].AddAttrs[2].Value*100$%",
-      [2] = "$#Buff[180114].AddAttrs[2].Value*100$%",
-      [3] = "$#Buff[180114].AddAttrs[3].Value*100$%",
+      [2] = "$#Buff[180114].AddAttrs[2].Rate*100$%",
+      [3] = "$#Buff[180114].AddAttrs[3].Rate*100$%",
       [4] = "$#PassiveEffect[180101].Vars.Grade6CritRate*100$%"
     },
     CharName = "UI_CHAR_NAME_1801",
@@ -2011,7 +1746,7 @@ return ReadOnly("BattleChar", {
       "Minion",
       "SkillDPS"
     },
-    RangedWeapon = 20201,
+    RangedWeapon = 20207,
     RecommendAttr = {
       "ATK_Water",
       "SkillIntensity",
@@ -2180,7 +1915,7 @@ return ReadOnly("BattleChar", {
       [2] = "$#SkillEffects[240112].TaskEffects[1].MaxSummonCount$",
       [3] = "$#Buff[240134].MaxLayer$",
       [4] = "$#Buff[240124].AddAttrs[2].Value*100$%",
-      [5] = "$#Buff[240134].AddAttrs[1].Rate*100-#Buff[240133].AddAttrs[1].Rate*100$%"
+      [5] = "$#Buff[240134].AddAttrs[2].Value*100$%"
     },
     CharName = "UI_CHAR_NAME_2401",
     CharUIId = 14,
@@ -2188,9 +1923,7 @@ return ReadOnly("BattleChar", {
     DEF = 315,
     DEFLevelGrow = "DEFS",
     ExcelWeaponRate = 0.2,
-    ExcelWeaponTags = {
-      "Swordwhip", "Bow"
-    },
+    ExcelWeaponTags = {"Swordwhip", "Bow"},
     GuideIconImg = "Mini_Baiheng",
     MaxES = 105,
     MaxESLevelGrow = "MaxESS",
@@ -2223,29 +1956,29 @@ return ReadOnly("BattleChar", {
       240191
     },
     Sp = -1,
-    SummonId = 240101,
+    SummonId = {240101},
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
     UpgradeSkillExtraLevel = {
       {
-  ExtraLv = 2,
-  Grade = 3,
-  SkillId = 240101
-},
+        ExtraLv = 2,
+        Grade = 3,
+        SkillId = 240101
+      },
       {
-  ExtraLv = 2,
-  Grade = 5,
-  SkillId = 240102
-},
+        ExtraLv = 2,
+        Grade = 5,
+        SkillId = 240102
+      },
       {
-  ExtraLv = 1,
-  Grade = 3,
-  SkillId = 240103
-},
+        ExtraLv = 1,
+        Grade = 3,
+        SkillId = 240103
+      },
       {
-  ExtraLv = 1,
-  Grade = 5,
-  SkillId = 240103
-}
+        ExtraLv = 1,
+        Grade = 5,
+        SkillId = 240103
+      }
     },
     WeaponId = 10101
   },
@@ -2721,7 +2454,7 @@ return ReadOnly("BattleChar", {
       [3] = "$#PassiveEffect[320201].Vars.Grade4InDamage*100$%"
     },
     CharName = "UI_CHAR_NAME_3202",
-    CharUIId = 10,
+    CharUIId = 29,
     CondemnWeapon = 30,
     DEF = 345,
     DEFLevelGrow = "DEFS",
@@ -3191,29 +2924,29 @@ return ReadOnly("BattleChar", {
       420191
     },
     Sp = -1,
-    SummonId = 420101,
+    SummonId = {420101},
     UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
     UpgradeSkillExtraLevel = {
       {
-  ExtraLv = 2,
-  Grade = 3,
-  SkillId = 420101
-},
+        ExtraLv = 2,
+        Grade = 3,
+        SkillId = 420101
+      },
       {
-  ExtraLv = 2,
-  Grade = 5,
-  SkillId = 420102
-},
+        ExtraLv = 2,
+        Grade = 5,
+        SkillId = 420102
+      },
       {
-  ExtraLv = 1,
-  Grade = 3,
-  SkillId = 420103
-},
+        ExtraLv = 1,
+        Grade = 3,
+        SkillId = 420103
+      },
       {
-  ExtraLv = 1,
-  Grade = 5,
-  SkillId = 420103
-}
+        ExtraLv = 1,
+        Grade = 5,
+        SkillId = 420103
+      }
     },
     WeaponId = 10203
   },
@@ -4264,6 +3997,224 @@ return ReadOnly("BattleChar", {
     SkillList = {
       160101,
       160102,
+      160103,
+      160104,
+      100005
+    },
+    Sp = -1,
+    UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    UpgradeSkillExtraLevel = {
+      {
+  ExtraLv = 2,
+  Grade = 3,
+  SkillId = 160101
+},
+      {
+  ExtraLv = 2,
+  Grade = 5,
+  SkillId = 160102
+},
+      {
+  ExtraLv = 1,
+  Grade = 3,
+  SkillId = 160103
+},
+      {
+  ExtraLv = 1,
+  Grade = 5,
+  SkillId = 160103
+}
+    },
+    WeaponId = 10101
+  },
+  [160102] = {
+    ATK = 22,
+    ATKLevelGrow = "ATKA",
+    Attribute = "Light",
+    BTMotionParams = {
+      MaxAccelerationRun = 2048,
+      MaxAccelerationWalk = 2048,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 100
+    },
+    BattleCharBuffUI = 1601,
+    BattleCharTag = {
+      "Girl"
+    },
+    CapsuleInfo = {
+      Crouch = {
+        45, 200
+      },
+      OriHalfHeight = 80,
+      OriRadius = 20,
+      Slide = {
+        45, 200
+      }
+    },
+    CharAddonAttr = {
+      160101,
+      160102,
+      160103,
+      160104
+    },
+    CharGradeDescription = {
+      [1] = "GRADEUP_1601_01",
+      [2] = "GRADEUP_1601_02",
+      [3] = "GRADEUP_1601_03",
+      [4] = "GRADEUP_1601_04",
+      [5] = "GRADEUP_1601_05",
+      [6] = "GRADEUP_1601_06"
+    },
+    CharGradeParameter = {
+      [1] = "$#PassiveEffect[160101].Vars.AddDamageRate*100$%",
+      [2] = "$#SkillCreature[160103].TimeLife$",
+      [3] = "$#Buff[160102].AddAttrs[1].Value*(-100)$%",
+      [4] = "$#Buff[160103].AddAttrs[1].Value*100$%",
+      [5] = "$#PassiveEffect[160101].Vars.BuffLastTime$",
+      [6] = "$#Buff[160103].MaxLayer$",
+      [7] = "$#Buff[160104].AddAttrs[1].Value*100$%"
+    },
+    CharName = "UI_CHAR_NAME_101",
+    CondemnWeapon = 30,
+    DEF = 300,
+    DEFLevelGrow = "DEFA",
+    ExcelWeaponRate = 0.2,
+    ExcelWeaponTags = {
+      "Sword", "Machinegun"
+    },
+    GuideIconImg = "Mini_Nvzhu",
+    MaxES = 120,
+    MaxESLevelGrow = "MaxESA",
+    MaxHp = 120,
+    MaxHpLevelGrow = "MaxHpA",
+    MaxSp = 100,
+    ModApplicationType = {
+      1, 16
+    },
+    ModelId = 160102,
+    Positioning = {
+      "Support"
+    },
+    RangedWeapon = 20201,
+    RecommendAttr = {
+      "ATK_Light",
+      "SkillIntensity",
+      "SkillSustain",
+      "SkillRange"
+    },
+    RoleId = 160102,
+    SkillList = {
+      160191,
+      160192,
+      160103,
+      160104,
+      100005
+    },
+    Sp = -1,
+    UnitBPPath = "/Game/BluePrints/Char/BP_PlayerCharacter.BP_PlayerCharacter_C",
+    UpgradeSkillExtraLevel = {
+      {
+  ExtraLv = 2,
+  Grade = 3,
+  SkillId = 160101
+},
+      {
+  ExtraLv = 2,
+  Grade = 5,
+  SkillId = 160102
+},
+      {
+  ExtraLv = 1,
+  Grade = 3,
+  SkillId = 160103
+},
+      {
+  ExtraLv = 1,
+  Grade = 5,
+  SkillId = 160103
+}
+    },
+    WeaponId = 10101
+  },
+  [160103] = {
+    ATK = 22,
+    ATKLevelGrow = "ATKA",
+    Attribute = "Light",
+    BTMotionParams = {
+      MaxAccelerationRun = 2048,
+      MaxAccelerationWalk = 2048,
+      MaxSpeedRun = 500,
+      MaxSpeedWalk = 100
+    },
+    BattleCharBuffUI = 1601,
+    BattleCharTag = {
+      "Boy"
+    },
+    CapsuleInfo = {
+      Crouch = {
+        45, 200
+      },
+      OriHalfHeight = 80,
+      OriRadius = 20,
+      Slide = {
+        45, 200
+      }
+    },
+    CharAddonAttr = {
+      160101,
+      160102,
+      160103,
+      160104
+    },
+    CharGradeDescription = {
+      [1] = "GRADEUP_1601_01",
+      [2] = "GRADEUP_1601_02",
+      [3] = "GRADEUP_1601_03",
+      [4] = "GRADEUP_1601_04",
+      [5] = "GRADEUP_1601_05",
+      [6] = "GRADEUP_1601_06"
+    },
+    CharGradeParameter = {
+      [1] = "$#PassiveEffect[160101].Vars.AddDamageRate*100$%",
+      [2] = "$#SkillCreature[160103].TimeLife$",
+      [3] = "$#Buff[160102].AddAttrs[1].Value*(-100)$%",
+      [4] = "$#Buff[160103].AddAttrs[1].Value*100$%",
+      [5] = "$#PassiveEffect[160101].Vars.BuffLastTime$",
+      [6] = "$#Buff[160103].MaxLayer$",
+      [7] = "$#Buff[160104].AddAttrs[1].Value*100$%"
+    },
+    CharName = "UI_CHAR_NAME_101",
+    CondemnWeapon = 30,
+    DEF = 300,
+    DEFLevelGrow = "DEFA",
+    ExcelWeaponRate = 0.2,
+    ExcelWeaponTags = {
+      "Sword", "Machinegun"
+    },
+    GuideIconImg = "Mini_Nanzhu",
+    MaxES = 120,
+    MaxESLevelGrow = "MaxESA",
+    MaxHp = 120,
+    MaxHpLevelGrow = "MaxHpA",
+    MaxSp = 100,
+    ModApplicationType = {
+      1, 16
+    },
+    ModelId = 160103,
+    Positioning = {
+      "Support"
+    },
+    RangedWeapon = 20201,
+    RecommendAttr = {
+      "ATK_Light",
+      "SkillIntensity",
+      "SkillSustain",
+      "SkillRange"
+    },
+    RoleId = 160103,
+    SkillList = {
+      160191,
+      160192,
       160103,
       160104,
       100005

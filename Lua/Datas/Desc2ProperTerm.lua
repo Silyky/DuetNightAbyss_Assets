@@ -11,6 +11,9 @@ return ReadOnly("Desc2ProperTerm", {
   [160102] = {
     [1] = "TERM_Common_OverES"
   },
+  [160192] = {
+    [1] = "TERM_Common_OverES"
+  },
   [180103] = {
     [1] = "TERM_Common_AdditionalDmg"
   },

@@ -70,34 +70,24 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
+          {
+            startQuest = "1750321021896639027",
+            startPort = "Out",
+            endQuest = "1750321021896639025",
+            endPort = "Success"
+          },
           {
             startQuest = "1750321021896639024",
             startPort = "QuestStart",
             endQuest = "1750321021896639027",
             endPort = "In"
-          },
-          {
-            startQuest = "1750321021896639024",
-            startPort = "QuestStart",
-            endQuest = "176008084326110573999",
-            endPort = "In"
-          },
-          {
-            startQuest = "1750321021896639027",
-            startPort = "Out",
-            endQuest = "176008085684410574385",
-            endPort = "In"
-          },
-          {
-            startQuest = "176008085684410574385",
-            startPort = "Out",
-            endQuest = "1750321021896639025",
-            endPort = "Success"
           }
         },
         nodeData = {
@@ -112,7 +102,7 @@ return {
             key = "1750321021896639025",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1327.2399911502348, y = 294.23968462812275},
+            pos = {x = 1208.7399911502348, y = 295.73968462812275},
             propsData = {ModeType = 0}
           },
           ["1750321021896639026"] = {
@@ -126,7 +116,7 @@ return {
             key = "1750321021896639027",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 721.6516424751705, y = 276.49522536287265},
+            pos = {x = 804.6516424751705, y = 275.99522536287265},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80160201,
@@ -144,6 +134,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -168,43 +159,14 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 93201},
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
-            }
-          },
-          ["176008084326110573999"] = {
-            key = "176008084326110573999",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = 718.7801724137931, y = 99.6336206896552},
-            propsData = {
-              SoundStateType = 0,
-              SoundPriority = 1,
-              SoundType = 0,
-              SoundPath = "event:/bgm/cbt01/0016_judian",
-              ParamKey = "",
-              ParamValue = 0,
-              RelatedRegionId = {},
-              ClientRelatedRegionId = {}
-            }
-          },
-          ["176008085684410574385"] = {
-            key = "176008085684410574385",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = 1039.9870689655172, y = 295.875},
-            propsData = {
-              SoundStateType = 3,
-              SoundPriority = 1,
-              SoundType = 0
             }
           }
         },

@@ -5,7 +5,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 30006,
-    ESAbsorbValue = 2
+    ESAbsorbValue = 2,
+    SpecialTrollyStateIdInStop = 240
   },
   [60801] = {
     CheckpointEilteMonsterNum = {
@@ -15,7 +16,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 60801,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [60802] = {
     CheckpointEilteMonsterNum = {
@@ -25,7 +27,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 60802,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [62801] = {
     CheckpointEilteMonsterNum = {
@@ -35,7 +38,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 62801,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [62802] = {
     CheckpointEilteMonsterNum = {
@@ -45,7 +49,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 62802,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [64801] = {
     CheckpointEilteMonsterNum = {
@@ -55,7 +60,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 64801,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [64802] = {
     CheckpointEilteMonsterNum = {
@@ -65,7 +71,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 64802,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [90701] = {
     CheckpointEilteMonsterNum = {
@@ -75,7 +82,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 90701,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [90702] = {
     CheckpointEilteMonsterNum = {
@@ -85,7 +93,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 90702,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [90703] = {
     CheckpointEilteMonsterNum = {
@@ -95,7 +104,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 90703,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [90704] = {
     CheckpointEilteMonsterNum = {
@@ -105,7 +115,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 90704,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [90705] = {
     CheckpointEilteMonsterNum = {
@@ -115,7 +126,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 90705,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [90706] = {
     CheckpointEilteMonsterNum = {
@@ -125,7 +137,8 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 90706,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   },
   [90707] = {
     CheckpointEilteMonsterNum = {
@@ -135,6 +148,7 @@ return ReadOnly("Hijack", {
       -1, 23
     },
     DungeonID = 90707,
-    ESAbsorbValue = 5
+    ESAbsorbValue = 5,
+    SpecialTrollyStateIdInStop = 240
   }
 })

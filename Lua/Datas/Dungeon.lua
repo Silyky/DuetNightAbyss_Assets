@@ -115,6 +115,67 @@ return ReadOnly("Dungeon", {
       }
     }
   },
+  [3] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 3,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Test/NewTestRoom/MultiTest",
+    DungeonMapFile = "/Game/Maps/Misc_Test/TestDungeon",
+    DungeonName = "DUNGEON_NAME_3",
+    EnableTacmap = false,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
   [4] = {
     CameraParam = {
       Boy = {
@@ -2809,6 +2870,28 @@ return ReadOnly("Dungeon", {
       }
     }
   },
+  [50] = {
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 50,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonType = "ExtermPro",
+    EnableTacmap = false,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Exterminate01.BP_EMGameMode_Huaxu_Exterminate01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externminate01"
+  },
+  [51] = {
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 51,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonType = "SurvivalMiniPro",
+    EnableTacmap = false,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniPro.BP_SingleGameMode_Huaxu_SurvivalMiniPro",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_50"
+  },
   [10001] = {
     CameraParam = {
       Boy = {
@@ -2849,6 +2932,7 @@ return ReadOnly("Dungeon", {
     DungeonMapFile = "/Game/Maps/Prologue",
     DungeonName = "DUNGEON_NAME_10001",
     DungeonTypeShow = "DUNGEON_NAME_10001",
+    DungeonUIBG = "=IF($F232="","",CONCAT("/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_",$F232,".LevelSelect_Bg_",$F232))",
     EnableTacmap = false,
     ExitPlayerLocation = {
       -500,
@@ -3399,6 +3483,7 @@ return ReadOnly("Dungeon", {
     },
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MonTickOptimizationNum = 50,
     NotShowTeammate = true,
     OnlyCombatReward = true,
     RespawnRule = "Abyss",
@@ -3483,6 +3568,7 @@ return ReadOnly("Dungeon", {
     },
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MonTickOptimizationNum = 50,
     NotShowTeammate = true,
     OnlyCombatReward = true,
     RespawnRule = "Abyss",
@@ -3567,6 +3653,7 @@ return ReadOnly("Dungeon", {
     },
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MonTickOptimizationNum = 50,
     NotShowTeammate = true,
     OnlyCombatReward = true,
     RespawnRule = "Abyss",
@@ -3651,6 +3738,7 @@ return ReadOnly("Dungeon", {
     },
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MonTickOptimizationNum = 50,
     NotShowTeammate = true,
     OnlyCombatReward = true,
     RespawnRule = "Abyss",
@@ -3735,6 +3823,7 @@ return ReadOnly("Dungeon", {
     },
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MonTickOptimizationNum = 50,
     NotShowTeammate = true,
     OnlyCombatReward = true,
     RespawnRule = "Abyss",
@@ -3819,6 +3908,7 @@ return ReadOnly("Dungeon", {
     },
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MonTickOptimizationNum = 50,
     NotShowTeammate = true,
     OnlyCombatReward = true,
     RespawnRule = "Abyss",
@@ -3845,6 +3935,10508 @@ return ReadOnly("Dungeon", {
       }
     },
     UseDefaultMontage = true
+  },
+  [21001] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21001,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21002] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21002,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21003] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21003,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21011] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21011,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80502,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21012] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21012,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80502,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21013] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21013,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80502,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21101] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21101,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21102] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21102,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21103] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21103,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21111] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21111,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21112] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21112,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21113] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21113,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21201] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21201,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21202] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21202,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21203] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21203,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21211] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21211,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21212] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21212,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21213] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21213,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21301] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21301,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21302] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21302,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21303] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21303,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21311] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21311,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21312] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21312,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21313] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21313,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21401] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21401,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21402] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21402,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21403] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21403,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21411] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21411,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21412] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21412,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21413] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21413,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21501] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21501,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21502] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21502,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21503] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21503,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21511] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21511,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21512] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21512,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21513] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21513,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21601] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21601,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21602] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21602,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21603] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21603,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21611] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21611,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21612] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21612,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21613] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21613,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21614] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21614,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21615] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21615,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21616] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21616,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21617] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21617,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21618] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21618,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21619] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21619,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21620] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21620,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21621] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21621,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21622] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21622,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21623] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21623,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21624] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21624,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21625] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21625,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21626] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21626,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21627] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21627,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21628] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21628,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21629] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21629,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21630] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21630,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21631] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21631,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21632] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21632,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21633] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21633,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21634] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21634,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21635] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21635,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21636] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21636,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21637] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21637,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21638] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21638,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21639] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21639,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21640] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21640,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21641] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21641,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21642] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21642,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21643] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21643,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21644] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21644,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 55,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300322,
+    DungeonRewardView = 92001,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21645] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21645,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 65,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300323,
+    DungeonRewardView = 92002,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21646] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MaxKill = 200,
+      MonsterID = 80501,
+      TimeLimit = 60
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21646,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 100,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_PreRaid_Rank",
+    DungeonReward = 300324,
+    DungeonRewardView = 92003,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Pre.BP_EMGameMode_Raid_Pre",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        3010001,
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21647] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002702,
+      Elite2 = 8003703,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21647,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300325,
+    DungeonRewardView = 92004,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002702,8003703}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21648] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002703,
+      Elite2 = 8003702,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21648,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 75,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300326,
+    DungeonRewardView = 92005,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = 45,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002703,8003702}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [21649] = {
+    AttributeType = "Wind",
+    BPOverrideVars = {
+      BossID = 8514701,
+      Elite1 = 8002701,
+      Elite2 = 8003701,
+      ExtraBuff = 30101,
+      MonsterID = 80502,
+      TimeLimit = 180
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    CreateMonsterFaster = true,
+    DropReward = {
+      ["Mon.Gr"] = 150010,
+      ["Mon.Jh"] = 150010,
+      ["Mon.Jt"] = 150010,
+      ["Mon.Sq"] = 150010,
+      ["Mon.Strong"] = 150010
+    },
+    DungeonCost = 0,
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 21649,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
+    DungeonLevel = 110,
+    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
+    DungeonMonsters = {
+      8514701,
+      8002601,
+      8001601,
+      8003601,
+      6004601,
+      6014601,
+      6001601,
+      6011601,
+      6002601,
+      6012601,
+      6003601,
+      6013601
+    },
+    DungeonName = "RaidDungeon_Raid_Rank",
+    DungeonReward = 300327,
+    DungeonRewardView = 92006,
+    DungeonType = "SoloRaid",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/GuildWar/WBP_Activity_GuildWar_ChangeScene.WBP_Activity_GuildWar_ChangeScene",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    EnableUpdateOverlapsOpt = true,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Raid/BP_EMGameMode_Raid_Boss.BP_EMGameMode_Raid_Boss",
+    IsGameEventDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    MonTickOptimizationNum = -1,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000021,
+        6000031,
+        6000044,
+        6000051,
+        6000061
+      }
+    },
+    OnlyCombatReward = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{80501,8002701,8003701}",
+    RespawnRule = "Abyss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true
+  },
+  [22001] = {
+    CameraParam = {
+      Boy = {
+        143,
+        -60,
+        140
+      },
+      Girl = {
+        145,
+        -60,
+        135
+      },
+      Loli = {
+        143,
+        -60,
+        115
+      },
+      Man = {
+        160,
+        -70,
+        150
+      },
+      Woman = {
+        155,
+        -70,
+        150
+      }
+    },
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_MonsterRush",
+    DungeonID = 22001,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/MonsterRush",
+    DungeonLevel = 15,
+    DungeonMapFile = "/Game/Maps/Prologue_MonsterRush01",
+    DungeonName = "DUNGEON_NAME_0",
+    DungeonType = "MonsterRush",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/MonsterRush/BP_EMGameMode_MonsterRush_Wuyou01.BP_EMGameMode_MonsterRush_Wuyou01",
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    RespawnRule = "MonsterRush",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [22002] = {
+    CameraParam = {
+      Boy = {
+        143,
+        -60,
+        140
+      },
+      Girl = {
+        145,
+        -60,
+        135
+      },
+      Loli = {
+        143,
+        -60,
+        115
+      },
+      Man = {
+        160,
+        -70,
+        150
+      },
+      Woman = {
+        155,
+        -70,
+        150
+      }
+    },
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry_MonsterRush",
+    DungeonID = 22002,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/MonsterRush",
+    DungeonLevel = 15,
+    DungeonMapFile = "/Game/Maps/Prologue_MonsterRush01",
+    DungeonName = "DUNGEON_NAME_0",
+    DungeonType = "MonsterRush",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      -2950,
+      100,
+      -130
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/MonsterRush/BP_EMGameMode_MonsterRush_Wuyou02.BP_EMGameMode_MonsterRush_Wuyou02",
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    RespawnRule = "MonsterRush",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [22003] = {
+    CameraParam = {
+      Boy = {
+        143,
+        -60,
+        140
+      },
+      Girl = {
+        145,
+        -60,
+        135
+      },
+      Loli = {
+        143,
+        -60,
+        115
+      },
+      Man = {
+        160,
+        -70,
+        150
+      },
+      Woman = {
+        155,
+        -70,
+        150
+      }
+    },
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_MonsterRush",
+    DungeonID = 22003,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/MonsterRush",
+    DungeonLevel = 15,
+    DungeonMapFile = "/Game/Maps/Prologue_MonsterRush01",
+    DungeonName = "DUNGEON_NAME_0",
+    DungeonType = "MonsterRush",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/MonsterRush/BP_EMGameMode_MonsterRush_Wuyou03.BP_EMGameMode_MonsterRush_Wuyou03",
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    RespawnRule = "MonsterRush",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [22004] = {
+    CameraParam = {
+      Boy = {
+        143,
+        -60,
+        140
+      },
+      Girl = {
+        145,
+        -60,
+        135
+      },
+      Loli = {
+        143,
+        -60,
+        115
+      },
+      Man = {
+        160,
+        -70,
+        150
+      },
+      Woman = {
+        155,
+        -70,
+        150
+      }
+    },
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry_MonsterRush",
+    DungeonID = 22004,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/MonsterRush",
+    DungeonLevel = 15,
+    DungeonMapFile = "/Game/Maps/Prologue_MonsterRush01",
+    DungeonName = "DUNGEON_NAME_0",
+    DungeonType = "MonsterRush",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      -2950,
+      100,
+      -130
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/MonsterRush/BP_EMGameMode_MonsterRush_Wuyou04.BP_EMGameMode_MonsterRush_Wuyou04",
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    RespawnRule = "MonsterRush",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [22005] = {
+    CameraParam = {
+      Boy = {
+        143,
+        -60,
+        140
+      },
+      Girl = {
+        145,
+        -60,
+        135
+      },
+      Loli = {
+        143,
+        -60,
+        115
+      },
+      Man = {
+        160,
+        -70,
+        150
+      },
+      Woman = {
+        155,
+        -70,
+        150
+      }
+    },
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_MonsterRush",
+    DungeonID = 22005,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/MonsterRush",
+    DungeonLevel = 15,
+    DungeonMapFile = "/Game/Maps/Prologue_MonsterRush01",
+    DungeonName = "DUNGEON_NAME_0",
+    DungeonType = "MonsterRush",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/MonsterRush/BP_EMGameMode_MonsterRush_Wuyou05.BP_EMGameMode_MonsterRush_Wuyou05",
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    RespawnRule = "MonsterRush",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [22006] = {
+    CameraParam = {
+      Boy = {
+        143,
+        -60,
+        140
+      },
+      Girl = {
+        145,
+        -60,
+        135
+      },
+      Loli = {
+        143,
+        -60,
+        115
+      },
+      Man = {
+        160,
+        -70,
+        150
+      },
+      Woman = {
+        155,
+        -70,
+        150
+      }
+    },
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry_MonsterRush",
+    DungeonID = 22006,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/MonsterRush",
+    DungeonLevel = 15,
+    DungeonMapFile = "/Game/Maps/Prologue_MonsterRush01",
+    DungeonName = "DUNGEON_NAME_0",
+    DungeonType = "MonsterRush",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      -2950,
+      100,
+      -130
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/MonsterRush/BP_EMGameMode_MonsterRush_Wuyou06.BP_EMGameMode_MonsterRush_Wuyou06",
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    RespawnRule = "MonsterRush",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [22007] = {
+    CameraParam = {
+      Boy = {
+        143,
+        -60,
+        140
+      },
+      Girl = {
+        145,
+        -60,
+        135
+      },
+      Loli = {
+        143,
+        -60,
+        115
+      },
+      Man = {
+        160,
+        -70,
+        150
+      },
+      Woman = {
+        155,
+        -70,
+        150
+      }
+    },
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_MonsterRush",
+    DungeonID = 22007,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/MonsterRush",
+    DungeonLevel = 15,
+    DungeonMapFile = "/Game/Maps/Prologue_MonsterRush01",
+    DungeonName = "DUNGEON_NAME_0",
+    DungeonType = "MonsterRush",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
+    ExitPlayerLocation = {
+      0,
+      -110,
+      -567
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/MonsterRush/BP_EMGameMode_MonsterRush_Wuyou07.BP_EMGameMode_MonsterRush_Wuyou07",
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    RespawnRule = "MonsterRush",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
   },
   [30001] = {
     CameraParam = {
@@ -4469,6 +15061,7 @@ return ReadOnly("Dungeon", {
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Raid",
     DungeonMapFile = "/Game/Maps/Prologue_Raid01",
     DungeonName = "DUNGEON_NAME_0",
+    DungeonType = "SoloRaid",
     EnableTacmap = false,
     ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Abyss_Boss01_Art",
     ExitPlayerLocation = {
@@ -4512,52 +15105,76 @@ return ReadOnly("Dungeon", {
   [30101] = {
     CameraParam = {
       Boy = {
-        143,
-        -60,
-        140
+        163,
+        10,
+        122
       },
       Girl = {
-        145,
-        -60,
-        135
+        163,
+        10,
+        122
       },
       Loli = {
-        143,
-        -60,
-        115
+        163,
+        10,
+        122
       },
       Man = {
-        160,
-        -70,
-        150
+        163,
+        10,
+        122
       },
       Woman = {
-        155,
-        -70,
-        150
+        163,
+        10,
+        122
       }
     },
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonID = 30101,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/Raid",
-    DungeonMapFile = "/Game/Maps/Prologue_Raid01",
-    DungeonName = "DUNGEON_NAME_0",
-    EnableTacmap = false,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Abyss_Boss01_Art",
-    ExitPlayerLocation = {
-      -2950,
-      100,
-      -130
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
     },
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "Defence",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
     ExitPlayerRotation = {
       0,
       0,
-      0
+      -90
     },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Defence01.BP_EMGameMode_Huaxu_Defence01",
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
-    IsRandom = 1,
-    NotShowTeammate = true,
-    RespawnRule = "Abyss",
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "(301,{302,307},303,{304,307},305,{306,308})",
+    RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
         0,
@@ -4580,7 +15197,1689 @@ return ReadOnly("Dungeon", {
         0
       }
     },
-    UseDefaultMontage = true
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence01",
+    bHideBatttleMap = true
+  },
+  [30102] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30102,
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "Defence",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Defence01.BP_EMGameMode_Huaxu_Defence01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "(301,{302,307},303,{304,307},305,{306,308})",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence01",
+    bHideBatttleMap = true
+  },
+  [30103] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30103,
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "Defence",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Defence01.BP_EMGameMode_Huaxu_Defence01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "(301,{302,307},303,{304,307},305,{306,308})",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence01",
+    bHideBatttleMap = true
+  },
+  [30104] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30104,
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "Defence",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Defence01.BP_EMGameMode_Huaxu_Defence01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "(301,{302,307},303,{304,307},305,{306,308})",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence02",
+    bHideBatttleMap = true
+  },
+  [30105] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30105,
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "Defence",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Defence01.BP_EMGameMode_Huaxu_Defence01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "(301,{302,307},303,{304,307},305,{306,308})",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence02",
+    bHideBatttleMap = true
+  },
+  [30106] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30106,
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "Defence",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Defence01.BP_EMGameMode_Huaxu_Defence01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "(301,{302,307},303,{304,307},305,{306,308})",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence02",
+    bHideBatttleMap = true
+  },
+  [30601] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30601,
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "SurvivalMiniPro",
+    DungeonTypeShow = "DUNGEON_NAME_90601",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_SurvivalMiniPro.LevelSelect_Bg_SurvivalMiniPro",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniPro.BP_SingleGameMode_Huaxu_SurvivalMiniPro",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{602,618}",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro01",
+    bHideBatttleMap = true
+  },
+  [30602] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30602,
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "SurvivalMiniPro",
+    DungeonTypeShow = "DUNGEON_NAME_90601",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_SurvivalMiniPro.LevelSelect_Bg_SurvivalMiniPro",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniPro.BP_SingleGameMode_Huaxu_SurvivalMiniPro",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{602,618}",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro01",
+    bHideBatttleMap = true
+  },
+  [30603] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30603,
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "SurvivalMiniPro",
+    DungeonTypeShow = "DUNGEON_NAME_90601",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_SurvivalMiniPro.LevelSelect_Bg_SurvivalMiniPro",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniPro.BP_SingleGameMode_Huaxu_SurvivalMiniPro",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{602,618}",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro01",
+    bHideBatttleMap = true
+  },
+  [30604] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30604,
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "SurvivalMiniPro",
+    DungeonTypeShow = "DUNGEON_NAME_90601",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_SurvivalMiniPro.LevelSelect_Bg_SurvivalMiniPro",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniPro.BP_SingleGameMode_Huaxu_SurvivalMiniPro",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{602,618}",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro02",
+    bHideBatttleMap = true
+  },
+  [30605] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30605,
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "SurvivalMiniPro",
+    DungeonTypeShow = "DUNGEON_NAME_90601",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_SurvivalMiniPro.LevelSelect_Bg_SurvivalMiniPro",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniPro.BP_SingleGameMode_Huaxu_SurvivalMiniPro",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{602,618}",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro02",
+    bHideBatttleMap = true
+  },
+  [30606] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30606,
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "SurvivalMiniPro",
+    DungeonTypeShow = "DUNGEON_NAME_90601",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_SurvivalMiniPro.LevelSelect_Bg_SurvivalMiniPro",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniPro.BP_SingleGameMode_Huaxu_SurvivalMiniPro",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{602,618}",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro02",
+    bHideBatttleMap = true
+  },
+  [30801] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30801,
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "Exterminate",
+    DungeonTypeShow = "DUNGEON_NAME_90801",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Exterminate.LevelSelect_Bg_Exterminate",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Exterminate01.BP_EMGameMode_Huaxu_Exterminate01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externminate01",
+    bHideBatttleMap = true
+  },
+  [30802] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30802,
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "Exterminate",
+    DungeonTypeShow = "DUNGEON_NAME_90801",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Exterminate.LevelSelect_Bg_Exterminate",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Exterminate01.BP_EMGameMode_Huaxu_Exterminate01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externminate01",
+    bHideBatttleMap = true
+  },
+  [30803] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 30803,
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "Exterminate",
+    DungeonTypeShow = "DUNGEON_NAME_90801",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Exterminate.LevelSelect_Bg_Exterminate",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Exterminate01.BP_EMGameMode_Huaxu_Exterminate01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externminate01",
+    bHideBatttleMap = true
+  },
+  [31001] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 31001,
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "ExtermPro",
+    DungeonTypeShow = "DUNGEON_NAME_91001",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Externpro01.BP_EMGameMode_Huaxu_Externpro01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{10805}",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externpro01",
+    bHideBatttleMap = true
+  },
+  [31002] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 31002,
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "ExtermPro",
+    DungeonTypeShow = "DUNGEON_NAME_91001",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Externpro01.BP_EMGameMode_Huaxu_Externpro01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{10805}",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externpro01",
+    bHideBatttleMap = true
+  },
+  [31003] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 31003,
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      8001001,
+      8002001,
+      8003001,
+      6001001,
+      6002001,
+      6003001,
+      6013001,
+      6004001,
+      6014001,
+      8501002
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
+    DungeonReward = 50900,
+    DungeonRewardView = 90201,
+    DungeonType = "ExtermPro",
+    DungeonTypeShow = "DUNGEON_NAME_91001",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Externpro01.BP_EMGameMode_Huaxu_Externpro01",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{10805}",
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externpro01",
+    bHideBatttleMap = true
   },
   [40101] = {
     CameraParam = {
@@ -4615,8 +16914,10 @@ return ReadOnly("Dungeon", {
     DungeonID = 40101,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Paotai/Paotai_01",
     DungeonMapFile = "/Game/Maps/Ailixian_Paotai01",
+    DungeonMonsters = {7012005},
     DungeonName = "DUNGEON_NAME_40101",
     DungeonType = "Paotai",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/Fort/WBP_Activity_Fort_ChangeScene.WBP_Activity_Fort_ChangeScene",
     DungeonWinMode = 3,
     EnableTacmap = false,
     ForbidHideMonsterByDist = true,
@@ -4679,8 +16980,12 @@ return ReadOnly("Dungeon", {
     DungeonID = 40102,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Paotai/Paotai_02",
     DungeonMapFile = "/Game/Maps/Ailixian_Paotai01",
+    DungeonMonsters = {
+      7002007, 7012005
+    },
     DungeonName = "DUNGEON_NAME_40102",
     DungeonType = "Paotai",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/Fort/WBP_Activity_Fort_ChangeScene.WBP_Activity_Fort_ChangeScene",
     DungeonWinMode = 3,
     EnableTacmap = false,
     ForbidHideMonsterByDist = true,
@@ -4743,8 +17048,12 @@ return ReadOnly("Dungeon", {
     DungeonID = 40103,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Paotai/Paotai_03",
     DungeonMapFile = "/Game/Maps/Ailixian_Paotai01",
+    DungeonMonsters = {
+      7002007, 7012005
+    },
     DungeonName = "DUNGEON_NAME_40103",
     DungeonType = "Paotai",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/Fort/WBP_Activity_Fort_ChangeScene.WBP_Activity_Fort_ChangeScene",
     DungeonWinMode = 3,
     EnableTacmap = false,
     ForbidHideMonsterByDist = true,
@@ -4807,8 +17116,14 @@ return ReadOnly("Dungeon", {
     DungeonID = 40104,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Paotai/Paotai_04",
     DungeonMapFile = "/Game/Maps/Ailixian_Paotai01",
+    DungeonMonsters = {
+      7002007,
+      7012005,
+      7001008
+    },
     DungeonName = "DUNGEON_NAME_40104",
     DungeonType = "Paotai",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/Fort/WBP_Activity_Fort_ChangeScene.WBP_Activity_Fort_ChangeScene",
     DungeonWinMode = 3,
     EnableTacmap = false,
     ForbidHideMonsterByDist = true,
@@ -4871,8 +17186,14 @@ return ReadOnly("Dungeon", {
     DungeonID = 40105,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Paotai/Paotai_05",
     DungeonMapFile = "/Game/Maps/Ailixian_Paotai01",
+    DungeonMonsters = {
+      7002007,
+      7012005,
+      6006002
+    },
     DungeonName = "DUNGEON_NAME_40105",
     DungeonType = "Paotai",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/Fort/WBP_Activity_Fort_ChangeScene.WBP_Activity_Fort_ChangeScene",
     DungeonWinMode = 3,
     EnableTacmap = false,
     ForbidHideMonsterByDist = true,
@@ -4935,8 +17256,10 @@ return ReadOnly("Dungeon", {
     DungeonID = 40106,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Paotai/Paotai_06",
     DungeonMapFile = "/Game/Maps/Ailixian_Paotai01",
+    DungeonMonsters = {7012005, 7001008},
     DungeonName = "DUNGEON_NAME_40106",
     DungeonType = "Paotai",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/Fort/WBP_Activity_Fort_ChangeScene.WBP_Activity_Fort_ChangeScene",
     DungeonWinMode = 3,
     EnableTacmap = false,
     ForbidHideMonsterByDist = true,
@@ -4999,8 +17322,15 @@ return ReadOnly("Dungeon", {
     DungeonID = 40107,
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Paotai/Paotai_07",
     DungeonMapFile = "/Game/Maps/Ailixian_Paotai01",
+    DungeonMonsters = {
+      7002007,
+      7012005,
+      6006002,
+      6004007
+    },
     DungeonName = "DUNGEON_NAME_40107",
     DungeonType = "Paotai",
+    DungeonUIBG = "/Game/UI/WBP/Activity/Widget/Fort/WBP_Activity_Fort_ChangeScene.WBP_Activity_Fort_ChangeScene",
     DungeonWinMode = 3,
     EnableTacmap = false,
     ForbidHideMonsterByDist = true,
@@ -5494,6 +17824,2436 @@ return ReadOnly("Dungeon", {
     EnableTacmap = false,
     IsMultiDungeon = true,
     IsPlayLevelEnter = true,
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50101] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1310010602
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50101,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Xibi",
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_1",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG01.WBP_AreaCoop_LoadingBG01",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      31390,
+      32810,
+      27030
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -60
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50102] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1310010602
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50102,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Xibi",
+    DungeonLevel = 40,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_1",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG01.WBP_AreaCoop_LoadingBG01",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      31390,
+      32810,
+      27030
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -60
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50103] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1310010602
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50103,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Xibi",
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_1",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG01.WBP_AreaCoop_LoadingBG01",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      31390,
+      32810,
+      27030
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -60
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50104] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1310010602
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50104,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Xibi",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_1",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG01.WBP_AreaCoop_LoadingBG01",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      31390,
+      32810,
+      27030
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -60
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50105] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1310010602
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50105,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Xibi",
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_1",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG01.WBP_AreaCoop_LoadingBG01",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      31390,
+      32810,
+      27030
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -60
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50106] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1310010602
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50106,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Xibi",
+    DungeonLevel = 80,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_1",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG01.WBP_AreaCoop_LoadingBG01",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      31390,
+      32810,
+      27030
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -60
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50201] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1440052
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50201,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Shijingzhe",
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_2",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG03.WBP_AreaCoop_LoadingBG03",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      18640,
+      29520,
+      -10762.5361
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50202] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1440052
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50202,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Shijingzhe",
+    DungeonLevel = 40,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_2",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG03.WBP_AreaCoop_LoadingBG03",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      18640,
+      29520,
+      -10762.5361
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50203] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1440052
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50203,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Shijingzhe",
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_2",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG03.WBP_AreaCoop_LoadingBG03",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      18640,
+      29520,
+      -10762.5361
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50204] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1440052
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50204,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Shijingzhe",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_2",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG03.WBP_AreaCoop_LoadingBG03",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      18640,
+      29520,
+      -10762.5361
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50205] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1440052
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50205,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Shijingzhe",
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_2",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG03.WBP_AreaCoop_LoadingBG03",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      18640,
+      29520,
+      -10762.5361
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50206] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1440052
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50206,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Shijingzhe",
+    DungeonLevel = 80,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_2",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG03.WBP_AreaCoop_LoadingBG03",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_01_Art",
+    ExitPlayerLocation = {
+      18640,
+      29520,
+      -10762.5361
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50301] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1240027
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50301,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Saiqi",
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_3",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG02.WBP_AreaCoop_LoadingBG02",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_02_Art",
+    ExitPlayerLocation = {
+      -9020.002,
+      41520,
+      -13460
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50302] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1240027
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50302,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Saiqi",
+    DungeonLevel = 40,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_3",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG02.WBP_AreaCoop_LoadingBG02",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_02_Art",
+    ExitPlayerLocation = {
+      -9020.002,
+      41520,
+      -13460
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50303] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1240027
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50303,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Saiqi",
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_3",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG02.WBP_AreaCoop_LoadingBG02",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_02_Art",
+    ExitPlayerLocation = {
+      -9020.002,
+      41520,
+      -13460
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50304] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1240027
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50304,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Saiqi",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_3",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG02.WBP_AreaCoop_LoadingBG02",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_02_Art",
+    ExitPlayerLocation = {
+      -9020.002,
+      41520,
+      -13460
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50305] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1240027
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50305,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Saiqi",
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_3",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG02.WBP_AreaCoop_LoadingBG02",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_02_Art",
+    ExitPlayerLocation = {
+      -9020.002,
+      41520,
+      -13460
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50306] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1240027
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50306,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Saiqi",
+    DungeonLevel = 80,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_3",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG02.WBP_AreaCoop_LoadingBG02",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_02_Art",
+    ExitPlayerLocation = {
+      -9020.002,
+      41520,
+      -13460
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50401] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1660121
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50401,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Haierfa",
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_4",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG04.WBP_AreaCoop_LoadingBG04",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_03_Art",
+    ExitPlayerLocation = {
+      -740,
+      -530,
+      60020
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50402] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1660121
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50402,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Haierfa",
+    DungeonLevel = 40,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_4",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG04.WBP_AreaCoop_LoadingBG04",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_03_Art",
+    ExitPlayerLocation = {
+      -740,
+      -530,
+      60020
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50403] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1660121
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50403,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Haierfa",
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_4",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG04.WBP_AreaCoop_LoadingBG04",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_03_Art",
+    ExitPlayerLocation = {
+      -740,
+      -530,
+      60020
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50404] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1660121
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50404,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Haierfa",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_4",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG04.WBP_AreaCoop_LoadingBG04",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_03_Art",
+    ExitPlayerLocation = {
+      -740,
+      -530,
+      60020
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50405] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1660121
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50405,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Haierfa",
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_4",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG04.WBP_AreaCoop_LoadingBG04",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_03_Art",
+    ExitPlayerLocation = {
+      -740,
+      -530,
+      60020
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50406] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1660121
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50406,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Haierfa",
+    DungeonLevel = 80,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_4",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG04.WBP_AreaCoop_LoadingBG04",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_03_Art",
+    ExitPlayerLocation = {
+      -740,
+      -530,
+      60020
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      0
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Base.BP_EMGameMode_HardBossDg_Base",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50501] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1969946
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50501,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Linen",
+    DungeonLevel = 30,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_5",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG05.WBP_AreaCoop_LoadingBG05",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_04_Art",
+    ExitPlayerLocation = {
+      20490,
+      5320,
+      -37330
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Linen.BP_EMGameMode_HardBossDg_Linen",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50502] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1969946
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50502,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Linen",
+    DungeonLevel = 40,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_5",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG05.WBP_AreaCoop_LoadingBG05",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_04_Art",
+    ExitPlayerLocation = {
+      20490,
+      5320,
+      -37330
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Linen.BP_EMGameMode_HardBossDg_Linen",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50503] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1969946
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50503,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Linen",
+    DungeonLevel = 50,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_5",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG05.WBP_AreaCoop_LoadingBG05",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_04_Art",
+    ExitPlayerLocation = {
+      20490,
+      5320,
+      -37330
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Linen.BP_EMGameMode_HardBossDg_Linen",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50504] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1969946
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50504,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Linen",
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_5",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG05.WBP_AreaCoop_LoadingBG05",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_04_Art",
+    ExitPlayerLocation = {
+      20490,
+      5320,
+      -37330
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Linen.BP_EMGameMode_HardBossDg_Linen",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50505] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1969946
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50505,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Linen",
+    DungeonLevel = 70,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_5",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG05.WBP_AreaCoop_LoadingBG05",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_04_Art",
+    ExitPlayerLocation = {
+      20490,
+      5320,
+      -37330
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Linen.BP_EMGameMode_HardBossDg_Linen",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [50506] = {
+    AlertDisable = true,
+    BPOverrideVars = {
+      BossCreatorId = 1969946
+    },
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonCost = 0,
+    DungeonID = 50506,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/HardBoss/Linen",
+    DungeonLevel = 80,
+    DungeonMapFile = "/Game/Maps/Prologue_HardBoss01",
+    DungeonName = "UI_HardBoss_Name_5",
+    DungeonType = "HardBossDg",
+    DungeonUIBG = "/Game/UI/WBP/AreaCoop/Widget/BG/WBP_AreaCoop_LoadingBG05.WBP_AreaCoop_LoadingBG05",
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_HardBoss_04_Art",
+    ExitPlayerLocation = {
+      20490,
+      5320,
+      -37330
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    GameModeOverride = "/Game/AssetDesign/GameMode/HardBoss/BP_EMGameMode_HardBossDg_Linen.BP_EMGameMode_HardBossDg_Linen",
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = false,
+    IsRandom = 1,
+    OnlyOneMap = true,
+    RespawnRule = "HardBoss",
     SettlementOffset = {
       [1] = {
         0,
@@ -16014,6 +30774,7 @@ return ReadOnly("Dungeon", {
       NoBattleWheel = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -16092,6 +30853,7 @@ return ReadOnly("Dungeon", {
       NoBattleWheel = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -16170,6 +30932,7 @@ return ReadOnly("Dungeon", {
       NoBattleWheel = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -16248,6 +31011,7 @@ return ReadOnly("Dungeon", {
       NoBattleWheel = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -16976,6 +31740,84 @@ return ReadOnly("Dungeon", {
       }
     }
   },
+  [80706] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 80706,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Temple/Puzzle_07",
+    DungeonMapFile = "/Game/Maps/TempleEnter",
+    DungeonName = "DUNGEON_NAME_80706",
+    DungeonType = "Temple",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 3,
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Special/Temple/Temple_Parkour_03_Art",
+    ExitPlayerLocation = {
+      -3225,
+      3870,
+      3655
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    FbdRule = {
+      NoBattleWheel = 1, NoSkill = 1
+    },
+    ForbidHideMonsterByDist = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
   [80801] = {
     CameraParam = {
       Boy = {
@@ -17032,6 +31874,7 @@ return ReadOnly("Dungeon", {
       NoSkill = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -17113,6 +31956,7 @@ return ReadOnly("Dungeon", {
       NoSkill = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -17194,6 +32038,7 @@ return ReadOnly("Dungeon", {
       NoSkill = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -17275,6 +32120,7 @@ return ReadOnly("Dungeon", {
       NoSkill = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -17588,6 +32434,86 @@ return ReadOnly("Dungeon", {
     FbdRule = {
       NoBattleWheel = 1,
       NoRanged = 1,
+      NoSkill = 1
+    },
+    ForbidHideMonsterByDist = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [80904] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 80904,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Temple/Battle_17",
+    DungeonMapFile = "/Game/Maps/TempleEnter",
+    DungeonName = "DUNGEON_NAME_80904",
+    DungeonType = "Temple",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 3,
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Special/Temple/Temple_Parkour_03_Art",
+    ExitPlayerLocation = {
+      -3225,
+      3870,
+      3655
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    FbdRule = {
+      NoBattleWheel = 1,
+      NoMelee = 1,
       NoSkill = 1
     },
     ForbidHideMonsterByDist = true,
@@ -18162,6 +33088,7 @@ return ReadOnly("Dungeon", {
       NoSkill = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -18243,6 +33170,7 @@ return ReadOnly("Dungeon", {
       NoSkill = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -18324,6 +33252,7 @@ return ReadOnly("Dungeon", {
       NoSkill = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -18405,6 +33334,7 @@ return ReadOnly("Dungeon", {
       NoSkill = 1
     },
     ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     SettlementOffset = {
@@ -18511,6 +33441,87 @@ return ReadOnly("Dungeon", {
       }
     }
   },
+  [81302] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 81302,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Temple/Theft_02",
+    DungeonMapFile = "/Game/Maps/TempleEnter",
+    DungeonName = "DUNGEON_NAME_81302",
+    DungeonType = "Temple",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 3,
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Special/Temple/Temple_Parkour_03_Art",
+    ExitPlayerLocation = {
+      -3225,
+      3870,
+      3655
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    FbdRule = {
+      NoBattleWheel = 1,
+      NoMelee = 1,
+      NoRanged = 1,
+      NoSkill = 1
+    },
+    ForbidHideMonsterByDist = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
   [81401] = {
     CameraParam = {
       Boy = {
@@ -18545,6 +33556,162 @@ return ReadOnly("Dungeon", {
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Temple/Burglar_01",
     DungeonMapFile = "/Game/Maps/TempleEnter",
     DungeonName = "DUNGEON_NAME_81401",
+    DungeonType = "Temple",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 3,
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Special/Temple/Temple_Parkour_03_Art",
+    ExitPlayerLocation = {
+      -3225,
+      3870,
+      3655
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    FbdRule = {
+      NoBattleWheel = 1, NoRanged = 1
+    },
+    ForbidHideMonsterByDist = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [81402] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 81402,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Temple/Burglar_02",
+    DungeonMapFile = "/Game/Maps/TempleEnter",
+    DungeonName = "DUNGEON_NAME_81402",
+    DungeonType = "Temple",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 3,
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Special/Temple/Temple_Parkour_03_Art",
+    ExitPlayerLocation = {
+      -3225,
+      3870,
+      3655
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    FbdRule = {
+      NoBattleWheel = 1, NoRanged = 1
+    },
+    ForbidHideMonsterByDist = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [81403] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 81403,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Temple/Burglar_03",
+    DungeonMapFile = "/Game/Maps/TempleEnter",
+    DungeonName = "DUNGEON_NAME_81403",
     DungeonType = "Temple",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 3,
@@ -18744,6 +33911,166 @@ return ReadOnly("Dungeon", {
         0
       }
     }
+  },
+  [81601] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 81601,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Temple/Battle_18",
+    DungeonMapFile = "/Game/Maps/TempleEnter",
+    DungeonName = "DUNGEON_NAME_81601",
+    DungeonType = "Temple",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 3,
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Special/Temple/Temple_Parkour_03_Art",
+    ExitPlayerLocation = {
+      -3225,
+      3870,
+      3655
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    FbdRule = {
+      NoBattleWheel = 1,
+      NoRanged = 1,
+      NoSkill = 1
+    },
+    ForbidHideMonsterByDist = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    }
+  },
+  [81702] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    DungeonBGM = "event:/bgm/cbt02/0053_level_lingniaoshilian",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonID = 81702,
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Special/Temple/Lure_02",
+    DungeonMapFile = "/Game/Maps/TempleEnter",
+    DungeonName = "DUNGEON_NAME_81702",
+    DungeonType = "Temple",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
+    DungeonWinMode = 3,
+    EnableTacmap = false,
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Special/Temple/Temple_Parkour_03_Art",
+    ExitPlayerLocation = {
+      -3225,
+      3870,
+      3655
+    },
+    ExitPlayerRotation = {
+      0,
+      0,
+      90
+    },
+    FbdRule = {
+      NoBattleWheel = 1
+    },
+    ForbidHideMonsterByDist = true,
+    IsGameEventDungeon = true,
+    IsPlayLevelEnter = true,
+    IsRandom = 1,
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    bHideJumpWord = true
   },
   [90101] = {
     CameraParam = {
@@ -19648,9 +34975,10 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = 135,
+    Condition = {135, 3013},
     DropReward = {
       ["Mon.Gr"] = 150101,
+      ["Mon.Hx"] = 150101,
       ["Mon.Jh"] = 150103,
       ["Mon.Jt"] = 150102,
       ["Mon.Reward.AA"] = 84,
@@ -19661,28 +34989,20 @@ return ReadOnly("Dungeon", {
       ["Mon.Sq"] = 150104
     },
     DropRewardMonsterNum = 240,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonFixLevel = 5,
     DungeonID = 90108,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Defence01/Defence01_50",
     DungeonLevel = 50,
-    DungeonMapFile = "/Game/Maps/Prologue_Defence01",
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonMonsters = {
-      8501002,
-      7001001,
-      7002001,
-      7012001,
-      7003001,
-      7013001,
-      7008001,
-      6001001,
-      6011001,
-      6002001,
-      6012001
+      6016001,
+      6017001,
+      10003001,
+      10005001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEFENCE",
     DungeonReward = {
@@ -19697,21 +35017,15 @@ return ReadOnly("Dungeon", {
     DungeonWinMode = 1,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
-    ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
-    },
     ExitPlayerRotation = {
       0,
       0,
       -90
     },
     FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Prologue_Defence01.BP_EMGameMode_Prologue_Defence01",
     IsMultiDungeon = true,
     IsPlayLevelEnter = true,
-    IsRandom = 1,
     LocAdjustDetectTime = 5,
     LocAdjustDis = 15000,
     MultiPlayerLevels = {
@@ -19721,6 +35035,8 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "(100301,{100302,100307},100303,{100304,100307},100305,{100306,100308})",
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -19751,7 +35067,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence01"
   },
   [90109] = {
     CameraParam = {
@@ -19901,7 +35218,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = 145,
+    Condition = {145, 3014},
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Jh"] = 150103,
@@ -20154,7 +35471,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = 155,
+    Condition = {155, 3015},
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Jh"] = 150103,
@@ -20407,7 +35724,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = 160,
+    Condition = {160, 3016},
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Jh"] = 150103,
@@ -20678,7 +35995,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90161,
-    DungeonInitGuideUnitId = 6004020,
+    DungeonInitGuideUnitId = {6004020},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -20713,6 +36030,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -20720,8 +36038,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -20766,7 +36084,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90162] = {
     CameraParam = {
@@ -20814,7 +36133,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90162,
-    DungeonInitGuideUnitId = 6001014,
+    DungeonInitGuideUnitId = {6001014},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -20849,6 +36168,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -20856,8 +36176,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -20902,7 +36222,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90163] = {
     CameraParam = {
@@ -20950,7 +36271,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90163,
-    DungeonInitGuideUnitId = 6002017,
+    DungeonInitGuideUnitId = {6002017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -20985,6 +36306,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -20992,8 +36314,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -21038,7 +36360,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90164] = {
     CameraParam = {
@@ -21086,7 +36409,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90164,
-    DungeonInitGuideUnitId = 6013015,
+    DungeonInitGuideUnitId = {6013015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21121,6 +36444,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -21128,8 +36452,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -21174,7 +36498,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90165] = {
     CameraParam = {
@@ -21222,7 +36547,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90165,
-    DungeonInitGuideUnitId = 6007016,
+    DungeonInitGuideUnitId = {6007016},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21257,6 +36582,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -21264,8 +36590,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -21310,7 +36636,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90166] = {
     CameraParam = {
@@ -21358,7 +36685,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90166,
-    DungeonInitGuideUnitId = 6004012,
+    DungeonInitGuideUnitId = {6004012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21393,6 +36720,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -21400,8 +36728,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -21446,7 +36774,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90167] = {
     CameraParam = {
@@ -21494,7 +36823,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90167,
-    DungeonInitGuideUnitId = 6002016,
+    DungeonInitGuideUnitId = {6002016},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21529,6 +36858,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -21536,8 +36866,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -21582,7 +36912,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90168] = {
     CameraParam = {
@@ -21630,7 +36961,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90168,
-    DungeonInitGuideUnitId = 6001011,
+    DungeonInitGuideUnitId = {6001011},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -21665,6 +36996,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -21672,8 +37004,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -21718,7 +37050,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90171] = {
     CameraParam = {
@@ -21759,15 +37092,15 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90171,
-    DungeonInitGuideUnitId = 6004020,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
+    DungeonInitGuideUnitId = {6004020, 6001014},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
@@ -21788,19 +37121,20 @@ return ReadOnly("Dungeon", {
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
+      3810,
+      -1600,
+      10
     },
     ExitPlayerRotation = {
       0,
       0,
-      -90
+      180
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -21808,8 +37142,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -21854,7 +37188,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90172] = {
     CameraParam = {
@@ -21895,15 +37230,15 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90172,
-    DungeonInitGuideUnitId = 6001014,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
+    DungeonInitGuideUnitId = {6001014, 6002017},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
@@ -21924,19 +37259,20 @@ return ReadOnly("Dungeon", {
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
+      3810,
+      -1600,
+      10
     },
     ExitPlayerRotation = {
       0,
       0,
-      -90
+      180
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -21944,8 +37280,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -21990,7 +37326,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90173] = {
     CameraParam = {
@@ -22031,15 +37368,15 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90173,
-    DungeonInitGuideUnitId = 6002016,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
+    DungeonInitGuideUnitId = {6002017, 6013015},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
@@ -22060,19 +37397,20 @@ return ReadOnly("Dungeon", {
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
+      3810,
+      -1600,
+      10
     },
     ExitPlayerRotation = {
       0,
       0,
-      -90
+      180
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -22080,8 +37418,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -22126,7 +37464,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90174] = {
     CameraParam = {
@@ -22167,15 +37506,15 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
+    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90174,
-    DungeonInitGuideUnitId = 6001011,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
+    DungeonInitGuideUnitId = {6013015, 6007016},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 30,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
@@ -22196,19 +37535,20 @@ return ReadOnly("Dungeon", {
     DungeonWinMode = 2,
     EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
+    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
+      3810,
+      -1600,
+      10
     },
     ExitPlayerRotation = {
       0,
       0,
-      -90
+      180
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -22216,8 +37556,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -22262,7 +37602,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90175] = {
     CameraParam = {
@@ -22303,14 +37644,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90175,
-    DungeonInitGuideUnitId = 6002017,
+    DungeonInitGuideUnitId = {6007016, 6004012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22345,6 +37686,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -22352,8 +37694,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -22398,7 +37740,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90176] = {
     CameraParam = {
@@ -22439,14 +37782,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90176,
-    DungeonInitGuideUnitId = 6013015,
+    DungeonInitGuideUnitId = {6004012, 6002016},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22481,6 +37824,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -22488,8 +37832,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -22534,7 +37878,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90177] = {
     CameraParam = {
@@ -22575,14 +37920,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90177,
-    DungeonInitGuideUnitId = 6007016,
+    DungeonInitGuideUnitId = {6002016, 6001011},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22617,6 +37962,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -22624,8 +37970,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -22670,7 +38016,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90178] = {
     CameraParam = {
@@ -22711,14 +38058,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150108
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 90178,
-    DungeonInitGuideUnitId = 6004012,
+    DungeonInitGuideUnitId = {6001011, 6004020},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/DefenceMove",
     DungeonLevel = 50,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22753,6 +38100,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     LocAdjustDetectTime = 5,
@@ -22760,8 +38108,8 @@ return ReadOnly("Dungeon", {
     MultiPlayerLevels = {
       0,
       4,
-      8,
-      12
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -22806,7 +38154,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90180] = {
     AttributeType = "Dark",
@@ -22855,7 +38204,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90180,
-    DungeonInitGuideUnitId = 9002019,
+    DungeonInitGuideUnitId = {9002019},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -22890,6 +38239,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -22901,6 +38251,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000064
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -22964,7 +38320,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90181] = {
     AttributeType = "Water",
@@ -23013,7 +38370,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90181,
-    DungeonInitGuideUnitId = 9001023,
+    DungeonInitGuideUnitId = {9001023},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23048,6 +38405,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -23059,6 +38417,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -23122,7 +38486,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90182] = {
     AttributeType = "Water",
@@ -23171,7 +38536,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90182,
-    DungeonInitGuideUnitId = 9007023,
+    DungeonInitGuideUnitId = {9007023},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23206,6 +38571,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -23217,6 +38583,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -23280,7 +38652,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90183] = {
     AttributeType = "Fire",
@@ -23329,7 +38702,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90183,
-    DungeonInitGuideUnitId = 9002024,
+    DungeonInitGuideUnitId = {9002024},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23364,6 +38737,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -23375,6 +38749,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -23438,7 +38818,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90184] = {
     AttributeType = "Thunder",
@@ -23487,7 +38868,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90184,
-    DungeonInitGuideUnitId = 9001017,
+    DungeonInitGuideUnitId = {9001017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23522,6 +38903,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -23533,6 +38915,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -23596,7 +38984,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90185] = {
     AttributeType = "Wind",
@@ -23645,7 +39034,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90185,
-    DungeonInitGuideUnitId = 9007022,
+    DungeonInitGuideUnitId = {9007022},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23680,6 +39069,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -23691,6 +39081,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -23754,7 +39150,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90186] = {
     AttributeType = "Wind",
@@ -23803,7 +39200,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90186,
-    DungeonInitGuideUnitId = 9002023,
+    DungeonInitGuideUnitId = {9002023},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23838,6 +39235,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -23849,6 +39247,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -23912,7 +39316,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90187] = {
     AttributeType = "Light",
@@ -23961,7 +39366,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90187,
-    DungeonInitGuideUnitId = 9001024,
+    DungeonInitGuideUnitId = {9001024},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -23996,6 +39401,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -24007,6 +39413,12 @@ return ReadOnly("Dungeon", {
         6000054,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -24070,7 +39482,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90188] = {
     AttributeType = "Light",
@@ -24119,7 +39532,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 90188,
-    DungeonInitGuideUnitId = 9007019,
+    DungeonInitGuideUnitId = {9007019},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
     DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
@@ -24154,6 +39567,7 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -24165,6 +39579,12 @@ return ReadOnly("Dungeon", {
         6000054,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -24228,7 +39648,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [90201] = {
     CameraParam = {
@@ -36211,6 +51632,7 @@ return ReadOnly("Dungeon", {
     Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150601,
+      ["Mon.Hx"] = 150601,
       ["Mon.Jh"] = 150603,
       ["Mon.Jt"] = 150602,
       ["Mon.Reward.AA"] = 84,
@@ -36221,33 +51643,20 @@ return ReadOnly("Dungeon", {
       ["Mon.Sq"] = 150604
     },
     DropRewardMonsterNum = 200,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
     DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonFixLevel = 5,
     DungeonID = 90604,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/Survival00",
     DungeonLevel = 40,
-    DungeonMapFile = "/Game/Maps/Prologue_SurvivalMiniPro",
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonMonsters = {
-      8501002,
-      6004013,
-      7001001,
-      7002001,
-      7012001,
-      7003001,
-      7013001,
-      7004001,
-      7014001,
-      6001001,
-      6011001,
-      6002001,
-      6012001,
-      6003001,
-      6013001,
-      6004001
+      6017001,
+      6016001,
+      6015001,
+      10005001
     },
     DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
     DungeonReward = {
@@ -36262,23 +51671,17 @@ return ReadOnly("Dungeon", {
     DungeonTypeShow = "DUNGEON_NAME_90601",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_SurvivalMiniPro.LevelSelect_Bg_SurvivalMiniPro",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
-    ExitPlayerLocation = {
-      3810,
-      -1600,
-      10
-    },
     ExitPlayerRotation = {
       0,
       0,
-      180
+      -90
     },
     FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniPro.BP_SingleGameMode_Huaxu_SurvivalMiniPro",
     IsMultiDungeon = true,
     IsPlayLevelEnter = true,
-    IsRandom = 1,
     LocAdjustDetectTime = 5,
     LocAdjustDis = 5000,
     MultiPlayerLevels = {
@@ -36288,6 +51691,8 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{200602,618}",
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -36317,7 +51722,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro01"
   },
   [90605] = {
     CameraParam = {
@@ -36821,6 +52227,7 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -36945,6 +52352,7 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -37070,6 +52478,7 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -37195,6 +52604,7 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -37320,6 +52730,7 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -37445,6 +52856,7 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -37570,6 +52982,7 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -38004,6 +53417,7 @@ return ReadOnly("Dungeon", {
     Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150801,
+      ["Mon.Hx"] = 150801,
       ["Mon.Jh"] = 150803,
       ["Mon.Jt"] = 150802,
       ["Mon.Reward.B"] = 83,
@@ -38013,26 +53427,26 @@ return ReadOnly("Dungeon", {
       ["Mon.Sq"] = 150804
     },
     DropRewardMonsterNum = 40,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
     DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonID = 90804,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/Exterminate01",
+    DungeonInitGuideUnitId = 6016021,
     DungeonLevel = 50,
-    DungeonMapFile = "/Game/Maps/Prologue_Exterminate",
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonMonsters = {
       7001001,
       7002001,
-      6001001,
-      6002001,
-      6003001,
-      6004001,
-      6011001,
-      6012001,
-      6013001,
-      6014001
+      7003001,
+      7004001,
+      7009001,
+      7012001,
+      6015001,
+      6016001,
+      6017001,
+      6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
     DungeonReward = {51704},
@@ -38041,23 +53455,17 @@ return ReadOnly("Dungeon", {
     DungeonTypeShow = "DUNGEON_NAME_90801",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Exterminate.LevelSelect_Bg_Exterminate",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
-    ExitPlayerLocation = {
-      3810,
-      -1600,
-      10
-    },
     ExitPlayerRotation = {
       0,
       0,
-      180
+      -90
     },
     FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Exterminate01.BP_EMGameMode_Huaxu_Exterminate01",
     IsMultiDungeon = true,
     IsPlayLevelEnter = true,
-    IsRandom = 1,
     MultiPlayerLevels = {
       0,
       4,
@@ -38065,6 +53473,7 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -38094,7 +53503,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externminate01"
   },
   [90805] = {
     AlertDisable = true,
@@ -40246,6 +55656,7 @@ return ReadOnly("Dungeon", {
     },
     DropReward = {
       ["Mon.Gr"] = 150801,
+      ["Mon.Hx"] = 150801,
       ["Mon.Jh"] = 150803,
       ["Mon.Jt"] = 150802,
       ["Mon.Reward.B"] = 73,
@@ -40255,22 +55666,20 @@ return ReadOnly("Dungeon", {
       ["Mon.Sq"] = 150804
     },
     DropRewardMonsterNum = 175,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonID = 91009,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 60,
-    DungeonMapFile = "/Game/Maps/Prologue_Testing",
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonMonsters = {
-      6012001,
-      6013001,
-      7001001,
-      7013001,
-      7012001,
-      7004001
+      6017001,
+      6016001,
+      6015001,
+      10005001,
+      6004001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
     DungeonReward = {51511},
@@ -40279,22 +55688,16 @@ return ReadOnly("Dungeon", {
     DungeonTypeShow = "DUNGEON_NAME_91001",
     DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
     DungeonWinMode = 2,
-    EnableTacmap = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Sew_Exit_01_Art",
-    ExitPlayerLocation = {
-      6400,
-      -3800,
-      -1100
-    },
+    EnableTacmap = false,
     ExitPlayerRotation = {
       0,
       0,
-      0
+      -90
     },
     FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Externpro01.BP_EMGameMode_Huaxu_Externpro01",
     IsMultiDungeon = true,
     IsPlayLevelEnter = true,
-    IsRandom = 1,
     MultiPlayerLevels = {
       0,
       4,
@@ -40302,6 +55705,7 @@ return ReadOnly("Dungeon", {
       8
     },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     RespawnRule = "CommonSolo",
     SettlementOffset = {
       [1] = {
@@ -40325,14 +55729,14 @@ return ReadOnly("Dungeon", {
         0
       }
     },
-    ShowAllLevel = true,
     Squad = true,
     TicketId = {
       206,
       207,
       208,
       209
-    }
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externpro01"
   },
   [91010] = {
     AlertDisable = true,
@@ -40820,7 +56224,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91101,
-    DungeonInitGuideUnitId = 6001012,
+    DungeonInitGuideUnitId = {6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -40853,8 +56257,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -40899,7 +56310,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91102] = {
     AlertDisable = true,
@@ -40947,7 +56359,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91102,
-    DungeonInitGuideUnitId = 6002015,
+    DungeonInitGuideUnitId = {6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -40980,8 +56392,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -41026,7 +56445,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91103] = {
     AlertDisable = true,
@@ -41074,7 +56494,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91103,
-    DungeonInitGuideUnitId = 6013017,
+    DungeonInitGuideUnitId = {6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41107,8 +56527,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -41153,7 +56580,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91104] = {
     AlertDisable = true,
@@ -41201,7 +56629,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91104,
-    DungeonInitGuideUnitId = 6007011,
+    DungeonInitGuideUnitId = {6007011},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41234,8 +56662,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -41280,7 +56715,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91105] = {
     AlertDisable = true,
@@ -41328,7 +56764,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91105,
-    DungeonInitGuideUnitId = 8002018,
+    DungeonInitGuideUnitId = {8002018},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 20,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41361,8 +56797,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -41407,7 +56850,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91106] = {
     AlertDisable = true,
@@ -41455,7 +56899,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91106,
-    DungeonInitGuideUnitId = 8001019,
+    DungeonInitGuideUnitId = {8001019},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 20,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41488,8 +56932,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -41534,7 +56985,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91107] = {
     AlertDisable = true,
@@ -41583,7 +57035,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91107,
-    DungeonInitGuideUnitId = 6002011,
+    DungeonInitGuideUnitId = {6002011},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41616,8 +57068,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -41662,7 +57121,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91108] = {
     AlertDisable = true,
@@ -41711,7 +57171,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91108,
-    DungeonInitGuideUnitId = 6013018,
+    DungeonInitGuideUnitId = {6013018},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41744,8 +57204,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -41790,7 +57257,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91109] = {
     AlertDisable = true,
@@ -41839,7 +57307,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91109,
-    DungeonInitGuideUnitId = 6007024,
+    DungeonInitGuideUnitId = {6007024},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -41872,8 +57340,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -41918,7 +57393,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91110] = {
     AlertDisable = true,
@@ -41967,7 +57443,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91110,
-    DungeonInitGuideUnitId = 6004014,
+    DungeonInitGuideUnitId = {6004014},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42000,8 +57476,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -42046,7 +57529,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91111] = {
     AlertDisable = true,
@@ -42095,7 +57579,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91111,
-    DungeonInitGuideUnitId = 6001018,
+    DungeonInitGuideUnitId = {6001018},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42128,8 +57612,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -42174,7 +57665,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91112] = {
     AlertDisable = true,
@@ -42223,7 +57715,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91112,
-    DungeonInitGuideUnitId = 8003021,
+    DungeonInitGuideUnitId = {8003021},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42256,8 +57748,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -42302,7 +57801,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91113] = {
     AlertDisable = true,
@@ -42351,7 +57851,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91113,
-    DungeonInitGuideUnitId = 8002012,
+    DungeonInitGuideUnitId = {8002012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42384,8 +57884,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -42430,7 +57937,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91114] = {
     AlertDisable = true,
@@ -42479,7 +57987,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91114,
-    DungeonInitGuideUnitId = 8001015,
+    DungeonInitGuideUnitId = {8001015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42512,8 +58020,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -42558,7 +58073,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91115] = {
     AlertDisable = true,
@@ -42607,7 +58123,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91115,
-    DungeonInitGuideUnitId = 8003016,
+    DungeonInitGuideUnitId = {8003016},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42640,8 +58156,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -42686,7 +58209,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91116] = {
     AlertDisable = true,
@@ -42735,7 +58259,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91116,
-    DungeonInitGuideUnitId = 8002020,
+    DungeonInitGuideUnitId = {8002020},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42768,8 +58292,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -42814,7 +58345,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91117] = {
     AlertDisable = true,
@@ -42863,7 +58395,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91117,
-    DungeonInitGuideUnitId = 8001021,
+    DungeonInitGuideUnitId = {8001021},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -42896,8 +58428,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -42942,7 +58481,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91118] = {
     AlertDisable = true,
@@ -42991,7 +58531,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91118,
-    DungeonInitGuideUnitId = 7001015,
+    DungeonInitGuideUnitId = {7001015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43024,8 +58564,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -43070,7 +58617,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91119] = {
     AlertDisable = true,
@@ -43119,7 +58667,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91119,
-    DungeonInitGuideUnitId = 7002018,
+    DungeonInitGuideUnitId = {7002018},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43152,8 +58700,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -43198,7 +58753,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91120] = {
     AlertDisable = true,
@@ -43247,7 +58803,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91120,
-    DungeonInitGuideUnitId = 7003016,
+    DungeonInitGuideUnitId = {7003016},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43280,8 +58836,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -43326,7 +58889,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91121] = {
     AlertDisable = true,
@@ -43375,7 +58939,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91121,
-    DungeonInitGuideUnitId = 7004020,
+    DungeonInitGuideUnitId = {7004020},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43408,8 +58972,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -43454,7 +59025,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91122] = {
     AlertDisable = true,
@@ -43503,7 +59075,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91122,
-    DungeonInitGuideUnitId = 7015011,
+    DungeonInitGuideUnitId = {7015011},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43536,8 +59108,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -43582,7 +59161,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91123] = {
     AlertDisable = true,
@@ -43631,7 +59211,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91123,
-    DungeonInitGuideUnitId = 7010022,
+    DungeonInitGuideUnitId = {7010022},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43664,8 +59244,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -43710,7 +59297,275 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
+  },
+  [91124] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    Condition = 140,
+    DropReward = {
+      ["Mon.Gr"] = 150801,
+      ["Mon.Hx"] = 150801,
+      ["Mon.Jh"] = 150803,
+      ["Mon.Jt"] = 150802,
+      ["Mon.Reward.B"] = 73,
+      ["Mon.Reward.C"] = 72,
+      ["Mon.Reward.D"] = 71,
+      ["Mon.Reward.E"] = 70,
+      ["Mon.Sq"] = 150804
+    },
+    DropRewardMonsterNum = 100,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91124,
+    DungeonInitGuideUnitId = {6017014},
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      6017001,
+      6016001,
+      6015001,
+      10005001,
+      6004001
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
+    DungeonReward = 300167,
+    DungeonRewardView = 191124,
+    DungeonType = "ExtermPro",
+    DungeonTypeShow = "DUNGEON_NAME_91001",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo11.LevelSelect_Bg_Dongguo11",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Externpro01.BP_EMGameMode_Huaxu_Externpro01",
+    IsModDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{10814,91124}",
+    PreloadMonsters = {
+      7001001,
+      7002001,
+      7003001,
+      7012001,
+      7013001
+    },
+    PreloadMonstersNum = {
+      [7001001] = 8,
+      [7002001] = 7,
+      [7003001] = 5,
+      [7012001] = 6,
+      [7013001] = 5
+    },
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externpro01",
+    bDisableMatch = true
+  },
+  [91125] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    Condition = 140,
+    DropReward = {
+      ["Mon.Gr"] = 150801,
+      ["Mon.Hx"] = 150801,
+      ["Mon.Jh"] = 150803,
+      ["Mon.Jt"] = 150802,
+      ["Mon.Reward.B"] = 73,
+      ["Mon.Reward.C"] = 72,
+      ["Mon.Reward.D"] = 71,
+      ["Mon.Reward.E"] = 70,
+      ["Mon.Sq"] = 150804
+    },
+    DropRewardMonsterNum = 100,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_EXTERMINATE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_EXTERMINATE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91125,
+    DungeonInitGuideUnitId = 6016021,
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      7001001,
+      7002001,
+      7003001,
+      7004001,
+      7009001,
+      7012001,
+      6015001,
+      6016001,
+      6017001,
+      6004001
+    },
+    DungeonName = "UI_DUNGEON_TYPE_EXTERMINATE",
+    DungeonReward = 300167,
+    DungeonRewardView = 191125,
+    DungeonType = "Exterminate",
+    DungeonTypeShow = "DUNGEON_NAME_90801",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo05.LevelSelect_Bg_Dongguo05",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Exterminate01.BP_EMGameMode_Huaxu_Exterminate01",
+    IsModDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{91125}",
+    PreloadMonsters = {
+      7001001,
+      7002001,
+      7003001,
+      7012001,
+      7013001
+    },
+    PreloadMonstersNum = {
+      [7001001] = 8,
+      [7002001] = 7,
+      [7003001] = 5,
+      [7012001] = 6,
+      [7013001] = 5
+    },
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externminate01",
+    bDisableMatch = true
   },
   [91137] = {
     AlertDisable = true,
@@ -43759,7 +59614,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91137,
-    DungeonInitGuideUnitId = 7009020,
+    DungeonInitGuideUnitId = {7009020},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43792,8 +59647,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -43838,7 +59700,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91138] = {
     AlertDisable = true,
@@ -43887,7 +59750,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91138,
-    DungeonInitGuideUnitId = 7008023,
+    DungeonInitGuideUnitId = {7008023},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -43920,8 +59783,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -43966,7 +59836,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91139] = {
     AlertDisable = true,
@@ -44015,7 +59886,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91139,
-    DungeonInitGuideUnitId = 7001024,
+    DungeonInitGuideUnitId = {7001024},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44048,8 +59919,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -44094,7 +59972,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91140] = {
     AlertDisable = true,
@@ -44143,7 +60022,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91140,
-    DungeonInitGuideUnitId = 7002019,
+    DungeonInitGuideUnitId = {7002019},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44176,8 +60055,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -44222,7 +60108,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91141] = {
     AlertDisable = true,
@@ -44271,7 +60158,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91141,
-    DungeonInitGuideUnitId = 7003022,
+    DungeonInitGuideUnitId = {7003022},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44304,8 +60191,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -44350,7 +60244,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91142] = {
     AlertDisable = true,
@@ -44399,7 +60294,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91142,
-    DungeonInitGuideUnitId = 7004017,
+    DungeonInitGuideUnitId = {7004017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44432,8 +60327,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -44478,7 +60380,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91143] = {
     AlertDisable = true,
@@ -44527,7 +60430,7 @@ return ReadOnly("Dungeon", {
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91143,
-    DungeonInitGuideUnitId = 8003024,
+    DungeonInitGuideUnitId = {8003024},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 80,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -44560,8 +60463,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -44606,284 +60516,10 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91144] = {
-    AlertDisable = true,
-    AttributeType = "Fire",
-    CameraParam = {
-      Boy = {
-        163,
-        10,
-        122
-      },
-      Girl = {
-        163,
-        10,
-        122
-      },
-      Loli = {
-        163,
-        10,
-        122
-      },
-      Man = {
-        163,
-        10,
-        122
-      },
-      Woman = {
-        163,
-        10,
-        122
-      }
-    },
-    DropReward = {
-      ["Mon.Gr"] = 150801,
-      ["Mon.Jh"] = 150803,
-      ["Mon.Jt"] = 150802,
-      ["Mon.Reward.B"] = 73,
-      ["Mon.Reward.C"] = 72,
-      ["Mon.Reward.D"] = 71,
-      ["Mon.Reward.E"] = 70,
-      ["Mon.Sq"] = 150804
-    },
-    DropRewardMonsterNum = 100,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
-    DungeonID = 91144,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
-    DungeonLevel = 80,
-    DungeonMapFile = "/Game/Maps/Prologue_Testing",
-    DungeonMonsters = {
-      6014001,
-      6012001,
-      6013001,
-      8001001,
-      8002001,
-      8003001
-    },
-    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = 300138,
-    DungeonRewardView = 91144,
-    DungeonType = "ExtermPro",
-    DungeonTypeShow = "DUNGEON_NAME_91001",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
-    DungeonWinMode = 2,
-    EnableTacmap = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
-    ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
-    },
-    ExitPlayerRotation = {
-      0,
-      0,
-      -90
-    },
-    FirstCompleteReward = 7005,
-    IsModDungeon = true,
-    IsPlayLevelEnter = true,
-    IsRandom = 1,
-    MonsterBuff = {
-      BuffList = {
-        6000014,
-        6000021,
-        6000031,
-        6000041,
-        6000051,
-        6000061
-      }
-    },
-    NoTicketEnter = true,
-    PreloadMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7012001,
-      7013001
-    },
-    PreloadMonstersNum = {
-      [7001001] = 8,
-      [7002001] = 7,
-      [7003001] = 5,
-      [7012001] = 6,
-      [7013001] = 5
-    },
-    RespawnRule = "CommonSolo",
-    SettlementOffset = {
-      [1] = {
-        0,
-        40,
-        0
-      },
-      [2] = {
-        -150,
-        -70,
-        0
-      },
-      [3] = {
-        -70,
-        170,
-        0
-      },
-      [4] = {
-        -70,
-        -165,
-        0
-      }
-    },
-    Squad = true,
-    TicketId = {
-      206,
-      207,
-      208,
-      209
-    }
-  },
-  [91145] = {
-    AlertDisable = true,
-    AttributeType = "Thunder",
-    CameraParam = {
-      Boy = {
-        163,
-        10,
-        122
-      },
-      Girl = {
-        163,
-        10,
-        122
-      },
-      Loli = {
-        163,
-        10,
-        122
-      },
-      Man = {
-        163,
-        10,
-        122
-      },
-      Woman = {
-        163,
-        10,
-        122
-      }
-    },
-    DropReward = {
-      ["Mon.Gr"] = 150801,
-      ["Mon.Jh"] = 150803,
-      ["Mon.Jt"] = 150802,
-      ["Mon.Reward.B"] = 73,
-      ["Mon.Reward.C"] = 72,
-      ["Mon.Reward.D"] = 71,
-      ["Mon.Reward.E"] = 70,
-      ["Mon.Sq"] = 150804
-    },
-    DropRewardMonsterNum = 100,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
-    DungeonID = 91145,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
-    DungeonLevel = 80,
-    DungeonMapFile = "/Game/Maps/Prologue_Testing",
-    DungeonMonsters = {
-      6014001,
-      6012001,
-      6013001,
-      8001001,
-      8002001,
-      8003001
-    },
-    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = 300139,
-    DungeonRewardView = 91145,
-    DungeonType = "ExtermPro",
-    DungeonTypeShow = "DUNGEON_NAME_91001",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
-    DungeonWinMode = 2,
-    EnableTacmap = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
-    ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
-    },
-    ExitPlayerRotation = {
-      0,
-      0,
-      -90
-    },
-    FirstCompleteReward = 7005,
-    IsModDungeon = true,
-    IsPlayLevelEnter = true,
-    IsRandom = 1,
-    MonsterBuff = {
-      BuffList = {
-        6000011,
-        6000021,
-        6000031,
-        6000044,
-        6000051,
-        6000061
-      }
-    },
-    NoTicketEnter = true,
-    PreloadMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7012001,
-      7013001
-    },
-    PreloadMonstersNum = {
-      [7001001] = 8,
-      [7002001] = 7,
-      [7003001] = 5,
-      [7012001] = 6,
-      [7013001] = 5
-    },
-    RespawnRule = "CommonSolo",
-    SettlementOffset = {
-      [1] = {
-        0,
-        40,
-        0
-      },
-      [2] = {
-        -150,
-        -70,
-        0
-      },
-      [3] = {
-        -70,
-        170,
-        0
-      },
-      [4] = {
-        -70,
-        -165,
-        0
-      }
-    },
-    Squad = true,
-    TicketId = {
-      206,
-      207,
-      208,
-      209
-    }
-  },
-  [91146] = {
-    AlertDisable = true,
     AttributeType = "Wind",
     CameraParam = {
       Boy = {
@@ -44912,57 +60548,52 @@ return ReadOnly("Dungeon", {
         122
       }
     },
+    Condition = 160,
     DropReward = {
-      ["Mon.Gr"] = 150801,
-      ["Mon.Jh"] = 150803,
-      ["Mon.Jt"] = 150802,
+      ["Mon.Gr"] = 150601,
+      ["Mon.Hx"] = 150601,
+      ["Mon.Jh"] = 150603,
+      ["Mon.Jt"] = 150602,
       ["Mon.Reward.B"] = 73,
       ["Mon.Reward.C"] = 72,
       ["Mon.Reward.D"] = 71,
       ["Mon.Reward.E"] = 70,
-      ["Mon.Sq"] = 150804
+      ["Mon.Sq"] = 150604
     },
-    DropRewardMonsterNum = 100,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DropRewardMonsterNum = 200,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
-    DungeonID = 91146,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
+    DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91144,
+    DungeonInitGuideUnitId = 6015013,
     DungeonLevel = 80,
-    DungeonMapFile = "/Game/Maps/Prologue_Testing",
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonMonsters = {
-      6014001,
-      6012001,
-      6013001,
-      8001001,
-      8002001,
-      8003001
+      6017001,
+      6016001,
+      6015001,
+      10005001
     },
-    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = 300140,
-    DungeonRewardView = 91146,
-    DungeonType = "ExtermPro",
-    DungeonTypeShow = "DUNGEON_NAME_91001",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
+    DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
+    DungeonReward = 300206,
+    DungeonRewardView = 191144,
+    DungeonType = "SurvivalMiniPro",
+    DungeonTypeShow = "DUNGEON_NAME_90601",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo07.LevelSelect_Bg_Dongguo07",
     DungeonWinMode = 2,
-    EnableTacmap = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
-    ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
-    },
+    EnableTacmap = false,
     ExitPlayerRotation = {
       0,
       0,
       -90
     },
     FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniProMod.BP_SingleGameMode_Huaxu_SurvivalMiniProMod",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
-    IsRandom = 1,
     MonsterBuff = {
       BuffList = {
         6000011,
@@ -44973,7 +60604,15 @@ return ReadOnly("Dungeon", {
         6000061
       }
     },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{200601,91144,611}",
     PreloadMonsters = {
       7001001,
       7002001,
@@ -45017,11 +60656,12 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro01",
+    bDisableMatch = true
   },
-  [91147] = {
-    AlertDisable = true,
-    AttributeType = "Dark",
+  [91145] = {
+    AttributeType = "Wind",
     CameraParam = {
       Boy = {
         163,
@@ -45049,68 +60689,71 @@ return ReadOnly("Dungeon", {
         122
       }
     },
+    Condition = 160,
     DropReward = {
-      ["Mon.Gr"] = 150801,
-      ["Mon.Jh"] = 150803,
-      ["Mon.Jt"] = 150802,
+      ["Mon.Gr"] = 150601,
+      ["Mon.Hx"] = 150601,
+      ["Mon.Jh"] = 150603,
+      ["Mon.Jt"] = 150602,
       ["Mon.Reward.B"] = 73,
       ["Mon.Reward.C"] = 72,
       ["Mon.Reward.D"] = 71,
       ["Mon.Reward.E"] = 70,
-      ["Mon.Sq"] = 150804
+      ["Mon.Sq"] = 150604
     },
-    DropRewardMonsterNum = 100,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DropRewardMonsterNum = 200,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
-    DungeonID = 91147,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
+    DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91145,
+    DungeonInitGuideUnitId = 6016013,
     DungeonLevel = 80,
-    DungeonMapFile = "/Game/Maps/Prologue_Testing",
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonMonsters = {
-      6014001,
-      6012001,
-      6013001,
-      8001001,
-      8002001,
-      8003001
+      6017001,
+      6016001,
+      6015001,
+      10005001
     },
-    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = 300136,
-    DungeonRewardView = 91147,
-    DungeonType = "ExtermPro",
-    DungeonTypeShow = "DUNGEON_NAME_91001",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
+    DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
+    DungeonReward = 300206,
+    DungeonRewardView = 191145,
+    DungeonType = "SurvivalMiniPro",
+    DungeonTypeShow = "DUNGEON_NAME_90601",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo13.LevelSelect_Bg_Dongguo13",
     DungeonWinMode = 2,
-    EnableTacmap = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
-    ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
-    },
+    EnableTacmap = false,
     ExitPlayerRotation = {
       0,
       0,
       -90
     },
     FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniProMod.BP_SingleGameMode_Huaxu_SurvivalMiniProMod",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
-    IsRandom = 1,
     MonsterBuff = {
       BuffList = {
         6000011,
-        6000021,
+        6000024,
         6000031,
         6000041,
         6000051,
-        6000064
+        6000061
       }
     },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "{200601,91144,611}",
     PreloadMonsters = {
       7001001,
       7002001,
@@ -45154,7 +60797,289 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro02",
+    bDisableMatch = true
+  },
+  [91146] = {
+    AttributeType = "Wind",
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    Condition = 160,
+    DropReward = {
+      ["Mon.Gr"] = 150101,
+      ["Mon.Hx"] = 150101,
+      ["Mon.Jh"] = 150103,
+      ["Mon.Jt"] = 150102,
+      ["Mon.Reward.B"] = 73,
+      ["Mon.Reward.C"] = 72,
+      ["Mon.Reward.D"] = 71,
+      ["Mon.Reward.E"] = 70,
+      ["Mon.Sq"] = 150104
+    },
+    DropRewardMonsterNum = 240,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91146,
+    DungeonInitGuideUnitId = 6017018,
+    DungeonLevel = 80,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      6017001,
+      6016001,
+      10005001
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
+    DungeonReward = 300206,
+    DungeonRewardView = 191146,
+    DungeonType = "Defence",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo13.LevelSelect_Bg_Dongguo13",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Defence01.BP_EMGameMode_Huaxu_Defence01",
+    IsModDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "(100302,100304,{100306,91146})",
+    PreloadMonsters = {
+      7001001,
+      7002001,
+      7003001,
+      7012001,
+      7013001
+    },
+    PreloadMonstersNum = {
+      [7001001] = 8,
+      [7002001] = 7,
+      [7003001] = 5,
+      [7012001] = 6,
+      [7013001] = 5
+    },
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence01",
+    bDisableMatch = true
+  },
+  [91147] = {
+    AttributeType = "Wind",
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    Condition = 160,
+    DropReward = {
+      ["Mon.Gr"] = 150101,
+      ["Mon.Hx"] = 150101,
+      ["Mon.Jh"] = 150103,
+      ["Mon.Jt"] = 150102,
+      ["Mon.Reward.B"] = 73,
+      ["Mon.Reward.C"] = 72,
+      ["Mon.Reward.D"] = 71,
+      ["Mon.Reward.E"] = 70,
+      ["Mon.Sq"] = 150104
+    },
+    DropRewardMonsterNum = 240,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91147,
+    DungeonInitGuideUnitId = 10005012,
+    DungeonLevel = 80,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      6017001,
+      6016001,
+      10005001
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
+    DungeonReward = 300206,
+    DungeonRewardView = 191147,
+    DungeonType = "Defence",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo09.LevelSelect_Bg_Dongguo09",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Defence01.BP_EMGameMode_Huaxu_Defence01",
+    IsModDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsterRule = "(100302,100304,{100306,91146})",
+    PreloadMonsters = {
+      7001001,
+      7002001,
+      7003001,
+      7012001,
+      7013001
+    },
+    PreloadMonstersNum = {
+      [7001001] = 8,
+      [7002001] = 7,
+      [7003001] = 5,
+      [7012001] = 6,
+      [7013001] = 5
+    },
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence02",
+    bDisableMatch = true
   },
   [91148] = {
     AlertDisable = true,
@@ -45186,6 +61111,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150801,
       ["Mon.Jh"] = 150803,
@@ -45215,7 +61141,7 @@ return ReadOnly("Dungeon", {
       8003001
     },
     DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = 300141,
+    DungeonReward = {300141},
     DungeonRewardView = 91148,
     DungeonType = "ExtermPro",
     DungeonTypeShow = "DUNGEON_NAME_91001",
@@ -45246,6 +61172,12 @@ return ReadOnly("Dungeon", {
         6000054,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -45332,14 +61264,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 50,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91151,
-    DungeonInitGuideUnitId = 6001012,
+    DungeonInitGuideUnitId = {6001012, 6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -45372,8 +61304,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -45418,7 +61357,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91152] = {
     AlertDisable = true,
@@ -45459,14 +61399,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 50,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91152,
-    DungeonInitGuideUnitId = 6002015,
+    DungeonInitGuideUnitId = {6002015, 6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -45499,8 +61439,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -45545,7 +61492,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91153] = {
     AlertDisable = true,
@@ -45586,14 +61534,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 50,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91153,
-    DungeonInitGuideUnitId = 6013017,
+    DungeonInitGuideUnitId = {6013017, 6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -45626,8 +61574,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -45672,7 +61627,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91154] = {
     AlertDisable = true,
@@ -45713,14 +61669,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 50,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91154,
-    DungeonInitGuideUnitId = 6007011,
+    DungeonInitGuideUnitId = {6007011, 6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 10,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -45753,8 +61709,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -45799,7 +61762,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91155] = {
     AlertDisable = true,
@@ -45840,14 +61804,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 50,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91155,
-    DungeonInitGuideUnitId = 8002018,
+    DungeonInitGuideUnitId = {8002018, 6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 20,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -45880,8 +61844,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -45926,7 +61897,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91156] = {
     AlertDisable = true,
@@ -45967,14 +61939,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 50,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91156,
-    DungeonInitGuideUnitId = 8001019,
+    DungeonInitGuideUnitId = {8001019, 6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 20,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46007,8 +61979,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -46053,7 +62032,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91157] = {
     AlertDisable = true,
@@ -46095,14 +62075,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91157,
-    DungeonInitGuideUnitId = 6002011,
+    DungeonInitGuideUnitId = {6002011, 6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46135,8 +62115,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -46181,7 +62168,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91158] = {
     AlertDisable = true,
@@ -46223,14 +62211,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91158,
-    DungeonInitGuideUnitId = 6013018,
+    DungeonInitGuideUnitId = {6013018, 6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46263,8 +62251,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -46309,7 +62304,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91159] = {
     AlertDisable = true,
@@ -46351,14 +62347,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91159,
-    DungeonInitGuideUnitId = 6007024,
+    DungeonInitGuideUnitId = {6007024, 6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46391,8 +62387,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -46437,7 +62440,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91160] = {
     AlertDisable = true,
@@ -46479,14 +62483,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91160,
-    DungeonInitGuideUnitId = 6004014,
+    DungeonInitGuideUnitId = {6004014, 6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46519,8 +62523,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -46565,7 +62576,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91161] = {
     AlertDisable = true,
@@ -46607,14 +62619,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91161,
-    DungeonInitGuideUnitId = 6001018,
+    DungeonInitGuideUnitId = {6001018, 6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 40,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46647,8 +62659,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -46693,7 +62712,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91162] = {
     AlertDisable = true,
@@ -46735,14 +62755,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91162,
-    DungeonInitGuideUnitId = 8003021,
+    DungeonInitGuideUnitId = {8003021, 6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46775,8 +62795,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -46821,7 +62848,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91163] = {
     AlertDisable = true,
@@ -46863,14 +62891,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91163,
-    DungeonInitGuideUnitId = 8002012,
+    DungeonInitGuideUnitId = {8002012, 6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -46903,8 +62931,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -46949,7 +62984,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91164] = {
     AlertDisable = true,
@@ -46991,14 +63027,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91164,
-    DungeonInitGuideUnitId = 8001015,
+    DungeonInitGuideUnitId = {8001015, 6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47031,8 +63067,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -47077,7 +63120,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91165] = {
     AlertDisable = true,
@@ -47119,14 +63163,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91165,
-    DungeonInitGuideUnitId = 8003016,
+    DungeonInitGuideUnitId = {8003016, 6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47159,8 +63203,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -47205,7 +63256,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91166] = {
     AlertDisable = true,
@@ -47247,14 +63299,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91166,
-    DungeonInitGuideUnitId = 8002020,
+    DungeonInitGuideUnitId = {8002020, 6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47287,8 +63339,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -47333,7 +63392,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91167] = {
     AlertDisable = true,
@@ -47375,14 +63435,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91167,
-    DungeonInitGuideUnitId = 8001021,
+    DungeonInitGuideUnitId = {8001021, 6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 55,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47415,8 +63475,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -47461,7 +63528,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91168] = {
     AlertDisable = true,
@@ -47503,14 +63571,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91168,
-    DungeonInitGuideUnitId = 7001015,
+    DungeonInitGuideUnitId = {7001015, 6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47543,8 +63611,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -47589,7 +63664,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91169] = {
     AlertDisable = true,
@@ -47631,14 +63707,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91169,
-    DungeonInitGuideUnitId = 7002018,
+    DungeonInitGuideUnitId = {7002018, 6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47671,8 +63747,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -47717,7 +63800,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91170] = {
     AlertDisable = true,
@@ -47759,14 +63843,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91170,
-    DungeonInitGuideUnitId = 7003016,
+    DungeonInitGuideUnitId = {7003016, 6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47799,8 +63883,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -47845,7 +63936,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91171] = {
     AlertDisable = true,
@@ -47887,14 +63979,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91171,
-    DungeonInitGuideUnitId = 7004020,
+    DungeonInitGuideUnitId = {7004020, 6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -47927,8 +64019,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -47973,7 +64072,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91172] = {
     AlertDisable = true,
@@ -48015,14 +64115,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91172,
-    DungeonInitGuideUnitId = 7015011,
+    DungeonInitGuideUnitId = {7015011, 6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48055,8 +64155,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -48101,7 +64208,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91173] = {
     AlertDisable = true,
@@ -48143,14 +64251,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91173,
-    DungeonInitGuideUnitId = 7010022,
+    DungeonInitGuideUnitId = {7010022, 6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro",
     DungeonLevel = 60,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48183,8 +64291,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -48229,7 +64344,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91174] = {
     AlertDisable = true,
@@ -48271,14 +64387,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91174,
-    DungeonInitGuideUnitId = 7009020,
+    DungeonInitGuideUnitId = {7009020, 6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48311,8 +64427,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -48357,7 +64480,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91175] = {
     AlertDisable = true,
@@ -48399,14 +64523,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91175,
-    DungeonInitGuideUnitId = 7008023,
+    DungeonInitGuideUnitId = {7008023, 6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48439,8 +64563,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -48485,7 +64616,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91176] = {
     AlertDisable = true,
@@ -48527,14 +64659,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91176,
-    DungeonInitGuideUnitId = 7001024,
+    DungeonInitGuideUnitId = {7001024, 6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48567,8 +64699,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -48613,7 +64752,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91177] = {
     AlertDisable = true,
@@ -48655,14 +64795,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91177,
-    DungeonInitGuideUnitId = 7002019,
+    DungeonInitGuideUnitId = {7002019, 6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48695,8 +64835,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -48741,7 +64888,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91178] = {
     AlertDisable = true,
@@ -48783,14 +64931,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91178,
-    DungeonInitGuideUnitId = 7003022,
+    DungeonInitGuideUnitId = {7003022, 6013017},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48823,8 +64971,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -48869,7 +65024,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91179] = {
     AlertDisable = true,
@@ -48911,14 +65067,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Sew",
     DungeonID = 91179,
-    DungeonInitGuideUnitId = 7004017,
+    DungeonInitGuideUnitId = {7004017, 6001012},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/ExtermPro/Sew",
     DungeonLevel = 70,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -48951,8 +65107,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -48997,7 +65160,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91180] = {
     AlertDisable = true,
@@ -49039,14 +65203,14 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150804
     },
-    DropRewardMonsterNum = 100,
+    DropRewardMonsterNum = 200,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
     DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
     DungeonCost = 0,
     DungeonDes = "UI_DUNGEON_DES_TESTING_1",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
     DungeonID = 91180,
-    DungeonInitGuideUnitId = 8003024,
+    DungeonInitGuideUnitId = {8003024, 6002015},
     DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
     DungeonLevel = 80,
     DungeonMapFile = "/Game/Maps/Prologue_Testing",
@@ -49079,8 +65243,15 @@ return ReadOnly("Dungeon", {
     },
     FirstCompleteReward = 7005,
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
     PreloadMonsters = {
       7001001,
@@ -49125,284 +65296,10 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91181] = {
-    AlertDisable = true,
-    AttributeType = "Fire",
-    CameraParam = {
-      Boy = {
-        163,
-        10,
-        122
-      },
-      Girl = {
-        163,
-        10,
-        122
-      },
-      Loli = {
-        163,
-        10,
-        122
-      },
-      Man = {
-        163,
-        10,
-        122
-      },
-      Woman = {
-        163,
-        10,
-        122
-      }
-    },
-    DropReward = {
-      ["Mon.Gr"] = 150801,
-      ["Mon.Jh"] = 150803,
-      ["Mon.Jt"] = 150802,
-      ["Mon.Reward.B"] = 73,
-      ["Mon.Reward.C"] = 72,
-      ["Mon.Reward.D"] = 71,
-      ["Mon.Reward.E"] = 70,
-      ["Mon.Sq"] = 150804
-    },
-    DropRewardMonsterNum = 100,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
-    DungeonID = 91181,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
-    DungeonLevel = 80,
-    DungeonMapFile = "/Game/Maps/Prologue_Testing",
-    DungeonMonsters = {
-      6014001,
-      6012001,
-      6013001,
-      8001001,
-      8002001,
-      8003001
-    },
-    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = 300138,
-    DungeonRewardView = 91144,
-    DungeonType = "ExtermPro",
-    DungeonTypeShow = "DUNGEON_NAME_91001",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
-    DungeonWinMode = 2,
-    EnableTacmap = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
-    ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
-    },
-    ExitPlayerRotation = {
-      0,
-      0,
-      -90
-    },
-    FirstCompleteReward = 7005,
-    IsModDungeon = true,
-    IsPlayLevelEnter = true,
-    IsRandom = 1,
-    MonsterBuff = {
-      BuffList = {
-        6000014,
-        6000021,
-        6000031,
-        6000041,
-        6000051,
-        6000061
-      }
-    },
-    NoTicketEnter = true,
-    PreloadMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7012001,
-      7013001
-    },
-    PreloadMonstersNum = {
-      [7001001] = 8,
-      [7002001] = 7,
-      [7003001] = 5,
-      [7012001] = 6,
-      [7013001] = 5
-    },
-    RespawnRule = "CommonSolo",
-    SettlementOffset = {
-      [1] = {
-        0,
-        40,
-        0
-      },
-      [2] = {
-        -150,
-        -70,
-        0
-      },
-      [3] = {
-        -70,
-        170,
-        0
-      },
-      [4] = {
-        -70,
-        -165,
-        0
-      }
-    },
-    Squad = true,
-    TicketId = {
-      206,
-      207,
-      208,
-      209
-    }
-  },
-  [91182] = {
-    AlertDisable = true,
-    AttributeType = "Thunder",
-    CameraParam = {
-      Boy = {
-        163,
-        10,
-        122
-      },
-      Girl = {
-        163,
-        10,
-        122
-      },
-      Loli = {
-        163,
-        10,
-        122
-      },
-      Man = {
-        163,
-        10,
-        122
-      },
-      Woman = {
-        163,
-        10,
-        122
-      }
-    },
-    DropReward = {
-      ["Mon.Gr"] = 150801,
-      ["Mon.Jh"] = 150803,
-      ["Mon.Jt"] = 150802,
-      ["Mon.Reward.B"] = 73,
-      ["Mon.Reward.C"] = 72,
-      ["Mon.Reward.D"] = 71,
-      ["Mon.Reward.E"] = 70,
-      ["Mon.Sq"] = 150804
-    },
-    DropRewardMonsterNum = 100,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
-    DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
-    DungeonID = 91182,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
-    DungeonLevel = 80,
-    DungeonMapFile = "/Game/Maps/Prologue_Testing",
-    DungeonMonsters = {
-      6014001,
-      6012001,
-      6013001,
-      8001001,
-      8002001,
-      8003001
-    },
-    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = 300139,
-    DungeonRewardView = 91145,
-    DungeonType = "ExtermPro",
-    DungeonTypeShow = "DUNGEON_NAME_91001",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
-    DungeonWinMode = 2,
-    EnableTacmap = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
-    ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
-    },
-    ExitPlayerRotation = {
-      0,
-      0,
-      -90
-    },
-    FirstCompleteReward = 7005,
-    IsModDungeon = true,
-    IsPlayLevelEnter = true,
-    IsRandom = 1,
-    MonsterBuff = {
-      BuffList = {
-        6000011,
-        6000021,
-        6000031,
-        6000044,
-        6000051,
-        6000061
-      }
-    },
-    NoTicketEnter = true,
-    PreloadMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7012001,
-      7013001
-    },
-    PreloadMonstersNum = {
-      [7001001] = 8,
-      [7002001] = 7,
-      [7003001] = 5,
-      [7012001] = 6,
-      [7013001] = 5
-    },
-    RespawnRule = "CommonSolo",
-    SettlementOffset = {
-      [1] = {
-        0,
-        40,
-        0
-      },
-      [2] = {
-        -150,
-        -70,
-        0
-      },
-      [3] = {
-        -70,
-        170,
-        0
-      },
-      [4] = {
-        -70,
-        -165,
-        0
-      }
-    },
-    Squad = true,
-    TicketId = {
-      206,
-      207,
-      208,
-      209
-    }
-  },
-  [91183] = {
-    AlertDisable = true,
     AttributeType = "Wind",
     CameraParam = {
       Boy = {
@@ -49431,57 +65328,52 @@ return ReadOnly("Dungeon", {
         122
       }
     },
+    Condition = 160,
     DropReward = {
-      ["Mon.Gr"] = 150801,
-      ["Mon.Jh"] = 150803,
-      ["Mon.Jt"] = 150802,
+      ["Mon.Gr"] = 150601,
+      ["Mon.Hx"] = 150601,
+      ["Mon.Jh"] = 150603,
+      ["Mon.Jt"] = 150602,
       ["Mon.Reward.B"] = 73,
       ["Mon.Reward.C"] = 72,
       ["Mon.Reward.D"] = 71,
       ["Mon.Reward.E"] = 70,
-      ["Mon.Sq"] = 150804
+      ["Mon.Sq"] = 150604
     },
-    DropRewardMonsterNum = 100,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DropRewardMonsterNum = 200,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
-    DungeonID = 91183,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
+    DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91181,
+    DungeonInitGuideUnitId = 6015013,
     DungeonLevel = 80,
-    DungeonMapFile = "/Game/Maps/Prologue_Testing",
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonMonsters = {
-      6014001,
-      6012001,
-      6013001,
-      8001001,
-      8002001,
-      8003001
+      6017001,
+      6016001,
+      6015001,
+      10005001
     },
-    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = 300140,
-    DungeonRewardView = 91146,
-    DungeonType = "ExtermPro",
-    DungeonTypeShow = "DUNGEON_NAME_91001",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
+    DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
+    DungeonReward = 300206,
+    DungeonRewardView = 191144,
+    DungeonType = "SurvivalMiniPro",
+    DungeonTypeShow = "DUNGEON_NAME_90601",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo07.LevelSelect_Bg_Dongguo07",
     DungeonWinMode = 2,
-    EnableTacmap = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
-    ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
-    },
+    EnableTacmap = false,
     ExitPlayerRotation = {
       0,
       0,
       -90
     },
     FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniPro.BP_SingleGameMode_Huaxu_SurvivalMiniPro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
-    IsRandom = 1,
     MonsterBuff = {
       BuffList = {
         6000011,
@@ -49492,7 +65384,14 @@ return ReadOnly("Dungeon", {
         6000061
       }
     },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     PreloadMonsters = {
       7001001,
       7002001,
@@ -49536,11 +65435,12 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro01",
+    bDisableMatch = true
   },
-  [91184] = {
-    AlertDisable = true,
-    AttributeType = "Dark",
+  [91182] = {
+    AttributeType = "Wind",
     CameraParam = {
       Boy = {
         163,
@@ -49568,68 +65468,70 @@ return ReadOnly("Dungeon", {
         122
       }
     },
+    Condition = 160,
     DropReward = {
-      ["Mon.Gr"] = 150801,
-      ["Mon.Jh"] = 150803,
-      ["Mon.Jt"] = 150802,
+      ["Mon.Gr"] = 150601,
+      ["Mon.Hx"] = 150601,
+      ["Mon.Jh"] = 150603,
+      ["Mon.Jt"] = 150602,
       ["Mon.Reward.B"] = 73,
       ["Mon.Reward.C"] = 72,
       ["Mon.Reward.D"] = 71,
       ["Mon.Reward.E"] = 70,
-      ["Mon.Sq"] = 150804
+      ["Mon.Sq"] = 150604
     },
-    DropRewardMonsterNum = 100,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DropRewardMonsterNum = 200,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_SURVIVALPRO_1",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
-    DungeonID = 91184,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
+    DungeonDes = "UI_DUNGEON_DES_SURVIVALPRO_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91182,
+    DungeonInitGuideUnitId = 6016013,
     DungeonLevel = 80,
-    DungeonMapFile = "/Game/Maps/Prologue_Testing",
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonMonsters = {
-      6014001,
-      6012001,
-      6013001,
-      8001001,
-      8002001,
-      8003001
+      6017001,
+      6016001,
+      6015001,
+      10005001
     },
-    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = 300136,
-    DungeonRewardView = 91147,
-    DungeonType = "ExtermPro",
-    DungeonTypeShow = "DUNGEON_NAME_91001",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
+    DungeonName = "UI_DUNGEON_TYPE_SURVIVALPRO",
+    DungeonReward = 300206,
+    DungeonRewardView = 191145,
+    DungeonType = "SurvivalMiniPro",
+    DungeonTypeShow = "DUNGEON_NAME_90601",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo13.LevelSelect_Bg_Dongguo13",
     DungeonWinMode = 2,
-    EnableTacmap = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
-    ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
-    },
+    EnableTacmap = false,
     ExitPlayerRotation = {
       0,
       0,
       -90
     },
     FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_SingleGameMode_Huaxu_SurvivalMiniPro.BP_SingleGameMode_Huaxu_SurvivalMiniPro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
-    IsRandom = 1,
     MonsterBuff = {
       BuffList = {
         6000011,
-        6000021,
+        6000024,
         6000031,
         6000041,
         6000051,
-        6000064
+        6000061
       }
     },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     PreloadMonsters = {
       7001001,
       7002001,
@@ -49673,11 +65575,12 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_SurvivalPro02",
+    bDisableMatch = true
   },
-  [91185] = {
-    AlertDisable = true,
-    AttributeType = "Light",
+  [91183] = {
+    AttributeType = "Wind",
     CameraParam = {
       Boy = {
         163,
@@ -49705,68 +65608,69 @@ return ReadOnly("Dungeon", {
         122
       }
     },
+    Condition = 160,
     DropReward = {
-      ["Mon.Gr"] = 150801,
-      ["Mon.Jh"] = 150803,
-      ["Mon.Jt"] = 150802,
+      ["Mon.Gr"] = 150101,
+      ["Mon.Hx"] = 150101,
+      ["Mon.Jh"] = 150103,
+      ["Mon.Jt"] = 150102,
       ["Mon.Reward.B"] = 73,
       ["Mon.Reward.C"] = 72,
       ["Mon.Reward.D"] = 71,
       ["Mon.Reward.E"] = 70,
-      ["Mon.Sq"] = 150804
+      ["Mon.Sq"] = 150104
     },
-    DropRewardMonsterNum = 100,
-    DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DropRewardMonsterNum = 240,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
-    DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor",
-    DungeonID = 91185,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Prologue/Testing",
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91183,
+    DungeonInitGuideUnitId = 6017018,
     DungeonLevel = 80,
-    DungeonMapFile = "/Game/Maps/Prologue_Testing",
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
     DungeonMonsters = {
-      6014001,
-      6012001,
-      6013001,
-      8001001,
-      8002001,
-      8003001
+      6017001,
+      6016001,
+      10005001
     },
-    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
-    DungeonReward = 300141,
-    DungeonRewardView = 91148,
-    DungeonType = "ExtermPro",
-    DungeonTypeShow = "DUNGEON_NAME_91001",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_ExterminatePro.LevelSelect_Bg_ExterminatePro",
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
+    DungeonReward = 300206,
+    DungeonRewardView = 191146,
+    DungeonType = "Defence",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo13.LevelSelect_Bg_Dongguo13",
     DungeonWinMode = 2,
-    EnableTacmap = true,
-    ExitLevel = "/Game/Maps/Datas/Data_Art/Prologue/Prologue_Exit_02_Art",
-    ExitPlayerLocation = {
-      -500,
-      3100,
-      -340
-    },
+    EnableTacmap = false,
     ExitPlayerRotation = {
       0,
       0,
       -90
     },
     FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Defence01.BP_EMGameMode_Huaxu_Defence01",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
-    IsRandom = 1,
     MonsterBuff = {
       BuffList = {
         6000011,
-        6000021,
+        6000024,
         6000031,
         6000041,
-        6000054,
+        6000051,
         6000061
       }
     },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
     NoTicketEnter = true,
+    OnlyOneMap = true,
     PreloadMonsters = {
       7001001,
       7002001,
@@ -49810,7 +65714,408 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence01",
+    bDisableMatch = true
+  },
+  [91184] = {
+    AttributeType = "Wind",
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    Condition = 160,
+    DropReward = {
+      ["Mon.Gr"] = 150101,
+      ["Mon.Hx"] = 150101,
+      ["Mon.Jh"] = 150103,
+      ["Mon.Jt"] = 150102,
+      ["Mon.Reward.B"] = 73,
+      ["Mon.Reward.C"] = 72,
+      ["Mon.Reward.D"] = 71,
+      ["Mon.Reward.E"] = 70,
+      ["Mon.Sq"] = 150104
+    },
+    DropRewardMonsterNum = 240,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91184,
+    DungeonInitGuideUnitId = 10005012,
+    DungeonLevel = 80,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      6017001,
+      6016001,
+      10005001
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
+    DungeonReward = 300206,
+    DungeonRewardView = 191147,
+    DungeonType = "Defence",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo09.LevelSelect_Bg_Dongguo09",
+    DungeonWinMode = 2,
+    EnableTacmap = false,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Defence01.BP_EMGameMode_Huaxu_Defence01",
+    IsModDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MonsterBuff = {
+      BuffList = {
+        6000011,
+        6000024,
+        6000031,
+        6000041,
+        6000051,
+        6000061
+      }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsters = {
+      7001001,
+      7002001,
+      7003001,
+      7012001,
+      7013001
+    },
+    PreloadMonstersNum = {
+      [7001001] = 8,
+      [7002001] = 7,
+      [7003001] = 5,
+      [7012001] = 6,
+      [7013001] = 5
+    },
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Defence02",
+    bDisableMatch = true
+  },
+  [91185] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    Condition = 140,
+    DropReward = {
+      ["Mon.Gr"] = 150801,
+      ["Mon.Hx"] = 150801,
+      ["Mon.Jh"] = 150803,
+      ["Mon.Jt"] = 150802,
+      ["Mon.Reward.B"] = 73,
+      ["Mon.Reward.C"] = 72,
+      ["Mon.Reward.D"] = 71,
+      ["Mon.Reward.E"] = 70,
+      ["Mon.Sq"] = 150804
+    },
+    DropRewardMonsterNum = 200,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91185,
+    DungeonInitGuideUnitId = {6017014, 6001012},
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      6017001,
+      6016001,
+      6015001,
+      10005001,
+      6004001
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
+    DungeonReward = 300167,
+    DungeonRewardView = 191124,
+    DungeonType = "ExtermPro",
+    DungeonTypeShow = "DUNGEON_NAME_91001",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo11.LevelSelect_Bg_Dongguo11",
+    DungeonWinMode = 2,
+    EnableTacmap = true,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Externpro01.BP_EMGameMode_Huaxu_Externpro01",
+    IsModDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsters = {
+      7001001,
+      7002001,
+      7003001,
+      7012001,
+      7013001
+    },
+    PreloadMonstersNum = {
+      [7001001] = 8,
+      [7002001] = 7,
+      [7003001] = 5,
+      [7012001] = 6,
+      [7013001] = 5
+    },
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externpro01",
+    bDisableMatch = true
+  },
+  [91186] = {
+    CameraParam = {
+      Boy = {
+        163,
+        10,
+        122
+      },
+      Girl = {
+        163,
+        10,
+        122
+      },
+      Loli = {
+        163,
+        10,
+        122
+      },
+      Man = {
+        163,
+        10,
+        122
+      },
+      Woman = {
+        163,
+        10,
+        122
+      }
+    },
+    Condition = 140,
+    DropReward = {
+      ["Mon.Gr"] = 150801,
+      ["Mon.Hx"] = 150801,
+      ["Mon.Jh"] = 150803,
+      ["Mon.Jt"] = 150802,
+      ["Mon.Reward.B"] = 73,
+      ["Mon.Reward.C"] = 72,
+      ["Mon.Reward.D"] = 71,
+      ["Mon.Reward.E"] = 70,
+      ["Mon.Sq"] = 150804
+    },
+    DropRewardMonsterNum = 200,
+    DungeonBGM = "event:/bgm/1_1/level/level_bgm",
+    DungeonContent = "UI_DUNGEON_CONTENT_TESTING_1",
+    DungeonCost = 0,
+    DungeonDes = "UI_DUNGEON_DES_TESTING_1",
+    DungeonDoorBP = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonID = 91186,
+    DungeonInitGuideUnitId = {6016021, 6013017},
+    DungeonLevel = 60,
+    DungeonMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Huaxu_Yanjindu_Main",
+    DungeonMonsters = {
+      6017001,
+      6016001,
+      6015001,
+      10005001,
+      6004001
+    },
+    DungeonName = "UI_DUNGEON_TYPE_DEF_EXTERMINATE",
+    DungeonReward = 300167,
+    DungeonRewardView = 191125,
+    DungeonType = "ExtermPro",
+    DungeonTypeShow = "DUNGEON_NAME_91001",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Dongguo11.LevelSelect_Bg_Dongguo11",
+    DungeonWinMode = 2,
+    EnableTacmap = true,
+    ExitPlayerRotation = {
+      0,
+      0,
+      -90
+    },
+    FirstCompleteReward = 7005,
+    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Huaxu_Externpro01.BP_EMGameMode_Huaxu_Externpro01",
+    IsModDungeon = true,
+    IsMultiDungeon = true,
+    IsPlayLevelEnter = true,
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
+    },
+    NoTicketEnter = true,
+    OnlyOneMap = true,
+    PreloadMonsters = {
+      7001001,
+      7002001,
+      7003001,
+      7012001,
+      7013001
+    },
+    PreloadMonstersNum = {
+      [7001001] = 8,
+      [7002001] = 7,
+      [7003001] = 5,
+      [7012001] = 6,
+      [7013001] = 5
+    },
+    RespawnRule = "CommonSolo",
+    SettlementOffset = {
+      [1] = {
+        0,
+        40,
+        0
+      },
+      [2] = {
+        -150,
+        -70,
+        0
+      },
+      [3] = {
+        -70,
+        170,
+        0
+      },
+      [4] = {
+        -70,
+        -165,
+        0
+      }
+    },
+    Squad = true,
+    TicketId = {
+      206,
+      207,
+      208,
+      209
+    },
+    WCDungeonDesignMapFile = "/Game/Maps/Levels/Huaxu/Huaxu_Yanjindu_Main/Design_Data/Huaxu_Yanjindu_DungeonDesign_Externpro01",
+    bDisableMatch = true
   },
   [91251] = {
     AttributeType = "Dark",
@@ -49852,31 +66157,34 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91251,
-    DungeonInitGuideUnitId = 9002019,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
+    DungeonInitGuideUnitId = {9002019, 9001023},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
-    DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
+    DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7004001
+      9001001,
+      9002001,
+      9007001,
+      6001001,
+      6002001,
+      6012001,
+      6003001
     },
-    DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
     DungeonReward = 300168,
     DungeonRewardView = 91201,
-    DungeonType = "SabotagePro",
-    DungeonTypeShow = "DUNGEON_NAME_91201",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonType = "DefenceMove",
+    DungeonTypeShow = "DUNGEON_NAME_90101",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
     ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
@@ -49890,8 +66198,8 @@ return ReadOnly("Dungeon", {
       180
     },
     FirstCompleteReward = 7005,
-    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Prologue_SabotagePro.BP_EMGameMode_Prologue_SabotagePro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -49903,6 +66211,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000064
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -49966,7 +66280,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91252] = {
     AttributeType = "Water",
@@ -50008,31 +66323,34 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91252,
-    DungeonInitGuideUnitId = 9001023,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
+    DungeonInitGuideUnitId = {9001023, 9007023},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
-    DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
+    DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7004001
+      9001001,
+      9002001,
+      9007001,
+      6001001,
+      6002001,
+      6012001,
+      6003001
     },
-    DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
     DungeonReward = 300169,
     DungeonRewardView = 91202,
-    DungeonType = "SabotagePro",
-    DungeonTypeShow = "DUNGEON_NAME_91201",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonType = "DefenceMove",
+    DungeonTypeShow = "DUNGEON_NAME_90102",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
     ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
@@ -50046,8 +66364,8 @@ return ReadOnly("Dungeon", {
       180
     },
     FirstCompleteReward = 7005,
-    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Prologue_SabotagePro.BP_EMGameMode_Prologue_SabotagePro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -50059,6 +66377,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -50122,7 +66446,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91253] = {
     AttributeType = "Water",
@@ -50164,31 +66489,34 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91253,
-    DungeonInitGuideUnitId = 9007023,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
+    DungeonInitGuideUnitId = {9007023, 9002024},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
-    DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
+    DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7004001
+      9001001,
+      9002001,
+      9007001,
+      6001001,
+      6002001,
+      6012001,
+      6003001
     },
-    DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
     DungeonReward = 300169,
     DungeonRewardView = 91203,
-    DungeonType = "SabotagePro",
-    DungeonTypeShow = "DUNGEON_NAME_91201",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonType = "DefenceMove",
+    DungeonTypeShow = "DUNGEON_NAME_90103",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
     ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
@@ -50202,8 +66530,8 @@ return ReadOnly("Dungeon", {
       180
     },
     FirstCompleteReward = 7005,
-    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Prologue_SabotagePro.BP_EMGameMode_Prologue_SabotagePro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -50215,6 +66543,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -50278,7 +66612,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91254] = {
     AttributeType = "Fire",
@@ -50320,31 +66655,34 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91254,
-    DungeonInitGuideUnitId = 9002024,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
+    DungeonInitGuideUnitId = {9002024, 9001017},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
-    DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
+    DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7004001
+      9001001,
+      9002001,
+      9007001,
+      6001001,
+      6002001,
+      6012001,
+      6003001
     },
-    DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
     DungeonReward = 300170,
     DungeonRewardView = 91204,
-    DungeonType = "SabotagePro",
-    DungeonTypeShow = "DUNGEON_NAME_91201",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonType = "DefenceMove",
+    DungeonTypeShow = "DUNGEON_NAME_90104",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
     ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
@@ -50358,8 +66696,8 @@ return ReadOnly("Dungeon", {
       180
     },
     FirstCompleteReward = 7005,
-    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Prologue_SabotagePro.BP_EMGameMode_Prologue_SabotagePro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -50371,6 +66709,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -50434,7 +66778,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91255] = {
     AttributeType = "Thunder",
@@ -50476,31 +66821,34 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91255,
-    DungeonInitGuideUnitId = 9001017,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
+    DungeonInitGuideUnitId = {9001017, 9007022},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
-    DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
+    DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7004001
+      9001001,
+      9002001,
+      9007001,
+      6001001,
+      6002001,
+      6012001,
+      6003001
     },
-    DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
     DungeonReward = 300171,
     DungeonRewardView = 91205,
-    DungeonType = "SabotagePro",
-    DungeonTypeShow = "DUNGEON_NAME_91201",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonType = "DefenceMove",
+    DungeonTypeShow = "DUNGEON_NAME_90105",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
     ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
@@ -50514,8 +66862,8 @@ return ReadOnly("Dungeon", {
       180
     },
     FirstCompleteReward = 7005,
-    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Prologue_SabotagePro.BP_EMGameMode_Prologue_SabotagePro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -50527,6 +66875,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -50590,7 +66944,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91256] = {
     AttributeType = "Wind",
@@ -50632,31 +66987,34 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91256,
-    DungeonInitGuideUnitId = 9007022,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
+    DungeonInitGuideUnitId = {9007022, 9002023},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
-    DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
+    DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7004001
+      9001001,
+      9002001,
+      9007001,
+      6001001,
+      6002001,
+      6012001,
+      6003001
     },
-    DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
     DungeonReward = 300172,
     DungeonRewardView = 91206,
-    DungeonType = "SabotagePro",
-    DungeonTypeShow = "DUNGEON_NAME_91201",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonType = "DefenceMove",
+    DungeonTypeShow = "DUNGEON_NAME_90106",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
     ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
@@ -50670,8 +67028,8 @@ return ReadOnly("Dungeon", {
       180
     },
     FirstCompleteReward = 7005,
-    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Prologue_SabotagePro.BP_EMGameMode_Prologue_SabotagePro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -50683,6 +67041,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -50746,7 +67110,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91257] = {
     AttributeType = "Wind",
@@ -50788,31 +67153,34 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91257,
-    DungeonInitGuideUnitId = 9002023,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
+    DungeonInitGuideUnitId = {9002023, 9001024},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
-    DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
+    DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7004001
+      9001001,
+      9002001,
+      9007001,
+      6001001,
+      6002001,
+      6012001,
+      6003001
     },
-    DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
     DungeonReward = 300172,
     DungeonRewardView = 91207,
-    DungeonType = "SabotagePro",
-    DungeonTypeShow = "DUNGEON_NAME_91201",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonType = "DefenceMove",
+    DungeonTypeShow = "DUNGEON_NAME_90107",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
     ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
@@ -50826,8 +67194,8 @@ return ReadOnly("Dungeon", {
       180
     },
     FirstCompleteReward = 7005,
-    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Prologue_SabotagePro.BP_EMGameMode_Prologue_SabotagePro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -50839,6 +67207,12 @@ return ReadOnly("Dungeon", {
         6000051,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -50902,7 +67276,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91258] = {
     AttributeType = "Light",
@@ -50944,31 +67319,34 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91258,
-    DungeonInitGuideUnitId = 9001024,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
+    DungeonInitGuideUnitId = {9001024, 9007019},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
-    DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
+    DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7004001
+      9001001,
+      9002001,
+      9007001,
+      6001001,
+      6002001,
+      6012001,
+      6003001
     },
-    DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
     DungeonReward = 300173,
     DungeonRewardView = 91208,
-    DungeonType = "SabotagePro",
-    DungeonTypeShow = "DUNGEON_NAME_91201",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonType = "DefenceMove",
+    DungeonTypeShow = "DUNGEON_NAME_90108",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
     ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
@@ -50982,8 +67360,8 @@ return ReadOnly("Dungeon", {
       180
     },
     FirstCompleteReward = 7005,
-    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Prologue_SabotagePro.BP_EMGameMode_Prologue_SabotagePro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -50995,6 +67373,12 @@ return ReadOnly("Dungeon", {
         6000054,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -51058,7 +67442,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91259] = {
     AttributeType = "Light",
@@ -51100,31 +67485,34 @@ return ReadOnly("Dungeon", {
       ["Mon.Reward.E"] = 70,
       ["Mon.Sq"] = 150504
     },
-    DropRewardMonsterNum = 120,
+    DropRewardMonsterNum = 240,
     DungeonBGM = "event:/bgm/cbt01/level/zhuiji",
-    DungeonContent = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
+    DungeonContent = "UI_DUNGEON_CONTENT_DEFENCE_2",
     DungeonCost = 0,
-    DungeonDes = "UI_DUNGEON_DES_SABOTAGEPRO_1",
+    DungeonDes = "UI_DUNGEON_DES_DEFENCE_2",
     DungeonDoorBP = "/Game/BluePrints/Item/Door/BP_AutoDoor_Quarry",
     DungeonID = 91259,
-    DungeonInitGuideUnitId = 9007019,
-    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/SabotagePro",
+    DungeonInitGuideUnitId = {9007019, 9002019},
+    DungeonJsonFile = "/Game/Script/Datas/Houdini_data/Chapter01/DefenceMove",
     DungeonLevel = 65,
-    DungeonMapFile = "/Game/Maps/Prologue_Sabotage",
+    DungeonMapFile = "/Game/Maps/Prologue_DefenceMove",
     DungeonMonsters = {
-      7001001,
-      7002001,
-      7003001,
-      7004001
+      9001001,
+      9002001,
+      9007001,
+      6001001,
+      6002001,
+      6012001,
+      6003001
     },
-    DungeonName = "UI_DUNGEON_TYPE_SABOTAGEPRO",
+    DungeonName = "UI_DUNGEON_TYPE_DEFENCEPRO",
     DungeonReward = 300173,
     DungeonRewardView = 91209,
-    DungeonType = "SabotagePro",
-    DungeonTypeShow = "DUNGEON_NAME_91201",
-    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Sabotage.LevelSelect_Bg_Sabotage",
+    DungeonType = "DefenceMove",
+    DungeonTypeShow = "DUNGEON_NAME_90109",
+    DungeonUIBG = "/Game/UI/UI_PC/LevelSelect/LevelSelect_Bg/LevelSelect_Bg_Defence.LevelSelect_Bg_Defence",
     DungeonWinMode = 2,
-    EnableTacmap = true,
+    EnableTacmap = false,
     EnableUpdateOverlapsOpt = true,
     ExitLevel = "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Exit_03_Art",
     ExitPlayerLocation = {
@@ -51138,8 +67526,8 @@ return ReadOnly("Dungeon", {
       180
     },
     FirstCompleteReward = 7005,
-    GameModeOverride = "/Game/AssetDesign/GameMode/Prologue/BP_EMGameMode_Prologue_SabotagePro.BP_EMGameMode_Prologue_SabotagePro",
     IsModDungeon = true,
+    IsMultiDungeon = true,
     IsPlayLevelEnter = true,
     IsRandom = 1,
     MonsterBuff = {
@@ -51151,6 +67539,12 @@ return ReadOnly("Dungeon", {
         6000054,
         6000061
       }
+    },
+    MultiPlayerLevels = {
+      0,
+      4,
+      6,
+      8
     },
     NoTicketEnter = true,
     PreloadMonsters = {
@@ -51214,7 +67608,8 @@ return ReadOnly("Dungeon", {
       207,
       208,
       209
-    }
+    },
+    bDisableMatch = true
   },
   [91301] = {
     AlertDisable = true,

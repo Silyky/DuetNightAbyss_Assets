@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -164,6 +166,18 @@ return {
             startPort = "Option_1",
             endQuest = "17255129038748707",
             endPort = "In"
+          },
+          {
+            startQuest = "1725536300645165605",
+            startPort = "TimerRange_1",
+            endQuest = "176189249205010207682",
+            endPort = "In"
+          },
+          {
+            startQuest = "1725536300645165605",
+            startPort = "TimerRange_2",
+            endQuest = "176189249205010207682",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -248,6 +262,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -261,7 +276,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -360,6 +374,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -373,7 +388,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -412,6 +426,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -425,7 +440,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -467,6 +481,17 @@ return {
                 {StartTime = 0, EndTime = 15},
                 {StartTime = 15, EndTime = -1}
               }
+            }
+          },
+          ["176189249205010207682"] = {
+            key = "176189249205010207682",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3042.264492753623, y = -195.73369565217396},
+            propsData = {
+              NewDescription = "DynQuest_TrafficElevator_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

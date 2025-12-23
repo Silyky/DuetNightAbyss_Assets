@@ -275,8 +275,8 @@ return ReadOnly("Temple", {
     DungeonId = 80401,
     RatingRange = {
       1000,
-      2500,
-      3500
+      2000,
+      3000
     },
     RewardId = {
       7104,
@@ -291,8 +291,8 @@ return ReadOnly("Temple", {
     DungeonId = 80402,
     RatingRange = {
       2000,
-      3500,
-      4500
+      3000,
+      4000
     },
     RewardId = {
       7104,
@@ -307,8 +307,8 @@ return ReadOnly("Temple", {
     DungeonId = 80403,
     RatingRange = {
       5000,
-      7500,
-      8500
+      6500,
+      8000
     },
     RewardId = {
       7104,
@@ -322,9 +322,9 @@ return ReadOnly("Temple", {
   [80404] = {
     DungeonId = 80404,
     RatingRange = {
-      4500,
-      6000,
-      7500
+      4000,
+      5500,
+      7000
     },
     RewardId = {
       7104,
@@ -539,6 +539,21 @@ return ReadOnly("Temple", {
     UIHideCombo = 1,
     UIHideDes = 1
   },
+  [80904] = {
+    DungeonId = 80904,
+    RatingRange = {
+      10,
+      20,
+      40
+    },
+    RewardId = {
+      7104,
+      7102,
+      7103
+    },
+    SucRule = "Score",
+    UIHideCombo = 1
+  },
   [81001] = {
     DungeonId = 81001,
     RatingRange = {
@@ -680,14 +695,37 @@ return ReadOnly("Temple", {
   },
   [81204] = {
     DungeonId = 81204,
-    RatingRange = {4000},
-    RewardId = 7104,
+    RatingRange = {
+      1000,
+      2000,
+      4000
+    },
+    RewardId = {
+      7104,
+      7102,
+      7103
+    },
     SucRule = "Score",
     UIHideCombo = 1,
     UIHideFailCond = 1
   },
   [81301] = {
     DungeonId = 81301,
+    RatingRange = {
+      30,
+      50,
+      80
+    },
+    RewardId = {
+      7104,
+      7102,
+      7103
+    },
+    SucRule = "Score",
+    UIHideCombo = 1
+  },
+  [81302] = {
+    DungeonId = 81302,
     RatingRange = {
       30,
       50,
@@ -716,6 +754,21 @@ return ReadOnly("Temple", {
     SucRule = "Score",
     UIHideCombo = 1
   },
+  [81402] = {
+    DungeonId = 81402,
+    RatingRange = {
+      30,
+      50,
+      80
+    },
+    RewardId = {
+      7104,
+      7102,
+      7103
+    },
+    SucRule = "Score",
+    UIHideCombo = 1
+  },
   [81501] = {
     DungeonId = 81501,
     RatingRange = {
@@ -724,7 +777,7 @@ return ReadOnly("Temple", {
       2500
     },
     RewardId = {
-      7104,
+      7101,
       7102,
       7103
     },
@@ -740,7 +793,23 @@ return ReadOnly("Temple", {
       4000
     },
     RewardId = {
-      7104,
+      7101,
+      7102,
+      7103
+    },
+    SucRule = "Score",
+    UIHideCombo = 1,
+    UIHideFailCond = 1
+  },
+  [81601] = {
+    DungeonId = 81601,
+    RatingRange = {
+      100,
+      1500,
+      2500
+    },
+    RewardId = {
+      7101,
       7102,
       7103
     },

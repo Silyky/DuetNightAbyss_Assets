@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -218,6 +220,18 @@ return {
             startPort = "Out",
             endQuest = "17351258170722791895",
             endPort = "In"
+          },
+          {
+            startQuest = "1735124035970697658",
+            startPort = "Out",
+            endQuest = "176189378237721101472",
+            endPort = "In"
+          },
+          {
+            startQuest = "17368351534122385",
+            startPort = "Out",
+            endQuest = "176189386472221102086",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -284,6 +298,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -297,7 +312,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -383,6 +397,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -396,7 +411,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -624,6 +638,28 @@ return {
               StateId = 610011,
               IsGuideEnable = true,
               GuidePointName = "Drop_Dyn_1240419"
+            }
+          },
+          ["176189378237721101472"] = {
+            key = "176189378237721101472",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2222, y = -276},
+            propsData = {
+              NewDescription = "DynQuest_Helpfisher_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189386472221102086"] = {
+            key = "176189386472221102086",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3317, y = -15},
+            propsData = {
+              NewDescription = "DynQuest_Helpfisher_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

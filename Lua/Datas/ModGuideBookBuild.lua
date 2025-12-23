@@ -685,6 +685,20 @@ return ReadOnly("ModGuideBookBuild", {
     TargetId = 10603,
     TargetType = "Weapon"
   },
+  [10025] = {
+    BuildId = 10025,
+    InterfaceJumpId = 10208,
+    ModList = {
+      32302,
+      32103,
+      32004,
+      22113,
+      22007
+    },
+    TabId = 2,
+    TargetId = 10208,
+    TargetType = "Weapon"
+  },
   [20001] = {
     BuildId = 20001,
     InterfaceJumpId = 20101,
@@ -1047,6 +1061,20 @@ return ReadOnly("ModGuideBookBuild", {
     },
     TabId = 3,
     TargetId = 20604,
+    TargetType = "Weapon"
+  },
+  [20027] = {
+    BuildId = 20027,
+    InterfaceJumpId = 20506,
+    ModList = {
+      33331,
+      33102,
+      33004,
+      33005,
+      23007
+    },
+    TabId = 3,
+    TargetId = 20506,
     TargetType = "Weapon"
   }
 })

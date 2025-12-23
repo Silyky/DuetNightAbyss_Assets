@@ -468,7 +468,8 @@ return ReadOnly("RougeLikeEventSelect", {
       -1,
       -1,
       4
-    }
+    },
+    UseDedicatedSettlementUI = 1
   },
   [2003] = {
     BlessingAward = {-1, 3},

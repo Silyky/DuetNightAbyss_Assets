@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -169,6 +171,12 @@ return {
             startQuest = "17388976599771105",
             startPort = "Option_2",
             endQuest = "17388976599771108",
+            endPort = "In"
+          },
+          {
+            startQuest = "17388976599761101",
+            startPort = "Out",
+            endQuest = "17618919155556123421",
             endPort = "In"
           }
         },
@@ -308,6 +316,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = false,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -321,7 +330,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "branch",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -370,6 +378,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = false,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -383,7 +392,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "branch",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -433,6 +441,17 @@ return {
               GuideType = "P",
               GuidePointName = "",
               IsUseCount = false
+            }
+          },
+          ["17618919155556123421"] = {
+            key = "17618919155556123421",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2382, y = -77},
+            propsData = {
+              NewDescription = "DynQuest_TrafficwayDaomaidaomai_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

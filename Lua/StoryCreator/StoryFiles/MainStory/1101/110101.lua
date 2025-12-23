@@ -83,7 +83,7 @@ return {
       key = "16993438315527637",
       type = "StoryNode",
       name = "前往沙海特殊任务",
-      pos = {x = 1155.0894464268272, y = 222.03743933427364},
+      pos = {x = 1155.0894464268272, y = 220.37077266760699},
       propsData = {
         QuestId = 11010101,
         QuestDescriptionComment = "前主角在虚空",
@@ -106,8 +106,12 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = true,
         SubRegionId = 100104,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Ex01_Door_1600007"
+        StoryGuidePointName = "Npc_Ex01_Door_1600007",
+        JumpId = 0,
+        FairyLandStaticCreatorId = 0,
+        FairyLandDeliverIndex = 1
       },
       questNodeData = {
         lineData = {
@@ -124,16 +128,52 @@ return {
             endPort = "Fail"
           },
           {
-            startQuest = "1704175979250201942",
-            startPort = "QuestStart",
-            endQuest = "1719384245165148194",
-            endPort = "In"
-          },
-          {
             startQuest = "1719384245165148194",
             startPort = "Success",
             endQuest = "1704175979250201943",
             endPort = "Success"
+          },
+          {
+            startQuest = "1704175979250201942",
+            startPort = "QuestStart",
+            endQuest = "17636296500719788077",
+            endPort = "In"
+          },
+          {
+            startQuest = "17636296500719788077",
+            startPort = "true",
+            endQuest = "17636303634209790037",
+            endPort = "In"
+          },
+          {
+            startQuest = "17636303634209790037",
+            startPort = "true",
+            endQuest = "1719384245165148194",
+            endPort = "In"
+          },
+          {
+            startQuest = "17636303634209790037",
+            startPort = "false",
+            endQuest = "17636296916149788831",
+            endPort = "In"
+          },
+          {
+            startQuest = "17636296916149788831",
+            startPort = "Out",
+            endQuest = "17636297042079789093",
+            endPort = "In"
+          },
+          {
+            startQuest = "17636296500719788077",
+            startPort = "false",
+            endQuest = "1719384245165148194",
+            endPort = "In"
+          },
+          {
+            startQuest = "17636297042079789093",
+            startPort = "Out",
+            endQuest = "1719384245165148194",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -141,7 +181,7 @@ return {
             key = "1704175979250201942",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = -1488.6502338644943, y = 396.04889166102424},
+            pos = {x = -2368.650233864494, y = 424.79889166102424},
             propsData = {ModeType = 0}
           },
           ["1704175979250201943"] = {
@@ -181,6 +221,51 @@ return {
               StartIndex = 1,
               IsWhite = true
             }
+          },
+          ["17636296500719788077"] = {
+            key = "17636296500719788077",
+            type = "ExecuteBlueprintFunctionCheckVarNode",
+            name = "是否假完成",
+            pos = {x = -2084.421052631579, y = 414.27631578947376},
+            propsData = {
+              FunctionName = "Equal",
+              VarName = "FakeQuest1002",
+              Duration = 0,
+              VarInfos = {
+                {VarName = "Value", VarValue = "1"}
+              }
+            }
+          },
+          ["17636296916149788831"] = {
+            key = "17636296916149788831",
+            type = "SelectGenderAndNameNode",
+            name = "前主角起名",
+            pos = {x = -1620.52570379437, y = 491.8925948592412},
+            propsData = {NodeType = "Before", IsGM = false}
+          },
+          ["17636297042079789093"] = {
+            key = "17636297042079789093",
+            type = "SetVarNode",
+            name = "设置变量值",
+            pos = {x = -1370.0896572827419, y = 487.2123623011016},
+            propsData = {
+              VarName = "FinishSelectGender",
+              VarValue = 1
+            }
+          },
+          ["17636303634209790037"] = {
+            key = "17636303634209790037",
+            type = "ExecuteBlueprintFunctionCheckVarNode",
+            name = "是否取过名",
+            pos = {x = -1816.0065789473688, y = 349.27631578947364},
+            propsData = {
+              FunctionName = "Equal",
+              VarName = "FinishSelectGender",
+              Duration = 0,
+              VarInfos = {
+                {VarName = "Value", VarValue = "1"}
+              }
+            }
           }
         },
         commentData = {}
@@ -214,8 +299,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 210101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
         StoryGuidePointName = "QuestPoint_EX01",
+        JumpId = 0,
         QuestUIId = 0
       },
       questNodeData = {
@@ -491,8 +578,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 102101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "pDafu11010301"
+        StoryGuidePointName = "pDafu11010301",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -818,8 +907,7 @@ return {
               ImpressionTalkTriggerId = 110121,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_anita_1640236",
-              GuideStaticCreatorId = 0
+              NPCStaticCreaterName = "Npc_anita_1640236"
             }
           },
           ["1723793345722530205"] = {
@@ -831,8 +919,7 @@ return {
               ImpressionTalkTriggerId = 110120,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_youlian_1640235",
-              GuideStaticCreatorId = 0
+              NPCStaticCreaterName = "Npc_youlian_1640235"
             }
           },
           ["172465591347415340002"] = {
@@ -1071,8 +1158,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 102101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "pDafu11010301"
+        StoryGuidePointName = "pDafu11010301",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1175,6 +1264,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1204,15 +1294,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110022},
-                {TalkActorType = "Npc", TalkActorId = 110005}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1261,6 +1348,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1290,15 +1378,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110022},
-                {TalkActorType = "Npc", TalkActorId = 110005}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1332,9 +1417,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1385,8 +1467,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 102101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "BP_HelpDafuRE"
+        StoryGuidePointName = "BP_HelpDafuRE",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1503,6 +1587,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1532,15 +1617,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110022},
-                {TalkActorType = "Npc", TalkActorId = 110005}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1577,8 +1659,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 102101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_LizhanBossBattle"
+        StoryGuidePointName = "QuestPoint_LizhanBossBattle",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1720,8 +1804,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 102101,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "pDafu11010301"
+        StoryGuidePointName = "pDafu11010301",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1815,6 +1901,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1849,16 +1936,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110010},
-                {TalkActorType = "Npc", TalkActorId = 110022},
-                {TalkActorType = "Npc", TalkActorId = 110005}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1912,6 +1995,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1925,7 +2009,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1963,6 +2046,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1976,7 +2060,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -2014,6 +2097,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -2027,7 +2111,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -2111,6 +2194,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -2124,7 +2208,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -2162,6 +2245,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -2175,7 +2259,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,

@@ -1145,11 +1145,11 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes031"
       },
       CharDataTarget = 20001,
-      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
-      CharDataType = 1,
-      CharDataUnlockLevel = 20,
+      CharDataType = 2,
+      CharDataUnlockLevel = 30,
       CharId = 1503,
       CharText = "UI_CHAR_DATA_TEXT_15030101"
     },
@@ -1159,55 +1159,195 @@ return ReadOnly("CharacterDataTarget", {
         [2] = "VoiceDes032"
       },
       CharDataTarget = 20002,
-      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
-      CharDataType = 2,
-      CharDataUnlockLevel = 20,
+      CharDataType = 3,
+      CharDataUnlockLevel = 40,
       CharId = 1503,
       CharText = "UI_CHAR_DATA_TEXT_15030102"
     },
     [20003] = {
       CharDataName = {
-        [1] = "UI_Chardata_Rumor",
-        [2] = "VoiceDes031"
+        [1] = "UI_Chardata_Witness",
+        [2] = "VoiceDes033"
       },
       CharDataTarget = 20003,
-      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
-      CharDataType = 3,
-      CharDataUnlockLevel = 20,
+      CharDataType = 5,
+      CharDataUnlockLevel = 60,
       CharId = 1503,
-      CharText = "UI_CHAR_DATA_TEXT_15030201"
+      CharText = "UI_CHAR_DATA_TEXT_15030103"
     },
     [20004] = {
       CharDataName = {
-        [1] = "UI_Chardata_Secret",
+        [1] = "UI_Chardata_Rumor",
         [2] = "VoiceDes031"
       },
       CharDataTarget = 20004,
       CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
+      CharDataType = 1,
+      CharDataUnlockLevel = 20,
+      CharId = 1503,
+      CharText = "UI_CHAR_DATA_TEXT_15030201"
+    },
+    [20005] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Rumor",
+        [2] = "VoiceDes032"
+      },
+      CharDataTarget = 20005,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 2,
+      CharDataUnlockLevel = 30,
+      CharId = 1503,
+      CharText = "UI_CHAR_DATA_TEXT_15030202"
+    },
+    [20006] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Rumor",
+        [2] = "VoiceDes033"
+      },
+      CharDataTarget = 20006,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 3,
+      CharDataUnlockLevel = 40,
+      CharId = 1503,
+      CharText = "UI_CHAR_DATA_TEXT_15030203"
+    },
+    [20007] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Rumor",
+        [2] = "VoiceDes034"
+      },
+      CharDataTarget = 20007,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
       CharDataType = 4,
+      CharDataUnlockLevel = 50,
+      CharId = 1503,
+      CharText = "UI_CHAR_DATA_TEXT_15030204"
+    },
+    [20008] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Secret",
+        [2] = "VoiceDes031"
+      },
+      CharDataTarget = 20008,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 1,
       CharDataUnlockLevel = 20,
       CharId = 1503,
       CharText = "UI_CHAR_DATA_TEXT_15030301"
     },
-    [20005] = {
+    [20009] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Secret",
+        [2] = "VoiceDes032"
+      },
+      CharDataTarget = 20009,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 3,
+      CharDataUnlockLevel = 40,
+      CharId = 1503,
+      CharText = "UI_CHAR_DATA_TEXT_15030302"
+    },
+    [20010] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Secret",
+        [2] = "VoiceDes033"
+      },
+      CharDataTarget = 20010,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 4,
+      CharDataUnlockLevel = 50,
+      CharId = 1503,
+      CharText = "UI_CHAR_DATA_TEXT_15030303"
+    },
+    [20011] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Secret",
+        [2] = "VoiceDes034"
+      },
+      CharDataTarget = 20011,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 5,
+      CharDataUnlockLevel = 60,
+      CharId = 1503,
+      CharText = "UI_CHAR_DATA_TEXT_15030304"
+    },
+    [20012] = {
       CharDataName = {
         [1] = "UI_Chardata_Recall",
         [2] = "VoiceDes031"
       },
-      CharDataTarget = 20005,
+      CharDataTarget = 20012,
       CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
-      CharDataType = 5,
+      CharDataType = 1,
       CharDataUnlockLevel = 20,
       CharId = 1503,
       CharText = "UI_CHAR_DATA_TEXT_15030401"
+    },
+    [20013] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Recall",
+        [2] = "VoiceDes032"
+      },
+      CharDataTarget = 20013,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 2,
+      CharDataUnlockLevel = 30,
+      CharId = 1503,
+      CharText = "UI_CHAR_DATA_TEXT_15030402"
+    },
+    [20014] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Recall",
+        [2] = "VoiceDes033"
+      },
+      CharDataTarget = 20014,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 4,
+      CharDataUnlockLevel = 50,
+      CharId = 1503,
+      CharText = "UI_CHAR_DATA_TEXT_15030403"
+    },
+    [20015] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Recall",
+        [2] = "VoiceDes034"
+      },
+      CharDataTarget = 20015,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 5,
+      CharDataUnlockLevel = 60,
+      CharId = 1503,
+      CharText = "UI_CHAR_DATA_TEXT_15030404"
     }
   },
   [1801] = {
@@ -1989,45 +2129,269 @@ return ReadOnly("CharacterDataTarget", {
     },
     [4002] = {
       CharDataName = {
-        [1] = "UI_Chardata_Rumor",
-        [2] = "VoiceDes031"
+        [1] = "UI_Chardata_Witness",
+        [2] = "VoiceDes032"
       },
       CharDataTarget = 4002,
-      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 2,
+      CharDataUnlockLevel = 30,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010102"
+    },
+    [4003] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Witness",
+        [2] = "VoiceDes033"
+      },
+      CharDataTarget = 4003,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 3,
+      CharDataUnlockLevel = 40,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010103"
+    },
+    [4004] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Witness",
+        [2] = "VoiceDes034"
+      },
+      CharDataTarget = 4004,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 4,
+      CharDataUnlockLevel = 50,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010104"
+    },
+    [4005] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Witness",
+        [2] = "VoiceDes035"
+      },
+      CharDataTarget = 4005,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 5,
+      CharDataUnlockLevel = 60,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010105"
+    },
+    [4006] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Rumor",
+        [2] = "VoiceDes031"
+      },
+      CharDataTarget = 4006,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 1,
       CharDataUnlockLevel = 20,
       CharId = 2401,
       CharText = "UI_CHAR_DATA_TEXT_24010201"
     },
-    [4003] = {
+    [4007] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Rumor",
+        [2] = "VoiceDes032"
+      },
+      CharDataTarget = 4007,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 2,
+      CharDataUnlockLevel = 30,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010202"
+    },
+    [4008] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Rumor",
+        [2] = "VoiceDes033"
+      },
+      CharDataTarget = 4008,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 3,
+      CharDataUnlockLevel = 40,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010203"
+    },
+    [4009] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Rumor",
+        [2] = "VoiceDes034"
+      },
+      CharDataTarget = 4009,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 4,
+      CharDataUnlockLevel = 50,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010204"
+    },
+    [4010] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Rumor",
+        [2] = "VoiceDes035"
+      },
+      CharDataTarget = 4010,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 5,
+      CharDataUnlockLevel = 60,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010205"
+    },
+    [4011] = {
       CharDataName = {
         [1] = "UI_Chardata_Secret",
         [2] = "VoiceDes031"
       },
-      CharDataTarget = 4003,
+      CharDataTarget = 4011,
       CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
-      CharDataType = 3,
+      CharDataType = 1,
       CharDataUnlockLevel = 20,
       CharId = 2401,
       CharText = "UI_CHAR_DATA_TEXT_24010301"
     },
-    [4004] = {
+    [4012] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Secret",
+        [2] = "VoiceDes032"
+      },
+      CharDataTarget = 4012,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 2,
+      CharDataUnlockLevel = 30,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010302"
+    },
+    [4013] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Secret",
+        [2] = "VoiceDes033"
+      },
+      CharDataTarget = 4013,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 3,
+      CharDataUnlockLevel = 40,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010303"
+    },
+    [4014] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Secret",
+        [2] = "VoiceDes034"
+      },
+      CharDataTarget = 4014,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 4,
+      CharDataUnlockLevel = 50,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010304"
+    },
+    [4015] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Secret",
+        [2] = "VoiceDes035"
+      },
+      CharDataTarget = 4015,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 5,
+      CharDataUnlockLevel = 60,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010305"
+    },
+    [4016] = {
       CharDataName = {
         [1] = "UI_Chardata_Recall",
         [2] = "VoiceDes031"
       },
-      CharDataTarget = 4004,
+      CharDataTarget = 4016,
       CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_20",
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
-      CharDataType = 4,
+      CharDataType = 1,
       CharDataUnlockLevel = 20,
       CharId = 2401,
       CharText = "UI_CHAR_DATA_TEXT_24010401"
+    },
+    [4017] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Recall",
+        [2] = "VoiceDes032"
+      },
+      CharDataTarget = 4017,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_30",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 2,
+      CharDataUnlockLevel = 30,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010402"
+    },
+    [4018] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Recall",
+        [2] = "VoiceDes033"
+      },
+      CharDataTarget = 4018,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_40",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 3,
+      CharDataUnlockLevel = 40,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010403"
+    },
+    [4019] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Recall",
+        [2] = "VoiceDes034"
+      },
+      CharDataTarget = 4019,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_50",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 4,
+      CharDataUnlockLevel = 50,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010404"
+    },
+    [4020] = {
+      CharDataName = {
+        [1] = "UI_Chardata_Recall",
+        [2] = "VoiceDes035"
+      },
+      CharDataTarget = 4020,
+      CharDataTargetDescribe = "UI_CHAR_DATA_UNLOCK_60",
+      CharDataTargetParam = 1,
+      CharDataTargetType = 10101,
+      CharDataType = 5,
+      CharDataUnlockLevel = 60,
+      CharId = 2401,
+      CharText = "UI_CHAR_DATA_TEXT_24010405"
     }
   },
   [3101] = {
@@ -3169,7 +3533,7 @@ return ReadOnly("CharacterDataTarget", {
       CharDataTargetParam = 1,
       CharDataTargetType = 10101,
       CharDataType = 3,
-      CharDataUnlockLevel = 50,
+      CharDataUnlockLevel = 40,
       CharId = 3301,
       CharText = "UI_CHAR_DATA_TEXT_33010203"
     },

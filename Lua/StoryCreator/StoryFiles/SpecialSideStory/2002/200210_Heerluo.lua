@@ -68,8 +68,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_QuestTrigger_1240265"
+        StoryGuidePointName = "Mechanism_QuestTrigger_1240265",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -253,8 +255,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_20021004"
+        StoryGuidePointName = "QuestPoint_20021004",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -340,6 +344,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -358,9 +363,6 @@ return {
                   TalkActorId = 700100,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700100}
               },
               OptionType = "normal",
               FreezeWorldComposition = false,
@@ -471,8 +473,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101702,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Heerluo_1730032"
+        StoryGuidePointName = "Npc_Heerluo_1730032",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -499,8 +503,7 @@ return {
               ImpressionTalkTriggerId = 510042,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_Heerluo_1730032",
-              GuideStaticCreatorId = 700096
+              NPCStaticCreaterName = "Npc_Heerluo_1730032"
             }
           },
           ["1716548641937668702"] = {
@@ -556,8 +559,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101702,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_20021001"
+        StoryGuidePointName = "QuestPoint_20021001",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -655,6 +660,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -673,9 +679,6 @@ return {
                   TalkActorId = 700151,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700151}
               },
               OptionType = "branch",
               FreezeWorldComposition = false,
@@ -775,8 +778,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_QuestTrigger_1240485"
+        StoryGuidePointName = "Mechanism_QuestTrigger_1240485",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -918,6 +923,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -947,15 +953,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 700101},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }

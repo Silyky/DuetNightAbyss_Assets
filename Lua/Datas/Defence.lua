@@ -4,6 +4,151 @@ return ReadOnly("Defence", {
     ButcherMonsterSpawnMinWave = 2,
     ButcherMonsterSpawnProbability = {0.5, 0.1},
     DungeonId = 20002,
+    EnsureGuideTime = -1,
+    MonsterSpawnId = {
+      [1] = 301,
+      [2] = {
+        302, 307
+      },
+      [3] = 303,
+      [4] = {
+        304, 307
+      },
+      [5] = 305,
+      [6] = {
+        306, 308
+      }
+    },
+    MonsterTotalBaseNum = 15
+  },
+  [30101] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.9, 0.1
+    },
+    DungeonId = 30101,
+    EnsureGuideTime = -1,
+    MonsterSpawnId = {
+      [1] = 301,
+      [2] = {
+        302, 307
+      },
+      [3] = 303,
+      [4] = {
+        304, 307
+      },
+      [5] = 305,
+      [6] = {
+        306, 308
+      }
+    },
+    MonsterTotalBaseNum = 15
+  },
+  [30102] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.9, 0.1
+    },
+    DungeonId = 30102,
+    EnsureGuideTime = -1,
+    MonsterSpawnId = {
+      [1] = 301,
+      [2] = {
+        302, 307
+      },
+      [3] = 303,
+      [4] = {
+        304, 307
+      },
+      [5] = 305,
+      [6] = {
+        306, 308
+      }
+    },
+    MonsterTotalBaseNum = 15
+  },
+  [30103] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.9, 0.1
+    },
+    DungeonId = 30103,
+    EnsureGuideTime = -1,
+    MonsterSpawnId = {
+      [1] = 301,
+      [2] = {
+        302, 307
+      },
+      [3] = 303,
+      [4] = {
+        304, 307
+      },
+      [5] = 305,
+      [6] = {
+        306, 308
+      }
+    },
+    MonsterTotalBaseNum = 15
+  },
+  [30104] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.9, 0.1
+    },
+    DungeonId = 30104,
+    EnsureGuideTime = -1,
+    MonsterSpawnId = {
+      [1] = 301,
+      [2] = {
+        302, 307
+      },
+      [3] = 303,
+      [4] = {
+        304, 307
+      },
+      [5] = 305,
+      [6] = {
+        306, 308
+      }
+    },
+    MonsterTotalBaseNum = 15
+  },
+  [30105] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.9, 0.1
+    },
+    DungeonId = 30105,
+    EnsureGuideTime = -1,
+    MonsterSpawnId = {
+      [1] = 301,
+      [2] = {
+        302, 307
+      },
+      [3] = 303,
+      [4] = {
+        304, 307
+      },
+      [5] = 305,
+      [6] = {
+        306, 308
+      }
+    },
+    MonsterTotalBaseNum = 15
+  },
+  [30106] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.9, 0.1
+    },
+    DungeonId = 30106,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -27,6 +172,7 @@ return ReadOnly("Defence", {
       0.6, 0.2
     },
     DungeonId = 60101,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -50,6 +196,7 @@ return ReadOnly("Defence", {
       0.9, 0.1
     },
     DungeonId = 60102,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -73,6 +220,7 @@ return ReadOnly("Defence", {
       0.6, 0.2
     },
     DungeonId = 62101,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -96,6 +244,7 @@ return ReadOnly("Defence", {
       0.9, 0.1
     },
     DungeonId = 62102,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -119,6 +268,7 @@ return ReadOnly("Defence", {
       0.6, 0.2
     },
     DungeonId = 64101,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -142,6 +292,7 @@ return ReadOnly("Defence", {
       0.9, 0.1
     },
     DungeonId = 64102,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -163,6 +314,7 @@ return ReadOnly("Defence", {
     ButcherMonsterSpawnMinWave = 2,
     ButcherMonsterSpawnProbability = {0, 0},
     DungeonId = 90102,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -186,6 +338,7 @@ return ReadOnly("Defence", {
       0.6, 0.2
     },
     DungeonId = 90104,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -209,6 +362,7 @@ return ReadOnly("Defence", {
       0.9, 0.1
     },
     DungeonId = 90106,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -232,19 +386,14 @@ return ReadOnly("Defence", {
       0.9, 0.1
     },
     DungeonId = 90108,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
-      [1] = 301,
-      [2] = {
-        302, 307
-      },
-      [3] = 303,
-      [4] = {
-        304, 307
-      },
-      [5] = 305,
-      [6] = {
-        306, 308
-      }
+      [1] = {100301},
+      [2] = {100302, 100307},
+      [3] = {100303},
+      [4] = {100304, 100307},
+      [5] = {100305},
+      [6] = {100306, 100308}
     },
     MonsterTotalBaseNum = 15
   },
@@ -255,6 +404,7 @@ return ReadOnly("Defence", {
       0.9, 0.1
     },
     DungeonId = 90110,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -278,6 +428,7 @@ return ReadOnly("Defence", {
       0.9, 0.1
     },
     DungeonId = 90112,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -301,6 +452,7 @@ return ReadOnly("Defence", {
       0.9, 0.1
     },
     DungeonId = 90114,
+    EnsureGuideTime = -1,
     MonsterSpawnId = {
       [1] = 301,
       [2] = {
@@ -314,6 +466,66 @@ return ReadOnly("Defence", {
       [6] = {
         306, 308
       }
+    },
+    MonsterTotalBaseNum = 15
+  },
+  [91146] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.9, 0.1
+    },
+    DungeonId = 91146,
+    EnsureGuideTime = -1,
+    MonsterSpawnId = {
+      [1] = 100302,
+      [2] = 100304,
+      [3] = {100306, 91146}
+    },
+    MonsterTotalBaseNum = 15
+  },
+  [91147] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.9, 0.1
+    },
+    DungeonId = 91147,
+    EnsureGuideTime = -1,
+    MonsterSpawnId = {
+      [1] = 100302,
+      [2] = 100304,
+      [3] = {100306, 91147}
+    },
+    MonsterTotalBaseNum = 15
+  },
+  [91183] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.9, 0.1
+    },
+    DungeonId = 91183,
+    EnsureGuideTime = -1,
+    MonsterSpawnId = {
+      [1] = 100302,
+      [2] = 100304,
+      [3] = {100306, 91183}
+    },
+    MonsterTotalBaseNum = 15
+  },
+  [91184] = {
+    ButcherMonsterId = 8501002,
+    ButcherMonsterSpawnMinWave = 2,
+    ButcherMonsterSpawnProbability = {
+      0.9, 0.1
+    },
+    DungeonId = 91184,
+    EnsureGuideTime = -1,
+    MonsterSpawnId = {
+      [1] = 100302,
+      [2] = 100304,
+      [3] = {100306, 91184}
     },
     MonsterTotalBaseNum = 15
   }

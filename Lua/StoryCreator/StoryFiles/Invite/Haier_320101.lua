@@ -47,7 +47,7 @@ return {
       key = "17503208750742407",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 1154, y = 267},
+      pos = {x = 1160, y = 270},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -70,11 +70,19 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
+          {
+            startQuest = "17503295394211295664",
+            startPort = "Out",
+            endQuest = "17503208750742413",
+            endPort = "Success"
+          },
           {
             startQuest = "1750333114411904",
             startPort = "Out",
@@ -106,24 +114,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1750333114411904",
-            startPort = "Out",
-            endQuest = "17600807129969330280",
-            endPort = "In"
-          },
-          {
-            startQuest = "17503295394211295664",
-            startPort = "Out",
-            endQuest = "17600807866349330932",
-            endPort = "In"
-          },
-          {
-            startQuest = "17600807866349330932",
-            startPort = "Out",
-            endQuest = "17503208750742413",
-            endPort = "Success"
-          },
-          {
             startQuest = "17503331301001151",
             startPort = "Out",
             endQuest = "17601725152201869432",
@@ -142,7 +132,7 @@ return {
             key = "17503208750742413",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1044.8119422170698, y = 398.99904042914034},
+            pos = {x = 807.8119422170698, y = 401.99904042914034},
             propsData = {ModeType = 0}
           },
           ["17503208750742414"] = {
@@ -174,6 +164,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -203,15 +194,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 790055},
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 790008}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -220,7 +208,7 @@ return {
             key = "17503295394211295664",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 482.93607543600683, y = 404.9062856052641},
+            pos = {x = 489.93607543600683, y = 404.9062856052641},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80160110,
@@ -238,6 +226,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -267,15 +256,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 790055},
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 790052}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -318,33 +304,6 @@ return {
               bGuideUIEnable = false,
               GuideType = "P",
               GuideName = ""
-            }
-          },
-          ["17600807129969330280"] = {
-            key = "17600807129969330280",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = 483.44497408158645, y = 94.8330581355348},
-            propsData = {
-              SoundStateType = 0,
-              SoundPriority = 1,
-              SoundType = 0,
-              SoundPath = "event:/bgm/cbt01/0016_judian",
-              ParamKey = "",
-              ParamValue = 0,
-              RelatedRegionId = {},
-              ClientRelatedRegionId = {}
-            }
-          },
-          ["17600807866349330932"] = {
-            key = "17600807866349330932",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = 764.4449740815865, y = 407.8330581355349},
-            propsData = {
-              SoundStateType = 3,
-              SoundPriority = 1,
-              SoundType = 0
             }
           },
           ["17601725152201869432"] = {

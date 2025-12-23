@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -135,12 +137,9 @@ return {
               TalkActors = {
                 {
                   TalkActorType = "Npc",
-                  TalkActorId = 700345,
+                  TalkActorId = 700342,
                   TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700345}
               },
               OverrideFailBlend = false
             }

@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -170,6 +172,12 @@ return {
             startPort = "Fail",
             endQuest = "1749799107834369972",
             endPort = "In"
+          },
+          {
+            startQuest = "1749799107834369974",
+            startPort = "Success",
+            endQuest = "176189391354921783090",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -253,6 +261,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -266,7 +275,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -302,6 +310,7 @@ return {
               },
               Text_TargetFound = "",
               Text_TargetNotFound = "",
+              ForceMaxLodStaticPointList = {},
               bShouldSetCameraParams = true,
               FocalLength = 15,
               LookAtTargetName = "Npc_Dyn_1190959",
@@ -347,6 +356,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -360,7 +370,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -452,6 +461,17 @@ return {
               StateId = 780420,
               IsGuideEnable = false,
               GuidePointName = "Mechanism_Dyn_1190964"
+            }
+          },
+          ["176189391354921783090"] = {
+            key = "176189391354921783090",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2641.6242963692657, y = -157.39966225724754},
+            propsData = {
+              NewDescription = "DynQuest_TakePhoto_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

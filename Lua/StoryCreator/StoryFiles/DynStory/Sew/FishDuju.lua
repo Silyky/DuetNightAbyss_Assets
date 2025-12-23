@@ -47,7 +47,7 @@ return {
       key = "1736316573365200",
       type = "StoryNode",
       name = "钓鱼赌局",
-      pos = {x = 1131.3333333333333, y = 284.44444444444446},
+      pos = {x = 1131.3333333333333, y = 286.44444444444446},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -85,12 +87,6 @@ return {
             startQuest = "1736316573365201",
             startPort = "QuestStart",
             endQuest = "17363166248501104",
-            endPort = "In"
-          },
-          {
-            startQuest = "17363170599703891",
-            startPort = "Out",
-            endQuest = "17363170932794181",
             endPort = "In"
           },
           {
@@ -156,25 +152,7 @@ return {
           {
             startQuest = "17363170932794181",
             startPort = "Out",
-            endQuest = "17363170995024375",
-            endPort = "In"
-          },
-          {
-            startQuest = "17363170932794181",
-            startPort = "Out",
             endQuest = "17363168989182906",
-            endPort = "In"
-          },
-          {
-            startQuest = "17363167426871472",
-            startPort = "Option_1",
-            endQuest = "17363170599703891",
-            endPort = "In"
-          },
-          {
-            startQuest = "17363167426871472",
-            startPort = "Option_2",
-            endQuest = "17363169391603201",
             endPort = "In"
           },
           {
@@ -197,14 +175,44 @@ return {
           },
           {
             startQuest = "1736421027525708721",
-            startPort = "Option_1",
-            endQuest = "17363170599703891",
+            startPort = "Option_2",
+            endQuest = "17363169391603201",
+            endPort = "In"
+          },
+          {
+            startQuest = "17363170932794181",
+            startPort = "Out",
+            endQuest = "176189477340826552741",
+            endPort = "In"
+          },
+          {
+            startQuest = "17363170995024375",
+            startPort = "Out",
+            endQuest = "176189480937726553572",
+            endPort = "In"
+          },
+          {
+            startQuest = "17363168841782593",
+            startPort = "Out",
+            endQuest = "176189481780826553835",
             endPort = "In"
           },
           {
             startQuest = "1736421027525708721",
-            startPort = "Option_2",
-            endQuest = "17363169391603201",
+            startPort = "Option_1",
+            endQuest = "17363170932794181",
+            endPort = "In"
+          },
+          {
+            startQuest = "17363170932794181",
+            startPort = "Out",
+            endQuest = "17363170599703891",
+            endPort = "In"
+          },
+          {
+            startQuest = "17363170599703891",
+            startPort = "Out",
+            endQuest = "17363170995024375",
             endPort = "In"
           }
         },
@@ -282,6 +290,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -295,11 +304,12 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {
                 {
                   OptionText = "710055061",
@@ -338,6 +348,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -351,11 +362,12 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -364,7 +376,7 @@ return {
             key = "17363168989182906",
             type = "TalkNode",
             name = "打秽兽分支",
-            pos = {x = 2424.7541486291493, y = 308.83639971139974},
+            pos = {x = 2369.7541486291493, y = 305.08639971139974},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 71005504,
@@ -398,7 +410,7 @@ return {
             key = "17363170599703891",
             type = "ChangeStaticCreatorNode",
             name = "生成秽兽",
-            pos = {x = 1862.1747835497833, y = 160.7808441558442},
+            pos = {x = 2382.1747835497836, y = 152.0308441558442},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -417,7 +429,7 @@ return {
             key = "17363170932794181",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 2170.647005772006, y = 142.6459235209235},
+            pos = {x = 2001.8970057720062, y = 138.8959235209235},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1720444,
@@ -429,7 +441,7 @@ return {
             key = "17363170995024375",
             type = "KillMonsterNode",
             name = "击杀怪物",
-            pos = {x = 2721.4208152958154, y = 187.58639971139974},
+            pos = {x = 2703.9208152958154, y = 172.58639971139974},
             propsData = {
               KillMonsterType = "Id",
               MonsterNeedNums = 4,
@@ -474,6 +486,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -487,7 +500,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -526,6 +538,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -539,7 +552,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -599,6 +611,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -612,7 +625,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -693,6 +705,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -706,11 +719,12 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -736,6 +750,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -749,11 +764,12 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {
                 {
                   OptionText = "710055031",
@@ -769,6 +785,39 @@ return {
                 }
               },
               OverrideFailBlend = false
+            }
+          },
+          ["176189477340826552741"] = {
+            key = "176189477340826552741",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2441, y = -54.75961538461539},
+            propsData = {
+              NewDescription = "DynQuest_SewFishDuju_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189480937726553572"] = {
+            key = "176189480937726553572",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2957.1081939799333, y = -163.86530100334454},
+            propsData = {
+              NewDescription = "DynQuest_SewFishDuju_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["176189481780826553835"] = {
+            key = "176189481780826553835",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 2924.9342809364543, y = 711.3520903010034},
+            propsData = {
+              NewDescription = "DynQuest_SewFishDuju_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
             }
           }
         },

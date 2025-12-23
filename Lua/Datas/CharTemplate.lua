@@ -1,4 +1,151 @@
 return ReadOnly("CharTemplate", {
+  [110] = {
+    CharId = 1101,
+    CharLevel = 1,
+    RuleId = 110,
+    SkillLevel = 1
+  },
+  [111] = {
+    CharId = 111,
+    CharLevel = 1,
+    RuleId = 111,
+    SkillLevel = 1
+  },
+  [112] = {
+    CharId = 112,
+    CharLevel = 1,
+    RuleId = 112,
+    SkillLevel = 1
+  },
+  [201] = {
+    CharId = 201,
+    CharLevel = 35,
+    RuleId = 201,
+    SkillLevel = 1
+  },
+  [202] = {
+    CharId = 202,
+    CharLevel = 35,
+    RuleId = 202,
+    SkillLevel = 1
+  },
+  [203] = {
+    CharId = 5301,
+    CharLevel = 20,
+    RuleId = 203,
+    SkillLevel = 1
+  },
+  [204] = {
+    CharId = 110301,
+    CharLevel = 45,
+    RuleId = 204,
+    SkillLevel = 1
+  },
+  [205] = {
+    CharId = 205,
+    CharLevel = 45,
+    RuleId = 205,
+    SkillLevel = 1
+  },
+  [206] = {
+    CharId = 206,
+    CharLevel = 45,
+    RuleId = 206,
+    SkillLevel = 1
+  },
+  [207] = {
+    CharId = 207,
+    CharLevel = 45,
+    RuleId = 207,
+    SkillLevel = 1
+  },
+  [210] = {
+    CharId = 4201,
+    CharLevel = 60,
+    ModId = {
+      [1] = 31324,
+      [2] = 31301,
+      [3] = 41742,
+      [4] = 41743,
+      [5] = 41001,
+      [6] = 41941,
+      [7] = 51441
+    },
+    ModLevel = {
+      [1] = 5,
+      [2] = 5,
+      [3] = 5,
+      [4] = 5,
+      [5] = 5,
+      [6] = 5,
+      [7] = 5
+    },
+    RuleId = 210,
+    SkillLevel = 6,
+    SkillTreeUnlock = {
+      [1] = 2,
+      [2] = 2,
+      [3] = 2
+    }
+  },
+  [211] = {
+    CharId = 2401,
+    CharLevel = 60,
+    ModId = {
+      [1] = 31322,
+      [2] = 31301,
+      [3] = 41723,
+      [4] = 41724,
+      [5] = 41001,
+      [6] = 41922,
+      [7] = 51424
+    },
+    ModLevel = {
+      [1] = 5,
+      [2] = 5,
+      [3] = 5,
+      [4] = 5,
+      [5] = 5,
+      [6] = 5,
+      [7] = 5
+    },
+    RuleId = 211,
+    SkillLevel = 6,
+    SkillTreeUnlock = {
+      [1] = 2,
+      [2] = 2,
+      [3] = 2
+    }
+  },
+  [212] = {
+    CharId = 1503,
+    CharLevel = 60,
+    ModId = {
+      [1] = 31326,
+      [2] = 31301,
+      [3] = 41761,
+      [4] = 41763,
+      [5] = 41001,
+      [6] = 41962,
+      [7] = 51463
+    },
+    ModLevel = {
+      [1] = 5,
+      [2] = 5,
+      [3] = 5,
+      [4] = 5,
+      [5] = 5,
+      [6] = 5,
+      [7] = 5
+    },
+    RuleId = 212,
+    SkillLevel = 6,
+    SkillTreeUnlock = {
+      [1] = 2,
+      [2] = 2,
+      [3] = 2
+    }
+  },
   [10101] = {
     CharId = 111,
     CharLevel = 1,
@@ -57,15 +204,26 @@ return ReadOnly("CharTemplate", {
     ModId = {
       [1] = 51002,
       [2] = 51003,
-      [3] = 51007
+      [3] = 51007,
+      [4] = 51911,
+      [5] = 51711,
+      [6] = 51712
     },
     ModLevel = {
       [1] = 10,
       [2] = 10,
-      [3] = 10
+      [3] = 10,
+      [4] = 5,
+      [5] = 5,
+      [6] = 5
     },
     RuleId = 110301,
-    SkillLevel = 3
+    SkillLevel = 3,
+    SkillTreeUnlock = {
+      [1] = 2,
+      [2] = 2,
+      [3] = 2
+    }
   },
   [110302] = {
     CharId = 1103,
@@ -127,15 +285,50 @@ return ReadOnly("CharTemplate", {
     ModId = {
       [1] = 51002,
       [2] = 51003,
-      [3] = 51007
+      [3] = 51007,
+      [4] = 51911,
+      [5] = 51711,
+      [6] = 51712
     },
     ModLevel = {
       [1] = 10,
       [2] = 10,
-      [3] = 10
+      [3] = 10,
+      [4] = 5,
+      [5] = 5,
+      [6] = 5
     },
     RuleId = 110311,
     SkillLevel = 4,
+    SkillTreeUnlock = {
+      [1] = 2,
+      [2] = 2,
+      [3] = 2
+    }
+  },
+  [160101] = {
+    CharId = 1601,
+    CharLevel = 60,
+    ModId = {
+      [1] = 31326,
+      [2] = 31301,
+      [3] = 41761,
+      [4] = 41763,
+      [5] = 41001,
+      [6] = 41962,
+      [7] = 51463
+    },
+    ModLevel = {
+      [1] = 5,
+      [2] = 5,
+      [3] = 5,
+      [4] = 5,
+      [5] = 5,
+      [6] = 5,
+      [7] = 5
+    },
+    RuleId = 160101,
+    SkillLevel = 6,
     SkillTreeUnlock = {
       [1] = 2,
       [2] = 2,
@@ -579,6 +772,35 @@ return ReadOnly("CharTemplate", {
     },
     RuleId = 205401,
     SkillLevel = 1
+  },
+  [240101] = {
+    CharId = 2401,
+    CharLevel = 60,
+    ModId = {
+      [1] = 31322,
+      [2] = 31301,
+      [3] = 41723,
+      [4] = 41724,
+      [5] = 41001,
+      [6] = 41922,
+      [7] = 51424
+    },
+    ModLevel = {
+      [1] = 5,
+      [2] = 5,
+      [3] = 5,
+      [4] = 5,
+      [5] = 5,
+      [6] = 5,
+      [7] = 5
+    },
+    RuleId = 240101,
+    SkillLevel = 6,
+    SkillTreeUnlock = {
+      [1] = 2,
+      [2] = 2,
+      [3] = 2
+    }
   },
   [330101] = {
     CharId = 3301,
@@ -7567,6 +7789,40 @@ return ReadOnly("CharTemplate", {
       [8] = 5
     },
     RuleId = 70210102,
+    SkillLevel = 8,
+    SkillTreeUnlock = {
+      [1] = 2,
+      [2] = {
+        2, 3
+      },
+      [3] = 2
+    }
+  },
+  [70240101] = {
+    CharCostumeId = 240101,
+    CharId = 2401,
+    CharLevel = 70,
+    ModId = {
+      [1] = 31322,
+      [2] = 41723,
+      [3] = 41723,
+      [4] = 41724,
+      [5] = 41001,
+      [6] = 41922,
+      [7] = 51424,
+      [8] = 51301
+    },
+    ModLevel = {
+      [1] = 5,
+      [2] = 5,
+      [3] = 5,
+      [4] = 5,
+      [5] = 5,
+      [6] = 5,
+      [7] = 5,
+      [8] = 5
+    },
+    RuleId = 70240101,
     SkillLevel = 8,
     SkillTreeUnlock = {
       [1] = 2,

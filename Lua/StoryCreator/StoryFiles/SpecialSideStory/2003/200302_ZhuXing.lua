@@ -76,7 +76,7 @@ return {
         QuestId = 20030201,
         QuestDescriptionComment = "",
         QuestDescription = "Description_200302_1",
-        QuestDeatil = "Content_200302_1",
+        QuestDeatil = "Content_200302_2",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -94,8 +94,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104107,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_SideZhuXing_2080056"
+        StoryGuidePointName = "Mechanism_SideZhuXing_2080056",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -168,7 +170,7 @@ return {
             key = "17503346233997036523",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 1190, y = 316.75},
+            pos = {x = 1173.448275862069, y = 308.35477453580904},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 2080056,
@@ -197,51 +199,39 @@ return {
             key = "17503346813117037057",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 1521.5, y = 334.25},
+            pos = {x = 1515.2931034482758, y = 321.83620689655174},
             propsData = {
               ActiveEnable = true,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
+              EnableBlackScreenSync = true,
+              EnableFadeIn = true,
               EnableFadeOut = false,
               NewTargetPointName = "",
-              StaticCreatorIdList = {
-                2080065,
-                2080067,
-                2080068,
-                2080069,
-                2080070
-              }
+              StaticCreatorIdList = {2080070, 2080069}
             }
           },
           ["17503348761037037398"] = {
             key = "17503348761037037398",
             type = "KillMonsterNode",
             name = "击杀怪物",
-            pos = {x = 1880.0555555555554, y = 335.97222222222223},
+            pos = {x = 1880.0555555555554, y = 336.78303303303306},
             propsData = {
               KillMonsterType = "Id",
-              MonsterNeedNums = 5,
+              MonsterNeedNums = 2,
               IsShow = false,
               GuideType = "P",
               GuideName = "",
               IsShowMonsterGuide = true,
-              StaticCreatorIdList = {
-                2080065,
-                2080067,
-                2080068,
-                2080069,
-                2080070
-              }
+              StaticCreatorIdList = {2080070, 2080069}
             }
           },
           ["17503348788867037451"] = {
             key = "17503348788867037451",
             type = "UpdateTaskBarAndTaskMainNode",
             name = "更新任务目标节点",
-            pos = {x = 1458, y = 594},
+            pos = {x = 1522.1379310344828, y = 507.1034482758621},
             propsData = {
               NewDescription = "Description_200302_2",
-              NewDetail = "",
+              NewDetail = "Content_200302_3",
               SubTaskTargetIndex = 0
             }
           },
@@ -276,7 +266,7 @@ return {
         QuestId = 20030202,
         QuestDescriptionComment = "",
         QuestDescription = "Description_200302_1",
-        QuestDeatil = "Content_200302_1",
+        QuestDeatil = "Content_200302_2",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -293,9 +283,11 @@ return {
         bUseQuestCoordinate = false,
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
-        SubRegionId = 104107,
+        SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_SideZhuXIng_2080077"
+        StoryGuidePointName = "Mechanism_SideZhuXIng_2090848",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -316,6 +308,12 @@ return {
             startPort = "Out",
             endQuest = "17503349595987038901",
             endPort = "Success"
+          },
+          {
+            startQuest = "17503350133667039481",
+            startPort = "Fail",
+            endQuest = "17503349595987038904",
+            endPort = "Fail"
           }
         },
         nodeData = {
@@ -337,34 +335,34 @@ return {
             key = "17503349595987038904",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2800, y = 700},
+            pos = {x = 2104, y = 556},
             propsData = {}
           },
           ["17503349705657039169"] = {
             key = "17503349705657039169",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 1409.5555555555557, y = 387.7777777777778},
+            pos = {x = 1409.5555555555557, y = 385.7777777777778},
             propsData = {
               GuideUIEnable = true,
-              StaticCreatorId = 2080077,
+              StaticCreatorId = 2090848,
               GuideType = "M",
-              GuidePointName = "Mechanism_SideZhuXIng_2080077"
+              GuidePointName = "Mechanism_SideZhuXIng_2090848"
             }
           },
           ["17503350133667039481"] = {
             key = "17503350133667039481",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1754, y = 388},
+            pos = {x = 1755.25, y = 388},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 0,
               FlowAssetPath = "DialogueAsset'/Game/Dialogue/SpecialSideStory/2003/200302/20030205.20030205'",
               TalkType = "FixSimple",
               TalkStageName = "",
-              BlendInTime = 0,
-              BlendOutTime = 0,
+              BlendInTime = 1,
+              BlendOutTime = 0.5,
               InType = "FadeIn",
               OutType = "FadeOut",
               ShowFadeDetail = false,
@@ -374,6 +372,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -386,12 +385,19 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               PauseNpcBT = true,
-              TalkActors = {},
-              RemoveTalkActors = {},
+              TalkActors = {
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
+                }
+              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -405,12 +411,12 @@ return {
       key = "17503350347627039938",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 2401.3058929374724, y = 283.9028340080972},
+      pos = {x = 2401.3058929374724, y = 283.0695006747639},
       propsData = {
         QuestId = 20030203,
         QuestDescriptionComment = "",
         QuestDescription = "Description_200302_3",
-        QuestDeatil = "Content_200302_1",
+        QuestDeatil = "Content_200302_4",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -428,8 +434,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_Side_ZhuXing_2080078"
+        StoryGuidePointName = "Mechanism_Side_ZhuXing_2080078",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -450,6 +458,12 @@ return {
             startPort = "Out",
             endQuest = "17503350742967040562",
             endPort = "In"
+          },
+          {
+            startQuest = "17503350742967040562",
+            startPort = "Fail",
+            endQuest = "17503350347627039945",
+            endPort = "Fail"
           }
         },
         nodeData = {
@@ -471,7 +485,7 @@ return {
             key = "17503350347627039945",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2800, y = 700},
+            pos = {x = 2381.153846153846, y = 551.1538461538462},
             propsData = {}
           },
           ["17503350347627039946"] = {
@@ -497,8 +511,8 @@ return {
               FlowAssetPath = "DialogueAsset'/Game/Dialogue/SpecialSideStory/2003/200302/20030206.20030206'",
               TalkType = "FixSimple",
               TalkStageName = "",
-              BlendInTime = 0,
-              BlendOutTime = 0,
+              BlendInTime = 1,
+              BlendOutTime = 0.5,
               InType = "FadeIn",
               OutType = "FadeOut",
               ShowFadeDetail = false,
@@ -508,6 +522,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -520,12 +535,19 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               PauseNpcBT = true,
-              TalkActors = {},
-              RemoveTalkActors = {},
+              TalkActors = {
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
+                }
+              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -539,12 +561,12 @@ return {
       key = "17503351070927041125",
       type = "StoryNode",
       name = "任务节点",
-      pos = {x = 2699.353070175439, y = 315.42543859649123},
+      pos = {x = 2696.853070175439, y = 315.42543859649123},
       propsData = {
         QuestId = 20030204,
         QuestDescriptionComment = "",
         QuestDescription = "Description_200302_4",
-        QuestDeatil = "Content_200302_1",
+        QuestDeatil = "Content_200302_5",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -562,8 +584,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_SideZhuXing_2090153"
+        StoryGuidePointName = "Mechanism_SideZhuXing_2090153",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -577,12 +601,6 @@ return {
             startQuest = "17503351070937041133",
             startPort = "Out",
             endQuest = "17503351070937041135",
-            endPort = "In"
-          },
-          {
-            startQuest = "17503352415567042273",
-            startPort = "Out",
-            endQuest = "17503352532607042533",
             endPort = "In"
           },
           {
@@ -606,13 +624,25 @@ return {
           {
             startQuest = "17516258607592121",
             startPort = "Out",
-            endQuest = "1751626122379946530",
-            endPort = "Stop"
+            endQuest = "17503352415567042273",
+            endPort = "In"
           },
           {
-            startQuest = "1751626122379946530",
+            startQuest = "17503352415567042273",
             startPort = "Out",
-            endQuest = "17503352415567042273",
+            endQuest = "17630319555384018247",
+            endPort = "In"
+          },
+          {
+            startQuest = "17630319555384018247",
+            startPort = "Out",
+            endQuest = "17503352532607042533",
+            endPort = "In"
+          },
+          {
+            startQuest = "17630319555384018247",
+            startPort = "Out",
+            endQuest = "17632068821251006699",
             endPort = "In"
           }
         },
@@ -628,7 +658,7 @@ return {
             key = "17503351070937041131",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2380, y = 390},
+            pos = {x = 2657.241379310345, y = 344.48275862068965},
             propsData = {ModeType = 0}
           },
           ["17503351070937041132"] = {
@@ -654,7 +684,7 @@ return {
             key = "17503351070937041135",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1522, y = 64},
+            pos = {x = 1444, y = 67.6},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 0,
@@ -671,7 +701,7 @@ return {
             key = "17503352415567042273",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 1653.5, y = 296.25},
+            pos = {x = 1795.18275862069, y = 324.1365900383142},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 2090154,
@@ -683,15 +713,15 @@ return {
             key = "17503352532607042533",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 2070, y = 338},
+            pos = {x = 2378.4827586206898, y = 338.3724137931035},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 0,
               FlowAssetPath = "DialogueAsset'/Game/Dialogue/SpecialSideStory/2003/200302/20030207.20030207'",
               TalkType = "QuestImpression",
               TalkStageName = "",
-              BlendInTime = 0,
-              BlendOutTime = 0,
+              BlendInTime = 1,
+              BlendOutTime = 0.5,
               InType = "FadeIn",
               OutType = "FadeOut",
               ShowFadeDetail = false,
@@ -701,6 +731,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -713,12 +744,19 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               PauseNpcBT = true,
-              TalkActors = {},
-              RemoveTalkActors = {},
+              TalkActors = {
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
+                }
+              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -727,10 +765,10 @@ return {
             key = "17503356464148011307",
             type = "UpdateTaskBarAndTaskMainNode",
             name = "更新任务目标节点",
-            pos = {x = 1337.75, y = 693.75},
+            pos = {x = 1440.95, y = 589.35},
             propsData = {
               NewDescription = "Description_200302_5",
-              NewDetail = "",
+              NewDetail = "Content_200302_6",
               SubTaskTargetIndex = 0
             }
           },
@@ -738,7 +776,7 @@ return {
             key = "17516258607592121",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 1549.6794258373207, y = 521.3034290271133},
+            pos = {x = 1424.8441767951751, y = 315.6896359236651},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,
@@ -749,28 +787,30 @@ return {
                 2090149,
                 2090150,
                 2090151,
-                2090152
+                2090152,
+                2090826,
+                2090827,
+                2090828,
+                2090829
               }
             }
           },
-          ["1751626122379946530"] = {
-            key = "1751626122379946530",
-            type = "KillMonsterNode",
-            name = "击杀怪物",
-            pos = {x = 1917.1794258373207, y = 548.8034290271135},
+          ["17630319555384018247"] = {
+            key = "17630319555384018247",
+            type = "WaitOfTimeNode",
+            name = "延迟等待",
+            pos = {x = 2079.555555555555, y = 326.55555555555543},
+            propsData = {WaitTime = 10}
+          },
+          ["17632068821251006699"] = {
+            key = "17632068821251006699",
+            type = "SendMessageNode",
+            name = "发送消息",
+            pos = {x = 2366.133064516129, y = 165.00403225806443},
             propsData = {
-              KillMonsterType = "Id",
-              MonsterNeedNums = 4,
-              IsShow = false,
-              GuideType = "P",
-              GuideName = "",
-              IsShowMonsterGuide = true,
-              StaticCreatorIdList = {
-                2090149,
-                2090151,
-                2090152,
-                2090150
-              }
+              MessageType = "GameMode",
+              MessageContent = "SetTOD_0",
+              UnitId = -1
             }
           }
         },
@@ -788,7 +828,8 @@ return {
         QuestDescriptionComment = "",
         SubRegionId = 104110,
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_ZhaoQian_2110111"
+        StoryGuidePointName = "Npc_ZhaoQian_2110111",
+        bIsPlayBlackScreenOnComplete = false
       },
       questNodeData = {
         lineData = {
@@ -846,7 +887,7 @@ return {
             key = "17516136605614426",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 190.80219780219784, y = 555.0219780219779},
+            pos = {x = 380.80219780219784, y = 591.2719780219779},
             propsData = {ModeType = 0}
           },
           ["17516136605614429"] = {
@@ -860,14 +901,14 @@ return {
             key = "17516136605614437",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2388, y = 734},
+            pos = {x = 2286.2608695652175, y = 728.7826086956521},
             propsData = {}
           },
           ["1751613708014948956"] = {
             key = "1751613708014948956",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1281.041666666666, y = 619.5568181818182},
+            pos = {x = 1276.041666666666, y = 618.3068181818182},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 0,
@@ -884,6 +925,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -896,12 +938,19 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               PauseNpcBT = true,
-              TalkActors = {},
-              RemoveTalkActors = {},
+              TalkActors = {
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
+                }
+              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -910,24 +959,24 @@ return {
             key = "1751613708014948957",
             type = "ReceiveSideQuestNode",
             name = "支线任务接取节点",
-            pos = {x = 1651.041666666666, y = 615.5568181818182},
+            pos = {x = 1611.041666666666, y = 595.5568181818182},
             propsData = {
               SideQuestChainId = 200302,
-              EnableSequence = false,
-              SequencePath = "",
-              PauseMark = ""
+              EnableSequence = true,
+              SequencePath = "/Game/UI/Sequence/SQ_Task_DepthField.SQ_Task_DepthField",
+              PauseMark = "QuestAccept"
             }
           },
           ["1751613708014948958"] = {
             key = "1751613708014948958",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1962.958333333334, y = 512.4431818181818},
+            pos = {x = 1965.567028985508, y = 538.5301383399209},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 0,
               FlowAssetPath = "DialogueAsset'/Game/Dialogue/SpecialSideStory/2003/200302/20030202.20030202'",
-              TalkType = "FixSimple",
+              TalkType = "QuestImpression",
               TalkStageName = "",
               BlendInTime = 0,
               BlendOutTime = 0,
@@ -940,6 +989,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -952,12 +1002,19 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               PauseNpcBT = true,
-              TalkActors = {},
-              RemoveTalkActors = {},
+              TalkActors = {
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
+                }
+              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -994,7 +1051,7 @@ return {
             key = "17518721908916621345",
             type = "PickUpNode",
             name = "拾取物品",
-            pos = {x = 968.1060141489504, y = 595.6923854469221},
+            pos = {x = 968.1060141489504, y = 598.1923854469221},
             propsData = {
               bActiveEnable = true,
               StaticCreatorIdList = {},

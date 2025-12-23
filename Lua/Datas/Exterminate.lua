@@ -9,6 +9,48 @@ return ReadOnly("Exterminate", {
     NormalSpawnRule = 10802,
     TargetNum = 80
   },
+  [30801] = {
+    DungeonId = 30801,
+    EliteRange = {
+      9998, 9999
+    },
+    EliteSpawnOnlyRelation = true,
+    EliteSpawnRule = 10801,
+    NormalRange = {
+      9998, 9999
+    },
+    NormalSpawnOnlyRelation = false,
+    NormalSpawnRule = 10802,
+    TargetNum = 40
+  },
+  [30802] = {
+    DungeonId = 30802,
+    EliteRange = {
+      9998, 9999
+    },
+    EliteSpawnOnlyRelation = true,
+    EliteSpawnRule = 10801,
+    NormalRange = {
+      9998, 9999
+    },
+    NormalSpawnOnlyRelation = false,
+    NormalSpawnRule = 10802,
+    TargetNum = 40
+  },
+  [30803] = {
+    DungeonId = 30803,
+    EliteRange = {
+      9998, 9999
+    },
+    EliteSpawnOnlyRelation = true,
+    EliteSpawnRule = 10801,
+    NormalRange = {
+      9998, 9999
+    },
+    NormalSpawnOnlyRelation = false,
+    NormalSpawnRule = 10802,
+    TargetNum = 40
+  },
   [60901] = {
     DungeonId = 60901,
     EliteRange = {
@@ -89,7 +131,9 @@ return ReadOnly("Exterminate", {
   },
   [90801] = {
     DungeonId = 90801,
-    EliteRange = {9998, 9999},
+    EliteRange = {
+      9998, 9999
+    },
     EliteSpawnOnlyRelation = true,
     EliteSpawnRule = 110801,
     NormalRange = {
@@ -127,11 +171,13 @@ return ReadOnly("Exterminate", {
   },
   [90804] = {
     DungeonId = 90804,
-    EliteRange = 18,
+    EliteRange = {
+      9998, 9999
+    },
     EliteSpawnOnlyRelation = true,
     EliteSpawnRule = 10801,
     NormalRange = {
-      33, 35
+      9998, 9999
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10802,
@@ -172,6 +218,18 @@ return ReadOnly("Exterminate", {
     EliteSpawnRule = 10801,
     NormalRange = {
       33, 35
+    },
+    NormalSpawnOnlyRelation = false,
+    NormalSpawnRule = 10802,
+    TargetNum = 40
+  },
+  [91125] = {
+    DungeonId = 91125,
+    EliteRange = 18,
+    EliteSpawnOnlyRelation = true,
+    EliteSpawnRule = 91125,
+    NormalRange = {
+      9998, 9999
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10802,

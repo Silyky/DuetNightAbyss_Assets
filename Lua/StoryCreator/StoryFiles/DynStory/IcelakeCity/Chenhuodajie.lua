@@ -47,7 +47,7 @@ return {
       key = "1733137204053211535",
       type = "StoryNode",
       name = "趁火打劫",
-      pos = {x = 1196, y = 300.2857142857143},
+      pos = {x = 1198, y = 300.2857142857143},
       propsData = {
         QuestId = 0,
         QuestDescriptionComment = "",
@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -151,6 +153,12 @@ return {
             startQuest = "1740382667651522885",
             startPort = "Out",
             endQuest = "17331391356532740157",
+            endPort = "In"
+          },
+          {
+            startQuest = "1733137364941213516",
+            startPort = "Out",
+            endQuest = "176189368216819739747",
             endPort = "In"
           }
         },
@@ -299,6 +307,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -312,7 +321,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -387,6 +395,17 @@ return {
             name = "延迟等待",
             pos = {x = 1919.9970355731225, y = 118.69318181818187},
             propsData = {WaitTime = 1}
+          },
+          ["176189368216819739747"] = {
+            key = "176189368216819739747",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 1957, y = 550.6363636363636},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityChenhuodajie_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
           }
         },
         commentData = {}

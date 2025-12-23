@@ -593,6 +593,182 @@ return ReadOnly("DispatchUI", {
     TeleportPointPos = 13,
     UIPos = {-40453, 1749}
   },
+  [108203] = {
+    DispatchDes = "DynQuest_Bian_Des",
+    DispatchName = "DynQuest_Bian_Title",
+    DispatchSubRegionId = 104108,
+    DispatchUIId = 108203,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      47043, 33068
+    }
+  },
+  [108204] = {
+    DispatchDes = "DynQuest_Bian_Des",
+    DispatchName = "DynQuest_Bian_Title",
+    DispatchSubRegionId = 104108,
+    DispatchUIId = 108204,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      47043, 33068
+    }
+  },
+  [108923] = {
+    DispatchDes = "DynQuest_Daimai_Des",
+    DispatchName = "DynQuest_Daimai_Title",
+    DispatchSubRegionId = 104109,
+    DispatchUIId = 108923,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      -21993, 8157
+    }
+  },
+  [108924] = {
+    DispatchDes = "DynQuest_Daimai_Des",
+    DispatchName = "DynQuest_Daimai_Title",
+    DispatchSubRegionId = 104109,
+    DispatchUIId = 108924,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      -21993, 8157
+    }
+  },
+  [108943] = {
+    DispatchDes = "DynQuest_Daimai_Des",
+    DispatchName = "DynQuest_Daimai_Title",
+    DispatchSubRegionId = 104109,
+    DispatchUIId = 108943,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      -21993, 8157
+    }
+  },
+  [108944] = {
+    DispatchDes = "DynQuest_Daimai_Des",
+    DispatchName = "DynQuest_Daimai_Title",
+    DispatchSubRegionId = 104109,
+    DispatchUIId = 108944,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      -21993, 8157
+    }
+  },
+  [109024] = {
+    DispatchDes = "DynQuest_Gift_Des",
+    DispatchName = "DynQuest_Gift_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 109024,
+    FloorId = 0,
+    TeleportPointPos = 4,
+    UIPos = {
+      28519, -1229
+    }
+  },
+  [109025] = {
+    DispatchDes = "DynQuest_Gift_Des",
+    DispatchName = "DynQuest_Gift_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 109025,
+    FloorId = 0,
+    TeleportPointPos = 4,
+    UIPos = {
+      28519, -1229
+    }
+  },
+  [109044] = {
+    DispatchDes = "DynQuest_Gift_Des",
+    DispatchName = "DynQuest_Gift_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 109044,
+    FloorId = 0,
+    TeleportPointPos = 4,
+    UIPos = {
+      28519, -1229
+    }
+  },
+  [109045] = {
+    DispatchDes = "DynQuest_Gift_Des",
+    DispatchName = "DynQuest_Gift_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 109045,
+    FloorId = 0,
+    TeleportPointPos = 4,
+    UIPos = {
+      28519, -1229
+    }
+  },
+  [109054] = {
+    DispatchDes = "DynQuest_Gift_Des",
+    DispatchName = "DynQuest_Gift_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 109054,
+    FloorId = 0,
+    TeleportPointPos = 4,
+    UIPos = {
+      28519, -1229
+    }
+  },
+  [109055] = {
+    DispatchDes = "DynQuest_Gift_Des",
+    DispatchName = "DynQuest_Gift_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 109055,
+    FloorId = 0,
+    TeleportPointPos = 4,
+    UIPos = {
+      28519, -1229
+    }
+  },
+  [109113] = {
+    DispatchDes = "DynQuest_Xunxiang_Des",
+    DispatchName = "DynQuest_Xunxiang_Title",
+    DispatchSubRegionId = 104108,
+    DispatchUIId = 109113,
+    FloorId = 0,
+    TeleportPointPos = 4,
+    UIPos = {
+      31978, 52118
+    }
+  },
+  [109114] = {
+    DispatchDes = "DynQuest_Xunxiang_Des",
+    DispatchName = "DynQuest_Xunxiang_Title",
+    DispatchSubRegionId = 104108,
+    DispatchUIId = 109114,
+    FloorId = 0,
+    TeleportPointPos = 4,
+    UIPos = {
+      31978, 52118
+    }
+  },
+  [109123] = {
+    DispatchDes = "DynQuest_Xunxiang_Des",
+    DispatchName = "DynQuest_Xunxiang_Title",
+    DispatchSubRegionId = 104108,
+    DispatchUIId = 109123,
+    FloorId = 0,
+    TeleportPointPos = 4,
+    UIPos = {
+      31978, 52118
+    }
+  },
+  [109124] = {
+    DispatchDes = "DynQuest_Xunxiang_Des",
+    DispatchName = "DynQuest_Xunxiang_Title",
+    DispatchSubRegionId = 104108,
+    DispatchUIId = 109124,
+    FloorId = 0,
+    TeleportPointPos = 4,
+    UIPos = {
+      31978, 52118
+    }
+  },
   [200701] = {
     DispatchDes = "DynQuest_IcelakeCityGaokong_Des",
     DispatchName = "DynQuest_IcelakeCityGaokong_Title",
@@ -1145,6 +1321,138 @@ return ReadOnly("DispatchUI", {
     TeleportPointPos = 11,
     UIPos = {-34288, -3641}
   },
+  [208503] = {
+    DispatchDes = "DynQuest_Helpwuyousheng_Des",
+    DispatchName = "DynQuest_Helpwuyousheng_Title",
+    DispatchSubRegionId = 104104,
+    DispatchUIId = 208503,
+    FloorId = 0,
+    TeleportPointPos = 2,
+    UIPos = {
+      2681, 2917
+    }
+  },
+  [208504] = {
+    DispatchDes = "DynQuest_Helpwuyousheng_Des",
+    DispatchName = "DynQuest_Helpwuyousheng_Title",
+    DispatchSubRegionId = 104104,
+    DispatchUIId = 208504,
+    FloorId = 0,
+    TeleportPointPos = 2,
+    UIPos = {
+      2681, 2917
+    }
+  },
+  [208604] = {
+    DispatchDes = "DynQuest_EastTakePhoto_Des",
+    DispatchName = "DynQuest_EastTakePhoto_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 208604,
+    FloorId = 0,
+    TeleportPointPos = 2,
+    UIPos = {
+      34559, -1936
+    }
+  },
+  [208605] = {
+    DispatchDes = "DynQuest_EastTakePhoto_Des",
+    DispatchName = "DynQuest_EastTakePhoto_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 208605,
+    FloorId = 0,
+    TeleportPointPos = 2,
+    UIPos = {
+      34559, -1936
+    }
+  },
+  [208723] = {
+    DispatchDes = "DynQuest_Zhiyao_Des",
+    DispatchName = "DynQuest_Zhiyao_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 208723,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      37196, -6816
+    }
+  },
+  [208724] = {
+    DispatchDes = "DynQuest_Zhiyao_Des",
+    DispatchName = "DynQuest_Zhiyao_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 208724,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      37196, -6816
+    }
+  },
+  [208733] = {
+    DispatchDes = "DynQuest_Zhiyao_Des",
+    DispatchName = "DynQuest_Zhiyao_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 208733,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      37196, -6816
+    }
+  },
+  [208734] = {
+    DispatchDes = "DynQuest_Zhiyao_Des",
+    DispatchName = "DynQuest_Zhiyao_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 208734,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      37196, -6816
+    }
+  },
+  [208753] = {
+    DispatchDes = "DynQuest_Zhiyao_Des",
+    DispatchName = "DynQuest_Zhiyao_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 208753,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      37196, -6816
+    }
+  },
+  [208754] = {
+    DispatchDes = "DynQuest_Zhiyao_Des",
+    DispatchName = "DynQuest_Zhiyao_Title",
+    DispatchSubRegionId = 104110,
+    DispatchUIId = 208754,
+    FloorId = 0,
+    TeleportPointPos = 3,
+    UIPos = {
+      37196, -6816
+    }
+  },
+  [208804] = {
+    DispatchDes = "DynQuest_Fish_Des",
+    DispatchName = "DynQuest_Fish_Title",
+    DispatchSubRegionId = 104106,
+    DispatchUIId = 208804,
+    FloorId = 0,
+    TeleportPointPos = 2,
+    UIPos = {
+      17418, -18052
+    }
+  },
+  [208805] = {
+    DispatchDes = "DynQuest_Fish_Des",
+    DispatchName = "DynQuest_Fish_Title",
+    DispatchSubRegionId = 104106,
+    DispatchUIId = 208805,
+    FloorId = 0,
+    TeleportPointPos = 2,
+    UIPos = {
+      17418, -18052
+    }
+  },
   [301802] = {
     DispatchDes = "DynQuest_IcelakeCityTuiyixunluo_Des",
     DispatchName = "DynQuest_IcelakeCityTuiyixunluo_Title",
@@ -1529,5 +1837,71 @@ return ReadOnly("DispatchUI", {
     FloorId = 0,
     TeleportPointPos = 12,
     UIPos = {-24682, -504}
+  },
+  [308314] = {
+    DispatchDes = "DynQuest_Dati_Des",
+    DispatchName = "DynQuest_Dati_Title",
+    DispatchSubRegionId = 104108,
+    DispatchUIId = 308314,
+    FloorId = 0,
+    TeleportPointPos = 5,
+    UIPos = {
+      40401, 64009
+    }
+  },
+  [308315] = {
+    DispatchDes = "DynQuest_Dati_Des",
+    DispatchName = "DynQuest_Dati_Title",
+    DispatchSubRegionId = 104108,
+    DispatchUIId = 308315,
+    FloorId = 0,
+    TeleportPointPos = 5,
+    UIPos = {
+      40401, 64009
+    }
+  },
+  [308334] = {
+    DispatchDes = "DynQuest_Dati_Des",
+    DispatchName = "DynQuest_Dati_Title",
+    DispatchSubRegionId = 104108,
+    DispatchUIId = 308334,
+    FloorId = 0,
+    TeleportPointPos = 5,
+    UIPos = {
+      40401, 64009
+    }
+  },
+  [308335] = {
+    DispatchDes = "DynQuest_Dati_Des",
+    DispatchName = "DynQuest_Dati_Title",
+    DispatchSubRegionId = 104108,
+    DispatchUIId = 308335,
+    FloorId = 0,
+    TeleportPointPos = 5,
+    UIPos = {
+      40401, 64009
+    }
+  },
+  [308404] = {
+    DispatchDes = "DynQuest_EastPet_Des",
+    DispatchName = "DynQuest_EastPet_Title",
+    DispatchSubRegionId = 104107,
+    DispatchUIId = 308404,
+    FloorId = 0,
+    TeleportPointPos = 5,
+    UIPos = {
+      14254, 32223
+    }
+  },
+  [308405] = {
+    DispatchDes = "DynQuest_EastPet_Des",
+    DispatchName = "DynQuest_EastPet_Title",
+    DispatchSubRegionId = 104107,
+    DispatchUIId = 308405,
+    FloorId = 0,
+    TeleportPointPos = 5,
+    UIPos = {
+      14254, 32223
+    }
   }
 })

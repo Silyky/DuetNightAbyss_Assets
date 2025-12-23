@@ -118,8 +118,12 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = true,
         SubRegionId = 102104,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0,
+        FairyLandStaticCreatorId = 0,
+        FairyLandDeliverIndex = 1
       },
       questNodeData = {
         lineData = {
@@ -225,7 +229,7 @@ return {
       key = "1722421216475661037",
       type = "StoryNode",
       name = "二皇子剧情前",
-      pos = {x = 1356.1625741568976, y = 723.5416898160315},
+      pos = {x = 1352.1625741568976, y = 723.5416898160315},
       propsData = {
         QuestId = 11010904,
         QuestDescriptionComment = "监狱剧情",
@@ -248,8 +252,12 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = true,
         SubRegionId = 102104,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0,
+        FairyLandStaticCreatorId = 0,
+        FairyLandDeliverIndex = 1
       },
       questNodeData = {
         lineData = {
@@ -325,7 +333,7 @@ return {
             key = "1723550664634392528",
             type = "TalkNode",
             name = "FixSimple_26问到最关键的部分",
-            pos = {x = -2274.2426460690676, y = 100.65214345780434},
+            pos = {x = -2274.2426460690676, y = 101.34981787640899},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 11016501,
@@ -343,6 +351,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -370,23 +379,14 @@ return {
                   TalkActorType = "Npc",
                   TalkActorId = 110022,
                   TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 110021,
-                  TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110039},
-                {TalkActorType = "Npc", TalkActorId = 110022},
-                {TalkActorType = "Npc", TalkActorId = 110021}
               },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -424,7 +424,7 @@ return {
       key = "1722421216475661039",
       type = "StoryNode",
       name = "BOSS战斗",
-      pos = {x = 951.3619772706602, y = 712.801608041082},
+      pos = {x = 949.3619772706602, y = 712.801608041082},
       propsData = {
         QuestId = 11010903,
         QuestDescriptionComment = "监狱剧情",
@@ -447,8 +447,12 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = true,
         SubRegionId = 102104,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0,
+        FairyLandStaticCreatorId = 0,
+        FairyLandDeliverIndex = 1
       },
       questNodeData = {
         lineData = {
@@ -554,7 +558,7 @@ return {
       key = "17241355555806196",
       type = "StoryNode",
       name = "二皇子剧情",
-      pos = {x = 1301.59535608524, y = 910.2342012416738},
+      pos = {x = 1301.59535608524, y = 908.2342012416738},
       propsData = {
         QuestId = 11010906,
         QuestDescriptionComment = "",
@@ -577,8 +581,12 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = true,
         SubRegionId = 102104,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0,
+        FairyLandStaticCreatorId = 0,
+        FairyLandDeliverIndex = 1
       },
       questNodeData = {
         lineData = {
@@ -663,6 +671,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -675,9 +684,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -707,6 +713,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -736,15 +743,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110018},
-                {TalkActorType = "Npc", TalkActorId = 110022}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -770,6 +774,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -804,16 +809,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110032},
-                {TalkActorType = "Npc", TalkActorId = 110041},
-                {TalkActorType = "Npc", TalkActorId = 110040}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -844,7 +845,7 @@ return {
       key = "17241355652736586",
       type = "StoryNode",
       name = "达芙涅印象任务",
-      pos = {x = 967.7045484089343, y = 936.4563965520842},
+      pos = {x = 967.7045484089343, y = 932.4563965520842},
       propsData = {
         QuestId = 11010905,
         QuestDescriptionComment = "",
@@ -867,8 +868,12 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = true,
         SubRegionId = 102104,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0,
+        FairyLandStaticCreatorId = 0,
+        FairyLandDeliverIndex = 1
       },
       questNodeData = {
         lineData = {
@@ -939,7 +944,7 @@ return {
               BlendInTime = 0,
               BlendOutTime = 0,
               InType = "FadeIn",
-              OutType = "BlendOut",
+              OutType = "FadeOut",
               ShowFadeDetail = false,
               BlendEaseExp = 2,
               UseProceduralCamera = true,
@@ -947,6 +952,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -986,11 +992,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1017,7 +1024,7 @@ return {
               TalkStageName = "EX01_FixSimple_27",
               BlendInTime = 0,
               BlendOutTime = 0,
-              InType = "BlendIn",
+              InType = "FadeIn",
               OutType = "FadeOut",
               ShowFadeDetail = false,
               BlendEaseExp = 2,
@@ -1026,6 +1033,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1038,18 +1046,34 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               PauseNpcBT = true,
-              TalkActors = {},
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110040},
-                {TalkActorType = "Npc", TalkActorId = 110021},
-                {TalkActorType = "Npc", TalkActorId = 110005},
-                {TalkActorType = "Npc", TalkActorId = 110041}
+              TalkActors = {
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
+                },
+                {
+                  TalkActorType = "Npc",
+                  TalkActorId = 110040,
+                  TalkActorVisible = true
+                },
+                {
+                  TalkActorType = "Npc",
+                  TalkActorId = 110021,
+                  TalkActorVisible = true
+                },
+                {
+                  TalkActorType = "Npc",
+                  TalkActorId = 110041,
+                  TalkActorVisible = true
+                }
               },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1058,7 +1082,7 @@ return {
             key = "17470542648655710487",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1846.8998458504448, y = 402.86613244370693},
+            pos = {x = 1847.9712744218734, y = 403.15834023591475},
             propsData = {
               IsNpcNode = false,
               TalkType = "Cinematic",
@@ -1077,6 +1101,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -1084,7 +1109,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -1117,7 +1141,7 @@ return {
       key = "17352956439772509",
       type = "StoryNode",
       name = "审判二阶段特殊任务",
-      pos = {x = 1193.4368109247175, y = 539.6726562170891},
+      pos = {x = 1196.319163865894, y = 537.6726562170891},
       propsData = {
         QuestId = 11010907,
         QuestDescriptionComment = "",
@@ -1140,8 +1164,12 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = true,
         SubRegionId = 102104,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0,
+        FairyLandStaticCreatorId = 0,
+        FairyLandDeliverIndex = 1
       },
       questNodeData = {
         lineData = {
@@ -1247,7 +1275,7 @@ return {
       key = "1735295682824939045",
       type = "StoryNode",
       name = "审判三阶段特殊任务",
-      pos = {x = 1443.7316827195893, y = 530.6103851548182},
+      pos = {x = 1441.7316827195893, y = 531.4675280119611},
       propsData = {
         QuestId = 11010908,
         QuestDescriptionComment = "",
@@ -1270,8 +1298,12 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = true,
         SubRegionId = 102104,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0,
+        FairyLandStaticCreatorId = 0,
+        FairyLandDeliverIndex = 1
       },
       questNodeData = {
         lineData = {
@@ -1390,7 +1422,7 @@ return {
       key = "17443559678473022419",
       type = "StoryNode",
       name = "剧院剧情",
-      pos = {x = 1709.6421762380842, y = 949.5},
+      pos = {x = 1709.6421762380842, y = 945.5},
       propsData = {
         QuestId = 11010909,
         QuestDescriptionComment = "",
@@ -1413,8 +1445,12 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = true,
         SubRegionId = 101901,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0,
+        FairyLandStaticCreatorId = 0,
+        FairyLandDeliverIndex = 1
       },
       questNodeData = {
         lineData = {
@@ -1506,7 +1542,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -1548,7 +1583,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -1577,6 +1611,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1606,15 +1641,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110022},
-                {TalkActorType = "Npc", TalkActorId = 110018}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1645,7 +1677,7 @@ return {
       key = "17544794417941323958",
       type = "StoryNode",
       name = "等待达芙涅特殊任务",
-      pos = {x = 1690.7062765609676, y = 698.0594316057703},
+      pos = {x = 1688.5304523851432, y = 698.0594316057703},
       propsData = {
         QuestId = 11010910,
         QuestDescriptionComment = "",
@@ -1668,8 +1700,12 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = true,
         SubRegionId = 102104,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0,
+        FairyLandStaticCreatorId = 0,
+        FairyLandDeliverIndex = 1
       },
       questNodeData = {
         lineData = {
@@ -1688,17 +1724,17 @@ return {
           {
             startQuest = "17544794623151324669",
             startPort = "Fail",
-            endQuest = "17575901355481589",
+            endQuest = "17575900586151934823",
             endPort = "In"
           },
           {
             startQuest = "17544794623151324669",
             startPort = "PassiveFail",
-            endQuest = "17575901355481589",
+            endQuest = "17575900586151934823",
             endPort = "In"
           },
           {
-            startQuest = "17575901355481589",
+            startQuest = "17575900586151934823",
             startPort = "Out",
             endQuest = "17544794417941323965",
             endPort = "Fail"
@@ -1723,7 +1759,7 @@ return {
             key = "17544794417941323965",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2080.7954545454545, y = 586.8181818181818},
+            pos = {x = 2159.056324110672, y = 526.8181818181818},
             propsData = {}
           },
           ["17544794623151324669"] = {
@@ -1733,11 +1769,11 @@ return {
             pos = {x = 1466, y = 366},
             propsData = {SpecialConfigId = 1057, BlackScreenImmediately = true}
           },
-          ["17575901355481589"] = {
-            key = "17575901355481589",
+          ["17575900586151934823"] = {
+            key = "17575900586151934823",
             type = "SkipRegionNode",
             name = "送回据点",
-            pos = {x = 1741.5483870967741, y = 541.1612903225806},
+            pos = {x = 1762.01581027668, y = 485.9148414514548},
             propsData = {
               ModeType = 1,
               Id = 210101,

@@ -29,6 +29,10 @@ return ReadOnly("CombatCondition", {
     FuncName = "Not_In_Battle",
     Id = 11
   },
+  [12] = {
+    FuncName = "Not_In_Dungeon",
+    Id = 12
+  },
   [15] = {
     ConditionVars = {
       BuffId = 15
@@ -291,6 +295,65 @@ return ReadOnly("CombatCondition", {
     Id = 103,
     Not = true
   },
+  [104] = {
+    FuncName = "Check_TriggerProb_Ranged",
+    Id = 104
+  },
+  [110] = {
+    ConditionVars = {
+      KeyName = "Loli"
+    },
+    FuncName = "Check_Char_Tag",
+    Id = 110
+  },
+  [111] = {
+    ConditionVars = {
+      KeyName = "Loli"
+    },
+    FuncName = "Check_Char_Tag",
+    Id = 111,
+    Not = true
+  },
+  [112] = {
+    ConditionVars = {KeyName = "Girl"},
+    FuncName = "Check_Char_Tag",
+    Id = 112
+  },
+  [113] = {
+    ConditionVars = {
+      KeyName = "Woman"
+    },
+    FuncName = "Check_Char_Tag",
+    Id = 113
+  },
+  [114] = {
+    ConditionVars = {KeyName = "Boy"},
+    FuncName = "Check_Char_Tag",
+    Id = 114
+  },
+  [115] = {
+    ConditionVars = {
+      KeyName = "Man"
+    },
+    FuncName = "Check_Char_Tag",
+    Id = 115
+  },
+  [116] = {
+    ConditionVars = {
+      KeyName = "Man"
+    },
+    FuncName = "Check_Char_Tag",
+    Id = 116,
+    Or = {114}
+  },
+  [117] = {
+    ConditionVars = {
+      KeyName = "Woman"
+    },
+    FuncName = "Check_Char_Tag",
+    Id = 117,
+    Or = {110, 112}
+  },
   [200] = {
     FuncName = "Summoner_Skill1_Hold",
     Id = 200,
@@ -346,9 +409,33 @@ return ReadOnly("CombatCondition", {
     Id = 502,
     Not = true
   },
+  [503] = {
+    FuncName = "Is_FromArmory",
+    Id = 503
+  },
+  [504] = {
+    FuncName = "Is_FromArmory",
+    Id = 504,
+    Not = true
+  },
+  [505] = {
+    ConditionVars = {
+      KeyName = "Hook"
+    },
+    FuncName = "Is_InCharacterTag",
+    Id = 505
+  },
+  [506] = {
+    ConditionVars = {
+      KeyName = "Hook"
+    },
+    FuncName = "Is_InCharacterTag",
+    Id = 506,
+    Not = true
+  },
   [900] = {
     ConditionVars = {
-      RelativeDis = 2000
+      RelativeDis = 2300
     },
     FuncName = "Phantom_OwnerDis",
     Id = 900
@@ -356,7 +443,7 @@ return ReadOnly("CombatCondition", {
   [901] = {FuncName = "Is_Phantom", Id = 901},
   [902] = {
     ConditionVars = {
-      RelativeDis = 2000
+      RelativeDis = 2300
     },
     FuncName = "Phantom_OwnerDis",
     Id = 902,
@@ -414,6 +501,11 @@ return ReadOnly("CombatCondition", {
     ConditionVars = {CompareBase = 0.9},
     FuncName = "Is_TeamHp_Below",
     Id = 922
+  },
+  [923] = {
+    ConditionVars = {CompareBase = 0.8},
+    FuncName = "Is_TeamSp_Below",
+    Id = 923
   },
   [1001] = {
     ConditionVars = {Key = "Dark"},
@@ -740,6 +832,16 @@ return ReadOnly("CombatCondition", {
     FuncName = "Check_Buff",
     Id = 150303
   },
+  [150402] = {
+    ConditionVars = {
+      BuffId = 150402,
+      CompareBaseInt = 100,
+      CompareLogic = "NotLess"
+    },
+    FuncName = "Check_Buff_Layer",
+    Id = 150402,
+    Or = 150206
+  },
   [150403] = {
     ConditionVars = {BuffId = 150401},
     FuncName = "Check_Buff",
@@ -749,6 +851,16 @@ return ReadOnly("CombatCondition", {
     ConditionVars = {BuffId = 150407},
     FuncName = "Check_Buff",
     Id = 150404
+  },
+  [150501] = {
+    ConditionVars = {BuffId = 150503},
+    FuncName = "Check_Buff",
+    Id = 150501
+  },
+  [150502] = {
+    ConditionVars = {BuffId = 150531},
+    FuncName = "Check_Buff",
+    Id = 150502
   },
   [180101] = {
     ConditionVars = {
@@ -788,7 +900,7 @@ return ReadOnly("CombatCondition", {
   },
   [210101] = {
     ConditionVars = {
-      CompareBase = 1000,
+      CompareBase = 1500,
       Key = "SummonNum",
       SummonId = 210101
     },
@@ -805,13 +917,22 @@ return ReadOnly("CombatCondition", {
     Not = true
   },
   [210202] = {
-    ConditionVars = {BuffId = 210202},
+    ConditionVars = {
+      BuffId = 210202
+    },
     FuncName = "CheckCreaterBuff",
     Id = 210202
   },
+  [210203] = {
+    ConditionVars = {
+      BuffId = 210202
+    },
+    FuncName = "Check_Buff",
+    Id = 210203
+  },
   [230101] = {
     ConditionVars = {
-      CompareBase = 1000,
+      CompareBase = 1500,
       Key = "SummonNum",
       SummonId = 230101
     },
@@ -820,7 +941,7 @@ return ReadOnly("CombatCondition", {
   },
   [240101] = {
     ConditionVars = {
-      CompareBase = 1000,
+      CompareBase = 1500,
       Key = "SummonNum",
       SummonId = 240101
     },
@@ -1041,6 +1162,16 @@ return ReadOnly("CombatCondition", {
     Id = 410104,
     Not = true
   },
+  [410222] = {
+    ConditionVars = {Int = 410222},
+    FuncName = "Check_Current_Skill",
+    Id = 410222
+  },
+  [410224] = {
+    ConditionVars = {Int = 410224},
+    FuncName = "Check_Current_Skill",
+    Id = 410224
+  },
   [420101] = {
     ConditionVars = {BuffId = 420111},
     FuncName = "Check_Buff",
@@ -1255,6 +1386,11 @@ return ReadOnly("CombatCondition", {
     FuncName = "Check_Mon_BBValue_ObjectIsNull",
     Id = 700102
   },
+  [700103] = {
+    ConditionVars = {TargetDis = 5000},
+    FuncName = "Check_Mon_EscapingFromBattle_TargetDis",
+    Id = 700103
+  },
   [700301] = {
     ConditionVars = {Radius = 1000},
     FuncName = "Check_Mon_EX02_EscapingFromBattle",
@@ -1434,6 +1570,11 @@ return ReadOnly("CombatCondition", {
     FuncName = "Check_Buff_Layer",
     Id = 850212
   },
+  [850213] = {
+    ConditionVars = {BuffId = 850202},
+    FuncName = "Check_Buff",
+    Id = 850213
+  },
   [850301] = {
     ConditionVars = {
       PartId = 1
@@ -1473,8 +1614,8 @@ return ReadOnly("CombatCondition", {
     Not = true
   },
   [850501] = {
-    ConditionVars = {BuffId = 207},
-    FuncName = "Check_BTTarget_Buff",
+    ConditionVars = {EffectId = 850534},
+    FuncName = "Check_EffectTargetValid",
     Id = 850501
   },
   [850502] = {
@@ -1493,7 +1634,9 @@ return ReadOnly("CombatCondition", {
     Not = true
   },
   [850902] = {
-    ConditionVars = {RelativeAngle = 180},
+    ConditionVars = {
+      RelativeAngle = 180
+    },
     FuncName = "Check_BTTargetAngle",
     Id = 850902,
     Not = true
@@ -1571,6 +1714,28 @@ return ReadOnly("CombatCondition", {
     FuncName = "Check_Mon_BBValue",
     Id = 851701
   },
+  [851702] = {
+    ConditionVars = {
+      KeyName = "PartIsAlive"
+    },
+    FuncName = "Check_Mon_BBValue",
+    Id = 851702,
+    Not = true
+  },
+  [851801] = {
+    ConditionVars = {
+      PartId = 1
+    },
+    FuncName = "BrokenPart",
+    Id = 851801
+  },
+  [851802] = {
+    ConditionVars = {
+      PartId = 2
+    },
+    FuncName = "BrokenPart",
+    Id = 851802
+  },
   [852001] = {
     ConditionVars = {HpPercent = 0.8},
     FuncName = "Check_Mon_HpPercentUnder",
@@ -1590,6 +1755,47 @@ return ReadOnly("CombatCondition", {
   [852004] = {
     FuncName = "BossAida_InP3orP4orP5",
     Id = 852004
+  },
+  [852201] = {
+    And = {852202},
+    ConditionVars = {RelativeDis = 800},
+    FuncName = "Check_BTTargetLoc",
+    Id = 852201,
+    Not = true
+  },
+  [852202] = {
+    ConditionVars = {
+      RelativeAngle = 180
+    },
+    FuncName = "Check_BTTargetAngle",
+    Id = 852202,
+    Not = true
+  },
+  [852203] = {
+    ConditionVars = {
+      Key = "BossTuisheng_Skill02Hit1Result"
+    },
+    FuncName = "Check_Key_Bool",
+    Id = 852203
+  },
+  [852204] = {
+    ConditionVars = {
+      Key = "BossTuisheng_Skill04CreatureHitResult"
+    },
+    FuncName = "Check_Key_Bool",
+    Id = 852204
+  },
+  [852205] = {
+    ConditionVars = {RelativeDis = 400},
+    FuncName = "Check_BTTargetLoc",
+    Id = 852205,
+    Not = true
+  },
+  [852301] = {
+    And = 800203,
+    ConditionVars = {MonsterId = 8523002},
+    FuncName = "Check_Mon_UnitId",
+    Id = 852301
   },
   [859901] = {
     ConditionVars = {
@@ -1637,6 +1843,12 @@ return ReadOnly("CombatCondition", {
     ConditionVars = {MonsterId = 9500101},
     FuncName = "Check_Mon_UnitId",
     Id = 950011
+  },
+  [950012] = {
+    ConditionVars = {MonsterId = 9500102},
+    FuncName = "Check_Mon_UnitId",
+    Id = 950012,
+    Not = true
   },
   [950051] = {
     ConditionVars = {MonsterId = 9500051},

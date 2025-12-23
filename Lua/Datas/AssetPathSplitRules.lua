@@ -681,6 +681,39 @@ return ReadOnly("AssetPathSplitRules", {
       SpecialIdle = "SpecialIdle/"
     }
   },
+  [601501] = {
+    IsPreloadMesh = true,
+    IsPreloadWeapon = true,
+    ModelId = 601501,
+    MontageSuffixList = {
+      Hit = "Combat/Hit/",
+      Locomotion = "Locomotion/",
+      Skill = "Combat/Skill/",
+      SpecialIdle = "SpecialIdle/"
+    }
+  },
+  [601601] = {
+    IsPreloadMesh = true,
+    IsPreloadWeapon = true,
+    ModelId = 601601,
+    MontageSuffixList = {
+      Hit = "Combat/Hit/",
+      Locomotion = "Locomotion/",
+      Skill = "Combat/Skill/",
+      SpecialIdle = "SpecialIdle/"
+    }
+  },
+  [601701] = {
+    IsPreloadMesh = true,
+    IsPreloadWeapon = true,
+    ModelId = 601701,
+    MontageSuffixList = {
+      Hit = "Combat/Hit/",
+      Locomotion = "Locomotion/",
+      Skill = "Combat/Skill/",
+      SpecialIdle = "SpecialIdle/"
+    }
+  },
   [700001] = {
     IsPreloadMesh = true,
     IsPreloadWeapon = true,
@@ -1389,6 +1422,17 @@ return ReadOnly("AssetPathSplitRules", {
     IsPreloadMesh = true,
     IsPreloadWeapon = true,
     ModelId = 980902,
+    MontageSuffixList = {
+      Hit = "Combat/Hit/",
+      Locomotion = "Locomotion/",
+      Skill = "Combat/Skill/",
+      SpecialIdle = "SpecialIdle/"
+    }
+  },
+  [1000301] = {
+    IsPreloadMesh = true,
+    IsPreloadWeapon = true,
+    ModelId = 1000301,
     MontageSuffixList = {
       Hit = "Combat/Hit/",
       Locomotion = "Locomotion/",

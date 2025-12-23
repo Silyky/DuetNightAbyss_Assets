@@ -76,8 +76,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -85,18 +87,6 @@ return {
             startQuest = "1750904502100577",
             startPort = "Out",
             endQuest = "1750904502100578",
-            endPort = "In"
-          },
-          {
-            startQuest = "1750904502100581",
-            startPort = "Out",
-            endQuest = "1750904502100582",
-            endPort = "In"
-          },
-          {
-            startQuest = "1750904502100582",
-            startPort = "Out",
-            endQuest = "1750904502100583",
             endPort = "In"
           },
           {
@@ -155,23 +145,8 @@ return {
             key = "1750904500559474",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 1966.286739576214, y = 435.18549783549776},
+            pos = {x = 1958.786739576214, y = 435.18549783549776},
             propsData = {}
-          },
-          ["1750904502100576"] = {
-            key = "1750904502100576",
-            type = "AsyncSetActorLocationAndRotationNode",
-            name = "玩家放进战斗区域",
-            pos = {x = 1321.8956900710284, y = -1.4243831962280475},
-            propsData = {
-              UnitId = 0,
-              NewTargetPointName = "20010303_pPlayer",
-              FadeIn = true,
-              FadeOut = true,
-              bResetCamera = false,
-              bForceAsyncLoading = false,
-              IsWhite = false
-            }
           },
           ["1750904502100577"] = {
             key = "1750904502100577",
@@ -184,17 +159,7 @@ return {
               EnableFadeIn = false,
               EnableFadeOut = false,
               NewTargetPointName = "",
-              StaticCreatorIdList = {
-                1240834,
-                1240835,
-                1240836,
-                1240837,
-                1240838,
-                1240839,
-                1240840,
-                1240841,
-                1240842
-              }
+              StaticCreatorIdList = {1240841, 1240842}
             }
           },
           ["1750904502100578"] = {
@@ -204,90 +169,12 @@ return {
             pos = {x = 1663.9600550652967, y = 239.17911711023112},
             propsData = {
               KillMonsterType = "Id",
-              MonsterNeedNums = 9,
+              MonsterNeedNums = 2,
               IsShow = false,
               GuideType = "P",
               GuideName = "",
               IsShowMonsterGuide = true,
-              StaticCreatorIdList = {
-                1240834,
-                1240835,
-                1240836,
-                1240837,
-                1240838,
-                1240839,
-                1240840,
-                1240841,
-                1240842
-              }
-            }
-          },
-          ["1750904502100579"] = {
-            key = "1750904502100579",
-            type = "ChangeStaticCreatorNode",
-            name = "生成空气墙",
-            pos = {x = 942.0020270028124, y = 56.01826421071897},
-            propsData = {
-              ActiveEnable = true,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {1240843}
-            }
-          },
-          ["1750904502100580"] = {
-            key = "1750904502100580",
-            type = "ChangeStaticCreatorNode",
-            name = "销毁空气墙",
-            pos = {x = 1854.4913123226438, y = -53.6417635391598},
-            propsData = {
-              ActiveEnable = false,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
-              EnableFadeOut = false,
-              NewTargetPointName = "",
-              StaticCreatorIdList = {1240843}
-            }
-          },
-          ["1750904502100581"] = {
-            key = "1750904502100581",
-            type = "MonitorPlayerStatusNode",
-            name = "监听玩家状态",
-            pos = {x = 1357.0556098963411, y = 784.5111639793217},
-            propsData = {
-              ListenHPPercent = false,
-              ListenESPercent = false,
-              ListenSPPercent = false,
-              ListenDead = true
-            }
-          },
-          ["1750904502100582"] = {
-            key = "1750904502100582",
-            type = "WaitOfTimeNode",
-            name = "延迟等待",
-            pos = {x = 1621.8266952183417, y = 792.6039230509136},
-            propsData = {WaitTime = 0.2}
-          },
-          ["1750904502100583"] = {
-            key = "1750904502100583",
-            type = "RefreshPlayerNode",
-            name = "重新初始化玩家",
-            pos = {x = 1915.847937705831, y = 772.4040682718254},
-            propsData = {}
-          },
-          ["17509067497183308"] = {
-            key = "17509067497183308",
-            type = "GoToRegionNode",
-            name = "进入区域",
-            pos = {x = 1048.9702349937645, y = 498.31773670945506},
-            propsData = {
-              RegionType = 1,
-              IsEnter = "Enter",
-              RegionId = 101103,
-              bGuideUIEnable = false,
-              GuideType = "P",
-              GuideName = "20010303_pPlayer"
+              StaticCreatorIdList = {1240841, 1240842}
             }
           },
           ["17509068522184661"] = {
@@ -301,24 +188,14 @@ return {
             key = "17509234890661974342",
             type = "ChangeStaticCreatorNode",
             name = "销毁怪物",
-            pos = {x = 1677.2177897631946, y = 430.78877680520645},
+            pos = {x = 1671.2177897631946, y = 430.78877680520645},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = false,
               EnableFadeIn = false,
               EnableFadeOut = false,
               NewTargetPointName = "",
-              StaticCreatorIdList = {
-                1240834,
-                1240835,
-                1240836,
-                1240837,
-                1240838,
-                1240839,
-                1240840,
-                1240841,
-                1240842
-              }
+              StaticCreatorIdList = {1240841, 1240842}
             }
           },
           ["17509346453257917173"] = {

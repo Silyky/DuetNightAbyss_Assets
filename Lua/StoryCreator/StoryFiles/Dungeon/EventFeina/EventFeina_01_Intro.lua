@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -80,6 +82,12 @@ return {
             startPort = "QuestStart",
             endQuest = "1754637134437299565",
             endPort = "In"
+          },
+          {
+            startQuest = "175729891414533598585",
+            startPort = "Out",
+            endQuest = "1754637109257299014",
+            endPort = "Success"
           },
           {
             startQuest = "1754637134437299565",
@@ -94,19 +102,13 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "175729891414533598585",
-            startPort = "Out",
-            endQuest = "1754637109257299014",
-            endPort = "Success"
-          },
-          {
             startQuest = "175729891414533598586",
             startPort = "Out",
-            endQuest = "1760621620248521",
+            endQuest = "176061703180721472",
             endPort = "In"
           },
           {
-            startQuest = "1760621620248521",
+            startQuest = "176061703180721472",
             startPort = "Out",
             endQuest = "175729891414533598585",
             endPort = "In"
@@ -160,6 +162,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -173,9 +176,6 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
-              },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -186,7 +186,7 @@ return {
             key = "175729891414533598585",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 2440, y = 273},
+            pos = {x = 2441.5789473684213, y = 273},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80001005,
@@ -203,21 +203,21 @@ return {
             key = "175729891414533598586",
             type = "ShowGuideMainNode",
             name = "显示图文引导",
-            pos = {x = 1880, y = 295},
+            pos = {x = 1780.5263157894738, y = 290.2631578947368},
             propsData = {GuideId = 2001}
           },
           ["175729892419333598783"] = {
             key = "175729892419333598783",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 1560.1052631578948, y = 293.89473684210526},
-            propsData = {WaitTime = 1}
+            pos = {x = 1508.0000000000002, y = 284.421052631579},
+            propsData = {WaitTime = 5}
           },
-          ["1760621620248521"] = {
-            key = "1760621620248521",
+          ["176061703180721472"] = {
+            key = "176061703180721472",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 2168.835526315789, y = 279.2631578947368},
+            pos = {x = 2106.3157894736846, y = 274.42105263157885},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80001003,

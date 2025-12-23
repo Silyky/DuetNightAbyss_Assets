@@ -98,8 +98,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Makusi_1240125"
+        StoryGuidePointName = "Npc_Makusi_1240125",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -190,6 +192,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -203,11 +206,12 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "Player",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -317,8 +321,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Makusi_1240125"
+        StoryGuidePointName = "Npc_Makusi_1240125",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -408,8 +414,7 @@ return {
               ImpressionTalkTriggerId = 510054,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_Makusi_1240125",
-              GuideStaticCreatorId = 0
+              NPCStaticCreaterName = "Npc_Makusi_1240125"
             }
           },
           ["17436483487671931"] = {
@@ -441,6 +446,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -454,7 +460,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -506,6 +511,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -519,7 +525,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "plus",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -573,6 +578,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -586,7 +592,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -618,6 +623,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -631,7 +637,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -663,6 +668,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -676,7 +682,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -709,6 +714,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -722,7 +728,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -764,8 +769,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Makusi_1240127"
+        StoryGuidePointName = "Npc_Makusi_1240127",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -864,6 +871,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -877,7 +885,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -961,8 +968,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1035,6 +1044,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1048,11 +1058,12 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1132,8 +1143,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Makusi_1240127"
+        StoryGuidePointName = "Npc_Makusi_1240127",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1199,8 +1212,7 @@ return {
               ImpressionTalkTriggerId = 510056,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_Makusi_1240127",
-              GuideStaticCreatorId = 0
+              NPCStaticCreaterName = "Npc_Makusi_1240127"
             }
           },
           ["1719458091381544433"] = {
@@ -1245,6 +1257,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1258,7 +1271,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "plus",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1291,6 +1303,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1304,7 +1317,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1375,8 +1387,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "QuestPoint_20021507"
+        StoryGuidePointName = "QuestPoint_20021507",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1507,8 +1521,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101101,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_MakusiSit_1190563"
+        StoryGuidePointName = "Npc_MakusiSit_1190563",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1521,11 +1537,11 @@ return {
           {
             startQuest = "1743648907990816899",
             startPort = "Out",
-            endQuest = "1757647817246929568",
+            endQuest = "17576479566791631",
             endPort = "In"
           },
           {
-            startQuest = "1757647817246929568",
+            startQuest = "17576479566791631",
             startPort = "Out",
             endQuest = "17191120381874244076",
             endPort = "Success"
@@ -1562,8 +1578,7 @@ return {
               ImpressionTalkTriggerId = 510057,
               bShowGuide = true,
               GuideType = "N",
-              NPCStaticCreaterName = "Npc_MakusiSit_1190563",
-              GuideStaticCreatorId = 0
+              NPCStaticCreaterName = "Npc_MakusiSit_1190563"
             }
           },
           ["1743648907990816899"] = {
@@ -1594,6 +1609,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1607,7 +1623,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "plus",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1617,11 +1632,11 @@ return {
               OverrideFailBlend = false
             }
           },
-          ["1757647817246929568"] = {
-            key = "1757647817246929568",
+          ["17576479566791631"] = {
+            key = "17576479566791631",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 1229.4482758620688, y = 577.5172413793103},
+            pos = {x = 1194.030701754386, y = 573.8410732714137},
             propsData = {
               ActiveEnable = false,
               EnableBlackScreenSync = true,
@@ -1729,8 +1744,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 101103,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = "NewTargetPointFish"
+        StoryGuidePointName = "NewTargetPointFish",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1791,7 +1808,8 @@ return {
         QuestDescriptionComment = "",
         SubRegionId = 101103,
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_Makusi_1240125"
+        StoryGuidePointName = "Npc_Makusi_1240125",
+        bIsPlayBlackScreenOnComplete = false
       },
       questNodeData = {
         lineData = {
@@ -1848,9 +1866,9 @@ return {
             pos = {x = 1448.7499999999998, y = 231.30952380952377},
             propsData = {
               SideQuestChainId = 200215,
-              EnableSequence = false,
-              SequencePath = "",
-              PauseMark = ""
+              EnableSequence = true,
+              SequencePath = "/Game/UI/Sequence/SQ_Task_DepthField.SQ_Task_DepthField",
+              PauseMark = "QuestAccept"
             }
           },
           ["17512713997609153713"] = {
@@ -1888,6 +1906,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1901,7 +1920,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "plus",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,

@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -106,6 +108,12 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17504080743582433",
+            startPort = "Out",
+            endQuest = "17485895978972971859",
+            endPort = "Success"
+          },
+          {
             startQuest = "17485895978972971856",
             startPort = "QuestStart",
             endQuest = "1750411155121646729",
@@ -116,24 +124,6 @@ return {
             startPort = "Out",
             endQuest = "1750407924607844",
             endPort = "In"
-          },
-          {
-            startQuest = "1750411155121646729",
-            startPort = "Out",
-            endQuest = "17600798981232491806",
-            endPort = "In"
-          },
-          {
-            startQuest = "17504080743582433",
-            startPort = "Out",
-            endQuest = "17600799033502491972",
-            endPort = "In"
-          },
-          {
-            startQuest = "17600799033502491972",
-            startPort = "Out",
-            endQuest = "17485895978972971859",
-            endPort = "Success"
           },
           {
             startQuest = "17504080272461526",
@@ -154,7 +144,7 @@ return {
             key = "17485895978972971859",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2008.0714285714287, y = 610.6428571428571},
+            pos = {x = 1812, y = 496},
             propsData = {ModeType = 0}
           },
           ["17485895978972971862"] = {
@@ -198,13 +188,14 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
               ShowWikiButton = true,
               SkipToOption = false,
               DisableNpcOptimization = false,
-              DoNotReceiveCharacterShadow = false,
+              DoNotReceiveCharacterShadow = true,
               BeginNewTargetPointName = "",
               EndNewTargetPointName = "",
               CameraLookAtTartgetPoint = "",
@@ -227,15 +218,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 790045},
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 790056}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -270,7 +258,7 @@ return {
             key = "17504080272461526",
             type = "GoToRegionNode",
             name = "进入区域",
-            pos = {x = 1169.357142857143, y = 605.5},
+            pos = {x = 1164, y = 478},
             propsData = {
               RegionType = 1,
               IsEnter = "Enter",
@@ -284,7 +272,7 @@ return {
             key = "17504080743582433",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1445.4285714285713, y = 602.5714285714286},
+            pos = {x = 1484, y = 474},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80180207,
@@ -302,6 +290,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -331,15 +320,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 790045},
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 790013}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -356,33 +342,6 @@ return {
               bGuideUIEnable = false,
               GuideType = "P",
               GuideName = ""
-            }
-          },
-          ["17600798981232491806"] = {
-            key = "17600798981232491806",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = 1487.3506208703575, y = 431.55576441102755},
-            propsData = {
-              SoundStateType = 0,
-              SoundPriority = 1,
-              SoundType = 0,
-              SoundPath = "event:/bgm/cbt01/0036_story_renweidaozu",
-              ParamKey = "",
-              ParamValue = 0,
-              RelatedRegionId = {},
-              ClientRelatedRegionId = {}
-            }
-          },
-          ["17600799033502491972"] = {
-            key = "17600799033502491972",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = 1725.2077637275006, y = 617.984335839599},
-            propsData = {
-              SoundStateType = 3,
-              SoundPriority = 1,
-              SoundType = 0
             }
           },
           ["1760171867976500"] = {

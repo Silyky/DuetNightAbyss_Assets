@@ -75,7 +75,7 @@ return ReadOnly("DailyGoalTask", {
     DailyGoalTaskId = 10000109,
     DailyTasktDes = "DailyTaskDes_10000109",
     EntryCondition = 125,
-    JumpUIId = 63,
+    JumpUIId = 65,
     QuestReward = 7207,
     RandomWeight = 20,
     Target = 1,
@@ -183,5 +183,14 @@ return ReadOnly("DailyGoalTask", {
     RandomWeight = 20,
     Target = 3,
     TargetId = {1010501}
+  },
+  [10000121] = {
+    DailyGoalTaskId = 10000121,
+    DailyTasktDes = "DailyTaskDes_10000121",
+    IsFixed = true,
+    JumpUIId = 70,
+    QuestReward = 7201,
+    Target = 10,
+    TargetId = {1080201}
   }
 })

@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -100,7 +102,7 @@ return {
             key = "17569774929522561236",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1612.875, y = 307},
+            pos = {x = 1656, y = 262},
             propsData = {ModeType = 0}
           },
           ["17569774929522561237"] = {
@@ -114,7 +116,7 @@ return {
             key = "17569774929522561238",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1202.2105263157894, y = 294.74342105263156},
+            pos = {x = 1218.2105263157894, y = 309.36842105263156},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80002029,
@@ -132,6 +134,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -156,14 +159,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 211001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }

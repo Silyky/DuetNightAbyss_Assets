@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -237,7 +239,7 @@ return {
             key = "1719385113633282937",
             type = "ChangeRoleNode",
             name = "切换角色",
-            pos = {x = 392.5097074601815, y = -216.1181907369811},
+            pos = {x = 126.50970746018146, y = -198.1181907369811},
             propsData = {QuestRoleId = 1040101, IsPlayFX = false}
           },
           ["1721630102444395389"] = {
@@ -342,7 +344,7 @@ return {
             key = "17297594968708111962",
             type = "PlayOrStopBGMNode",
             name = "BGM节点",
-            pos = {x = -192.33586850630965, y = -215.8631904745734},
+            pos = {x = -198.33586850630965, y = -200.8631904745734},
             propsData = {
               SoundStateType = 0,
               SoundPriority = 0,
@@ -367,7 +369,7 @@ return {
               TalkType = "FixSimple",
               TalkStageName = "FixSimple_EX01_01",
               BlendInTime = 0,
-              BlendOutTime = 1,
+              BlendOutTime = 0,
               InType = "FadeIn",
               OutType = "FadeOut",
               ShowFadeDetail = false,
@@ -377,6 +379,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -401,14 +404,12 @@ return {
                   TalkActorVisible = false
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 110022}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }

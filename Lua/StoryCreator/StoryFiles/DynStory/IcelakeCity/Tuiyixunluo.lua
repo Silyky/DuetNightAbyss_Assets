@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -290,6 +292,30 @@ return {
             startPort = "Out",
             endQuest = "1730879976103888",
             endPort = "In"
+          },
+          {
+            startQuest = "17253608776536753",
+            startPort = "WeightBranch_1",
+            endQuest = "17618920441076804229",
+            endPort = "In"
+          },
+          {
+            startQuest = "172536156905613130",
+            startPort = "WeightBranch_1",
+            endQuest = "17618920558556804552",
+            endPort = "In"
+          },
+          {
+            startQuest = "172536162102314895",
+            startPort = "WeightBranch_1",
+            endQuest = "17618920675166804864",
+            endPort = "In"
+          },
+          {
+            startQuest = "172536162102314895",
+            startPort = "WeightBranch_2",
+            endQuest = "17618920822426805281",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -373,6 +399,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -386,7 +413,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -673,6 +699,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -686,7 +713,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -817,6 +843,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -830,7 +857,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -863,6 +889,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -876,7 +903,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -892,6 +918,50 @@ return {
             name = "动态任务主动失败",
             pos = {x = 4531.12987012987, y = 1629.090909090909},
             propsData = {UseTalkFadeOut = false, TalkFadeOutTime = 2}
+          },
+          ["17618920441076804229"] = {
+            key = "17618920441076804229",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3066.9868421052633, y = -243.71052631578945},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityTuiyixunluo_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["17618920558556804552"] = {
+            key = "17618920558556804552",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3475.7368421052633, y = 472.53947368421063},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityTuiyixunluo_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["17618920675166804864"] = {
+            key = "17618920675166804864",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3238.4695260879475, y = 791.8000138686641},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityTuiyixunluo_Target1",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
+          },
+          ["17618920822426805281"] = {
+            key = "17618920822426805281",
+            type = "UpdateTaskBarAndTaskMainNode",
+            name = "更新任务目标节点",
+            pos = {x = 3257.1656686181873, y = 1388.3194646695792},
+            propsData = {
+              NewDescription = "DynQuest_IcelakeCityTuiyixunluo_Target2",
+              NewDetail = "",
+              SubTaskTargetIndex = 0
+            }
           }
         },
         commentData = {}

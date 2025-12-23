@@ -200,23 +200,33 @@ return ReadOnly("CameraControlData", {
     bIncrementSocketOffset = true
   },
   FuluoSkill02 = {
-    ArmLength = 120,
+    ArmLength = 300,
     ArmPos = {
       0,
       0,
       0
     },
     CameraName = "FuluoSkill02",
+    LagMaxDistance = {
+      50,
+      0,
+      0
+    },
+    LagSpeed = {
+      4,
+      0,
+      0
+    },
     ProbeSize = 12,
     SocketOffset = {
       0,
       0,
-      25
+      120
     },
     TimelineFloatCurve = "CameraCurve",
     bIncrementArmLength = true,
     bIncrementArmPos = true,
-    bIncrementSocketOffset = true
+    bIncrementSocketOffset = false
   },
   IncrementDefault = {
     ArmLength = 0,
@@ -304,6 +314,25 @@ return ReadOnly("CameraControlData", {
     bIncrementArmPos = true,
     bIncrementSocketOffset = true
   },
+  StoryCamera03 = {
+    ArmLength = 140,
+    ArmPos = {
+      0,
+      0,
+      0
+    },
+    CameraName = "StoryCamera03",
+    ProbeSize = 12,
+    SocketOffset = {
+      45,
+      40,
+      40
+    },
+    TimelineFloatCurve = "CameraCurve",
+    bIncrementArmLength = false,
+    bIncrementArmPos = false,
+    bIncrementSocketOffset = false
+  },
   StoryDefault = {
     ArmLength = 800,
     ArmPos = {
@@ -360,6 +389,44 @@ return ReadOnly("CameraControlData", {
     bIncrementArmLength = false,
     bIncrementArmPos = false,
     bIncrementSocketOffset = false
+  },
+  SuyiSkill01JetRush = {
+    ArmLength = 180,
+    ArmPos = {
+      0,
+      0,
+      0
+    },
+    CameraName = "SuyiSkill01JetRush",
+    ProbeSize = 12,
+    SocketOffset = {
+      0,
+      0,
+      0
+    },
+    TimelineFloatCurve = "CameraCurve",
+    bIncrementArmLength = true,
+    bIncrementArmPos = true,
+    bIncrementSocketOffset = true
+  },
+  SuyiSkill02Attack = {
+    ArmLength = 120,
+    ArmPos = {
+      0,
+      0,
+      0
+    },
+    CameraName = "SuyiSkill02Attack",
+    ProbeSize = 12,
+    SocketOffset = {
+      0,
+      150,
+      150
+    },
+    TimelineFloatCurve = "CameraCurve",
+    bIncrementArmLength = true,
+    bIncrementArmPos = true,
+    bIncrementSocketOffset = true
   },
   TuosiSkill02 = {
     ArmLength = 150,

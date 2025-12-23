@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -172,12 +174,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "170021935291051719",
-            startPort = "Out",
-            endQuest = "1698030563253399",
-            endPort = "Success"
-          },
-          {
             startQuest = "17561932674811269461",
             startPort = "MouseAndKeyboard",
             endQuest = "17561932674811269460",
@@ -248,6 +244,18 @@ return {
             startPort = "Out",
             endQuest = "17563805727362232",
             endPort = "In"
+          },
+          {
+            startQuest = "170021935291051719",
+            startPort = "Out",
+            endQuest = "17637135190636429",
+            endPort = "In"
+          },
+          {
+            startQuest = "17637135190636429",
+            startPort = "Out",
+            endQuest = "1698030563253399",
+            endPort = "Success"
           }
         },
         nodeData = {
@@ -262,7 +270,7 @@ return {
             key = "1698030563253399",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 2592.0790305804035, y = 696.563490742667},
+            pos = {x = 2751.5384867518114, y = 670.8878155964234},
             propsData = {ModeType = 0}
           },
           ["1698030563253401"] = {
@@ -518,7 +526,7 @@ return {
             key = "170021935291051719",
             type = "ShowGuideButtonNode",
             name = "Button显示/隐藏信息",
-            pos = {x = 2097.7672792151307, y = 677.2761225263672},
+            pos = {x = 2034.253767011265, y = 681.3301764968268},
             propsData = {
               ShowEnable = true,
               MessageId = 300008,
@@ -962,7 +970,7 @@ return {
               UIShape = "Square",
               IsForbidInAnim = false,
               IsForbidOutAnim = false,
-              ForbidSuccessAnim = false,
+              ForbidSuccessAnim = true,
               IsNotForceRelease = false,
               UICompSizeOffset = {X = 0, Y = 0},
               UICompLocOffset = {X = 0, Y = 0},
@@ -1090,6 +1098,13 @@ return {
               MessageLoc = "Left",
               MessageLocOffset = {X = 0, Y = 0}
             }
+          },
+          ["17637135190636429"] = {
+            key = "17637135190636429",
+            type = "ShowGuideMainNode",
+            name = "显示图文引导",
+            pos = {x = 2372.778574631369, y = 673.926034692042},
+            propsData = {GuideId = 89}
           }
         },
         commentData = {}
@@ -1123,8 +1138,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {

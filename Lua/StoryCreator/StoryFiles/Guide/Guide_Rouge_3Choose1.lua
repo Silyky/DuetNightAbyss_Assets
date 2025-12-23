@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -112,12 +114,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "1745494443141554223",
-            startPort = "Out",
-            endQuest = "1745496131713555243",
-            endPort = "In"
-          },
-          {
             startQuest = "1745496131713555243",
             startPort = "Out",
             endQuest = "1745496317213555870",
@@ -126,7 +122,19 @@ return {
           {
             startQuest = "1745496317213555870",
             startPort = "Out",
+            endQuest = "17651965715041039",
+            endPort = "Input"
+          },
+          {
+            startQuest = "17651965715041039",
+            startPort = "PC",
             endQuest = "1745496652495557683",
+            endPort = "In"
+          },
+          {
+            startQuest = "17651965715041039",
+            startPort = "Mobile",
+            endQuest = "1765196559976901",
             endPort = "In"
           },
           {
@@ -134,6 +142,36 @@ return {
             startPort = "Out",
             endQuest = "1722839703986654",
             endPort = "Success"
+          },
+          {
+            startQuest = "1765196559976901",
+            startPort = "Out",
+            endQuest = "1722839703986654",
+            endPort = "Success"
+          },
+          {
+            startQuest = "1745494443141554223",
+            startPort = "Out",
+            endQuest = "1765248856276643737",
+            endPort = "Input"
+          },
+          {
+            startQuest = "1765248856276643737",
+            startPort = "PC",
+            endQuest = "1745496131713555243",
+            endPort = "In"
+          },
+          {
+            startQuest = "1765248856276643737",
+            startPort = "Mobile",
+            endQuest = "1765248864271643963",
+            endPort = "In"
+          },
+          {
+            startQuest = "1765248864271643963",
+            startPort = "Out",
+            endQuest = "1745496317213555870",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -374,7 +412,7 @@ return {
             key = "17228401229071736",
             type = "ShowGuideButtonNode",
             name = "普通按钮",
-            pos = {x = 1442, y = 299.5},
+            pos = {x = 1442, y = 295.5},
             propsData = {
               ShowEnable = true,
               MessageId = 301802,
@@ -434,7 +472,7 @@ return {
             key = "17228404890722971",
             type = "ShowGuideButtonNode",
             name = "普通按钮",
-            pos = {x = 1999.588089111702, y = 299.16129038212324},
+            pos = {x = 1997.588089111702, y = 299.16129038212324},
             propsData = {
               ShowEnable = true,
               MessageId = 301804,
@@ -464,7 +502,7 @@ return {
             key = "17454935886141407",
             type = "ShowGuideButtonNode",
             name = "普通按钮",
-            pos = {x = 1698, y = 306},
+            pos = {x = 1700, y = 306},
             propsData = {
               ShowEnable = true,
               MessageId = 301805,
@@ -494,7 +532,7 @@ return {
             key = "1745494443141554223",
             type = "ShowGuideButtonNode",
             name = "普通按钮",
-            pos = {x = 1132, y = 482},
+            pos = {x = 954, y = 482},
             propsData = {
               ShowEnable = true,
               MessageId = 301806,
@@ -524,7 +562,7 @@ return {
             key = "1745496131713555243",
             type = "ShowGuideButtonNode",
             name = "普通按钮",
-            pos = {x = 1442, y = 488},
+            pos = {x = 1406, y = 562},
             propsData = {
               ShowEnable = true,
               MessageId = 301807,
@@ -546,7 +584,7 @@ return {
               UICompSizeOffset = {X = 0, Y = 0},
               UICompLocOffset = {X = 0, Y = 0},
               MessageParentLoc = "HighLightUI",
-              MessageLoc = "Right",
+              MessageLoc = "Left",
               MessageLocOffset = {X = 0, Y = 0}
             }
           },
@@ -584,7 +622,7 @@ return {
             key = "1745496652495557683",
             type = "ShowGuideButtonNode",
             name = "普通按钮",
-            pos = {x = 2060, y = 502},
+            pos = {x = 2149.3939380161178, y = 477.75757613122227},
             propsData = {
               ShowEnable = true,
               MessageId = 301809,
@@ -607,6 +645,80 @@ return {
               UICompLocOffset = {X = 0, Y = 0},
               MessageParentLoc = "HighLightUI",
               MessageLoc = "Down",
+              MessageLocOffset = {X = 0, Y = 0}
+            }
+          },
+          ["1765196559976901"] = {
+            key = "1765196559976901",
+            type = "ShowGuideButtonNode",
+            name = "普通按钮",
+            pos = {x = 2141.4118079511077, y = 702.7444477237498},
+            propsData = {
+              ShowEnable = true,
+              MessageId = 301809,
+              MessageNote = "点击打开<H>局内背包</>，可查看当前探索所得。",
+              DelayTime = 0,
+              IsForceClick = false,
+              IsControlPlayer = false,
+              IsTimePause = false,
+              IsShowCursor = true,
+              HighLightUIPath = "RougeBag.Common_Tab.EMScrollBox_TabItem:2",
+              UICompName = "Btn",
+              GamePadWidgetName = "",
+              IsAutoClick = false,
+              IsAutoClickByGamepad = false,
+              UIShape = "Square",
+              IsResetPlayer = false,
+              IsForbidInAnim = true,
+              IsForbidOutAnim = false,
+              UICompSizeOffset = {X = 0, Y = 0},
+              UICompLocOffset = {X = 0, Y = 0},
+              MessageParentLoc = "HighLightUI",
+              MessageLoc = "Right",
+              MessageLocOffset = {X = 0, Y = 0}
+            }
+          },
+          ["17651965715041039"] = {
+            key = "17651965715041039",
+            type = "PlatformJudgmentNode",
+            name = "PC/手机平台判断",
+            pos = {x = 1729.290603723178, y = 693.653541084896},
+            propsData = {}
+          },
+          ["1765248856276643737"] = {
+            key = "1765248856276643737",
+            type = "PlatformJudgmentNode",
+            name = "PC/手机平台判断",
+            pos = {x = 1020, y = 684},
+            propsData = {}
+          },
+          ["1765248864271643963"] = {
+            key = "1765248864271643963",
+            type = "ShowGuideButtonNode",
+            name = "普通按钮",
+            pos = {x = 1408, y = 700},
+            propsData = {
+              ShowEnable = true,
+              MessageId = 301807,
+              MessageNote = "此处可将<H>烛芯</>的描述切换成简洁版。",
+              DelayTime = 0,
+              IsForceClick = false,
+              IsControlPlayer = false,
+              IsTimePause = false,
+              IsShowCursor = true,
+              HighLightUIPath = "Rouge_Blessing_3Choose1.Btn_SortDesc",
+              UICompName = "ButtonArea",
+              GamePadWidgetName = "",
+              IsAutoClick = false,
+              IsAutoClickByGamepad = false,
+              UIShape = "Square",
+              IsResetPlayer = false,
+              IsForbidInAnim = true,
+              IsForbidOutAnim = true,
+              UICompSizeOffset = {X = 0, Y = 0},
+              UICompLocOffset = {X = 0, Y = 0},
+              MessageParentLoc = "HighLightUI",
+              MessageLoc = "Right",
               MessageLocOffset = {X = 0, Y = 0}
             }
           }

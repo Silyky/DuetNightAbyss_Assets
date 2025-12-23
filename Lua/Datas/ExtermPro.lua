@@ -1,4 +1,49 @@
 return ReadOnly("ExtermPro", {
+  [31001] = {
+    DungeonId = 31001,
+    EliteRange = {
+      9998, 9999
+    },
+    EliteSpawnOnlyRelation = false,
+    EliteSpawnRule = 10801,
+    NormalRange = {
+      9998, 9999
+    },
+    NormalSpawnOnlyRelation = false,
+    NormalSpawnRule = 10850,
+    OnInitSpawnRule = 10850,
+    TargetNum = 100
+  },
+  [31002] = {
+    DungeonId = 31002,
+    EliteRange = {
+      9998, 9999
+    },
+    EliteSpawnOnlyRelation = false,
+    EliteSpawnRule = 10801,
+    NormalRange = {
+      9998, 9999
+    },
+    NormalSpawnOnlyRelation = false,
+    NormalSpawnRule = 10850,
+    OnInitSpawnRule = 10850,
+    TargetNum = 100
+  },
+  [31003] = {
+    DungeonId = 31003,
+    EliteRange = {
+      9998, 9999
+    },
+    EliteSpawnOnlyRelation = false,
+    EliteSpawnRule = 10801,
+    NormalRange = {
+      9998, 9999
+    },
+    NormalSpawnOnlyRelation = false,
+    NormalSpawnRule = 10850,
+    OnInitSpawnRule = 10850,
+    TargetNum = 100
+  },
   [61101] = {
     DungeonId = 61101,
     EliteRange = {
@@ -749,6 +794,24 @@ return ReadOnly("ExtermPro", {
     },
     TargetNum = 100
   },
+  [91124] = {
+    DungeonId = 91124,
+    EliteRange = {
+      55, 60
+    },
+    EliteSpawnOnlyRelation = false,
+    EliteSpawnRule = 91124,
+    NormalRange = {
+      9998, 9999
+    },
+    NormalSpawnOnlyRelation = false,
+    NormalSpawnRule = 108141,
+    OnInitSpawnRule = {108141},
+    PetSpawnRange = {
+      0, 5
+    },
+    TargetNum = 100
+  },
   [91137] = {
     DungeonId = 91137,
     EliteRange = {
@@ -875,96 +938,6 @@ return ReadOnly("ExtermPro", {
     },
     TargetNum = 100
   },
-  [91144] = {
-    DungeonId = 91144,
-    EliteRange = {
-      55, 60
-    },
-    EliteSpawnOnlyRelation = false,
-    EliteSpawnRule = 91144,
-    NormalRange = {
-      9998, 9999
-    },
-    NormalSpawnOnlyRelation = false,
-    NormalSpawnRule = 10816,
-    OnInitSpawnRule = 10816,
-    PetSpawnRange = {
-      0, 5
-    },
-    TargetNum = 100
-  },
-  [91145] = {
-    DungeonId = 91145,
-    EliteRange = {
-      55, 60
-    },
-    EliteSpawnOnlyRelation = false,
-    EliteSpawnRule = 91145,
-    NormalRange = {
-      9998, 9999
-    },
-    NormalSpawnOnlyRelation = false,
-    NormalSpawnRule = 10816,
-    OnInitSpawnRule = 10816,
-    PetSpawnRange = {
-      0, 5
-    },
-    TargetNum = 100
-  },
-  [91146] = {
-    DungeonId = 91146,
-    EliteRange = {
-      55, 60
-    },
-    EliteSpawnOnlyRelation = false,
-    EliteSpawnRule = 91146,
-    NormalRange = {
-      9998, 9999
-    },
-    NormalSpawnOnlyRelation = false,
-    NormalSpawnRule = 10816,
-    OnInitSpawnRule = 10816,
-    PetSpawnRange = {
-      0, 5
-    },
-    TargetNum = 100
-  },
-  [91147] = {
-    DungeonId = 91147,
-    EliteRange = {
-      55, 60
-    },
-    EliteSpawnOnlyRelation = false,
-    EliteSpawnRule = 91147,
-    NormalRange = {
-      9998, 9999
-    },
-    NormalSpawnOnlyRelation = false,
-    NormalSpawnRule = 10816,
-    OnInitSpawnRule = 10816,
-    PetSpawnRange = {
-      0, 5
-    },
-    TargetNum = 100
-  },
-  [91148] = {
-    DungeonId = 91148,
-    EliteRange = {
-      55, 60
-    },
-    EliteSpawnOnlyRelation = false,
-    EliteSpawnRule = 91148,
-    NormalRange = {
-      9998, 9999
-    },
-    NormalSpawnOnlyRelation = false,
-    NormalSpawnRule = 10816,
-    OnInitSpawnRule = 10816,
-    PetSpawnRange = {
-      0, 5
-    },
-    TargetNum = 100
-  },
   [91151] = {
     DungeonId = 91151,
     EliteRange = {
@@ -977,11 +950,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10809,
-    OnInitSpawnRule = {91151, 911510},
+    OnInitSpawnRule = {
+      10842,
+      91151,
+      911510
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91152] = {
     DungeonId = 91152,
@@ -995,11 +972,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10809,
-    OnInitSpawnRule = {91152, 911520},
+    OnInitSpawnRule = {
+      10842,
+      91152,
+      911520
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91153] = {
     DungeonId = 91153,
@@ -1013,11 +994,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10809,
-    OnInitSpawnRule = {91153, 911530},
+    OnInitSpawnRule = {
+      10842,
+      91153,
+      911530
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91154] = {
     DungeonId = 91154,
@@ -1031,11 +1016,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10809,
-    OnInitSpawnRule = {91154, 911540},
+    OnInitSpawnRule = {
+      10842,
+      91154,
+      911540
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91155] = {
     DungeonId = 91155,
@@ -1049,11 +1038,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10810,
-    OnInitSpawnRule = {91155, 911550},
+    OnInitSpawnRule = {
+      10843,
+      91155,
+      911550
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91156] = {
     DungeonId = 91156,
@@ -1067,11 +1060,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10810,
-    OnInitSpawnRule = {91156, 911560},
+    OnInitSpawnRule = {
+      10843,
+      91156,
+      911560
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91157] = {
     DungeonId = 91157,
@@ -1085,11 +1082,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {91157, 911570},
+    OnInitSpawnRule = {
+      10845,
+      91157,
+      911570
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91158] = {
     DungeonId = 91158,
@@ -1103,11 +1104,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {91158, 911580},
+    OnInitSpawnRule = {
+      10845,
+      91158,
+      911580
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91159] = {
     DungeonId = 91159,
@@ -1121,11 +1126,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {91159, 911590},
+    OnInitSpawnRule = {
+      10845,
+      91159,
+      911590
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91160] = {
     DungeonId = 91160,
@@ -1139,11 +1148,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {91160, 911600},
+    OnInitSpawnRule = {
+      10845,
+      91160,
+      911600
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91161] = {
     DungeonId = 91161,
@@ -1157,11 +1170,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10812,
-    OnInitSpawnRule = {91161, 911610},
+    OnInitSpawnRule = {
+      10845,
+      91161,
+      911610
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91162] = {
     DungeonId = 91162,
@@ -1175,11 +1192,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {91162, 911620},
+    OnInitSpawnRule = {
+      10846,
+      91162,
+      911620
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91163] = {
     DungeonId = 91163,
@@ -1193,11 +1214,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {91163, 911630},
+    OnInitSpawnRule = {
+      10846,
+      91163,
+      911630
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91164] = {
     DungeonId = 91164,
@@ -1211,11 +1236,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {91164, 911640},
+    OnInitSpawnRule = {
+      10846,
+      91164,
+      911640
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91165] = {
     DungeonId = 91165,
@@ -1229,11 +1258,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {91165, 911650},
+    OnInitSpawnRule = {
+      10846,
+      91165,
+      911650
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91166] = {
     DungeonId = 91166,
@@ -1247,11 +1280,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {91166, 911660},
+    OnInitSpawnRule = {
+      10846,
+      91166,
+      911660
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91167] = {
     DungeonId = 91167,
@@ -1265,11 +1302,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10813,
-    OnInitSpawnRule = {91167, 911670},
+    OnInitSpawnRule = {
+      10846,
+      91167,
+      911670
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91168] = {
     DungeonId = 91168,
@@ -1283,11 +1324,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {91168, 911680},
+    OnInitSpawnRule = {
+      10847,
+      91168,
+      911680
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91169] = {
     DungeonId = 91169,
@@ -1301,11 +1346,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {91169, 911690},
+    OnInitSpawnRule = {
+      10847,
+      91169,
+      911690
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91170] = {
     DungeonId = 91170,
@@ -1319,11 +1368,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {91170, 911700},
+    OnInitSpawnRule = {
+      10847,
+      91170,
+      911700
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91171] = {
     DungeonId = 91171,
@@ -1337,11 +1390,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {91171, 911710},
+    OnInitSpawnRule = {
+      10847,
+      91171,
+      911710
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91172] = {
     DungeonId = 91172,
@@ -1355,11 +1412,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {91172, 911720},
+    OnInitSpawnRule = {
+      10847,
+      91172,
+      911720
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91173] = {
     DungeonId = 91173,
@@ -1373,11 +1434,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10814,
-    OnInitSpawnRule = {91173, 911730},
+    OnInitSpawnRule = {
+      10847,
+      91173,
+      911730
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91174] = {
     DungeonId = 91174,
@@ -1391,11 +1456,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {91174, 911740},
+    OnInitSpawnRule = {
+      10848,
+      91174,
+      911740
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91175] = {
     DungeonId = 91175,
@@ -1409,11 +1478,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {91175, 911750},
+    OnInitSpawnRule = {
+      10848,
+      91175,
+      911750
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91176] = {
     DungeonId = 91176,
@@ -1427,11 +1500,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {91176, 911760},
+    OnInitSpawnRule = {
+      10848,
+      91176,
+      911760
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91177] = {
     DungeonId = 91177,
@@ -1445,11 +1522,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {91177, 911770},
+    OnInitSpawnRule = {
+      10848,
+      91177,
+      911770
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91178] = {
     DungeonId = 91178,
@@ -1463,11 +1544,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {91178, 911780},
+    OnInitSpawnRule = {
+      10848,
+      91178,
+      911780
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91179] = {
     DungeonId = 91179,
@@ -1481,11 +1566,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10815,
-    OnInitSpawnRule = {91179, 911790},
+    OnInitSpawnRule = {
+      10848,
+      91179,
+      911790
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91180] = {
     DungeonId = 91180,
@@ -1499,83 +1588,15 @@ return ReadOnly("ExtermPro", {
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10816,
-    OnInitSpawnRule = {91180, 911800},
+    OnInitSpawnRule = {
+      10849,
+      91180,
+      911800
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
-  },
-  [91181] = {
-    DungeonId = 91181,
-    EliteRange = {
-      9998, 9999
-    },
-    EliteSpawnOnlyRelation = false,
-    EliteSpawnRule = 91144,
-    NormalRange = {
-      9998, 9999
-    },
-    NormalSpawnOnlyRelation = false,
-    NormalSpawnRule = 10816,
-    OnInitSpawnRule = {91181, 911810},
-    PetSpawnRange = {
-      0, 5
-    },
-    TargetNum = 13
-  },
-  [91182] = {
-    DungeonId = 91182,
-    EliteRange = {
-      9998, 9999
-    },
-    EliteSpawnOnlyRelation = false,
-    EliteSpawnRule = 91145,
-    NormalRange = {
-      9998, 9999
-    },
-    NormalSpawnOnlyRelation = false,
-    NormalSpawnRule = 10816,
-    OnInitSpawnRule = {91182, 911820},
-    PetSpawnRange = {
-      0, 5
-    },
-    TargetNum = 13
-  },
-  [91183] = {
-    DungeonId = 91183,
-    EliteRange = {
-      9998, 9999
-    },
-    EliteSpawnOnlyRelation = false,
-    EliteSpawnRule = 91146,
-    NormalRange = {
-      9998, 9999
-    },
-    NormalSpawnOnlyRelation = false,
-    NormalSpawnRule = 10816,
-    OnInitSpawnRule = {91183, 911830},
-    PetSpawnRange = {
-      0, 5
-    },
-    TargetNum = 13
-  },
-  [91184] = {
-    DungeonId = 91184,
-    EliteRange = {
-      9998, 9999
-    },
-    EliteSpawnOnlyRelation = false,
-    EliteSpawnRule = 91147,
-    NormalRange = {
-      9998, 9999
-    },
-    NormalSpawnOnlyRelation = false,
-    NormalSpawnRule = 10816,
-    OnInitSpawnRule = {91184, 911840},
-    PetSpawnRange = {
-      0, 5
-    },
-    TargetNum = 13
+    TargetNum = 200
   },
   [91185] = {
     DungeonId = 91185,
@@ -1583,16 +1604,42 @@ return ReadOnly("ExtermPro", {
       9998, 9999
     },
     EliteSpawnOnlyRelation = false,
-    EliteSpawnRule = 91148,
+    EliteSpawnRule = 91143,
     NormalRange = {
       9998, 9999
     },
     NormalSpawnOnlyRelation = false,
     NormalSpawnRule = 10816,
-    OnInitSpawnRule = {91185, 911850},
+    OnInitSpawnRule = {
+      10851,
+      91185,
+      911850
+    },
     PetSpawnRange = {
       0, 5
     },
-    TargetNum = 13
+    TargetNum = 200
+  },
+  [91186] = {
+    DungeonId = 91186,
+    EliteRange = {
+      9998, 9999
+    },
+    EliteSpawnOnlyRelation = false,
+    EliteSpawnRule = 91143,
+    NormalRange = {
+      9998, 9999
+    },
+    NormalSpawnOnlyRelation = false,
+    NormalSpawnRule = 10816,
+    OnInitSpawnRule = {
+      10851,
+      91186,
+      911860
+    },
+    PetSpawnRange = {
+      0, 5
+    },
+    TargetNum = 200
   }
 })

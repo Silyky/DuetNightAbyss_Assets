@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -264,19 +266,13 @@ return {
           {
             startQuest = "17442139067709240926",
             startPort = "QuestStart",
-            endQuest = "17490911421321171797",
-            endPort = "In"
-          },
-          {
-            startQuest = "17490911421321171797",
-            startPort = "Out",
-            endQuest = "17490908077685742",
+            endQuest = "1759220892458622039",
             endPort = "In"
           },
           {
             startQuest = "17442139067709240926",
             startPort = "QuestStart",
-            endQuest = "1759220892458622039",
+            endQuest = "17490908077685742",
             endPort = "In"
           }
         },
@@ -358,6 +354,7 @@ return {
               HideMonsters = true,
               HideAllBattleEntity = true,
               HideEffectCreature = true,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -370,9 +367,6 @@ return {
                   TalkActorId = 0,
                   TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0}
               },
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -575,6 +569,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -588,11 +583,12 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -802,13 +798,6 @@ return {
               MessageContent = "Chapter01_Icelake_NvzhuWind_End",
               UnitId = -1
             }
-          },
-          ["17490911421321171797"] = {
-            key = "17490911421321171797",
-            type = "WaitOfTimeNode",
-            name = "0.2s",
-            pos = {x = 380.6790231507621, y = 248.4285714285714},
-            propsData = {WaitTime = 0.2}
           },
           ["1757404422340793"] = {
             key = "1757404422340793",

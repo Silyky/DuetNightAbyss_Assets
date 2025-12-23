@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -80,6 +82,12 @@ return {
             startPort = "Out",
             endQuest = "17326989868754300760",
             endPort = "In"
+          },
+          {
+            startQuest = "17326989868754300760",
+            startPort = "Out",
+            endQuest = "1732692284256491389",
+            endPort = "Success"
           },
           {
             startQuest = "1732692284256491388",
@@ -104,24 +112,6 @@ return {
             startPort = "Out",
             endQuest = "1732694908313616156",
             endPort = "In"
-          },
-          {
-            startQuest = "17528093041168021857",
-            startPort = "Out",
-            endQuest = "176008415732126127953",
-            endPort = "In"
-          },
-          {
-            startQuest = "17326989868754300760",
-            startPort = "Out",
-            endQuest = "176008416584026128264",
-            endPort = "In"
-          },
-          {
-            startQuest = "176008416584026128264",
-            startPort = "Out",
-            endQuest = "1732692284256491389",
-            endPort = "Success"
           }
         },
         nodeData = {
@@ -136,7 +126,7 @@ return {
             key = "1732692284256491389",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 1487.7352216748773, y = 296.1226053639847},
+            pos = {x = 1259.7352216748773, y = 263.1226053639847},
             propsData = {ModeType = 0}
           },
           ["1732692284256491390"] = {
@@ -168,6 +158,7 @@ return {
               HideNpcs = true,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -202,16 +193,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 790008},
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 790018},
-                {TalkActorType = "Npc", TalkActorId = 790019}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -220,7 +207,7 @@ return {
             key = "17326989868754300760",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 934.875, y = 277.875},
+            pos = {x = 939.375, y = 270.375},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 80120130,
@@ -240,7 +227,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
@@ -285,33 +271,6 @@ return {
               bGuideUIEnable = false,
               GuideType = "P",
               GuideName = ""
-            }
-          },
-          ["176008415732126127953"] = {
-            key = "176008415732126127953",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = 684.7225232198141, y = 438.4171826625388},
-            propsData = {
-              SoundStateType = 0,
-              SoundPriority = 1,
-              SoundType = 0,
-              SoundPath = "event:/bgm/cbt01/0024_story_pub",
-              ParamKey = "",
-              ParamValue = 0,
-              RelatedRegionId = {},
-              ClientRelatedRegionId = {}
-            }
-          },
-          ["176008416584026128264"] = {
-            key = "176008416584026128264",
-            type = "PlayOrStopBGMNode",
-            name = "BGM节点",
-            pos = {x = 1203.722523219814, y = 295.9171826625388},
-            propsData = {
-              SoundStateType = 3,
-              SoundPriority = 1,
-              SoundType = 0
             }
           }
         },

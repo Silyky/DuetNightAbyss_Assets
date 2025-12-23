@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -112,6 +114,12 @@ return {
             endPort = "In"
           },
           {
+            startQuest = "17566466119051649764",
+            startPort = "Out",
+            endQuest = "17566464042671704",
+            endPort = "Input"
+          },
+          {
             startQuest = "17566464042671705",
             startPort = "Out",
             endQuest = "17566466119051649768",
@@ -132,23 +140,17 @@ return {
           {
             startQuest = "17566466119051649760",
             startPort = "QuestStart",
-            endQuest = "17590286999472175224",
+            endQuest = "1759109719539689",
             endPort = "In"
           },
           {
-            startQuest = "17590286999472175224",
+            startQuest = "1759109719539689",
             startPort = "Fail",
             endQuest = "17566466119051649764",
             endPort = "In"
           },
           {
-            startQuest = "17566466119051649764",
-            startPort = "Out",
-            endQuest = "17566464042671704",
-            endPort = "Input"
-          },
-          {
-            startQuest = "17590286999472175224",
+            startQuest = "1759109719539689",
             startPort = "Success",
             endQuest = "17566466119051649761",
             endPort = "Success"
@@ -208,7 +210,7 @@ return {
               UIShape = "Square",
               IsForbidInAnim = false,
               IsForbidOutAnim = false,
-              ForbidSuccessAnim = false,
+              ForbidSuccessAnim = true,
               IsNotForceRelease = false,
               UICompSizeOffset = {X = 0, Y = 0},
               UICompLocOffset = {X = 0, Y = 0},
@@ -281,7 +283,7 @@ return {
             key = "17566466119051649760",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 596.0689662883455, y = 501.58620709310765},
+            pos = {x = 684, y = 524},
             propsData = {ModeType = 0}
           },
           ["17566466119051649761"] = {
@@ -332,7 +334,7 @@ return {
             key = "17566466119051649764",
             type = "ShowGuideTextNode",
             name = "Text显示信息",
-            pos = {x = 1045.8316011614734, y = 522.3937556396293},
+            pos = {x = 1032.0384978341551, y = 567.221341453414},
             propsData = {
               MessageId = 302806,
               MessageNote = "合成提示",
@@ -505,11 +507,11 @@ return {
               UnitId = -1
             }
           },
-          ["17590286999472175224"] = {
-            key = "17590286999472175224",
+          ["1759109719539689"] = {
+            key = "1759109719539689",
             type = "ConditionNode",
             name = "条件节点",
-            pos = {x = 822.2068988650364, y = 335.724136600502},
+            pos = {x = 899.2870741546346, y = 325.908168547777},
             propsData = {ConditionId = 210100}
           }
         },

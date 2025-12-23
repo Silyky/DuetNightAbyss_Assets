@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -378,19 +380,19 @@ return {
           {
             startQuest = "1740384973880526562",
             startPort = "Out",
-            endQuest = "17574183317701051",
+            endQuest = "17574075767725105585",
             endPort = "In"
           },
           {
-            startQuest = "17574183317701051",
-            startPort = "Out",
-            endQuest = "17574298028861158",
-            endPort = "In"
-          },
-          {
-            startQuest = "17574183317701051",
+            startQuest = "17574075767725105585",
             startPort = "Out",
             endQuest = "17406253849961334",
+            endPort = "In"
+          },
+          {
+            startQuest = "17574075767725105585",
+            startPort = "Out",
+            endQuest = "17574294551061232",
             endPort = "In"
           }
         },
@@ -810,7 +812,7 @@ return {
             key = "1740384973880526562",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 2332.9752230264476, y = 1810.6299649514967},
+            pos = {x = 2223.700119045461, y = 1855.2437498593993},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12004501,
@@ -828,6 +830,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -841,11 +844,12 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -854,7 +858,7 @@ return {
             key = "17406253849961334",
             type = "AsyncSetActorLocationAndRotationNode",
             name = "把玩家传到房顶",
-            pos = {x = 1529.2527541631473, y = 973.8010207671589},
+            pos = {x = 1526.3956113060044, y = 975.2295921957303},
             propsData = {
               UnitId = 0,
               NewTargetPointName = "NewTargetPointnewsteathstart",
@@ -905,7 +909,7 @@ return {
             key = "17409839470201582660",
             type = "GoToNode",
             name = "前往",
-            pos = {x = 2040.6570755043144, y = 1823.2593076893902},
+            pos = {x = 1969.7479845952234, y = 1816.895671325754},
             propsData = {
               GuideUIEnable = false,
               StaticCreatorId = 1191164,
@@ -917,7 +921,7 @@ return {
             key = "17415990904633824755",
             type = "SendMessageNode",
             name = "发送失败消息",
-            pos = {x = 2685.879154829705, y = 2265.9131644251343},
+            pos = {x = 2613.666118263727, y = 2281.0135679961263},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "East00SteathEnd",
@@ -928,7 +932,7 @@ return {
             key = "17418469412777366796",
             type = "BossBattleFinishNode",
             name = "监听gamemode消息",
-            pos = {x = 2037.872045555885, y = 2016.520880362515},
+            pos = {x = 1971.4434741273137, y = 1990.8065946482293},
             propsData = {
               SendMessage = "",
               FinishCondition = "RobotFindPlayer"
@@ -938,7 +942,7 @@ return {
             key = "174185011006910086038",
             type = "SendMessageNode",
             name = "探索组重置",
-            pos = {x = 2604.6598174132596, y = 1998.3212560909078},
+            pos = {x = 2491.53051988523, y = 2014.825591852621},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "East00SteathDie",
@@ -1056,11 +1060,25 @@ return {
               GuideName = "Mechanism_steabox3_1191160"
             }
           },
-          ["17574183317701051"] = {
-            key = "17574183317701051",
+          ["17562135158313075022"] = {
+            key = "17562135158313075022",
+            type = "SpecialQuestFailNode",
+            name = "特殊任务主动失败",
+            pos = {x = 2798.247489018378, y = 2170.85324763027},
+            propsData = {}
+          },
+          ["17574060437212152"] = {
+            key = "17574060437212152",
+            type = "WaitingSpecialQuestFailNode",
+            name = "等待特殊任务失败",
+            pos = {x = 3053.488450328552, y = 2024.6684128501724},
+            propsData = {}
+          },
+          ["17574075767725105585"] = {
+            key = "17574075767725105585",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 2606.587299011124, y = 1806.0358785465937},
+            pos = {x = 2486.91429490585, y = 1850.3312222972688},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12004503,
@@ -1080,18 +1098,17 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
               OverrideFailBlend = false
             }
           },
-          ["17574298028861158"] = {
-            key = "17574298028861158",
+          ["17574294551061232"] = {
+            key = "17574294551061232",
             type = "SendMessageNode",
             name = "探索组激活",
-            pos = {x = 2917.693547594477, y = 1811.3667968941968},
+            pos = {x = 2818.741365635871, y = 1845.4412905275913},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "East00Steath",

@@ -167,6 +167,10 @@ return ReadOnly("MechanismState", {
       {
   ColorId = 1,
   Function = "ChangeColor"
+},
+      {
+  Function = "SetCanHatred",
+  IsCan = false
 }
     },
     StateEvent = {
@@ -187,7 +191,11 @@ return ReadOnly("MechanismState", {
       {
   ColorId = 0,
   Function = "ChangeColor"
-}
+},
+      {
+        Function = "SetCanHatred",
+        IsCan = true
+      }
     },
     StateEvent = {
       [1] = {
@@ -213,6 +221,10 @@ return ReadOnly("MechanismState", {
       {
   ColorId = 1,
   Function = "ChangeColor"
+},
+      {
+  Function = "SetCanHatred",
+  IsCan = false
 }
     },
     StateEvent = {
@@ -987,8 +999,7 @@ return ReadOnly("MechanismState", {
       [1] = {
         NextStateId = 240,
         TypeNextState = {
-          InteractiveId = 912,
-          Type = "Interactive"
+          Param = 0.1, Type = "Time"
         }
       }
     },
@@ -2625,6 +2636,46 @@ return ReadOnly("MechanismState", {
     },
     StateId = 2513
   },
+  [2514] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 323, Type = "Condition"}
+      }
+    },
+    StateId = 2514
+  },
+  [2515] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "SetBubbleWidget",
+  Show = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 26,
+        TypeNextState = {ConditionID = 324, Type = "Condition"}
+      }
+    },
+    StateId = 2515
+  },
   [5431] = {
     EventsCurrentState = {
       {
@@ -4135,6 +4186,12 @@ return ReadOnly("MechanismState", {
         TypeNextState = {
           Type = "TriggerBox"
         }
+      },
+      [4] = {
+        NextStateId = 118005,
+        TypeNextState = {
+          Type = "Manual"
+        }
       }
     },
     StateId = 118003
@@ -4247,6 +4304,12 @@ return ReadOnly("MechanismState", {
         TypeNextState = {
           Type = "Manual"
         }
+      },
+      [3] = {
+        NextStateId = 118011,
+        TypeNextState = {
+          Type = "Manual"
+        }
       }
     },
     StateId = 118012
@@ -4267,6 +4330,12 @@ return ReadOnly("MechanismState", {
       },
       [2] = {
         NextStateId = 118015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 118011,
         TypeNextState = {
           Type = "Manual"
         }
@@ -4293,6 +4362,12 @@ return ReadOnly("MechanismState", {
       },
       [2] = {
         NextStateId = 118015,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 118011,
         TypeNextState = {
           Type = "Manual"
         }
@@ -4367,11 +4442,27 @@ return ReadOnly("MechanismState", {
         TypeNextState = {
           Type = "Manual"
         }
+      },
+      [3] = {
+        NextStateId = 1180180,
+        TypeNextState = {
+          Type = "Manual"
+        }
       }
     },
     StateId = 118019
   },
-  [118020] = {StateId = 118020},
+  [118020] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1180180,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 118020
+  },
   [118021] = {
     StateEvent = {
       [1] = {
@@ -5241,10 +5332,11 @@ return ReadOnly("MechanismState", {
     StateEvent = {
       [1] = {
         EventsNextState = {
+          {Function = "GiveReward"},
           {
-            Function = "CreateSpecialMonster",
-            RuleId = 1
-          }
+  Function = "CreateSpecialMonster",
+  RuleId = 1
+}
         },
         NextStateId = 610011,
         TypeNextState = {
@@ -5308,6 +5400,9 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 610015,
         TypeNextState = {
           InteractiveId = 91510,
@@ -5328,6 +5423,9 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 610015,
         TypeNextState = {
           InteractiveId = 91511,
@@ -5352,6 +5450,9 @@ return ReadOnly("MechanismState", {
   [610016] = {
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 610017,
         TypeNextState = {
           Type = "Interactive"
@@ -5378,6 +5479,7 @@ return ReadOnly("MechanismState", {
     StateEvent = {
       [1] = {
         EventsNextState = {
+          {Function = "GiveReward"},
           {
             Function = "CreateSpecialMonster",
             RuleId = 3
@@ -5565,6 +5667,9 @@ return ReadOnly("MechanismState", {
   [610030] = {
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 610031,
         TypeNextState = {
           Type = "Interactive"
@@ -5588,6 +5693,9 @@ return ReadOnly("MechanismState", {
   [610032] = {
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 610033,
         TypeNextState = {
           Type = "Interactive"
@@ -5608,9 +5716,39 @@ return ReadOnly("MechanismState", {
     },
     StateId = 610033
   },
+  [610035] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"},
+          {
+  Function = "CreateSpecialMonster",
+  RuleId = 1
+}
+        },
+        NextStateId = 610036,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 610035
+  },
+  [610036] = {
+    EventsCurrentState = {
+      {Function = "StopFX", Tag = "Bling"},
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 610036
+  },
   [610040] = {
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 610041,
         TypeNextState = {
           Type = "Interactive"
@@ -5657,6 +5795,9 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 610044,
         TypeNextState = {
           InteractiveId = 91510,
@@ -5703,6 +5844,9 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 701002,
         TypeNextState = {
           Type = "Interactive"
@@ -5738,6 +5882,9 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 701002,
         TypeNextState = {
           Type = "Manual"
@@ -5785,6 +5932,9 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 701032,
         TypeNextState = {
           Type = "Interactive"
@@ -5811,6 +5961,17 @@ return ReadOnly("MechanismState", {
     StateId = 701032
   },
   [701033] = {StateId = 701033},
+  [701059] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 701060,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 701059
+  },
   [701060] = {
     EventsCurrentState = {
       {
@@ -5853,6 +6014,9 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 701062,
         TypeNextState = {
           InteractiveId = 70000,
@@ -5917,6 +6081,9 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 701102,
         TypeNextState = {
           InteractiveId = 70002,
@@ -5981,6 +6148,9 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 701132,
         TypeNextState = {
           InteractiveId = 70003,
@@ -7695,6 +7865,9 @@ return ReadOnly("MechanismState", {
     },
     StateEvent = {
       [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
         NextStateId = 708106,
         TypeNextState = {
           InteractiveId = 70000,
@@ -8887,6 +9060,82 @@ return ReadOnly("MechanismState", {
     },
     StateId = 780421
   },
+  [780580] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780581,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 780580
+  },
+  [780581] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 780580,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 780581
+  },
+  [780650] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780651,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 780650
+  },
+  [780651] = {
+    EventsCurrentState = {
+      {
+  Function = "DeactiveGuide"
+}
+    },
+    StateId = 780651
+  },
+  [780670] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780671,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 780670
+  },
+  [780671] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 780672,
+        TypeNextState = {
+          Param = 0, Type = "Time"
+        }
+      }
+    },
+    StateId = 780671
+  },
+  [780672] = {
+    EventsCurrentState = {
+      {
+  Function = "DestroySelf"
+}
+    },
+    StateId = 780672
+  },
   [801130] = {
     EventsCurrentState = {
       {
@@ -8947,6 +9196,120 @@ return ReadOnly("MechanismState", {
       }
     },
     StateId = 801132
+  },
+  [802010] = {
+    EventsCurrentState = {
+      {
+  Function = "OpenMechanism"
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900025,
+  Function = "PlayFX",
+  Tag = "JHB"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {
+  ColorId = 0,
+  Function = "ChangeColor"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 802012,
+        TypeNextState = {
+          Param = 4, Type = "Time"
+        }
+      }
+    },
+    StateId = 802010
+  },
+  [802011] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = true
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "Loop"
+},
+      {
+  EffectId = 900024,
+  Function = "PlayFX",
+  Tag = "JHA"
+},
+      {Function = "StopFX", Tag = "JHB"},
+      {
+  ColorId = 1,
+  Function = "ChangeColor"
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {
+  EffectId = 900023,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara2"
+}
+        },
+        NextStateId = 802010,
+        TypeNextState = {
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 802011
+  },
+  [802012] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "CanOpen",
+  Value = false
+},
+      {
+  Function = "PlayMontage",
+  Mesh = "Mesh",
+  MontagePath = "AnimMontage'/Game/AssetDesign/Item/MiniGame/JH_MiniGame_Montage.JH_MiniGame_Montage'",
+  SectionName = "End"
+},
+      {Function = "StopFX", Tag = "JHA"},
+      {
+  ColorId = 2,
+  Function = "ChangeColor"
+},
+      {Function = "StopFX", Tag = "JHB"},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 802011,
+        TypeNextState = {
+          Param = 6, Type = "Time"
+        }
+      }
+    },
+    StateId = 802012
   },
   [809010] = {
     StateEvent = {
@@ -9126,9 +9489,50 @@ return ReadOnly("MechanismState", {
       },
       {
   Function = "AfterInteractiveEffect"
+},
+      {
+  Function = "SetParam",
+  Param = "OpenState",
+  Value = true
 }
     },
     StateId = 901002
+  },
+  [904001] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = false
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 904002,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 904001
+  },
+  [904002] = {
+    EventsCurrentState = {
+      {
+  Function = "SetParam",
+  Param = "IsActive",
+  Value = true
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 904001,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 904002
   },
   [904312] = {
     StateEvent = {
@@ -10553,6 +10957,51 @@ return ReadOnly("MechanismState", {
     },
     StateId = 1061313
   },
+  [1061320] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061321,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1061323,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061320
+  },
+  [1061321] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061320,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 10613211,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061321
+  },
+  [1061323] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061321,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1061323
+  },
   [1061400] = {
     StateEvent = {
       [1] = {
@@ -11365,6 +11814,7 @@ return ReadOnly("MechanismState", {
     },
     StateId = 1170102
   },
+  [1180180] = {StateId = 1180180},
   [1210021] = {StateId = 1210021},
   [1210022] = {
     StateEvent = {
@@ -11400,6 +11850,21 @@ return ReadOnly("MechanismState", {
     },
     StateId = 1210023
   },
+  [1210121] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "GiveReward"}
+        },
+        NextStateId = 1210122,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210121
+  },
+  [1210122] = {StateId = 1210122},
   [1210130] = {
     EventsCurrentState = {
       {
@@ -11869,6 +12334,279 @@ return ReadOnly("MechanismState", {
     },
     StateId = 1210252
   },
+  [1210280] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210281,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1210283,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210280
+  },
+  [1210281] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210282,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1210283,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210281
+  },
+  [1210282] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210283,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210282
+  },
+  [1210283] = {StateId = 1210283},
+  [1210320] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210321,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210320
+  },
+  [1210321] = {StateId = 1210321},
+  [1210340] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210341,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210340
+  },
+  [1210341] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210342,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1210340,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210341
+  },
+  [1210342] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210343,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210342
+  },
+  [1210343] = {StateId = 1210343},
+  [1210350] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210351,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210350
+  },
+  [1210351] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210352,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210351
+  },
+  [1210352] = {StateId = 1210352},
+  [1210360] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210361,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210360
+  },
+  [1210361] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210362,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210361
+  },
+  [1210362] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210360,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210362
+  },
+  [1210380] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210381,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210380
+  },
+  [1210381] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210380,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210381
+  },
+  [1210390] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210391,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210390
+  },
+  [1210391] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210392,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210391
+  },
+  [1210392] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210393,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210392
+  },
+  [1210393] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210394,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210393
+  },
+  [1210394] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1210395,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1210394
+  },
+  [1210395] = {StateId = 1210395},
+  [1220110] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1220111,
+        TypeNextState = {
+          InteractiveId = 300,
+          Type = "Interactive"
+        }
+      }
+    },
+    StateId = 1220110
+  },
+  [1220111] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1220110,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1220112,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1220111
+  },
+  [1220112] = {StateId = 1220112},
+  [1220113] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1220110,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1220113
+  },
   [1310010] = {
     EventsCurrentState = {
       {
@@ -11987,6 +12725,12 @@ return ReadOnly("MechanismState", {
     StateEvent = {
       [1] = {
         NextStateId = 1310043,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1310040,
         TypeNextState = {
           Type = "Manual"
         }
@@ -12186,6 +12930,18 @@ return ReadOnly("MechanismState", {
           InteractiveId = 301,
           Type = "Interactive"
         }
+      },
+      [2] = {
+        NextStateId = 1310083,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [3] = {
+        NextStateId = 1310085,
+        TypeNextState = {
+          Type = "Manual"
+        }
       }
     },
     StateId = 1310084
@@ -12327,6 +13083,11 @@ return ReadOnly("MechanismState", {
     StateId = 1310151
   },
   [1310170] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
     StateEvent = {
       [1] = {
         NextStateId = 1310172,
@@ -12382,11 +13143,6 @@ return ReadOnly("MechanismState", {
     StateId = 1310172
   },
   [1310173] = {
-    EventsCurrentState = {
-      {
-  Function = "DestroySelf"
-}
-    },
     StateEvent = {
       [1] = {
         NextStateId = 1310170,
@@ -12397,12 +13153,73 @@ return ReadOnly("MechanismState", {
     },
     StateId = 1310173
   },
+  [1310174] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310170,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1310176,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310174
+  },
+  [1310175] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310173,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1310176,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310175
+  },
+  [1310176] = {
+    EventsCurrentState = {
+      {
+  Function = "CombatPropActive"
+}
+    },
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310175,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310176
+  },
   [1310180] = {
     StateEvent = {
       [1] = {
         NextStateId = 1310181,
         TypeNextState = {
           Type = "Hit"
+        }
+      },
+      [2] = {
+        NextStateId = 1310182,
+        TypeNextState = {
+          Type = "Manual"
         }
       }
     },
@@ -12412,6 +13229,12 @@ return ReadOnly("MechanismState", {
     StateEvent = {
       [1] = {
         NextStateId = 1310182,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1310180,
         TypeNextState = {
           Type = "Manual"
         }
@@ -12555,6 +13378,34 @@ return ReadOnly("MechanismState", {
     },
     StateId = 1310214
   },
+  [1310215] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = true}
+        },
+        NextStateId = 1310216,
+        TypeNextState = {
+          Type = "Hit"
+        }
+      }
+    },
+    StateId = 1310215
+  },
+  [1310216] = {
+    StateEvent = {
+      [1] = {
+        EventsNextState = {
+          {Function = "Rotate", IsForward = false}
+        },
+        NextStateId = 1310215,
+        TypeNextState = {
+          Param = 5, Type = "Time"
+        }
+      }
+    },
+    StateId = 1310216
+  },
   [1310230] = {
     StateEvent = {
       [1] = {
@@ -12594,14 +13445,7 @@ return ReadOnly("MechanismState", {
     },
     StateId = 1310250
   },
-  [1310251] = {
-    EventsCurrentState = {
-      {
-  Function = "DestroySelf"
-}
-    },
-    StateId = 1310251
-  },
+  [1310251] = {StateId = 1310251},
   [1310260] = {
     StateEvent = {
       [1] = {
@@ -12625,14 +13469,7 @@ return ReadOnly("MechanismState", {
     },
     StateId = 1310290
   },
-  [1310291] = {
-    EventsCurrentState = {
-      {
-  Function = "DestroySelf"
-}
-    },
-    StateId = 1310291
-  },
+  [1310291] = {StateId = 1310291},
   [1310310] = {
     StateEvent = {
       [1] = {
@@ -12984,6 +13821,169 @@ return ReadOnly("MechanismState", {
       }
     },
     StateId = 1310511
+  },
+  [1310530] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310531,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310530
+  },
+  [1310531] = {StateId = 1310531},
+  [1310540] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310541,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310540
+  },
+  [1310541] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310542,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1310540,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310541
+  },
+  [1310542] = {StateId = 1310542},
+  [1310560] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310561,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310560
+  },
+  [1310561] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310562,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310561
+  },
+  [1310562] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310563,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1310564,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310562
+  },
+  [1310563] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310564,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310563
+  },
+  [1310564] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310565,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310564
+  },
+  [1310565] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310560,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310565
+  },
+  [1310570] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310571,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310570
+  },
+  [1310571] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310572,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1310573,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310571
+  },
+  [1310572] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310573,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310572
+  },
+  [1310573] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1310570,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 1310573
   },
   [1500110] = {
     StateEvent = {
@@ -15957,11 +16957,11 @@ return ReadOnly("MechanismState", {
       [2] = {
         EventsNextState = {
           {
-            EffectId = 900023,
-            Function = "PlayFX",
-            NeedFinish = false,
-            Tag = "Niagara2"
-          }
+  EffectId = 900023,
+  Function = "PlayFX",
+  NeedFinish = false,
+  Tag = "Niagara2"
+}
         },
         NextStateId = 4900750,
         TypeNextState = {
@@ -16712,6 +17712,23 @@ return ReadOnly("MechanismState", {
       }
     },
     StateId = 10613021
+  },
+  [10613211] = {
+    StateEvent = {
+      [1] = {
+        NextStateId = 1061320,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      },
+      [2] = {
+        NextStateId = 1061323,
+        TypeNextState = {
+          Type = "Manual"
+        }
+      }
+    },
+    StateId = 10613211
   },
   [11301170] = {
     StateEvent = {

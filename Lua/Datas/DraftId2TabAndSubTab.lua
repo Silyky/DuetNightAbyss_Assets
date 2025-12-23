@@ -377,6 +377,12 @@ return ReadOnly("DraftId2TabAndSubTab", {
   [151754] = {
     SubTabType = 5, TabType = "Mod"
   },
+  [151755] = {
+    SubTabType = 5, TabType = "Mod"
+  },
+  [151756] = {
+    SubTabType = 5, TabType = "Mod"
+  },
   [151761] = {
     SubTabType = 5, TabType = "Mod"
   },
@@ -554,6 +560,18 @@ return ReadOnly("DraftId2TabAndSubTab", {
   [155103] = {
     SubTabType = 8, TabType = "Mod"
   },
+  [156151] = {
+    SubTabType = 5, TabType = "Mod"
+  },
+  [156152] = {
+    SubTabType = 5, TabType = "Mod"
+  },
+  [156153] = {
+    SubTabType = 5, TabType = "Mod"
+  },
+  [156154] = {
+    SubTabType = 5, TabType = "Mod"
+  },
   [310001] = {
     SubTabType = 15,
     TabType = "CharAccessory"
@@ -671,6 +689,18 @@ return ReadOnly("DraftId2TabAndSubTab", {
     TabType = "CharAccessory"
   },
   [310030] = {
+    SubTabType = 15,
+    TabType = "CharAccessory"
+  },
+  [310031] = {
+    SubTabType = 15,
+    TabType = "CharAccessory"
+  },
+  [310032] = {
+    SubTabType = 15,
+    TabType = "CharAccessory"
+  },
+  [310033] = {
     SubTabType = 15,
     TabType = "CharAccessory"
   },
@@ -842,6 +872,10 @@ return ReadOnly("DraftId2TabAndSubTab", {
     SubTabType = 17,
     TabType = "CharAccessory"
   },
+  [330007] = {
+    SubTabType = 17,
+    TabType = "CharAccessory"
+  },
   [340001] = {
     SubTabType = 18,
     TabType = "CharAccessory"
@@ -851,6 +885,10 @@ return ReadOnly("DraftId2TabAndSubTab", {
     TabType = "CharAccessory"
   },
   [340003] = {
+    SubTabType = 18,
+    TabType = "CharAccessory"
+  },
+  [340004] = {
     SubTabType = 18,
     TabType = "CharAccessory"
   },
@@ -882,6 +920,9 @@ return ReadOnly("DraftId2TabAndSubTab", {
     SubTabType = 2, TabType = "Weapon"
   },
   [910206] = {
+    SubTabType = 2, TabType = "Weapon"
+  },
+  [910208] = {
     SubTabType = 2, TabType = "Weapon"
   },
   [910301] = {
@@ -981,6 +1022,9 @@ return ReadOnly("DraftId2TabAndSubTab", {
     SubTabType = 3, TabType = "Weapon"
   },
   [920504] = {
+    SubTabType = 3, TabType = "Weapon"
+  },
+  [920506] = {
     SubTabType = 3, TabType = "Weapon"
   },
   [920507] = {

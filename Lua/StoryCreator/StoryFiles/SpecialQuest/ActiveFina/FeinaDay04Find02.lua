@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -103,12 +105,6 @@ return {
             startQuest = "17546208197791216304",
             startPort = "Out",
             endQuest = "17546208247281216429",
-            endPort = "In"
-          },
-          {
-            startQuest = "17546208247281216429",
-            startPort = "Out",
-            endQuest = "17544754076107295774",
             endPort = "In"
           },
           {
@@ -184,22 +180,10 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17544754076107295774",
-            startPort = "Out",
-            endQuest = "175758229362840867135",
-            endPort = "In"
-          },
-          {
             startQuest = "175758229362840867135",
             startPort = "Out",
             endQuest = "175758229362840867131",
             endPort = "Input_1"
-          },
-          {
-            startQuest = "17544754076107295774",
-            startPort = "Out",
-            endQuest = "175758229362840867132",
-            endPort = "In"
           },
           {
             startQuest = "175758229362840867132",
@@ -208,15 +192,27 @@ return {
             endPort = "Input_2"
           },
           {
-            startQuest = "17544754076107295774",
+            startQuest = "17544754076107295775",
+            startPort = "Out",
+            endQuest = "17576471487153092484",
+            endPort = "In"
+          },
+          {
+            startQuest = "17546208247281216429",
             startPort = "Out",
             endQuest = "17576471500583092553",
             endPort = "In"
           },
           {
-            startQuest = "17544754076107295775",
+            startQuest = "17546208247281216429",
             startPort = "Out",
-            endQuest = "17576471487153092484",
+            endQuest = "175758229362840867135",
+            endPort = "In"
+          },
+          {
+            startQuest = "17546208247281216429",
+            startPort = "Out",
+            endQuest = "175758229362840867132",
             endPort = "In"
           }
         },
@@ -262,76 +258,6 @@ return {
             name = "等待特殊任务失败",
             pos = {x = 1174.1908070644524, y = 486.7126997635129},
             propsData = {}
-          },
-          ["17544754076107295774"] = {
-            key = "17544754076107295774",
-            type = "TalkNode",
-            name = "【34】检查物件",
-            pos = {x = 2487.4910244429793, y = 235.0219688149057},
-            propsData = {
-              IsNpcNode = false,
-              FirstDialogueId = 12033601,
-              FlowAssetPath = "",
-              TalkType = "QuestImpression",
-              TalkStageName = "Feina_FixSimple34",
-              BlendInTime = 1,
-              BlendOutTime = 0.5,
-              InType = "FadeIn",
-              OutType = "FadeOut",
-              ShowFadeDetail = false,
-              BlendEaseExp = 2,
-              UseProceduralCamera = false,
-              ProceduralCameraId = 1,
-              HideNpcs = false,
-              HideMonsters = true,
-              HideAllBattleEntity = true,
-              ShowSkipButton = true,
-              ShowAutoPlayButton = true,
-              ShowReviewButton = true,
-              ShowWikiButton = true,
-              SkipToOption = false,
-              DisableNpcOptimization = false,
-              DoNotReceiveCharacterShadow = false,
-              BeginNewTargetPointName = "",
-              EndNewTargetPointName = "",
-              CameraLookAtTartgetPoint = "",
-              RestoreStand = false,
-              PauseNpcBT = true,
-              TalkActors = {
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = false
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 100001,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 211001,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 211012,
-                  TalkActorVisible = true
-                }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 211001},
-                {TalkActorType = "Npc", TalkActorId = 211012}
-              },
-              OptionType = "normal",
-              FreezeWorldComposition = false,
-              bTravelFullLoadWorldComposition = false,
-              SwitchToMaster = "None",
-              NormalOptions = {},
-              OverrideFailBlend = false
-            }
           },
           ["17544754076107295775"] = {
             key = "17544754076107295775",
@@ -505,7 +431,7 @@ return {
             key = "175758229362840867132",
             type = "ActivePlayerSkillsNode",
             name = "激活运动能力/小技能/攻击",
-            pos = {x = 2988.876339622688, y = 311.715284996647},
+            pos = {x = 2987.9085976872043, y = 311.715284996647},
             propsData = {
               PlayerId = 0,
               bActiveEnable = true,
@@ -542,7 +468,7 @@ return {
             key = "17576471500583092553",
             type = "ChangeStaticCreatorNode",
             name = "销毁掉落物亮晶晶",
-            pos = {x = 2509.8947368421054, y = -27.052631578947327},
+            pos = {x = 2538.650497210769, y = 77.29068639340292},
             propsData = {
               ActiveEnable = true,
               EnableBlackScreenSync = false,

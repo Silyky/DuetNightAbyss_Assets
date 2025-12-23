@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -244,7 +246,7 @@ return {
             key = "17544638967032168",
             type = "QuestSuccessNode",
             name = "QuestSuccess",
-            pos = {x = 3973.4117647058824, y = 688.9411764705883},
+            pos = {x = 3491.4117647058824, y = 624.9411764705883},
             propsData = {ModeType = 0}
           },
           ["17544638967032171"] = {
@@ -258,7 +260,7 @@ return {
             key = "17544639843522736",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 2080.589183495521, y = 55.757218513445615},
+            pos = {x = 2124.589183495521, y = -8.242781486554385},
             propsData = {
               IsNpcNode = false,
               FirstDialogueId = 12031301,
@@ -275,7 +277,7 @@ return {
             key = "17544639843522738",
             type = "GoToNode",
             name = "前往玛尔洁处",
-            pos = {x = 2409.9583455826646, y = 387.8951806185961},
+            pos = {x = 2157.9583455826646, y = 361.8951806185961},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1191571,
@@ -287,7 +289,7 @@ return {
             key = "17544639843522740",
             type = "GoToNode",
             name = "走出下层区",
-            pos = {x = 1878.291516513913, y = 393.5029276897297},
+            pos = {x = 1812.791516513913, y = 367.5029276897297},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 1192059,
@@ -313,7 +315,7 @@ return {
             key = "17544639843522745",
             type = "UpdateTaskBarAndTaskMainNode",
             name = "更新任务目标节点",
-            pos = {x = 2402.3951299727046, y = 224.98805334505926},
+            pos = {x = 2176.3951299727046, y = 198.98805334505926},
             propsData = {
               NewDescription = "Description_120112_2_1",
               NewDetail = "",
@@ -324,7 +326,7 @@ return {
             key = "17544639981513202",
             type = "SpecialQuestSuccessNode",
             name = "成功完成特殊任务",
-            pos = {x = 4072.422459893048, y = 375.2754010695187},
+            pos = {x = 3476.422459893048, y = 385.2754010695187},
             propsData = {}
           },
           ["17544640074623359"] = {
@@ -338,7 +340,7 @@ return {
             key = "1754897845966568",
             type = "WaitOfTimeNode",
             name = "延迟等待",
-            pos = {x = 1765.7157097288678, y = 57.020135566188074},
+            pos = {x = 1787.7157097288678, y = 11.020135566188074},
             propsData = {WaitTime = 3}
           },
           ["1757578358900623009"] = {
@@ -463,14 +465,14 @@ return {
             key = "1757578401918624577",
             type = "WaitQuestFinishedNode",
             name = "等待任务完成",
-            pos = {x = 3693.8816009343996, y = 331.23288347451205},
+            pos = {x = 3133.8816009343996, y = 345.23288347451205},
             propsData = {ListenCount = 3, NeedFinishCount = 3}
           },
           ["1757578401918624578"] = {
             key = "1757578401918624578",
             type = "ActivePlayerSkillsNode",
             name = "失效运动能力/小技能/攻击",
-            pos = {x = 3208.704312056056, y = 513.1359713461513},
+            pos = {x = 2648.704312056056, y = 527.1359713461513},
             propsData = {
               PlayerId = 0,
               bActiveEnable = true,
@@ -487,7 +489,7 @@ return {
             key = "1757578401918624579",
             type = "ShowOrHideUINode",
             name = "显示或隐藏UI",
-            pos = {x = 3124.9396064959415, y = 174.520952363114},
+            pos = {x = 2564.9396064959415, y = 188.520952363114},
             propsData = {
               Function = "HideUIInScreen",
               UIParam = "EnergySkill",
@@ -499,7 +501,7 @@ return {
             key = "1757578401918624580",
             type = "ShowOrHideUINode",
             name = "显示或隐藏UI",
-            pos = {x = 3419.9507526358852, y = 173.36918861256882},
+            pos = {x = 2859.9507526358852, y = 187.36918861256882},
             propsData = {
               Function = "HideUIInScreen",
               UIParam = "BloodBar",
@@ -511,7 +513,7 @@ return {
             key = "1757578401918624581",
             type = "CameraControlClearNode",
             name = "镜头恢复",
-            pos = {x = 3213.172315985043, y = 360.2861148036892},
+            pos = {x = 2653.172315985043, y = 374.2861148036892},
             propsData = {Duration = 3}
           }
         },
@@ -531,7 +533,7 @@ return {
           ["1757578422228625257"] = {
             key = "1757578422228625257",
             name = "Input Commment...",
-            position = {x = 3049.351780185759, y = 48.546697626418904},
+            position = {x = 2489.351780185759, y = 62.546697626418904},
             size = {width = 901.5, height = 655.5}
           }
         }

@@ -70,8 +70,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 0,
+        SubRegionIdList = {},
         StoryGuideType = "Point",
-        StoryGuidePointName = ""
+        StoryGuidePointName = "",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -120,11 +122,8 @@ return {
               TalkType = "Cinematic",
               TalkStageName = "",
               ShowFilePath = "/Game/AssetDesign/Level/Sequencer/Special/Event/Feina/Feina_04_2/LS_Feina_042_9_Mechanism",
-              BlendOutTime = 2,
               InType = "BlendIn",
-              OutType = "FadeOut",
-              ShowFadeDetail = true,
-              FinishFadeInTime = 2,
+              OutType = "BlendOut",
               ShowSkipButton = false,
               ShowReviewButton = false,
               ShowWikiButton = false,
@@ -133,6 +132,7 @@ return {
               HideMonsters = false,
               HideAllBattleEntity = false,
               HideEffectCreature = false,
+              HideMechanismsFX = true,
               DisableNpcOptimization = false,
               DoNotReceiveCharacterShadow = false,
               BeginNewTargetPointName = "",
@@ -140,7 +140,6 @@ return {
               CameraLookAtTartgetPoint = "",
               RestoreStand = false,
               TalkActors = {},
-              RemoveTalkActors = {},
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",

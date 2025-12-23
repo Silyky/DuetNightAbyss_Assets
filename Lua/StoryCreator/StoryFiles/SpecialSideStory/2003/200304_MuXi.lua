@@ -80,7 +80,7 @@ return {
         QuestId = 20030402,
         QuestDescriptionComment = "",
         QuestDescription = "Description_200304_3",
-        QuestDeatil = "Content_200304_1",
+        QuestDeatil = "Content_200304_3",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -98,8 +98,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_LiHuan_2090160"
+        StoryGuidePointName = "Npc_LiHuan_2090160",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -157,8 +159,8 @@ return {
             pos = {x = 2395.71248106226, y = 326.74599652153796},
             propsData = {
               ActiveEnable = false,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
+              EnableBlackScreenSync = true,
+              EnableFadeIn = true,
               EnableFadeOut = false,
               NewTargetPointName = "Npc_LiHuan_2090160",
               StaticCreatorIdList = {
@@ -196,6 +198,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -235,17 +238,12 @@ return {
                   TalkActorVisible = true
                 }
               },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 0},
-                {TalkActorType = "Npc", TalkActorId = 700328},
-                {TalkActorType = "Npc", TalkActorId = 700332},
-                {TalkActorType = "Npc", TalkActorId = 700324},
-                {TalkActorType = "Npc", TalkActorId = 100001}
-              },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -264,7 +262,7 @@ return {
         QuestId = 20030403,
         QuestDescriptionComment = "",
         QuestDescription = "Description_200304_4",
-        QuestDeatil = "Content_200304_1",
+        QuestDeatil = "Content_200304_4",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -282,8 +280,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_2090244"
+        StoryGuidePointName = "Mechanism_2090244",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -310,6 +310,12 @@ return {
             startPort = "Out",
             endQuest = "17526690155523315",
             endPort = "Success"
+          },
+          {
+            startQuest = "17526690155513312",
+            startPort = "QuestStart",
+            endQuest = "17612054370253967916",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -373,6 +379,20 @@ return {
               NewTargetPointName = "Mechanism_2090244",
               StaticCreatorIdList = {2090244}
             }
+          },
+          ["17612054370253967916"] = {
+            key = "17612054370253967916",
+            type = "ChangeStaticCreatorNode",
+            name = "生成/销毁节点",
+            pos = {x = 1347.2372173749884, y = 72.71866832857556},
+            propsData = {
+              ActiveEnable = true,
+              EnableBlackScreenSync = false,
+              EnableFadeIn = false,
+              EnableFadeOut = false,
+              NewTargetPointName = "Npc_XiaoWen_2090554",
+              StaticCreatorIdList = {2090554, 2090555}
+            }
           }
         },
         commentData = {}
@@ -383,12 +403,12 @@ return {
       key = "17526690222653616",
       type = "StoryNode",
       name = "战斗",
-      pos = {x = 2197.7250000000004, y = 375.4857142857143},
+      pos = {x = 2197.7250000000004, y = 376.2549450549451},
       propsData = {
         QuestId = 20030404,
         QuestDescriptionComment = "",
         QuestDescription = "Description_200304_5",
-        QuestDeatil = "Content_200304_1",
+        QuestDeatil = "Content_200304_5",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -406,8 +426,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_2090230"
+        StoryGuidePointName = "Mechanism_2090244",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -418,16 +440,34 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17526690222653617",
-            startPort = "QuestStart",
-            endQuest = "1753340702521333162",
-            endPort = "In"
-          },
-          {
             startQuest = "1753340702521333162",
             startPort = "Success",
             endQuest = "17526690222653620",
             endPort = "Success"
+          },
+          {
+            startQuest = "1753340702521333162",
+            startPort = "Fail",
+            endQuest = "17526690222653623",
+            endPort = "Fail"
+          },
+          {
+            startQuest = "1753340702521333162",
+            startPort = "PassiveFail",
+            endQuest = "17526690222653623",
+            endPort = "Fail"
+          },
+          {
+            startQuest = "17526690222653617",
+            startPort = "QuestStart",
+            endQuest = "1764856941117955759",
+            endPort = "In"
+          },
+          {
+            startQuest = "1764856941117955759",
+            startPort = "Out",
+            endQuest = "1753340702521333162",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -435,7 +475,7 @@ return {
             key = "17526690222653617",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 785.6216216216217, y = 408.81081081081084},
+            pos = {x = 535.6216216216217, y = 412.81081081081084},
             propsData = {ModeType = 0}
           },
           ["17526690222653620"] = {
@@ -449,7 +489,7 @@ return {
             key = "17526690222653623",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2800, y = 700},
+            pos = {x = 1603.75, y = 595},
             propsData = {}
           },
           ["17528323122291288661"] = {
@@ -487,6 +527,18 @@ return {
             name = "等待特殊任务开始并完成",
             pos = {x = 1212.148212728858, y = 407.93548387096774},
             propsData = {SpecialConfigId = 20030401, BlackScreenImmediately = false}
+          },
+          ["1764856941117955759"] = {
+            key = "1764856941117955759",
+            type = "GoToNode",
+            name = "前往",
+            pos = {x = 846, y = 422},
+            propsData = {
+              GuideUIEnable = true,
+              StaticCreatorId = 2090244,
+              GuideType = "M",
+              GuidePointName = "Mechanism_2090244"
+            }
           }
         },
         commentData = {}
@@ -497,12 +549,12 @@ return {
       key = "17526690272133868",
       type = "StoryNode",
       name = "播对话",
-      pos = {x = 965.5572580645162, y = 628.5571428571429},
+      pos = {x = 964.5895161290323, y = 628.5571428571429},
       propsData = {
         QuestId = 20030405,
         QuestDescriptionComment = "",
         QuestDescription = "Description_200304_6",
-        QuestDeatil = "Content_200304_1",
+        QuestDeatil = "Content_200304_6",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -520,8 +572,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_2090230"
+        StoryGuidePointName = "Mechanism_2090230",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -534,6 +588,18 @@ return {
           {
             startQuest = "17526690272133869",
             startPort = "QuestStart",
+            endQuest = "17634536868444710957",
+            endPort = "In"
+          },
+          {
+            startQuest = "17526690272133869",
+            startPort = "QuestStart",
+            endQuest = "17554172717792382",
+            endPort = "In"
+          },
+          {
+            startQuest = "17634536868444710957",
+            startPort = "Out",
             endQuest = "1753687497705337872",
             endPort = "In"
           }
@@ -543,7 +609,7 @@ return {
             key = "17526690272133869",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 1630.4, y = 372.79999999999995},
+            pos = {x = 1461.309090909091, y = 379.61818181818177},
             propsData = {ModeType = 0}
           },
           ["17526690272133872"] = {
@@ -569,7 +635,7 @@ return {
               IsNpcNode = false,
               FirstDialogueId = 51104070,
               FlowAssetPath = "",
-              TalkType = "FixSimple",
+              TalkType = "QuestImpression",
               TalkStageName = "Stage_20030405",
               BlendInTime = 0,
               BlendOutTime = 0,
@@ -582,6 +648,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -619,19 +686,24 @@ return {
                   TalkActorType = "Npc",
                   TalkActorId = 700327,
                   TalkActorVisible = true
+                },
+                {
+                  TalkActorType = "Npc",
+                  TalkActorId = 100001,
+                  TalkActorVisible = true
+                },
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700325},
-                {TalkActorType = "Npc", TalkActorId = 700328},
-                {TalkActorType = "Npc", TalkActorId = 700333},
-                {TalkActorType = "Npc", TalkActorId = 700326},
-                {TalkActorType = "Npc", TalkActorId = 700327}
               },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -640,14 +712,57 @@ return {
             key = "17554172717792382",
             type = "ChangeStaticCreatorNode",
             name = "生成/销毁节点",
-            pos = {x = 1887.963644405131, y = 99.99367905056738},
+            pos = {x = 1743.6279800694667, y = 179.29437835126666},
             propsData = {
-              ActiveEnable = true,
+              ActiveEnable = false,
               EnableBlackScreenSync = false,
               EnableFadeIn = false,
               EnableFadeOut = false,
               NewTargetPointName = "",
-              StaticCreatorIdList = {}
+              StaticCreatorIdList = {2090554, 2090555}
+            }
+          },
+          ["17634536868444710957"] = {
+            key = "17634536868444710957",
+            type = "TalkNode",
+            name = "对话节点",
+            pos = {x = 1752.4372417975528, y = 377.33158847142886},
+            propsData = {
+              IsNpcNode = false,
+              TalkType = "Cinematic",
+              TalkStageName = "",
+              ShowFilePath = "/Game/AssetDesign/Story/Sequence/SideStory/East01/20030401",
+              BlendInTime = 0,
+              BlendOutTime = 0,
+              InType = "FadeIn",
+              OutType = "FadeOut",
+              ShowFadeDetail = false,
+              ShowSkipButton = true,
+              ShowReviewButton = true,
+              ShowWikiButton = true,
+              PauseGameGlobal = true,
+              HideNpcs = false,
+              HideMonsters = true,
+              HideAllBattleEntity = true,
+              HideEffectCreature = true,
+              HideMechanismsFX = true,
+              DisableNpcOptimization = false,
+              DoNotReceiveCharacterShadow = false,
+              BeginNewTargetPointName = "",
+              EndNewTargetPointName = "",
+              CameraLookAtTartgetPoint = "",
+              RestoreStand = false,
+              TalkActors = {
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
+                }
+              },
+              FreezeWorldComposition = false,
+              bTravelFullLoadWorldComposition = false,
+              SwitchToMaster = "None",
+              OverrideFailBlend = false
             }
           }
         },
@@ -663,8 +778,8 @@ return {
       propsData = {
         QuestId = 20030406,
         QuestDescriptionComment = "",
-        QuestDescription = "Description_200304_4",
-        QuestDeatil = "Content_200304_1",
+        QuestDescription = "Description_200304_7",
+        QuestDeatil = "Content_200304_7",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -682,8 +797,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_2090231"
+        StoryGuidePointName = "Mechanism_2090245",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -787,8 +904,8 @@ return {
       propsData = {
         QuestId = 20030407,
         QuestDescriptionComment = "",
-        QuestDescription = "Description_200304_5",
-        QuestDeatil = "Content_200304_1",
+        QuestDescription = "Description_200304_8",
+        QuestDeatil = "Content_200304_8",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -806,22 +923,42 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_2090231"
+        StoryGuidePointName = "Mechanism_2090245",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
-          {
-            startQuest = "17526690329524170",
-            startPort = "QuestStart",
-            endQuest = "17533592253513473",
-            endPort = "In"
-          },
           {
             startQuest = "17533592253513473",
             startPort = "Success",
             endQuest = "17526690329524173",
             endPort = "Success"
+          },
+          {
+            startQuest = "17533592253513473",
+            startPort = "Fail",
+            endQuest = "17526690329524176",
+            endPort = "Fail"
+          },
+          {
+            startQuest = "17533592253513473",
+            startPort = "PassiveFail",
+            endQuest = "17526690329524176",
+            endPort = "Fail"
+          },
+          {
+            startQuest = "17526690329524170",
+            startPort = "QuestStart",
+            endQuest = "17648569123001387",
+            endPort = "In"
+          },
+          {
+            startQuest = "17648569123001387",
+            startPort = "Out",
+            endQuest = "17533592253513473",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -829,7 +966,7 @@ return {
             key = "17526690329524170",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 1212, y = 294},
+            pos = {x = 973.304347826087, y = 280.95652173913044},
             propsData = {ModeType = 0}
           },
           ["17526690329524173"] = {
@@ -843,7 +980,7 @@ return {
             key = "17526690329524176",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2800, y = 700},
+            pos = {x = 2021.25, y = 463.75},
             propsData = {}
           },
           ["17533434897425290871"] = {
@@ -859,6 +996,18 @@ return {
             name = "等待特殊任务开始并完成",
             pos = {x = 1618.0769230769226, y = 297.9230769230768},
             propsData = {SpecialConfigId = 20030402, BlackScreenImmediately = false}
+          },
+          ["17648569123001387"] = {
+            key = "17648569123001387",
+            type = "GoToNode",
+            name = "前往",
+            pos = {x = 1283.3913043478258, y = 285.7608695652173},
+            propsData = {
+              GuideUIEnable = true,
+              StaticCreatorId = 2090245,
+              GuideType = "M",
+              GuidePointName = "Mechanism_2090245"
+            }
           }
         },
         commentData = {}
@@ -869,12 +1018,12 @@ return {
       key = "17526690358164345",
       type = "StoryNode",
       name = "播对话",
-      pos = {x = 1887.8705938697321, y = 635.5793650793651},
+      pos = {x = 1887.1013631005014, y = 635.5793650793651},
       propsData = {
         QuestId = 20030408,
         QuestDescriptionComment = "",
-        QuestDescription = "Description_200304_6",
-        QuestDeatil = "Content_200304_1",
+        QuestDescription = "Description_200304_9",
+        QuestDeatil = "Content_200304_9",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -892,22 +1041,24 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_2090231"
+        StoryGuidePointName = "Mechanism_2090231",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
-          {
-            startQuest = "17526690358164346",
-            startPort = "QuestStart",
-            endQuest = "1753692586807338918",
-            endPort = "In"
-          },
           {
             startQuest = "1753692586807338918",
             startPort = "Out",
             endQuest = "17526690358164349",
             endPort = "Success"
+          },
+          {
+            startQuest = "17526690358164346",
+            startPort = "QuestStart",
+            endQuest = "1753692586807338918",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -915,7 +1066,7 @@ return {
             key = "17526690358164346",
             type = "QuestStartNode",
             name = "QuestStart",
-            pos = {x = 1484, y = 398},
+            pos = {x = 1119.9416445623344, y = 400.5066312997348},
             propsData = {ModeType = 0}
           },
           ["17526690358164349"] = {
@@ -954,6 +1105,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -978,20 +1130,22 @@ return {
                   TalkActorVisible = true
                 },
                 {
-                  TalkActorType = "Player",
+                  TalkActorType = "Npc",
                   TalkActorId = 100001,
                   TalkActorVisible = true
+                },
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = true
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700325},
-                {TalkActorType = "Npc", TalkActorId = 700333},
-                {TalkActorType = "Player", TalkActorId = 100001}
               },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1009,13 +1163,13 @@ return {
       propsData = {
         QuestId = 20030409,
         QuestDescriptionComment = "",
-        QuestDescription = "Description_200304_7",
-        QuestDeatil = "Content_200304_1",
+        QuestDescription = "Description_200304_10",
+        QuestDeatil = "Content_200304_10",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
         bIsStartQuest = false,
-        bIsEndQuest = false,
+        bIsEndQuest = true,
         bIsNotifyGameMode = true,
         bIsStartChapter = false,
         bIsEndChapter = false,
@@ -1028,8 +1182,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_YuMing_2090252"
+        StoryGuidePointName = "Npc_YuMing_2090252",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1098,14 +1254,14 @@ return {
             key = "17536926910051338671",
             type = "TalkNode",
             name = "对话节点",
-            pos = {x = 1492, y = 300},
+            pos = {x = 1499.5555555555557, y = 300},
             propsData = {
               IsNpcNode = true,
               NpcNodeInteractiveName = "",
               NpcId = 700325,
               GuideUIEnable = true,
               GuideType = "N",
-              GuidePointName = "",
+              GuidePointName = "Npc_YuMing_2090252",
               DelayShowGuideTime = 0,
               FirstDialogueId = 51104111,
               FlowAssetPath = "",
@@ -1122,6 +1278,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1136,7 +1293,7 @@ return {
               PauseNpcBT = true,
               TalkActors = {
                 {
-                  TalkActorType = "Player",
+                  TalkActorType = "Npc",
                   TalkActorId = 100001,
                   TalkActorVisible = true
                 },
@@ -1149,17 +1306,19 @@ return {
                   TalkActorType = "Npc",
                   TalkActorId = 700325,
                   TalkActorVisible = true
+                },
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Player", TalkActorId = 100001},
-                {TalkActorType = "Npc", TalkActorId = 700324},
-                {TalkActorType = "Npc", TalkActorId = 700325}
               },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1218,7 +1377,7 @@ return {
         QuestId = 20030401,
         QuestDescriptionComment = "",
         QuestDescription = "Description_200304_2",
-        QuestDeatil = "Content_200304_1",
+        QuestDeatil = "Content_200304_2",
         TaskRegionReName = "",
         TaskSubRegionReName = "",
         RecommendLevel = -1,
@@ -1236,8 +1395,10 @@ return {
         bDeadTriggerQuestFail = false,
         IsFairyLand = false,
         SubRegionId = 104108,
+        SubRegionIdList = {},
         StoryGuideType = "Mechanism",
-        StoryGuidePointName = "Mechanism_2090243"
+        StoryGuidePointName = "Mechanism_2090243",
+        JumpId = 0
       },
       questNodeData = {
         lineData = {
@@ -1365,6 +1526,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1379,11 +1541,6 @@ return {
               PauseNpcBT = true,
               TalkActors = {
                 {
-                  TalkActorType = "Player",
-                  TalkActorId = 100001,
-                  TalkActorVisible = true
-                },
-                {
                   TalkActorType = "Npc",
                   TalkActorId = 700326,
                   TalkActorVisible = true
@@ -1397,18 +1554,19 @@ return {
                   TalkActorType = "Npc",
                   TalkActorId = 700328,
                   TalkActorVisible = true
+                },
+                {
+                  TalkActorType = "Player",
+                  TalkActorId = 0,
+                  TalkActorVisible = false
                 }
-              },
-              RemoveTalkActors = {
-                {TalkActorType = "Npc", TalkActorId = 700326},
-                {TalkActorType = "Npc", TalkActorId = 700327},
-                {TalkActorType = "Npc", TalkActorId = 700328},
-                {TalkActorType = "Player", TalkActorId = 100001}
               },
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
               SwitchToMaster = "None",
+              bNpcActionKeepIn = true,
+              bNpcActionKeepOut = false,
               NormalOptions = {},
               OverrideFailBlend = false
             }
@@ -1422,13 +1580,14 @@ return {
       key = "17527196648361260299",
       type = "PreStoryNode",
       name = "交互对话",
-      pos = {x = 965.8961705490519, y = 377.2627567650531},
+      pos = {x = 964.6961705490519, y = 376.2627567650531},
       propsData = {
         QuestId = 20030400,
         QuestDescriptionComment = "",
         SubRegionId = 104108,
         StoryGuideType = "Npc",
-        StoryGuidePointName = "Npc_White_2090157"
+        StoryGuidePointName = "Npc_White_2090157",
+        bIsPlayBlackScreenOnComplete = false
       },
       questNodeData = {
         lineData = {
@@ -1538,6 +1697,7 @@ return {
               HideNpcs = false,
               HideMonsters = true,
               HideAllBattleEntity = true,
+              HideMechanismsFX = true,
               ShowSkipButton = true,
               ShowAutoPlayButton = true,
               ShowReviewButton = true,
@@ -1551,7 +1711,6 @@ return {
               RestoreStand = false,
               PauseNpcBT = true,
               TalkActors = {},
-              RemoveTalkActors = {},
               OptionType = "normal",
               FreezeWorldComposition = false,
               bTravelFullLoadWorldComposition = false,
@@ -1582,8 +1741,8 @@ return {
             pos = {x = 2170.2366946778707, y = 109.26750700280115},
             propsData = {
               ActiveEnable = false,
-              EnableBlackScreenSync = false,
-              EnableFadeIn = false,
+              EnableBlackScreenSync = true,
+              EnableFadeIn = true,
               EnableFadeOut = false,
               NewTargetPointName = "",
               StaticCreatorIdList = {2090157}

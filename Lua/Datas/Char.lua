@@ -22,7 +22,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 1101,
     DispatchTag = {
@@ -65,11 +68,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1001101,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 1101,
-    SkinId = {1101, 11010010},
+    SkinId = {
+      1101,
+      11010010,
+      11010011
+    },
     SortPriority = 4006,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetHeitao",
@@ -99,6 +108,8 @@ return ReadOnly("Char", {
     CollectRewardExp = 500,
     DefaultAccessory = {
       FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
       FX_Teleport = 60001,
       Face = 20026
     },
@@ -143,11 +154,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1001103,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 1103,
-    SkinId = {1103, 11030010},
+    SkinId = {
+      1103,
+      11030010,
+      11030011
+    },
     SortPriority = 4006,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetTuosi",
@@ -176,7 +193,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 1501,
     DispatchTag = {
@@ -219,11 +239,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1001501,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 1501,
-    SkinId = {1501, 15010010},
+    SkinId = {
+      1501,
+      15010010,
+      15010011
+    },
     SortPriority = 5010,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetBaonu",
@@ -252,7 +278,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 1502,
     DispatchTag = {
@@ -295,11 +324,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1001502,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 1502,
-    SkinId = {1502, 15020010},
+    SkinId = {
+      1502,
+      15020010,
+      15020011
+    },
     SortPriority = 5011,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetNifu"
@@ -327,7 +362,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 1503,
     DispatchTag = {
@@ -344,11 +382,9 @@ return ReadOnly("Char", {
     EscMenuBg = "/Game/UI/Texture/Dynamic/Image/Menu/T_Menu_Kezhou",
     FirstCharItemId = 1011503,
     FirstCharItemNum = 1,
-    GMNot = 1,
     GUIPathVariable = "Kezhou",
     GachaIcon = "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarKezhou",
     Icon = "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Kezhou",
-    IsNotOpen = true,
     MeleeWeapon = 10101,
     ModSlot = {
       -1,
@@ -372,11 +408,13 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 11,
     RangedWeapon = 20201,
     RegainCharItemId = 1001503,
     RegainCharItemNum = 30,
+    ReleaseVersion = 110,
     RoleId = 1503,
-    SkinId = {1503},
+    SkinId = {1503, 15030011},
     SortPriority = 5012,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetKezhou",
@@ -409,7 +447,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 1504,
     DispatchTag = {
@@ -426,11 +467,9 @@ return ReadOnly("Char", {
     EscMenuBg = "/Game/UI/Texture/Dynamic/Image/Menu/T_Menu_Suyi",
     FirstCharItemId = 1011504,
     FirstCharItemNum = 1,
-    GMNot = 1,
     GUIPathVariable = "Suyi",
     GachaIcon = "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarSuyi",
     Icon = "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Suyi",
-    IsNotOpen = true,
     MeleeWeapon = 10101,
     ModSlot = {
       -1,
@@ -454,9 +493,11 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 13,
     RangedWeapon = 20201,
     RegainCharItemId = 1001504,
     RegainCharItemNum = 30,
+    ReleaseVersion = 130,
     RoleId = 1504,
     SkinId = {1504},
     SortPriority = 5013,
@@ -486,7 +527,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 0,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 1601,
     DispatchTag = {
@@ -530,11 +574,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1001601,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 1601,
-    SkinId = {1601, 16010010},
+    SkinId = {
+      1601,
+      16010010,
+      16010011
+    },
     SortPriority = 5014,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetBaonu"
@@ -562,7 +612,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 1801,
     DispatchTag = {
@@ -605,11 +658,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1001801,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 1801,
-    SkinId = {1801, 18010010},
+    SkinId = {
+      1801,
+      18010010,
+      18010011
+    },
     SortPriority = 5009,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetFeina"
@@ -637,7 +696,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 2101,
     DispatchTag = {
@@ -680,14 +742,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1002101,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 2101,
     SkinId = {
       2101,
       210102,
-      21010010
+      21010010,
+      21010011
     },
     SortPriority = 5004,
     Sound = "SOUND_ITEM_NORMAL",
@@ -716,7 +781,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 2102,
     DispatchTag = {
@@ -733,11 +801,9 @@ return ReadOnly("Char", {
     EscMenuBg = "/Game/UI/Texture/Dynamic/Image/Menu/T_Menu_Eve",
     FirstCharItemId = 1012102,
     FirstCharItemNum = 1,
-    GMNot = 1,
     GUIPathVariable = "Eve",
     GachaIcon = "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarEve",
     Icon = "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Eve",
-    IsNotOpen = true,
     MeleeWeapon = 10201,
     ModSlot = {
       -1,
@@ -761,9 +827,11 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 15,
     RangedWeapon = 20201,
     RegainCharItemId = 1002102,
     RegainCharItemNum = 30,
+    ReleaseVersion = 150,
     RoleId = 2102,
     SkinId = {2102},
     SortPriority = 5005,
@@ -793,7 +861,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 2301,
     DispatchTag = {
@@ -836,11 +907,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20301,
     RegainCharItemId = 1002301,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 2301,
-    SkinId = {2301, 23010010},
+    SkinId = {
+      2301,
+      23010010,
+      23010011
+    },
     SortPriority = 4007,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetZhangyu"
@@ -868,7 +945,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 2401,
     DispatchTag = {
@@ -885,11 +965,9 @@ return ReadOnly("Char", {
     EscMenuBg = "/Game/UI/Texture/Dynamic/Image/Menu/T_Menu_Baiheng",
     FirstCharItemId = 1012401,
     FirstCharItemNum = 1,
-    GMNot = 1,
     GUIPathVariable = "Baiheng",
     GachaIcon = "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarBaiheng",
     Icon = "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Baiheng",
-    IsNotOpen = true,
     MeleeWeapon = 10101,
     ModSlot = {
       -1,
@@ -913,11 +991,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 11,
     RangedWeapon = 20201,
     RegainCharItemId = 1002401,
     RegainCharItemNum = 30,
+    ReleaseVersion = 110,
     RoleId = 2401,
-    SkinId = {2401},
+    SkinId = {
+      2401,
+      240101,
+      24010011
+    },
     SortPriority = 5007,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetBaiheng"
@@ -945,7 +1029,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 3101,
     DispatchTag = {
@@ -988,11 +1075,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1003101,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 3101,
-    SkinId = {3101, 31010010},
+    SkinId = {
+      3101,
+      31010010,
+      31010011
+    },
     SortPriority = 5003,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetLinen",
@@ -1021,7 +1114,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 3102,
     DispatchTag = {
@@ -1038,11 +1134,9 @@ return ReadOnly("Char", {
     EscMenuBg = "/Game/UI/Texture/Dynamic/Image/Menu/T_Menu_Xier",
     FirstCharItemId = 1013102,
     FirstCharItemNum = 1,
-    GMNot = 1,
     GUIPathVariable = "Xier",
     GachaIcon = "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarXier",
     Icon = "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Xier",
-    IsNotOpen = true,
     MeleeWeapon = 10101,
     ModSlot = {
       -1,
@@ -1066,9 +1160,11 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 14,
     RangedWeapon = 20201,
     RegainCharItemId = 1003102,
     RegainCharItemNum = 30,
+    ReleaseVersion = 140,
     RoleId = 3102,
     SkinId = {3102},
     SortPriority = 5005,
@@ -1098,7 +1194,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 3103,
     DispatchTag = {
@@ -1141,11 +1240,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1003103,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 3103,
-    SkinId = {3103, 31030010},
+    SkinId = {
+      3103,
+      31030010,
+      31030011
+    },
     SortPriority = 4003,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetYeer"
@@ -1173,7 +1278,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 3201,
     DispatchTag = {
@@ -1216,11 +1324,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1003201,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 3201,
-    SkinId = {3201, 32010010},
+    SkinId = {
+      3201,
+      32010010,
+      32010011
+    },
     SortPriority = 4004,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetHaier"
@@ -1247,7 +1361,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 3202,
     DispatchTag = {
@@ -1264,11 +1381,9 @@ return ReadOnly("Char", {
     EscMenuBg = "/Game/UI/Texture/Dynamic/Image/Menu/T_Menu_Kami",
     FirstCharItemId = 1013202,
     FirstCharItemNum = 1,
-    GMNot = 1,
     GUIPathVariable = "Kami",
     GachaIcon = "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarKami",
     Icon = "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Kami",
-    IsNotOpen = true,
     MeleeWeapon = 10101,
     ModSlot = {
       -1,
@@ -1292,9 +1407,11 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 13,
     RangedWeapon = 20201,
     RegainCharItemId = 1003202,
     RegainCharItemNum = 30,
+    ReleaseVersion = 130,
     RoleId = 3202,
     SkinId = {3202},
     SortPriority = 4006,
@@ -1324,7 +1441,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 3301,
     DispatchTag = {
@@ -1367,11 +1487,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1003301,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 3301,
-    SkinId = {3301, 33010010},
+    SkinId = {
+      3301,
+      33010010,
+      33010011
+    },
     SortPriority = 4005,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetMaer"
@@ -1399,7 +1525,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 4101,
     DispatchTag = {
@@ -1442,11 +1571,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1004101,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 4101,
-    SkinId = {4101, 41010010},
+    SkinId = {
+      4101,
+      41010010,
+      41010011
+    },
     SortPriority = 4001,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetLise"
@@ -1474,7 +1609,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 4102,
     DispatchTag = {
@@ -1491,11 +1629,9 @@ return ReadOnly("Char", {
     EscMenuBg = "/Game/UI/Texture/Dynamic/Image/Menu/T_Menu_Zhiliu",
     FirstCharItemId = 1014102,
     FirstCharItemNum = 1,
-    GMNot = 1,
     GUIPathVariable = "Zhiliu",
     GachaIcon = "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarZhiliu",
     Icon = "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Zhiliu",
-    IsNotOpen = true,
     MeleeWeapon = 10101,
     ModSlot = {
       -1,
@@ -1519,9 +1655,11 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 12,
     RangedWeapon = 20401,
     RegainCharItemId = 1004102,
     RegainCharItemNum = 30,
+    ReleaseVersion = 120,
     RoleId = 4102,
     SkinId = {4102},
     SortPriority = 5001,
@@ -1551,7 +1689,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 4201,
     DispatchTag = {
@@ -1568,11 +1709,9 @@ return ReadOnly("Char", {
     EscMenuBg = "/Game/UI/Texture/Dynamic/Image/Menu/T_Menu_Yuming",
     FirstCharItemId = 1014201,
     FirstCharItemNum = 1,
-    GMNot = 1,
     GUIPathVariable = "Yuming",
     GachaIcon = "/Game/UI/Texture/Dynamic/Image/Gacha/Avatar/T_Gacha_AvatarYuming",
     Icon = "/Game/UI/Texture/Dynamic/Image/Head/Avatar/T_Head_Yuming",
-    IsNotOpen = true,
     MeleeWeapon = 10101,
     ModSlot = {
       -1,
@@ -1596,9 +1735,11 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 12,
     RangedWeapon = 20201,
     RegainCharItemId = 1004201,
     RegainCharItemNum = 30,
+    ReleaseVersion = 120,
     RoleId = 4201,
     SkinId = {4201},
     SortPriority = 5002,
@@ -1628,7 +1769,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 4202,
     DispatchTag = {
@@ -1671,11 +1815,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1004202,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 4202,
-    SkinId = {4202, 42020010},
+    SkinId = {
+      4202,
+      42020010,
+      42020011
+    },
     SortPriority = 4001,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetLandi"
@@ -1703,7 +1853,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 4301,
     DispatchTag = {
@@ -1746,11 +1899,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20401,
     RegainCharItemId = 1004301,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 4301,
-    SkinId = {4301, 43010010},
+    SkinId = {
+      4301,
+      43010010,
+      43010011
+    },
     SortPriority = 5001,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetXibi"
@@ -1778,7 +1937,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 5101,
     DispatchTag = {
@@ -1821,14 +1983,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1005101,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 5101,
     SkinId = {
       5101,
       510101,
-      51010010
+      51010010,
+      51010011
     },
     SortPriority = 5006,
     Sound = "SOUND_ITEM_NORMAL",
@@ -1858,7 +2023,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 5102,
     DispatchTag = {
@@ -1901,11 +2069,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1005102,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 5102,
-    SkinId = {5102, 51020010},
+    SkinId = {
+      5102,
+      51020010,
+      51020011
+    },
     SortPriority = 4002,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetAote"
@@ -1933,7 +2107,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 5301,
     DispatchTag = {
@@ -1976,14 +2153,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1005301,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 5301,
     SkinId = {
       5301,
       530101,
-      53010010
+      53010010,
+      53010011
     },
     SortPriority = 5008,
     Sound = "SOUND_ITEM_NORMAL",
@@ -2013,7 +2193,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 500,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 5401,
     DispatchTag = {
@@ -2056,11 +2239,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1005401,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 5401,
-    SkinId = {5401, 54010010},
+    SkinId = {
+      5401,
+      54010010,
+      54010011
+    },
     SortPriority = 4002,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetDafu"
@@ -2087,7 +2276,10 @@ return ReadOnly("Char", {
     CharUnlockRequiredPiece = 30,
     CollectRewardExp = 0,
     DefaultAccessory = {
-      FX_Dead = 50001, FX_Teleport = 60001
+      FX_Dead = 50001,
+      FX_HelixLeap = 21001,
+      FX_PlungingATK = 11001,
+      FX_Teleport = 60001
     },
     DefaultSkinId = 160101,
     DispatchTag = {
@@ -2131,11 +2323,17 @@ return ReadOnly("Char", {
       5,
       2
     },
+    OpenVersion = 10,
     RangedWeapon = 20201,
     RegainCharItemId = 1001601,
     RegainCharItemNum = 30,
+    ReleaseVersion = 100,
     RoleId = 160101,
-    SkinId = {160101, 16010110},
+    SkinId = {
+      160101,
+      16010110,
+      16010111
+    },
     SortPriority = 5015,
     Sound = "SOUND_ITEM_NORMAL",
     SpineBp = "WBP_Get_Avatar_WidgetNifu"
