@@ -639,7 +639,7 @@ return ReadOnly("AvatarStatusMachine", {
       [7] = true,
       [8] = true,
       [9] = true,
-      [10] = false,
+      [10] = true,
       [11] = true,
       [12] = true,
       [13] = true,

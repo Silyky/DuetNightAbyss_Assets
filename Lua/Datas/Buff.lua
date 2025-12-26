@@ -9662,7 +9662,7 @@ return ReadOnly("Buff", {
       [1] = {
         AttrName = "DamageRate",
         DamageTag = "Weapon",
-        IndividualRateZone = 1,
+        RateZone = "AbyssDown",
         Value = -0.5
       },
       [2] = {
@@ -9742,7 +9742,7 @@ return ReadOnly("Buff", {
       [1] = {
         AttrName = "DamageRate",
         DamageTag = "Skill",
-        IndividualRateZone = 1,
+        RateZone = "AbyssDown",
         Value = -0.25
       },
       [2] = {

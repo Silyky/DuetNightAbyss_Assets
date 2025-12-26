@@ -264,18 +264,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17650358451143200526",
-            startPort = "Out",
-            endQuest = "173702322506218808748",
-            endPort = "In"
-          },
-          {
-            startQuest = "17345239707596127965",
-            startPort = "QuestStart",
-            endQuest = "17650379357685759737",
-            endPort = "In"
-          },
-          {
             startQuest = "17650379357685759737",
             startPort = "Out",
             endQuest = "17650358451143200526",
@@ -303,6 +291,12 @@ return {
             startQuest = "17650384080337036647",
             startPort = "Out",
             endQuest = "17567180309077666625",
+            endPort = "In"
+          },
+          {
+            startQuest = "17345239707596127965",
+            startPort = "QuestStart",
+            endQuest = "173702322506218808748",
             endPort = "In"
           }
         },
@@ -784,7 +778,7 @@ return {
             key = "17650358451143200526",
             type = "SendMessageNode",
             name = "消息StoneInOrder02Awake",
-            pos = {x = -1056.9663865546222, y = 0.6111602535755019},
+            pos = {x = -1058.4663865546222, y = -234.8888397464245},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "StoneInOrder02Awake",
@@ -795,7 +789,7 @@ return {
             key = "17650379357685759737",
             type = "SendMessageNode",
             name = "消息StoneInOrder01Awake",
-            pos = {x = -1054.068407856335, y = -133.91468219602783},
+            pos = {x = -1055.568407856335, y = -369.4146821960278},
             propsData = {
               MessageType = "GameMode",
               MessageContent = "StoneInOrder01Awake",
@@ -927,12 +921,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17351839840982112382",
-            startPort = "Out",
-            endQuest = "17346782777906800055",
-            endPort = "Fail"
-          },
-          {
             startQuest = "174142383943110877165",
             startPort = "Out",
             endQuest = "17346782777906800054",
@@ -997,6 +985,18 @@ return {
             startPort = "Out",
             endQuest = "17646600727714459871",
             endPort = "In"
+          },
+          {
+            startQuest = "17351839840982112382",
+            startPort = "Out",
+            endQuest = "176527829395810704",
+            endPort = "In"
+          },
+          {
+            startQuest = "176527829395810704",
+            startPort = "Out",
+            endQuest = "17346782777906800055",
+            endPort = "Fail"
           }
         },
         nodeData = {
@@ -1018,21 +1018,21 @@ return {
             key = "17346782777906800055",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 1523.5345998828755, y = 1044.5388878363015},
+            pos = {x = 541.0345998828755, y = 1059.5388878363015},
             propsData = {}
           },
           ["17351839840982112381"] = {
             key = "17351839840982112381",
             type = "WaitingSpecialQuestFailNode",
             name = "等待特殊任务失败",
-            pos = {x = 857.9398972136381, y = 1028.2491778823182},
+            pos = {x = -397.8101027863619, y = 1037.8741778823182},
             propsData = {}
           },
           ["17351839840982112382"] = {
             key = "17351839840982112382",
             type = "RestoreRoleNode",
             name = "恢复角色",
-            pos = {x = 1140.6895866296945, y = 1034.6999082471486},
+            pos = {x = -65.43541337030547, y = 1054.8249082471486},
             propsData = {}
           },
           ["174142383943010877164"] = {
@@ -1206,6 +1206,17 @@ return {
             propsData = {
               MessageType = "GameMode",
               MessageContent = "StoneInOrder01Unlock",
+              UnitId = -1
+            }
+          },
+          ["176527829395810704"] = {
+            key = "176527829395810704",
+            type = "SendMessageNode",
+            name = "发送消息",
+            pos = {x = 247.70833333333348, y = 1054.875},
+            propsData = {
+              MessageType = "GameMode",
+              MessageContent = "StoneInOrder01Reset",
               UnitId = -1
             }
           }
@@ -2846,12 +2857,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17630396724293722899",
-            startPort = "Out",
-            endQuest = "17630394636463716942",
-            endPort = "Fail"
-          },
-          {
             startQuest = "17630396399033721676",
             startPort = "true",
             endQuest = "17630396323013721368",
@@ -2952,6 +2957,18 @@ return {
             startPort = "Out",
             endQuest = "17630405644633729565",
             endPort = "In"
+          },
+          {
+            startQuest = "17630396724293722899",
+            startPort = "Out",
+            endQuest = "176527836218811463",
+            endPort = "In"
+          },
+          {
+            startQuest = "176527836218811463",
+            startPort = "Out",
+            endQuest = "17630394636463716942",
+            endPort = "Fail"
           }
         },
         nodeData = {
@@ -2973,7 +2990,7 @@ return {
             key = "17630394636463716942",
             type = "QuestFailNode",
             name = "QuestFail",
-            pos = {x = 2001.5384615384614, y = 851.3574660633484},
+            pos = {x = 1665.9595141700404, y = 897.883781852822},
             propsData = {}
           },
           ["17630395495923719518"] = {
@@ -3057,14 +3074,14 @@ return {
             key = "17630396724293722898",
             type = "WaitingSpecialQuestFailNode",
             name = "等待特殊任务失败",
-            pos = {x = 1277.3951833031763, y = 861.7628701117025},
+            pos = {x = 777.3951833031763, y = 883.7628701117025},
             propsData = {}
           },
           ["17630396724293722899"] = {
             key = "17630396724293722899",
             type = "RestoreRoleNode",
             name = "恢复角色",
-            pos = {x = 1560.1448727192328, y = 868.2136004765329},
+            pos = {x = 1060.1448727192328, y = 890.2136004765329},
             propsData = {}
           },
           ["17630396906183723613"] = {
@@ -3229,6 +3246,17 @@ return {
               MessageContent = "StoneInOrder02Unlock",
               UnitId = -1
             }
+          },
+          ["176527836218811463"] = {
+            key = "176527836218811463",
+            type = "SendMessageNode",
+            name = "StoneInOrder02Reset",
+            pos = {x = 1361.6842105263158, y = 894},
+            propsData = {
+              MessageType = "GameMode",
+              MessageContent = "StoneInOrder02Reset",
+              UnitId = -1
+            }
           }
         },
         commentData = {
@@ -3249,6 +3277,12 @@ return {
             name = "开启挑战",
             position = {x = 3138.017973325413, y = 142.06428584315643},
             size = {width = 771.9002217406139, height = 290.54794596528336}
+          },
+          ["1765278381454650591"] = {
+            key = "1765278381454650591",
+            name = "Input Commment...",
+            position = {x = 688, y = 744},
+            size = {width = 1252, height = 368}
           }
         }
       }

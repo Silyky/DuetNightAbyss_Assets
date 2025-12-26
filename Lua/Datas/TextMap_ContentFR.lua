@@ -693,7 +693,7 @@ local Data = {
           TextMapId = "Attr_MagazineCapacity_Name"
         },
         Attr_MaxAvoidExecuteTimes_Name = {
-          ContentFR = "Nombre d'esquives",
+          ContentFR = "Nombre d’esquives",
           TextMapId = "Attr_MaxAvoidExecuteTimes_Name"
         },
         Attr_MaxComboCount_Name = {
@@ -1293,7 +1293,7 @@ local Data = {
           TextMapId = "Buff_Content_202"
         },
         Buff_Content_203 = {
-          ContentFR = "Les ennemis subissent #1 de dégâts en moins. Chaque fois qu’ils sont touchés par une arme à distance, cette réduction diminue de #2.",
+          ContentFR = "Les ennemis subissent #1 de dégâts en moins. Chaque fois qu’ils reçoivent des DGT d’arme à distance, cette réduction diminue de #2.",
           TextMapId = "Buff_Content_203"
         },
         Buff_Content_211 = {
@@ -1317,7 +1317,7 @@ local Data = {
           TextMapId = "Buff_Content_303"
         },
         Buff_Content_304 = {
-          ContentFR = "Pour chaque #1 points de Lucidité dépensés au total par les alliés, ceux-ci gagnent +#2 de puissance de compétence pendant #3 s, cumulable jusqu’à #4 fois. À plein cumul, ils deviennent immunisés aux interruptions.",
+          ContentFR = "Pour chaque #1 points de Lucidité dépensés au total par les alliés, ceux-ci gagnent +#2 de Dégâts de compétence pendant #3 s, cumulable jusqu’à #4 fois. À plein cumul, ils deviennent immunisés aux interruptions.",
           TextMapId = "Buff_Content_304"
         },
         Buff_Content_401 = {
@@ -1337,11 +1337,11 @@ local Data = {
           TextMapId = "Buff_Content_512"
         },
         Buff_Content_935 = {
-          ContentFR = "Les ennemies subissent <H>+400 %</> de Dégâts Pyro et Anémo, mais <W>-50 %</> de dégâts provenant des autres attributs.",
+          ContentFR = "Les ennemis subissent <H>+400 %</> de Dégâts Pyro et Anémo, mais <W>-50 %</> de dégâts provenant des autres attributs.",
           TextMapId = "Buff_Content_935"
         },
         Buff_Content_951 = {
-          ContentFR = "Les ennemies subissent <H>+400 %</> de Dégâts Anémo et Umbro, mais <W>-50 %</> de dégâts provenant des autres attributs.",
+          ContentFR = "Les ennemis subissent <H>+400 %</> de Dégâts Anémo et Umbro, mais <W>-50 %</> de dégâts provenant des autres attributs.",
           TextMapId = "Buff_Content_951"
         },
         Buff_Title_100 = {
@@ -1401,11 +1401,11 @@ local Data = {
           TextMapId = "Buff_Title_512"
         },
         Buff_Title_935 = {
-          ContentFR = "Variation du Jugement : Chant du feu et du vent",
+          ContentFR = "Résonance du Jugement : Chant du feu et du vent",
           TextMapId = "Buff_Title_935"
         },
         Buff_Title_951 = {
-          ContentFR = "Variation du Jugement : Chant du vent et des ombres",
+          ContentFR = "Résonance du Jugement : Chant du vent et des ombres",
           TextMapId = "Buff_Title_951"
         },
         CAPTURE_BULLETJUMP_PC = {
@@ -5243,7 +5243,7 @@ local Data = {
           TextMapId = "Episode_1201"
         },
         Episode_Region_None_Trans = {
-          ContentFR = "HUAXU",
+          ContentFR = "DONGGUO",
           TextMapId = "Episode_Region_None_Trans"
         },
         Equals = {
@@ -5317,6 +5317,10 @@ local Data = {
         Event_Des_101003 = {
           ContentFR = "Connectez-vous pendant 7 jours pour recevoir des récompenses",
           TextMapId = "Event_Des_101003"
+        },
+        Event_Des_101004 = {
+          ContentFR = "L’ère du Dieu-Dragon touche à sa fin. J’en réclamerai le pouvoir.\nConnectez-vous pendant 5 jours durant l’événement pour obtenir les récompenses",
+          TextMapId = "Event_Des_101004"
         },
         Event_Des_102001 = {
           ContentFR = "Huaxu, terre paisible où flotte un parfum d’encens.\nVous y êtes {性别:convié|conviée}, attendant que Zhiliu vous dévoile un paysage éthéré, à la fois immémorial et jamais vu.",
@@ -10231,7 +10235,7 @@ local Data = {
           TextMapId = "Message_Guide_RougeLantern_5"
         },
         Message_Guide_RougeShop_1 = {
-          ContentFR = "Chez le <H>Marchand mystérieux</>, vous pouvez échanger des <H>Braises</> contre des <H>Lucimèches</> et des <H>Artéfacts</>.",
+          ContentFR = "Chez le <H>Marchand abyssal</>, vous pouvez échanger des <H>Braises</> contre des <H>Lucimèches</> et des <H>Artéfacts</>.",
           TextMapId = "Message_Guide_RougeShop_1"
         },
         Message_Guide_RougeShop_2 = {
@@ -13791,7 +13795,7 @@ local Data = {
           TextMapId = "Mon_Name_8515024"
         },
         Mon_Name_8518001 = {
-          ContentFR = "Fracture colossale",
+          ContentFR = "Terracolosse",
           TextMapId = "Mon_Name_8518001"
         },
         Mon_Name_9001001 = {
@@ -21779,7 +21783,7 @@ local Data = {
           TextMapId = "RLTreasure_Desc_10101"
         },
         RLTreasure_Desc_10102 = {
-          ContentFR = "Réduit les prix de tous les articles du Marchand mystérieux de <Highlight>@1</>.",
+          ContentFR = "Réduit les prix de tous les articles du Marchand abyssal de <Highlight>@1</>.",
           TextMapId = "RLTreasure_Desc_10102"
         },
         RLTreasure_Desc_10103 = {
@@ -21887,7 +21891,7 @@ local Data = {
           TextMapId = "RLTreasure_Desc_12101"
         },
         RLTreasure_Desc_12102 = {
-          ContentFR = "Augmente le prix des objets du [Marchand mystérieux] de <Highlight>@1</>.\nL’effet prend fin après <Highlight>@2</> profondeurs et octroie <Highlight>@3</> Braises.",
+          ContentFR = "Augmente le prix des objets du [Marchand abyssal] de <Highlight>@1</>.\nL’effet prend fin après <Highlight>@2</> profondeurs et octroie <Highlight>@3</> Braises.",
           TextMapId = "RLTreasure_Desc_12102"
         },
         RLTreasure_Desc_12201 = {
@@ -25679,7 +25683,7 @@ local Data = {
           TextMapId = "TERMEXP_1503_Skill02_01"
         },
         TERMEXP_1503_Skill02_02 = {
-          ContentFR = "Peut être détenue jusqu’à 7 fois.\nLorsqu’elle est libérée, choisit un ennemi aléatoire comme cible, orbite autour de lui et fond régulièrement vers lui pour attaquer, infligeant des Dégâts Lumino aux ennemis sur sa trajectoire.\nAprès 4 attaques sur la cible, la [Phanoplume] disparaît.\nChaque attaque inflige en plus une portion des Dégâts sur la durée de l’Effet supplémentaire : Lumino, calculée selon la Chance de déclenchement de l’arme de mêlée.",
+          ContentFR = "Peut être détenue jusqu’à 7 fois.\nLorsqu’elle est libérée, choisit un ennemi aléatoire comme cible, orbite autour de lui et fond régulièrement vers lui pour attaquer, infligeant des Dégâts Lumino aux ennemis sur sa trajectoire.\nAprès 3 attaques sur la cible, la [Phanoplume] disparaît.\nChaque attaque inflige en plus une portion des Dégâts sur la durée de l’Effet supplémentaire : Lumino, calculée selon la Chance de déclenchement de l’arme de mêlée.",
           TextMapId = "TERMEXP_1503_Skill02_02"
         },
         TERMEXP_1601_Skill02 = {
@@ -26257,7 +26261,7 @@ local Data = {
         Tag_Hp = {
           ContentFR = "PV",
           TextMapId = "Tag_Hp",
-        },
+        }
         Tag_MagazineCapacity = {
           ContentFR = "Capacité du chargeur",
           TextMapId = "Tag_MagazineCapacity"
@@ -26721,6 +26725,10 @@ local Data = {
         UIGuide_ImpressionSystem_3 = {
           ContentFR = "<H>Lunoeggy</> admire les personnalités marquantes. Lorsque votre Impression atteint un certain niveau, vous pouvez affronter <H>Lunoeggy</> dans la cité dans un jeu de dés pour tenter de remporter <H>les récompenses de Luno</> !",
           TextMapId = "UIGuide_ImpressionSystem_3"
+        },
+        UIGuide_JiaSu_1 = {
+          ContentFR = "Das Berühren einer Beschleunigungs-Rune erhöht deine Bewegungs-GES und die Reichweite des Spiralsprungs erheblich.",
+          TextMapId = "UIGuide_JiaSu_1"
         },
         UIGuide_LayeredMap_1 = {
           ContentFR = "Certains environnements possèdent plusieurs niveaux.\nVous pouvez passer d’un étage de carte à l’autre pour mieux vous orienter.",
@@ -27469,10 +27477,6 @@ local Data = {
         UI_Accessory_Name_20021 = {
           ContentFR = "Plume des cieux",
           TextMapId = "UI_Accessory_Name_20021"
-        },
-        UI_Accessory_Name_40005 = {
-          ContentFR = "Hymne du vent",
-          TextMapId = "UI_Accessory_Name_40005"
         },
         UI_Accessory_None = {
           ContentFR = "Aucun accessoire",
@@ -31861,7 +31865,7 @@ local Data = {
         UI_BACK = {
           ContentFR = "Retour",
           TextMapId = "UI_BACK",
-        }
+        },
         UI_BAG_EMPTY = {
           ContentFR = "L’inventaire est vide",
           TextMapId = "UI_BAG_EMPTY"
@@ -35038,10 +35042,6 @@ local Data = {
           ContentFR = "Options du joueur",
           TextMapId = "UI_CTL_PlayerOptions"
         },
-        UI_CTL_PositionPlayer = {
-          ContentFR = "플레이어 위치 확인",
-          TextMapId = "UI_CTL_PositionPlayer"
-        },
         UI_CTL_PutOn_Mod = {
           ContentFR = "Équiper ce Sceau démoniaque",
           TextMapId = "UI_CTL_PutOn_Mod"
@@ -36187,7 +36187,7 @@ local Data = {
           TextMapId = "UI_DUNGEON_DES_TRAINING_14"
         },
         UI_DUNGEON_DES_TRAINING_15 = {
-          ContentFR = "Invincible",
+          ContentFR = "Invincibilité",
           TextMapId = "UI_DUNGEON_DES_TRAINING_15"
         },
         UI_DUNGEON_DES_TRAINING_16 = {

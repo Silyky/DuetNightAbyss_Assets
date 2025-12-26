@@ -87544,7 +87544,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_en_env_Ver0101_7D6C60B2 = {
     ProgrammerSoundPath = "event:/voice/en/env",
     SelectKey = "voice_en_env_Ver0101_7D6C60B2",
-    SoundLength = 2680
+    SoundLength = 2500
   },
   voice_en_env_Ver0101_7D6C711A = {
     ProgrammerSoundPath = "event:/voice/en/env",
@@ -87659,7 +87659,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_en_env_Ver0101_7D6DA8D2 = {
     ProgrammerSoundPath = "event:/voice/en/env",
     SelectKey = "voice_en_env_Ver0101_7D6DA8D2",
-    SoundLength = 4910
+    SoundLength = 3610
   },
   voice_en_env_Ver0101_7D6DB93A = {
     ProgrammerSoundPath = "event:/voice/en/env",
@@ -130891,7 +130891,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_en_story_1201_120107_1E114BEE = {
     ProgrammerSoundPath = "event:/voice/en/story/1201",
     SelectKey = "voice_en_story_1201_120107_1E114BEE",
-    SoundLength = 2450
+    SoundLength = 7860
   },
   voice_en_story_1201_120107_1E114C18 = {
     ProgrammerSoundPath = "event:/voice/en/story/1201",
@@ -136466,11 +136466,21 @@ return ReadOnly("Talk_SoundEditor", {
   voice_en_story_1201_120134_1E130A2E_f = {
     ProgrammerSoundPath = "event:/voice/en/story/1201",
     SelectKey = "voice_en_story_1201_120134_1E130A2E_f",
-    SoundLength = 2560
+    SoundLength = 5210
   },
   voice_en_story_1201_120134_1E130A2E_m = {
     ProgrammerSoundPath = "event:/voice/en/story/1201",
     SelectKey = "voice_en_story_1201_120134_1E130A2E_m",
+    SoundLength = 4690
+  },
+  voice_en_story_1201_120134_1E130A2F_f = {
+    ProgrammerSoundPath = "event:/voice/en/story/1201",
+    SelectKey = "voice_en_story_1201_120134_1E130A2F_f",
+    SoundLength = 2560
+  },
+  voice_en_story_1201_120134_1E130A2F_m = {
+    ProgrammerSoundPath = "event:/voice/en/story/1201",
+    SelectKey = "voice_en_story_1201_120134_1E130A2F_m",
     SoundLength = 2090
   },
   voice_en_story_1201_120134_1E130A58 = {
@@ -136971,7 +136981,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_en_story_1201_120140_1E13692C_m = {
     ProgrammerSoundPath = "event:/voice/en/story/1201",
     SelectKey = "voice_en_story_1201_120140_1E13692C_m",
-    SoundLength = 6170
+    SoundLength = 10520
   },
   voice_en_story_1201_120140_1E136956 = {
     ProgrammerSoundPath = "event:/voice/en/story/1201",
@@ -154433,6 +154443,16 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_001_C8C5B74A",
     SoundLength = 5130
   },
+  voice_jp_inv_Fushu_001_C8C5B774_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5B774_f",
+    SoundLength = 1050
+  },
+  voice_jp_inv_Fushu_001_C8C5B774_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5B774_m",
+    SoundLength = 970
+  },
   voice_jp_inv_Fushu_001_C8C5B79E = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
     SelectKey = "voice_jp_inv_Fushu_001_C8C5B79E",
@@ -154518,10 +154538,30 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_001_C8C5BB3A",
     SoundLength = 16410
   },
+  voice_jp_inv_Fushu_001_C8C5BB64_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5BB64_f",
+    SoundLength = 3770
+  },
+  voice_jp_inv_Fushu_001_C8C5BB64_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5BB64_m",
+    SoundLength = 4690
+  },
   voice_jp_inv_Fushu_001_C8C5BBB8 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
     SelectKey = "voice_jp_inv_Fushu_001_C8C5BBB8",
     SoundLength = 5670
+  },
+  voice_jp_inv_Fushu_001_C8C5BBE2_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5BBE2_f",
+    SoundLength = 1130
+  },
+  voice_jp_inv_Fushu_001_C8C5BBE2_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5BBE2_m",
+    SoundLength = 840
   },
   voice_jp_inv_Fushu_001_C8C5BC0C = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
@@ -154533,10 +154573,30 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_001_C8C5BC36",
     SoundLength = 11610
   },
+  voice_jp_inv_Fushu_001_C8C5BC60_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5BC60_f",
+    SoundLength = 3900
+  },
+  voice_jp_inv_Fushu_001_C8C5BC60_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5BC60_m",
+    SoundLength = 3230
+  },
   voice_jp_inv_Fushu_001_C8C5BC8A = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
     SelectKey = "voice_jp_inv_Fushu_001_C8C5BC8A",
     SoundLength = 11800
+  },
+  voice_jp_inv_Fushu_001_C8C5BCB4_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5BCB4_f",
+    SoundLength = 8370
+  },
+  voice_jp_inv_Fushu_001_C8C5BCB4_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5BCB4_m",
+    SoundLength = 8530
   },
   voice_jp_inv_Fushu_001_C8C5BCDE = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
@@ -154558,6 +154618,16 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_001_C8C5BD5C",
     SoundLength = 14160
   },
+  voice_jp_inv_Fushu_001_C8C5BD86_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5BD86_f",
+    SoundLength = 2150
+  },
+  voice_jp_inv_Fushu_001_C8C5BD86_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
+    SelectKey = "voice_jp_inv_Fushu_001_C8C5BD86_m",
+    SoundLength = 1780
+  },
   voice_jp_inv_Fushu_001_C8C5BDB0 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/001",
     SelectKey = "voice_jp_inv_Fushu_001_C8C5BDB0",
@@ -154567,6 +154637,16 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
     SelectKey = "voice_jp_inv_Fushu_002_C8C5C512",
     SoundLength = 16570
+  },
+  voice_jp_inv_Fushu_002_C8C5C53C_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C53C_f",
+    SoundLength = 4090
+  },
+  voice_jp_inv_Fushu_002_C8C5C53C_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C53C_m",
+    SoundLength = 3560
   },
   voice_jp_inv_Fushu_002_C8C5C566 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
@@ -154598,10 +154678,30 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_002_C8C5C638",
     SoundLength = 5370
   },
+  voice_jp_inv_Fushu_002_C8C5C68C_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C68C_f",
+    SoundLength = 3450
+  },
+  voice_jp_inv_Fushu_002_C8C5C68C_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C68C_m",
+    SoundLength = 2740
+  },
   voice_jp_inv_Fushu_002_C8C5C6B6 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
     SelectKey = "voice_jp_inv_Fushu_002_C8C5C6B6",
     SoundLength = 900
+  },
+  voice_jp_inv_Fushu_002_C8C5C6E0_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C6E0_f",
+    SoundLength = 5910
+  },
+  voice_jp_inv_Fushu_002_C8C5C6E0_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C6E0_m",
+    SoundLength = 5680
   },
   voice_jp_inv_Fushu_002_C8C5C70A = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
@@ -154613,10 +154713,30 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_002_C8C5C734",
     SoundLength = 3390
   },
+  voice_jp_inv_Fushu_002_C8C5C7DC_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C7DC_f",
+    SoundLength = 810
+  },
+  voice_jp_inv_Fushu_002_C8C5C7DC_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C7DC_m",
+    SoundLength = 640
+  },
   voice_jp_inv_Fushu_002_C8C5C806 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
     SelectKey = "voice_jp_inv_Fushu_002_C8C5C806",
     SoundLength = 600
+  },
+  voice_jp_inv_Fushu_002_C8C5C830_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C830_f",
+    SoundLength = 1580
+  },
+  voice_jp_inv_Fushu_002_C8C5C830_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C830_m",
+    SoundLength = 1410
   },
   voice_jp_inv_Fushu_002_C8C5C85A = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
@@ -154627,6 +154747,16 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
     SelectKey = "voice_jp_inv_Fushu_002_C8C5C884",
     SoundLength = 13220
+  },
+  voice_jp_inv_Fushu_002_C8C5C8AE_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C8AE_f",
+    SoundLength = 2660
+  },
+  voice_jp_inv_Fushu_002_C8C5C8AE_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5C8AE_m",
+    SoundLength = 2100
   },
   voice_jp_inv_Fushu_002_C8C5C8D8 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
@@ -154663,6 +154793,16 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_002_C8C5C9FE",
     SoundLength = 5700
   },
+  voice_jp_inv_Fushu_002_C8C5CA28_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5CA28_f",
+    SoundLength = 4110
+  },
+  voice_jp_inv_Fushu_002_C8C5CA28_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5CA28_m",
+    SoundLength = 3920
+  },
   voice_jp_inv_Fushu_002_C8C5CA52 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
     SelectKey = "voice_jp_inv_Fushu_002_C8C5CA52",
@@ -154677,6 +154817,16 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
     SelectKey = "voice_jp_inv_Fushu_002_C8C5CAA6",
     SoundLength = 9430
+  },
+  voice_jp_inv_Fushu_002_C8C5CAD0_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5CAD0_f",
+    SoundLength = 3660
+  },
+  voice_jp_inv_Fushu_002_C8C5CAD0_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5CAD0_m",
+    SoundLength = 2880
   },
   voice_jp_inv_Fushu_002_C8C5CAFA = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
@@ -154712,6 +154862,16 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
     SelectKey = "voice_jp_inv_Fushu_002_C8C5CC74",
     SoundLength = 6090
+  },
+  voice_jp_inv_Fushu_002_C8C5CCC8_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5CCC8_f",
+    SoundLength = 1170
+  },
+  voice_jp_inv_Fushu_002_C8C5CCC8_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5CCC8_m",
+    SoundLength = 1040
   },
   voice_jp_inv_Fushu_002_C8C5CCF2 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
@@ -154753,10 +154913,30 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_002_C8C5CE6C",
     SoundLength = 5420
   },
+  voice_jp_inv_Fushu_002_C8C5CE96_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5CE96_f",
+    SoundLength = 2810
+  },
+  voice_jp_inv_Fushu_002_C8C5CE96_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5CE96_m",
+    SoundLength = 2660
+  },
   voice_jp_inv_Fushu_002_C8C5CEC0 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
     SelectKey = "voice_jp_inv_Fushu_002_C8C5CEC0",
     SoundLength = 16540
+  },
+  voice_jp_inv_Fushu_002_C8C5CEEA_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5CEEA_f",
+    SoundLength = 3610
+  },
+  voice_jp_inv_Fushu_002_C8C5CEEA_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
+    SelectKey = "voice_jp_inv_Fushu_002_C8C5CEEA_m",
+    SoundLength = 4010
   },
   voice_jp_inv_Fushu_002_C8C5CF14 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/002",
@@ -154773,10 +154953,50 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_003_C8C5CF68",
     SoundLength = 11610
   },
+  voice_jp_inv_Fushu_003_C8C5CF92_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5CF92_f",
+    SoundLength = 1010
+  },
+  voice_jp_inv_Fushu_003_C8C5CF92_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5CF92_m",
+    SoundLength = 770
+  },
+  voice_jp_inv_Fushu_003_C8C5CFBC_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5CFBC_f",
+    SoundLength = 2010
+  },
+  voice_jp_inv_Fushu_003_C8C5CFBC_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5CFBC_m",
+    SoundLength = 1770
+  },
   voice_jp_inv_Fushu_003_C8C5CFE6 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
     SelectKey = "voice_jp_inv_Fushu_003_C8C5CFE6",
     SoundLength = 6840
+  },
+  voice_jp_inv_Fushu_003_C8C5D010_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D010_f",
+    SoundLength = 4760
+  },
+  voice_jp_inv_Fushu_003_C8C5D010_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D010_m",
+    SoundLength = 4640
+  },
+  voice_jp_inv_Fushu_003_C8C5D03A_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D03A_f",
+    SoundLength = 11220
+  },
+  voice_jp_inv_Fushu_003_C8C5D03A_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D03A_m",
+    SoundLength = 9790
   },
   voice_jp_inv_Fushu_003_C8C5D064 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
@@ -154797,6 +155017,36 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
     SelectKey = "voice_jp_inv_Fushu_003_C8C5D10C",
     SoundLength = 3500
+  },
+  voice_jp_inv_Fushu_003_C8C5D136_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D136_f",
+    SoundLength = 5210
+  },
+  voice_jp_inv_Fushu_003_C8C5D136_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D136_m",
+    SoundLength = 5520
+  },
+  voice_jp_inv_Fushu_003_C8C5D1B4_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D1B4_f",
+    SoundLength = 4600
+  },
+  voice_jp_inv_Fushu_003_C8C5D1B4_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D1B4_m",
+    SoundLength = 7210
+  },
+  voice_jp_inv_Fushu_003_C8C5D1DE_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D1DE_f",
+    SoundLength = 3090
+  },
+  voice_jp_inv_Fushu_003_C8C5D1DE_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D1DE_m",
+    SoundLength = 3330
   },
   voice_jp_inv_Fushu_003_C8C5D208 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
@@ -154822,6 +155072,16 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
     SelectKey = "voice_jp_inv_Fushu_003_C8C5D2B0",
     SoundLength = 3770
+  },
+  voice_jp_inv_Fushu_003_C8C5D2DA_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D2DA_f",
+    SoundLength = 1510
+  },
+  voice_jp_inv_Fushu_003_C8C5D2DA_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D2DA_m",
+    SoundLength = 1150
   },
   voice_jp_inv_Fushu_003_C8C5D304 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
@@ -154852,6 +155112,16 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
     SelectKey = "voice_jp_inv_Fushu_003_C8C5D454",
     SoundLength = 4830
+  },
+  voice_jp_inv_Fushu_003_C8C5D47E_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D47E_f",
+    SoundLength = 13620
+  },
+  voice_jp_inv_Fushu_003_C8C5D47E_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D47E_m",
+    SoundLength = 14010
   },
   voice_jp_inv_Fushu_003_C8C5D4A8 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
@@ -154888,10 +155158,30 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_003_C8C5D5A4",
     SoundLength = 16430
   },
+  voice_jp_inv_Fushu_003_C8C5D5CE_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D5CE_f",
+    SoundLength = 6350
+  },
+  voice_jp_inv_Fushu_003_C8C5D5CE_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D5CE_m",
+    SoundLength = 5260
+  },
   voice_jp_inv_Fushu_003_C8C5D5F8 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
     SelectKey = "voice_jp_inv_Fushu_003_C8C5D5F8",
     SoundLength = 15500
+  },
+  voice_jp_inv_Fushu_003_C8C5D622_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D622_f",
+    SoundLength = 13590
+  },
+  voice_jp_inv_Fushu_003_C8C5D622_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D622_m",
+    SoundLength = 12360
   },
   voice_jp_inv_Fushu_003_C8C5D64C = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
@@ -154918,6 +155208,16 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_003_C8C5D6F4",
     SoundLength = 6310
   },
+  voice_jp_inv_Fushu_003_C8C5D71E_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D71E_f",
+    SoundLength = 2180
+  },
+  voice_jp_inv_Fushu_003_C8C5D71E_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
+    SelectKey = "voice_jp_inv_Fushu_003_C8C5D71E_m",
+    SoundLength = 2100
+  },
   voice_jp_inv_Fushu_003_C8C5D748 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/003",
     SelectKey = "voice_jp_inv_Fushu_003_C8C5D748",
@@ -154933,10 +155233,40 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_004_C8C5E5E2",
     SoundLength = 8930
   },
+  voice_jp_inv_Fushu_004_C8C5E60C_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5E60C_f",
+    SoundLength = 1040
+  },
+  voice_jp_inv_Fushu_004_C8C5E60C_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5E60C_m",
+    SoundLength = 1070
+  },
+  voice_jp_inv_Fushu_004_C8C5E636_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5E636_f",
+    SoundLength = 8620
+  },
+  voice_jp_inv_Fushu_004_C8C5E636_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5E636_m",
+    SoundLength = 9680
+  },
   voice_jp_inv_Fushu_004_C8C5E660 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
     SelectKey = "voice_jp_inv_Fushu_004_C8C5E660",
     SoundLength = 5910
+  },
+  voice_jp_inv_Fushu_004_C8C5E68A_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5E68A_f",
+    SoundLength = 5990
+  },
+  voice_jp_inv_Fushu_004_C8C5E68A_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5E68A_m",
+    SoundLength = 5820
   },
   voice_jp_inv_Fushu_004_C8C5E6B4 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
@@ -154988,6 +155318,16 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_004_C8C5E8AC",
     SoundLength = 17500
   },
+  voice_jp_inv_Fushu_004_C8C5E900_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5E900_f",
+    SoundLength = 6380
+  },
+  voice_jp_inv_Fushu_004_C8C5E900_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5E900_m",
+    SoundLength = 6550
+  },
   voice_jp_inv_Fushu_004_C8C5E92A = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
     SelectKey = "voice_jp_inv_Fushu_004_C8C5E92A",
@@ -155013,15 +155353,45 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_004_C8C5E9FC",
     SoundLength = 8860
   },
+  voice_jp_inv_Fushu_004_C8C5EA26_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EA26_f",
+    SoundLength = 3080
+  },
+  voice_jp_inv_Fushu_004_C8C5EA26_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EA26_m",
+    SoundLength = 3010
+  },
   voice_jp_inv_Fushu_004_C8C5EA50 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
     SelectKey = "voice_jp_inv_Fushu_004_C8C5EA50",
     SoundLength = 2770
   },
+  voice_jp_inv_Fushu_004_C8C5EA7A_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EA7A_f",
+    SoundLength = 10130
+  },
+  voice_jp_inv_Fushu_004_C8C5EA7A_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EA7A_m",
+    SoundLength = 10020
+  },
   voice_jp_inv_Fushu_004_C8C5EAA4 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
     SelectKey = "voice_jp_inv_Fushu_004_C8C5EAA4",
     SoundLength = 10540
+  },
+  voice_jp_inv_Fushu_004_C8C5EACE_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EACE_f",
+    SoundLength = 2250
+  },
+  voice_jp_inv_Fushu_004_C8C5EACE_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EACE_m",
+    SoundLength = 2190
   },
   voice_jp_inv_Fushu_004_C8C5EAF8 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
@@ -155088,6 +155458,16 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_inv_Fushu_004_C8C5EDC2",
     SoundLength = 6340
   },
+  voice_jp_inv_Fushu_004_C8C5EDEC_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EDEC_f",
+    SoundLength = 9760
+  },
+  voice_jp_inv_Fushu_004_C8C5EDEC_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EDEC_m",
+    SoundLength = 9240
+  },
   voice_jp_inv_Fushu_004_C8C5EE16 = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
     SelectKey = "voice_jp_inv_Fushu_004_C8C5EE16",
@@ -155102,6 +155482,36 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
     SelectKey = "voice_jp_inv_Fushu_004_C8C5EE6A",
     SoundLength = 8300
+  },
+  voice_jp_inv_Fushu_004_C8C5EE94_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EE94_f",
+    SoundLength = 8070
+  },
+  voice_jp_inv_Fushu_004_C8C5EE94_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EE94_m",
+    SoundLength = 7920
+  },
+  voice_jp_inv_Fushu_004_C8C5EEBE_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EEBE_f",
+    SoundLength = 4950
+  },
+  voice_jp_inv_Fushu_004_C8C5EEBE_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EEBE_m",
+    SoundLength = 4960
+  },
+  voice_jp_inv_Fushu_004_C8C5EEE8_f = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EEE8_f",
+    SoundLength = 7120
+  },
+  voice_jp_inv_Fushu_004_C8C5EEE8_m = {
+    ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
+    SelectKey = "voice_jp_inv_Fushu_004_C8C5EEE8_m",
+    SoundLength = 7550
   },
   voice_jp_inv_Fushu_004_C8C5EF3C = {
     ProgrammerSoundPath = "event:/voice/jp/inv/Fushu/004",
@@ -199460,6 +199870,11 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_jp_story_1201_120123_1E125172",
     SoundLength = 6760
   },
+  voice_jp_story_1201_120123_1E12519C = {
+    ProgrammerSoundPath = "event:/voice/jp/story/1201",
+    SelectKey = "voice_jp_story_1201_120123_1E12519C",
+    SoundLength = 8600
+  },
   voice_jp_story_1201_120123_1E12519C_1 = {
     ProgrammerSoundPath = "event:/voice/jp/story/1201",
     SelectKey = "voice_jp_story_1201_120123_1E12519C_1",
@@ -199668,7 +200083,12 @@ return ReadOnly("Talk_SoundEditor", {
   voice_jp_story_1201_120125_1E1271C4_f = {
     ProgrammerSoundPath = "event:/voice/jp/story/1201",
     SelectKey = "voice_jp_story_1201_120125_1E1271C4_f",
-    SoundLength = 9610
+    SoundLength = 9470
+  },
+  voice_jp_story_1201_120125_1E1271C4_m = {
+    ProgrammerSoundPath = "event:/voice/jp/story/1201",
+    SelectKey = "voice_jp_story_1201_120125_1E1271C4_m",
+    SoundLength = 9990
   },
   voice_jp_story_1201_120125_1E1271EE_f = {
     ProgrammerSoundPath = "event:/voice/jp/story/1201",
@@ -252406,6 +252826,11 @@ return ReadOnly("Talk_SoundEditor", {
     SelectKey = "voice_kr_story_1002_510104_7FB300B4",
     SoundLength = 19170
   },
+  voice_kr_story_1002_510104_7FB300DE_f = {
+    ProgrammerSoundPath = "event:/voice/kr/story/1002",
+    SelectKey = "voice_kr_story_1002_510104_7FB300DE_f",
+    SoundLength = 2240
+  },
   voice_kr_story_1002_510104_7FB300DE_m = {
     ProgrammerSoundPath = "event:/voice/kr/story/1002",
     SelectKey = "voice_kr_story_1002_510104_7FB300DE_m",
@@ -272296,6 +272721,16 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/kr/story/1201",
     SelectKey = "voice_kr_story_1201_120210_1E17E37A",
     SoundLength = 13530
+  },
+  voice_kr_story_1201_120210_1E17E3A4_f = {
+    ProgrammerSoundPath = "event:/voice/kr/story/1201",
+    SelectKey = "voice_kr_story_1201_120210_1E17E3A4_f",
+    SoundLength = 5200
+  },
+  voice_kr_story_1201_120210_1E17E3A4_m = {
+    ProgrammerSoundPath = "event:/voice/kr/story/1201",
+    SelectKey = "voice_kr_story_1201_120210_1E17E3A4_m",
+    SoundLength = 5240
   },
   voice_kr_story_1201_120210_1E17E3CE_f = {
     ProgrammerSoundPath = "event:/voice/kr/story/1201",

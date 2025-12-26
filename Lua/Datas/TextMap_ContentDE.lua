@@ -492,6 +492,10 @@ local Data = {
           ContentDE = "Die Voraussetzungen-Tabelle besteht den Test nicht.",
           TextMapId = "Condition_Test"
         },
+        Episode_Region_None_Trans = {
+          ContentDE = "HUAXU",
+          TextMapId = "Episode_Region_None_Trans"
+        },
         Mail_Content_100001 = {
           ContentDE = "Vielen Dank für das Ausfüllen der Umfrage! Wir haben ein kleines Geschenk für dich vorbereitet.",
           TextMapId = "Mail_Content_100001"
@@ -503,10 +507,6 @@ local Data = {
         Mail_Content_100003 = {
           ContentDE = "Dies ist eine Test-E-Mail mit dem Bonuspaket 130004 (Dämonenkeil-Bundle der Nahkampfwaffe von Mittelstufe).\nLäuft in 1 Tag ab.",
           TextMapId = "Mail_Content_100003"
-        },
-        Mail_Content_10005 = {
-          ContentDE = "\n ",
-          TextMapId = "Mail_Content_10005"
         },
         Mail_Title_100001 = {
           ContentDE = "Belohnung für das Ausfüllen der Umfrage",
@@ -524,6 +524,26 @@ local Data = {
           ContentDE = "Nun, was für eine angenehme Überraschung.",
           TextMapId = "PhantomTalk_1601_Chest"
         },
+        QuestDesc_10020507 = {
+          ContentDE = "算算時間，恩里克快要出門了。\n與留在「修普諾斯之家」附近負責暗中監視恩里克的白會合吧。",
+          TextMapId = "QuestDesc_10020507"
+        },
+        READ_NAME_2000090 = {
+          ContentDE = "Avis de suspension temporaire du commerce extérieur au Port-des-Brumes",
+          TextMapId = "READ_NAME_2000090"
+        },
+        UIGuide_JiaSu_1 = {
+          ContentDE = "Toucher une Rune d’accélération augmente considérablement la Vitesse de déplacement et la distance du Bond Cyclonique.",
+          TextMapId = "UIGuide_JiaSu_1"
+        },
+        UI_Accessory_Name_40005 = {
+          ContentDE = "Hymne du vent",
+          TextMapId = "UI_Accessory_Name_40005"
+        },
+        UI_Achievement_Des_40701 = {
+          ContentDE = "Améliorer Trancheur d’ambre au Niveau 5 de fusion",
+          TextMapId = "UI_Achievement_Des_40701"
+        },
         UI_Bai_Beibao_Finish = {
           ContentDE = "Tschüss!",
           TextMapId = "UI_Bai_Beibao_Finish"
@@ -531,6 +551,18 @@ local Data = {
         UI_Bai_Beibao_Start = {
           ContentDE = "Zeig mal, was für gute Sachen du diesmal gefunden hast!",
           TextMapId = "UI_Bai_Beibao_Start"
+        },
+        UI_CHAR_DATA_TEXT_31010402 = {
+          ContentDE = "Ce n’était qu’une mission banale. Du moins, c’est ce que Lynn avait cru. Transporter une cargaison : une tâche simple, comme elle n’en avait pas eue depuis longtemps. Le soulagement d’un moment de répit lui fit presque oublier de s’interroger : pourquoi payer aussi cher pour une simple livraison ?\nMais ce n’était qu’un piège, tendu par ses employeurs. Lynn, pensaient-ils, est une arme fiable, qui ne rate jamais sa cible. Mais une arme reste une arme. Et il était temps de lui faire révéler toute sa valeur.\nLes marques tracées sur la carte, les habits conçus pour dissimuler une silhouette féminine, le cliquetis sec du chargeur enclenché, Lynn avait, comme toujours, préparé chaque détail. Pourtant, à l’endroit convenu, ce n’était pas un "destinataire" qui l’attendait... mais une escouade de soldats impériaux, armes au poing.\n« Utiliser une fille comme appât pour couvrir sa fuite... pas très chevaleresque. » ricana celui qui semblait être leur chef. « Mais vous, mademoiselle, je pense qu’on devrait discuter ailleurs, non ? »\n\nLynn ne se souvenait plus combien de fois elle avait pressé la gâchette ce jour-là. Jusqu’à ce que le chargeur soit vide. Même la tête plaquée dans la boue, elle continuait à tirer mécaniquement, suppliant en silence qu’un ultime miracle surgisse de ce petit morceau de métal. \nElle le savait pourtant : nul ne s’échappe du filet de la XIIIᵉ Légion. \nDans une flaque à quelques pas, elle aperçut l’officier blond s’approcher, silhouette découpée à contre-jour, ses bottes militaires soulevant l’eau sale. « Je crois que vous devriez écouter ce que j’ai à proposer, Mademoiselle Lynn. »\n\n« Dis-moi pourquoi tu veux rejoindre la Légion. » Derrière la vitre d’interrogatoire, celle qu’on appelait la « Commandante » parlait d’un ton calme. \n« Randy, tais-toi. Laisse-la répondre. »\n« Parce que... » dit-elle. Lynn inspira profondément. Elle repensa à ce crépuscule, un mois plus tôt. L’eau stagnante, le reflet rouge sang du ciel. « Ce fichu ciel rouge, ce soir-là... il était magnifique. » murmura-t-elle. « J’aimerais le revoir... encore quelques fois. »",
+          TextMapId = "UI_CHAR_DATA_TEXT_31010402"
+        },
+        UI_CMNpc_Name_LiHuan = {
+          ContentDE = "Li Huan",
+          TextMapId = "UI_CMNpc_Name_LiHuan"
+        },
+        UI_PatchFix_Popup = {
+          ContentDE = "Voulez-vous effacer le cache et retélécharger les données ? (Vos données sauvegardées ne seront pas supprimées.)",
+          TextMapId = "UI_PatchFix_Popup"
         },
         UI_SystemNotice_TestContent = {
           ContentDE = "德语测试文本",

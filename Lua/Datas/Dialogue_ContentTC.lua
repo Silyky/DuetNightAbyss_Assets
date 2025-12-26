@@ -4764,7 +4764,7 @@ local Data = {
           SpeakNpcName = "StoryNPC_Flynn"
         },
         [6201519] = {
-          ContentTC = "我……只是習慣了而已。我也曾經迷茫過、後悔過、絕望過，但現在，我已經接受了。",
+          ContentTC = "我……只是習慣了而已。",
           DialogueId = 6201519,
           GUID = "0F865CB6",
           NextDialogue = 6201527,
@@ -4826,7 +4826,7 @@ local Data = {
           RougeTalkActorType = 3
         },
         [6201527] = {
-          Content = "我也曾经迷茫过、后悔过、绝望过，但现在，我已经接受了。",
+          ContentTC = "我也曾經迷茫過、後悔過、絕望過，但現在，我已經接受了。",
           DialogueId = 6201527,
           GUID = "0F865CB7",
           NextDialogue = 6201520,
@@ -76973,7 +76973,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1200/120045/1E0D509C"
         },
         [12004503] = {
-          Content = "任务失败，请重新开始。",
+          ContentTC = "任務失敗，請重新開始。",
           DialogueId = 12004503,
           GUID = "1E0D509D",
           SpeakNpcId = 200002
@@ -79742,7 +79742,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120108/1E115CAA"
         },
         [12010818] = {
-          ContentTC = "所以，這次我要委托你們的，便是孤身深入已徹底濁化的石漠塵海，將其中的<W>三片燭陰鱗</>取來，好為重新封印這個孽獸做準備。",
+          ContentTC = "所以，這次我要委托你們的，便是孤身深入已徹底濁化的塵漠石海，將其中的<W>三片燭陰鱗</>取來，好為重新封印這個孽獸做準備。",
           DialogueId = 12010818,
           GUID = "1E115CD4",
           NextDialogue = 12010819,
@@ -82410,7 +82410,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120127/1E1295B2"
         },
         [12012726] = {
-          ContentTC = "至於其中妙用……去請教它的鍛造者吧。公尚師傅想必已迫不及待地要顯擺自己的手藝了，他就在石漠塵海的入口處等著你們。",
+          ContentTC = "至於其中妙用……去請教它的鍛造者吧。公尚師傅想必已迫不及待地要顯擺自己的手藝了，他就在塵漠石海的入口處等著你們。",
           DialogueId = 12012726,
           GUID = "1E1295DC",
           NextDialogue = 12012727,
@@ -83500,7 +83500,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120134/1E130B7E"
         },
         [12013444] = {
-          ContentTC = "（震動不安的心跳聲）",
+          ContentTC = "……",
           DialogueId = 12013444,
           GUID = "1E130BA8",
           NextDialogue = 12013445,
@@ -89804,7 +89804,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120207/1E17B392"
         },
         [12020710] = {
-          ContentTC = "……我明白了。您可以去石漠塵海最高處的位置，那裡通往燭陰祭壇的臨時道路已經搭建完畢。",
+          ContentTC = "……我明白了。您可以去塵漠石海最高處的位置，那裡通往燭陰祭壇的臨時道路已經搭建完畢。",
           DialogueId = 12020710,
           GUID = "1E17B3BC",
           NextDialogue = 12020711,
@@ -89953,7 +89953,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120210/1E17E37A"
         },
         [12021002] = {
-          ContentTC = "（……！又出現了，先前在石漠塵海聽到的那個聲音。）",
+          ContentTC = "（……！又出現了，先前在塵漠石海聽到的那個聲音。）",
           DialogueId = 12021002,
           Duration = 2,
           GUID = "1E17E3A4",
@@ -90462,7 +90462,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120223/1E18B9E8"
         },
         [12022309] = {
-          ContentTC = "聽鴉原一別後，我尋思師兄可能往石漠塵海的方向去了，便在這附近徘徊遊蕩。",
+          ContentTC = "聽鴉原一別後，我尋思師兄可能往塵漠石海的方向去了，便在這附近徘徊遊蕩。",
           DialogueId = 12022309,
           GUID = "1E18BA12",
           NextDialogue = 12022310,
@@ -91509,7 +91509,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120233/1E195DCE"
         },
         [12023308] = {
-          ContentTC = "我們在石漠塵海的頂端預知到這裡的危險，連忙趕了回來。好在還來得及。",
+          ContentTC = "我們在塵漠石海的頂端預知到這裡的危險，連忙趕了回來。好在還來得及。",
           DialogueId = 12023308,
           GUID = "1E195DF8",
           NextDialogue = 12023309,
@@ -91569,7 +91569,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120233/1E195EF4"
         },
         [12023315] = {
-          ContentTC = "我曾聽聞，在石漠塵海的深處存在某種濁氣。沾染上濁氣的人，會出現幻聽、幻視、幻憶等種種跡象，需要歇息半晌才能好轉。",
+          ContentTC = "我曾聽聞，在塵漠石海的深處存在某種濁氣。沾染上濁氣的人，會出現幻聽、幻視、幻憶等種種跡象，需要歇息半晌才能好轉。",
           DialogueId = 12023315,
           GUID = "1E195F1E",
           NextDialogue = 12023316,
@@ -109209,7 +109209,7 @@ local Data = {
           Subtitle = "For your information, we Charons aren't all cut from the same cloth!"
         },
         [51001609] = {
-          ContentTC = "老子打小就拿人類的標準要求自己，從來不跟其他卡戎紮堆。你見過哪個卡戎像我這麼說話？告訴你，這是標準的迪斯瑪尼亞口音！",
+          ContentTC = "老子打小就拿索拉的標準要求自己，從來不跟其他卡戎紮堆。你見過哪個卡戎像我這麼說話？告訴你，這是標準的迪斯瑪尼亞口音！",
           DialogueId = 51001609,
           GUID = "7FAD5B7A",
           NextDialogue = 51001691,
@@ -109225,7 +109225,7 @@ local Data = {
           Subtitle = "Jealous, huh? Well, I've earned this!"
         },
         [51001611] = {
-          ContentTC = "現在懂了嗎？比起你們，我更像是人類，這就是為什麼我能夠成為長官，而你只能穿得破破爛爛，活脫脫一個乞丐。",
+          ContentTC = "現在懂了嗎？比起你們，我更像是索拉，這就是為什麼我能夠成為長官，而你只能穿得破破爛爛，活脫脫一個乞丐。",
           DialogueId = 51001611,
           GUID = "7FAD5BCE",
           NextDialogue = 51001612,
@@ -109233,7 +109233,7 @@ local Data = {
           Subtitle = "Got it? I'm more human than any of you could ever be, that's why I've become an officer, while you roam around in rags like a beggar."
         },
         [51001612] = {
-          ContentTC = "行了，跟你說這麼說是因為我和人類一樣，心地善良，就當是免費給你們上一課。去其他地方要飯去，別讓我再看見你，晦氣。",
+          ContentTC = "行了，跟你說這麼說是因為我和索拉一樣，心地善良，就當是免費給你們上一課。去其他地方要飯去，別讓我再看見你，晦氣。",
           DialogueId = 51001612,
           GUID = "7FAD5BF8",
           NextOptions = {
@@ -109384,7 +109384,7 @@ local Data = {
           Subtitle = "What, you again? Didn't I tell you to get out of my sight?"
         },
         [51001691] = {
-          ContentTC = "我的人類朋友都說，只聽我說話，根本聽不出來是卡戎還是人類。",
+          ContentTC = "我的索拉朋友都說，只聽我說話，根本聽不出來是卡戎還是索拉。",
           DialogueId = 51001691,
           GUID = "7FAD68EE",
           NextDialogue = 51001610,
@@ -133995,7 +133995,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100090] = {
-          ContentTC = "人之性情稟賦，不可強行扭轉，既然愛笑，就隨{性别:他|她}笑吧。",
+          ContentTC = "人之性情稟賦，不可強行扭轉，既然愛笑，就隨他笑吧。",
           DialogueId = 51100090,
           DisableMouth = 0,
           GUID = "7FEC7884",
@@ -139011,7 +139011,7 @@ local Data = {
           }
         },
         [51105515] = {
-          Content = "（一阵有一些激烈但不那么激烈的打斗声）",
+          ContentTC = "（一陣有一些激烈但不那麼激烈的打鬥聲）",
           DialogueId = 51105515,
           GUID = "7FEFF28E",
           Scripts = "PlayNormalSound{EventPath{"event:/sfx/common/story/jiaojiao/fight"},PlayAs2D{true}}"
@@ -139507,152 +139507,152 @@ local Data = {
           ToFinalCameraBlendTime = 7
         },
         [51105801] = {
-          ContentTC = "釋放魔靈「奇跡紫紗黑雲」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「紫紗黑雲」的技能，參加慶典。",
           DialogueId = 51105801,
           GUID = "7FF0217A"
         },
         [51105802] = {
-          ContentTC = "釋放魔靈「銳意紫紗黑雲」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「紫紗黑雲」的技能，參加慶典。",
           DialogueId = 51105802,
           GUID = "7FF021A4"
         },
         [51105803] = {
-          ContentTC = "釋放魔靈「奇跡雨衣水滴」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「雨衣水滴」的技能，參加慶典。",
           DialogueId = 51105803,
           GUID = "7FF021CE"
         },
         [51105804] = {
-          ContentTC = "釋放魔靈「銳意雨衣水滴」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「雨衣水滴」的技能，參加慶典。",
           DialogueId = 51105804,
           GUID = "7FF021F8"
         },
         [51105805] = {
-          ContentTC = "釋放魔靈「奇跡打火雞」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「打火雞」的技能，參加慶典。",
           DialogueId = 51105805,
           GUID = "7FF02222"
         },
         [51105806] = {
-          ContentTC = "釋放魔靈「銳意打火雞」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「打火雞」的技能，參加慶典。",
           DialogueId = 51105806,
           GUID = "7FF0224C"
         },
         [51105807] = {
-          ContentTC = "釋放魔靈「奇跡炸毛球」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「炸毛球」的技能，參加慶典。",
           DialogueId = 51105807,
           GUID = "7FF02276"
         },
         [51105808] = {
-          ContentTC = "釋放魔靈「銳意炸毛球」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「炸毛球」的技能，參加慶典。",
           DialogueId = 51105808,
           GUID = "7FF022A0"
         },
         [51105809] = {
-          ContentTC = "釋放魔靈「奇跡搖曳菇」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「搖曳菇」的技能，參加慶典。",
           DialogueId = 51105809,
           GUID = "7FF022CA"
         },
         [51105810] = {
-          ContentTC = "釋放魔靈「銳意搖曳菇」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「搖曳菇」的技能，參加慶典。",
           DialogueId = 51105810,
           GUID = "7FF022F4"
         },
         [51105811] = {
-          ContentTC = "釋放魔靈「奇跡閃靈鈴」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「閃靈鈴」的技能，參加慶典。",
           DialogueId = 51105811,
           GUID = "7FF0231E"
         },
         [51105812] = {
-          ContentTC = "釋放魔靈「銳意閃靈鈴」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「閃靈鈴」的技能，參加慶典。",
           DialogueId = 51105812,
           GUID = "7FF02348"
         },
         [51105813] = {
-          ContentTC = "釋放魔靈「奇跡你好箱」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「你好箱」的技能，參加慶典。",
           DialogueId = 51105813,
           GUID = "7FF02372"
         },
         [51105814] = {
-          ContentTC = "釋放魔靈「銳意你好箱」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「你好箱」的技能，參加慶典。",
           DialogueId = 51105814,
           GUID = "7FF0239C"
         },
         [51105815] = {
-          ContentTC = "釋放魔靈「奇跡珍珠兔」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「珍珠兔」的技能，參加慶典。",
           DialogueId = 51105815,
           GUID = "7FF023C6"
         },
         [51105816] = {
-          ContentTC = "釋放魔靈「銳意珍珠兔」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「珍珠兔」的技能，參加慶典。",
           DialogueId = 51105816,
           GUID = "7FF023F0"
         },
         [51105817] = {
-          ContentTC = "釋放魔靈「奇跡好夢先生」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「好夢先生」的技能，參加慶典。",
           DialogueId = 51105817,
           GUID = "7FF0241A"
         },
         [51105818] = {
-          ContentTC = "釋放魔靈「銳意好夢先生」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「好夢先生」的技能，參加慶典。",
           DialogueId = 51105818,
           GUID = "7FF02444"
         },
         [51105819] = {
-          ContentTC = "釋放魔靈「奇跡浮魷燈」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「浮魷燈」的技能，參加慶典。",
           DialogueId = 51105819,
           GUID = "7FF0246E"
         },
         [51105820] = {
-          ContentTC = "釋放魔靈「銳意浮魷燈」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「浮魷燈」的技能，參加慶典。",
           DialogueId = 51105820,
           GUID = "7FF02498"
         },
         [51105821] = {
-          ContentTC = "釋放魔靈「奇跡糖霜白兔」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「糖霜白兔」的技能，參加慶典。",
           DialogueId = 51105821,
           GUID = "7FF024C2"
         },
         [51105822] = {
-          ContentTC = "釋放魔靈「銳意糖霜白兔」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「糖霜白兔」的技能，參加慶典。",
           DialogueId = 51105822,
           GUID = "7FF024EC"
         },
         [51105823] = {
-          ContentTC = "釋放魔靈「奇跡搖搖火尾」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「搖搖火尾」的技能，參加慶典。",
           DialogueId = 51105823,
           GUID = "7FF02516"
         },
         [51105824] = {
-          ContentTC = "釋放魔靈「銳意搖搖火尾」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「搖搖火尾」的技能，參加慶典。",
           DialogueId = 51105824,
           GUID = "7FF02540"
         },
         [51105825] = {
-          ContentTC = "釋放魔靈「奇跡劈啪貓車」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「劈啪貓車」的技能，參加慶典。",
           DialogueId = 51105825,
           GUID = "7FF0256A"
         },
         [51105826] = {
-          ContentTC = "釋放魔靈「銳意劈啪貓車」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「劈啪貓車」的技能，參加慶典。",
           DialogueId = 51105826,
           GUID = "7FF02594"
         },
         [51105827] = {
-          ContentTC = "釋放魔靈「奇跡綿綿草」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「綿綿草」的技能，參加慶典。",
           DialogueId = 51105827,
           GUID = "7FF025BE"
         },
         [51105828] = {
-          ContentTC = "釋放魔靈「銳意綿綿草」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「綿綿草」的技能，參加慶典。",
           DialogueId = 51105828,
           GUID = "7FF025E8"
         },
         [51105829] = {
-          ContentTC = "釋放魔靈「奇跡球球蜂」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「球球蜂」的技能，參加慶典。",
           DialogueId = 51105829,
           GUID = "7FF02612"
         },
         [51105830] = {
-          ContentTC = "釋放魔靈「銳意球球蜂」的技能，參加慶典。",
+          ContentTC = "釋放魔靈「球球蜂」的技能，參加慶典。",
           DialogueId = 51105830,
           GUID = "7FF0263C"
         },
@@ -151425,7 +151425,7 @@ local Data = {
         },
         [51140077] = {
           Camera = "-24.294922,12.818359,82.566406,0.000001,0.0,-178.519165,18.36294,75.471931,false,Manual,2.8",
-          Content = "……我明白了！扶疏的姐姐救治的那个病人，不是尾生的妻子，而是尾生自己！他的妻子早就过世了，而他得了心病，一直以为自己的妻子还在身边！",
+          ContentTC = "……我明白了！扶疏的姐姐救治的那個病人，不是尾生的妻子，而是尾生自己！他的妻子早就過世了，而他得了心病，一直以為自己的妻子還在身邊！",
           DialogueId = 51140077,
           FacialId = {
             [1] = "200002:Smile01"
@@ -153425,7 +153425,7 @@ local Data = {
           VoiceName = "sfx/boss/Tuosi/vo_$Locale$_Skill08"
         },
         [60180001] = {
-          Content = "近吾者，必罹天劫！",
+          ContentTC = "近吾者，必罹天劫！",
           DialogueId = 60180001,
           Duration = 3,
           GUID = "9834E965",
@@ -153433,7 +153433,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleStart"
         },
         [60180002] = {
-          Content = "吼————",
+          ContentTC = "吼————",
           DialogueId = 60180002,
           Duration = 3,
           GUID = "9834E966",
@@ -153441,7 +153441,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Condemn"
         },
         [60180003] = {
-          Content = "俱往矣……",
+          ContentTC = "俱往矣……",
           DialogueId = 60180003,
           Duration = 3,
           GUID = "9834E967",
@@ -153449,7 +153449,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleEnd"
         },
         [60180004] = {
-          Content = "晦暝临世。",
+          ContentTC = "晦暝臨世。",
           DialogueId = 60180004,
           Duration = 4,
           GUID = "9834E968",
@@ -153457,7 +153457,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill05"
         },
         [60180005] = {
-          Content = "吼————",
+          ContentTC = "吼————",
           DialogueId = 60180005,
           Duration = 5,
           GUID = "9834E969",
@@ -153465,7 +153465,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill06"
         },
         [60180006] = {
-          Content = "曀曀其阴，虺虺其雷——",
+          ContentTC = "曀曀其陰，虺虺其雷——",
           DialogueId = 60180006,
           Duration = 3,
           GUID = "9834E970",
@@ -160394,7 +160394,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100102] = {
-          Content = "浮名洗尽始见心，风月不染本来明。",
+          ContentTC = "浮名洗盡始見心，風月不染本來明。",
           DialogueId = 72100102,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160404,7 +160404,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100103] = {
-          Content = "远道而来的朋友，你拂开繁花，可曾窥见自己明朗的本心呢？",
+          ContentTC = "遠道而來的朋友，你拂開繁花，可曾窺見自己明朗的本心呢？",
           DialogueId = 72100103,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160438,7 +160438,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100202] = {
-          Content = "好似做了个久远的美梦……",
+          ContentTC = "好似做了個久遠的美夢……",
           DialogueId = 72100202,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160448,7 +160448,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100203] = {
-          Content = "梦见孩提时，娘亲牵着我的手去渡口买糖人。",
+          ContentTC = "夢見孩提時，娘親牽著我的手去渡口買糖人。",
           DialogueId = 72100203,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160482,7 +160482,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100302] = {
-          Content = "要被太阳抓住了！都怪你，我被太阳抓起来了！",
+          ContentTC = "要被太陽抓住了！都怪你，我被太陽抓起來了！",
           DialogueId = 72100302,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160492,7 +160492,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100303] = {
-          Content = "唔……比起被太阳抓住，还不如被你抓住……",
+          ContentTC = "唔……比起被太陽抓住，還不如被你抓住……",
           DialogueId = 72100303,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160526,7 +160526,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100402] = {
-          Content = "空中飘来的味道是什么香料，吿苍，还是春一品？",
+          ContentTC = "空中飄來的味道是什麼香料，吿蒼，還是春一品？",
           DialogueId = 72100402,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160536,7 +160536,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100403] = {
-          Content = "不如我自制的香方，可惜，我再也做不出了。",
+          ContentTC = "不如我自製的香方，可惜，我再也做不出了。",
           DialogueId = 72100403,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160570,7 +160570,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100502] = {
-          Content = "我儿梁卿！你可安好？",
+          ContentTC = "我兒梁卿！你可安好？",
           DialogueId = 72100502,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160580,7 +160580,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100503] = {
-          Content = "咦？不是我儿？你是谁……？",
+          ContentTC = "咦？不是我兒？你是誰……？",
           DialogueId = 72100503,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160614,7 +160614,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100602] = {
-          Content = "如果沿着高高的大树往天上爬，就可以接近太皓大人吗？",
+          ContentTC = "如果沿著高高的大樹往天上爬，就可以接近太皓大人嗎？",
           DialogueId = 72100602,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160624,7 +160624,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100603] = {
-          Content = "那要爬多久呢？十年，一百年，够不够呢？",
+          ContentTC = "那要爬多久呢？十年，一百年，夠不夠呢？",
           DialogueId = 72100603,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160658,7 +160658,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100702] = {
-          Content = "好冷……浑身都好冷，感觉牙齿要被冻掉下来了。",
+          ContentTC = "好冷……渾身都好冷，感覺牙齒要被凍掉下來了。",
           DialogueId = 72100702,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160668,7 +160668,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100703] = {
-          Content = "等等，原来我没有牙齿吗？那这种战栗的感觉是……",
+          ContentTC = "等等，原來我沒有牙齒嗎？那這種戰慄的感覺是……",
           DialogueId = 72100703,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160702,7 +160702,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100802] = {
-          Content = "我以前总来这里看天空，好像可以从云层后面望见我自己。",
+          ContentTC = "我以前總來這裡看天空，好像可以從雲層後面望見我自己。",
           DialogueId = 72100802,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160712,7 +160712,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100803] = {
-          Content = "现在不用看啦，毕竟我再也看不到我自己啦~",
+          ContentTC = "現在不用看啦，畢竟我再也看不到我自己啦~",
           DialogueId = 72100803,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160746,7 +160746,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100902] = {
-          Content = "你喜欢什么颜色？豆绿还是鹤灰？",
+          ContentTC = "你喜歡什麼顏色？豆綠還是鶴灰？",
           DialogueId = 72100902,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160756,7 +160756,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100903] = {
-          Content = "我啊，我喜欢云水蓝，就像我的身体一样蓝。",
+          ContentTC = "我啊，我喜歡雲水藍，就像我的身體一樣藍。",
           DialogueId = 72100903,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160790,7 +160790,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101002] = {
-          Content = "尘漠铺天盖地，分不清方向，也辨别不了来路……",
+          ContentTC = "塵漠鋪天蓋地，分不清方向，也辨別不了來路……",
           DialogueId = 72101002,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160800,7 +160800,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101003] = {
-          Content = "还好有你为我指明方向。谢谢你，远道而来的朋友。",
+          ContentTC = "還好有你為我指明方向。謝謝你，遠道而來的朋友。",
           DialogueId = 72101003,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160834,7 +160834,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101102] = {
-          Content = "噫哈哈！被你发现啦！一切都在我的计谋之中！",
+          ContentTC = "噫哈哈！被你發現啦！一切都在我的計謀之中！",
           DialogueId = 72101102,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160844,7 +160844,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101103] = {
-          Content = "按照计划，下一步该把这个交给你了！",
+          ContentTC = "按照計劃，下一步該把這個交給你了！",
           DialogueId = 72101103,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160922,7 +160922,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101302] = {
-          Content = "水流拍击石块，浸润泥土，滋养生命。",
+          ContentTC = "水流拍擊石塊，浸潤泥土，滋養生命。",
           DialogueId = 72101302,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160932,7 +160932,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101303] = {
-          Content = "我听说大家最后都会去一个叫忘川的地方，忘川……也是这样的一条小溪吗？",
+          ContentTC = "我聽說大家最後都會去一個叫忘川的地方，忘川……也是這樣的一條小溪嗎？",
           DialogueId = 72101303,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160966,7 +160966,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101402] = {
-          Content = "芦苇草，高又高，藏里面，看不到。",
+          ContentTC = "蘆葦草，高又高，藏裡面，看不到。",
           DialogueId = 72101402,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160976,7 +160976,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101403] = {
-          Content = "嘻嘻，要不是这片芦苇地秃了一块，你又怎么能发现我呢？",
+          ContentTC = "嘻嘻，要不是這片蘆葦地禿了一塊，你又怎麼能發現我呢？",
           DialogueId = 72101403,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161010,7 +161010,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101502] = {
-          Content = "这根尖尖的石头是怎么形成的呢？我在这里观察了好久。",
+          ContentTC = "這根尖尖的石頭是怎麼形成的呢？我在這裡觀察了好久。",
           DialogueId = 72101502,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161020,7 +161020,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101503] = {
-          Content = "它这么尖，用来做成一把锐利的长矛最为合适。",
+          ContentTC = "它這麼尖，用來做成一把銳利的長矛最為合適。",
           DialogueId = 72101503,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161054,7 +161054,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101602] = {
-          Content = "斜坡！斜坡！我乘着风，踏着花，从坡上呼啸而下。",
+          ContentTC = "斜坡！斜坡！我乘著風，踏著花，從坡上呼嘯而下。",
           DialogueId = 72101602,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161064,7 +161064,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101603] = {
-          Content = "呜呼！莫要拦我！",
+          ContentTC = "嗚呼！莫要攔我！",
           DialogueId = 72101603,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161098,7 +161098,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101702] = {
-          Content = "这些明黄的色彩，是落叶还是花瓣？",
+          ContentTC = "這些明黃的色彩，是落葉還是花瓣？",
           DialogueId = 72101702,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161108,7 +161108,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101703] = {
-          Content = "不知道……但包裹我的却是粉紫色，你一定一眼就发现了吧。",
+          ContentTC = "不知道……但包裹我的卻是粉紫色，你一定一眼就發現了吧。",
           DialogueId = 72101703,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -207351,14 +207351,14 @@ local Data = {
           NextDialogue = 12013526
         },
         [120136021] = {
-          Content = "还是先拜访扶疏吧。",
+          ContentTC = "還是先拜訪扶疏吧。",
           DialogueId = 120136021,
           GUID = "120136021.0",
           ImprPlusId = 1204,
           Scripts = "SetOutport{FinishType{2},OptionIdx{1}}"
         },
         [120136022] = {
-          Content = "去了解虬先生的委托详情。",
+          ContentTC = "去了解虬先生的委託詳情。",
           DialogueId = 120136022,
           GUID = "120136022.0",
           ImprPlusId = 1201,
@@ -207439,14 +207439,14 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120193/1E16CD3A"
         },
         [120223281] = {
-          ContentTC = "我不想看著華胥陷入禍亂，我想看看有什麼我能做的。共情+",
+          ContentTC = "我不想看著華胥陷入禍亂，我想看看有什麼我能做的。",
           DialogueId = 120223281,
           GUID = "120223281.0",
           ImprPlusId = 1204,
           NextDialogue = 12022329
         },
         [120223282] = {
-          ContentTC = "今天實在是發生了太多事情，我只想回冰湖城……功利+",
+          ContentTC = "今天實在是發生了太多事情，我只想回冰湖城……",
           DialogueId = 120223282,
           GUID = "120223282.0",
           ImprPlusId = 1201,
@@ -208493,7 +208493,7 @@ local Data = {
           Subtitle = "(He seems temperamental. Maybe touching his horns will calm him down.)"
         },
         [510016022] = {
-          ContentTC = "卡戎和人類是平等的。你不該心存偏見。",
+          ContentTC = "卡戎和索拉是平等的。你不該心存偏見。",
           DialogueId = 510016022,
           GUID = "510016022.0",
           ImprPlusId = 1002,

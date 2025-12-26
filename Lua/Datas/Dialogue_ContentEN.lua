@@ -4764,7 +4764,7 @@ local Data = {
           SpeakNpcName = "StoryNPC_Flynn"
         },
         [6201519] = {
-          ContentEN = "I... just grew used to it. I've felt lost, regretful, hopeless... but now, I've come to terms with it.",
+          ContentEN = "I... just grew used to it. ",
           DialogueId = 6201519,
           GUID = "0F865CB6",
           NextDialogue = 6201527,
@@ -4826,7 +4826,7 @@ local Data = {
           RougeTalkActorType = 3
         },
         [6201527] = {
-          Content = "我也曾经迷茫过、后悔过、绝望过，但现在，我已经接受了。",
+          ContentEN = "I've felt lost, regretful, hopeless... but now, I've come to terms with it.",
           DialogueId = 6201527,
           GUID = "0F865CB7",
           NextDialogue = 6201520,
@@ -73767,7 +73767,7 @@ local Data = {
         },
         [12001327] = {
           Camera = "7325.71875,5494.020508,541.855469,0.000293,22.789042,-159.560425,20.0,500.0,false,Manual,10.0",
-          ContentEN = "The tiny fairy flew towards the monstrous creatures...",
+          ContentEN = "The tiny fairy flew towards the monstrous creature...",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12001327,
           FinalCamera = "7183.162109,5440.892578,605.769531,0.000291,26.788889,-155.961044,20.0,500.0,false,Manual,10.0",
@@ -73777,7 +73777,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1200/120013/1E0B47B6"
         },
         [12001328] = {
-          ContentEN = "...only for its delicate limbs to snap beneath their might.",
+          ContentEN = "...only for its delicate limbs to snap beneath its might.",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12001328,
           FacialId = {
@@ -76974,7 +76974,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1200/120045/1E0D509C"
         },
         [12004503] = {
-          Content = "任务失败，请重新开始。",
+          ContentEN = "Quest failed, please try again.",
           DialogueId = 12004503,
           GUID = "1E0D509D",
           SpeakNpcId = 200002
@@ -78918,7 +78918,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120105/1E112E66"
         },
         [12010536] = {
-          ContentEN = "*let out a laugh* So even the great Demon King has a knack for that.",
+          ContentEN = "Haha, so even the great Demon King has a knack for that.",
           DialogueId = 12010536,
           GUID = "1E112E90",
           NextDialogue = 12010537,
@@ -79156,7 +79156,7 @@ local Data = {
         },
         [12010709] = {
           Camera = "-10.451172,-172.71875,172.462891,0.000043,-13.01181,100.396614,24.0,100000.0,false,Manual,22.0",
-          ContentEN = "...I lost my cool earlier. Now that I've calmed down and thought it over, I realise I was in the wrong.",
+          ContentEN = "...I lost my voice earlier. Now that I've calmed down and thought it over, I realise I was in the wrong.",
           DialogueId = 12010709,
           FacialId = {
             [1] = "210006:CM_Sad01"
@@ -79743,7 +79743,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120108/1E115CAA"
         },
         [12010818] = {
-          ContentEN = "That is why I am entrusting you with this commission: you shall go alone into the tainted wastes of the Gritblight Expanse, and secure for me </W>three Zhuyin Scales</> — for they are essential to the sealing ritual.",
+          ContentEN = "That is why I am entrusting you with this commission: you shall go alone into the tainted wastes of the Gritblight Expanse, and secure for me <W>three Zhuyin Scales</> — for they are essential to the sealing ritual.",
           DialogueId = 12010818,
           GUID = "1E115CD4",
           NextDialogue = 12010819,
@@ -83235,7 +83235,7 @@ local Data = {
         },
         [12013418] = {
           Camera = "402.217285,92.511482,100.202637,0.000005,-6.600066,-172.393372,35.000008,555.878662,false,DoNotOverride,2.8",
-          ContentEN = "*sigh* Such a slow-witted child. "Taixu" means that which is formless and without colour, yet it pervades all that exists. It is the primal Chaos, the breath of creation at the dawn of the world.",
+          ContentEN = "Such a slow-witted child. "Taixu" means that which is formless and without colour, yet it pervades all that exists. It is the primal Chaos, the breath of creation at the dawn of the world.",
           DialogueId = 12013418,
           FacialId = {
             [1] = "210014:CM_Sad01"
@@ -83501,7 +83501,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120134/1E130B7E"
         },
         [12013444] = {
-          ContentEN = "(A heartbeat, heavy and echoing with unease)",
+          ContentEN = "...",
           DialogueId = 12013444,
           GUID = "1E130BA8",
           NextDialogue = 12013445,
@@ -89394,7 +89394,7 @@ local Data = {
         },
         [12020301] = {
           Camera = "-78.574219,498.462891,113.020996,0.000014,-0.99994,-74.596542,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "*sigh*... Finally got to see my shixiong again, only for you lot to ruin everything. Now he's slipped away once more.",
+          ContentEN = "Finally got to see my shixiong again, only for you lot to ruin everything. Now he's slipped away once more.",
           DialogueId = 12020301,
           GUID = "1E1770A2",
           NextDialogue = 12020302,
@@ -89592,7 +89592,7 @@ local Data = {
         },
         [12020501] = {
           Camera = "-8.78125,29.299316,151.603027,0.000004,-2.785276,-161.556458,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "*Sigh*",
+          ContentEN = "...",
           DialogueId = 12020501,
           FacialId = {
             [1] = "210021:Unhappy01"
@@ -90559,7 +90559,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120223/1E18BBE0"
         },
         [12022321] = {
-          ContentEN = "The age of the <H>Lord Argent</> Sovereign ends here. And I shall claim its mantle.",
+          ContentEN = "The age of the <H>Lord Argent</> Sovereign ends here. And I shall claim Their mantle.",
           DialogueId = 12022321,
           GUID = "1E18BC0A",
           NextDialogue = 12022322,
@@ -91518,7 +91518,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120233/1E195DF8"
         },
         [12023309] = {
-          ContentEN = "Hey, Little Minion — shouldn't you tell Zhiliu about that voice you heard when we were gathering those scales?",
+          ContentEN = "Hey, Little Minion — shouldn't you tell Zhiliu about the voice you heard when we were gathering those scales?",
           DialogueId = 12023309,
           GUID = "1E195E22",
           NextDialogue = 12023310,
@@ -106461,7 +106461,7 @@ local Data = {
     Loader = function()
       return {
         [50103901] = {
-          ContentEN = "Listen well. The first of the Nine Chapters says: "To wound or to kill — this must not be done."",
+          ContentEN = "Listen well. The first of the Nine Chapters says: "To wound or kill — this must not be done."",
           DialogueId = 50103901,
           GUID = "7D6E0B42",
           SpeakNpcId = 701044,
@@ -136285,7 +136285,7 @@ local Data = {
         },
         [51103036] = {
           Camera = "-343.328125,-542.464844,187.925781,0.000128,-9.042596,61.258392,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "Hah! None who’ve savoured the wonders of fine craft ever leave unimpressed. And don't worry — I've set up plenty more in Mistwharf. You're welcome to test yourself further.",
+          ContentEN = "Hah! None who've savoured the wonders of fine craft ever leave unimpressed. And don't worry — I've set up plenty more in Mistwharf. You're welcome to test yourself further.",
           DialogueId = 51103036,
           GUID = "7FEE5B06",
           NextDialogue = 51103042,
@@ -139012,7 +139012,7 @@ local Data = {
           }
         },
         [51105515] = {
-          Content = "（一阵有一些激烈但不那么激烈的打斗声）",
+          ContentEN = "(The sound of a scuffle — coming from a fight that couldn't quite commit to being serious.)",
           DialogueId = 51105515,
           GUID = "7FEFF28E",
           Scripts = "PlayNormalSound{EventPath{"event:/sfx/common/story/jiaojiao/fight"},PlayAs2D{true}}"
@@ -139508,152 +139508,152 @@ local Data = {
           ToFinalCameraBlendTime = 7
         },
         [51105801] = {
-          ContentEN = "Use Geniemon "Miraculous Equinex" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Equinex" 's skill to join the celebration",
           DialogueId = 51105801,
           GUID = "7FF0217A"
         },
         [51105802] = {
-          ContentEN = "Use Geniemon "Ardent Equinex" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Equinex" 's skill to join the celebration",
           DialogueId = 51105802,
           GUID = "7FF021A4"
         },
         [51105803] = {
-          ContentEN = "Use Geniemon "Miraculous Dripplet" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Dripplet" 's skill to join the celebration",
           DialogueId = 51105803,
           GUID = "7FF021CE"
         },
         [51105804] = {
-          ContentEN = "Use Geniemon "Ardent Dripplet" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Dripplet" 's skill to join the celebration",
           DialogueId = 51105804,
           GUID = "7FF021F8"
         },
         [51105805] = {
-          ContentEN = "Use Geniemon "Miraculous Zippyro" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Zippyro" 's skill to join the celebration",
           DialogueId = 51105805,
           GUID = "7FF02222"
         },
         [51105806] = {
-          ContentEN = "Use Geniemon "Ardent Zippyro" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Zippyro" 's skill to join the celebration",
           DialogueId = 51105806,
           GUID = "7FF0224C"
         },
         [51105807] = {
-          ContentEN = "Use Geniemon "Miraculous Cubolt" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Cubolt" 's skill to join the celebration",
           DialogueId = 51105807,
           GUID = "7FF02276"
         },
         [51105808] = {
-          ContentEN = "Use Geniemon "Ardent Cubolt" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Cubolt" 's skill to join the celebration",
           DialogueId = 51105808,
           GUID = "7FF022A0"
         },
         [51105809] = {
-          ContentEN = "Use Geniemon "Miraculous Shroomie" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Shroomie" 's skill to join the celebration",
           DialogueId = 51105809,
           GUID = "7FF022CA"
         },
         [51105810] = {
-          ContentEN = "Use Geniemon "Ardent Shroomie" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Shroomie" 's skill to join the celebration",
           DialogueId = 51105810,
           GUID = "7FF022F4"
         },
         [51105811] = {
-          ContentEN = "Use Geniemon "Miraculous Lumi" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Lumi" 's skill to join the celebration",
           DialogueId = 51105811,
           GUID = "7FF0231E"
         },
         [51105812] = {
-          ContentEN = "Use Geniemon "Ardent Lumi" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Lumi" 's skill to join the celebration",
           DialogueId = 51105812,
           GUID = "7FF02348"
         },
         [51105813] = {
-          ContentEN = "Use Geniemon "Miraculous Bro Boxie" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Bro Boxie" 's skill to join the celebration",
           DialogueId = 51105813,
           GUID = "7FF02372"
         },
         [51105814] = {
-          ContentEN = "Use Geniemon "Ardent Bro Boxie" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Bro Boxie" 's skill to join the celebration",
           DialogueId = 51105814,
           GUID = "7FF0239C"
         },
         [51105815] = {
-          ContentEN = "Use Geniemon "Miraculous Pearabbit" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Pearabbit" 's skill to join the celebration",
           DialogueId = 51105815,
           GUID = "7FF023C6"
         },
         [51105816] = {
-          ContentEN = "Use Geniemon "Ardent Pearabbit" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Pearabbit" 's skill to join the celebration",
           DialogueId = 51105816,
           GUID = "7FF023F0"
         },
         [51105817] = {
-          ContentEN = "Use Geniemon "Miraculous Mr Goodnight" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Mr Goodnight" 's skill to join the celebration",
           DialogueId = 51105817,
           GUID = "7FF0241A"
         },
         [51105818] = {
-          ContentEN = "Use Geniemon "Ardent Mr Goodnight" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Mr Goodnight" 's skill to join the celebration",
           DialogueId = 51105818,
           GUID = "7FF02444"
         },
         [51105819] = {
-          ContentEN = "Use Geniemon "Miraculous Nebuthis" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Nebuthis" 's skill to join the celebration",
           DialogueId = 51105819,
           GUID = "7FF0246E"
         },
         [51105820] = {
-          ContentEN = "Use Geniemon "Ardent Nebuthis" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Nebuthis" 's skill to join the celebration",
           DialogueId = 51105820,
           GUID = "7FF02498"
         },
         [51105821] = {
-          ContentEN = "Use Geniemon "Miraculous Bunniva" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Bunniva" 's skill to join the celebration",
           DialogueId = 51105821,
           GUID = "7FF024C2"
         },
         [51105822] = {
-          ContentEN = "Use Geniemon "Ardent Bunniva" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Bunniva" 's skill to join the celebration",
           DialogueId = 51105822,
           GUID = "7FF024EC"
         },
         [51105823] = {
-          ContentEN = "Use Geniemon "Miraculous Pyrootail" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Pyrootail" 's skill to join the celebration",
           DialogueId = 51105823,
           GUID = "7FF02516"
         },
         [51105824] = {
-          ContentEN = "Use Geniemon "Ardent Pyrootail" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Pyrootail" 's skill to join the celebration",
           DialogueId = 51105824,
           GUID = "7FF02540"
         },
         [51105825] = {
-          ContentEN = "Use Geniemon "Miraculous Catizz" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Catizz" 's skill to join the celebration",
           DialogueId = 51105825,
           GUID = "7FF0256A"
         },
         [51105826] = {
-          ContentEN = "Use Geniemon "Ardent Catizz" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Catizz" 's skill to join the celebration",
           DialogueId = 51105826,
           GUID = "7FF02594"
         },
         [51105827] = {
-          ContentEN = "Use Geniemon "Miraculous Dandemeow" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Dandemeow" 's skill to join the celebration",
           DialogueId = 51105827,
           GUID = "7FF025BE"
         },
         [51105828] = {
-          ContentEN = "Use Geniemon "Ardent Dandemeow" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Dandemeow" 's skill to join the celebration",
           DialogueId = 51105828,
           GUID = "7FF025E8"
         },
         [51105829] = {
-          ContentEN = "Use Geniemon "Miraculous Ballbee" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Ballbee" 's skill to join the celebration",
           DialogueId = 51105829,
           GUID = "7FF02612"
         },
         [51105830] = {
-          ContentEN = "Use Geniemon "Ardent Ballbee" 's skill to join the celebration",
+          ContentEN = "Use Geniemon "Ballbee" 's skill to join the celebration",
           DialogueId = 51105830,
           GUID = "7FF0263C"
         },
@@ -139875,7 +139875,7 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51105918] = {
-          ContentEN = "I admit it — my heart's always been set on the martial path. But every time I bring up martial arts, people get all tense and start quoting things like "To wound or to kill — this must not be done."",
+          ContentEN = "I admit it — my heart's always been set on the martial path. But every time I bring up martial arts, people get all tense and start quoting things like "To wound or kill — this must not be done."",
           DialogueId = 51105918,
           GUID = "7FF034AC",
           NextDialogue = 51105919,
@@ -150940,7 +150940,7 @@ local Data = {
         },
         [51140033] = {
           Camera = "333.445312,-77.007812,119.176392,0.000049,3.105147,176.364456,35.0,100000.0,false,DoNotOverride,7.0",
-          ContentEN = "My life was never worth much in the first place. There is no need to feel sorry for me. All I ask is that you go to <H>the Hall of Ephemerality</> — House Fu's clinic — and ask after Xianshu for me.",
+          ContentEN = "My life was never worth much in the first place. There is no need to feel sorry for me. All I ask is that you go to <H>the Hall of Ephemerality</> — clinic run by the House of Zhuyou — and ask after Xianshu for me.",
           DialogueId = 51140033,
           GUID = "800611AA",
           SpeakNpcId = 701074
@@ -151426,7 +151426,7 @@ local Data = {
         },
         [51140077] = {
           Camera = "-24.294922,12.818359,82.566406,0.000001,0.0,-178.519165,18.36294,75.471931,false,Manual,2.8",
-          Content = "……我明白了！扶疏的姐姐救治的那个病人，不是尾生的妻子，而是尾生自己！他的妻子早就过世了，而他得了心病，一直以为自己的妻子还在身边！",
+          ContentEN = "Oh! I get it now! The patient Fushu's sister treated wasn't his wife at all — it was Weisheng himself! His wife had died long before, and he was so heartbroken he kept believing she was still beside him!",
           DialogueId = 51140077,
           FacialId = {
             [1] = "200002:Smile01"
@@ -153426,7 +153426,7 @@ local Data = {
           VoiceName = "sfx/boss/Tuosi/vo_$Locale$_Skill08"
         },
         [60180001] = {
-          Content = "近吾者，必罹天劫！",
+          ContentEN = "Draw nigh, and be smitten by divine ire!",
           DialogueId = 60180001,
           Duration = 3,
           GUID = "9834E965",
@@ -153434,7 +153434,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleStart"
         },
         [60180002] = {
-          Content = "吼————",
+          ContentEN = "GRRRAAAUGH!",
           DialogueId = 60180002,
           Duration = 3,
           GUID = "9834E966",
@@ -153442,7 +153442,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Condemn"
         },
         [60180003] = {
-          Content = "俱往矣……",
+          ContentEN = "All... is naught.",
           DialogueId = 60180003,
           Duration = 3,
           GUID = "9834E967",
@@ -153450,7 +153450,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleEnd"
         },
         [60180004] = {
-          Content = "晦暝临世。",
+          ContentEN = "Behold... the world's eve falleth.",
           DialogueId = 60180004,
           Duration = 4,
           GUID = "9834E968",
@@ -153458,7 +153458,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill05"
         },
         [60180005] = {
-          Content = "吼————",
+          ContentEN = "ROOOAAAR—!",
           DialogueId = 60180005,
           Duration = 5,
           GUID = "9834E969",
@@ -153466,7 +153466,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill06"
         },
         [60180006] = {
-          Content = "曀曀其阴，虺虺其雷——",
+          ContentEN = "Heavens doth blacken, thunder rolls damnation!",
           DialogueId = 60180006,
           Duration = 3,
           GUID = "9834E970",
@@ -160395,7 +160395,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100102] = {
-          Content = "浮名洗尽始见心，风月不染本来明。",
+          ContentEN = "Strip away the fleeting fame, and the true heart is revealed.\nUntouched by worldly dust, its original clarity remains.",
           DialogueId = 72100102,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160405,7 +160405,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100103] = {
-          Content = "远道而来的朋友，你拂开繁花，可曾窥见自己明朗的本心呢？",
+          ContentEN = "Traveler from afar, as you brush aside the blossoms of your past, have you glimpsed your own bright and clear heart?",
           DialogueId = 72100103,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160439,7 +160439,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100202] = {
-          Content = "好似做了个久远的美梦……",
+          ContentEN = "Feels like I had a long, beautiful dream...",
           DialogueId = 72100202,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160449,7 +160449,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100203] = {
-          Content = "梦见孩提时，娘亲牵着我的手去渡口买糖人。",
+          ContentEN = "I dreamed of when I was a child, holding my mother's hand, going to the wharf to buy a sugar figurine.",
           DialogueId = 72100203,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160483,7 +160483,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100302] = {
-          Content = "要被太阳抓住了！都怪你，我被太阳抓起来了！",
+          ContentEN = "The sun's gonna catch me! It's all your fault — I‘ve been caught by the sun!",
           DialogueId = 72100302,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160493,7 +160493,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100303] = {
-          Content = "唔……比起被太阳抓住，还不如被你抓住……",
+          ContentEN = "Hmm... I'd rather be caught by you than by the sun...",
           DialogueId = 72100303,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160527,7 +160527,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100402] = {
-          Content = "空中飘来的味道是什么香料，吿苍，还是春一品？",
+          ContentEN = "What's that scent drifting on the air? Sky Lily? Or perhaps Vernal Prime?",
           DialogueId = 72100402,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160537,7 +160537,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100403] = {
-          Content = "不如我自制的香方，可惜，我再也做不出了。",
+          ContentEN = "Not as good as my own blend. A pity... I can't make it anymore.",
           DialogueId = 72100403,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160571,7 +160571,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100502] = {
-          Content = "我儿梁卿！你可安好？",
+          ContentEN = "Liang Qing, my child! Are you well?",
           DialogueId = 72100502,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160581,7 +160581,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100503] = {
-          Content = "咦？不是我儿？你是谁……？",
+          ContentEN = "Oh? Not my child? Then who... are you?",
           DialogueId = 72100503,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160615,7 +160615,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100602] = {
-          Content = "如果沿着高高的大树往天上爬，就可以接近太皓大人吗？",
+          ContentEN = "If I climb a tall tree all the way up, can I get closer to Lord Taihao?",
           DialogueId = 72100602,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160625,7 +160625,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100603] = {
-          Content = "那要爬多久呢？十年，一百年，够不够呢？",
+          ContentEN = "How long would it take? Ten years? A hundred? Would that be enough?",
           DialogueId = 72100603,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160659,7 +160659,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100702] = {
-          Content = "好冷……浑身都好冷，感觉牙齿要被冻掉下来了。",
+          ContentEN = "So chilly... I'm freezing all over. Feels like my teeth are about to shatter.",
           DialogueId = 72100702,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160669,7 +160669,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100703] = {
-          Content = "等等，原来我没有牙齿吗？那这种战栗的感觉是……",
+          ContentEN = "Wait... I don't have teeth, do I? Then this shivering feeling is from...",
           DialogueId = 72100703,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160703,7 +160703,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100802] = {
-          Content = "我以前总来这里看天空，好像可以从云层后面望见我自己。",
+          ContentEN = "I used to come here to gaze at the sky. It was like I could see myself behind the clouds.",
           DialogueId = 72100802,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160713,7 +160713,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100803] = {
-          Content = "现在不用看啦，毕竟我再也看不到我自己啦~",
+          ContentEN = "No need to look now. After all, I can't see myself anymore!",
           DialogueId = 72100803,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160747,7 +160747,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100902] = {
-          Content = "你喜欢什么颜色？豆绿还是鹤灰？",
+          ContentEN = "What's your favourite colour? Light green, or crane-gray?",
           DialogueId = 72100902,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160757,7 +160757,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100903] = {
-          Content = "我啊，我喜欢云水蓝，就像我的身体一样蓝。",
+          ContentEN = "I love cloud-water blue. Just like my... body.",
           DialogueId = 72100903,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160791,7 +160791,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101002] = {
-          Content = "尘漠铺天盖地，分不清方向，也辨别不了来路……",
+          ContentEN = "The Gritblight blots out the sky. No sense of direction, can't even tell where I came from...",
           DialogueId = 72101002,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160801,7 +160801,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101003] = {
-          Content = "还好有你为我指明方向。谢谢你，远道而来的朋友。",
+          ContentEN = "Lucky to have you show me the way. Thank you, friend from afar.",
           DialogueId = 72101003,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160835,7 +160835,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101102] = {
-          Content = "噫哈哈！被你发现啦！一切都在我的计谋之中！",
+          ContentEN = "E-hehe! You found me! All according to my grand scheme!",
           DialogueId = 72101102,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160845,7 +160845,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101103] = {
-          Content = "按照计划，下一步该把这个交给你了！",
+          ContentEN = "As planned, the next step is to give you this!",
           DialogueId = 72101103,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160923,7 +160923,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101302] = {
-          Content = "水流拍击石块，浸润泥土，滋养生命。",
+          ContentEN = "Water strikes stone, soaks the earth, and gives life to all things.",
           DialogueId = 72101302,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160933,7 +160933,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101303] = {
-          Content = "我听说大家最后都会去一个叫忘川的地方，忘川……也是这样的一条小溪吗？",
+          ContentEN = "I've heard that in the end, everyone goes to a place called the River of Forgetting. Is this river... a stream like this one too?",
           DialogueId = 72101303,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160967,7 +160967,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101402] = {
-          Content = "芦苇草，高又高，藏里面，看不到。",
+          ContentEN = "Reeds so tall, tall and deep. Hide inside, secrets keep.",
           DialogueId = 72101402,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160977,7 +160977,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101403] = {
-          Content = "嘻嘻，要不是这片芦苇地秃了一块，你又怎么能发现我呢？",
+          ContentEN = "Hehe, if not for this bald patch in the reeds, how could you ever have found me?",
           DialogueId = 72101403,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161011,7 +161011,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101502] = {
-          Content = "这根尖尖的石头是怎么形成的呢？我在这里观察了好久。",
+          ContentEN = "How was this sharp stone formed? I've been watching it for so long.",
           DialogueId = 72101502,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161021,7 +161021,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101503] = {
-          Content = "它这么尖，用来做成一把锐利的长矛最为合适。",
+          ContentEN = "It's so sharp. It would make a perfect, keen spear.",
           DialogueId = 72101503,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161055,7 +161055,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101602] = {
-          Content = "斜坡！斜坡！我乘着风，踏着花，从坡上呼啸而下。",
+          ContentEN = "The slope calls! I ride the wind, tread the blooms, and race it to the bottom!",
           DialogueId = 72101602,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161065,7 +161065,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101603] = {
-          Content = "呜呼！莫要拦我！",
+          ContentEN = "Woo-hoo! Don't try to stop me!",
           DialogueId = 72101603,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161099,7 +161099,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101702] = {
-          Content = "这些明黄的色彩，是落叶还是花瓣？",
+          ContentEN = "These bright yellow colours... Are they fallen leaves, or petals?",
           DialogueId = 72101702,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161109,7 +161109,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101703] = {
-          Content = "不知道……但包裹我的却是粉紫色，你一定一眼就发现了吧。",
+          ContentEN = "I don't know... But what envelops me is pink and purple. You must have spotted that right away, didn't you?",
           DialogueId = 72101703,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -196238,7 +196238,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Fushu/004/C8C5EEE8"
         },
         [80200357] = {
-          ContentEN = "Black screen text: Fushu does not reply. As before, she places the grass blade upon her tongue. But this time, there is no tension, no reproach — only the rhythm of her breath, and a faint murmur from the depths of a dream.",
+          ContentEN = "Fushu does not reply. As before, she places the grass blade upon her tongue. But this time, there is no tension, no reproach — only the rhythm of her breath, and a faint murmur from the depths of a dream.",
           DialogueId = 80200357,
           Duration = 2,
           GUID = "C8C5EF12",
@@ -207140,13 +207140,13 @@ local Data = {
           NextDialogue = 12010414
         },
         [120104291] = {
-          ContentEN = "A man is measured by the strength of his word;",
+          ContentEN = "A man is measured by the strength of his word",
           DialogueId = 120104291,
           GUID = "120104291.0",
           NextDialogue = 12010432
         },
         [120104292] = {
-          ContentEN = "To break faith or betray a vow — this must not be done.",
+          ContentEN = "To break faith or betray a vow — this must not be done",
           DialogueId = 120104292,
           GUID = "120104292.0",
           NextDialogue = 12010432
@@ -207352,14 +207352,14 @@ local Data = {
           NextDialogue = 12013526
         },
         [120136021] = {
-          Content = "还是先拜访扶疏吧。",
+          ContentEN = "Let's go check on Fushu first.",
           DialogueId = 120136021,
           GUID = "120136021.0",
           ImprPlusId = 1204,
           Scripts = "SetOutport{FinishType{2},OptionIdx{1}}"
         },
         [120136022] = {
-          Content = "去了解虬先生的委托详情。",
+          ContentEN = "Let's have a look at Mr Qiu's commission.",
           DialogueId = 120136022,
           GUID = "120136022.0",
           ImprPlusId = 1201,

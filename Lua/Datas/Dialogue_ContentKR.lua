@@ -4764,7 +4764,7 @@ local Data = {
           SpeakNpcName = "StoryNPC_Flynn"
         },
         [6201519] = {
-          ContentKR = "그냥... 익숙해진 것뿐이에요. 저도 한때 방황하고, 후회하고, 절망했지만, 이젠 다 받아들였어요.",
+          ContentKR = "그냥... 익숙해진 것뿐이에요. ",
           DialogueId = 6201519,
           GUID = "0F865CB6",
           NextDialogue = 6201527,
@@ -4826,7 +4826,7 @@ local Data = {
           RougeTalkActorType = 3
         },
         [6201527] = {
-          Content = "我也曾经迷茫过、后悔过、绝望过，但现在，我已经接受了。",
+          ContentKR = "저도 한때 방황하고, 후회하고, 절망했지만, 이젠 다 받아들였어요.",
           DialogueId = 6201527,
           GUID = "0F865CB7",
           NextDialogue = 6201520,
@@ -75043,7 +75043,7 @@ local Data = {
         },
         [12001543] = {
           Camera = "-998.7005,558.96875,116.302734,0.00046,0.623241,-24.26104,35.000008,73.319519,false,DoNotOverride,10.0",
-          ContentKR = "하하, 네가 오기 전에, 우리 스노우랑 존 영감이 지금 황제님이 누구신지 두고 갑자기 말다툼을 벌였거든. 그러다 결국 내기까지 갔는데, 당연히 스노우가 동전 열 개를 졌지.",
+          ContentKR = "하하, 네가 오기 전에, 우리 스노우랑 존 영감이 지금 황제님이 누구신지 두고 갑자기 말다툼을 벌였거든. 그러다 결국 내기까지 갔는데, 당연히 스노우가 동전 열 개를 잃었지.",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12001543,
           FacialId = {
@@ -76681,7 +76681,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1200/120018/1E0B97C6"
         },
         [12001816] = {
-          ContentKR = "마침 일이 하나 있는데 손이 모자라네. 화서에서 훼페르보레아로 돌아가는 비행선이 7일 후 출발하니, 그동안 괜찮다면 도와주면 어떨까?",
+          ContentKR = "마침 일이 하나 있는데 손이 모자라네. 화서에서 휘페르보레아로 돌아가는 비행선이 7일 후 출발하니, 그동안 괜찮다면 도와주면 어떨까?",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12001816,
           GUID = "1E0B97F0",
@@ -76749,7 +76749,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1200/120018/1E0B98EC"
         },
         [12001823] = {
-          ContentKR = "걱정하지 않아도 돼. 다른 도시에도 내가 고용한 임시 인력들이 있거든. 여기저기 던져놓은 미끼 덕분에 훼페르보레아 제국 병사들은 오늘 밤 아무 성과 없이 허탕을 치게 될 거야. 그들은 너희가 아이스레이크 시티에 있다는 걸 알아채지는 못할 거야.",
+          ContentKR = "걱정하지 않아도 돼. 다른 도시에도 내가 고용한 임시 인력들이 있거든. 여기저기 던져놓은 미끼 덕분에 휘페르보레아 제국 병사들은 오늘 밤 아무 성과 없이 허탕을 치게 될 거야. 그들은 너희가 아이스레이크 시티에 있다는 걸 알아채지는 못할 거야.",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12001823,
           GUID = "1E0B9916",
@@ -76975,7 +76975,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1200/120045/1E0D509C"
         },
         [12004503] = {
-          Content = "任务失败，请重新开始。",
+          ContentKR = "퀘스트 실패, 다시 시작해 주세요.",
           DialogueId = 12004503,
           GUID = "1E0D509D",
           SpeakNpcId = 200002
@@ -83502,7 +83502,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120134/1E130B7E"
         },
         [12013444] = {
-          ContentKR = "(불안하게 뛰는 심장 소리)",
+          ContentKR = "……",
           DialogueId = 12013444,
           GUID = "1E130BA8",
           NextDialogue = 12013445,
@@ -89253,7 +89253,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120200/1E173FE8"
         },
         [12020005] = {
-          ContentKR = "하하하...! 오로지 사람을 다치게 한 사실만 따지고, 그 동기나 옳고 그름은 논하지 않는다? 응천위, 자네가 지키는 이치란 고작 그런 케케묵은 논리인가?",
+          ContentKR = "하하하...! 사람을 다치게 한 사실만 따지고, 그 동기나 시비는 논하지 않는다? 응천위, 자네가 지키는 이치란 고작 그런 케케묵은 논리인가?",
           DialogueId = 12020005,
           Duration = 5,
           GUID = "1E174012",
@@ -89930,7 +89930,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120209/1E17D4E0"
         },
         [12020913] = {
-          ContentKR = "두립, 일단 부상자를 데리고 가자.",
+          ContentKR = "두립, 일단 부상자를 데리고 가죠.",
           DialogueId = 12020913,
           GUID = "1E13468F",
           SpeakNpcId = 210004,
@@ -90188,7 +90188,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120220/1E1889AC"
         },
         [12022015] = {
-          ContentKR = "촉룡, 방금 그건 당신의 기억인가요?! 대체 제게 뭘 말하고 싶은 거예요?",
+          ContentKR = "촉룡, 방금 그건 당신의 기억인가요?! 대체 제게 뭘 말하고 싶은 거죠?",
           DialogueId = 12022015,
           GUID = "1E1889D6",
           NextDialogue = 12022016,
@@ -90375,7 +90375,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120222/1E18AB78"
         },
         [12022221] = {
-          ContentKR = "흠.",
+          ContentKR = "쯧, 철수.",
           DialogueId = 12022221,
           GUID = "1E18AB79",
           VoiceName = "voice/$Locale$/story/1201/120222/1E18AB79"
@@ -90700,14 +90700,14 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120225/1E18D9BC"
         },
         [12022503] = {
-          ContentKR = "참을 드러내고 거짓을 버려 진실로서 정성을 다할지니, 망령된 말로 무리를 속이지 말지어다.",
+          ContentKR = "참을 드러내고 거짓을 버려 진실로서 정성을 다할지니,\n망령된 말로 무리를 속이지 말지어다.",
           DialogueId = 12022503,
           GUID = "1E18D9E6",
           SnapShot = "ECHO",
           VoiceName = "voice/$Locale$/story/1201/120225/1E18D9E6"
         },
         [12022504] = {
-          ContentKR = "스스로를 낮추어 겸양으로 자신을 다스릴지니, 오만방자하여 전횡을 일삼지 말지어다.",
+          ContentKR = "스스로를 낮추어 겸양으로 자신을 다스릴지니,\n오만방자하여 전횡을 일삼지 말지어다.",
           DialogueId = 12022504,
           GUID = "1E18DA10",
           NextDialogue = 12022505,
@@ -90715,7 +90715,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120225/1E18DA10"
         },
         [12022505] = {
-          ContentKR = "어진 이를 높이고 손을 벗 삼아 질서를 지키는 것이 '예'이니, 방탕하거나 방종하지 말지어다.",
+          ContentKR = "어진 이를 높이고 손을 벗 삼아 질서를 지키는 것이 '예'이니,\n방탕하거나 방종하지 말지어다.",
           DialogueId = 12022505,
           GUID = "1E18DA3A",
           NextDialogue = 12022506,
@@ -90723,14 +90723,14 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120225/1E18DA3A"
         },
         [12022506] = {
-          ContentKR = "나를 미루어 남을 헤아리고, 옮음을 행함이 '의'이니, 힘을 믿고 약자를 업신여기지 말지어다.",
+          ContentKR = "나를 미루어 남을 헤아리고, 옮음을 행함이 '의'이니,\n힘을 믿고 약자를 업신여기지 말지어다.",
           DialogueId = 12022506,
           GUID = "1E18DA64",
           SnapShot = "ECHO",
           VoiceName = "voice/$Locale$/story/1201/120225/1E18DA64"
         },
         [12022507] = {
-          ContentKR = "맑은 마음으로 몸가짐을 단정히 하는 것이 '염'이니, 법을 어기고 탐욕과 잔학을 행하지 말지어다.",
+          ContentKR = "맑은 마음으로 몸가짐을 단정히 하는 것이 '염'이니,\n법을 어기고 탐욕과 잔학을 행하지 말지어다.",
           DialogueId = 12022507,
           GUID = "1E18DA8E",
           NextDialogue = 12022508,
@@ -90746,7 +90746,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120225/1E18DAB8"
         },
         [12022509] = {
-          ContentKR = "하늘의 법도에 경청하여 엄숙히 대하는 것이 '경'이니, 정도를 벗어나 도리를 위배하지 말지어다.",
+          ContentKR = "하늘의 법도에 경청하여 엄숙히 대하는 것이 '경'이니,\n정도를 벗어나 도리를 위배하지 말지어다.",
           DialogueId = 12022509,
           GUID = "1E18DAE2",
           SnapShot = "ECHO",
@@ -90784,7 +90784,7 @@ local Data = {
           GUID = "1E18DBB4"
         },
         [12022515] = {
-          ContentKR = "쯧, 철수",
+          ContentKR = "쯧, 철수.",
           DialogueId = 12022515,
           Duration = 4,
           GUID = "1E18DBDE"
@@ -139013,7 +139013,7 @@ local Data = {
           }
         },
         [51105515] = {
-          Content = "（一阵有一些激烈但不那么激烈的打斗声）",
+          ContentKR = "(격렬하지만 아주 격렬하지는 않는 싸움 소리가 들려온다.)",
           DialogueId = 51105515,
           GUID = "7FEFF28E",
           Scripts = "PlayNormalSound{EventPath{"event:/sfx/common/story/jiaojiao/fight"},PlayAs2D{true}}"
@@ -139509,152 +139509,152 @@ local Data = {
           ToFinalCameraBlendTime = 7
         },
         [51105801] = {
-          ContentKR = "마령 '기적의 보랏빛 먹구름'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '보랏빛 먹구름'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105801,
           GUID = "7FF0217A"
         },
         [51105802] = {
-          ContentKR = "마령 '굳센 보랏빛 먹구름'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '보랏빛 먹구름'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105802,
           GUID = "7FF021A4"
         },
         [51105803] = {
-          ContentKR = "마령 '기적의 또로록'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '또로록'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105803,
           GUID = "7FF021CE"
         },
         [51105804] = {
-          ContentKR = "마령 '굳센 또로록'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '또로록'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105804,
           GUID = "7FF021F8"
         },
         [51105805] = {
-          ContentKR = "마령 '기적의 불닭이'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '불닭이'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105805,
           GUID = "7FF02222"
         },
         [51105806] = {
-          ContentKR = "마령 '굳센 불닭이'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '불닭이'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105806,
           GUID = "7FF0224C"
         },
         [51105807] = {
-          ContentKR = "마령 '기적의 폭돌이'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '폭돌이'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105807,
           GUID = "7FF02276"
         },
         [51105808] = {
-          ContentKR = "마령 '굳센 폭돌이'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '폭돌이'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105808,
           GUID = "7FF022A0"
         },
         [51105809] = {
-          ContentKR = "마령 '기적의 흔들흔들 버섯'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '흔들흔들 버섯'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105809,
           GUID = "7FF022CA"
         },
         [51105810] = {
-          ContentKR = "마령 '굳센 흔들흔들 버섯'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '흔들흔들 버섯'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105810,
           GUID = "7FF022F4"
         },
         [51105811] = {
-          ContentKR = "마령 '기적의 루미'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '루미'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105811,
           GUID = "7FF0231E"
         },
         [51105812] = {
-          ContentKR = "마령 '굳센 루미'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '루미'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105812,
           GUID = "7FF02348"
         },
         [51105813] = {
-          ContentKR = "마령 '기적의 안녕 상자'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '안녕 상자'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105813,
           GUID = "7FF02372"
         },
         [51105814] = {
-          ContentKR = "마령 '굳센 안녕 상자'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '안녕 상자'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105814,
           GUID = "7FF0239C"
         },
         [51105815] = {
-          ContentKR = "마령 '기적의 드워프 토끼'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '드워프 토끼'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105815,
           GUID = "7FF023C6"
         },
         [51105816] = {
-          ContentKR = "마령 '굳센 드워프 토끼'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '드워프 토끼'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105816,
           GUID = "7FF023F0"
         },
         [51105817] = {
-          ContentKR = "마령 '기적의 좋은꿈 씨'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '좋은꿈 씨'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105817,
           GUID = "7FF0241A"
         },
         [51105818] = {
-          ContentKR = "마령 '굳센 좋은꿈 씨'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '좋은꿈 씨'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105818,
           GUID = "7FF02444"
         },
         [51105819] = {
-          ContentKR = "마령 '기적의 오징어등'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '오징어등'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105819,
           GUID = "7FF0246E"
         },
         [51105820] = {
-          ContentKR = "마령 '굳센 오징어등'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '오징어등'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105820,
           GUID = "7FF02498"
         },
         [51105821] = {
-          ContentKR = "마령 '기적의 슈가래빗'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '슈가래빗'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105821,
           GUID = "7FF024C2"
         },
         [51105822] = {
-          ContentKR = "마령 '굳센 슈가래빗'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '슈가래빗'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105822,
           GUID = "7FF024EC"
         },
         [51105823] = {
-          ContentKR = "마령 '기적의 흔들흔들 꼬리'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '흔들흔들 꼬리'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105823,
           GUID = "7FF02516"
         },
         [51105824] = {
-          ContentKR = "마령 '굳센 흔들흔들 꼬리'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '흔들흔들 꼬리'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105824,
           GUID = "7FF02540"
         },
         [51105825] = {
-          ContentKR = "마령 '기적의 애옹카'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '애옹카'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105825,
           GUID = "7FF0256A"
         },
         [51105826] = {
-          ContentKR = "마령 '굳센 애옹카'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '애옹카'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105826,
           GUID = "7FF02594"
         },
         [51105827] = {
-          ContentKR = "마령 '기적의 솜털풀'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '솜털풀'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105827,
           GUID = "7FF025BE"
         },
         [51105828] = {
-          ContentKR = "마령 '굳센 솜털풀'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '솜털풀'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105828,
           GUID = "7FF025E8"
         },
         [51105829] = {
-          ContentKR = "마령 '기적의 통통벌'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '통통벌'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105829,
           GUID = "7FF02612"
         },
         [51105830] = {
-          ContentKR = "마령 '굳센 통통벌'의 스킬을 시전해 축제에 참가",
+          ContentKR = "마령 '통통벌'의 스킬을 시전해 축제에 참가",
           DialogueId = 51105830,
           GUID = "7FF0263C"
         },
@@ -151427,7 +151427,7 @@ local Data = {
         },
         [51140077] = {
           Camera = "-24.294922,12.818359,82.566406,0.000001,0.0,-178.519165,18.36294,75.471931,false,Manual,2.8",
-          Content = "……我明白了！扶疏的姐姐救治的那个病人，不是尾生的妻子，而是尾生自己！他的妻子早就过世了，而他得了心病，一直以为自己的妻子还在身边！",
+          ContentKR = "...알았다! 부소 언니네 언니가 치료해 준 환자는 우직생 본인이었던 거야! 아내는 진작 죽었는데, 우직생은 마음의 병 때문에 계속 아내가 살아 있다고 생각했던 거지!",
           DialogueId = 51140077,
           FacialId = {
             [1] = "200002:Smile01"
@@ -153427,7 +153427,7 @@ local Data = {
           VoiceName = "sfx/boss/Tuosi/vo_$Locale$_Skill08"
         },
         [60180001] = {
-          Content = "近吾者，必罹天劫！",
+          ContentKR = "가까이 오는 자는 천벌을 받을지어다!",
           DialogueId = 60180001,
           Duration = 3,
           GUID = "9834E965",
@@ -153435,7 +153435,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleStart"
         },
         [60180002] = {
-          Content = "吼————",
+          ContentKR = "크억————!",
           DialogueId = 60180002,
           Duration = 3,
           GUID = "9834E966",
@@ -153443,7 +153443,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Condemn"
         },
         [60180003] = {
-          Content = "俱往矣……",
+          ContentKR = "끝나버렸구나...",
           DialogueId = 60180003,
           Duration = 3,
           GUID = "9834E967",
@@ -153451,7 +153451,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleEnd"
         },
         [60180004] = {
-          Content = "晦暝临世。",
+          ContentKR = "진정한 암흑이 깨어난다.",
           DialogueId = 60180004,
           Duration = 4,
           GUID = "9834E968",
@@ -153459,7 +153459,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill05"
         },
         [60180005] = {
-          Content = "吼————",
+          ContentKR = "크아악————!",
           DialogueId = 60180005,
           Duration = 5,
           GUID = "9834E969",
@@ -153467,7 +153467,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill06"
         },
         [60180006] = {
-          Content = "曀曀其阴，虺虺其雷——",
+          ContentKR = "어둠 속 번개여 내리쳐라——!",
           DialogueId = 60180006,
           Duration = 3,
           GUID = "9834E970",
@@ -160396,7 +160396,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100102] = {
-          Content = "浮名洗尽始见心，风月不染本来明。",
+          ContentKR = "허명을 씻어내면 마음이 보이느니, 하늘의 달은 본래 티끌 없이 맑은 법.",
           DialogueId = 72100102,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160406,7 +160406,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100103] = {
-          Content = "远道而来的朋友，你拂开繁花，可曾窥见自己明朗的本心呢？",
+          ContentKR = "멀리서 찾아온 친구! 화려한 치장을 걷어내면, 자신의 본심이 환하게 드러날 거야.",
           DialogueId = 72100103,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160440,7 +160440,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100202] = {
-          Content = "好似做了个久远的美梦……",
+          ContentKR = "아주 긴 꿈을 꾼 것 같아...",
           DialogueId = 72100202,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160450,7 +160450,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100203] = {
-          Content = "梦见孩提时，娘亲牵着我的手去渡口买糖人。",
+          ContentKR = "꿈에서 어머니를 봤어. 어린 내 손을 잡고 나루터에 가서 설탕엿을 사 주셨지.",
           DialogueId = 72100203,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160484,7 +160484,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100302] = {
-          Content = "要被太阳抓住了！都怪你，我被太阳抓起来了！",
+          ContentKR = "해한테 붙잡히게 생겼어! 다 너 때문이야! 너 때문에 해한테 붙잡히게 됐잖아!",
           DialogueId = 72100302,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160494,7 +160494,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100303] = {
-          Content = "唔……比起被太阳抓住，还不如被你抓住……",
+          ContentKR = "으... 해한테 잡히느니 차라리 너한테 잡히는 게 나을지도...",
           DialogueId = 72100303,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160528,7 +160528,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100402] = {
-          Content = "空中飘来的味道是什么香料，吿苍，还是春一品？",
+          ContentKR = "공기 중에 떠도는 이 향은 무슨 향이지? 고창인가? 아니면 춘일품?",
           DialogueId = 72100402,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160538,7 +160538,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100403] = {
-          Content = "不如我自制的香方，可惜，我再也做不出了。",
+          ContentKR = "내가 만든 향이 훨씬 나은데! 하지만 이젠 만들 수가 없으니 아쉽네.",
           DialogueId = 72100403,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160572,7 +160572,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100502] = {
-          Content = "我儿梁卿！你可安好？",
+          ContentKR = "우리 아들! 잘 지내고 있는 거지?",
           DialogueId = 72100502,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160582,7 +160582,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100503] = {
-          Content = "咦？不是我儿？你是谁……？",
+          ContentKR = "으응? 우리 아들이 아니잖아? 넌 누구...?",
           DialogueId = 72100503,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160616,7 +160616,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100602] = {
-          Content = "如果沿着高高的大树往天上爬，就可以接近太皓大人吗？",
+          ContentKR = "저 높은 나무를 타고 하늘 높이 오르면, 태호 님 가까이 갈 수 있을까요?",
           DialogueId = 72100602,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160626,7 +160626,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100603] = {
-          Content = "那要爬多久呢？十年，一百年，够不够呢？",
+          ContentKR = "근데 얼마나 올라야 하죠? 십 년? 백 년? 그걸로 될까요?",
           DialogueId = 72100603,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160660,7 +160660,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100702] = {
-          Content = "好冷……浑身都好冷，感觉牙齿要被冻掉下来了。",
+          ContentKR = "추워요... 너무 추워서, 이가 다 얼어서 떨어져 나갈 것 같아요.",
           DialogueId = 72100702,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160670,7 +160670,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100703] = {
-          Content = "等等，原来我没有牙齿吗？那这种战栗的感觉是……",
+          ContentKR = "어엇, 전 이가 없다고요? 그럼 이 으슬으슬 떨리는 기분은...",
           DialogueId = 72100703,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160704,7 +160704,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100802] = {
-          Content = "我以前总来这里看天空，好像可以从云层后面望见我自己。",
+          ContentKR = "전에 여기서 자주 하늘을 봤어. 구름 너머로 내 자신을 볼 수 있을 것만 같았거든.",
           DialogueId = 72100802,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160714,7 +160714,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100803] = {
-          Content = "现在不用看啦，毕竟我再也看不到我自己啦~",
+          ContentKR = "이젠 그럴 필요가 없어졌어. 어차피 나도 내가 보이지 않으니까!",
           DialogueId = 72100803,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160748,7 +160748,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100902] = {
-          Content = "你喜欢什么颜色？豆绿还是鹤灰？",
+          ContentKR = "넌 무슨 색이 좋아? 연두색? 아니면 회색?",
           DialogueId = 72100902,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160758,7 +160758,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100903] = {
-          Content = "我啊，我喜欢云水蓝，就像我的身体一样蓝。",
+          ContentKR = "난 옅은 물빛이 좋아. 나랑 똑같은 색이니까.",
           DialogueId = 72100903,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160792,7 +160792,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101002] = {
-          Content = "尘漠铺天盖地，分不清方向，也辨别不了来路……",
+          ContentKR = "주변이 온통 낙진으로 뒤덮여서 어디로 가야 할지 방향을 모르겠네...",
           DialogueId = 72101002,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160802,7 +160802,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101003] = {
-          Content = "还好有你为我指明方向。谢谢你，远道而来的朋友。",
+          ContentKR = "네가 방향을 알려줘서 다행이야. 고마워, 멀리서 온 친구.",
           DialogueId = 72101003,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160836,7 +160836,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101102] = {
-          Content = "噫哈哈！被你发现啦！一切都在我的计谋之中！",
+          ContentKR = "야하하! 날 찾아냈구나! 역시 다 내 계획대로야!",
           DialogueId = 72101102,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160846,7 +160846,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101103] = {
-          Content = "按照计划，下一步该把这个交给你了！",
+          ContentKR = "다음 계획은, 바로 이걸 너한테 주는 거야!",
           DialogueId = 72101103,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160924,7 +160924,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101302] = {
-          Content = "水流拍击石块，浸润泥土，滋养生命。",
+          ContentKR = "물줄기는 바위를 뚫고, 흙을 적셔, 생명을 길러내지.",
           DialogueId = 72101302,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160934,7 +160934,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101303] = {
-          Content = "我听说大家最后都会去一个叫忘川的地方，忘川……也是这样的一条小溪吗？",
+          ContentKR = "사람들 말론 마지막엔 모두 망각의 강이란 곳으로 간대. 망각의 강도 이 냇물하고 비슷할까?",
           DialogueId = 72101303,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160968,7 +160968,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101402] = {
-          Content = "芦苇草，高又高，藏里面，看不到。",
+          ContentKR = "갈대는 키가 커서, 안에 숨으면 보이지 않아.",
           DialogueId = 72101402,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160978,7 +160978,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101403] = {
-          Content = "嘻嘻，要不是这片芦苇地秃了一块，你又怎么能发现我呢？",
+          ContentKR = "헤헤, 이쪽 갈대숲이 듬성듬성 비어 있지 않았다면, 네가 날 어떻게 발견했겠어?",
           DialogueId = 72101403,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161012,7 +161012,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101502] = {
-          Content = "这根尖尖的石头是怎么形成的呢？我在这里观察了好久。",
+          ContentKR = "여기서 오랫동안 관찰했는데, 이 뾰족한 돌은 어떻게 생겨난 걸까?",
           DialogueId = 72101502,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161022,7 +161022,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101503] = {
-          Content = "它这么尖，用来做成一把锐利的长矛最为合适。",
+          ContentKR = "돌이 뾰족하니까 날카로운 창을 만들면 딱일 것 같아.",
           DialogueId = 72101503,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161056,7 +161056,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101602] = {
-          Content = "斜坡！斜坡！我乘着风，踏着花，从坡上呼啸而下。",
+          ContentKR = "오르막! 내리막! 바람을 타고, 꽃을 밟으며, 비탈길을 쏜살같이 내려간다!",
           DialogueId = 72101602,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161066,7 +161066,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101603] = {
-          Content = "呜呼！莫要拦我！",
+          ContentKR = "유후! 다들 비켜!",
           DialogueId = 72101603,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161100,7 +161100,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101702] = {
-          Content = "这些明黄的色彩，是落叶还是花瓣？",
+          ContentKR = "이 밝은 노란색은 낙엽일까 꽃잎일까?",
           DialogueId = 72101702,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161110,7 +161110,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101703] = {
-          Content = "不知道……但包裹我的却是粉紫色，你一定一眼就发现了吧。",
+          ContentKR = "모르겠어... 하지만 날 감싸고 있는 건 짙은 분홍색이야. 넌 보자마자 알았겠지?",
           DialogueId = 72101703,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -197511,7 +197511,7 @@ local Data = {
         },
         [80210308] = {
           Camera = "-194.460938,93.691406,125.272461,0.000011,-19.99996,37.409882,20.0,81.55352,false,Manual,2.8",
-          ContentKR = "그렇다면 지금 만난 것 같군.",
+          ContentKR = "그렇다면 지금 만난 것 같은데.",
           DialogueId = 80210308,
           FinalCamera = "-185.449219,100.574219,121.142578,0.000011,-19.99996,37.409882,20.0,81.55352,false,Manual,2.8",
           GUID = "C8CC4FA8",
@@ -197595,7 +197595,7 @@ local Data = {
         },
         [80210317] = {
           Camera = "-159.164062,204.953125,88.058105,0.000052,9.999997,-80.395218,20.0,169.81192,false,Manual,2.8",
-          ContentKR = "손님, 좀 더 기다리셔야 할 것 같은데요. 근데 아까 나그네는 음식을 먹을 때도 신경 쓸 게 많다고 하셨죠? 어차피 손님도 없는데 더 자세히 좀 얘기해 주시죠.",
+          ContentKR = "손님, 좀 더 기다리셔야 할 것 같은데요. 근데 아까 나그네는 음식을 먹을 때도 따져야 할 게 많다고 하셨죠? 어차피 손님도 없는데 더 자세히 좀 얘기해 주시죠.",
           DialogueId = 80210317,
           FinalCamera = "-156.535156,189.371094,90.843262,0.000052,9.999997,-80.395218,20.0,169.81192,false,Manual,2.8",
           GUID = "C8CC5122",
@@ -207353,14 +207353,14 @@ local Data = {
           NextDialogue = 12013526
         },
         [120136021] = {
-          Content = "还是先拜访扶疏吧。",
+          ContentKR = "일단 부소를 먼저 찾아가자.",
           DialogueId = 120136021,
           GUID = "120136021.0",
           ImprPlusId = 1204,
           Scripts = "SetOutport{FinishType{2},OptionIdx{1}}"
         },
         [120136022] = {
-          Content = "去了解虬先生的委托详情。",
+          ContentKR = "규선생에게 가서 의뢰 내용을 알아보자.",
           DialogueId = 120136022,
           GUID = "120136022.0",
           ImprPlusId = 1201,
@@ -207441,14 +207441,14 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120193/1E16CD3A"
         },
         [120223281] = {
-          ContentKR = "난 화서가 재앙에 빠지는 걸 보고 싶지 않아. 내가 할 수 있는 일이 있는지 찾아보고 싶어. 공감+",
+          ContentKR = "난 화서가 재앙에 빠지는 걸 보고 싶지 않아. 내가 할 수 있는 일이 있는지 찾아보고 싶어.",
           DialogueId = 120223281,
           GUID = "120223281.0",
           ImprPlusId = 1204,
           NextDialogue = 12022329
         },
         [120223282] = {
-          ContentKR = "솔직히 오늘은 너무 많은 일이 일어나서, 그냥 아이스레이크 시티로 돌아가고 싶어... 실리+",
+          ContentKR = "솔직히 오늘은 너무 많은 일이 일어나서, 그냥 아이스레이크 시티로 돌아가고 싶어...",
           DialogueId = 120223282,
           GUID = "120223282.0",
           ImprPlusId = 1201,

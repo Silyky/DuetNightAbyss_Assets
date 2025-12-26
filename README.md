@@ -2,4 +2,4 @@
 
 There will be some useful files for Duet Night Abyss, such as icons and lua files.
 
-> Version: 1.1.72.1
+> Version: 1.1.78.1

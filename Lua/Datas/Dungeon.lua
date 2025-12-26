@@ -34975,7 +34975,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {135, 3013},
+    Condition = 135,
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Hx"] = 150101,
@@ -35218,7 +35218,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {145, 3014},
+    Condition = 145,
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Jh"] = 150103,
@@ -35471,7 +35471,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {155, 3015},
+    Condition = 155,
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Jh"] = 150103,
@@ -35724,7 +35724,7 @@ return ReadOnly("Dungeon", {
         122
       }
     },
-    Condition = {160, 3016},
+    Condition = 160,
     DropReward = {
       ["Mon.Gr"] = 150101,
       ["Mon.Jh"] = 150103,

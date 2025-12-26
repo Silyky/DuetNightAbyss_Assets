@@ -1818,6 +1818,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Damage Received",
     ContentES = "Daño Recibido",
     ContentJP = "被ダメージ",
+    ContentKR = "받는 대미지",
     ContentTC = "受到的傷害",
     TextMapContent = "受到的伤害",
     TextMapId = "Attr_DamagedRate_Nmae"
@@ -1915,7 +1916,7 @@ return ReadOnly("TextMap_I18n", {
   Attr_MaxAvoidExecuteTimes_Name = {
     ContentEN = "Dodge Attempts",
     ContentES = "Intentos de Esquiva",
-    ContentFR = "Nombre d'esquives",
+    ContentFR = "Nombre d’esquives",
     ContentJP = "回避回数",
     ContentKR = "회피 횟수",
     ContentTC = "閃避次數",
@@ -2206,7 +2207,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Complete 10 ballads",
     ContentES = "$+10 niveles instantáneos",
     ContentFR = "+10 niveaux instantanés",
-    ContentJP = "一気にLv.10まで強化",
+    ContentJP = "一気に10レベルアップ",
     ContentKR = "Lv.10 즉시 도달",
     ContentTC = "直升10級",
     TextMapContent = "直升10级",
@@ -2373,6 +2374,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "BATTLE_MENU_ITEM_LACK"
         },
   BATTLE_MENU_MOBILE_SWITCH = {
+    ContentEN = "Switch Backpack",
+    ContentJP = "タクティカルバッグ切り替え",
+    ContentKR = "전술 가방 전환",
+    ContentTC = "切換輪盤",
     TextMapContent = "切换轮盘",
     TextMapId = "BATTLE_MENU_MOBILE_SWITCH"
         },
@@ -3628,7 +3633,7 @@ return ReadOnly("TextMap_I18n", {
   Buff_Content_203 = {
     ContentEN = "Enemies take #1 less damage. This reduction diminishes by #2 each time they take damage from a ranged weapon.",
     ContentES = "Las unidades enemigas reciben #1 de daño reducido. Esta reducción disminuye en #2 cada vez que reciben Daño de Arma a distancia.",
-    ContentFR = "Les ennemis subissent #1 de dégâts en moins. Chaque fois qu’ils sont touchés par une arme à distance, cette réduction diminue de #2.",
+    ContentFR = "Les ennemis subissent #1 de dégâts en moins. Chaque fois qu’ils reçoivent des DGT d’arme à distance, cette réduction diminue de #2.",
     ContentJP = "敵ユニットの被ダメージが#1ダウンする。\n遠隔武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
     ContentKR = "적 유닛이 받는 대미지가 #1 감소하고, 원거리 무기 대미지를 받을 때마다 대미지 감소 효과가 #2 감소한다.",
     ContentTC = "敵方單位受到的傷害降低#1，每次受到遠端武器傷害時，傷害降低幅度降低#2。",
@@ -3715,7 +3720,7 @@ return ReadOnly("TextMap_I18n", {
   Buff_Content_304 = {
     ContentEN = "For every #1 Sanity spent by all allies in total, grants #2 Skill Damage Increase for #3s, stacking up to #4 times. At max stacks, grants immunity to Hitstun.",
     ContentES = "Por cada #1 puntos de Cordura gastados por todos los aliados en total, otorga #2 de aumento de Daño de Habilidad durante #3 s, acumulándose hasta #4 veces. Al alcanzar las acumulaciones máximas, se vuelven inmunes al Aturdimiento.",
-    ContentFR = "Pour chaque #1 points de Lucidité dépensés au total par les alliés, ceux-ci gagnent +#2 de puissance de compétence pendant #3 s, cumulable jusqu’à #4 fois. À plein cumul, ils deviennent immunisés aux interruptions.",
+    ContentFR = "Pour chaque #1 points de Lucidité dépensés au total par les alliés, ceux-ci gagnent +#2 de Dégâts de compétence pendant #3 s, cumulable jusqu’à #4 fois. À plein cumul, ils deviennent immunisés aux interruptions.",
     ContentJP = "味方ユニットが#1SPを消費すると、#3秒の間にスキル威力が#2アップする。\n最大#4スタックまで重ねがけできる。最大重ねがけ時、ダメージを受けてものけ反らない。",
     ContentKR = "아군 유닛이 정신력을 누적 #1 소모할 때마다 스킬 위력 #2 상승 효과 1단계를 획득한다. 지속 시간 #3초, 최대 #4단계 중첩. 최대 중첩 단계 도달 시, 대미지를 받아도 경직되지 않는다.",
     ContentTC = "友方單位每累計消耗#1神智時，獲得1層技能威力提高#2，持續#3秒，最多疊加#4層，滿層時受到傷害不會產生僵直。",
@@ -3792,7 +3797,7 @@ return ReadOnly("TextMap_I18n", {
   Buff_Content_935 = {
     ContentEN = "Enemy units take increased Pyro and Anemo Damage by <H>400%</>, and take reduced damage from other Attributes by <W>50%</>.",
     ContentES = "Las unidades enemigas reciben un aumento de <H>400 %</> en el daño de Pyro y Anemo. El daño recibido de todos los demás atributos se reduce en <W>50 %</>.",
-    ContentFR = "Les ennemies subissent <H>+400 %</> de Dégâts Pyro et Anémo, mais <W>-50 %</> de dégâts provenant des autres attributs.",
+    ContentFR = "Les ennemis subissent <H>+400 %</> de Dégâts Pyro et Anémo, mais <W>-50 %</> de dégâts provenant des autres attributs.",
     ContentJP = "敵ユニットの火属性、風属性被ダメージが<H>400%</>アップし、その他の属性被ダメージが<W>50%</>ダウンする。",
     ContentKR = "적이 받는 불 속성 및 바람 속성 대미지가 <H>400%</> 상승한다. 나머지 속성은 받는 대미지가 <W>50%</> 감소한다.",
     ContentTC = "敵方單位受到的火屬性及風屬性傷害提高<H>400%</>，受到的其他屬性傷害降低<W>50%</>。",
@@ -3802,7 +3807,7 @@ return ReadOnly("TextMap_I18n", {
   Buff_Content_951 = {
     ContentEN = "Enemy units take increased Anemo and Umbro Damage by <H>400%</>, and take reduced damage from other Attributes by <W>50%</>.",
     ContentES = "Las unidades enemigas reciben un aumento de <H>400 %</> en el daño de Anemo y Umbro. El daño recibido de todos los demás atributos se reduce en <W>50 %</>.",
-    ContentFR = "Les ennemies subissent <H>+400 %</> de Dégâts Anémo et Umbro, mais <W>-50 %</> de dégâts provenant des autres attributs.",
+    ContentFR = "Les ennemis subissent <H>+400 %</> de Dégâts Anémo et Umbro, mais <W>-50 %</> de dégâts provenant des autres attributs.",
     ContentJP = "敵ユニットの風属性、闇属性被ダメージが<H>400%</>アップし、その他の属性被ダメージが<W>50%</>ダウンする。",
     ContentKR = "적이 받는 바람 속성 및 어둠 속성 대미지가 <H>400%</> 상승한다. 나머지 속성은 받는 대미지가 <W>50%</> 감소한다.",
     ContentTC = "敵方單位受到的風屬性及暗屬性傷害提高<H>400%</>，受到的其他屬性傷害降低<W>50%</>。",
@@ -3841,7 +3846,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Allegro Agitato: Bloodbound Crescendo",
     ContentES = "Allegro movido: Crescendo de sangre",
     ContentJP = "活躍のプレスト：血戦の鉄谷",
-    ContentKR = "경쾌한 프레스토: 강철 협곡의 혈전",
+    ContentKR = "활기찬 프레스토: 강철 협곡의 혈전",
     ContentTC = "活躍急板：血戰鋼鐵谷",
     TextMapContent = "活跃急板：血战钢铁谷",
     TextMapId = "Buff_Title_11121"
@@ -3859,7 +3864,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Allegro Agitato: Giant's Hunt",
     ContentES = "Allegro movido: Caza del gigante",
     ContentJP = "活躍のプレスト：巨人狩り",
-    ContentKR = "경쾌한 프레스토: 거인 사냥",
+    ContentKR = "활기찬 프레스토: 거인 사냥",
     ContentTC = "活躍急板：狩獵巨人",
     TextMapContent = "活跃急板：狩猎巨人",
     TextMapId = "Buff_Title_11211"
@@ -4078,7 +4083,7 @@ return ReadOnly("TextMap_I18n", {
   Buff_Title_935 = {
     ContentEN = "Verdict Cadence: Ballad of Fire & Wind",
     ContentES = "Variación del veredicto: Canción de fuego y viento",
-    ContentFR = "Variation du Jugement : Chant du feu et du vent",
+    ContentFR = "Résonance du Jugement : Chant du feu et du vent",
     ContentJP = "決断の変奏‐火と風の歌",
     ContentKR = "선택의 변주: 불과 바람의 노래",
     ContentTC = "抉擇變奏：火與風之歌",
@@ -4088,7 +4093,7 @@ return ReadOnly("TextMap_I18n", {
   Buff_Title_951 = {
     ContentEN = "Verdict Cadence: Ballad of Wind & Shadow",
     ContentES = "Variación del veredicto: Canción de viento y sombra",
-    ContentFR = "Variation du Jugement : Chant du vent et des ombres",
+    ContentFR = "Résonance du Jugement : Chant du vent et des ombres",
     ContentJP = "決断の変奏‐風と闇の歌",
     ContentKR = "선택의 변주: 바람과 어둠의 노래",
     ContentTC = "抉擇變奏：風與暗之歌",
@@ -7565,9 +7570,9 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Content_120003_5"
   Content_120003_6 = {
     ContentEN = "Just as you suspected — the figure at the booth was a trap set by the Legion. Good thing you came prepared. \nTalk to Snow and decide your next move.",
-    ContentJP = "電話ボックスのそばの人物は、やはり帝国軍の囮だった。\nだが、備えがあったおかげで罠にはかからなかった。\n戻ってきたスノウと話し合い、次の行動を決めよう。",
+    ContentJP = "電話ボックスのそばの人物は、やはり帝国軍のおとりだった。\nだが、備えがあったおかげで罠にはかからなかった。\n戻ってきたスノウと話し合い、次の行動を決めよう。",
     ContentKR = "전화 부스 옆의 인물은 역시 군단이 보낸 미끼였다. 다행히도 조심한 덕분에 속지 않았다.\n돌아온 스노우와 대화하며 다음 계획을 확인하자.",
-    ContentTC = "電話亭旁的身影果然是軍團所放出的誘餌——所幸，早有準備的你們，並未上當受騙。 \n 與回來的白交談，確認下一步的計劃吧。",
+    ContentTC = "電話亭旁的身影果然是軍團所放出的誘餌——所幸，早有準備的你們，並未上當受騙。 \n與回來的白交談，確認下一步的計劃吧。",
     TextMapContent = "电话亭旁的身影果然是军团所放出的诱饵——所幸，早有准备的你们，并未上当受骗。\n与回来的白交谈，确认下一步的计划吧。",
     TextMapId = "Content_120003_6"
   Content_120003_7 = {
@@ -7751,10 +7756,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "你恰好目睹了止流以雷霆手段轻易化解织星客争端的一幕。根据他们的交谈，烛阴之灾的危机已是刻不容缓。\n与止流会合，了解委托内容的详情吧。",
     TextMapId = "Content_120102_2"
   Content_120102_3 = {
-    ContentEN = "Zhiliu has tasked you with retrieving three Zhuyin Scales from the Gritblight Expanse — a step toward containing the Scourge of Zhuyin.\n For a true Phoxhunter, duty is its own reward — though a generous payment never hurts.",
-    ContentJP = "シリュウはあなたに、塵砂の荒海で燭陰の鱗を三枚集めるよう依頼した。それは燭陰の禍を退けるための準備である。\n 依頼を果たすのは優れた月狩り人の当然の務め――まして雇い主が惜しみなく報酬を払うのであれば。",
+    ContentEN = "Zhiliu has tasked you with retrieving three Zhuyin Scales from the Gritblight Expanse — a step toward containing the Scourge of Zhuyin.\nFor a true Phoxhunter, duty is its own reward — though a generous payment never hurts.",
+    ContentJP = "シリュウはあなたに、塵砂の荒海で燭陰の鱗を三枚集めるよう依頼した。それは燭陰の禍を退けるための準備である。\n依頼を果たすのは優れた月狩り人の当然の務め――まして雇い主が惜しみなく報酬を払うのであれば。",
     ContentKR = "지류는 촉룡의 재앙을 해결하기 위해 당신에게 낙진의 바다에서 촉룡 비늘 3개를 채집해 달라고 의뢰한다.\n의뢰를 완료하는 것은 뛰어난 월석 사냥꾼의 사명이다. 당신의 고용주가 두둑한 보수를 약속할 땐 더더욱 그렇다.",
-    ContentTC = "止流委託你前往石漠塵海采集三片燭陰鱗，好為化解燭陰之災做準備。\n 完成委託是每一位優秀狩月人義不容辭的使命——尤其當你的雇主出手闊綽之時。",
+    ContentTC = "止流委託你前往塵漠石海采集三片燭陰鱗，好為化解燭陰之災做準備。\n完成委託是每一位優秀狩月人義不容辭的使命——尤其當你的雇主出手闊綽之時。",
     TextMapContent = "止流委托你前往石漠尘海采集三片烛阴鳞，好为化解烛阴之灾做准备。\n完成委托是每一位优秀狩月人义不容辞的使命——尤其当你的雇主出手阔绰之时。",
     TextMapId = "Content_120102_3"
   Content_120102_3_1 = {
@@ -7919,10 +7924,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "突然出现的白发女子以秘术调理了年轻姑娘的伤势，并驱散了你的疲劳。\n这位神秘医者是什么来历？与她聊聊吧。",
     TextMapId = "Content_120103_7"
   Content_120103_8 = {
-    ContentEN = "With a visit to the Hall of Ephemerality agreed upon, you part ways with Fushu for now.\n Turn your attention to the task at hand: head to the entrance of the Gritblight Expanse to meet Master Gongshang and learn to use the harvesting tool.",
-    ContentJP = "フーシュとは、後日枯栄閣を訪れて診察する約束を交わし、ひとまず別れた。\n 次は目の前の任務に集中だ。塵砂の荒海の入口でコウショウを探し、道具の使い方を学ぼう。",
+    ContentEN = "With a visit to the Hall of Ephemerality agreed upon, you part ways with Fushu for now.\nTurn your attention to the task at hand: head to the entrance of the Gritblight Expanse to meet Master Gongshang and learn to use the harvesting tool.",
+    ContentJP = "フーシュとは、後日枯栄閣を訪れて診察する約束を交わし、ひとまず別れた。\n次は目の前の任務に集中だ。塵砂の荒海の入口でコウショウを探し、道具の使い方を学ぼう。",
     ContentKR = "이후 고영각에 병문안을 가기로 약속한 뒤, 부소와 작별한다.\n이제 눈앞의 의뢰에 집중하자. 낙진의 바다의 입구에서 공상 사부를 찾아 도구의 사용법을 배우자.",
-    ContentTC = "約定好之後去枯榮閣探病，你們暫且告別了扶疏。\n 接下來，專注於眼前的差事：去石漠塵海的入口處尋找公尚師傅，學習工具的用法吧。",
+    ContentTC = "約定好之後去枯榮閣探病，你們暫且告別了扶疏。\n接下來，專注於眼前的差事：去塵漠石海的入口處尋找公尚師傅，學習工具的用法吧。",
     TextMapContent = "约定好之后去枯荣阁探病，你们暂且告别了扶疏。\n接下来，专注于眼前的差事：去石漠尘海的入口处寻找公尚师傅，学习工具的用法吧。",
     TextMapId = "Content_120103_8"
   Content_120103_8_1 = {
@@ -7961,10 +7966,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "一场拜师乌龙之后，公尚师傅重整精神，开始传授你牵机方枢的用途。\n你出色地完成了全部教学。现在，公尚师傅有话想对你说。",
     TextMapId = "Content_120103_8_5"
   Content_120103_9 = {
-    ContentEN = "After clearing up a comical mix-up — Master Gongshang mistook you for apprentice hopefuls — you've learned to operate the Mechanical Nexus to neutralise the Gritblight, earning the title of honorary learners of the Jishu Sect.\n Head into the heights of the Gritblight Expanse and harvest three Zhuyin Scales for Zhiliu.",
-    ContentJP = "弟子入り騒動の末、君たちは機巧制御盤を使って砂塵を吸収する術を身につけ、機枢派の名誉見習いの称号を得た。\n 次は塵砂の荒海の高地へ向かい、シリュウが必要とする燭陰の鱗を三枚採ろう。",
+    ContentEN = "After clearing up a comical mix-up — Master Gongshang mistook you for apprentice hopefuls — you've learned to operate the Mechanical Nexus to neutralise the Gritblight, earning the title of honorary learners of the Jishu Sect.\nHead into the heights of the Gritblight Expanse and harvest three Zhuyin Scales for Zhiliu.",
+    ContentJP = "弟子入り騒動の末、君たちは機巧制御盤を使って砂塵を吸収する術を身につけ、機枢派の名誉見習いの称号を得た。\n次は塵砂の荒海の高地へ向かい、シリュウが必要とする燭陰の鱗を三枚採ろう。",
     ContentKR = "제자 해프닝이 마무리되고, 일행은 견기방추로 모래를 흡수하는 방법을 터득하였다. 또한, 기추파 명예 제자라는 칭호까지 얻게 된다.\n낙진의 바다의 높은 곳으로 가 지류가 의뢰한 촉룡 비늘 3개를 채집하자.",
-    ContentTC = "一場收徒烏龍事了，你們掌握了用牽機方樞吸收塵漠的方法，並獲得了機樞派榮譽學徒的稱號。\n前往石漠塵海的高處，采摘止流需要的三片燭陰鱗吧。",
+    ContentTC = "一場收徒烏龍事了，你們掌握了用牽機方樞吸收塵漠的方法，並獲得了機樞派榮譽學徒的稱號。\n前往塵漠石海的高處，采摘止流需要的三片燭陰鱗吧。",
     TextMapContent = "一场收徒乌龙事了，你们掌握了用牵机方枢吸收尘漠的方法，并获得了机枢派荣誉学徒的称号。\n前往石漠尘海的高处，采摘止流需要的三片烛阴鳞吧。",
     TextMapId = "Content_120103_9"
   Content_120104_1 = {
@@ -8130,7 +8135,7 @@ return ReadOnly("TextMap_I18n", {
   Content_120105_20 = {
     ContentEN = "Roused by its quarry, the magnificent Myriad-Snare Hunting Array erupts from the earth, trapping you within the ancient mechanism. Find a way to escape.",
     ContentJP = "獲物が引っ掛かったせいで、壮観な千枢狩陣が大地を割ってせり上がった。君たちは太古の機巧戦陣に閉じ込められてしまう。急いで脱出路を探せ。",
-    ContentKR = "사냥감의 움직임에, 놀라운 모습의 사냥 장치 법진이 땅속에서 우르르 솟아올라, 일행은 고대의 기계 함정에 갇히고 말았다. 어서 탈출구를 찾자.",
+    ContentKR = "사냥감의 움직임에 장관을 이루는 사냥 장치 법진이 땅 속에서 요란하게 솟아올랐고, 일행은 고대의 기계 함정에 갇히고 말았다. 어서 탈출구를 찾자.",
     ContentTC = "受獵物驚動，壯觀的千樞狩陣從大地中轟然升起。你們被困在了上古的機括戰陣當中。 趕緊尋找出路吧。",
     TextMapContent = "受猎物惊动，壮观的千枢狩阵从大地中轰然升起。你们被困在了上古的机括战阵当中。 赶紧寻找出路吧。",
     TextMapId = "Content_120105_20"
@@ -10358,7 +10363,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Content_200303_5"
   Content_200304_1 = {
     ContentEN = "Snow heard about a stall near Mistwharf that sells excellent osmanthus cakes. Go take a look with her.",
-    ContentJP = "スノウが噂で聞いた絶品の桂花菓子（グイホアガオ）の屋台が、煙津渡（えんしんと）の桟橋（さんばし）にあるという。一緒に見に行こう。",
+    ContentJP = "スノウが噂で聞いた絶品の桂花菓子（グイホアガオ）の屋台が、煙津渡の桟橋にあるという。一緒に見に行こう。",
     ContentKR = "스노우가 연진 나루터 부두 근처에 맛있는 정통 계화떡 노점이 있다고 한다. 스노우와 함께 노점에 가보자.",
     ContentTC = "白打聽到了一處好吃地道的桂花糕攤位，就在煙津渡的碼頭處，陪她一起去看看吧。",
     TextMapContent = "白打听到了一处好吃地道的桂花糕摊位，就在烟津渡的码头处，陪她一起去看看吧。",
@@ -10386,14 +10391,14 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Content_200304_3"
   Content_200304_4 = {
     ContentEN = "Just as you receive your osmanthus cake, you overhear that the stall owner may be in danger. Team up with Li Huan and search for him.",
-    ContentJP = "せっかく桂花菓子を手に入れたばかりだというのに、どうやら店主のリーさんが何か危ない目に遭っているかもしれないらしい。リカンと一緒に、桂花屋のリーさんを探しに行こう。",
+    ContentJP = "せっかく桂花菓子を手に入れたばかりだというのに、どうやら店主のリーさんが何か危ない目に遭っているかもしれないらしい。リワンと一緒に、桂花屋のリーさんを探しに行こう。",
     ContentKR = "계화떡을 받자마자 노점 주인 이계화 할아버지가 위험에 처했을지도 모른다는 이야기를 들었다. 이완과 함께 할아버지를 찾아보자.",
     ContentTC = "剛拿到桂花糕，你們卻聽聞攤主桂花李有可能遇到了危險，跟李浣一起去找找桂花李吧。",
     TextMapContent = "刚拿到桂花糕，你们却听闻摊主桂花李有可能遇到了危险，跟李浣一起去找找桂花李吧。",
     TextMapId = "Content_200304_4"
   Content_200304_5 = {
     ContentEN = "Following Li Huan, you find the stall owner, along with the two boys from before, surrounded by a pack of Sable Bi'an. Hurry to their rescue.",
-    ContentJP = "リカンのあとを追って桂花屋のリーさんのもとへたどり着いたものの、彼とさっきのふたりの子どもは、玄狴たちに囲まれて身動きが取れなくなっていた――急いで助け出そう！",
+    ContentJP = "リワンのあとを追って桂花屋のリーさんのもとへたどり着いたものの、彼とさっきのふたりの子どもは、玄狴たちに囲まれて身動きが取れなくなっていた――急いで助け出そう！",
     ContentKR = "이완과 함께 이계화 할아버지를 발견했지만, 할아버지는 아까 그 아이들과 함께 검은 폐안에게 둘러싸여 있다. 어서 세 사람을 구하자.",
     ContentTC = "你們跟著李浣找到了桂花李，卻發現他和剛才的兩個小孩被一群玄色狴犴困住了，快些救出他們吧。",
     TextMapContent = "你们跟着李浣找到了桂花李，却发现他和刚才的两个小孩被一群玄色狴犴困住了，快些救出他们吧。",
@@ -10890,8 +10895,8 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "{nickname}已经平安无虞，前来救援{nickname}的扶疏却身陷险境之中。\n往隙与此世的联系正在逐渐关闭，抓紧离开这里，找到生路吧。",
     TextMapId = "Content_Nai02_01_01"
   Content_Nai03_01_01 = {
-    ContentEN = "Fushu's mind was still clouded with doubt, and she failed to draw a response from the Providence Chime — leaving her unable to escape the Oblivion Rift. Thankfully, with the Wishen's help, she finally found her way back, and a long-forgotten memory stirred once more.\nNow that Fushu has rejoined you, there is no time to relax. Move on and find the way out of this place.",
-    ContentJP = "フーシュの心にはまだ迷いが残っており、風鈴からの応えも得られぬまま、もう少しで過去の記憶の迷路に囚われるところだった。だが、ムユウセイの助けにより、ついに帰るべき道を見つけ出し、長く封じられていた記憶の一片が静かに浮かび上がる。\n そして、フーシュはようやく{nickname}と無事に合流した——だが、まだ気を緩めてはならない。ここを離れ、生きて帰る道を探そう。",
+    ContentEN = "Fushu's mind was still clouded with doubt, and she failed to draw a response from the Aeolian Chime — leaving her unable to escape the Oblivion Rift. Thankfully, with the Wishen's help, she finally found her way back, and a long-forgotten memory stirred once more.\nNow that Fushu has rejoined you, there is no time to relax. Move on and find the way out of this place.",
+    ContentJP = "フーシュの心にはまだ迷いが残っており、風鈴からの応えも得られぬまま、もう少しで過去の記憶の迷路に囚われるところだった。だが、ムユウセイの助けにより、ついに帰るべき道を見つけ出し、長く封じられていた記憶の一片が静かに浮かび上がる。\nそして、フーシュはようやく{nickname}と無事に合流した——だが、まだ気を緩めてはならない。ここを離れ、生きて帰る道を探そう。",
     ContentKR = "부소는 마음에 남은 망설임 때문에 풍령이 울리지 않아, 하마터면 과거의 틈에 갇힐 뻔했지만, 무유생의 도움으로 길을 찾고, 과거의 기억도 되찾았다.\n{nickname}, 그리고 부소는 무사히 합류했지만, 아직 안심할 때는 아니다. 서둘러 이곳을 벗어나 출구를 찾자.",
     ContentTC = "扶疏心中尚存迷惘，未得到占風鐸的回應，險些困在往隙之中。在無由生的幫助之下，扶疏成功找到了歸途，一段塵封的過往記憶也浮出水面。\n現在，扶疏與{nickname}成功彙合，但還不是鬆懈的時候。抓緊離開這裡，找到生路吧。",
     TextMapContent = "扶疏心中尚存迷惘，未得到占风铎的回应，险些困在往隙之中。在无由生的帮助之下，扶疏成功找到了归途，一段尘封的过往记忆也浮出水面。\n现在，扶疏与{nickname}成功汇合，但还不是松懈的时候。抓紧离开这里，找到生路吧。",
@@ -12781,7 +12786,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "射撃試練 Ⅰ",
     ContentKR = "사격 시련 Ⅰ",
     ContentTC = "打靶試煉 Ⅰ",
-    TextMapContent = "入门射击 I",
+    TextMapContent = "打靶试炼 I",
     TextMapId = "DUNGEON_NAME_80401"
         },
   DUNGEON_NAME_80402 = {
@@ -12790,7 +12795,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "射撃試練 Ⅱ",
     ContentKR = "사격 시련 Ⅱ",
     ContentTC = "打靶試煉 Ⅱ",
-    TextMapContent = "入门射击 II",
+    TextMapContent = "打靶试炼 II",
     TextMapId = "DUNGEON_NAME_80402"
         },
   DUNGEON_NAME_80403 = {
@@ -12799,7 +12804,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "射撃試練 Ⅲ",
     ContentKR = "사격 시련 Ⅲ",
     ContentTC = "打靶試煉 Ⅲ",
-    TextMapContent = "入门射击 III",
+    TextMapContent = "打靶试炼 III",
     TextMapId = "DUNGEON_NAME_80403"
         },
   DUNGEON_NAME_80404 = {
@@ -12808,7 +12813,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "射撃試練 IV",
     ContentKR = "사격 시련 Ⅳ",
     ContentTC = "打靶試煉 IV",
-    TextMapContent = "入门射击 IV",
+    TextMapContent = "打靶试炼 IV",
     TextMapId = "DUNGEON_NAME_80404"
         },
   DUNGEON_NAME_80501 = {
@@ -15955,7 +15960,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Head to The Asphodel",
     ContentFR = "Se rendre aux Asphodèles",
     ContentJP = "アスフォデロスへ向かう",
-    ContentKR = "아스포델 평원으로 이동하기",
+    ContentKR = "아스포델으로 이동하기",
     ContentTC = "前往水仙平原",
     TextMapContent = "前往水仙平原",
     TextMapId = "Description_120001_1"
@@ -16438,7 +16443,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "迫り来る玄狴と穢獣を防ぐ",
     ContentKR = "습격해 온 검은 폐안과 필토이드 막아내기",
     ContentTC = "抵禦來襲的玄色狴犴和穢獸",
-    TextMapContent = "抵御来袭的玄色狴犴",
+    TextMapContent = "抵御来袭的玄色狴犴和秽兽",
     TextMapId = "Description_120103_11_3"
         },
   Description_120103_11_4 = {
@@ -16614,7 +16619,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "迫り来る玄狴と穢獣を防ぐ",
     ContentKR = "습격해 온 검은 폐안과 필토이드 막아내기",
     ContentTC = "抵禦來襲的玄色狴犴和穢獸",
-    TextMapContent = "抵御来袭的玄色狴犴",
+    TextMapContent = "抵御来袭的玄色狴犴和秽兽",
     TextMapId = "Description_120103_9_01"
         },
   Description_120103_9_02 = {
@@ -16654,7 +16659,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "上から下の順番で穢れたつぼみを3つ破壊する",
     ContentKR = "'위에서 아래로' 오염된 꽃봉오리 순서대로 파괴하기",
     ContentTC = "以「自上而下」的順序破壞三朵花苞",
-    TextMapContent = "以特定顺序破坏三朵污秽花苞",
+    TextMapContent = "以“自上而下”的顺序破坏三朵花苞",
     TextMapId = "Description_120104_10_1"
         },
   Description_120104_11 = {
@@ -17778,7 +17783,7 @@ return ReadOnly("TextMap_I18n", {
   Description_200101_4_2 = {
     ContentEN = "Craft an Ammo Supply Chest",
     ContentJP = "弾薬補給箱を製造する",
-    ContentKR = "탄약 보급 상자 상자 1개 주조하기",
+    ContentKR = "탄약 보급 상자 1개 주조하기",
     ContentTC = "鑄造一個彈藥補給箱",
     TextMapContent = "铸造一个弹药补给箱",
     TextMapId = "Description_200101_4_2"
@@ -19651,7 +19656,7 @@ return ReadOnly("TextMap_I18n", {
         },
   Description_200304_3 = {
     ContentEN = "Speak with Li Huan",
-    ContentJP = "リカンと話す",
+    ContentJP = "リワンと話す",
     ContentKR = "이완과 대화하기",
     ContentTC = "與李浣交談",
     TextMapContent = "与李浣交谈",
@@ -20370,7 +20375,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Description_Nai01_01_06"
         },
   Description_Nai01_01_07 = {
-    ContentEN = "Ring the Providence Chime",
+    ContentEN = "Ring the Aeolian Chime",
     ContentJP = "風鈴を鳴らす",
     ContentKR = "풍령 울리기",
     ContentTC = "敲響占風鐸",
@@ -20426,7 +20431,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Description_Nai01_02_05"
         },
   Description_Nai01_02_06 = {
-    ContentEN = "Ring the Providence Chime",
+    ContentEN = "Ring the Aeolian Chime",
     ContentJP = "風鈴を鳴らす",
     ContentKR = "풍령 울리기",
     ContentTC = "敲響占風鐸",
@@ -20554,7 +20559,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Description_Nai02_01_07"
         },
   Description_Nai02_01_08 = {
-    ContentEN = "Ring the Providence Chime",
+    ContentEN = "Ring the Aeolian Chime",
     ContentJP = "風鈴を鳴らす",
     ContentKR = "풍령 울리기",
     ContentTC = "敲響占風鐸",
@@ -20642,7 +20647,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Description_Nai02_03_06"
         },
   Description_Nai02_03_07 = {
-    ContentEN = "Ring the Providence Chime",
+    ContentEN = "Ring the Aeolian Chime",
     ContentJP = "風鈴を鳴らす",
     ContentKR = "풍령 울리기",
     ContentTC = "敲響占風鐸",
@@ -21364,6 +21369,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "驚喜物資",
     TextMapContent = "惊喜物资",
     TextMapId = "DynQuest_FortInBox_Title"
+        },
+  DynQuest_FortNest_Des = {
+    TextMapContent = "击杀所有秽兽（已弃用）弃用",
+    TextMapId = "DynQuest_FortNest_Des"
+        },
+  DynQuest_FortNest_Title = {
+    TextMapContent = "秽兽巢穴（已弃用）弃用",
+    TextMapId = "DynQuest_FortNest_Title"
         },
   DynQuest_FortPet_Des = {
     ContentEN = "Defeat the enemies and rescue the Geniemon",
@@ -24524,8 +24537,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Episode_Region_Huaxu_Yanjindu_Trans"
         },
   Episode_Region_None_Trans = {
+    ContentDE = "HUAXU",
     ContentEN = "HUAXU",
-    ContentFR = "HUAXU",
+    ContentES = "DONGGUO",
+    ContentFR = "DONGGUO",
     ContentJP = "HUAXU",
     ContentKR = "HUAXU",
     ContentTC = "HUAXU",
@@ -24714,6 +24729,7 @@ return ReadOnly("TextMap_I18n", {
         },
   Event_Des_101004 = {
     ContentEN = "The age of Loong ends here. And I shall claim the mantle.\nLog in for 5 days during the event to claim rewards",
+    ContentFR = "L’ère du Dieu-Dragon touche à sa fin. J’en réclamerai le pouvoir.\nConnectez-vous pendant 5 jours durant l’événement pour obtenir les récompenses",
     ContentJP = "龍神は堕ち、その力は私に宿る。\nイベント期間中、5日間ログインしてプレゼントを受け取る",
     ContentKR = "용신은 추락하고, 그 권능은 곧 내 것이 되리라.\n이벤트 기간 5일 출석 시 선물 수령",
     ContentTC = "龍神即將隕落，我將執其權柄。\n活動期間簽到5日領取贈禮",
@@ -24775,7 +24791,7 @@ return ReadOnly("TextMap_I18n", {
     ContentFR = "Terminez la quête principale « Les Observateurs » pour obtenir vos récompenses, dont le [Fragment de pensée : Daphne].",
     ContentJP = "メインストーリー「観察者たち」をクリアして、「想いの欠片·ダフネ」などの報酬を獲得。",
     ContentKR = "메인 스토리 퀘스트 '상위자들' 완료로\n '아이디어 조각-다프네'가 포함된\n 퀘스트 보상을 획득하세요",
-    ContentTC = "完成主線任務「俯瞰者們」獲取包括角色「思緒片段·達芙涅」在內的任務獎勵。",
+    ContentTC = "完成主線任務「俯瞰者們」獲取包括道具「思緒片段·達芙涅」在內的任務獎勵。",
     TextMapContent = "完成主线任务“俯瞰者们”获取包括道具“思绪片段·达芙涅”在内的任务奖励。",
     TextMapId = "Event_Des_103004"
         },
@@ -24994,7 +25010,7 @@ return ReadOnly("TextMap_I18n", {
         },
   Event_Raid_Rule = {
     ContentEN = "Event Rules:\n1. The Phoxhunter Summit is divided into two phases: the Group Stage (Preliminaries) and Apex Rankings (Finals). The event begins with the Group Stage.\n2. In the Group Stage, your Phoxhunter Team earns points based on battle performance. Your highest score determines your group placement. Rewards are distributed based on group placement when the stage ends, so be sure to claim them on the event page. The Apex Rankings phase begins immediately afterwards.\n3. In the Apex Rankings phase, your team earns Ranking Points based on performance in each stage. Your highest Ranking Point total determines your placement within the group. Each Apex Rankings attempt consumes a Team Pass and awards a set amount of Phoxcoins according to the Ranking Points gained.\n4. Phoxcoins can be exchanged for items in the Apex Shop. Certain items unlock based on your highest Ranking Point total in the Apex Rankings phase.\n5. Teams that skip the Group Stage will not be placed in a group or appear in group rankings during the Apex Rankings. However, they may still challenge Apex Rankings stages to earn Phoxcoins and exchange them in the Apex Shop, including for items unlocked by reaching higher Ranking Point milestones.\n \nStage Rules:\n1. In Group Stage challenges, defeat the required number of enemies within the time limit to clear the stage.\n2. In Apex Rankings challenges, defeating standard enemies also deals bonus damage to the extreme-threat enemy. Clear the stage by defeating the extreme-threat enemy within the time limit.\n3. You'll earn bonus points based on remaining time in both Group Stage and Apex Rankings challenges.\n4. If you fail to clear the stage, you will still earn points based on your progress when the time runs out.",
-    ContentJP = "ルール説明：\n 1.『月狩り人の段階』イベントは、「グループ戦」と「頂上ランキング」の2つのフェーズに分かれています。イベント開始と同時に「グループ戦」フェーズが開放されます。\n 2.「グループ戦」フェーズでは、月狩り人チームが「グループ戦」ステージに挑戦し、戦闘結果に応じてスコアが算出されます。フェーズ中の過去最高スコアに基づいてグループ分けが行われます。「グループ戦」フェーズ終了時には所属グループに応じて報酬が配布されますので、イベント画面から受け取ってください。「グループ戦」フェーズ終了後、直ちに「頂上ランキング」フェーズが開始されます。\n 3.「頂上ランキング」フェーズでは、月狩り人チームが「頂上ランキング」ステージに挑戦し、戦闘結果に応じてランキングスコアが算出されます。フェーズ中の過去最高ランキングスコアに基づき、グループ内ランキングが決定されます。「頂上ランキング」ステージへの挑戦にはチーム招待状を消費し、各挑戦で得たランキングスコアに応じて一定数の月狩記念コインも獲得できます。\n 4.月狩記念コインは、ランキングショップでアイテムと交換できます。一部のアイテムは、「頂上ランキング」フェーズ中の過去最高ランキングスコアに応じて解放されます。\n 5.「グループ戦」フェーズのステージに一度も挑戦していない月狩り人チームはグループ分けされず、「頂上ランキング」フェーズのグループ内ランキングにも参加しません。ただし、「頂上ランキング」ステージへの挑戦で月狩記念コインを獲得することはでき、ランキングショップでの交換（過去最高ランキングスコアで解放される商品を含む）も可能です。\n \n ステージ挑戦説明：\n 1.「グループ戦」フェーズのステージでは、制限時間内に指定数の敵を撃破するとクリアとなります。\n 2.「頂上ランキング」フェーズのステージでは、通常敵を撃破すると超凶悪な敵にも追加ダメージが入り、制限時間内に超凶悪な敵を撃破するとクリアとなります。\n 3.「グループ戦」と「頂上ランキング」ステージをクリアした際、残り時間に応じて追加スコアを獲得できます。\n 4.クリアできなかった場合でも、制限時間終了時の目標達成度に応じて一定のスコアを獲得できます。",
+    ContentJP = "ルール説明：\n 1.『  月狩り人の階段』イベントは、「グループ戦」と「頂上ランキング」の2つのフェーズに分かれています。イベント開始と同時に「グループ戦」フェーズが開放されます。\n 2.「グループ戦」フェーズでは、月狩り人チームが「グループ戦」ステージに挑戦し、戦闘結果に応じてスコアが算出されます。フェーズ中の過去最高スコアに基づいてグループ分けが行われます。「グループ戦」フェーズ終了時には所属グループに応じて報酬が配布されますので、イベント画面から受け取ってください。「グループ戦」フェーズ終了後、直ちに「頂上ランキング」フェーズが開始されます。\n 3.「頂上ランキング」フェーズでは、月狩り人チームが「頂上ランキング」ステージに挑戦し、戦闘結果に応じてランキングスコアが算出されます。フェーズ中の過去最高ランキングスコアに基づき、グループ内ランキングが決定されます。「頂上ランキング」ステージへの挑戦にはチーム招待状を消費し、各挑戦で得たランキングスコアに応じて一定数の月狩記念コインも獲得できます。\n 4.月狩記念コインは、ランキングショップでアイテムと交換できます。一部のアイテムは、「頂上ランキング」フェーズ中の過去最高ランキングスコアに応じて解放されます。\n 5.「グループ戦」フェーズのステージに一度も挑戦していない月狩り人チームはグループ分けされず、「頂上ランキング」フェーズのグループ内ランキングにも参加しません。ただし、「頂上ランキング」ステージへの挑戦で月狩記念コインを獲得することはでき、ランキングショップでの交換（過去最高ランキングスコアで解放される商品を含む）も可能です。\n \n ステージ挑戦説明：\n 1.「グループ戦」フェーズのステージでは、制限時間内に指定数の敵を撃破するとクリアとなります。\n 2.「頂上ランキング」フェーズのステージでは、通常敵を撃破すると超凶悪な敵にも追加ダメージが入り、制限時間内に超凶悪な敵を撃破するとクリアとなります。\n 3.「グループ戦」と「頂上ランキング」ステージをクリアした際、残り時間に応じて追加スコアを獲得できます。\n 4.クリアできなかった場合でも、制限時間終了時の目標達成度に応じて一定のスコアを獲得できます。",
     ContentKR = "기본 메커니즘 설명\n1. 정상을 향해 리그는 [그룹 예선전]과 [정상 랭킹]으로 나뉩니다. 정상을 향해 이벤트 오픈 후, 즉시 [그룹 예선전] 단계에 진입합니다.\n2. [그룹 예선전] 단계에서, 월석 사냥꾼 파티가 [그룹 예선전] 스테이지 도전을 완료하면, 전투 퍼포먼스에 따라 포인트가 결산되며, [그룹 예선전] 단계의 최고 포인트를 기준으로 그룹이 배정됩니다. [그룹 예선전] 단계 종료 시 소속 그룹에 따라 보상이 결산되니 제때 이벤트 페이지에서 보상을 수령해 주세요. [그룹 예선전] 단계 종료 후, 즉시 [정상 랭킹] 단계가 오픈됩니다.\n3. [정상 랭킹] 단계 기간, 월석 사냥꾼 파티가 [정상 랭킹] 스테이지 도전을 완료하면, 전투 퍼포먼스에 따라 포인트가 결산되며, [정상 랭킹] 단계의 최고 포인트를 기준으로 그룹 내 랭킹이 결정됩니다. 파티 초대장을 소모해 [정상 랭킹] 스테이지 도전을 진행할 수 있으며, 매회 도전 결산 시의 포인트에 따라 일정 수량의 월석 사냥 기념 코인을 획득합니다.\n4. 월석 사냥 기념 코인은 랭킹 상점에서 아이템 교환에 사용되며, 일부 아이템은 [정상 랭킹] 단계의 최고 포인트에 따라 해제됩니다.\n5. [그룹 예선전] 단계 스테이지 도전에 참여하지 않은 월석 사냥꾼 파티는 그룹이 배정되지 않으며, [정상 랭킹] 단계의 그룹 내 랭킹도 결산되지 않습니다. 단, [정상 랭킹] 단계 스테이지 도전을 통해 월석 사냥 기념 코인을 획득하고 랭킹 상점에서 아이템을 교환할 수 있습니다([정상 랭킹] 단계의 최고 포인트에 따라 해제되는 아이템 포함).\n \n스테이지 도전 설명\n1. [그룹 예선전] 단계 스테이지 도전에서 제한 시간 내에 지정된 수량의 적을 처치하면 도전을 클리어하게 됩니다.\n2. [정상 랭킹] 단계 스테이지 도전에서 비고위험 적을 처치하면 고위험 적에게 추가로 대미지를 입힐 수 있으며, 제한 시간 내에 고위험 적을 처치하면 도전을 클리어합니다.\n3. [그룹 예선전]과 [정상 랭킹] 스테이지 도전 완료 시 남은 시간에 따라 추가 포인트를 획득합니다.\n4. 클리어에 실패할 경우, 제한 시간이 종료될 때 목표 달성도에 따라 일정 포인트를 획득합니다.",
     ContentTC = "賽制說明：\n1.狩月人之階的賽制分為「分組賽」和「巔峰排名」兩個階段。狩月人之階活動開啟後，會立刻開啟「分組賽」階段。\n2.「分組賽」階段中，狩月人小隊完成「分組賽」關卡挑戰後會依據戰鬥表現結算積分，並且依據「分組賽」階段的歷史最高積分進行分組。「分組賽」階段結束時會依據所在的分組進行獎勵結算，請記得前往活動頁面領取。「分組賽」階段結束後，會立刻開啟「巔峰排名」階段。\n3.「巔峰排名」階段中，狩月人小隊完成「巔峰排名」關卡挑戰後會依據戰鬥表現結算排名積分，並且依據「巔峰排名」階段的歷史最高排名積分進行組內排名。「巔峰排名」關卡挑戰需要消耗小隊邀請函才能進行，同時也會依據每次挑戰結算的排名積分獲得一定數目的狩月紀念幣。\n4.狩月紀念幣可用於在排名商店中兌換商品，部分商品會隨著「巔峰排名」階段的歷史最高排名積分解鎖。\n5.未參與「分組賽」階段關卡挑戰的狩月人小隊不會進行分組，同樣也不會參與「巔峰排名」階段的組內排名。但依舊可以參與「巔峰排名」階段關卡挑戰獲得狩月紀念幣，也依舊可以前往排名商店進行商品兌換（包括隨著「巔峰排名」階段的歷史最高排名積分解鎖的商品）。\n\n關卡挑戰說明：\n1.在「分組賽」階段關卡挑戰中，在時限內擊敗指定數量敵人即可通關。\n2.在「巔峰排名」階段關卡挑戰中，擊敗非高危敵人時，會額外對高危敵人造成傷害，時限內擊敗高危敵人即可通關。\n3.完成「分組賽」和「巔峰排名」關卡挑戰時，會根據剩餘時間獲得額外積分。\n4.如果未成功通關，會在時限結束時，根據目標達成度獲得一定積分。",
     TextMapContent = "赛制说明：\n1.狩月人之阶的赛制分为「分组赛」和「巅峰排名」两个阶段。狩月人之阶活动开启后，会立刻开启「分组赛」阶段。\n2.「分组赛」阶段中，狩月人小队完成「分组赛」关卡挑战后会依据战斗表现结算积分，并且依据「分组赛」阶段的历史最高积分进行分组。「分组赛」阶段结束时会依据所在的分组进行奖励结算，请记得前往活动页面领取。「分组赛」阶段结束后，会立刻开启「巅峰排名」阶段。\n3.「巅峰排名」阶段中，狩月人小队完成「巅峰排名」关卡挑战后会依据战斗表现结算积分，并且依据「巅峰排名」阶段的历史最高积分进行组内排名。「巅峰排名」关卡挑战需要消耗小队邀请函才能进行，同时也会依据每次挑战结算的积分获得一定数目的狩月纪念币。\n4.狩月纪念币可用于在排名商店中兑换商品，部分商品会随着「巅峰排名」阶段的历史最高积分解锁。\n5.未参与「分组赛」阶段关卡挑战的狩月人小队不会进行分组，同样也不会参与「巅峰排名」阶段的组内排名。但依旧可以参与「巅峰排名」阶段关卡挑战获得狩月纪念币，也依旧可以前往排名商店进行商品兑换（包括随着「巅峰排名」阶段的历史最高积分解锁的商品）。\n\n关卡挑战说明：\n1.在「分组赛」阶段关卡挑战中，在时限内击败指定数量敌人即可通关。\n2.在「巅峰排名」阶段关卡挑战中，击败非高危敌人时，会额外对高危敌人造成伤害，时限内击败高危敌人即可通关。\n3.完成「分组赛」和「巅峰排名」关卡挑战时，会根据剩余时间获得额外积分。\n4.如果未成功通关，会在时限结束时，根据目标达成度获得一定积分。",
@@ -25002,7 +25018,7 @@ return ReadOnly("TextMap_I18n", {
         },
   Event_Raid_Rule_Dungeon = {
     ContentEN = "Stage Rules:\n1. In Group Stage challenges, defeat the required number of enemies within the time limit to clear the stage.\n2. In Apex Rankings challenges, defeating standard enemies also deals bonus damage to the extreme-threat enemy. Clear the stage by defeating the extreme-threat enemy within the time limit.\n3. You'll earn bonus points based on remaining time in both Group Stage and Apex Rankings challenges.\n4. If you fail to clear the stage, you will still earn points based on a certain proportion of your estimated score when the time runs out.\n \nEvent Rules:\n1. The Phoxhunter Summit is divided into two phases: the Group Stage (Preliminaries) and Apex Rankings (Finals). The event begins with the Group Stage.\n2. In the Group Stage, your Phoxhunter Team earns points based on battle performance. Your highest score determines your group placement. Rewards are distributed based on group placement when the stage ends, so be sure to claim them on the event page. The Apex Rankings phase begins immediately afterwards.\n3. In the Apex Rankings phase, your team earns Ranking Points based on performance in each stage. Your highest Ranking Point total determines your placement within the group. Each Apex Rankings attempt consumes a Team Pass and awards a set amount of Phoxcoins according to the Ranking Points gained.\n4. Phoxcoins can be exchanged for items in the Apex Shop. Certain items unlock based on your highest Ranking Point total in the Apex Rankings phase.\n5. Teams that skip the Group Stage will not be placed in a group or appear in group rankings during the Apex Rankings. However, they may still challenge Apex Rankings stages to earn Phoxcoins and exchange them in the Apex Shop, including for items unlocked by reaching higher Ranking Point milestones.",
-    ContentJP = "ステージ挑戦説明：\n 1.「グループ戦」フェーズのステージでは、制限時間内に指定数の敵を撃破するとクリアとなります。\n 2.「頂上ランキング」フェーズのステージでは、通常敵を撃破すると超凶悪な敵にも追加ダメージが入り、制限時間内に超凶悪な敵を撃破するとクリアとなります。\n 3.「グループ戦」と「頂上ランキング」ステージをクリアした際、残り時間に応じて追加スコアを獲得できます。\n 4.クリアできなかった場合でも、制限時間終了時の予想ポイントの一定割合でスコアを獲得できます。\n \n ルール説明：\n 1.『月狩り人の段階』イベントは、「グループ戦」と「頂上ランキング」の2つのフェーズに分かれています。イベント開始と同時に「グループ戦」フェーズが開放されます。\n 2.「グループ戦」フェーズでは、月狩り人チームが「グループ戦」ステージに挑戦し、戦闘結果に応じてスコアが算出されます。フェーズ中の過去最高スコアに基づいてグループ分けが行われます。「グループ戦」フェーズ終了時には所属グループに応じて報酬が配布されますので、イベント画面から受け取ってください。「グループ戦」フェーズ終了後、直ちに「頂上ランキング」フェーズが開始されます。\n 3.「頂上ランキング」フェーズでは、月狩り人チームが「頂上ランキング」ステージに挑戦し、戦闘結果に応じてランキングスコアが算出されます。フェーズ中の過去最高ランキングスコアに基づき、グループ内ランキングが決定されます。「頂上ランキング」ステージへの挑戦にはチーム招待状を消費し、各挑戦で得たランキングスコアに応じて一定数の月狩記念コインも獲得できます。\n 4.月狩記念コインは、ランキングショップでアイテムと交換できます。一部のアイテムは、「頂上ランキング」フェーズ中の過去最高ランキングスコアに応じて解放されます。\n 5.「グループ戦」フェーズのステージに一度も挑戦していない月狩り人チームはグループ分けされず、「頂上ランキング」フェーズのグループ内ランキングにも参加しません。ただし、「頂上ランキング」ステージへの挑戦で月狩記念コインを獲得することはでき、ランキングショップでの交換（過去最高ランキングスコアで解放される商品を含む）も可能です。",
+    ContentJP = "ステージ挑戦説明：\n 1.「グループ戦」フェーズのステージでは、制限時間内に指定数の敵を撃破するとクリアとなります。\n 2.「頂上ランキング」フェーズのステージでは、通常敵を撃破すると超凶悪な敵にも追加ダメージが入り、制限時間内に超凶悪な敵を撃破するとクリアとなります。\n 3.「グループ戦」と「頂上ランキング」ステージをクリアした際、残り時間に応じて追加スコアを獲得できます。\n 4.クリアできなかった場合でも、制限時間終了時の予想ポイントの一定割合でスコアを獲得できます。\n \n ルール説明：\n 1.『  月狩り人の階段』イベントは、「グループ戦」と「頂上ランキング」の2つのフェーズに分かれています。イベント開始と同時に「グループ戦」フェーズが開放されます。\n 2.「グループ戦」フェーズでは、月狩り人チームが「グループ戦」ステージに挑戦し、戦闘結果に応じてスコアが算出されます。フェーズ中の過去最高スコアに基づいてグループ分けが行われます。「グループ戦」フェーズ終了時には所属グループに応じて報酬が配布されますので、イベント画面から受け取ってください。「グループ戦」フェーズ終了後、直ちに「頂上ランキング」フェーズが開始されます。\n 3.「頂上ランキング」フェーズでは、月狩り人チームが「頂上ランキング」ステージに挑戦し、戦闘結果に応じてランキングスコアが算出されます。フェーズ中の過去最高ランキングスコアに基づき、グループ内ランキングが決定されます。「頂上ランキング」ステージへの挑戦にはチーム招待状を消費し、各挑戦で得たランキングスコアに応じて一定数の月狩記念コインも獲得できます。\n 4.月狩記念コインは、ランキングショップでアイテムと交換できます。一部のアイテムは、「頂上ランキング」フェーズ中の過去最高ランキングスコアに応じて解放されます。\n 5.「グループ戦」フェーズのステージに一度も挑戦していない月狩り人チームはグループ分けされず、「頂上ランキング」フェーズのグループ内ランキングにも参加しません。ただし、「頂上ランキング」ステージへの挑戦で月狩記念コインを獲得することはでき、ランキングショップでの交換（過去最高ランキングスコアで解放される商品を含む）も可能です。",
     ContentKR = "스테이지 도전 설명\n1. [그룹 예선전] 단계 스테이지 도전에서 제한 시간 내에 지정된 수량의 적을 처치하면 도전을 클리어하게 됩니다.\n2. [정상 랭킹] 단계 스테이지 도전에서 비고위험 적을 처치하면 고위험 적에게 추가로 대미지를 입힐 수 있으며, 제한 시간 내에 고위험 적을 처치하면 도전을 클리어합니다.\n3. [그룹 예선전]과 [정상 랭킹] 스테이지 도전 완료 시 남은 시간에 따라 추가 포인트를 획득합니다.\n4. 클리어에 실패할 경우, 제한 시간이 종료될 때 예상 포인트의 일정 비율로 결산됩니다.\n \n기본 메커니즘 설명\n1. 정상을 향해 리그는 [그룹 예선전]과 [정상 랭킹] 단계로 나뉩니다. 정상을 향해 이벤트 오픈 후, 즉시 [그룹 예선전] 단계에 진입합니다.\n2. [그룹 예선전] 단계 기간, 월석 사냥꾼 파티가 [그룹 예선전] 스테이지 도전을 완료하면, 전투 퍼포먼스에 따라 포인트가 결산되며, [그룹 예선전] 단계의 최고 포인트를 기준으로 그룹이 배정됩니다. [그룹 예선전] 단계 종료 시 소속 그룹에 따라 보상이 결산되므로 제때 이벤트 페이지에서 보상을 수령해 주세요. [그룹 예선전] 단계 종료 후, 즉시 [정상 랭킹] 단계가 오픈됩니다.\n3. [정상 랭킹] 단계 기간, 월석 사냥꾼 파티가 [정상 랭킹] 스테이지 도전을 완료하면, 전투 퍼포먼스에 따라 랭킹 포인트가 결산되며, [정상 랭킹] 단계의 최고 랭킹 포인트를 기준으로 그룹 내 랭킹이 결정됩니다. 파티 초대장을 소모해 [정상 랭킹] 스테이지 도전을 진행할 수 있으며, 매회 도전 결산 시의 랭킹 포인트에 따라 일정 수량의 월석 사냥 기념 코인을 획득합니다.\n4. 월석 사냥 기념 코인은 랭킹 상점에서 아이템 교환에 사용되며, 일부 아이템은 [정상 랭킹] 단계의 최고 랭킹 포인트에 따라 해제됩니다.\n5. [그룹 예선전] 단계 스테이지 도전에 참여하지 않은 월석 사냥꾼 파티는 그룹이 배정되지 않으며, [정상 랭킹] 단계의 그룹 내 랭킹도 결산되지 않습니다. 단, [정상 랭킹] 단계 스테이지 도전을 통해 월석 사냥 기념 코인을 획득하고 랭킹 상점에서 아이템을 교환할 수 있습니다([정상 랭킹] 단계의 최고 랭킹 포인트에 따라 해제되는 아이템 포함).",
     ContentTC = "關卡挑戰說明：\n1.在「分組賽」階段關卡挑戰中，在時限內擊敗指定數量敵人即可通關。\n2.在「巔峰排名」階段關卡挑戰中，擊敗非高危敵人時，會額外對高危敵人造成傷害，時限內擊敗高危敵人即可通關。\n3.完成「分組賽」和「巔峰排名」關卡挑戰時，會根據剩餘時間獲得額外積分。\n4.如果未成功通關，會在時限結束時，根據預估積分的一定比例進行結算。\n\n賽制說明：\n1.狩月人之階的賽制分為「分組賽」和「巔峰排名」兩個階段。狩月人之階活動開啟後，會立刻開啟「分組賽」階段。\n2.「分組賽」階段中，狩月人小隊完成「分組賽」關卡挑戰後會依據戰鬥表現結算積分，並且依據「分組賽」階段的歷史最高積分進行分組。「分組賽」階段結束時會依據所在的分組進行獎勵結算，請記得前往活動頁面領取。「分組賽」階段結束後，會立刻開啟「巔峰排名」階段。\n3.「巔峰排名」階段中，狩月人小隊完成「巔峰排名」關卡挑戰後會依據戰鬥表現結算排名積分，並且依據「巔峰排名」階段的歷史最高排名積分進行組內排名。「巔峰排名」關卡挑戰需要消耗小隊邀請函才能進行，同時也會依據每次挑戰結算的排名積分獲得一定數目的狩月紀念幣。\n4.狩月紀念幣可用於在排名商店中兌換商品，部分商品會隨著「巔峰排名」階段的歷史最高排名積分解鎖。\n5.未參與「分組賽」階段關卡挑戰的狩月人小隊不會進行分組，同樣也不會參與「巔峰排名」階段的組內排名。但依舊可以參與「巔峰排名」階段關卡挑戰獲得狩月紀念幣，也依舊可以前往排名商店進行商品兌換（包括隨著「巔峰排名」階段的歷史最高排名積分解鎖的商品）。",
     TextMapContent = "关卡挑战说明：\n1.在「分组赛」阶段关卡挑战中，在时限内击败指定数量敌人即可通关。\n2.在「巅峰排名」阶段关卡挑战中，击败非高危敌人时，会额外对高危敌人造成伤害，时限内击败高危敌人即可通关。\n3.完成「分组赛」和「巅峰排名」关卡挑战时，会根据剩余时间获得额外积分。\n4.如果未成功通关，会在时限结束时，根据预估积分的一定比例进行结算。\n\n赛制说明：\n1.狩月人之阶的赛制分为「分组赛」和「巅峰排名」两个阶段。狩月人之阶活动开启后，会立刻开启「分组赛」阶段。\n2.「分组赛」阶段中，狩月人小队完成「分组赛」关卡挑战后会依据战斗表现结算积分，并且依据「分组赛」阶段的历史最高积分进行分组。「分组赛」阶段结束时会依据所在的分组进行奖励结算，请记得前往活动页面领取。「分组赛」阶段结束后，会立刻开启「巅峰排名」阶段。\n3.「巅峰排名」阶段中，狩月人小队完成「巅峰排名」关卡挑战后会依据战斗表现结算积分，并且依据「巅峰排名」阶段的历史最高积分进行组内排名。「巅峰排名」关卡挑战需要消耗小队邀请函才能进行，同时也会依据每次挑战结算的积分获得一定数目的狩月纪念币。\n4.狩月纪念币可用于在排名商店中兑换商品，部分商品会随着「巅峰排名」阶段的历史最高积分解锁。\n5.未参与「分组赛」阶段关卡挑战的狩月人小队不会进行分组，同样也不会参与「巅峰排名」阶段的组内排名。但依旧可以参与「巅峰排名」阶段关卡挑战获得狩月纪念币，也依旧可以前往排名商店进行商品兑换（包括随着「巅峰排名」阶段的历史最高积分解锁的商品）。",
@@ -25037,11 +25053,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Event_Rule_103002"
         },
   Event_Rule_103011 = {
-    ContentEN = "<H>Luno's Special Theatre Event Rules</>\n1. After completing the quest \"Luno's Special Theatre\", you can sign up for the event with Director Putsch at <H>Galea Theater</>.\n2. In <H>Lunoball</>, follow Luno's instructions on the stage and display the matching <H>Geniemon</> and <H>posture</> to receive rewards. To meet the requirement, you can simply display the same type of Geniemon. Release the skill of Bro Boxie to meet the requirement of <H>Shiny Bro Boxie</> and <H>Ardent Bro Boxie</>.\n3. If you meet three or more requirements in each <H>Lunoball</>, you can get <H>premium rewards</> at the end of the ball; if you have met one or more requirements and less than three, you can get <H>regular rewards</>. Each account can get <H>Premium Rewards</> <H>5</> times at most during the event period, and after that, even if more reqirements are met, only <H>regular rewards</> will be granted. The interval between two <H>Lunoballs</> is half an hour.\n4. In <H>Festive Gathering</>, rewards will be sent via mail after a certain progress of delivering materials.\n5. In <H>Festive Gathering</>, clicking [Auto-Add] will automatically add deliverable materials according to the quality of the materials.\n6. In <H>Festive Gathering</>, the [Auto-Add] function becomes unavailable once all delivery milestones are complete. You can still manually add and deliver materials to finish quests and claim rewards.",
-    ContentJP = "<H>ルーナ特別劇場イベントルール</>\n 1.クエスト「ルーナ特別劇場」を完了すると、<H>ガレア劇場</>の団長プッチからイベント参加の申請ができます。\n 2.<H>ルーナダンスパーティ</>では、ステージ上のルーナ族の指示に従い、指定された<H>ジェネモン</>と<H>ジェスチャー</>を対応させて見せることでマッチング完了となり、報酬を獲得できます。同じタイプのジェネモンを披露すればマッチング完了となり、「ミラクル‐ハローボックス」のスキルを発動すると、<H>ピカピカ‐ハローボックス</>と<H>まっしぐら‐ハローボックス</>のマッチングもできるようになります。\n 3.各<H>ルーナダンスパーティ</>で3回以上マッチングを成功させると、ダンスパーティ終了時に<H>上級報酬</>を獲得できます。マッチング成功が1回以上3回未満の場合は<H>通常報酬</>となります。イベント期間中、1アカウントが獲得できる<H>上級報酬</>は最大<H>5</>回までで、それ以降は何度マッチングしても<H>通常報酬</>のみとなります。<H>ルーナダンスパーテ</>の開催間隔は30分です。\n 4.<H>祭りのひととき</>では、素材の納品進度が一定値に達すると報酬を獲得できます。報酬は全サーバー宛てメールで配布されます。\n 5.<H>祭りのひととき</>で【自動追加】をタップすると、素材の品質に応じて納品可能な素材が自動的に選択されます。\n 6.<H>祭りのひととき</>では、すべての素材納品進度を達成すると、【自動追加】機能は使用できなくなります。ただし、素材の追加や納品は引き続き手動で行えるため、クエストの達成や報酬の受け取りに支障はありません。",
-    ContentKR = "<H>루나의 스페셜 극장 이벤트 규칙</>\n1. 퀘스트 '루나의 스페셜 극장'을 완료하면, <H>갈레아 극장</>의 푸치 단장을 통해 참가 신청을 할 수 있습니다.\n2. <H>루나 무도회</>에서, 무대 위 루나의 지시에 따라 알맞은 <H>마령</>을 소환하거나 <H>전시 동작</>을 취하면 보상을 획득할 수 있습니다. 제시된 마령과 같은 유형의 마령을 소환하면 성공으로 인정되며, '기적의 안녕 상자' 스킬을 시전하면 <H>반짝이는 안녕 상자</>와 <H>굳센 안녕 상자</>의 성공 조건을 모두 충족한 것으로 간주합니다.\n3. <H>루나 무도회</>에서, 회차당 지시를 3회 이상 완수하면 무도회 종료 시 <H>고급 보상</>을 획득합니다. 지시 성공 횟수가 1회 이상 3회 미만이라면 <H>일반 보상</>을 획득합니다. <H>고급 보상</>은 이벤트 기간에 계정당 최대 <H>5</>회까지만 수령 가능하며, 그 후에는 지시를 여러 번 완수해도 <H>일반 보상</>만 제공됩니다. <H>루나 무도회</>는 30분 간격으로 진행됩니다.\n4. <H>단란한 파티</>에서 재료를 제출하여 일정 진행도를 달성하면, 보상을 획득합니다. 보상은 동일 서버 내에 전체 우편으로 발송됩니다.\n5. <H>단란한 파티</>에서 [자동 추가]를 클릭하면, 재료의 등급에 맞춰 제출 가능한 재료가 자동으로 채워집니다.\n6. <H>단란한 파티</>에서 재료 제출 진행도를 전부 완료한 후에는 [자동 추가]를 사용할 수 없습니다. 단, 수동으로 추가하여 재료를 제출하고, 퀘스트를 완료하여 보상을 획득할 수 있습니다.",
-    ContentTC = "<H>皎皎特別劇場活動規則</>\n1.完成任務「皎皎特別劇場」後，可在<H>蓋雷亞劇院</>的普奇團長處報名參加活動。\n2.在<H>皎誼舞會</>中，跟隨舞台上皎皎的指示，展示對應的<H>魔靈</>和<H>展示動作</>完成匹配，可獲得獎勵。展示同種類型的魔靈即可完成匹配，釋放「奇跡你好箱」的技能可以完成<H>閃亮你好箱</>和<H>銳意你好箱</>的匹配。\n3.在每次<H>皎誼舞會</>中，完成三次及以上的匹配，舞會結束時可以獲得<H>高級獎勵</>；匹配成功一次及以上且不足三次，可獲得<H>普通獎勵</>。每個帳號在活動期間最多獲得<H>5</>次<H>高級獎勵</>，之後即使完成多次匹配，也僅能獲得<H>普通獎勵</>。兩次<H>皎誼舞會</>的間隔為半個小時。\n4.在<H>歡聚一時</>中，交付素材達到一定進度後，會獲得獎勵。獎勵將透過全服信件發送。\n 5.在<H>歡聚一時</>中，點擊【自動添加】會依照材料品質自動加入可交付素材。\n6.在<H>歡聚一時</>中，素材交付已完成所有進度後，【自動添加】不再可用，但仍然可以手動添加並交付素材,完成任務並獲取獎勵。",
-    TextMapContent = "<H>皎皎特别剧场活动规则</>\n1.完成任务“皎皎特别剧场”后，可在<H>盖雷亚剧院</>的普奇团长处报名参加活动。\n2.在<H>皎谊舞会</>中，跟随舞台上皎皎的指示，展示对应的<H>魔灵</>和<H>展示动作</>完成匹配，可获得奖励。展示同种类型的魔灵即可完成匹配，释放“奇迹你好箱”的技能可以完成<H>闪光你好箱</>和<H>锐意你好箱</>的匹配。\n3.在每次<H>皎谊舞会</>中，完成三次及以上的匹配，舞会结束时可以获得<H>高级奖励</>；匹配成功一次及以上且不足三次，可获得<H>普通奖励</>。每个账号在活动期间最多获得<H>5</>次<H>高级奖励</>，之后即使完成多次匹配，也仅能获得<H>普通奖励</>。两次<H>皎谊舞会</>的间隔为半个小时。\n4.在<H>欢聚一时</>中，交付素材达到一定进度后，会获得奖励。奖励将通过全服邮件发送。\n5.在<H>欢聚一时</>中，点击【自动添加】会依照材料品质自动加入可交付素材。\n6.在<H>欢聚一时</>中，素材交付已完成所有进度后，【自动添加】不再可用，但仍然可以手动添加并交付素材,完成任务并获取奖励。",
+    ContentEN = "<H>Luno's Special Theatre Event Rules</>\n1. After completing the quest \"Luno's Special Theatre\", you can sign up for the event with Director Putsch at <H>Galea Theater</>.\n2. In <H>Lunoball</>, follow Luno's instructions on the stage and display the matching <H>Geniemon</> and <H>posture</> to receive rewards. To meet the requirement, you can simply display the same type of Geniemon. Release the skill of Bro Boxie to meet the requirement of <H>Shiny Bro Boxie</> and <H>Ardent Bro Boxie</>.\n3. If you meet one or more requirements in each <H>Lunoball</>, you can get <H>premium rewards</> at the end of the ball. Each account can get <H>Premium Rewards</> <H>5</> times at most during the event period, and after that, even if more reqirements are met, only <H>regular rewards</> will be granted. The interval between two <H>Lunoballs</> is half an hour.\n4. In <H>Festive Gathering</>, rewards will be sent via mail after a certain progress of delivering materials.\n5. In <H>Festive Gathering</>, clicking [Auto-Add] will automatically add deliverable materials according to the quality of the materials.\n6. In <H>Festive Gathering</>, the [Auto-Add] function becomes unavailable once all delivery milestones are complete. You can still manually add and deliver materials to finish quests and claim rewards.",
+    ContentJP = "<H>ルーナ特別劇場イベントルール</>\n 1.クエスト「ルーナ特別劇場」を完了すると、<H>ガレア劇場</>の団長プッチからイベント参加の申請ができます。\n 2.<H>ルーナダンスパーティ</>では、ステージ上のルーナ族の指示に従い、指定された<H>ジェネモン</>と<H>ジェスチャー</>を対応させて見せることでマッチング完了となり、報酬を獲得できます。同じタイプのジェネモンを披露すればマッチング完了となり、「ミラクル‐ハローボックス」のスキルを発動すると、<H>ピカピカ‐ハローボックス</>と<H>まっしぐら‐ハローボックス</>のマッチングもできるようになります。\n 3.各<H>ルーナダンスパーティ</>で1回以上マッチングを成功させると、ダンスパーティ終了時に<H>上級報酬</>を獲得できます。イベント期間中、1アカウントが獲得できる<H>上級報酬</>は最大<H>5</>回までで、それ以降は何度マッチングしても<H>通常報酬</>のみとなります。<H>ルーナダンスパーテ</>の開催間隔は30分です。\n 4.<H>祭りのひととき</>では、素材の納品進度が一定値に達すると報酬を獲得できます。報酬は全サーバー宛てメールで配布されます。\n 5.<H>祭りのひととき</>で【自動追加】をタップすると、素材の品質に応じて納品可能な素材が自動的に選択されます。\n 6.<H>祭りのひととき</>では、すべての素材納品進度を達成すると、【自動追加】機能は使用できなくなります。ただし、素材の追加や納品は引き続き手動で行えるため、クエストの達成や報酬の受け取りに支障はありません。",
+    ContentKR = "<H>루나의 스페셜 극장 이벤트 규칙</>\n1. 퀘스트 '루나의 스페셜 극장'을 완료하면, <H>갈레아 극장</>의 푸치 단장을 통해 참가 신청을 할 수 있습니다.\n2. <H>루나 무도회</>에서, 무대 위 루나의 지시에 따라 알맞은 <H>마령</>을 소환하거나 <H>전시 동작</>을 취하면 보상을 획득할 수 있습니다. 제시된 마령과 같은 유형의 마령을 소환하면 성공으로 인정되며, '기적의 안녕 상자' 스킬을 시전하면 <H>반짝이는 안녕 상자</>와 <H>굳센 안녕 상자</>의 성공 조건을 모두 충족한 것으로 간주합니다.\n3. <H>루나 무도회</>에서, 회차당 지시를 1회 이상 완수하면 무도회 종료 시 <H>고급 보상</>을 획득합니다.  <H>고급 보상</>은 이벤트 기간에 계정당 최대 <H>5</>회까지만 수령 가능하며, 그 후에는 지시를 여러 번 완수해도 <H>일반 보상</>만 제공됩니다. <H>루나 무도회</>는 30분 간격으로 진행됩니다.\n4. <H>단란한 파티</>에서 재료를 제출하여 일정 진행도를 달성하면, 보상을 획득합니다. 보상은 동일 서버 내에 전체 우편으로 발송됩니다.\n5. <H>단란한 파티</>에서 [자동 추가]를 클릭하면, 재료의 등급에 맞춰 제출 가능한 재료가 자동으로 채워집니다.\n6. <H>단란한 파티</>에서 재료 제출 진행도를 전부 완료한 후에는 [자동 추가]를 사용할 수 없습니다. 단, 수동으로 추가하여 재료를 제출하고, 퀘스트를 완료하여 보상을 획득할 수 있습니다.",
+    ContentTC = "<H>皎皎特別劇場活動規則</>\n1.完成任務「皎皎特別劇場」後，可在<H>蓋雷亞劇院</>的普奇團長處報名參加活動。\n2.在<H>皎誼舞會</>中，跟隨舞台上皎皎的指示，展示對應的<H>魔靈</>和<H>展示動作</>完成匹配，可獲得獎勵。展示同種類型的魔靈即可完成匹配，釋放「奇跡你好箱」的技能可以完成<H>閃亮你好箱</>和<H>銳意你好箱</>的匹配。\n3.在每次<H>皎誼舞會</>中，完成一次及以上的匹配，舞會結束時可以獲得<H>高級獎勵</>。每個帳號在活動期間最多獲得<H>5</>次<H>高級獎勵</>，之後即使完成多次匹配，也僅能獲得<H>普通獎勵</>。兩次<H>皎誼舞會</>的間隔為半個小時。\n4.在<H>歡聚一時</>中，交付素材達到一定進度後，會獲得獎勵。獎勵將透過全服信件發送。\n 5.在<H>歡聚一時</>中，點擊【自動添加】會依照材料品質自動加入可交付素材。\n6.在<H>歡聚一時</>中，素材交付已完成所有進度後，【自動添加】不再可用，但仍然可以手動添加並交付素材,完成任務並獲取獎勵。",
+    TextMapContent = "<H>皎皎特别剧场活动规则</>\n1.完成任务“皎皎特别剧场”后，可在<H>盖雷亚剧院</>的普奇团长处报名参加活动。\n2.在<H>皎谊舞会</>中，跟随舞台上皎皎的指示，展示对应的<H>魔灵</>和<H>展示动作</>完成匹配，可获得奖励。展示同种类型的魔灵即可完成匹配，释放“奇迹你好箱”的技能可以完成<H>闪光你好箱</>和<H>锐意你好箱</>的匹配。\n3.在每次<H>皎谊舞会</>中，完成一次及以上的匹配，舞会结束时可以获得<H>高级奖励</>。每个账号在活动期间最多获得<H>5</>次<H>高级奖励</>，之后即使完成多次匹配，也仅能获得<H>普通奖励</>。两次<H>皎谊舞会</>的间隔为半个小时。\n4.在<H>欢聚一时</>中，交付素材达到一定进度后，会获得奖励。奖励将通过全服邮件发送。\n5.在<H>欢聚一时</>中，点击【自动添加】会依照材料品质自动加入可交付素材。\n6.在<H>欢聚一时</>中，素材交付已完成所有进度后，【自动添加】不再可用，但仍然可以手动添加并交付素材,完成任务并获取奖励。",
     TextMapId = "Event_Rule_103011"
         },
   Event_SERIES_100002 = {
@@ -27376,8 +27392,8 @@ return ReadOnly("TextMap_I18n", {
     ContentES = "Aumenta el límite de acumulaciones de [Renacimiento de Archaeus] a #3; cada acumulación también otorga Moral +#5.",
     ContentFR = "Le nombre maximal de cumuls de [Rythme de l’âme] passe à #3, et chaque cumul confère une augmentation de Vigueur de #5.",
     ContentJP = "「誠心に帰すべし」の最大スタック数が#3まで増加。スタックごとに追加した「高揚」が#5アップする。",
-    ContentKR = "[신의 구원]의 최대 중첩 단계가 #3단계까지 상승하고, 단계당 격앙이 #5 상승한다.",
-    ContentTC = "「神歸心舍」最多疊加層數提高至#3層。",
+    ContentKR = "[신의 구원]의 최대 중첩 단계가 #3단계까지 상승하고, 단계당 격양이 #5 상승한다.",
+    ContentTC = "「神歸心舍」最多疊加層數提高至#3層，且每層獲得昂揚提高#5。",
     TextMapContent = "[神归心舍]最多叠加层数提高至#3层，且每层获得昂扬提高#5。",
     TextMapId = "GRADEUP_2401_04"
         },
@@ -27432,12 +27448,12 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "GRADEUP_3101_03"
         },
   GRADEUP_3101_04 = {
-    ContentEN = "Increases damage dealt to targets with a HP percentage lower than #3 by #4.",
+    ContentEN = "Increases damage dealt to targets with a HP percentage lower than #2 by #3.",
     ContentES = "Aumenta el daño infligido a objetivos con un porcentaje de PV inferior a #2 en #3.",
     ContentFR = "Augmente les dégâts infligés aux cibles dont le pourcentage de PV est inférieur à #3 de #4.",
-    ContentJP = "最大HPに対する残りHP比率が#3未満の対象に対して、与ダメージが#4アップする。",
-    ContentKR = "HP 비율이 #3보다 낮은 대상에게 입히는 대미지 #4 상승.",
-    ContentTC = "對生命值百分比低於#3的目標，造成的傷害提高#4。",
+    ContentJP = "最大HPに対する残りHP比率が#2未満の対象に対して、与ダメージが#3アップする。",
+    ContentKR = "HP 비율이 #2보다 낮은 대상에게 입히는 대미지 #3 상승.",
+    ContentTC = "對生命值百分比低於#2的目標，造成的傷害提高#3。",
     TextMapContent = "对生命值百分比低于#2的目标，造成的伤害提高#3。",
     TextMapId = "GRADEUP_3101_04"
         },
@@ -30317,21 +30333,21 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "HuaXu_Event_Des_10200108"
         },
   HuaXu_Event_Des_10200109 = {
-    ContentEN = "Solve Mohist mechanisms in Mistwharf",
+    ContentEN = "Solve Jishu Sect mechanisms in Mistwharf",
     ContentES = "Resuelve los mecanismos mohistas en Puerto de las Brumas",
     ContentJP = "「煙津渡」にある機枢機関をクリア",
-    ContentKR = "[연진 나루터] 지역의 묵가 장치 클리어",
-    ContentTC = "完成位於「煙津渡」的墨家機關",
+    ContentKR = "[연진 나루터] 지역의 기추 장치 클리어",
+    ContentTC = "完成位於「煙津渡」的機樞機關",
     TextMapContent = "完成位于「烟津渡」的机枢机关",
     TextMapId = "HuaXu_Event_Des_10200109"
         },
   HuaXu_Event_Des_10200110 = {
-    ContentEN = "Collect Wishen in Mistwharf",
+    ContentEN = "Find the Wishen hidden in Mistwharf",
     ContentES = "Recolecta Wishen en Puerto de las Brumas",
-    ContentJP = "「煙津渡」にいるムユウセイを収集",
-    ContentKR = "[연진 나루터] 지역의 무유생 수집",
-    ContentTC = "收集位於「煙津渡」的無由生",
-    TextMapContent = "收集位于「烟津渡」的无由生",
+    ContentJP = "「煙津渡」に隠れたムユウセイを見つけよう",
+    ContentKR = "[연진 나루터]에 숨어 있는 무유생 찾기",
+    ContentTC = "找到位於「煙津渡」的隱藏無由生",
+    TextMapContent = "找到位于「烟津渡」的隐藏无由生",
     TextMapId = "HuaXu_Event_Des_10200110"
         },
   HuaXu_Event_Des_10200111 = {
@@ -30380,21 +30396,21 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "HuaXu_Event_Des_10200115"
         },
   HuaXu_Event_Des_10200116 = {
-    ContentEN = "Unlock the waypoints in Mistwharf",
+    ContentEN = "Summon the Oneiric Avian Spirit in Mistwharf",
     ContentES = "Desbloquea Ave espiritual onírica en Puerto de las Brumas",
-    ContentJP = "「煙津渡」にあるワープポイントをアンロック",
-    ContentKR = "[연진 나루터] 지역의 전송 포인트 해제",
-    ContentTC = "解鎖位於「煙津渡」的夢中的靈鳥",
-    TextMapContent = "解锁位于「烟津渡」的梦中的灵鸟",
+    ContentJP = "「煙津渡」にあるワープポイントを呼び覚ましましょう",
+    ContentKR = "[연진 나루터] 지역의 영혼의 새 부르기",
+    ContentTC = "呼喚位於「煙津渡」的夢中的靈鳥",
+    TextMapContent = "呼唤位于「烟津渡」的梦中的灵鸟",
     TextMapId = "HuaXu_Event_Des_10200116"
         },
   HuaXu_Event_Des_10200117 = {
-    ContentEN = "Collect fish in Mistwharf",
+    ContentEN = "Catch the local fish in Mistwharf",
     ContentES = "Recolecta peces en Puerto de las Brumas",
-    ContentJP = "「煙津渡」にある魚を収集",
-    ContentKR = "[연진 나루터] 지역의 물고기 수집",
-    ContentTC = "收集位於「煙津渡」的魚",
-    TextMapContent = "收集位于「烟津渡」的鱼",
+    ContentJP = "「煙津渡」にある特殊魚を釣り上げよう",
+    ContentKR = "[연진 나루터] 지역의 특색 물고기 낚기",
+    ContentTC = "釣到位於「煙津渡」的特色魚",
+    TextMapContent = "钓到位于「烟津渡」的特色鱼",
     TextMapId = "HuaXu_Event_Des_10200117"
         },
   HuaXu_Event_Des_10200118 = {
@@ -32146,7 +32162,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MAINUIGUIDE_TITLE_YanShi_1"
         },
   MAINUIGUIDE_TITLE_ZhanFeng_1 = {
-    ContentEN = "Providence Chime",
+    ContentEN = "Aeolian Chime",
     ContentJP = "風鈴",
     ContentKR = "풍령",
     ContentTC = "占風鐸",
@@ -33071,7 +33087,7 @@ return ReadOnly("TextMap_I18n", {
         },
   MESSAGE_LOADING_103_PC = {
     ContentEN = "A wide plain in Mistwharf thick with tall reeds, where Emeraldfinches are often seen flitting through the swaying stalks.",
-    ContentJP = "煙津渡（えんしんと）一帯に広がる平原。葦が群生し、スイヘイスズメがよくその間を歩きまわる。",
+    ContentJP = "煙津渡（えんしんと）一帯に広がる平原。葦が群生し、スイヘイジャクがよくその間を歩きまわる。",
     ContentKR = "연진 나루터 구역의 넓은 평원. 갈대가 무성하게 자라고, 초록 공작새들이 유유히 걸어 다닌다.",
     ContentTC = "煙津渡區域的廣闊平原，蒹葭叢生，常有翠屏雀漫步其中。",
     TextMapContent = "烟津渡区域的广阔平原，蒹葭丛生，常有翠屏雀漫步其中。",
@@ -33119,7 +33135,7 @@ return ReadOnly("TextMap_I18n", {
         },
   MESSAGE_LOADING_109_PC = {
     ContentEN = "A wide plain in Mistwharf thick with tall reeds, where Emeraldfinches are often seen flitting through the swaying stalks.",
-    ContentJP = "煙津渡（えんしんと）一帯に広がる平原。葦が群生し、スイヘイスズメがよくその間を歩きまわる。",
+    ContentJP = "煙津渡（えんしんと）一帯に広がる平原。葦が群生し、スイヘイジャクがよくその間を歩きまわる。",
     ContentKR = "연진 나루터 구역의 넓은 평원. 갈대가 무성하게 자라고, 초록 공작새들이 유유히 걸어 다닌다.",
     ContentTC = "煙津渡區域的廣闊平原，蒹葭叢生，常有翠屏雀漫步其中。",
     TextMapContent = "烟津渡区域的广阔平原，蒹葭丛生，常有翠屏雀漫步其中。",
@@ -33331,8 +33347,8 @@ return ReadOnly("TextMap_I18n", {
         },
   MESSAGE_LOADING_203_PC = {
     ContentEN = "Huaxu's name for Charons.\nUnlike in Hyperborean Empire, Huaxu's people view Charons as an auspicious race that safeguards the nation.",
-    ContentJP = "華胥におけるカロン族の呼称。\n ヒュペリアとは逆に、華胥の人々はカロン族を国家を護る瑞兆の種族と捉える。",
-    ContentKR = "화서 남쪽의 바다와 합류하는 지점에 위치한 대형 나루터로, 옛 수도인 호경과 가깝다. 기후가 온화하고 경치가 아름답다. 무역 중계지 기능을 담당하며, 외국인이 화서에 방문할 때는 주로 이곳을 통해 오게 된다.",
+    ContentJP = "華胥におけるカロン族の呼称。\nヒュペリアとは逆に、華胥の人々はカロン族を国家を護る瑞兆の種族と捉える。",
+    ContentKR = "화서에서 카론을 부르는 이름.\n휘페르보레아 제국과 달리, 화서 사람들은 카론을, 나라를 지키는 상서로운 종족으로 여긴다. 이 때문에 용의 자손은 모두의 존경을 받는 존재이다.",
     ContentTC = "華胥對於卡戎之民的稱謂。\n與海伯利亞相反，華胥人認為卡戎是護佑國家的祥瑞種族。",
     TextMapContent = "华胥对于卡戎之民的称谓。\n与海伯利亚相反，华胥人认为卡戎是护佑国家的祥瑞种族。",
     TextMapId = "MESSAGE_LOADING_203_PC"
@@ -34125,6 +34141,30 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "按&Skill3&释放技能",
     TextMapId = "MESSAGE_SKILL3_2_PC_1st"
         },
+  MESSAGE_SKILL3_GAMEPAD = {
+    ContentEN = "Hold &GamepadUseSkill& and press &Skill3& to use Support Skill",
+    ContentJP = "&GamepadUseSkill&を押しながら&Skill3&で支援スキルを発動する",
+    ContentKR = "&GamepadUseSkill&을 누른 상태에서 &Skill3&을 눌러 지원 스킬을 시전하세요",
+    ContentTC = "按住&GamepadUseSkill&，再按下&Skill3&釋放支援技能",
+    TextMapContent = "按住&GamepadUseSkill&，再按下&Skill3&释放支援技能",
+    TextMapId = "MESSAGE_SKILL3_GAMEPAD"
+        },
+  MESSAGE_SKILL3_PC = {
+    ContentEN = "Click &Skill3& to use Support Skill",
+    ContentJP = "&Skill3&を押して支援スキルを発動する",
+    ContentKR = "&Skill3&를 클릭하여 지원 스킬을 시전하세요",
+    ContentTC = "按&Skill3&釋放支援技能",
+    TextMapContent = "按&Skill3&释放支援技能",
+    TextMapId = "MESSAGE_SKILL3_PC"
+        },
+  MESSAGE_SKILL3_PHONE = {
+    ContentEN = "Tap the button to use Support Skill",
+    ContentJP = "ボタンをタップして支援スキルを発動する",
+    ContentKR = "버튼을 눌러 지원 스킬을 시전하세요",
+    ContentTC = "點擊按鈕釋放支援技能",
+    TextMapContent = "点击按钮释放支援技能",
+    TextMapId = "MESSAGE_SKILL3_PHONE"
+        },
   MESSAGE_SLIDE_PC = {
     ContentEN = "Press &Slide& to slide through",
     ContentFR = "Appuyez sur &Slide& pour glisser",
@@ -34423,7 +34463,7 @@ return ReadOnly("TextMap_I18n", {
   MESSAGE_TITLE_LOADING_1_PC = {
     ContentEN = "Helix Leap",
     ContentJP = "スピンジャンプ",
-    ContentKR = "나선 점프",
+    ContentKR = "스파이럴 점프",
     ContentTC = "螺旋飛躍",
     TextMapContent = "螺旋飞跃",
     TextMapId = "MESSAGE_TITLE_LOADING_1_PC"
@@ -34545,6 +34585,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Art of Ephemerality",
     ContentJP = "枯栄（こえい）の術",
     ContentKR = "고영술",
+    ContentTC = "枯榮之術",
     TextMapContent = "枯荣之术",
     TextMapId = "MESSAGE_TITLE_LOADING_215_PC"
         },
@@ -35529,7 +35570,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_DESC_1804"
         },
   MOD_DESC_1805 = {
-    ContentEN = "Increases your Damage Dealt by #1 per Whipsword equipped by you or your Combat Partner (up to #2; does not apply when acting as Combat Partner).",
+    ContentEN = "Increases your Damage Dealt by #1 per Whipblade equipped by you or your Combat Partner (up to #2; does not apply when acting as Combat Partner).",
     ContentFR = "Pour chaque Épée-fouet équipée par vous ou votre Partenaire de combat, augmente vos dégâts infligés de #1, jusqu’à #2. (Sans effet si équipé par un Partenaire de combat.)",
     ContentJP = "自身および戦友がウィップブレードを装備するごとに、自身の与ダメージが#1アップする（最大#2まで）。戦友の場合は無効。",
     ContentKR = "자신과 협력 동료가 칼날 채찍 1개를 장착할 때마다, 자신이 입히는 대미지가 #1 상승한다. 최대 #2 상승한다. (협력 동료일 시 미적용)",
@@ -37120,7 +37161,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_NAME_1804"
         },
   MOD_NAME_1805 = {
-    ContentEN = "Gleaming Whipsword",
+    ContentEN = "Gleaming Whipblade",
     ContentFR = "Épée-fouet affûtée",
     ContentJP = "鋭滅のウィップブレード",
     ContentKR = "서슬 퍼런 칼날 채찍",
@@ -38706,7 +38747,6 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Mail_Content_100005"
         },
   Mail_Content_10005 = {
-    ContentDE = "\n ",
     TextMapContent = "感谢尊敬的狩月人参与本次测试，相关奖励已附在邮件中。\n请随意使用，来探索最适合自己的乐趣吧，游戏愉快~",
     TextMapId = "Mail_Content_10005"
         },
@@ -38928,11 +38968,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Mail_Content_10058"
         },
   Mail_Content_10059 = {
-    ContentEN = "Dear Phoxhunter,\n  The rewards for this event have been delivered to your account. Please claim them from your mailbox.\n  Wishing you a pleasant journey through Atlasia!",
+    ContentEN = "Dear Phoxhunter,\nThe rewards for this event have been delivered to your account. Please claim them from your mailbox.\nWishing you a pleasant journey through Atlasia!",
     ContentES = "Estimado Phoxcazador,\nLas recompensas de este evento han sido entregadas a tu cuenta. Por favor, recíbelas desde tu buzón.\n¡Te deseamos un agradable viaje por Atlasia!",
     ContentFR = "Chasseur de Phoxène,\nLes récompenses de cet événement vous ont été envoyées. Consultez votre messagerie pour les récupérer.\nNous vous souhaitons un agréable voyage à travers Atlasia !",
     ContentJP = "月狩り人様、今回のイベント報酬をお届けしました。ご確認ください。アトラシアでの旅路が楽しいものとなりますように！",
-    ContentKR = "아트라시아에서 즐거운 여정 되세요!",
+    ContentKR = "월석 사냥꾼님, 이번 이벤트 보상이 지급되었으니 확인해 주세요~ 아트라시아 대륙에서 즐거운 모험을 즐기시기 바랍니다!",
     ContentTC = "狩月人，本次活動的獎勵已送達，請您查收~祝您在阿特拉西亞的旅程愉快！",
     TextMapContent = "狩月人，本次活动的奖励已送达，请您查收~祝您在阿特拉西亚的旅程愉快！",
     TextMapId = "Mail_Content_10059"
@@ -41693,7 +41733,7 @@ return ReadOnly("TextMap_I18n", {
   Message_Guide_PetTrain_5 = {
     ContentEN = "Geniemon's Trait level can be increased via <H>Raise</>. You can also transfer Traits between Geniemons via <H>Geniemon Training</>.",
     ContentJP = "<H>ランクアップ</>を行うことで、ジェネモンのポテンシャルを強化でき、<H>ジェネモン訓練</>を通じて、選んだジェネモンに他のジェネモンのポテンシャルを引き継がせることも可能です。",
-    ContentKR = "<H>승급</> 작업을 통해 마령 잠재력의 레벨을 올릴 수 있으며, <H>마령 훈련</>을 통해 선택한 마령이 다른 마령의 잠재력을 획득하게 할 수 있습니다.",
+    ContentKR = "<H>승급</> 작업을 통해 마령 잠재력의 레벨을 올릴 수 있으며, <H>융합</>을 통해 선택한 마령이 다른 마령의 잠재력을 획득하게 할 수 있습니다.",
     ContentTC = "可以通過<H>升階</>操作提升魔靈潛質的等級，也可以通過<H>魔靈訓練</>，讓選中的魔靈獲得其他魔靈的潛質",
     TextMapContent = "可以通过<H>升阶</>操作提升魔灵潜质的等级，也可以通过<H>魔灵训练</>，让选中的魔灵获得其他魔灵的潜质",
     TextMapId = "Message_Guide_PetTrain_5"
@@ -41701,7 +41741,7 @@ return ReadOnly("TextMap_I18n", {
   Message_Guide_PetTrain_6 = {
     ContentEN = "Inactive Geniemons cannot join battle, but their Traits can be learned by other Geniemons through Geniemon Training.",
     ContentJP = "非活性化ジェネモンはパートナーとして戦闘には参加できませんが、ジェネモン訓練を通じて、そのポテンシャルを他のジェネモンに継承させることができます。",
-    ContentKR = "비활성 마령은 전투에 동료로 참여할 수 없지만, 마령 훈련을 통해 다른 마령이 비활성 마령의 잠재력을 배우게 할 수 있습니다.",
+    ContentKR = "비활성 마령은 전투에 동료로 참여할 수 없지만, 융합을 통해 다른 마령이 비활성 마령의 잠재력을 배우게 할 수 있습니다.",
     ContentTC = "失活魔靈無法作為伙伴參加戰鬥，但是可以通過魔靈訓練，讓其他魔靈學會失活魔靈的潛質",
     TextMapContent = "失活魔灵无法作为伙伴参加战斗，但是可以通过魔灵训练，让其他魔灵学会失活魔灵的潜质",
     TextMapId = "Message_Guide_PetTrain_6"
@@ -42350,11 +42390,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Message_Guide_RougeSettlement_2"
         },
   Message_Guide_RougeShop_1 = {
-    ContentEN = "At the <H>Mysterious Merchant</>'s stall, you can spend <H>Embers</> to purchase <H>Lampwicks</> and <H>Artefacts</>.",
-    ContentFR = "Chez le <H>Marchand mystérieux</>, vous pouvez échanger des <H>Braises</> contre des <H>Lucimèches</> et des <H>Artéfacts</>.",
+    ContentEN = "At the <H>Abyssal Merchant</>'s stall, you can spend <H>Embers</> to purchase <H>Lampwicks</> and <H>Artefacts</>.",
+    ContentFR = "Chez le <H>Marchand abyssal</>, vous pouvez échanger des <H>Braises</> contre des <H>Lucimèches</> et des <H>Artéfacts</>.",
     ContentJP = "<H>謎の行商人</>のところで、一定の<H>エンバー</>を消費して<H>キャンドルの芯</>と<H>レリック</>を購入できるよ。",
-    ContentKR = "<H>미스터리 행상인</>에게서 일정 수량의 <H>잿불</>을 소모해 <H>심지</>와 <H>유물</>을 구매할 수 있어.",
-    ContentTC = "在<H>神秘行商</>處，可以花費一定數量的<H>餘燼</>，購買<H>燭芯</>和<H>遺物</>。",
+    ContentKR = "<H>심연 행상인</>에게서 일정 수량의 <H>잿불</>을 소모해 <H>심지</>와 <H>유물</>을 구매할 수 있어.",
+    ContentTC = "在<H>深淵行商</>處，可以花費一定數量的<H>餘燼</>，購買<H>燭芯</>和<H>遺物</>。",
     TextMapContent = "在<H>神秘行商</>处，可以花费一定数量的<H>余烬</>，购买<H>烛芯</>和<H>遗物</>。",
     TextMapId = "Message_Guide_RougeShop_1"
         },
@@ -43903,22 +43943,22 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "ModArchive_Name_Char_1030"
         },
   ModArchive_Name_Char_1040 = {
-    ContentEN = "Griffin Ⅰ",
+    ContentEN = "Phoenix Ⅱ",
     ContentES = "Fénix II",
     ContentFR = "Griffon I",
-    ContentJP = "グリフォン I",
-    ContentKR = "그리핀 Ⅰ",
-    ContentTC = "獅鷲 Ⅰ",
+    ContentJP = "フェニックス II",
+    ContentKR = "불사조 Ⅱ",
+    ContentTC = "不死鳥 Ⅱ",
     TextMapContent = "不死鸟 Ⅱ",
     TextMapId = "ModArchive_Name_Char_1040"
         },
   ModArchive_Name_Char_1050 = {
-    ContentEN = "Phoenix Ⅱ",
+    ContentEN = "Griffin Ⅰ",
     ContentES = "Grifo I",
     ContentFR = "Phénix II",
-    ContentJP = "フェニックス II",
-    ContentKR = "불사조 Ⅱ",
-    ContentTC = "不死鳥 Ⅱ",
+    ContentJP = "グリフォン I",
+    ContentKR = "그리핀 Ⅰ",
+    ContentTC = "獅鷲 Ⅰ",
     TextMapContent = "狮鹫 Ⅰ",
     TextMapId = "ModArchive_Name_Char_1050"
         },
@@ -43981,6 +44021,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "羽蛇 Ⅲ",
     TextMapContent = "羽蛇 Ⅲ",
     TextMapId = "ModArchive_Name_Char_1110"
+        },
+  ModArchive_Name_Char_1111 = {
+    ContentEN = "Kukulkan: Anemo",
+    ContentJP = "ケツァル・風",
+    ContentKR = "쿠쿨칸 바람",
+    ContentTC = "羽蛇 風",
+    TextMapContent = "羽蛇 风",
+    TextMapId = "ModArchive_Name_Char_1111"
         },
   ModArchive_Name_Char_1120 = {
     ContentEN = "Phoenix Ⅳ",
@@ -44053,12 +44101,12 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "ModArchive_Name_Char_1180"
         },
   ModArchive_Name_Char_1190 = {
-    ContentEN = "Pan Ⅱ",
+    ContentEN = "Pan Ⅲ",
     ContentES = "Fauno III",
     ContentFR = "Faune II",
-    ContentJP = "パーン II",
-    ContentKR = "판 Ⅱ",
-    ContentTC = "牧神 Ⅱ",
+    ContentJP = "パーン Ⅲ",
+    ContentKR = "판 Ⅲ",
+    ContentTC = "牧神 Ⅲ",
     TextMapContent = "牧神 Ⅲ",
     TextMapId = "ModArchive_Name_Char_1190"
         },
@@ -44097,7 +44145,7 @@ return ReadOnly("TextMap_I18n", {
     ContentES = "Pactista: Lumino",
     ContentFR = "Pactisant : Lumino",
     ContentJP = "カヴェナンター 光",
-    ContentKR = "메피스토 빚",
+    ContentKR = "메피스토 빛",
     ContentTC = "契約者 光",
     TextMapContent = "契约者 光",
     TextMapId = "ModArchive_Name_Char_1230"
@@ -44502,6 +44550,30 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "审判者",
     TextMapId = "ModArchive_Name_Char_1630"
         },
+  ModArchive_Name_Char_1640 = {
+    ContentEN = "Kukulkan: Anemo",
+    ContentJP = "ケツァル・風",
+    ContentKR = "쿠쿨칸 바람",
+    ContentTC = "羽蛇 風",
+    TextMapContent = "羽蛇 风",
+    TextMapId = "ModArchive_Name_Char_1640"
+        },
+  ModArchive_Name_Char_1660 = {
+    ContentEN = "Changeling: Anemo",
+    ContentJP = "チェンジリング・風",
+    ContentKR = "체인질링 바람",
+    ContentTC = "換生靈 風",
+    TextMapContent = "换生灵 风",
+    TextMapId = "ModArchive_Name_Char_1660"
+        },
+  ModArchive_Name_Char_1680 = {
+    ContentEN = "Siren: Anemo",
+    ContentJP = "セイレーン・風",
+    ContentKR = "세이렌 바람",
+    ContentTC = "海妖 風",
+    TextMapContent = "海妖 风",
+    TextMapId = "ModArchive_Name_Char_1680"
+        },
   ModArchive_Name_Melee_2010 = {
     ContentEN = "Cerberus Ⅰ",
     ContentES = "Cerbero I",
@@ -44553,12 +44625,12 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "ModArchive_Name_Melee_2031"
         },
   ModArchive_Name_Melee_2040 = {
-    ContentEN = "Cerberus Ⅲ",
+    ContentEN = "Cerberus Ⅳ",
     ContentES = "Cerbero IV",
     ContentFR = "Cerbère III",
-    ContentJP = "ケルベロス III",
-    ContentKR = "케르베로스 Ⅲ",
-    ContentTC = "冥犬 Ⅲ",
+    ContentJP = "ケルベロス IV",
+    ContentKR = "케르베로스 Ⅳ",
+    ContentTC = "冥犬 Ⅳ",
     TextMapContent = "冥犬 Ⅳ",
     TextMapId = "ModArchive_Name_Melee_2040"
         },
@@ -46402,7 +46474,7 @@ return ReadOnly("TextMap_I18n", {
     ContentES = "Los Comandantes son entidades poderosas dentro de las fuerzas hostiles, capaces de emplear habilidades únicas conocidas como las <Highlight>habilidades de Comandante</>.\n<Highlight>Comandante – Sacrificio</> explota al ser derrotado, infligiendo daño a todos los objetivos hostiles dentro del rango.",
     ContentFR = "Les Ordonnateurs sont des ennemis d’élite dotés de <Highlight>capacités d’Ordonnateur</>.\nLorsque l’<Highlight>Ordonnateur — Sacrifice</> est vaincu, il explose et inflige des dégâts de zone aux ennemis alentours.",
     ContentJP = "「ホルダー」は敵の中で<Highlight>ホルダー</>能力を持っている強大な個体。\n<Highlight>サクリファイスホルダー</>は撃破されると爆発を起こし、周囲の敵対目標にダメージを与える。",
-    ContentKR = "'지휘자'는 적들 중에서 <Highlight>지휘자 능력</>을 가진 강력한 개체입니다.\n<Highlight>지휘자·헌신</>: 처치되면 폭발하여 범위 내 적에게 대미지를 입힙니다.",
+    ContentKR = "'지휘자'는 적들 중에서 <Highlight>지휘자 능력</>을 가진 강력한 개체입니다.\n<Highlight>지휘자·희생</>: 처치되면 폭발하여 범위 내 적에게 대미지를 입힙니다.",
     ContentTC = "「號令者」是敵人中擁有<Highlight>號令者能力</>的強大個體。\n<Highlight>舍身 號令者</>被擊敗時產生爆炸，對範圍內的敵對目標造成傷害。",
     TextMapContent = "“号令者”是敌人中拥有<Highlight>号令者能力</>的强大个体。\n<Highlight>舍身 号令者</>被击败时产生爆炸，对范围内的敌对目标造成伤害。",
     TextMapId = "Mon_Guide_Strong_Kamikaze_01"
@@ -46819,7 +46891,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Guard of Yingtian",
     ContentES = "Guardia de Yingtian",
     ContentFR = "Garde de Yingtian",
-    ContentJP = "応天侍（おうてんじ）",
+    ContentJP = "応天侍",
     ContentKR = "응천시",
     ContentTC = "應天侍",
     TextMapContent = "应天侍",
@@ -46928,7 +47000,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Magistrate of Yingtian",
     ContentES = "Magistrado de Yingtian",
     ContentFR = "Magistrat de Yingtian",
-    ContentJP = "応天尉（おうてんい）",
+    ContentJP = "応天尉",
     ContentKR = "응천위",
     ContentTC = "應天尉",
     TextMapContent = "应天尉",
@@ -46938,7 +47010,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Sable Bi'an",
     ContentES = "Bi'an Oscuro",
     ContentFR = "Bi’an obscur",
-    ContentJP = "玄狴（ゲンビー）",
+    ContentJP = "玄狴",
     ContentKR = "검은 폐안",
     ContentTC = "玄色狴犴",
     TextMapContent = "玄色狴犴",
@@ -46948,7 +47020,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Bi'an",
     ContentES = "Bi'an",
     ContentFR = "Bi’an",
-    ContentJP = "狴犴（ビーアン）",
+    ContentJP = "狴犴",
     ContentKR = "폐안",
     ContentTC = "狴犴",
     TextMapContent = "狴犴",
@@ -51916,7 +51988,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Zhuyin",
     ContentES = "Zhuyin",
     ContentFR = "Zhuyin",
-    ContentJP = "燭陰（しょくいん）",
+    ContentJP = "燭陰",
     ContentKR = "촉룡",
     ContentTC = "燭陰",
     TextMapContent = "烛阴",
@@ -51926,7 +51998,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Taihao",
     ContentES = "Taihao",
     ContentFR = "Taihao",
-    ContentJP = "太皓（たいこう）",
+    ContentJP = "太皓",
     ContentKR = "태호",
     ContentTC = "太皓",
     TextMapContent = "太皓",
@@ -52417,7 +52489,7 @@ return ReadOnly("TextMap_I18n", {
   Mon_Name_8518001 = {
     ContentEN = "Colossus Threshold",
     ContentES = "Umbral del Coloso",
-    ContentFR = "Fracture colossale",
+    ContentFR = "Terracolosse",
     ContentJP = "禍闕",
     ContentKR = "거궐",
     ContentTC = "巨闕",
@@ -53622,7 +53694,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Angler Heron",
     ContentES = "Garza Pescadora",
     ContentFR = "Héron pêcheur",
-    ContentJP = "蓑翁鷺（さおうろ）",
+    ContentJP = "サヲウロ",
     ContentKR = "낚시꾼 해오라기",
     ContentTC = "蓑翁鷺",
     TextMapContent = "蓑翁鹭",
@@ -53632,7 +53704,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Emeraldfinch",
     ContentES = "Jilguero Esmeralda",
     ContentFR = "Pinson d’émeraude",
-    ContentJP = "翠屏雀（すいへいじゃく）",
+    ContentJP = "スイヘイジャク",
     ContentKR = "초록 공작새",
     ContentTC = "翠屏雀",
     TextMapContent = "翠屏雀",
@@ -53642,7 +53714,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Petit Boar",
     ContentES = "Jabalí Enano",
     ContentFR = "Sanglier pygmée",
-    ContentJP = "珍猪（ちんちょ）",
+    ContentJP = "珍猪",
     ContentKR = "보물 돼지",
     ContentTC = "珍豬",
     TextMapContent = "珍猪",
@@ -53652,7 +53724,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Red Fox",
     ContentES = "Zorro Rojo",
     ContentFR = "Renard écarlate",
-    ContentJP = "赤狐（アカギツネ）",
+    ContentJP = "赤狐",
     ContentKR = "불여우",
     ContentTC = "赤狐",
     TextMapContent = "赤狐",
@@ -53662,7 +53734,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Cloudruff Deer",
     ContentES = "Ciervo Pelonube",
     ContentFR = "Cerf à crinière-nuage",
-    ContentJP = "雲鬃鹿（うんそうか）",
+    ContentJP = "雲鬃鹿",
     ContentKR = "구름 사슴",
     ContentTC = "雲鬃鹿",
     TextMapContent = "云鬃鹿",
@@ -53671,7 +53743,7 @@ return ReadOnly("TextMap_I18n", {
   Mon_Name_9810001 = {
     ContentEN = "Seabird",
     ContentES = "Ave Marina",
-    ContentJP = "海鳥",
+    ContentJP = "ウミドリ",
     ContentKR = "바닷새",
     ContentTC = "海鳥",
     TextMapContent = "海鸟",
@@ -54874,7 +54946,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Nine"
         },
   No_Blueprints = {
-    ContentEN = "None",
+    ContentEN = "None ",
     ContentES = "No hay plano",
     ContentFR = "Aucun plan",
     ContentJP = "なし",
@@ -54992,8 +55064,8 @@ return ReadOnly("TextMap_I18n", {
   NpcBiography_Information_Dadun = {
     ContentEN = "A "failed" businessman, or so he seems.\nAfter all, no successful entrepreneur would pour money into something that brings no return, least of all amusement facilities in Mist Aken, the slums of Icelake.\n\nYet he throws himself into this thankless venture with unfading zeal. He handles everything himself: choosing sites, putting up each attraction, and trying to draw in customers. Recently, he even finished a new "water slide" — only for it to flop all over again.\n\nNo one truly knows how he keeps going. Perhaps he believes there's some hidden opportunity in a field no one else dares touch. Or perhaps he simply thinks Icelake has grown too bleak, and its people need somewhere to find a little cheer and lift their weary spirits.",
     ContentFR = "Ouvrier des égouts à l’odeur tenace, Dutton fut autrefois connu comme « Docteur Dutton », un nom prononcé avec fierté dans son quartier natal. Il avait tenté de sauver un passant victime d’un malaise, mais l’échec de cette tentative lui valut une énorme amende et un renvoi humiliant.\nLa vie s’amuse parfois cruellement : incapable de trouver un emploi digne de ses compétences médicales, il finit par descendre travailler sous terre. « Je réparais des gens, aujourd’hui je répare des tuyaux... au fond, ça revient au même, non ? » aime-t-il plaisanter.\nMais nul ne voit les nuits d’angoisse qui le réveillent, ni ce vieux stéthoscope brisé qu’il serre contre lui pour espérer dormir à nouveau.",
-    ContentJP = "ダートン──“落ちこぼれ”と呼ばれる商人だ。\n アイスレイク城で成功している商人なら決して金を投じない分野──霧の街に、貧しい人々のための娯楽施設を造ることに、彼は自分の金をつぎ込んでいる。\n 割に合わない商売だというのに、ダートンはそれを楽しんでやめようとしない。ひとりで場所選びから施設の建設、客引きまでこなし、最近ようやく「ウォータースライダー」を完成させたが、結果はまたしても失敗だった。\n それでも彼がどうして諦めないのかは誰にも分からない。誰も手を出さないこのブルーオーシャンに隠れた商機があると信じているのか、ただアイスレイク城があまりに息苦しく、人々の干からびた心を満たしてくれる娯楽が必要だと感じているからなのか。",
-    ContentKR = "달튼, 지독한 하수도 냄새를 풍기는 수리공. \n30대 초반까지만 해도 그는 '닥터 달튼'이라고 불리며 존경받았다. '닥터 달튼'은 그가 태어난 동네의 자랑이었다. 그 시절 그는 길에서 갑자기 쓰러진 행인 한 명을 구조했다가 안타깝게도 살려내지 못했고, 결국 거액의 배상금을 물게 되었다. 병원에서는 병원의 명성에 누를 끼칠까 염려해 그를 해고했다.\n인생은 아이러니로 가득해서, 환자 보는 것밖에는 할 줄 모르던 달튼은 그럴듯한 직업을 찾지 못하고 전전하다가, 결국 하수도로 들어가게 되었다. 달튼은 "예전에 사람을 고쳤다면 지금은 파이프를 고치는 것뿐, 다를 건 하나도 없어."라고 말하곤 한다.\n하지만 그가 얼마나 많은 밤을 악몽에 시달리다 깨어나, 고장 난 지 오래인 청진기를 끼고서야 다시 잠이 들곤 하는지는 아무도 모른다.",
+    ContentJP = "ダートン──“落ちこぼれ”と呼ばれる商人だ。\nアイスレイク城で成功している商人なら決して金を投じない分野──霧の街に、貧しい人々のための娯楽施設を造ることに、彼は自分の金をつぎ込んでいる。\n割に合わない商売だというのに、ダートンはそれを楽しんでやめようとしない。ひとりで場所選びから施設の建設、客引きまでこなし、最近ようやく「ウォータースライダー」を完成させたが、結果はまたしても失敗だった。\nそれでも彼がどうして諦めないのかは誰にも分からない。誰も手を出さないこのブルーオーシャンに隠れた商機があると信じているのか、ただアイスレイク城があまりに息苦しく、人々の干からびた心を満たしてくれる娯楽が必要だと感じているからなのか。",
+    ContentKR = "달튼은 '실패'한 상인이다.\n성공한 상인이라면 수익이라고는 기대조차 할 수 없는 일에 투자를 감행할 리 없기 때문이다. 예를 들면 아이스레이크 시티의 안개 구역에 가난한 이들을 위한 놀이기구를 만드는 일이 그렇다.\n달튼은 입지 선정부터 시공, 호객 행위까지 전부 혼자 도맡아, 이 밑 빠진 독에 물 붓기나 다름없는 사업을 즐거운 마음으로 실행하고 있다. 그 결과, 얼마 전에 그는 드디어 '워터 슬라이드'를 완공했다. 결과는 또 실패였다.\n달튼의 끈기가 어디서 비롯되는지는 아무도 알지 못한다. 아무도 감히 투자하지 못하는 이 블루오션에 숨겨진 기회가 있다고 믿는 것일지도, 아니면 삭막하기 그지없는 아이스레이크 시티에 사람들의 메마른 가슴을 적셔 줄 오락 시설이 필요하다고 믿는 것뿐일지도 모른다.",
     ContentTC = "達頓，一位「失敗」的商人。\n因為成功的商人，都不會想著要把錢投到一個在冰湖城完全看不到回報的領域，那就是在霧區建設供窮人玩樂的娛樂設施。\n但達頓卻對這樣一個吃力不討好的生意樂此不疲。他一個人不斷地進行著項目選址、設施搭建和招攬客人的活。最近，他終於完成了「水上滑梯」的建設，但結果卻是又一次失敗。\n沒人知道他是如何堅持下來的，也許是因為他堅信這個無人敢投的藍海市場中一定存在著隱藏的商機，也許只是因為冰湖城實在是太過壓抑了，需要一些娛樂設施，來填補人們乾涸的內心。",
     TextMapContent = "达顿，一位“失败”的商人。\n因为成功的商人，都不会想着要把钱投到一个在冰湖城完全看不到回报的领域，那就是在雾区建设供穷人玩乐的娱乐设施。\n但达顿却对这样一个吃力不讨好的生意乐此不疲。他一个人不断地进行着项目选址、设施搭建和招揽客人的活。最近，他终于完成了“水上滑梯”的建设，但结果却是又一次失败。\n没人知道他是如何坚持下来的，也许是因为他坚信这个无人敢投的蓝海市场中一定存在着隐藏的商机，也许只是因为冰湖城实在是太过压抑了，需要一些娱乐设施，来填补人们干涸的内心。",
     TextMapId = "NpcBiography_Information_Dadun"
@@ -55201,7 +55273,7 @@ return ReadOnly("TextMap_I18n", {
         },
   NpcBiography_Information_LiShi = {
     ContentEN = "Poised and proper — that is the first impression most people have of Li Shi. As Mr Qiu's trusted right-hand man in the black market, he carries himself with effortless grace at the bargaining table, yet turns cold and uncompromising when it comes to upholding its rules. From time to time, he offers advice with no promise of return. Whether these gestures mask some hidden agenda or whether he simply enjoys stirring the pot, no one can say for certain.",
-    ContentJP = "リシツに対する第一印象は、たいてい「優雅で礼儀正しい」。彼はキョウンの黒市における有能な副官であり、商談の場では常に品位を保ち、闇市の規則を執行する際には冷酷さも持ち合わせている。時には見返りを求めない助言を人に与えることもあるが、それが何か後ろ暗い利益のためなのか、あるいはただ澱んだ水面をかき回したいだけなのかは分からない。",
+    ContentJP = "リーシツに対する第一印象は、たいてい「優雅で礼儀正しい」。彼はキョウンの黒市における有能な副官であり、商談の場では常に品位を保ち、闇市の規則を執行する際には冷酷さも持ち合わせている。時には見返りを求めない助言を人に与えることもあるが、それが何か後ろ暗い利益のためなのか、あるいはただ澱んだ水面をかき回したいだけなのかは分からない。",
     ContentKR = "사람들은 이신에게 젊잖은 사람이라는 첫인상을 갖는다. 그리고 규선생의 오른팔인 그는 사업과 관련된 논의를 할 때는 품격을 잃지 않지만, 암시장의 규율을 집행할 때만큼은 더없이 냉혹하다. 이따금 아무런 대가 없이 조건을 건네곤 하지만, 떳떳하지 못한 이익을 취하기 위해서인지, 단순히 문제를 일으키고 싶어서인지는 알 길이 없다.",
     ContentTC = "優雅得體，是人們對李什的第一印象。他是虬先生在黑市的得力副手，既能在談生意時保持風度，也能在執行黑市規則時保持狠辣。他偶爾會給人們提供一些不計回報的建議，不知是為了一些見不得光的利益，還是單純為了攪動一潭死水。",
     TextMapContent = "优雅得体，是人们对李什的第一印象。他是虬先生在黑市的得力副手，既能在谈生意时保持风度，也能在执行黑市规则时保持狠辣。他偶尔会给人们提供一些不计回报的建议，不知是为了一些见不得光的利益，还是单纯为了搅动一潭死水。",
@@ -55582,7 +55654,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Increases ATK for self and allies by #1 for #2s.",
     ContentES = "Aumenta el ATQ propio y de sus aliados en #1 durante #2 s.",
     ContentFR = "Augmente l’ATQ de soi-même et des alliés de #1 pendant #2 s.",
-    ContentJP = "自身と仲間に攻撃が#1アップ、#2秒継続。",
+    ContentJP = "自身と仲間の攻撃が#1アップ、#2秒継続。",
     ContentKR = "자신과 팀원에게 공격력 #1 상승 효과를 부여한다. 지속 시간 #2초.",
     ContentTC = "為自身和隊友附加攻擊提高#1效果，持續#2秒。",
     TextMapContent = "为自身和队友附加攻击提高#1效果，持续#2秒。",
@@ -55662,7 +55734,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Deals Lumino DMG equal to #1 of the main character's ATK to enemies within range, while decreasing their Damage Dealt by #2 for #3s.",
     ContentES = "Inflige Daño Lumino igual a #1 del ATQ del personaje principal a los enemigos dentro del alcance y reduce su Daño Infligido en #2 durante #3 s.",
     ContentFR = "Inflige des Dégâts Lumino équivalents à #1 de l’ATQ du personnage principal et réduit les dégâts infligés des ennemis touchés de #2 pendant #3 s.",
-    ContentJP = "周囲の敵にメインキャラの攻撃力#1に相当する光属性ダメージを与え、#3秒間攻撃力を#2ダウンさせる。",
+    ContentJP = "周囲の敵にメインキャラの攻撃力#1に相当する光属性ダメージを与え、敵に与えダメージ#2ダウンを付与する、#3秒継続。",
     ContentKR = "주위의 적에게 주인공 공격 #1의 빛 속성 대미지를 입히고, 입히는 대미지 감소 #2의 효과를 부여한다. 지속 시간 #3초.",
     ContentTC = "對周圍的敵人造成主角色攻擊#1的光屬性傷害，並附加造成的傷害降低#2的效果，持續#3秒。",
     TextMapContent = "对周围的敌人造成主角色攻击#1的光属性伤害，并附加造成的伤害降低#2的效果，持续#3秒。",
@@ -55682,7 +55754,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Deals damage equal to #1 of the main character's ATK to nearby enemies. Detects 1 Geniemon and 1 Chest within 100m, marking their positions for 30s.",
     ContentES = "Inflige daño equivalente a #1 del ATQ del personaje principal a los enemigos cercanos. Detecta 1 Geniemon y 1 cofre en un radio de 100 m y marca su posición durante 30 s.",
     ContentFR = "Inflige des dégâts équivalents à #1 de l’ATQ du personnage principal aux ennemis proches. Détecte 1 Géniemon et 1 coffre dans un rayon de 100 m, marquant leur position pendant 30 s.",
-    ContentJP = "周囲の敵にメインキャラ攻撃#1のダメージ。100m以内のジェネモン1体と貯蔵箱1個を探知し、30秒間マークする。",
+    ContentJP = "周囲の敵にメインキャラの攻撃力#1に相当するダメージを与える。100m以内のジェネモン1体と貯蔵箱1個を探知し、30秒間マークする。",
     ContentKR = "주변의 적에게 메인 캐릭터 공격력 #1의 대미지를 입힌다. 100m 이내의 마령 1마리와 수납함 1개를 감지하며, 30초 동안 지속적으로 마령과 수납함의 위치를 표시한다.",
     ContentTC = "對周圍的敵人造成主角色攻擊#1的傷害。探測100米的1個魔靈和1個儲物箱，並在30秒內持續標記出魔靈和儲物箱的位置。",
     TextMapContent = "对周围的敌人造成主角色攻击#1的伤害。探测100米的1个魔灵和1个储物箱，并在30秒内持续标记出魔灵和储物箱的位置。",
@@ -55702,7 +55774,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Grants self and allies -#1 Damage Taken for #2s.",
     ContentES = "Otorga a sí mismo y a sus aliados -#1 de Daño Recibido durante #2 s.",
     ContentFR = "Réduit les dégâts subis par vous et vos alliés de #1 pendant #2 s.",
-    ContentJP = "自身と味方に被ダメージ#1ダウン（#2秒継続）。",
+    ContentJP = "自身と味方に被ダメージ#1ダウンを付与する（#2秒継続）。",
     ContentKR = "자신과 팀원에게 받는 대미지 #1 감소 효과를 부여한다. 지속 시간 #2초.",
     ContentTC = "為自身和隊友附加受到傷害降低#1，持續#2秒。",
     TextMapContent = "为自身和队友附加受到伤害降低#1，持续#2秒。",
@@ -55842,7 +55914,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Deals Lumino Damage equal to #1 of the main character's ATK to enemies within range and increases the Skill Damage taken by them by #2 for #3s.",
     ContentES = "Inflige Daño Lumino igual a #1 del ATQ del personaje principal a los enemigos dentro del alcance y aumenta el Daño de Habilidad que reciben en #2 durante #3 s.",
     ContentFR = "Inflige des Dégâts Lumino équivalents à #1 de l’ATQ du personnage principal aux ennemis proches et augmente les Dégâts de compétence qu’ils subissent de #2 pendant #3 s.",
-    ContentJP = "周囲の敵にメインキャラの攻撃力#1に相当する光属性ダメージを与え、#3秒間受けるスキルダメージが#2アップする。",
+    ContentJP = "周囲の敵にメインキャラの攻撃力#1に相当する光属性ダメージを与え、敵が受けるスキルダメージを#2アップする、#3秒継続。",
     ContentKR = "주위의 적에게 주인공 공격 #1의 빛 속성 대미지를 입히고, 받는 스킬 대미지 상승 #2의 효과를 부여한다. 지속 시간 #3초.",
     ContentTC = "對周圍的敵人造成主角色攻擊#1的光屬性傷害，並附加受到技能傷害提高#2的效果，持續#3秒。",
     TextMapContent = "对周围的敌人造成主角色攻击#1的光属性伤害，并附加受到技能伤害提高#2的效果，持续#3秒。",
@@ -56373,6 +56445,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Gifts from the Lunos during the ball. Used to heighten the festive ambience during the Festive Gathering event.",
     ContentJP = "舞踏会でルーナたちから贈られた物。［祭りのひととき］イベントの祝祭ムードを盛り上げるために使用する。",
     ContentKR = "루나들이 무도회에서 건넨 선물. [단란한 파티] 이벤트의 축제 분위기를 돋우는 데 사용한다.",
+    ContentTC = "皎皎們在舞會中給予的贈禮，用於提升[歡聚一時]活動中的節日氛圍",
     TextMapContent = "皎皎们在舞会中给予的赠礼，用于提升[欢聚一时]活动中的节日氛围",
     TextMapId = "Pack_Des_TheaterEvent_01"
         },
@@ -56521,11 +56594,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Pack_Name_Battle_Dispatch_9"
         },
   Pack_Name_Battle_Dispatch_Des = {
-    ContentEN = "The pack may contain:\n Damaged Sal Volatile\n Stone Powder\n Vermilion Teardrop\n Creeping Tendrils\n Filthoid Clot\n Chain",
-    ContentJP = "パックを開けると以下のアイテムを入手できます：\n 壊れた気つけ薬\n 砕石の粉\n 深紅の雫\n 地伏せ枝\n 穢獣の凝脂\n チェーン",
-    ContentKR = "보상 패키지 오픈 시 등장 가능 아이템:\n파손된 스멜링 솔트\n석재 분말\n붉은 눈물방울\n땅의 가지\n필토이드의 응고체\n사슬",
-    ContentTC = "開啟獎勵包後可能獲取以下道具：\n破損的嗅鹽\n石料粉末\n朱紅淚滴\n匍地枝\n穢獸凝脂\n鎖鏈",
-    TextMapContent = "开启奖励包后可能获取以下道具：\n破损的嗅盐\n石料粉末\n朱红泪滴\n匍地枝\n秽兽凝脂\n锁链",
+    ContentEN = "The pack may contain:\nLuno Memento\nDamaged Sal Volatile\nStone Powder\nVermilion Teardrop\nCreeping Tendrils\nFilthoid Clot\nChain",
+    ContentJP = "パックを開けると以下のアイテムを入手できます：\nルーナ族の印\n壊れた気つけ薬\n砕石の粉\n深紅の雫\n地伏せ枝\n穢獣の凝脂\nチェーン",
+    ContentKR = "보상 패키지 오픈 시 등장 가능 아이템:\n루나의 증표\n파손된 스멜링 솔트\n석재 분말\n붉은 눈물방울\n땅의 가지\n필토이드의 응고체\n사슬",
+    ContentTC = "開啟獎勵包後可能獲取以下道具：\n皎皎之民的信物\n破損的嗅鹽\n石料粉末\n朱紅淚滴\n匍地枝\n穢獸凝脂\n鎖鏈",
+    TextMapContent = "开启奖励包后可能获取以下道具：\n皎皎之民的信物\n破损的嗅盐\n石料粉末\n朱红泪滴\n匍地枝\n秽兽凝脂\n锁链",
     TextMapId = "Pack_Name_Battle_Dispatch_Des"
         },
   Pack_Name_CharPiece_111 = {
@@ -56565,7 +56638,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "外見コレクションボックス・スターライト",
     ContentKR = "코스튬 패키지·별빛",
     ContentTC = "外觀組合禮箱·星芒",
-    TextMapContent = "形象组合礼箱·星芒",
+    TextMapContent = "外观组合礼箱·星芒",
     TextMapId = "Pack_Name_Christmas4In1"
         },
   Pack_Name_Collect_Dispatch_1 = {
@@ -57476,7 +57549,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "スターターボックス・一",
     ContentKR = "시작 패키지 Ⅰ",
     ContentTC = "啟程禮箱·一",
-    TextMapContent = "启程礼包·一",
+    TextMapContent = "启程礼箱·一",
     TextMapId = "Pack_Name_Shop_Start_01"
         },
   Pack_Name_Shop_Start_02 = {
@@ -57486,7 +57559,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "スターターボックス・二",
     ContentKR = "시작 패키지 Ⅱ",
     ContentTC = "啟程禮箱·二",
-    TextMapContent = "启程礼包·二",
+    TextMapContent = "启程礼箱·二",
     TextMapId = "Pack_Name_Shop_Start_02"
         },
   Pack_Name_Shop_Start_03 = {
@@ -57496,7 +57569,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "スターターボックス・三",
     ContentKR = "시작 패키지 Ⅲ",
     ContentTC = "啟程禮箱·三",
-    TextMapContent = "启程礼包·三",
+    TextMapContent = "启程礼箱·三",
     TextMapId = "Pack_Name_Shop_Start_03"
         },
   Pack_Name_Shop_Start_04 = {
@@ -57506,7 +57579,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "スターターボックス・四",
     ContentKR = "시작 패키지 Ⅳ",
     ContentTC = "啟程禮箱·四",
-    TextMapContent = "启程礼包·四",
+    TextMapContent = "启程礼箱·四",
     TextMapId = "Pack_Name_Shop_Start_04"
         },
   Pack_Name_Shop_WeiTuo = {
@@ -57761,7 +57834,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "凍結弾を獲得する（凍結弾：敵を倒したときに敵全体を凍りつかせることがある。）",
     ContentKR = "빙결탄을 획득한다. (빙결탄: 몬스터 처치 시 일정 확률로 필드 전체가 빙결된다.)",
     ContentTC = "獲得凍結彈（凍結彈：擊敗敵人後，有概率凍結所有敵人）",
-    TextMapContent = "增加冻结弹效果出现概率（冻结弹：击败敌人后，有概率冻结所有敌人）",
+    TextMapContent = "获得冻结弹（冻结弹：击败敌人后，有概率冻结所有敌人）",
     TextMapId = "PaotaiGame_PropDes_7"
         },
   PaotaiGame_PropLock_1 = {
@@ -61194,11 +61267,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Pet_IpDes_491"
         },
   Pet_IpDes_492 = {
-    ContentEN = "Magnetix Drone is created from the whimsy of those who are both alchemists and Geniemon enthusiasts.\n\nMagnetix Drone deals damage to nearby enemies through Resonance Support.",
+    ContentEN = "A Geniemon that has mimicked the form of a Magnetix Drone. Though the mechanisms behind Geniemon mimicry remain an enigma, this variant has fully adapted to life in the Aeolipile, evolving traits optimised for survival.",
     ContentFR = "Géniemon en forme d’appareil à impulsion électromagnétique, fruit de l’esprit fantasque d’alchimistes amoureux des Géniemon.\nPuisant dans la Résonance de soutien, il déchaîne autour de lui des ondes capables de blesser tous les ennemis à proximité.",
-    ContentJP = "磁気ドローンのような形をしたジェネモン。ジェネモンマニアと錬金術師の気まぐれから生まれた。\n\nこのジェネモンから魔力を吸収すると、ジェネモンサポートにより周りの敵にダメージを与える。",
-    ContentKR = "자기 폭풍 드론처럼 생긴 마령. 마령 애호가이자 연금술사인 사람들의 기발한 아이디어로부터 탄생했다.\n\n이 마령에게서 마력을 흡수하면 레조넌스 지원을 통해 주위 적에게 대미지를 입힐 수 있다.",
-    ContentTC = "有著磁暴機外形的魔靈，誕生自那些既是魔靈愛好者，又是煉金術師之人的奇思妙想。\n\n從中汲取魔力，可經由和鳴支援對周圍的敵人造成傷害。",
+    ContentJP = "磁気ドローンを模倣するジェネモン。学者たちはその模倣の原理すら解明できていないが、当のジェネモンはすでに工学錬金院の環境に完全適応しており、生存に最適な特性へと進化している。",
+    ContentKR = "자기 폭풍 드론으로 위장한 마령. 학자들은 마령의 위장 원리와 규칙을 전혀 알아내지 못했고, 자기 폭풍 드론 마령이 공학 연금원의 환경에 적응해 생존에 유리하도록 진화했다는 것만 파악한 상태다.",
+    ContentTC = "擬態成磁暴機的魔靈。學者們至今仍未解明魔靈擬態的原理與規則，只知道磁暴機魔靈已經完全適應了工程煉金院的環境，並衍化出最利於其生存的特性。",
     TextMapContent = "拟态成磁暴机的魔灵。学者们至今仍未解明魔灵拟态的原理与规则，只知道磁暴机魔灵已经完全适应了工程炼金院的环境，并衍化出最利于其生存的特性。",
     TextMapId = "Pet_IpDes_492"
         },
@@ -63847,10 +63920,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "QuestDesc_10020506"
         },
   QuestDesc_10020507 = {
+    ContentDE = "算算時間，恩里克快要出門了。\n與留在「修普諾斯之家」附近負責暗中監視恩里克的白會合吧。",
     ContentEN = "Henrik should be leaving the house soon.\nJoin Snow near the Hypnos' House, who's been tasked with covertly watching Henrik.",
     ContentFR = "Henrik ne devrait plus tarder à sortir.\nRejoignez Snow, postée près de la Maison d’Hypnos, chargée de surveiller discrètement ses allées et venues.",
     ContentJP = "そろそろヘンリックが出かける時間だ。\n「ヒュプノスの家」の近くでヘンリックをこっそり見張っているスノウと合流しよう。",
-    ContentKR = "온 힘을 다해 프시케의 이름을 불렀지만, 그녀는 깨어나지 않았다.\n하지만 이것이 이야기의 끝은 아니다. 좋은 꿈은 쉽게 이루어지지 않는다. 그녀와 함께 이 기억의 긴 회랑을 걸어가자.",
+    ContentKR = "시간을 계산해 보니 곧 헨릭의 외출 시간이다.\n'히프노스의 집' 근처에 남아 헨릭을 감시 중인 스노우와 합류하자.",
     ContentTC = "算算時間，恩里克快要出門了。\n與留在「修普諾斯之家」附近負責暗中監視恩里克的白會合吧。",
     TextMapContent = "算算时间，恩里克快要出门了。\n与留在“修普诺斯之家”附近负责暗中监视恩里克的白会合吧。",
     TextMapId = "QuestDesc_10020507"
@@ -67745,7 +67819,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "A collection of urban legends originally published in a now-defunct tabloid. In an empire ruled by alchemy and brute force, such tales weren't even worthy of dinner-table mockery.\nAmong its stories are \"The Driverless Bus One Must Never Board After Ten\" and \"There Are No Pure Black Cats in Icelake.\" The tale presented here follows a man who believes humanity is nothing more than a colony of ants bred in captivity.",
     ContentJP = "すでに倒産した雑誌社が出版した怪談集。帝国の錬金術と武力至上主義の時代背景の中、人々が余談として笑い飛ばすネタにすらならないほど忘れ去られている。\n「夜10時に決して乗ってはいけない無人車」「アイスレイク城には真っ黒な猫などいない」といった都市伝説が収録されており、本編では「人類は飼育されたアリにすぎない」と信じる人物の物語が描かれている。",
     ContentKR = "이미 폐간된 잡지사가 출판한 괴담 모음집으로, 연금술과 무력을 가장 높이 치는 제국의 분위기 아래 사람들의 식후 가십거리로 전락할 가치조차 얻지 못했다.\n"밤 10시 이후로는 탑승할 수 없는 무인 자동차", "아이스레이크 시티에는 올블랙 고양이가 없다" 등의 도시 괴담이 수록되어 있다. 본편은 인간이 사육당하는 개미에 불과하다고 믿는 한 인물의 이야기를 다룬다.",
-    ContentTC = "已經倒閉的雜誌社出版的怪談合集，在帝國煉金與武力至上的大背景下，連淪為人們茶餘飯後恥笑的談資的資本都沒有。",
+    ContentTC = "已經倒閉的雜誌社出版的怪談合集，在帝國煉金與武力至上的大背景下，連淪為人們茶餘飯後恥笑的談資的資本都沒有。\n收錄著「夜晚十點不能登上的無人汽車」、「冰湖城並不存在純黑色的貓」等都市怪談。本篇則講述了一名認定人類是被圈養的螻蟻的故事。」",
     TextMapContent = "已经倒闭的杂志社出版的怪谈合集，在帝国炼金与武力至上的大背景下，连沦为人们茶余饭后耻笑的谈资的资本都没有。\n收录着“夜晚十点不能登上的无人汽车”、“冰湖城并不存在纯黑色的猫”等都市怪谈。本篇则讲述了一名认定人类是被圈养的蝼蚁的故事。",
     TextMapId = "READ_DESC_2000044"
         },
@@ -67753,7 +67827,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "A sheet of parchment bearing the crest of the Forsakens. It appears to have been hastily balled up and tossed into the sewers. Across the bottom edge runs a single line in cramped script: "May vengeance guide our path forward."",
     ContentJP = "中央に「フォーセイクン同盟」の紋章が描かれた羊皮紙。何者かにぐしゃぐしゃにされ、乱暴に下水道に捨てられていた。下にはこう書かれている――「復讐が我らの道を導かんことを」",
     ContentKR = "누군가가 표지 중앙에 포세이큰 동맹의 상징이 그려진 양피지를 다급하게 구겨서 하수도에 던져버렸다. 표지 하단에는 작은 글씨로 "복수가 우리의 길을 인도하길"이라고 씌어 있다.",
-    ContentTC = "收錄著「夜晚十點不能登上的無人汽車」、「冰湖城並不存在純黑色的貓」等都市怪談。本篇則講述了一名認定人類是被圈養的螻蟻的故事。」",
+    ContentTC = "封面正中央畫著神棄者同盟標誌的羊皮紙，被什麼人揉成一團慌亂地丟進了下水道，封面下方還有一行小字：「願復仇指引我們的前路。」",
     TextMapContent = "封面正中央画着神弃者同盟标志的羊皮纸，被什么人揉成一团慌乱地丢进了下水道，封面下方还有一行小字：“愿复仇指引我们的前路。”",
     TextMapId = "READ_DESC_2000045"
         },
@@ -67960,7 +68034,7 @@ return ReadOnly("TextMap_I18n", {
   READ_DESC_2000085 = {
     ContentEN = "One volume from Luoxiang's Case Notes. As a community mediator, Luoxiang applies her understanding of the Nine Chapters of Dafeng to everyday disputes, collecting her experiences into this series. Down-to-earth and practical, it has unexpectedly become a popular household read.",
     ContentJP = "『ラショウ弁法録』の一冊。民間調停人・ラショウが大風九章に対する自身の見解を仕事に生かし、経験をまとめたシリーズ。平易で生活に身近な内容が評判となり、家庭の娯楽本としてブームになった。",
-    ContentKR = "시리즈로 구성된 〈나상변법론〉 중 하나. 대풍구장에 남다른 견해를 가진 민간 조정관 나상이, 자신의 실무 경험과 소감을 엮어낸 책이다. 이해하기 쉬우면서도 실생활에 유용한 내용이 담겨 있어, 한때 화서에서 교양서로 선풍적인 인기를 끈 바 있다.",
+    ContentKR = "시리즈로 구성된 〈나상변법록〉 중 하나. 대풍구장에 남다른 견해를 가진 민간 조정관 나상이, 자신의 실무 경험과 소감을 엮어낸 책이다. 이해하기 쉬우면서도 실생활에 유용한 내용이 담겨 있어, 한때 화서에서 교양서로 선풍적인 인기를 끈 바 있다.",
     ContentTC = "《蘿湘辨法錄》中的一冊。民間調解員蘿湘將自己對大風九章的獨到見解運用於工作之中，並將心得體會集結成《辨法錄》系列，因語言通俗易懂、內容貼近生活，意外地成為了風靡一時的居家休閒讀物。",
     TextMapContent = "《萝湘辨法录》中的一册。民间调解员萝湘将自己对大风九章的独到见解运用于工作之中，并将心得体会集结成《辨法录》系列，因语言通俗易懂、内容贴近生活，意外地成为了风靡一时的居家休闲读物。",
     TextMapId = "READ_DESC_2000085"
@@ -68829,7 +68903,8 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "READ_NAME_2000089"
         },
   READ_NAME_2000090 = {
-    ContentEN = "Notice: External Trade from Mistwharf Temporarily Suspended",
+    ContentDE = "Avis de suspension temporaire du commerce extérieur au Port-des-Brumes",
+    ContentEN = "Notice: External Trade Temporarily Suspended",
     ContentJP = "『煙津渡の対外交易一時停止のお知らせ』",
     ContentKR = "〈연진 나루터 대외 교역 잠정 중단 공고〉",
     ContentTC = "《關於暫停煙津渡對外貿易的通知》",
@@ -69143,7 +69218,7 @@ return ReadOnly("TextMap_I18n", {
   READ_TEXT_2000002 = {
     ContentEN = "...\nAll readers know that the author has always lived a solitary life. \nThe benefits of solitude are obvious. Firstly, we can crush and refine precious gems purchased at great expense without hesitation, and without worrying about these valuable materials being used as gifts to win the favour of others. \n(Note: Of course, gems can only fulfil their true value in the hands of an alchemist.)\nSecondly, those who live alone will have more energy to experiment with the wonders of alchemy, rather than feeling deep regret upon finding their first strand of grey hair, and realising that one should not have been overly obsessed with fruitless love like the author. \n(Note: This sounds somewhat extreme, but in today's Empire, who isn't extreme?) \nAnd lastly, maintaining a solitary life can also prevent some unfortunate events from happening, like the following: \nAlong the northern border of the Siberian Empire, there is a city called Icelake (Note: My teacher once went there, supposedly to visit a doctor named Enrique, but unfortunately I didn't inquire further), which produces Crystallo of Stella. It has a cold climate that makes it suitable for conducting research into the fire element. \nAnd the protagonist of this incident? Poor Vagim. He was one of the many alchemists in this region who specialised in the use of fire. He was 40 years old at the time, an age when many alchemists eventually achieved success. However, his greatest achievement at that time was not in alchemy but in having a child who was too clever and had a great interest in alchemy. \n(Annotation: A bit too harsh.)\nOne winter morning, at the insistence of young Igor, Vagim took his son to the alchemy workshop. Naturally, the presence of a child, which are unpredictable, dangerous, and uncontrollable creatures, resulted in an explosive situation in the alchemy workshop. \nThe events that followed were not witnessed by anyone, but based on eyewitness testimonies and an analysis of the scene, it is believed that the following occurred: \nVagim prepared the most materials: Beast Wax, a small amount of Phoxene powder, and a heating crucible. Under his guidance, young Igor followed the classic process and proportions, causing a small and continuously burning fireball to appear in the crucible. \n(Note: This is very basic, but this successful attempt shows that the child had some talent.)\nFor a child, Igor did remarkably well, and Vagim must have thought so too because he instantly praised his son. But unfortunately, this misled the young Igor, who thought that as long as he created a large enough fireball, he would receive even more praise. \nSo, while Vagim was focused on preparing his own experiment, Igor, probably with the intention of surprising his father, added an entire block of Beast Wax to the crucible. \n(Note: Although understandable, this act was completely unforgivable.)\n\nOn that day, Icelake experienced its largest fire since its founding. And the epicenter of the fire was Vagim's workshop. The likely cause was the excessive addition of experimental reactants. Any novice alchemist who had thoroughly read the “Alchemist Safety Guidelines” would not have made such a mistake. However, we cannot blame a child for this. Without a doubt, Vagim was the one responsible for this incident. \nIt can only be said that, as an alchemist, maintaining a solitary life is a virtue that benefits both scientific endeavours and the greater good of society. \n(Note: This is a painful lesson, so I should also be more careful in future.)",
     ContentJP = "……\n読者の皆様方もご存知であろうが、筆者は予てより独身生活を推奨している。\nまず高価格で購入した宝石をためらいなく砕いて精錬することができる。貴重な材料を人の歓心を買うための贈り物にするか考える必要もなくなる。\n（注釈：確かに、宝石は錬金術師の手にあってこそ価値を発揮できる）\n次に錬金の享楽に尽くすための精力をより多く確保できる。筆者のように白髪の1本目が生えてから後悔するもなし、結果の伴わない愛情などに固執しすぎる必要もないのだ。\n（注釈：やや過激な思想であるが、今の帝国内にて過激でない人などいるのだろうか？）\nそして独身生活を続けていれば不慮の事故を避けられる。例を提示しよう。\nヒュペリア帝国の北にはアイスレイク城と呼ばれる都市がある。（注釈：先生は行ったことがあるらしい。ヘンリックという医者を訪ねたようだが、残念ながら詳細については聞いていない）群星のジェムの生産地であり、気候も寒く、火元素を命題とする実験を行うのに適した土地だ。\n事故の主役である哀れなワジムも、火とともに生きる錬金術師の一員であった。当時の彼は多くの錬金術師が成功を収める年齢であろう40の節目を迎えていたのだが、彼がこの歳月に得た最大の成果は錬金術に非ず、錬金術に興味を抱く聡明な子供を持っていたことだけであった。\n（注釈：ここは毒舌すぎやしないか？）\nある冬の朝、ワジムは息子であるイゴールにせがまれ、彼を錬金工房へと招待した。子供と錬金工房、不安定で危険な制御不能の要素がふたつ同時に組み合わさったとなれば、結果は言うまでもないだろう。\nその日に起きた事件を直接目撃した者はいなかったが、現場に居合わせた人間の証言と痕跡から察するに、次のようなことが発生したと推測できる。\nワジムが用意したのは基礎的な材料だ。穢獣の凝脂、わずかな月ノ石の粉、加熱するための坩堝（るつぼ）。彼の指導を受けたイゴールは最も伝統的な順序と配合比に従い、小さな火の玉を坩堝の中に出現させた。\n（注釈：とても基礎的な錬金術だが、1回の挑戦で成功させた様子だ。その子に才能があるのは確かだね）\n子供ながらによくできたとワジムも思ったはずであり、彼はイゴールを褒めたのだろう。しかしその褒めるといった行動が、誤りの認識を植えつける結果に、残念ながら至ったのだと予想できる。もっと大きな火の玉を生成できれば、もっと褒めてもらえると。\n父親を喜ばせたい気持ちが溢れたのだろうか、ワジムが自分の実験を準備している間にイゴールは穢獣の凝脂を丸ごと坩堝に入れた。\n（注釈：……理解はできるが許されない）\n\nその日のアイスレイクは築城を終えて以来、最大の火災を経験することになった。火災の中心はワジムの工房だ。原因は化合物の過剰投入である可能性が高い——入門した錬金術師であれば「錬金術師の安全規則」を必ず熟読するので、このような間違いはまず犯さないのだが、だからといって子供を責めるわけにはいかない。事故の責任者は間違いなくワジムなのだ。\nゆえに錬金術師として独身生活に身を窶すのは、科学にも社会にも有益な美徳であると断言する。\n（注釈：痛ましい教訓だね、私も気をつけなければ）\n……",
-    ContentKR = "……\n독자분들은 알겠지만, 필자는 독신 생활을 추앙하고 있다.\n다른 사람의 환심을 살 필요가 없기에, 독신의 이점은 분명하다. 우선 귀중한 재료, 거금을 들여 구입한 보석을 누군가에게 선물할 필요 없이 분쇄하고 정제할 수 있다.\n(비고: 보석은 연금술사의 손에서 가치를 발휘한다)\n둘째, 연금술에 전력으로 집중할 수 있다. 필자처럼 결실 없는 사랑에 집착하면, 첫 백발이 자고 나서야 뉘우치고 후회한다.\n(비고: 다소 극단적이긴 하지만, 지금의 제국에 극단적이지 않은 사람이 있기나 할까?）\n마지막으로 독신 생활을 유지하면 불행한 일을 면할 수 있다.\n휘페르보레아 제국의 북쪽 끝에 있는 아이스레이크 시티(비고: 선생님이 헨릭이라는 의사를 만나기 위해 이곳을 방문했었다는데, 아쉽게도 자세히 묻지 못했다)라는 도시가 있다. 반짝이는 수정이 나고 기후가 춥기에, 불 원소를 주제로 하는 탐색 실험에 적합했다.\n사건의 주인공, 불쌍한 바딤은 이곳에서 불과 함께한 연금술사의 일원이었다. 그는 마흔의 나이로 대부분 연금술사가 성취를 이룰 시기에 놓였지만, 그가 남긴 가장 큰 업적은 연금이 아닌 지나치게 총명하고 연금술에 관심을 가진 아이였다.\n(비고: 매몰차다)\n어느 겨울 아침, 바딤은 자신의 아들 이고르의 애원을 이기지 못해 아이를 데리고 연금공방으로 향했다. 그렇다, 애랑 연금공방, 마찬가지로 불안정하고, 위험하고, 통제될 수 없는 두 가지가 만나면 결과는 폭발적일 수밖에 없다.\n그 후 일어난 일에 목격자가 없었으나, 여러 증언과 현장의 흔적으로 추정하면 이와 같은 일이 벌어진 것으로 보인다:\n바딤은 가장 기본적인 재료인 비스트의 기름, 약간의 월석 분말, 그리고 가열에 사용되는 도가니를 준비했다. 어린 이고르가 아버지의 지도하에 클래식한 순서와 배합으로 작업하자, 지속적으로 연소하는 작은 불덩어리가 도가니에 나타났다.\n(비고: 아주 기초적이지만, 한 번에 성공한 것으로 보아 아이에게 재능이 있는 건 분명하다)\n이고르는 어린 아이 치고는 아주 대단했고, 바딤도 그런 생각에 아들을 칭찬했을 것이다. 하지만 불행은 어린 이고르에게 잘못된 인식을 심어주기 충분했다: 불덩어리를 만든 만큼 칭찬받을 수 있다고.\n그래서 이고르는 바딤이 자신의 실험을 준비하는 동안, 아버지를 놀라게 하고 싶은 마음에 비스트의 기름 한 조각을 통째로 도가니에 넣었을 것이다.\n(비고: 이해는 가지만 용서될 수 없어)\n\n바로 그날, 아이스레이크 시티는 건설 이래 가장 큰 화재를 겪었다. 화재의 중심지는 바딤의 공방이었다. 원인은 화합물의 과다 첨가. 입문자여도 〈연금술사 안전수칙〉을 숙지한 연금술사라면 이런 실수를 저지르지 않을 것이다. 하지만 그렇다고 아이를 나무랄 수도 없다. 이 사고의 책임 소재는 의심할 여지 없이 바딤에 있다.\n그저, 연금술사로서 독신 생활을 유지하는 것이 과학 사업과 사회 공익에 도움이 되는 덕목이라고 할 수 있겠다.\n(비고: 음… 쓰라린 교훈이다. 나도 조심해야겠다.)\n……",
+    ContentKR = "……\n독자분들은 알겠지만, 필자는 독신 생활을 추앙하고 있다.\n다른 사람의 환심을 살 필요가 없기에, 독신의 이점은 분명하다. 우선 귀중한 재료, 거금을 들여 구입한 보석을 누군가에게 선물할 필요 없이 분쇄하고 정제할 수 있다.\n(비고: 보석은 연금술사의 손에서 가치를 발휘한다)\n둘째, 연금술에 전력으로 집중할 수 있다. 필자처럼 결실 없는 사랑에 집착하면, 첫 백발이 자고 나서야 뉘우치고 후회한다.\n(비고: 다소 극단적이긴 하지만, 지금의 제국에 극단적이지 않은 사람이 있기나 할까?）\n마지막으로 독신 생활을 유지하면 불행한 일을 면할 수 있다.\n휘페르보레아 제국의 북쪽 끝에 있는 아이스레이크 시티(비고: 선생님이 헨릭이라는 의사를 만나기 위해 이곳을 방문했었다는데, 아쉽게도 자세히 묻지 못했다)라는 도시가 있다. 반짝이는 수정이 나고 기후가 춥기에, 불 원소를 주제로 하는 탐색 실험에 적합했다.\n사건의 주인공, 불쌍한 바딤은 이곳에서 불과 함께한 연금술사의 일원이었다. 그는 마흔의 나이로 대부분 연금술사가 성취를 이룰 시기에 놓였지만, 그가 남긴 가장 큰 업적은 연금이 아닌 지나치게 총명하고 연금술에 관심을 가진 아이였다.\n(비고: 매몰차다)\n어느 겨울 아침, 바딤은 자신의 아들 이고르의 애원을 이기지 못해 아이를 데리고 연금공방으로 향했다. 그렇다, 애랑 연금공방, 마찬가지로 불안정하고, 위험하고, 통제될 수 없는 두 가지가 만나면 결과는 폭발적일 수밖에 없다.\n그 후 일어난 일에 목격자가 없었으나, 여러 증언과 현장의 흔적으로 추정하면 이와 같은 일이 벌어진 것으로 보인다:\n바딤은 가장 기본적인 재료인 필토이드의 응고체, 약간의 월석 분말, 그리고 가열에 사용되는 도가니를 준비했다. 어린 이고르가 아버지의 지도하에 클래식한 순서와 배합으로 작업하자, 지속적으로 연소하는 작은 불덩어리가 도가니에 나타났다.\n(비고: 아주 기초적이지만, 한 번에 성공한 것으로 보아 아이에게 재능이 있는 건 분명하다)\n이고르는 어린 아이 치고는 아주 대단했고, 바딤도 그런 생각에 아들을 칭찬했을 것이다. 하지만 불행은 어린 이고르에게 잘못된 인식을 심어주기 충분했다: 불덩어리를 만든 만큼 칭찬받을 수 있다고.\n그래서 이고르는 바딤이 자신의 실험을 준비하는 동안, 아버지를 놀라게 하고 싶은 마음에 필토이드의 응고체 한 조각을 통째로 도가니에 넣었을 것이다.\n(비고: 이해는 가지만 용서될 수 없어)\n\n바로 그날, 아이스레이크 시티는 건설 이래 가장 큰 화재를 겪었다. 화재의 중심지는 바딤의 공방이었다. 원인은 화합물의 과다 첨가. 입문자여도 〈연금술사 안전 수칙〉을 숙지한 연금술사라면 이런 실수를 저지르지 않을 것이다. 하지만 그렇다고 아이를 나무랄 수도 없다. 이 사고의 책임 소재는 의심할 여지 없이 바딤에 있다.\n그저, 연금술사로서 독신 생활을 유지하는 것이 과학 사업과 사회 공익에 도움이 되는 덕목이라고 할 수 있겠다.\n(비고: 음… 쓰라린 교훈이다. 나도 조심해야겠다.)\n……",
     ContentTC = "……\n各位讀者都知道，筆者向來推崇獨身生活。\n獨身的好處顯而易見，首先我們可以毫不猶豫地將重金購入的寶石碾碎並煉製，而不用思考是否應該將這些珍貴的材料作為禮物去討他人的歡心。\n（批註：的確，寶石在煉金術師手裡才能更好地發揮價值）\n其次，你將會有更多的精力用於嘗試煉金的妙趣，而不是像筆者一樣，等到第一根白髮長出後才悔悟，不應過分執著於無結果的愛情。\n（批註：有點偏激，不過現在的帝國，誰不偏激呢？）\n最後，維持獨身生活，也可以避免一些不幸的發生，比如，下面這一則：\n在海伯利亞帝國的北境，有一座名為冰湖城（批註：老師曾經去過這裡，好像是去拜訪一位叫做恩里克的醫生，可惜之前沒有詳細問過他）的城市，產出群星綺晶，同時氣候寒冷，適合進行以火元素為主題的一系列探索實驗。\n而這則事故的主角，可憐的瓦吉姆也是諸多在此與火作伴的煉金術師的一員。那時，他40歲，正是許多煉金術師有一番成就的年紀，而他此時最大的成就卻並非在煉金上，而是有一個過於聰明，而對煉金又頗有興趣的孩子。\n（批註：有點太刻薄了）\n一個冬天的清晨，在小伊戈爾的央求之下，瓦吉姆帶著自己的兒子進了煉金工坊。沒錯，兒童與煉金工坊，兩個同樣讓人感到不穩定性、危險性與不可控性的事物一同出現，那麼結果自然是爆炸性的。\n接下來的事情並沒有人親眼目睹，但是根據目擊者的證言與對現場痕跡的猜測，大概發生了如下的事情：\n瓦吉姆準備了最基礎的材料：穢獸凝脂、些許月石粉末、以及用以加熱的坩堝。在他的指導之下，小伊戈爾按照最經典的順序與配比，一個持續燃燒的小火球出現在了坩堝之中。\n（批註：很基礎，但是一次成功確實說明這個孩子是有些天賦的）\n作為一個小朋友來說，小伊戈爾做得很不錯了，瓦吉姆應當也是這麼想的，所以他誇獎了自己的兒子。不幸的是，這讓小伊戈爾形成了一個錯誤的認知：只要製造出足夠大的火球，就能夠獲得足夠多的誇獎。\n於是，在瓦吉姆準備他自己的實驗的當口，小伊戈爾大概是懷著想給父親驚喜的心情，他將一整塊穢獸凝脂加入了坩堝。\n（批註：……雖然可以理解，但是無法原諒）\n\n就在那一天，冰湖城經歷了建城以來最大的火災。火災的中心即是瓦吉姆的工坊。起因則很可能是化合物的過量添加——但凡入門的煉金術師，熟讀過《煉金術師安全守則》，都不會犯下此等錯誤，但是，我們也無法苛責一個孩子。這件事故的責任人，毫無疑問是瓦吉姆。\n只能說，身為煉金術師，維持獨身生活，不失為一項有益於科學事業與社會公益的美德。\n（批註：嗯……是慘痛的教訓，我也得小心一點才是）\n……",
     TextMapContent = "……\n各位读者都知道，笔者向来推崇独身生活。\n独身的好处显而易见，首先我们可以毫不犹豫地将重金购入的宝石碾碎并炼制，而不用思考是否应该将这些珍贵的材料作为礼物去讨他人的欢心。\n（批注：的确，宝石在炼金术师手里才能更好地发挥价值）\n其次，你将会有更多的精力用于尝试炼金的妙趣，而不是像笔者一样，等到第一根白发长出后才悔悟，不应过分执着于无结果的爱情。\n（批注：有点偏激，不过现在的帝国，谁不偏激呢？）\n最后，维持独身生活，也可以避免一些不幸的发生，比如，下面这一则：\n在海伯利亚帝国的北境，有一座名为冰湖城（批注：老师曾经去过这里，好像是去拜访一位叫做恩里克的医生，可惜之前没有详细问过他）的城市，产出群星绮晶，同时气候寒冷，适合进行以火元素为主题的一系列探索实验。\n而这则事故的主角，可怜的瓦吉姆也是诸多在此与火作伴的炼金术师的一员。那时，他40岁，正是许多炼金术师有一番成就的年纪，而他此时最大的成就却并非在炼金上，而是有一个过于聪明，而对炼金又颇有兴趣的孩子。\n（批注：有点太刻薄了）\n一个冬天的清晨，在小伊戈尔的央求之下，瓦吉姆带着自己的儿子进了炼金工坊。没错，儿童与炼金工坊，两个同样让人感到不稳定性、危险性与不可控性的事物一同出现，那么结果自然是爆炸性的。\n接下来的事情并没有人亲眼目睹，但是根据目击者的证言与对现场痕迹的猜测，大概发生了如下的事情：\n瓦吉姆准备了最基础的材料：秽兽凝脂、些许月石粉末、以及用以加热的坩埚。在他的指导之下，小伊戈尔按照最经典的顺序与配比，一个持续燃烧的小火球出现在了坩埚之中。\n（批注：很基础，但是一次成功确实说明这个孩子是有些天赋的）\n作为一个小朋友来说，小伊戈尔做得很不错了，瓦吉姆应当也是这么想的，所以他夸奖了自己的儿子。不幸的是，这让小伊戈尔形成了一个错误的认知：只要制造出足够大的火球，就能够获得足够多的夸奖。\n于是，在瓦吉姆准备他自己的实验的当口，小伊戈尔大概是怀着想给父亲惊喜的心情，他将一整块秽兽凝脂加入了坩埚。\n（批注：……虽然可以理解，但是无法原谅）\n\n就在那一天，冰湖城经历了建城以来最大的火灾。火灾的中心即是瓦吉姆的工坊。起因则很可能是化合物的过量添加——但凡入门的炼金术师，熟读过《炼金术师安全守则》，都不会犯下此等错误，但是，我们也无法苛责一个孩子。这件事故的责任人，毫无疑问是瓦吉姆。\n只能说，身为炼金术师，维持独身生活，不失为一项有益于科学事业与社会公益的美德。\n（批注：嗯……是惨痛的教训，我也得小心一点才是）\n……",
     TextMapId = "READ_TEXT_2000002"
@@ -69229,7 +69304,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "READ_TEXT_2000011"
         },
   READ_TEXT_2000012 = {
-    ContentEN = "Chapter 226, "Fierce Battle! The Scorching Whirlwind Shatters the Divine Light Herald"\nA dim moon hung aloft, outshone by the blazing inferno in the nocturnal expanse. Airships crisscrossed, ammunition cascading down, bursting into a hail of fiery orbs amidst the night sky. Streams of bullets converged into a formidable fist, thrusting from the ground towards the heavens; explosives rained down like a sudden deluge, spilling from the battlefield into the abyss. \nThe Divine Herald of Elysium, wielding their staff, summoned a beam of light that cleaved through the Legion's ranks. Dozens of valiant warriors, along with the scorched earth beneath them, were catapulted skyward by the beam before they plummeted into the blood-soaked ground. Aftershocks rippled out from the crater left by the beam, stirring waves through the crowds, turning even the thick smoke on the ground into swirling vortexes that rapidly dissipated. \n"<H>Sworn to slay the gods!</>" John stood at the forefront, his arms raised, bellowing. The crater appeared for a mere second before being filled by the throng. Beams of light fell, craters emerged, and soldiers surged – a relentless cycle. As they defended their pre-war oaths with their lives, the impure holy light failed to quell the Legion's relentless advance. \nThis was more than a mere clash of martial might – it was a profound parting between humanity and the divine. <H>The Divine Herald possesses powers unfathomable to us, </>yet they lack the spirit that pulses through the proud Hyperborean veins. <H>Until the very towers of gods crumble, and the order of all things shatters, Hyperboreans will never kneel before those decayed deities.</>\nA new column of light formed in mid-air, casting a ten-metre radius glow around John. Despite having torn apart a mammoth sandfish with his bare hands in the desert, single-handedly wiped out hundreds of serpents in the jungle, and chased down roaring motorbike bandits amid a hail of bullets on the ice plains, never had John felt such a surreal brush with death.\nCold sweat ran down his face, merging with the upward curve of his lips. Initial nerves gave way to pure exhilaration. "For the Emperor!" John exclaimed. A fifty-metre flame connected his fists to the column of light. The ground beneath him cracked from the impact; while the light above, now engulfed in flames, vanished without a trace. \n"Warriors of the Legion!" John declared, "<H>All glory to our Emperor!</>"\n\nFamiliar battle cries resounded, and the crowd surged with fervour – could the divine defences withstand the unyielding will of the Legion? Would John succeed in bringing the high and mighty gods down to dust? The saga continues in the next issue of The Invincible Legion's Chief.",
+    ContentEN = "Chapter 226, "Fierce Battle! The Scorching Whirlwind Shatters the Divine Light Herald"\nStaff in hand, the Divine Herald of Elysium called down pillars of radiance upon the Legion's living tide. Valiant warriors and the very earth beneath them were torn asunder, cast against the crimson-stained ground. Shockwaves rippled from the points of impact, churning the smoke-laden air into frantic, dissolving vortices.\n"<H>Death to the gods!</>" came the roar from the tide. Gaps opened by the light were swallowed in a heartbeat by the relentless advance. Beam after beam fell, and each time the tide of soldiers closed ranks — a grim testament to oaths sworn in blood, their will unbroken by the Herald's profane glare.\nBut every tide, no matter how fierce, finds its levee. The Legion's charge began to falter. Casualties mounted — first by the dozen, then by scores, cold statistics etching themselves across the field.\nThen, as another pillar of light descended, a figure stepped forth from the ranks. "<H>For the glory of our Emperor!</>" His cry was cut short as radiance consumed him.\nA silence fell. Another soul offered to the crucible. The soldiers braced, ready to pour into the breach left in his wake.\nYet no body struck the earth. Instead, the warrior lay cradled in the arms of a youth, his hand outstretched toward a vision of faith and hope — Legion Commander Leo.\nHis presence electrified the battlefield. All knew the scales of fate now rested with him.\n"Commander! To your rear!"\nPillars of light converged upon Leo. He did not turn. He simply lowered the soldier to the ground, then lifted a single finger. The devastating beams dissolved into harmless sparks at his touch, merging with the smoke. A slight shift of his posture, and cannon fire from allied ships screamed overhead, striking the hovering Herald from the sky.\nLeo advanced, a calm, deliberate force. The unbreakable dam had found its fault line, and his voice carried across the tumult:\n"My apologies for the delay."\n"This ends now, <H>you petulant deities in your gilded spires!</>"\n\nCould the divine defences withstand the unyielding will of the Legion? Would Leo succeed in bringing the high and mighty gods down to dust? The saga continues in the next issue of The Invincible Legion's Chief.",
     ContentFR = "Chapitre 226 — Combat acharné ! Le Tourbillon embrasé brise la Flèche divine !\n\nLes vagues de la Légion s’abattirent contre la lumière d’Élysium. À chaque incantation de l’Émissaire Céleste, un pilier de lumière transperçait la terre et renversait des dizaines de soldats valeureux, mêlant leurs cris au grondement des explosions. La lumière consumait le sol, soulevant des cendres rouges qui tourbillonnaient comme un orage de braises.\n\n« <H>À mort les dieux !</> » hurlaient les soldats, emplissant chaque brèche de leurs corps avant même que la poussière ne retombe. \nChaque rayon abattu, chaque vie fauchée, ravivait leur serment : aucune lumière sacrée corrompue ne saurait briser la volonté de la Légion.\n\nPourtant, même la marée la plus déchaînée finit par se briser sur un barrage. Les rangs s’amenuisaient, les pertes grimpaient — froides, implacables.\n\nQuand une nouvelle colonne de lumière s’abattit, un homme s’avança au premier rang. Il leva son arme et cria : « <H>Toute gloire à l’Empereur !</> »\n\nLa lueur engloutit sa voix. Les soldats se turent, sachant qu’un autre héros venait de tomber. Ils n’avaient qu’un choix : suivre ses pas, et frapper à leur tour — muets, mais animés de la même ferveur.\n\nMais cette fois, le corps du héros ne s’écrasa pas. Il reposait dans les bras d’un jeune homme qui tendait la main vers la lumière — le Commandant de Légion, Leo.\n\nÀ sa vue, le tumulte redoubla. Tous savaient que le sort de la bataille reposait entre ses mains.\n\n« Commandant, derrière vous ! »\n\nPlusieurs rayons s’abattirent sur lui, mais Leo ne broncha pas. Il déposa doucement le soldat, leva un doigt, et la lumière se dissipa en milliers d’éclats, fondus dans la fumée. Un mouvement à peine perceptible — et le feu des cuirassés faucha les cieux, abattant l’Émissaire Céleste.\n\nAlors Leo s’avança, lentement. La digue se rompit à sa suite, et sa voix résonna sur tout le champ de bataille :\n\n« Pardonnez-moi... je suis arrivé trop tard. »\n\nPuis, levant son arme vers la tour sacrée :\n\n« <H>C’en est fini ! Sortez donc de vos tours, dieux corrompus !</> »\n\nLe récit s’interrompt ici. L’Émissaire Céleste parviendra-t-il à repousser la volonté de la Légion ? Leo réussira-t-il à faire choir les dieux de leur trône ?\nLa suite dans le prochain numéro de L’Invincible Commandant de Légion.",
     ContentJP = "第226話、激戦！灼熱の旋風、魔矢の神使を撃て！\n\n エリュシオンの神使が杖を振りかざすと、大波のように押し寄せる帝国軍に光の柱が降り注いだ。数十人の名誉ある戦士たちが、焦土と共に吹き飛ばされ、血に染まった大地に叩きつけられる。その衝撃で地面が揺れ、広がる波動が兵士たちを飲みこんでいく。煙が渦を巻き、次々と空に消える。\n\n 「<H>神を殺すと誓う！」</>\n 兵士たちは雄叫びをあげ、光の柱が切り裂いた隙間が一瞬で兵士の波で埋め尽くされる。光の柱が降り注ぎ、また隙間ができるが、すぐに兵士たちがそれを埋める。彼らは、戦前に立てた誓いを命を懸けて守り抜く。神の光など、帝国軍の進撃を止めることはできないのだ。\n\n しかし、どんなに激しい波にも、動かせない壁がある。ついに帝国軍の進撃は止まり、次々に戦士たちが倒れていく。その命は冷徹な数字となって消えていった。\n\n そんななか、再び光の柱が降り注ぐ瞬間、ひとりの男が大波の最前線に立ち上がった。彼は叫ぶ。\n 「<H>皇帝に栄光あれ！</>」\n その言葉が光に呑み込まれ、周囲は静寂に包まれる。その姿を見届けが兵士たちは、知っている。この瞬間、またひとりの勇士が命を捧げることを。だが、彼らができることはただひとつ――彼の後を追い、ただひたすらに激しく、エリュシオンの防衛線にぶつかっていくことだけだ。\n\n だが、本来は地面に叩きつけられるはずのその勇士の死体は、静かにひとりの少年の腕の中に横たわっていた。その手を伸ばし、信じるべき未来を掴もうとしているのは――リオ軍団長。\n\n リオの姿を見た瞬間、両軍にざわめきが走る。誰もが知っていた。リオこそが、戦局を決定する鍵を握る男だということを。\n\n 「軍団長、後ろ！」\n 数本の光柱がリオに向かって降り注ぐが、リオはまるで気にしていないかのように背を向け、抱えていた兵士をそっと地面に横たえた。\n そして――彼の指先が、わずかに動いた。光柱はその指先で砕け、無害な光の粒となり、煙の渦に溶け込んでいった。そのまま彼はゆっくりと歩みを進める。頭上を数発の飛空艇の砲弾が通り過ぎ、神使が高空から墜落する。\n\n リオが歩くその一歩が、まるで巨大な堤防が決壊する瞬間のようだ。戦場のすべての者がその瞬間を感じ取る。\n リオの声が響く――\n 「遅れてすまない。」\n 「終わらせよう。<H>塔の中に隠れてばかりの腐った神を！</>」\n\n 果たして、神の防衛線は帝国軍の意志を阻止できるのか？リオは神を高みから引きずる降ろすことができるのか？\n\n次回、『不敗の大軍団長』をお楽しみに！",
     ContentKR = "제226회 - 격전! 맹렬한 열풍이 신성한 빛의 마법 화살을 꿰뚫다.\n\n엘리시안의 신의 사자가 지팡이를 휘두르자, 파도처럼 몰아치던 군단 병사들 사이로 빛기둥이 떨어져 내렸다. 수십 명의 영광의 전사들이 초토화된 대지와 함께 공중으로 퉁겨졌다가, 붉게 물든 땅에 거세게 부딪쳤다. 빛의 기둥이 남긴 틈에서 파장이 진동하며, 사람들 사이를 넓게 갈랐고, 지면의 연기마저 소용돌이처럼 빨려 들어가며 빠르게 사라졌다.\n"<H>신을 죽이리라!</>" 병사가 팔을 높이 들고 외치자, 틈은 단 1초 만에 인파로 가득 찼다. 빛의 기둥이 떨어지며 생겨난 틈을 사람들이 메웠다. 그들은 전투가 시작되기 전에 한 맹세를 목숨 바쳐 지켜냈고, 더러운 성광은 거대한 군단의 전진하는 파도를 막을 수 없었다.\n그러나 거센 물결도 흔들 수 없는 제방은 있기 마련이었다. 시간이 흐르자 군단의 발걸음은 느려졌고, 기하급수적으로 늘어나는 사상자는 차가운 숫자가 되어갔다.\n또 하나의 빛줄기가 인파를 내리치는 순간, 한 남자가 파도의 앞에 서서 크게 외쳤다. "<H>황제 폐하께 영광을!</>"\n남자의 말은 끝맺지 못한 채 빛에 삼켜졌다. 병사들은 또 다른 용사와의 이별에 침묵했다. 그들이 할 수 있는 것은 그저 남자의 발걸음을 따라 조용하고 맹렬하게 엘리시안의 방어선을 뚫는 것이었다.\n그런데 땅에 떨어져야 했을 시신이 보이지 않았다. 용사는 죽지 않았던 것이다. 그는 조용히 한 남자의 품 안에 누운 채 힘껏 손을 뻗었다. 믿음이자 희망인 레오 군단장이 눈앞에 있었다.\n교전 중이던 양 측은 레오의 등장에 조급해졌다. 레오가 이 전투의 승패를 가릴 핵심임을 모두 알고 있었기 때문이었다.\n"군단장님, 뒤에!"\n빛줄기가 수차례 레오를 향해 쏟아졌지만, 레오는 아무것도 들리지 않는 것처럼 뒤를 돌아 품 안의 병사를 내려놓은 뒤에, 움직였다. 엄밀히 말하면, 손가락 하나를 움직였다. 빛줄기가 손가락 끝에서 힘없이 부서지더니 연기의 소용돌이에 휩쓸렸다. 그가 몸을 살짝 틀자, 함대가 뿜어낸 화포가 그의 머리 위를 지나, 지고한 신의 사자에게 날아들었고, 사자는 바닥으로 추락했다.\n레오는 느리지도, 빠르지도 않게 걸어갔다. 거대한 제방은 레오라는 이 작은 '균열'에 무너뜨릴 수 있었다. 전장에 있던 모든 이들은 이 균열과 함께 나타난 레오의 우렁찬 목소리를 들었다.\n"미안, 내가 늦었군."\n"<H>높은 탑에 숨은 부패한 신이여!</> 이제 끝장낼 때가 왔다."\n\n신의 방어선은 군단의 의지를 꺾을 수 있을까? 요한은 지고한 신을 세속의 흙먼지 속으로 끌어내릴 수 있을까? 다음 회 〈천하무적 대군단장〉을 기대해 주세요.",
@@ -69570,7 +69645,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "READ_TEXT_2000050"
         },
   READ_TEXT_2000051 = {
-    ContentEN = "Chapter 235 – My Heart Belongs to Hyperborea Alone\n\nThe celebration banquet had ended. Most had drifted into well-earned sleep — save for the soldiers still out on patrol. Quietly, the adjutant moved between tents, careful not to disturb her comrades' rare moment of rest.\nAt last, she lifted the flap of one familiar tent. Inside sat a composed figure that everyone relied on — methodically loading bullets into a magazine, one round at a time.\n"Chief, we've already pulled back from the front. You don't have to stay on edge like this."\n"When's the next battle?"\nJohn spoke without even looking up, as if he hadn't heard her well-meaning concern.\n"You crushed the Elysian forces in the last engagement. They're unlikely to move again anytime soon."\nJohn said nothing. A tense silence hung between them. Sweat trickled down the adjutant's brow as she hesitated. Then, biting her lip, she reached into her coat and pulled out a bundle of ornate letters.\n"Chief... can't you take a moment to enjoy life like everyone else — just for once? Look — here's an invitation to the Duchess's ball, one from the Princess's hunting party, and another—"\n"'I am either engaged in pressing military affairs or occupied with guarding against infiltration from Elysium.' Use the same reply for all."\n"But... that's the same excuse you've used eighteen times now..."\nClack—\nJohn set the gun aside and stepped toward the banner of the Three Wolves hanging at the rear of the tent. His hand reached out, brushing the scorched edges — still bearing the bitter stain of battle.\n"I understand your concern. And I appreciate their courtesy. But while we rest, Elysian raiders still strike at our borders, driving countless Solarians from their homes. They march beneath the banner of false gods, crying out for a purge of heresy — nothing but a pretext for butchering our comrades and kin. But we know the truth: <H>we are not heretics — only those who have broken free from the chains of false gods. Those who still yearn — for freedom, and for the right to reclaim it.</>"\nHis fist clenched. The banner bunched in his grip.\n"Their so-called gods still squat atop our homeland. Until their divine tower falls, my heart will know no peace. If ever I am to enjoy life... let it be when I am shrouded in this flag after death, so that I may kiss it even—"\n"Please don't say things like that!"\nShe cut him off. John looked up in surprise — but this time, she didn't avert her eyes. She met his gaze, steady and unwavering.\n"Chief, I..."\n\n\nEven the invincible John must one day face the battlefield of... social engagements!? What is it that his loyal adjutant truly wishes to say? \nThe saga continues in the next issue of The Invincible Legion's Chief!",
+    ContentEN = "Chapter 235 – My Heart Belongs to Hyperborea Alone\n\nThe celebration banquet had ended. Most had drifted into well-earned sleep — save for the soldiers still out on patrol. Quietly, the adjutant moved between tents, careful not to disturb her comrades' rare moment of rest.\nAt last, she lifted the flap of one familiar tent. Inside sat a composed figure that everyone relied on — methodically loading bullets into a magazine, one round at a time.\n"Chief, we've already pulled back from the front. You don't have to stay on edge like this."\n"When's the next battle?"\nLeo spoke without even looking up, as if he hadn't heard her well-meaning concern.\n"You crushed the Elysian forces in the last engagement. They're unlikely to move again anytime soon."\nLeo said nothing. A tense silence hung between them. Sweat trickled down the adjutant's brow as she hesitated. Then, biting her lip, she reached into her coat and pulled out a bundle of ornate letters.\n"Chief... can't you take a moment to enjoy life like everyone else — just for once? Look — here's an invitation to the Duchess's ball, one from the Princess's hunting party, and another—"\n"'I am either engaged in pressing military affairs or occupied with guarding against infiltration from Elysium.' Use the same reply for all."\n"But... that's the same excuse you've used eighteen times now..."\nClack—\nLeo set the gun aside and stepped toward the banner of the Three Wolves hanging at the rear of the tent. His hand reached out, brushing the scorched edges — still bearing the bitter stain of battle.\n"I understand your concern. And I appreciate their courtesy. But while we rest, Elysian raiders still strike at our borders, driving countless Solarians from their homes. They march beneath the banner of false gods, crying out for a purge of heresy — nothing but a pretext for butchering our comrades and kin. But we know the truth: <H>we are not heretics — only those who have broken free from the chains of false gods. Those who still yearn — for freedom, and for the right to reclaim it.</>"\nHis fist clenched. The banner bunched in his grip.\n"Their so-called gods still squat atop our homeland. Until their divine tower falls, my heart will know no peace. If ever I am to enjoy life... let it be when I am shrouded in this flag after death, so that I may kiss it even—"\n"Please don't say things like that!"\nShe cut him off. Leo looked up in surprise — but this time, she didn't avert her eyes. She met his gaze, steady and unwavering.\n"Chief, I..."\n\n\nEven the invincible Leo must one day face the battlefield of... social engagements!? What is it that his loyal adjutant truly wishes to say? \nThe saga continues in the next issue of The Invincible Legion's Chief!",
     ContentJP = "第235回 我が心はヒュペリアのために\n祝勝の宴はすでに終わり、パトロール兵を除けば、ほとんどの者が深い眠りについていた。副官はそっと軍帳の間を歩き、仲間たちの貴重な休息を邪魔しないよう細心の注意を払っていた。\nそしてついに、ひとつの軍帳の前で幕をめくる。そこにいたのは、見慣れた、そして何より安心できる背中。彼は黙々と弾丸を一発ずつ銃の弾倉に押し込んでいた。\n「軍団長、もう前線からは下がったんですから、そんなに気を張らなくても……」\n「次の戦いはいつだ？」\n副官の言葉を聞くこともなく、リオは顔も上げずに問い返した。\n「前回の戦闘で、あなたに進撃を粉砕されたことですし、ヒュペリア軍側もしばらくは動けないかと」\nリオは無言だった。副官の額を一筋の汗が伝う。ついに決心したように、彼女は懐から豪華な封筒の束を取り出した。\n「軍団長。たまには、他の人みたいに少しだけ自分の人生を楽しんでもいいんじゃないでしょうか？これは公爵夫人の舞踏会の招待状、それから親王家のお嬢様から狩猟の誘いも……」\n「軍務で忙しい。ヒュペリア軍の進撃に備えろ。そう伝えておけ」\n「ですが、その理由はもう十八回も使って……」\nカチャ―\nリオは銃を置き、立ち上がった。軍帳の奥に掲げられた三頭狼の旗に歩み寄り、指先で戦火に焼かれた焦げ跡をなぞった。\n「お前の心配も、皆の善意も分かっている。だが、俺たちがこうして休んでいる間にも、ヒュペリアの魔の手は我が国の国境を脅かし、無数のソラの民を故郷から追い立てている。やつらは偽りの神の名のもとに異端を討つと叫び、血に染めて我々の仲間と民を屠っている。しかし……俺たちは知っているはずだ。<H>帝国の民は異端などではない。ただ、神の鎖を断ち切り、自由と解放を望む者たちにすぎない</>」\nリオは拳を握りしめた。三頭狼の旗が彼の手の中でざわめくように鳴った。\n「エリュシオンの偽神は、帝国の故郷に居座り続けている。あの塔が倒れぬ限り、俺の心は決して安らぐことはない。享楽を求めるなら、俺が死んだときでいい。その時は、この三頭狼の旗で俺の亡骸を包んでくれ。死してなお、この不滅の旗に口づけを捧げたい……」\n「そんなこと言わないでください！」\n副官はリオの言葉を遮った。その視線に驚くリオを、彼女はもう以前のように目を逸らさず、まっすぐに見据えていた。\n「軍団長、私……」\n\n無敵のリオ、今度は「社交」という名の戦場に立つ！副官の言葉の真意とは？次回の『不敗の大軍団長』をお楽しみに！",
     ContentKR = "제235회, 내 마음속의 휘페르보레아 제국\n축하 연회는 이미 끝났고, 순찰 중인 병사들을 제외한 대부분의 사람들은 깊이 잠들어 있었다. 부관은 전우들의 소중한 휴식 시간을 방해할까 조심스럽게 군막 사이를 지나갔다.\n마침내 그녀는 한 군막의 문을 열었다. 그곳에는 익숙하고 든든한 인물이 앉아 있었고, 그는 손에 든 총알을 하나씩 총에 장전하고 있었다.\n"군단장님, 우리는 이미 전선에서 내려왔으니 그렇게 긴장하지 않으셔도 됩니다."\n"다음 전투는 언제인가?"\n리오는 부관의 제안을 듣지 못한 듯 고개도 들지 않고 물었다.\n"지난 교전에서 엘리시안의 공격을 물리치셨으니, 놈들은 당분간 움직이지 않을 겁니다."\n리오는 침묵했다. 굵은 땀방울이 부관의 얼굴을 타고 흘렀고, 마침내 그녀는 이를 악물고 품에서 화려한 초대장을 꺼냈다.\n"군단장님, 다른 사람들처럼 잠시 삶을 즐기시는 게 어떨까요? 여기 공작 부인의 무도회 초대장, 친왕 공주님의 사냥 초대장 등이..."\n"엘리시안 군대의 침투를 방어하느라 군무가 바쁘다고 전해라."\n"하지만 이미 열여덟 번이나 그 이유를 대셨습니다..."\n슥—\n리오는 손에 든 총을 내려놓고, 군막 안의 삼두늑대 깃발 앞으로 걸어가 전쟁의 불길에 그을린 자국을 손으로 어루만졌다.\n"네 걱정을 이해하고, 그들의 호의도 이해한다. 하지만 우리가 쉬는 동안에도 엘리시안의 앞잡이들이 우리 국경을 괴롭히고, 수많은 솔라들이 유랑하고 있다. 그들은 가짜 신의 이름을 내세워 이단을 없애겠다고 부르짖으며 우리의 전우와 동포들의 피를 흘리고 있다. 하지만 우리 모두 알고 있다. <H>제국인은 결코 이단이 아니다. 그저 신의 족쇄에서 벗어나 자유와 해방을 갈망하는 사람들일 뿐이다.</>"\n리오는 주먹을 꽉 쥐었고, 그의 손에서 삼두늑대 깃발이 펄럭였다.\n"엘리시안의 가짜 신이 제국인의 옛 땅에 자리 잡고 있는 한, 탑이 무너지지 않는 한, 내 마음은 안식을 찾을 수 없다. 내가 즐길 수 있게 하려면, 내가 죽은 후에 삼두늑대 깃발로 내 시신을 감싸 다오. 죽어서도 이 불멸의 깃발에 입맞출 수 있도록..."\n"그런 말씀은 하지 마세요!"\n부관은 리오의 독백을 끊고, 리오의 의아한 시선을 마주하며 더 이상 과거처럼 피하지 않고 똑바로 그를 바라보았다.\n"군단장님, 저는…"\n\n무적의 리오도 사교라는 이름의 '전장'을 맞닥뜨려야 한다! 부관이 하려던 말은 과연 무엇일까?\n다음 회 〈천하무적 대군단장〉에서 밝혀집니다.",
     ContentTC = "第235回，我的心裡只有海伯利亞\n 慶祝的宴會已然結束，除了巡邏的士兵外，大部分人都已沉沉睡去。副官輕輕地在軍帳間穿梭，生怕自己的腳步，打擾了戰友們寶貴的休整時光。\n 最終，她掀開了一座軍帳的門簾，那個熟悉而令人安心的身影就那麼坐著，將手中的子彈一枚一枚壓入槍膛。\n 「軍團長，我們已經從前線下來了，您不必如此緊繃。」\n 「下次戰鬥是什麼時候。」\n 利奧仿佛沒聽到副官的建議般，頭也不抬地詢問著。\n 「您在上次交戰中粉碎了艾利西安的進攻，他們近期應該都不會有什麼動作。」\n 利奧沉默了。豆大的汗水從副官的臉龐劃過，最終，她咬了咬牙，從懷中取出了一疊華貴的信。\n 「軍團長，您要不要也像其他人一樣，短暫享受一下自己的生活呢？這裡是公爵夫人的舞會邀請，親王女兒的狩獵邀請還有……」\n 「軍務繁忙，防備艾利西安軍隊的滲透，都這麼回吧。」\n 「可這些理由您已經用過十八次了……」\n 唰——\n 利奧放下手中的槍，起身走到軍帳內的三頭狼旗下，伸手撫摸著旗幟上被戰火燒灼的焦痕。\n 「我明白你的擔心，也理解他們的好意。但在我們休整的時候，艾利西安的爪牙仍襲擾著我國的邊境，令無數索拉之民流離失所。他們舉著偽神的旗號大喊著消滅異端，血腥屠戮著我們的戰友與同胞。但我們心裡都清楚，<H>帝國人從來都不是異端，只是掙脫了神的鐐銬，渴望自由與解放的人罷了。</>」\n 利奧說著握緊了拳頭，三頭狼旗在他的手中獵獵作響。\n 「艾利西安的偽神盤踞在帝國人的故土，高塔一日不倒，我心一日難安。如果要我享受，那就等我死後用三頭狼旗包裹我的屍首，讓我死後，也能親吻這面不朽的旗幟……」\n 「請不要說這種話！」\n 副官打斷了利奧的自白，看到利奧疑惑的視線，副官再也沒像過去那樣逃避，而是直直地注視著利奧。\n 「軍團長，我……」 \n\n 無敵的利奧也要面對名為社交的「戰場」！副官要說的話究竟是什麼？\n 盡在下期《天生無敵大軍團長》",
@@ -69714,8 +69789,8 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "READ_TEXT_2000068"
         },
   READ_TEXT_2000069 = {
-    ContentEN = "The "Benefactor" — so named for their role as giver — is one of the few Forsaken leaders whose existence can be confirmed. True to their name, they are famed for immense wealth. Before we go further, two points must be made clear: first, the Forsakens are not a profit-driven organisation; second, most of their members possess no honest livelihood.\n \nIndeed, the Forsakens care little for profit — their focus lies squarely in undermining the order of the Hyperborean Empire. Other resistance groups may raid treasuries or stage kidnappings for ransom, but the Forsakens have never stooped to such schemes. This makes them easy to distinguish: if a crime was committed for money, it likely wasn't their doing. The Forsakens care only for destruction. Alchemy factories, interregional roads, and the manors of prominent officials are among their favourite targets. Some claim this pattern reflects a kind of moral fastidiousness in their founders. I cannot agree. Morality restrains those who revere rules — but given the Forsakens' origins and conduct, one can hardly argue that morality plays any meaningful part in shaping them.\n \nAccording to statistics gathered by Warden Hellfire, at least half the Forsaken members now imprisoned had already been convicted of other crimes before joining the organisation. Thugs, petty thieves, armed robbers — criminals unmoved by the law, let alone by morality. Yet once inside the Forsakens, none of them committed crimes for money alone. This can only mean the organisation upholds a code more binding than law — and possesses financial resources sufficient to sustain its members' lives, even to fuel their crimes. From this, Warden Hellfire drew a prediction: among the Forsakens' leaders, there must be one who bears the cost of the organisation's daily needs. As the Forsakens grew active again and more members were thrown behind bars, a certain codename began surfacing in warden reports — "Benefactor."\n \nThe "Benefactor" is said to reach out in one's hour of deepest desperation, sending a letter with whatever the recipient most craves. Most often it is money; at times, something bloodier — a grisly token of vengeance, such as the severed limb of a sworn enemy. Though recipients may technically refuse these sudden acts of generosity, the timing is so uncannily precise that in practice, no one ever does. And so, wastrels and dangerous marauders alike find themselves drawn into the Forsakens. When their old vices drag them back into hardship, another letter arrives. After several such cycles, they become puppets — marionettes strung with coin, dancing at the Benefactor's whim. The tasks assigned differ little from their former crimes. A thief is told to break the chains on an alchemy factory gate. A bomber, to plant charges beside its Phoxichor engine. A repeat escapee, to present himself before the constables — drawing their attention elsewhere. Thus, strangers who've never met, acting solely on the direction of letters from a single hand, carry out crimes near impossible to unravel. None of them knows whether they have accomplices, whether they're the bait in someone else's scheme, or what the mission's true purpose might be. Such is the Benefactor's method. Though their schemes leave ample traces, the Benefactor makes no real effort to conceal their presence. To the wardens, each letter sent to an underling reads like an open declaration of war. And so, in the years when the Benefactor was most active, wardens across the Hyperborean Empire poured untold hours into unmasking them.\n \nIn theory, it should have been simple. The Benefactor's letters came with great sums of money — and wealth, after all, leaves a trail. Soon enough, the wardens caught a supposed Benefactor: a cloth merchant in Scarletriver who had recently struck it rich. He claimed he had taken up the name out of outrage at the Empire's oppression of the Charon, and that his crimes were acts of rebellion. To any clear-eyed observer, it was a flimsy excuse. No ordinary merchant could bankroll a resistance force spanning the continent. This "Benefactor" was nothing but a decoy — a scapegoat. So the wardens pressed on. One captured, then another... more than ten in all, over the span of two years. Yet the Forsakens' resistance showed no sign of waning. There could be no doubt: above these pretenders stood a true magnate — one wealthy enough to bankroll a dozen prosperous merchants at once.\n \nSo the wardens followed every lead, tracing financial channels in search of the true Benefactor. But they found nothing — no records of large transfers, no sign of hidden accounts. The merchants they'd seized came from every walk of life: different trades, origins, ages, genders, even quirks of personality. Their only common ground was this: each had found sudden success in recent years, and each commanded considerable wealth. Every one of them swore the funds used to support Forsaken operations came from their own trade — and all, with striking unanimity, claimed they had adopted the name "Benefactor" out of discontent with the Empire's oppression of the Charon. It was all too familiar. Just as Forsaken criminals ignored the law but never broke their own code, so too must these merchants have been lured by profit — or threatened into compliance — to act in such perfect unison.\n \nThe wardens reached a chilling conclusion: however the true Benefactor passed their money to these seemingly law-abiding merchants, they must possess insight beyond ordinary men — and a hand ruthless enough to enforce obedience. How many such merchants might already dance to their tune was impossible to say. If the merchants were fishermen chasing the tides along the shore, then the Benefactor was the one who commanded the sea itself. A trace of fear crept into the wardens' hearts. Perhaps this Benefactor truly stood at some higher vantage — and perhaps their very investigation was already unfolding in the palm of their hand.\n \nYet for most ordinary folk, the details scarcely matter. They know only this: that within the Forsakens is a leader known as the Benefactor — one of Atlasia's three great magnates, spoken of in the same breath as Ms Zhiliu of Huaxu and Lord Generous, one of the Seven Virtues of Elysium. Tavern chatter delights in speculation: how many zeroes trail the sum of their fortune; how many roast turkeys and lambs vanish at their table in a single feast; whether the candles in their manor ever need be blown out to save on lamp oil... And for those at the end of their rope, one last hope remains: that when they wake from their dreams, a letter from the Benefactor will be waiting before them.\n ",
-    ContentJP = "『贈主』――贈与の主は、現在判明しているフォーセイクン同盟の指導者の一人であり、その名のとおり財力で知られる。まず私たちが意識すべきことは二つある。ひとつ、フォーセイクン同盟は営利組織ではない。もうひとつ、多くのフォーセイクン同盟の構成員は正業を持っていないはずだ。\n フォーセイクン同盟は明らかに営利組織ではない。むしろ彼らは帝国の秩序を破壊することに専心していると言ってよい。他の抵抗組織は多かれ少なかれ経済犯罪――金庫の強奪や身代金目的の誘拐――に手を染めるが、フォーセイクン同盟はそうした事件に一切関与してこなかった。これは、ある事件が本当にフォーセイクン同盟の仕業か、他の犯罪組織のなりすましかを見分ける簡単な基準と言える。彼らは金に全く興味がなく、ただひたすら破壊する。錬金工場、各地を結ぶ街道、要人の邸宅――いずれも彼らが好んで狙う目標だ。一部の者は、こうした行動パターンは同盟創設者の道徳的な潔癖から来るのだと考えるが、私は同意できない。道徳が規則を畏れる一部の人間を縛ることはあろう。だが、同盟の出自と振る舞いを踏まえれば、この集団において道徳が果たす役割は無視しうるほど小さいとしか言いようがない。\n 今、典獄ヘルファイアの統計によれば、服役中のフォーセイクン同盟員の少なくとも半数は、同盟に加わる前から別の犯罪行為で法の裁きを受けている。法は彼らを正道に戻せなかった。ましてや道徳など論外だ。ところが、かつての悪漢やこそ泥、強盗たちも、フォーセイクン同盟に入った後は、純粋に金銭目的だけの犯行に及んだ者は一人もいない。これは、同盟内部に法より強い拘束力をもつ規律が存在し、さらに生活を維持し、ひいては犯行を遂行するに足る資金源があることを物語る。この推論に基づき、ヘルファイアは次の予言を下した――フォーセイクン同盟の上層には、日々の必要な一切の費用を同盟に供給する高位の人物が必ずいる。同盟が再び活発化し、より多くの構成員が鉄格子の内側に落ちるにつれ、『贈主』と名乗るコードネームが典獄官たちの視界に現れた。\n 『贈主』は、人が最も窮乏している折に手紙を届け、いままさに切実に欲している物――たいていは金だが、時には仇敵の四肢といった血なまぐさい復讐の証――を同封してくるという。彼らの証言では、『贈主』からの手紙を受け取った者は、この唐突な寛大な施しを拒むこともできるが、あまりに「その時」に現れるため、実際には誰一人として拒めない。こうして元来ならならず者で危険な連中がフォーセイクン同盟の一員となり、そして彼らが過去の悪癖ゆえに再び窮地に陥ると、『贈主』の手紙は再度現れる。これを数度繰り返すうちに、彼らは『贈主』に金で操られる操り人形となっていく。彼らに与えられる任務も、以前の犯罪と大差ない。前科のある窃盗犯は錬金工場の鎖をこじ開け、爆破犯は工場のイコルエンジンのそばに爆弾を仕掛け、脱獄犯は治安官の前に姿を見せて注意を別の場所へ逸らす。こうして、互いを知らぬ一群が、同一人物の送る手紙の指示の下に、解きほぐし難い一件の犯罪を完遂するのだ。実行者たちは自分に仲間がいるのか、囮として切り捨てられているのか、そして行動の真の目的が何かすら知らない。これが『贈主』の行動様式である。こうしたやり口は大量の証拠を残すのは明らかだが、当人は自らの存在を取り繕おうとはしない。部下へ送られる手紙は、典獄の目には一通一通がまさしく宣戦布告に映る。かくして『贈主』が最も活発だった数年間、ヒュペリア帝国のあらゆる典獄官が、このいわゆる『贈主』なる者の正体を辿ることに莫大な時間を費やした。\n 理屈の上では、これは容易なはずだった。『贈主』は匿名の手紙のほかに、操り人形たちへ巨額の金を与える。大量の資金移動ならば追跡はきわめて簡単なはずだ。そして典獄官たちはたやすく一人の「贈主」を捕らえた。だが意外なことに、その「贈主」はレッドバリー城で近頃商売で成り上がったばかりの布商にすぎなかった。彼は、帝国のカロン族弾圧の制度に不満を抱き、「贈主」という仮名を名乗って帝国に対する犯罪行為を始めたのだと自称した。見る者に明らかだが、これは稚拙な免罪の策だ。普通の商人に、全国規模の抵抗組織を支える力などない。捕らえられたこの「贈主」は目くらましであり、身代わりに過ぎない。そこで典獄官たちは追及を続け、一人、二人……十人。二年ののち、捕らえられた「贈主」は十数名にも達したが、フォーセイクン同盟の帝国への反抗は少しも衰えなかった。疑いようもなく、これらの「贈主」のさらに上に、十数人の大商人を養える本物の巨万の富豪がいる。\n そこで典獄官たちは、勢いに乗じて資金の流れの追跡を続け、真の贈与の主を見つけようとした。しかし成果は皆無――典獄官たちが想定したような金のやり取りはそもそも存在しなかった。十数名の商人の業種も、出自も、年齢も、性別も、嗜好もまるで共通しない。過去数年で事業的成功を収め、抜きん出た財力を持っていること以外には、何の共通点もなかったのだ。彼ら「贈主」が同盟員を指揮するために用いた資金は、いずれも自らの商売で得た金であり、そして口を揃えて、帝国のカロン政策に不満を抱いたがゆえに自称『贈主』となっただけだと主張した。既視感がある。フォーセイクン同盟の元犯罪者たちが法を恐れず、同盟の規約にも背かないのと同様に、これらの商人もまた、何らかの利益を得たか、あるいは脅されて、同じ行動を取るに至ったに違いない。\n 典獄官たちはさらに一つの推論に至った。贈与の主が、どのような手段で金をいかにも法に従う商人たちへ渡しているのかは不明だ。だが彼は常人の及ばぬ人を見る眼と、苛烈な手段を備えているに違いない。帝国内にいったいどれほどの商人が贈与の主の操り支配下にあるのかは、見当もつかない。もし彼ら商人を海岸で潮流を追う漁師に喩えるなら、贈与の主は潮汐そのものを操れる者だろう。ゆえに典獄官たちの心にも一抹の畏れが生じた。もしかするとこの贈与の主はさらに高みに立ち、我々の捜査はすべて彼の掌中で進んでいるのではないか、と。\n ただし、一般の人々にとっては、フォーセイクン同盟に「贈主」という名の指導者がいる――それだけを知っていれば十分だった。華胥のシリュウ様、エリュシオン礼賛会のセブンヴァーチェスのひとり『チャリティ』様と並び、アトラシア三大富豪と称される存在である。人々は彼らの資産の桁はいくつあるのか、一度の食事で七面鳥や焼き羊をどれだけ平らげるのか、家の灯火は灯油を節約する必要がないため決して吹き消されないのか――そんな話に花を咲かせる。そして行き詰まった者は、一夜明ければ、自分の目の前に『贈主』からの手紙が現れていることを密かに期待するのだ。",
+    ContentEN = "The "Benefactor" — so named for their role as giver — is one of the few Forsaken leaders whose existence can be confirmed. True to their name, they are famed for immense wealth. Before we go further, two points must be made clear: first, the Forsakens are not a profit-driven organisation; second, most of their members possess no honest livelihood.\n\nIndeed, the Forsakens care little for profit — their focus lies squarely in undermining the order of the Hyperborean Empire. Other resistance groups may raid treasuries or stage kidnappings for ransom, but the Forsakens have never stooped to such schemes. This makes them easy to distinguish: if a crime was committed for money, it likely wasn't their doing. The Forsakens care only for destruction. Alchemy factories, interregional roads, and the manors of prominent officials are among their favourite targets. Some claim this pattern reflects a kind of moral fastidiousness in their founders. I cannot agree. Morality restrains those who revere rules — but given the Forsakens' origins and conduct, one can hardly argue that morality plays any meaningful part in shaping them.\n\nAccording to statistics gathered by Warden Hellfire, at least half the Forsaken members now imprisoned had already been convicted of other crimes before joining the organisation. Thugs, petty thieves, armed robbers — criminals unmoved by the law, let alone by morality. Yet once inside the Forsakens, none of them committed crimes for money alone. This can only mean the organisation upholds a code more binding than law — and possesses financial resources sufficient to sustain its members' lives, even to fuel their crimes. From this, Warden Hellfire drew a prediction: among the Forsakens' leaders, there must be one who bears the cost of the organisation's daily needs. As the Forsakens grew active again and more members were thrown behind bars, a certain codename began surfacing in warden reports — "Benefactor."\n\nThe "Benefactor" is said to reach out in one's hour of deepest desperation, sending a letter with whatever the recipient most craves. Most often it is money; at times, something bloodier — a grisly token of vengeance, such as the severed limb of a sworn enemy. Though recipients may technically refuse these sudden acts of generosity, the timing is so uncannily precise that in practice, no one ever does. And so, wastrels and dangerous marauders alike find themselves drawn into the Forsakens. When their old vices drag them back into hardship, another letter arrives. After several such cycles, they become puppets — marionettes strung with coin, dancing at the Benefactor's whim. The tasks assigned differ little from their former crimes. A thief is told to break the chains on an alchemy factory gate. A bomber, to plant charges beside its Phoxichor engine. A repeat escapee, to present himself before the constables — drawing their attention elsewhere. Thus, strangers who've never met, acting solely on the direction of letters from a single hand, carry out crimes near impossible to unravel. None of them knows whether they have accomplices, whether they're the bait in someone else's scheme, or what the mission's true purpose might be. Such is the Benefactor's method. Though their schemes leave ample traces, the Benefactor makes no real effort to conceal their presence. To the wardens, each letter sent to an underling reads like an open declaration of war. And so, in the years when the Benefactor was most active, wardens across the Hyperborean Empire poured untold hours into unmasking them.\n\nIn theory, it should have been simple. The Benefactor's letters came with great sums of money — and wealth, after all, leaves a trail. Soon enough, the wardens caught a supposed Benefactor: a cloth merchant in Scarletriver who had recently struck it rich. He claimed he had taken up the name out of outrage at the Empire's oppression of the Charon, and that his crimes were acts of rebellion. To any clear-eyed observer, it was a flimsy excuse. No ordinary merchant could bankroll a resistance force spanning the continent. This "Benefactor" was nothing but a decoy — a scapegoat. So the wardens pressed on. One captured, then another... more than ten in all, over the span of two years. Yet the Forsakens' resistance showed no sign of waning. There could be no doubt: above these pretenders stood a true magnate — one wealthy enough to bankroll a dozen prosperous merchants at once.\n\nSo the wardens followed every lead, tracing financial channels in search of the true Benefactor. But they found nothing — no records of large transfers, no sign of hidden accounts. The merchants they'd seized came from every walk of life: different trades, origins, ages, genders, even quirks of personality. Their only common ground was this: each had found sudden success in recent years, and each commanded considerable wealth. Every one of them swore the funds used to support Forsaken operations came from their own trade — and all, with striking unanimity, claimed they had adopted the name "Benefactor" out of discontent with the Empire's oppression of the Charon. It was all too familiar. Just as Forsaken criminals ignored the law but never broke their own code, so too must these merchants have been lured by profit — or threatened into compliance — to act in such perfect unison.\n\nThe wardens reached a chilling conclusion: however the true Benefactor passed their money to these seemingly law-abiding merchants, they must possess insight beyond ordinary men — and a hand ruthless enough to enforce obedience. How many such merchants might already dance to their tune was impossible to say. If the merchants were fishermen chasing the tides along the shore, then the Benefactor was the one who commanded the sea itself. A trace of fear crept into the wardens' hearts. Perhaps this Benefactor truly stood at some higher vantage — and perhaps their very investigation was already unfolding in the palm of their hand.\n\nYet for most ordinary folk, the details scarcely matter. They know only this: that within the Forsakens is a leader known as the Benefactor — one of Atlasia's three great magnates, spoken of in the same breath as Ms Zhiliu of Huaxu and Lord Generous, one of the Seven Virtues of Elysium. Tavern chatter delights in speculation: how many zeroes trail the sum of their fortune; how many roast turkeys and lambs vanish at their table in a single feast; whether the candles in their manor ever need be blown out to save on lamp oil... And for those at the end of their rope, one last hope remains: that when they wake from their dreams, a letter from the Benefactor will be waiting before them.\n",
+    ContentJP = "『贈主』――贈与の主は、現在判明しているフォーセイクン同盟の指導者の一人であり、その名のとおり財力で知られる。まず私たちが意識すべきことは二つある。ひとつ、フォーセイクン同盟は営利組織ではない。もうひとつ、多くのフォーセイクン同盟の構成員は正業を持っていないはずだ。\nフォーセイクン同盟は明らかに営利組織ではない。むしろ彼らは帝国の秩序を破壊することに専心していると言ってよい。他の抵抗組織は多かれ少なかれ経済犯罪――金庫の強奪や身代金目的の誘拐――に手を染めるが、フォーセイクン同盟はそうした事件に一切関与してこなかった。これは、ある事件が本当にフォーセイクン同盟の仕業か、他の犯罪組織のなりすましかを見分ける簡単な基準と言える。彼らは金に全く興味がなく、ただひたすら破壊する。錬金工場、各地を結ぶ街道、要人の邸宅――いずれも彼らが好んで狙う目標だ。一部の者は、こうした行動パターンは同盟創設者の道徳的な潔癖から来るのだと考えるが、私は同意できない。道徳が規則を畏れる一部の人間を縛ることはあろう。だが、同盟の出自と振る舞いを踏まえれば、この集団において道徳が果たす役割は無視しうるほど小さいとしか言いようがない。\n今、典獄ヘルファイアの統計によれば、服役中のフォーセイクン同盟員の少なくとも半数は、同盟に加わる前から別の犯罪行為で法の裁きを受けている。法は彼らを正道に戻せなかった。ましてや道徳など論外だ。ところが、かつての悪漢やこそ泥、強盗たちも、フォーセイクン同盟に入った後は、純粋に金銭目的だけの犯行に及んだ者は一人もいない。これは、同盟内部に法より強い拘束力をもつ規律が存在し、さらに生活を維持し、ひいては犯行を遂行するに足る資金源があることを物語る。この推論に基づき、ヘルファイアは次の予言を下した――フォーセイクン同盟の上層には、日々の必要な一切の費用を同盟に供給する高位の人物が必ずいる。同盟が再び活発化し、より多くの構成員が鉄格子の内側に落ちるにつれ、『贈主』と名乗るコードネームが典獄官たちの視界に現れた。\n『贈主』は、人が最も窮乏している折に手紙を届け、いままさに切実に欲している物――たいていは金だが、時には仇敵の四肢といった血なまぐさい復讐の証――を同封してくるという。彼らの証言では、『贈主』からの手紙を受け取った者は、この唐突な寛大な施しを拒むこともできるが、あまりに「その時」に現れるため、実際には誰一人として拒めない。こうして元来ならならず者で危険な連中がフォーセイクン同盟の一員となり、そして彼らが過去の悪癖ゆえに再び窮地に陥ると、『贈主』の手紙は再度現れる。これを数度繰り返すうちに、彼らは『贈主』に金で操られる操り人形となっていく。彼らに与えられる任務も、以前の犯罪と大差ない。前科のある窃盗犯は錬金工場の鎖をこじ開け、爆破犯は工場のイコルエンジンのそばに爆弾を仕掛け、脱獄犯は治安官の前に姿を見せて注意を別の場所へ逸らす。こうして、互いを知らぬ一群が、同一人物の送る手紙の指示の下に、解きほぐし難い一件の犯罪を完遂するのだ。実行者たちは自分に仲間がいるのか、おとりとして切り捨てられているのか、そして行動の真の目的が何かすら知らない。これが『贈主』の行動様式である。こうしたやり口は大量の証拠を残すのは明らかだが、当人は自らの存在を取り繕おうとはしない。部下へ送られる手紙は、典獄の目には一通一通がまさしく宣戦布告に映る。かくして『贈主』が最も活発だった数年間、ヒュペリア帝国のあらゆる典獄官が、このいわゆる『贈主』なる者の正体を辿ることに莫大な時間を費やした。\n理屈の上では、これは容易なはずだった。『贈主』は匿名の手紙のほかに、操り人形たちへ巨額の金を与える。大量の資金移動ならば追跡はきわめて簡単なはずだ。そして典獄官たちはたやすく一人の「贈主」を捕らえた。だが意外なことに、その「贈主」はレッドバリー城で近頃商売で成り上がったばかりの布商にすぎなかった。彼は、帝国のカロン族弾圧の制度に不満を抱き、「贈主」という仮名を名乗って帝国に対する犯罪行為を始めたのだと自称した。見る者に明らかだが、これは稚拙な免罪の策だ。普通の商人に、全国規模の抵抗組織を支える力などない。捕らえられたこの「贈主」は目くらましであり、身代わりに過ぎない。そこで典獄官たちは追及を続け、一人、二人……十人。二年ののち、捕らえられた「贈主」は十数名にも達したが、フォーセイクン同盟の帝国への反抗は少しも衰えなかった。疑いようもなく、これらの「贈主」のさらに上に、十数人の大商人を養える本物の巨万の富豪がいる。\nそこで典獄官たちは、勢いに乗じて資金の流れの追跡を続け、真の贈与の主を見つけようとした。しかし成果は皆無――典獄官たちが想定したような金のやり取りはそもそも存在しなかった。十数名の商人の業種も、出自も、年齢も、性別も、嗜好もまるで共通しない。過去数年で事業的成功を収め、抜きん出た財力を持っていること以外には、何の共通点もなかったのだ。彼ら「贈主」が同盟員を指揮するために用いた資金は、いずれも自らの商売で得た金であり、そして口を揃えて、帝国のカロン政策に不満を抱いたがゆえに自称『贈主』となっただけだと主張した。既視感がある。フォーセイクン同盟の元犯罪者たちが法を恐れず、同盟の規約にも背かないのと同様に、これらの商人もまた、何らかの利益を得たか、あるいは脅されて、同じ行動を取るに至ったに違いない。\n典獄官たちはさらに一つの推論に至った。贈与の主が、どのような手段で金をいかにも法に従う商人たちへ渡しているのかは不明だ。だが彼は常人の及ばぬ人を見る眼と、苛烈な手段を備えているに違いない。帝国内にいったいどれほどの商人が贈与の主の操り支配下にあるのかは、見当もつかない。もし彼ら商人を海岸で潮流を追う漁師に喩えるなら、贈与の主は潮汐そのものを操れる者だろう。ゆえに典獄官たちの心にも一抹の畏れが生じた。もしかするとこの贈与の主はさらに高みに立ち、我々の捜査はすべて彼の掌中で進んでいるのではないか、と。\nただし、一般の人々にとっては、フォーセイクン同盟に「贈主」という名の指導者がいる――それだけを知っていれば十分だった。華胥のシリュウ様、エリュシオン礼賛会のセブンヴァーチェスのひとり『チャリティ』様と並び、アトラシア三大富豪と称される存在である。人々は彼らの資産の桁はいくつあるのか、一度の食事で七面鳥や焼き羊をどれだけ平らげるのか、家の灯火は灯油を節約する必要がないため決して吹き消されないのか――そんな話に花を咲かせる。そして行き詰まった者は、一夜明ければ、自分の目の前に『贈主』からの手紙が現れていることを密かに期待するのだ。",
     ContentKR = "포세이큰 동맹의 지도자 중 한 명으로 알려진 '자본주'는 자본을 대는 이라는 이름에 걸맞게 막대한 부를 거느린 인물이다. 그를 이해하기 위해서는 우선 두 가지 사실부터 짚어 봐야 한다. 첫 번째는 포세이큰 동맹은 영리 단체가 아니라는 점이고, 두 번째는 소속된 동맹원 대부분은 정상적인 생계 수단이 없다는 점이다.\n포세이큰 동맹의 활동은 영리 목적이 아닌 제국의 질서 파괴에만 초점이 맞춰져 있다. 자금 확보를 위해 금고를 털거나 납치 사건을 벌이는 타 조직과 달리, 이들은 단 한 번도 금전 관련 사건에 연루된 적이 없다. 이런 비영리적 특징은 특정 사건이 그들의 소행인지를 판별하는 중요한 기준으로 작용하기도 한다. 이들은 돈에는 눈길 한번 주지 않고 파괴에만 혈안이 되어 있으며, 연금술 공장이나 주요 도로, 유력 인사의 저택만을 골라 노린다. 일각에서는 이러한 활동 방식을 창시자의 도덕적 결벽증 때문이라고 주장하지만, 개인적으로는 동의하지 않는다. 동맹원들의 출신과 행적을 고려하면, 도덕이 이 집단에 미치는 영향은 거의 없다고 해도 무방하기 때문이다.\n교도소장 헬파이어의 통계는 이러한 사실을 뒷받침한다. 수감된 동맹원의 절반 이상은 가입 전에도 범죄 전과가 있는 자들이었다. 법으로도 교화하지 못한 자들을 도덕으로 다스린다는 건 애초부터 불가능한 이야기다. 그러나 이런 악당, 도둑, 강도들도 동맹에 가입한 후에는 금전적 이득을 목적으로 한 범죄를 전혀 저지르지 않았다. 헬파이어는 동맹 내부에 법보다 강력한 규율이 존재하며, 동맹원들의 생계와 범죄 활동 모두를 감당할 막대한 자금줄이 있다는 사실을 토대로, 동맹의 최상층에는 모든 경비를 책임지는 자금책이 존재하며, 머지않아 그의 정체가 드러날 것이라고 추측했다. 이윽고 다시 활동을 시작한 동맹원들이 추가로 수감되며, 마침내 '자본주'라는 코드네임이 주목받기 시작했다.\n'자본주'는 인생의 막다른 길에 몰린 이들에게 접근해, 편지를 통해, 대개는 돈이지만, 때로는 원수의 신체 일부처럼 끔찍한 복수의 증표 등 당사자가 가장 원하는 것을 보내준다고 한다. 수감자들의 증언에 따르면, 너무나 절묘한 순간에 도착하기 때문에 그 갑작스럽고 자애로운 선물을 거절하는 이는 없다고 한다. 이 과정을 통해, 갈 곳 없는 위험 인물들은 동맹의 일원이 된다. 동맹의 일원이 되고 나서도 못된 버릇 때문에 또다시 궁지에 빠지면, 어김없이 '자본주'의 편지가 날아들고, 이런 일이 몇 차례 반복되면, 그들은 결국 돈으로 움직이는 꼭두각시로 전락하고 만다. 이 꼭두각시들은 과거의 범죄 경력에 맞는 임무를 부여받는다. 절도범은 연금술 공장의 자물쇠를 따고, 폭파범은 폭시코르 엔진 옆에 폭탄을 설치하며, 탈옥수는 치안서 병사의 시선을 끄는 식이다. 이처럼 서로 얼굴도 모르는 이들이 단 한 명의 지시에 따라 움직이며 추적이 불가능에 가까운 범죄를 완성하는 것이다. 실행범들은 공범의 존재는커녕, 자신이 미끼인지, 작전의 진짜 목표가 무엇인지조차 알지 못한다. 이것이 바로 '자본주'의 방식이다. 그는 굳이 자신의 흔적을 감추려 하지 않았고, 그가 동맹원들에게 보낸 편지들은 교도소장들을 향한 선전포고나 다름없었다. 따라서 '자본주'의 활동이 절정에 달했던 수년간, 휘페르보레아 제국의 모든 교도소장은 그의 정체를 밝히려 혈안이 될 수밖에 없었다.\n상식적으로 생각하면 아주 쉬운 수사였다. '자본주'가 거액의 자금을 움직인다면, 그 흐름을 추적하는 건 시간문제였기 때문이다. 교도소장들은 예상대로 어렵지 않게 '자본주'를 체포했지만, 그는 최근 벼락부자가 된 스칼렛의 옷감 상인이었다. 그는 제국의 압제에 불만을 품고 '자본주'라는 가명으로 범죄를 저질렀다고 순순히 자백했지만, 누가 봐도 뻔한 꼬리자르기였다. 평범한 상인 하나가 전국적인 조직을 운영한다는 건 상식 밖의 일이었으며, 체포된 자는 진짜 '자본주'의 정체를 가리기 위한 눈속임이자 희생양에 불과했다. 교도소장들의 계속된 추적에, 2년간 하나, 둘... 총 10명에 달하는 '자본주'가 체포되었지만, 동맹의 저항 활동은 전혀 위축되지 않았다. 의심할 여지 없이, 이 10명의 '자본주'들을 지원할 수 있을 만큼의 막대한 부를 가진 진짜 거물이 존재한다는 증거였다.\n교도소장들은 기세를 몰아 진짜 '자본주'를 찾아내려 끈질기게 자금 흐름을 추적했지만, 예상했던 자금 거래 흔적은 물론이고 그 무엇도 찾을 수 없었다. 이 10명의 상인들은 업종, 출신, 나이, 성별, 기호까지 어느 하나 같은 게 없었다. 그들의 공통점이라고는 지난 몇 년간 사업으로 큰 성공을 거두었다는 점과 하나같이 제국 정책에 대한 불만으로 스스로 '자본주'가 된 것이라고 주장한다는 점이었다. 어딘지 익숙한 상황이었다. 법보다 동맹의 규칙을 두려워했던 전과자들처럼, 이 상인들 역시 각자의 이익이나 협박 때문에 같은 방식으로 행동하고 있음이 분명했다.\n이로써 교도소장들은 새로운 결론에 다다랐다. 진짜 '자본주'가 어떤 방식으로 이 준법 상인들에게 돈을 건네는지는 알 수 없으나, 그에게는 사람의 마음을 꿰뚫어 보는 비범한 안목과 무자비한 수완이 있다는 사실만큼은 확실했다. 얼마나 많은 제국의 상인들이 그의 손아귀에서 놀아나고 있는지 알 수 없지만, 이 상인들이 파도를 쫓는 어부라면, 진짜 '자본주'는 그 흐름을 관장하는 보이지 않는 힘이었다. 그 사실을 깨닫는 순간, 교도소장들은 어쩌면 진짜 '자본주'가 더 높은 곳에서 그들의 수사를 손바닥 보듯 훤히 지켜보고 있을지도 모른다는 생각에 등골이 서늘해졌다.\n그러나 대중에게 알려져 있는 '자본주'는 포세이큰 동맹의 지도자이자, 화서의 지류 사장, 엘리시안 교회의 세븐 버튜스 '관대'와 어깨를 나란히 하는 아틀라시아 3대 부호 중 하나에 지나지 않는다. 사람들은 그들의 재산이 얼마일지, 한 끼에 얼마나 많은 칠면조를 먹어 치울지에 대해 이야기하며, 평생 돈 때문에 등불을 끄는 일은 없을 거라며 입방아를 찧을 뿐이다. 그리고 막다른 길에 몰린 이들은... 어느 날 아침에 눈을 떴을 때, 자신의 눈앞에도 '자본주'의 편지가 놓여 있기를 바란다.",
     ContentTC = "「贈主」，贈予之主，是神棄者同盟目前可以確認的幾名領導者之一，如同名字所呈現的那樣，「贈主」以其財力著稱。首先我們需要意識到這兩件事：其一，神棄者同盟並非是一個盈利組織；其二，大部分神棄者同盟的成員應該是沒有正經營生的。\n神棄者同盟顯然不是一個盈利組織，甚至可以說，他們在專心地破壞帝國的秩序。其他的抵抗組織都會或多或少地進行一些經濟犯罪，比如去搶劫金庫或者綁架案以獲得贖金，而神棄者同盟卻從來沒參與過這種案件。可以說這是辨別一起案件真的是神棄者同盟所為還是其他犯罪組織冒名頂替的簡單方法。他們對錢毫無興趣，只是一味破壞，煉金工廠、各地區間的道路與要人的宅邸都是他們鐘愛的作案目標。有一部分人認為這種行為模式出於同盟創始者自身的道德潔癖，我不能苟同。固然道德可以約束部分敬畏規則的人，但是考慮到神棄者同盟的成員來源以及表現的話，只能說道德和這個群體的相關性還是小到可以忽略不計。\n現在根據典獄長海爾法的統計結果，正在監獄服刑的神棄者同盟成員中，至少有一半在加入神棄者同盟前就已經因為一些其他的犯罪行為而受到過法律的制裁。法律並沒有讓這些人走上正確的道路，罔論道德。而這些曾經的惡棍、小偷、搶劫犯在加入神棄者同盟之後，卻沒有人因為純粹的錢財問題而進行犯罪，那只能說明神棄者同盟內部有著比法律更強約束力的規則，以及足以讓他們維持生活，乃至于進行犯罪的資金來源。而基於這個推論，海爾法做出了一個預言：神棄者同盟的高層人士中必定有一位高層，為神棄者同盟提供了日常所需的一切費用。隨著神棄者同盟的再次活躍，更多的成員鎯鐺入獄，一個名為「贈主」的代號出現在了典獄們的視線裡。\n「贈主」會在一些人最困顿的時候捎來信件，並附帶他們此刻最迫切想要的東西，大部分時候是金錢，偶爾可能是仇人肢體一類的血淋淋的復仇證明。據他們說，儘管收到「贈主」來信的人可以選擇拒絕這份突然出現的慷慨饋贈，但往往它出現得是那麼恰到好處，實際上沒有人能夠拒絕。就這樣，這些原本浪蕩的危險分子就成為了神棄者同盟的一員，而當他們因為自身既往的惡習而再次陷入困境的時候，「贈主」來信則會再次出現。如此往復幾次，他們便成為了「贈主」以金錢操控的提線木偶。而他們接受到的任務也基本和此前的犯罪並無二致，前科偷盜犯被命令撬開煉金工廠的鐵索、前科爆炸犯被命令在工廠中的月髓引擎旁佈設炸彈、前科越獄囚則會出現在治安官面前，將他們的注意力引到其他地方。於是就這樣，互不相识的一群人在同一個人的信件的指揮下，完成了一次難以破解的犯罪，這些執行人並不知道自己有沒有同伙，不知道自己是不是被主動拋出的誘餌，更不知道行動的真實目的。這便是「贈主」的行為模式，儘管很明顯這樣的行動會留下大量的證據，但是他本人並沒有刻意掩飾自身的存在。他向下屬們寄出的信件在典獄們看來，不啻於是一封封宣戰佈告。於是，在「贈主」最為活躍的那幾個年頭，海伯利亞帝國的所有典獄花費了大量的時間去溯源這個所謂的「贈主」究竟是谁。\n按理來說，這是一件很容易的事情，畢竟「贈主」除了匿名信，還會給予提線木偶們大額的金錢，而大量資金流動同樣極其容易被追溯到。於是典獄們輕易抓到了一位「贈主」，但讓他們意外的是，「贈主」只是丹流城中最近做生意暴富的布料商人。他自稱對帝國壓迫卡戎的制度感到不滿，於是起了「贈主」這個化名，開始對帝國進行犯罪行為。任何明眼人都看得出來，這是簡單的脫罪策略。普通的商人是沒有辦法支撐起一個遍及全國的抵抗組織的，這個被抓的「贈主」不過是障眼法，替罪羊罷了。所以典獄們繼續追查，一位、兩位…… 十位，兩年過去，抓獲的「贈主」足足有十餘人之多，但是神棄者同盟對於帝國的反抗卻絲毫沒有減少。毫無疑問，在這些「贈主」之上，有一位真正的、足夠供養起十幾位大商人的真正鉅富。\n於是，典獄們想要乘勝追擊，繼續追查資金往來，找到真正的贈予之主。一無所獲，根本沒有典獄們預想中的資金往來。這十幾位商人的行業、出身、年齡、性別、癖好都各不相同，除了都在過去的幾年內獲得了經營上的成功，都擁有過人的財力以外，沒有任何共同點。這些「贈主」們指揮同盟成員所用的資金全部都是自己經商所得，並且都異口同聲堅稱自己只是對於帝國的卡戎政策不滿而開始自稱「贈主」。熟悉的感覺，正如神棄者同盟中的那些曾經的罪犯不害怕法律，也不願意違背同盟的守則一樣，這些商人也一定是獲得了某種利益或受到了威脅，從而做出了相同的舉動。\n而典獄們也做出了一個推論，雖然不知道贈予之主到底是以何種方式將金錢给到這些看起來遵紀守法的商人，但他一定有著常人無法企及的識人眼光以及狠辣手段。至於帝國境內到底還有多少商人處於贈予之主的操縱之下，更是無法預估。如果將這些商人比作是在海岸追逐潮流的漁夫的話，那麼贈予之主，應當是能夠控制潮汐之人。因此，典獄們甚至產生了一絲畏懼，也許這位贈予之主正站在更高的位置，而自己的調查也正在他的掌握之中。\n不過，對於一般人來說，他們只知道神棄者同盟中有一位領導者，名為「贈主」，與華胥的止流女士、艾利西安傳頌會的七美德之「慷慨」並稱為阿特拉西亞三大鉅富。人們談論著他們的資產後面到底有多少個零，一頓又要吃掉多少隻火雞與烤羊，他們的家中的燭火是不是從來不用吹熄以節省燈油…… 而走投無路的人也會期待著，自己一夢睡醒，面前能出現一份「贈主」來信。",
     TextMapContent = "“赠主”，赠予之主，是神弃者同盟目前可以确认的几名领导者之一，如同名字所呈现的那样，“赠主”以其财力著称。 首先我们需要意识到这两件事：其一，神弃者同盟并非是一个盈利组织；其二，大部分神弃者同盟的成员应该是没有正经营生的。\n神弃者同盟显然不是一个盈利组织，甚至可以说，他们在专心地破坏帝国的秩序。其他的抵抗组织都会或多或少地进行一些经济犯罪，比如去抢劫金库或者绑架案以获得赎金，而神弃者同盟却从来没参与过这种案件。可以说这是辨别一起案件真的是神弃者同盟所为还是其他犯罪组织冒名顶替的简单方法。他们对钱毫无兴趣，只是一味破坏，炼金工厂、各地区间的道路与要人的宅邸都是他们钟爱的作案目标。 有一部分人认为这种行为模式出于同盟创始者自身的道德洁癖，我不能苟同。固然道德可以约束部分敬畏规则的人，但是考虑到神弃者同盟的成员来源以及表现的话，只能说道德和这个群体的相关性还是小到可以忽略不计。\n现在根据典狱长海尔法的统计结果，正在监狱服刑的神弃者同盟成员中，至少有一半在加入神弃者同盟前就已经因为一些其他的犯罪行为而受到过法律的制裁。法律并没有让这些人走上正确的道路，罔论道德。而这些曾经的恶棍、小偷、抢劫犯在加入神弃者同盟之后，却没有任何人因为纯粹的钱财问题而进行犯罪，那只能说明神弃者同盟内部有着比法律更强约束力的规则，以及足以让他们维持生活，乃至于进行犯罪的资金来源。 而基于这个推论，海尔法做出了一个预言：神弃者同盟的高层人士中必定有一位高层，为神弃者同盟提供了日常所需的一切费用。 随着神弃者同盟的再次活跃，更多的成员锒铛入狱，一个名为“赠主”的代号出现在了典狱们的视线里。\n“赠主”会在一些人最困顿的时候捎来信件，并附带他们此刻最迫切想要的东西，大部分时候是金钱，偶尔可能是仇人肢体一类的血淋淋的复仇证明。据他们说，尽管收到“赠主”来信的人可以选择拒绝这份突然出现的慷慨馈赠，但往往它出现得是那么恰到好处，实际上没有人能够拒绝。 就这样，这些原本浪荡的危险分子就成为了神弃者同盟的一员，而当他们因为自身既往的恶习而再次陷入困境的时候，“赠主”来信则会再次出现。如此往复几次，他们便成为了“赠主”以金钱操控的提线木偶。 而他们接受到的任务也基本和此前的犯罪并无二致，前科盗窃犯被命令撬开炼金工厂的铁索、前科爆炸犯被命令在工厂中的月髓引擎旁布设炸弹、前科越狱囚则会出现在治安官面前，将他们的注意力引到其他地方。于是就这样，互不相识的一群人在同一个人的信件的指挥下，完成了一次难以破解的犯罪，这些执行人并不知道自己有没有同伙，不知道自己是不是被主动抛出的诱饵，更不知道行动的真实目的。 这便是“赠主”的行为模式，尽管很明显这样的行动会留下大量的证据，但是他本人并没有刻意掩饰自身的存在。他向下属们寄出的信件在典狱们看来，不啻于是一封封宣战布告。 于是，在“赠主”最为活跃的那几个年头，海伯利亚帝国的所有典狱花费了大量的时间去溯源这个所谓的“赠主”究竟是谁。\n按理来说，这是一件很容易的事情，毕竟“赠主”除了匿名信，还会给予提线木偶们大额的金钱，而大量资金流动同样极其容易被追溯到。 于是典狱们轻易抓到了一位“赠主”，但让他们意外的是，“赠主”只是丹流城中最近做生意暴富的布料商人。他自称对帝国压迫卡戎的制度感到不满，于是起了“赠主”这个化名，开始对帝国进行犯罪行为。 任何明眼人都看得出来，这是简单的脱罪策略。普通的商人是没有办法支撑起一个遍及全国的抵抗组织的，这个被抓的“赠主”不过是障眼法，替罪羊罢了。所以典狱们继续追查，一位、两位……十位，两年过去，抓获的“赠主”足足有十余人之多，但是神弃者同盟对于帝国的反抗却丝毫没有减少。 毫无疑问，在这些“赠主”之上，有一位真正的、足够供养起十几位大商人的真正巨富。\n于是，典狱们想要乘胜追击，继续追查资金往来，找到真正的赠予之主。 一无所获，根本没有典狱们预想中的金钱往来。这十几位商人的行业、出身、年龄、性别、癖好都各不相同，除了都在过去的几年内获得了经营上的成功，都拥有过人的财力以外，没有任何共同点。 这些“赠主”们指挥同盟成员所用的资金全部都是自己经商所得，并且都异口同声坚称自己只是对于帝国的卡戎政策不满而开始自称“赠主”。 熟悉的感觉，正如神弃者同盟中的那些曾经的罪犯不害怕法律，也不愿意违背同盟的守则一样，这些商人也一定是获得了某种利益或受到了威胁，从而做出了相同的举动。\n而典狱们也做出了一个推论，虽然不知道赠予之主到底是以何种方式将金钱给到这些看起来遵纪守法的商人，但他一定有着常人无法企及的识人眼光以及狠辣手段。至于帝国境内到底还有多少商人处于赠予之主的操纵之下，更是无法预估。如果将这些商人比作是在海岸追逐潮流的渔夫的话，那么赠予之主，应当是能够控制潮汐之人。因此，典狱们甚至产生了一丝畏惧，也许这位赠予之主正站在更高的位置，而自己的调查也正在他的掌握之中。\n不过，对于一般人来说，他们只知道神弃者同盟中有一位领导者，名为“赠主”，与华胥的止流女士、艾利西安传颂会的七美德之“慷慨”并称为阿特拉西亚三大巨富。人们谈论着他们的资产后面到底有多少个零，一顿又要吃掉多少只火鸡与烤羊，他们的家中的烛火是不是从来不用吹熄以节省灯油……而走投无路的人也会期待着，自己一梦睡醒，面前能出现一份“赠主”来信。",
@@ -69952,7 +70027,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "目を覚ましなさい、若者よ。人間というものは、やはり地道に歩んでこそだ！世の中に、手間は半分で成果は倍、などという都合のいい話はない。無窮蔵派の達人たちも、皆が皆、長く厳しい修行を積んだからこそ、頂点に至る境地に達したのだ。\n 『龍を御し天を駆る』のような、でたらめだらけで無知な若者を毒する娯楽小説を決して信じてはならん。何も代償を払わずに、天から降って湧いたような幸運で一気に成り上がれるなどと妄想してはならん。\n この金は診察料と思って医者のところへ持ってゆき、崖から飛び降りたせいでどこも悪くしていないか、きちんと診てもらいなさい。これからは真面目にこつこつと修行に励み、二度と妄想に溺れたり、邪な近道にのめり込んだりしてはならん！",
     ContentKR = "정신 차리게, 젊은이. 뭐든 우직하고 성실하게 노력해야 하는 법이라네. 이 세상에 적은 노력으로 큰 성과를 얻을 수 있는 일이 어디 있겠나? 무궁장파의 고수들도 오랫동안 고된 훈련을 거쳐서야 궁극의 경지에 이르렀다네.\n〈용신이 나르샤〉는 헛소리만 적어둔 책이니, 무지한 젊은이들을 해치는 유행 문학 따윈 절대 믿지 말게. 아무런 대가를 치르지 않고, 천운으로 출세할 수 있다는 헛된 꿈은 꾸지도 말고.\n절벽에서 뛰어내린 후유증이 있을지도 모르니 이 돈으로 진료비를 치르고 의사에게 제대로 진단을 받게. 앞으로는 꾸준히 무공을 연마하고, 다시는 삿된 길에 빠지지 말도록!",
     ContentTC = "醒醒吧，年輕人，做人還須腳踏實地！世上哪有什麼事半功倍的好事，無窮藏派諸位高手無一不是經過漫長刻苦的練功，才達到了登峰造極的境界。\n萬萬不可相信《御龍在天》這類鬼話連篇、荼毒無知少年的流行文學，妄想著什麼都不付出便能有天大的好運降臨，讓你一步登天。\n這點錢便拿去當做問診費，讓醫者好好診察一番，莫因跳崖傷了身體。往後務必勤勤懇懇練功，切勿再沉迷幻想，鑽研歪門邪道！",
-    TextMapContent = "醒醒吧，年轻人，做人还须脚踏实地！世上哪有什么事倍功半的好事，无穷藏派诸位高手无一不是经过漫长刻苦的练功，才达到了登峰造极的境界。\n万万不可相信《御龙在天》这类鬼话连篇、荼毒无知少年的流行文学，妄想着什么都不付出便能有天大的好运降临，让你一步登天。\n这点钱便拿去当做问诊费，让医者好好诊察一番，莫因跳崖伤了身体。往后务必勤勤恳恳练功，切勿再沉迷幻想，钻研歪门邪道！",
+    TextMapContent = "醒醒吧，年轻人，做人还须脚踏实地！世上哪有什么事半功倍的好事，无穷藏派诸位高手无一不是经过漫长刻苦的练功，才达到了登峰造极的境界。\n万万不可相信《御龙在天》这类鬼话连篇、荼毒无知少年的流行文学，妄想着什么都不付出便能有天大的好运降临，让你一步登天。\n这点钱便拿去当做问诊费，让医者好好诊察一番，莫因跳崖伤了身体。往后务必勤勤恳恳练功，切勿再沉迷幻想，钻研歪门邪道！",
     TextMapId = "READ_TEXT_2000098"
         },
   READ_TEXT_20602 = {
@@ -70111,11 +70186,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "READ_TEXT_20630"
         },
   READ_TEXT_20631 = {
-    ContentEN = "...\n\n21 September\nI felt like trying my luck today, so I opened five Lucky Eggs. The first four were nothing special: a box of toothpicks, a rag, a packet of Skylily seeds, and some throat lozenges. But the last one actually turned out to be a packet of fine Mistwharf Green Tea!\n Lunocarp said my luck was pretty good... could I really be Lady Luck's favourite after all!?\n Might try a few more when I get the chance.\n\n...\n\n27 September\nOpened ten Lucky Eggs today. Got three sachets, a voucher for osmanthus cakes, two discount coupons that each take seven silver off a better theatre seat (and they don't even stack!), a wooden brush, a hundred grams of dried peafowl droppings — the note says it's medicinal, but it's honestly just disgusting, so I'll probably bury it in the field when I get home — plus a block of ink and a box of matches.\n Darn it... not a single rare item these past few days! If it weren't for how cute Lunocarp is, I really wouldn't bother opening another one.\n\n28 September\nLunocarp talked me into opening more than twenty Lucky Eggs today. She said I'd hit the guarantee and could get a "super rare" one. And what was inside? Two slips of paper!!!\nWhat a rip-off! Why doesn't Bi'an step in and do something about it!?\nI'm done. I'm never opening another Lucky Egg again!\n\nIn a minute I'm throwing these two useless slips straight into the <H>lotus pond</> to feed the fish!",
-    ContentJP = "……\n \n 9月21日\n 今日はふと気が向いて、ラッキーエッグを五つ引いてみた。最初の四つの中身は、爪楊枝一箱、雑巾一枚、吿蒼の花の種一袋、のど飴一箱と、どれもこれも平凡な品ばかり。ところが最後の一個からは、なんと上等の煙津春茶が一包みも出てきたのだ！\n ニシキは「運がいいね」と言っていたけれど、もしかして本当に、私は幸運の持ち主なのだろうか？\n 暇ができたら、また運試しに行ってみよう。\n \n ……\n \n 9月27日\n 今日はラッキーエッグを十個引いた。出てきたのは香袋三つ、桂花菓子引換券一枚、芝居小屋の上座席が七銀貨引きになる割引券二枚（しかも併用不可？？？）、木製ブラシ一本、干し孔雀の糞100グラム（付属の説明書には薬だと書いてあったが……理解に苦しむし、ちょっと気持ち悪いので、結局家の畑に埋めてしまった）、固形墨一丁、マッチ一箱……といった具合。\n くそっ……ここ数日、まったくレア物が当たらない！ニシキがあんなに可愛くなかったら、本当に一個たりとも引きたくないところだ。\n \n 9月28日\n 今日はニシキにそそのかされて、二十個以上もラッキーエッグを引かされてしまった。ニシキ曰く、「これで天井に達したから、「いちばんレア」なラッキーエッグが一つもらえるよ」とのこと——なのに、そのエッグから出てきたのは、紙切れが二枚だけってどういうこと？！\n これは明らかにボッタクリだ！狴犴はどうして取り締まらないんだ！\n もう二度とラッキーエッグなんか引くものか！\n \n あとでこの紙切れ二枚、<H>蓮の池</>に投げ込んで魚のエサにしてやる！！！",
-    ContentKR = "......\n \n9월 21일\n오늘 어쩌다 보니 황금알을 다섯 개나 뽑았다. 이쑤시개 한 갑, 걸레 한 장, 고창 씨앗 한 봉지, 목캔디 한 통... 처음 네 개는 평범하기 그지없는 경품이었지만, 마지막 황금알에서 고급 연진춘 찻잎이 나왔다!\n행운아 루나는 내가 운이 꽤 좋다고 했다. 설마... 내가 말로만 듣던 금손인가?\n다음에 시간 되면 다시 가봐야겠다.\n \n......\n \n9월 27일\n황금알 열 개를 뽑았다. 경품은 향 주머니 세 개, 계화떡 교환 쿠폰 한 장, 극장 상석 7실버 할인 쿠폰 두 장(근데 중복 사용이 안 된다고???), 나무솔 한 개, 말린 공작새 똥 두 냥(설명서에는 약재라고 쓰여 있었지만... 도무지 이해도 되지 않고, 구역질이 나올 것 같아 집에 가서 밭에 묻었다), 검은 먹 하나, 성냥 한 갑...\n젠장... 며칠 동안 희귀 경품을 한 번도 못 뽑았다. 그나마 행운아 루나가 귀여워서 계속 뽑은 거지, 정말 더 뽑고 싶지 않았다.\n \n9월 28일\n행운아 루나가 부추기는 바람에 황금알을 스무 개도 넘게 사버렸다. 행운아 루나는 내가 천장 횟수를 채웠다면서 '가장 희귀한' 황금알을 받을 수 있다고 했다. 그런데... 그 빌어먹을 초희귀 경품이... 꼴랑 종이 쪼가리 두 장이라고?!\n이런 사기가 어딨어! 이건 엄연한 소비자 기만이잖아! 폐안은 뭐하나, 이런 놈 안 잡아가고!\n다시 황금알 사면 내가 성을 간다!\n \n당장 이 종이 쪼가리를 <H>연꽃 호수</>에 물고기밥으로 던져버려야지!",
-    ContentTC = "……\n\n9月21日\n今日一時興起，抽了五枚福運蛋。最初的四個蛋裡裝的是牙籤一盒，抹布一塊，告蒼種子一包，潤喉糖一盒，都平平無奇；但最後一個蛋竟開出了一包上品的煙津春茶！\n錦鯉皎皎說我運氣不錯，莫非我真是個幸運兒？\n有空再去試試手氣。\n\n……\n\n9月27日\n抽了十枚福運蛋，開出香囊三隻，桂花糕兌換票一張，戲園上座購票七銀幣優惠券兩張（還不能疊加使用？？？），木刷一把，風乾孔雀糞二兩（附帶的說明書聲稱這是一味藥材……難以理解，略微噁心，還是回家往田裡埋了罷），炭黑墨一塊，火柴一盒……\n可惡……這幾天都完全抽不出稀有商品啊！要不是看在錦鯉皎皎那麼可愛的份上，我真是一個蛋也不想再抽了。\n\n9月28日\n今日在錦鯉皎皎的慫恿下抽了二十多枚福運蛋，那皎皎說我達到了保底的數量，可以得到一隻「最稀有」的福運蛋——結果那破蛋裡開出來的居然是兩張紙片子？！\n這分明就是黑店！黑店！狴犴怎麼也不管管！\n再也不抽什麼福運蛋了！\n\n等會兒就把這兩個破紙片子扔去<H>荷花池裡</>餵魚！！！",
-    TextMapContent = "……\n\n9月21日\n今日一时兴起，抽了五枚福运蛋。最初的四个蛋里装的是牙签一盒，抹布一块，告苍种子一包，润喉糖一盒，都平平无奇；但最后一个蛋竟开出了一包上品的烟津春茶！\n锦鲤皎皎说我运气不错，莫非我真是个幸运儿？\n有空再去试试手气。\n\n……\n\n9月27日\n抽了十枚福运蛋，开出香囊三只，桂花糕兑换票一张，戏园上座购票七银币优惠券两张（还不能叠加使用？？？），木刷一把，风干孔雀粪二两（附带的说明书声称这是一味药材……难以理解，略微恶心，还是回家往田里埋了罢），炭黑墨一块，火柴一盒……\n可恶……这几天都完全抽不出稀有商品啊！要不是看在锦鲤皎皎那么可爱的份上，我真是一个蛋也不想再抽了。\n\n9月28日\n今日在锦鲤皎皎的怂恿下抽了二十多枚福运蛋，那皎皎说我达到了保底的数量，可以得到一只“最稀有”的福运蛋——结果那破蛋里开出来的居然是两张纸片子？！\n这分明就是黑店！黑店！狴犴怎么也不管管！\n再也不抽什么福运蛋了！\n\n等会儿就把这两个破纸片子扔去<H>荷花池里</>喂鱼！！！",
+    ContentEN = "...\n\n21 September\nI felt like trying my luck today, so I opened five Lucky Eggs. The first four were nothing special: a box of toothpicks, a rag, a packet of Skylily seeds, and some throat lozenges. But the last one actually turned out to be a packet of fine Mistwharf Green Tea!\nLunocarp said my luck was pretty good... could I really be Lady Luck's favourite after all!?\nMight try a few more when I get the chance.\n\n...\n\n27 September\nOpened ten Lucky Eggs today. Got three sachets, a voucher for osmanthus cakes, two discount coupons that each take seven silver off a better theatre seat (and they don't even stack!), a wooden brush, a hundred grams of dried peafowl droppings — the note says it's medicinal, but it's honestly just disgusting, so I'll probably bury it in the field when I get home — plus a block of ink and a box of matches.\nDarn it... not a single rare item these past few days! If it weren't for how cute Lunocarp is, I really wouldn't bother opening another one.\n\n28 September\nLunocarp talked me into opening more than twenty Lucky Eggs today. She said I'd hit the guarantee and could get a "super rare" one. And what was inside? Two slips of paper, pet food, and some kid stuff!!!\nWhat a rip-off! Why doesn't Bi'an step in and do something about it!?\nI'm done. I'm never opening another Lucky Egg again!\n\nIn a minute I'm throwing the rubbish straight into the <H>lotus pond</> to feed the fish!",
+    ContentJP = "……\n\n9月21日\n今日はふと気が向いて、ラッキーエッグを五つ引いてみた。最初の四つの中身は、爪楊枝一箱、雑巾一枚、吿蒼の花の種一袋、のど飴一箱と、どれもこれも平凡な品ばかり。ところが最後の一個からは、なんと上等の煙津春茶が一包みも出てきたのだ！\nニシキは「運がいいね」と言っていたけれど、もしかして本当に、私は幸運の持ち主なのだろうか？\n暇ができたら、また運試しに行ってみよう。\n\n……\n\n9月27日\n今日はラッキーエッグを十個引いた。出てきたのは香袋三つ、桂花菓子引換券一枚、芝居小屋の上座席が七銀貨引きになる割引券二枚（しかも併用不可？？？）、木製ブラシ一本、干し孔雀の糞100グラム（付属の説明書には薬だと書いてあったが……理解に苦しむし、ちょっと気持ち悪いので、結局家の畑に埋めてしまった）、固形墨一丁、マッチ一箱……といった具合。\nくそっ……ここ数日、まったくレア物が当たらない！ニシキがあんなに可愛くなかったら、本当に一個たりとも引きたくないところだ。\n\n9月28日\n今日はニシキにそそのかされて、二十個以上もラッキーエッグを引かされてしまった。ニシキ曰く、「これで天井に達したから、「いちばんレア」なラッキーエッグが一つもらえるよ」とのこと——なのに、そのエッグから出てきたのは何だ？紙切れの束、ペット用スナック、子供向けのおもちゃ？\nこれは明らかにボッタクリだ！狴犴はどうして取り締まらないんだ！\nもう二度とラッキーエッグなんか引くものか！\n\nあとでこれらのガラクタを、<H>蓮の池</>に投げ込んで魚のエサにしてやる！！！",
+    ContentKR = "......\n\n9월 21일\n오늘 어쩌다 보니 황금알을 다섯 개나 뽑았다. 이쑤시개 한 갑, 걸레 한 장, 고창 씨앗 한 봉지, 목캔디 한 통... 처음 네 개는 평범하기 그지없는 경품이었지만, 마지막 황금알에서 고급 연진춘 찻잎이 나왔다!\n행운아 루나는 내가 운이 꽤 좋다고 했다. 설마... 내가 말로만 듣던 금손인가?\n다음에 시간 되면 다시 가봐야겠다.\n\n......\n\n9월 27일\n황금알 열 개를 뽑았다. 경품은 향 주머니 세 개, 계화떡 교환 쿠폰 한 장, 극장 상석 7실버 할인 쿠폰 두 장(근데 중복 사용이 안 된다고???), 나무솔 한 개, 말린 공작새 똥 두 냥(설명서에는 약재라고 쓰여 있었지만... 도무지 이해도 되지 않고, 구역질이 나올 것 같아 집에 가서 밭에 묻었다), 검은 먹 하나, 성냥 한 갑...\n젠장... 며칠 동안 희귀 경품을 한 번도 못 뽑았다. 그나마 행운아 루나가 귀여워서 계속 뽑은 거지, 정말 더 뽑고 싶지 않았다.\n\n9월 28일\n행운아 루나가 부추기는 바람에 황금알을 스무 개도 넘게 사버렸다. 행운아 루나는 내가 천장 횟수를 채웠다면서 '가장 희귀한' 황금알을 받을 수 있다고 했다. 그런데... 그 빌어먹을 초희귀 경품이... 꼴랑 종이 쪼가리 한 장에, 애완동물 간식, 어린애 장난감이라고?!\n이런 사기가 어딨어! 이건 엄연한 소비자 기만이잖아! 폐안은 뭐하나, 이런 놈 안 잡아가고!\n다시 황금알 사면 내가 성을 간다!\n\n당장 이 쓰레기를 <H>연꽃 호수</>에 물고기밥으로 던져버려야지!",
+    ContentTC = "……\n\n9月21日\n今日一時興起，抽了五枚福運蛋。最初的四個蛋裡裝的是牙籤一盒，抹布一塊，告蒼種子一包，潤喉糖一盒，都平平無奇；但最後一個蛋竟開出了一包上品的煙津春茶！\n錦鯉皎皎說我運氣不錯，莫非我真是個幸運兒？\n有空再去試試手氣。\n\n……\n\n9月27日\n抽了十枚福運蛋，開出香囊三隻，桂花糕兌換票一張，戲園上座購票七銀幣優惠券兩張（還不能疊加使用？？？），木刷一把，風乾孔雀糞二兩（附帶的說明書聲稱這是一味藥材……難以理解，略微噁心，還是回家往田裡埋了罷），炭黑墨一塊，火柴一盒……\n可惡……這幾天都完全抽不出稀有商品啊！要不是看在錦鯉皎皎那麼可愛的份上，我真是一個蛋也不想再抽了。\n\n9月28日\n今日在錦鯉皎皎的慫恿下抽了二十多枚福運蛋，那皎皎說我達到了保底的數量，可以得到一隻「最稀有」的福運蛋——結果那破蛋裡開出來的都是些啥啊？！一疊破紙片子、寵物零食、小孩玩具？\n這分明就是黑店！黑店！狴犴怎麼也不管管！\n再也不抽什麼福運蛋了！\n\n等會兒就把這些破爛扔去<H>荷花池裡</>餵魚！！！",
+    TextMapContent = "……\n\n9月21日\n今日一时兴起，抽了五枚福运蛋。最初的四个蛋里装的是牙签一盒，抹布一块，告苍种子一包，润喉糖一盒，都平平无奇；但最后一个蛋竟开出了一包上品的烟津春茶！\n锦鲤皎皎说我运气不错，莫非我真是个幸运儿？\n有空再去试试手气。\n\n……\n\n9月27日\n抽了十枚福运蛋，开出香囊三只，桂花糕兑换票一张，戏园上座购票七银币优惠券两张（还不能叠加使用？？？），木刷一把，风干孔雀粪二两（附带的说明书声称这是一味药材……难以理解，略微恶心，还是回家往田里埋了罢），炭黑墨一块，火柴一盒……\n可恶……这几天都完全抽不出稀有商品啊！要不是看在锦鲤皎皎那么可爱的份上，我真是一个蛋也不想再抽了。\n\n9月28日\n今日在锦鲤皎皎的怂恿下抽了二十多枚福运蛋，那皎皎说我达到了保底的数量，可以得到一只“最稀有”的福运蛋——结果那破蛋里开出来的都是些啥啊？！一叠破纸片子、宠物零食、小孩玩具？\n这分明就是黑店！黑店！狴犴怎么也不管管！\n再也不抽什么福运蛋了！\n\n等会儿就把这些破烂扔去<H>荷花池里</>喂鱼！！！",
     TextMapId = "READ_TEXT_20631"
         },
   READ_TEXT_20632 = {
@@ -72686,7 +72761,7 @@ return ReadOnly("TextMap_I18n", {
         },
   RESOURCE_DESC_217 = {
     ContentEN = "Unlocks the Apex Rankings challenge in the "Phoxhunter Summit" event",
-    ContentJP = "イベント『月狩り人の段階』の「頂上ランキング」の開放に使用。",
+    ContentJP = "イベント『  月狩り人の階段』の「頂上ランキング」の開放に使用。",
     ContentKR = "'정상을 향해' 이벤트에서 정상 랭킹 도전 오픈에 사용된다.",
     ContentTC = "用於在「狩月人之階」活動中開啟巔峰排名挑戰",
     TextMapContent = "用于在“狩月人之阶”活动中开启巅峰排名挑战",
@@ -72694,7 +72769,7 @@ return ReadOnly("TextMap_I18n", {
         },
   RESOURCE_DESC_218 = {
     ContentEN = "Used to redeem items in the Apex Shop of the "Phoxhunter Summit" event",
-    ContentJP = "イベント『月狩り人の段階』のランキングショップで各種アイテムの交換に使用。",
+    ContentJP = "イベント『  月狩り人の階段』のランキングショップで各種アイテムの交換に使用。",
     ContentKR = "'정상을 향해' 이벤트의 정상 랭킹 상점에서 상품 교환에 사용된다.",
     ContentTC = "用於在「狩月人之階」活動的排名商店中兌換商品",
     TextMapContent = "用于在“狩月人之阶”活动的排名商店中兑换商品",
@@ -73250,10 +73325,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RESOURCE_DESC_4010013"
         },
   RESOURCE_DESC_4010014 = {
-    ContentEN = "The most common and vital flower of Huaxu. It coexists with the Heaventree, yet grows only in Huaxu. When in bloom, its exotic fragrance fills the air. Ground and blended with Heaventree dust through a special process, it can be refined into an incense that enhances Aetherdust Arts. It is these delicate, easily-broken plants that uphold the entire, vast framework of The Celestial Law.",
-    ContentJP = "華胥でもっともありふれ、同時にもっとも重要な花。天上樹と共に生きながら、華胥以外では決して見られない。花開けば香りがあたりに満ち、その花を天上樹の粉末と共にすり潰し、特別な手法で混ぜ合わせると、晶塵の術を高める香料となる。一摘みで折れてしまうほどか弱い草花こそが、天人相関という巨大な制度を支えているのだ。",
-    ContentKR = "화서에서 가장 흔하면서도 막중한 역할을 하는 꽃. 천국의 나무와 공생 관계에 있으며, 화서 지역에서만 자란다. 꽃이 피어 짙은 향을 내뿜을 때, 곱게 갈아 특수한 방법으로 천국의 나무 가루와 섞으면, 분향술의 효율을 올려 주는 향료를 만들 수 있다. 손짓 한 번에 꺾일 듯 연약해 보이는 식물이지만, 거대한 천인율법을 지탱하는 기반이라 해도 과언이 아니다.",
-    ContentTC = "華胥最常見，也是最重要的花卉。與天之樹伴生，卻僅生長於華胥。開放時異香撲鼻，將其研磨與天之樹齏粉以特殊手法摻雜，就能煉製出提升晶塵法的香料。正是這些柔弱的，一掐就斷的植物，撐起了整個龐大的天人律法。",
+    ContentEN = "The most common and vital flower of Huaxu. In bloom, its exotic fragrance fills the air — a primary source for Huaxu's incense. It is these delicate, easily-broken plants that became the very force sustaining the Nine Chapters of Dafeng.",
+    ContentJP = "華胥でもっともありふれ、同時にもっとも重要な花。花開けば香りがあたりに満ち、香料の素材として華胥の人々によく使われている。一摘みで折れてしまうほどか弱い草花こそが、大風九章という巨大な法度を支えているのだ。",
+    ContentKR = "화서에서 가장 흔하면서도 막중한 역할을 하는 꽃. 꽃이 피면 짙은 향을 내뿜으며, 화서에서 향을 만드는 주 원료로 쓰인다. 손짓 한 번에 꺾일 듯 연약해 보이는 식물이지만, 거대한 천인율법을 지탱하는 기반이라 해도 과언이 아니다.",
+    ContentTC = "華胥最常見，也是最重要的花卉。開放時異香撲鼻，是華胥制香的主要來源之一。正是這些柔弱的，一掐就斷的植物，成為了維持大風九章律法運轉的力量。",
     TextMapContent = "华胥最常见，也是最重要的花卉。与天之树伴生，却仅生长于华胥。开放时异香扑鼻，将其研磨与天之树齑粉以特殊手法掺杂，就能炼制出提升晶尘法的香料。正是这些柔弱的，一掐就断的植物，撑起了整个庞大的天人律法。",
     TextMapId = "RESOURCE_DESC_4010014"
         },
@@ -73269,7 +73344,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Broken weapons, common on Crowsong Hollow, have drifted with the rivers to Haze Market. They are silent witnesses to the grim history between Xuanheng Sect and Jishu Sect. If these relics could speak, and tell truthfully all they have seen and heard, perhaps Huaxu would be a different place today.",
     ContentJP = "鴉の孤原のあちこちに転がる壊れた武器の数々。そのいくつかは水に流され、微茫市へと辿り着いた。懸衡派と機枢派が歩んだ暗い歴史を見届けてきた証人でもあるそれらが、もし口を持ち、見聞きしたことを正直に語れたなら――今日の華胥は、きっとまったく違う姿になっていただろう。",
     ContentKR = "청아원 어디에서나 볼 수 있는 병기의 파편들. 물살에 떠밀려 어스름 시장에 흘러 들어왔다. 현형파와 기추파의 암울한 과거를 지켜본 이 병기들이, 침묵을 깨고 진실을 증언할 수 있었다면, 화서는 지금과는 많이 다른 곳이 되었을 것이다.",
-    ContentTC = "聽鴉原上隨處可見的殘破兵器，有一些隨水漂流到了微茫市。他們是懸衡派與機樞派黯沉過往的見證者，如果它們能口吐人言，誠實地說出自己的所見所聞，或許今天的華胥將大不相同。",
+    ContentTC = "聽鴉原上隨處可見的殘破兵器，有一些隨水漂流到了微茫市。它們是懸衡派與機樞派黯沉過往的見證者，如果它們能口吐人言，誠實地說出自己的所見所聞，或許今天的華胥將大不相同。",
     TextMapContent = "听鸦原上随处可见的残破兵器，有一些随水漂流到了微茫市。他们是悬衡派与机枢派黯沉过往的见证者，如果它们能口吐人言，诚实地说出自己的所见所闻，或许今天的华胥将大不相同。",
     TextMapId = "RESOURCE_DESC_4010016"
         },
@@ -73661,6 +73736,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "在葉縫灑落的陽光中暫歇。",
     TextMapContent = "在叶缝洒落的阳光中暂歇。",
     TextMapId = "RESOURCE_DESC_41035"
+        },
+  RESOURCE_DESC_41036 = {
+    ContentEN = "When did this glorious moon begin to be? Cup in hand, I asked of the azure sky.",
+    ContentJP = "明月よ いくときよりか有る\n酒をとりて 青天に問う",
+    ContentKR = "달은 언제부터 떠 있었나, 술잔을 받쳐 들고 하늘에 묻노라",
+    ContentTC = "明月幾時有，把酒問青天。",
+    TextMapContent = "明月几时有，把酒问青天。",
+    TextMapId = "RESOURCE_DESC_41036"
         },
   RESOURCE_DESC_42002 = {
     ContentEN = "An intricately designed square construct built using techniques long lost to the Jishu Sect. Its power core generates a powerful suction capable of clearing the Gritblight caused by the Scourge of Zhuyin.",
@@ -74164,7 +74247,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "A crystal harvested from a Heaventree — one of the most widely used minerals across Atlasia.\nIt emits a gentle glow, reminiscent of a full moon's radiance.",
     ContentJP = "天上樹から採取された結晶で、アトラシア大陸では広く利用されている鉱物。\n満月のようなやわらかな輝きを放つことから、この名がついた。",
     ContentKR = "천국의 나무에서 딴 결정체, 아트라시아 대륙에서 광범위하게 사용되는 광물이다.\n보름달처럼 부드러운 빛을 내어 이러한 이름이 붙었다.",
-    ContentTC = "自天之樹採擷的晶體，是阿特拉西亞大陸用途廣泛的礦物。\n 因閃耀著滿月般的柔和光輝而得名。",
+    ContentTC = "自天之樹採擷的晶體，是阿特拉西亞大陸用途廣泛的礦物。\n因閃耀著滿月般的柔和光輝而得名。",
     TextMapContent = "自天之树采撷的晶体，是阿特拉西亚大陆用途广泛的矿物。\n因闪耀着满月般的柔和光辉而得名。",
     TextMapId = "RESOURCE_DESC_99"
         },
@@ -74616,7 +74699,7 @@ return ReadOnly("TextMap_I18n", {
   RESOURCE_FUNCTION_EXPLORE = {
     ContentEN = "Exploration Item",
     ContentJP = "探索アイテム",
-    ContentKR = "행운아 루나에게서 아이템으로 교환할 수 있다.",
+    ContentKR = "탐색 아이템",
     ContentTC = "探索道具",
     TextMapContent = "探索道具",
     TextMapId = "RESOURCE_FUNCTION_EXPLORE"
@@ -79359,7 +79442,7 @@ return ReadOnly("TextMap_I18n", {
   RESOURCE_NAME_41012 = {
     ContentEN = "Verses on Strings: Azure",
     ContentJP = "奏の詩篇-インディゴ",
-    ContentKR = "현 위의 시편·다크 블루",
+    ContentKR = "현 위의 시편·\n다크 블루",
     ContentTC = "弦上詩篇·黛藍",
     TextMapContent = "弦上诗篇·黛蓝",
     TextMapId = "RESOURCE_NAME_41012"
@@ -79440,11 +79523,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RESOURCE_NAME_41021"
         },
   RESOURCE_NAME_41022 = {
-    ContentEN = "Shore Leisure: Dark Blue",
-    ContentJP = "海辺の戯れ・インディゴ",
-    ContentKR = "여유로운 바닷가·다크 블루",
-    ContentTC = "悠遊水岸·黛藍",
-    TextMapContent = "悠游水岸·黛蓝",
+    ContentEN = "Shore Leisure: Violet",
+    ContentJP = "海辺の戯れ・レッドパープル",
+    ContentKR = "여유로운 바닷가·보라",
+    ContentTC = "悠遊水岸·絳紫",
+    TextMapContent = "悠游水岸·绛紫",
     TextMapId = "RESOURCE_NAME_41022"
         },
   RESOURCE_NAME_41023 = {
@@ -79526,6 +79609,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "林梢日光·鎏金",
     TextMapContent = "林梢日光·鎏金",
     TextMapId = "RESOURCE_NAME_41035"
+        },
+  RESOURCE_NAME_41036 = {
+    ContentEN = "The Connoisseur",
+    ContentJP = "数寄者",
+    ContentKR = "고상한 인물",
+    ContentTC = "高雅人士",
+    TextMapContent = "高雅人士",
+    TextMapId = "RESOURCE_NAME_41036"
         },
   RESOURCE_NAME_42001 = {
     ContentEN = "Mechanical Nexus: Evilbane",
@@ -81379,7 +81470,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = ""Under the argent moon's glow, we kneel to light the sacred candles,\nHailing the Weaver of Fate's thread.\nMay the sacred flame never be extinguished,\nAs its radiance endures eternal."\n\n— The Elysian Church Prayer",
     ContentFR = "« Sous l’éclat de la lune d’argent, nous nous agenouillons pour allumer les bougies sacrées,\nrendant hommage à la Tisseuse des fils du destin.\nPuisse la flamme sacrée ne jamais s’éteindre,\net briller aussi éternellement que Sa lumière. »\n\n— Liturgie de l’Église Élyséenne",
     ContentJP = "「白銀の月光のもと、我らひざまずき、聖なる燭をともす。\n運命の糸を織り給う御方をたたえん。\n聖燭の火よ、消えることなかれ。\nその輝きは、とこしえに。」\n\n――エリュシオン礼賛会の祈言",
-    ContentKR = ""우리는 은월의 빛 아래를 기어가 성스러운 촛불을 밝히고,\n그 운명의 실을 엮을 이를 기다립니다.\n성스러운 촛불의 빛이여, 꺼지지 마소서.\n그분의 광휘가 영원히 밝게 빛나듯이."\n\n—— 엘리시안 교회의 축도사",
+    ContentKR = ""우리는 은월의 빛 아래를 기어가 성스러운 촛불을 밝히고,\n그 운명의 실을 엮을 이를 기다립니다.\n성스러운 촛불의 빛이여, 꺼지지 마소서.\n그분의 광휘가 영원히 밝게 빛나듯이."\n\n—— 엘리시안 교회의 기도문",
     ContentTC = "「我等匍匐於銀月的光輝下點亮聖燭，\n致候那命運絲線的編織者。\n願聖燭之火不滅，\n如祂的光輝長明。」\n\n——艾利西安傳頌會祝禱詞",
     TextMapContent = "“我等匍匐于银月的光辉下点亮圣烛，\n致候那命运丝线的编织者。\n愿圣烛之火不灭，\n如祂的光辉长明。”\n\n——艾利西安传颂会祝祷词",
     TextMapId = "RESOURCE_TEXT_20021"
@@ -82031,9 +82122,9 @@ return ReadOnly("TextMap_I18n", {
         },
   RESOURCE_TEXT_4010016 = {
     ContentEN = ""Sometimes the truth of history is nothing but an impenetrable fog. To this day, there is no account of the upheaval that decided Huaxu's fate that satisfies everyone. Some in Huaxu believe Heaven had its own design — and according to that design, the Xuanheng Sect succeeded in carrying out a series of actions against the Jishu Sect, ultimately banishing Zhuyin and emerging as the final victor of the turmoil. Since then, the Argent Loong Taihao alone has served as the 'voice of Heaven,' ruling Huaxu for a thousand years."\n\n— Tachitus, Elysium historian, "Chronicles"",
-    ContentJP = "「歴史の真実とは、ときに晴れることのない霧の塊のようなものだ。華胥の命運を決したこの一件についても、いまだにすべての人を納得させる説明は存在しない。一部の華胥の民は、すべては天の采配だと信じている。その采配のもと、懸衡派は機枢派に対して一連の行動を成功させ、最終的に燭陰を追放し、この動乱の勝者となった。こうして白龍様・太皓は、ただ一人「天」の代弁者となり、千年にわたって華胥を治めることになったのだ。」\n \n ——エリュシオンの歴史学者・タキトゥス『年代記』",
-    ContentKR = ""역사의 진실은 종종 짙은 안개 속에 숨어 있다. 오늘날까지도, 화서의 운명을 결정한 그 사건에 대한 정설은 확립되지 않았다. 그러나 일부 화서인들은 그 사건이 하늘의 뜻이었고, 현형파는 그 뜻에 따라 기추파를 향해 일련의 행동을 취했으며, 결국에는 촉룡을 몰아내고 최종 승리자가 되었다고 믿는다. 그 사건을 계기로, 백룡신군 태호는 스스로 '하늘'의 대리인이 되어, 천 년이 넘는 세월 동안 화서를 통치해 왔다는 것이다."\n \n—— 엘리시안 역사학자 타키투스, 〈연대기〉",
-    ContentTC = "「歷史的真相有時就是一團散不去的迷霧。這場決定了華胥命運的變故至今沒有一個能讓所有人信服的說法。有些華胥人相信上天自有其安排，那麼在它的安排下，懸衡派對機樞派成功地採取了一系列行動，最終放逐燭陰，成為了這場動亂的最終勝利者，白龍神太皓從此獨自成為了「上天」的代言人，並治理華胥長達千年之久。」\n\n——艾利西安歷史學家 塔奇圖斯，《編年史》",
+    ContentJP = "「歴史の真実とは、ときに晴れることのない霧の塊のようなものだ。華胥の命運を決したこの一件についても、いまだにすべての人を納得させる説明は存在しない。一部の華胥の民は、すべては天の采配だと信じている。その采配のもと、懸衡派は機枢派に対して一連の行動を成功させ、最終的に燭陰を追放し、この動乱の勝者となった。こうして白龍様・太皓は、ただ一人「天」の代弁者となり、千年にわたって華胥を治めることになったのだ。」\n\n——エリュシオンの歴史学者・タキトゥス『年代記』",
+    ContentKR = ""역사의 진실은 종종 짙은 안개 속에 숨어 있다. 오늘날까지도, 화서의 운명을 결정한 그 사건에 대한 정설은 확립되지 않았다. 그러나 일부 화서인들은 그 사건이 하늘의 뜻이었고, 현형파는 그 뜻에 따라 기추파를 향해 일련의 행동을 취했으며, 결국에는 촉룡을 몰아내고 최종 승리자가 되었다고 믿는다. 그 사건을 계기로, 백룡신군 태호는 스스로 '하늘'의 대리인이 되어, 천 년이 넘는 세월 동안 화서를 통치해 왔다는 것이다."\n\n—— 엘리시안 역사학자 타키투스, 〈연대기〉",
+    ContentTC = "「歷史的真相有時就是一團散不去的迷霧。這場決定了華胥命運的變故至今沒有一個能讓所有人信服的說法。有些華胥人相信上天自有其安排，那麼在它的安排下，懸衡派對機樞派成功地採取了一系列行動，最終放逐燭陰，成為了這場動亂的最終勝利者，白龍神太皓從此獨自成為了「上天」的代言人。」\n\n——艾利西安歷史學家 塔奇圖斯，《編年史》",
     TextMapContent = "“历史的真相有时就是一团散不去的迷雾。这场决定了华胥命运的变故至今没有一个能让所有人信服的说法。有些华胥人相信上天自有其安排，那么在它的安排下，悬衡派对机枢派成功地采取了一系列行动，最终放逐烛阴，成为了这场动乱的最终胜利者，白龙神太皓从此独自成为了“上天”的代言人，并治理华胥长达千年之久。”\n\n——艾利西安历史学家 塔奇图斯，《编年史》",
     TextMapId = "RESOURCE_TEXT_4010016"
         },
@@ -82499,9 +82590,9 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RESOURCE_TEXT_5026040"
         },
   RESOURCE_TEXT_5026050 = {
-    ContentEN = ""In the Northern Ocean dwells a fish named Kun..."\n \n"Teacher... is this Kun the same as the Azurewave Kun in the sea?"\n \n"No. The name is only borrowed from the classic; the Kun it speaks of isn't real."\n \n"But the Azurewave Kun is also a Kun, isn't it? Why would you say it's not real?"\n \n— The opening to the philosophical debate known as The Paradox of the Non-Kun Kun",
-    ContentJP = "『極北の海に魚あり、その名をという……』\n \n 『じゃあ先生、このクインって、海に生息しているオキナミクインのことなんですか？』\n \n 『違うさ。本の名前を借りているだけで、クインなんて実在しないのだよ。』\n \n 『でもオキナミクインだってクインなのに、どうして“いない”なんて言うんですか。』\n \n ——いわゆる「オキナミクインはクインにあらず」と呼ばれる哲学討論の書き出し",
-    ContentKR = ""북쪽 바다엔 곤이라는 이름의 물고기가 있다고 하니..."\n \n"선생님, 그러니까 그 곤이 바다에 사는 창랑곤인 거죠?"\n \n"아니다. 그저 책에 나온 이름은 빌려 온 것일 뿐, 곤이라는 생물은 실존하지 않아."\n \n"근데 창랑곤도 곤이잖아요. 왜 실존하지 않는다는 거죠?"\n \n—— "창랑곤은 곤이 아니다"라는 철학적 논쟁의 시작",
+    ContentEN = ""In the Northern Ocean dwells a fish named Kun..."\n\n"Teacher... is this Kun the same as the Azurewave Kun in the sea?"\n\n"No. The name is only borrowed from the classic; the Kun it speaks of isn't real."\n\n"But the Azurewave Kun is also a Kun, isn't it? Why would you say it's not real?"\n\n— The opening to the philosophical debate known as The Paradox of the Non-Kun Kun",
+    ContentJP = "『極北の海に魚あり、その名をクインという……』\n\n『じゃあ先生、このクインって、海に生息しているオキナミクインのことなんですか？』\n\n『違うさ。本の名前を借りているだけで、クインなんて実在しないのだよ。』\n\n『でもオキナミクインだってクインなのに、どうして“いない”なんて言うんですか。』\n\n——いわゆる「オキナミクインはクインにあらず」と呼ばれる哲学討論の書き出し",
+    ContentKR = ""북쪽 바다엔 곤이라는 이름의 물고기가 있다고 하니..."\n\n"선생님, 그러니까 그 곤이 바다에 사는 창랑곤인 거죠?"\n\n"아니다. 그저 책에 나온 이름은 빌려 온 것일 뿐, 곤이라는 생물은 실존하지 않아."\n\n"근데 창랑곤도 곤이잖아요. 왜 실존하지 않는다는 거죠?"\n\n—— "창랑곤은 곤이 아니다"라는 철학적 논쟁의 시작",
     ContentTC = "「北冥有魚，其名為鯤……」\n\n「所以說老師，這個鯤就是海里的滄浪鯤嗎？」\n\n「非也，這只是借用了書上的名字，鯤並不存在。」\n\n「可明明滄浪鯤也是鯤啊，為什麼說不存在。」\n\n——被稱作「滄浪鯤非鯤」的哲學辯論的開頭",
     TextMapContent = "“北冥有鱼，其名为鲲……”\n\n“所以说老师，这个鲲就是海里的沧浪鲲吗？”\n\n“非也，这只是借用了书上的名字，鲲并不存在。”\n\n“可明明沧浪鲲也是鲲啊，为什么说不存在。”\n\n——被称作“沧浪鲲非鲲”的哲学辩论的开头",
     TextMapId = "RESOURCE_TEXT_5026050"
@@ -82526,14 +82617,14 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = ""It isn't the season for Roughskin Sculpin, so obtaining this one wasn't easy — you've done well. Our guest today has come all the way from Hyperborea and will be of great help to me in the days ahead. Naturally, proper courtesies must be observed."\n \n— Zhiliu, Proprietress of EverSpring",
     ContentJP = "今はヤマノカミの季節じゃないのに、よく見つけてくれたわね。今日の客人はヒュペリアから来た大切な方で、いずれ私にとって大きな助けとなる方だわ。だからこそ、礼を尽くすのは当然のことよ。\n \n ——百年春の当主・シリュウ",
     ContentKR = ""지금은 꺽정이가 나올 철이 아닌데, 구하느라 애 좀 썼어. 넌 휘페르보레아 제국에서 온 귀한 손님이자, 앞으로 내게 큰 도움이 될 사람인걸. 그러니까, 이 정도쯤은 별거 아니야."\n \n—— 백년춘 대방, 지류 ",
-    ContentTC = "「現在不是四鰓鱸魚上市的季節，難為你找來這一條。今天的客人從海伯利亞遠道而來，在未來這位貴客會幫我一個大忙。所以，這樣的禮數也確實少不得。」\n\n——百年春掌柜 止流",
+    ContentTC = "「現在不是四鰓鱸魚上市的季節，難為你找來這一條。今天的客人從海伯利亞遠道而來，在未來這位貴客會幫我一個大忙。所以，這樣的禮數也確實少不得。」\n\n——百年春掌櫃 止流",
     TextMapContent = "“现在不是四鳃鲈鱼上市的季节，难为你找来这一条。今天的客人从海伯利亚远道而来，在未来这位贵客会帮我一个大忙。所以，这样的礼数也确实少不得。”\n\n——百年春掌柜 止流",
     TextMapId = "RESOURCE_TEXT_5027030"
         },
   RESOURCE_TEXT_5027040 = {
-    ContentEN = ""Legend tells that Yang hunted across Huaxu and brought down twenty-one dread beasts. One was a giant bird in iridescent plumage, circling ever high above and impossible to strike. So Yang commanded the smiths to forge the Gale-Bolt and gave his trusted retainer Shan a great bow. Shan loosed nine arrows, each finding its mark. When the bird fell, its feathers drifted down — those that touched the earth became phoenix flowers, and those that fell upon water turned into the bright Phoenix Cichlid."\n \n — Qiu Ci, folklorist from Huaxu, Tales of the Grain",
-    ContentJP = "「かつてヤンは華胥(カショ)全土で狩りを行い、二十一の凶獣を討って世を平らげた。その中に、七色の羽を持つ巨大な鳥がいた。常に天空をさまよい、捕らえることすら難しかったため、ヤンは職人に命じて『嵐を貫く鏃（やじり）』という巨大な矢を作らせ、家臣のモリに大弓を授けた。モリは九度放ち、九度すべて命中。巨鳥は墜ち、落ちた彩りの羽は、地に落ちては鳳凰花に、水に落ちては鮮やかな鳳凰魚（ラミレジィ）となった。」\n \n ——華胥の民俗学者 秋辞『稗説了』",
-    ContentKR = ""전설에 따르면, 양 님께서 화서 땅의 스물한 마리의 흉수를 토벌하실 때, 그중 일곱 빛깔의 날개를 가진 거대한 새가 하늘을 맴돌며 훼방을 놓았다고 한다. 이에 양 님께서는 대장장이에게 거대한 화살 폭풍촉을 만들게 하고, 자신의 신하 섬에게 거대한 활을 하사하여 그 새를 쏘게 하였다. 아홉 발의 화살이 모두 명중하자, 오색찬란한 깃털을 흩날리며 추락한 새는 숨이 끊어졌다. 이때 땅에 떨어진 깃털들은 봉황화가 되었으며, 물에 떨어진 깃털들은 화려한 봉황어가 되었다고 한다."\n \n—— 화서 민속학자 추사, 〈잡설록〉",
+    ContentEN = ""Legend tells that Yang hunted across Huaxu and brought down twenty-one dread beasts. One was a giant bird in iridescent plumage, circling ever high above and impossible to strike. So Yang commanded the smiths to forge the Gale-Bolt and gave his trusted retainer Shan a great bow. Shan loosed nine arrows, each finding its mark. When the bird fell, its feathers drifted down — those that touched the earth became phoenix flowers, and those that fell upon water turned into the bright Phoenix Cichlid."\n\n— Qiu Ci, folklorist from Huaxu, Tales of the Grain",
+    ContentJP = "「かつてヤンは華胥(カショ)全土で狩りを行い、二十一の凶獣を討って世を平らげた。その中に、七色の羽を持つ巨大な鳥がいた。常に天空をさまよい、捕らえることすら難しかったため、ヤンは職人に命じて『嵐を貫く鏃（やじり）』という巨大な矢を作らせ、家臣のモリに大弓を授けた。モリは九度放ち、九度すべて命中。巨鳥は墜ち、落ちた彩りの羽は、地に落ちては鳳凰花に、水に落ちては鮮やかな鳳凰魚（ラミレジィ）となった。」\n\n——華胥民間学者 秋辞『稗は言ふ』",
+    ContentKR = ""전설에 따르면, 양 님께서 화서 땅의 스물한 마리의 흉수를 토벌하실 때, 그중 일곱 빛깔의 날개를 가진 거대한 새가 하늘을 맴돌며 훼방을 놓았다고 한다. 이에 양 님께서는 대장장이에게 거대한 화살 폭풍촉을 만들게 하고, 자신의 신하 섬에게 거대한 활을 하사하여 그 새를 쏘게 하였다. 아홉 발의 화살이 모두 명중하자, 오색찬란한 깃털을 흩날리며 추락한 새는 숨이 끊어졌다. 이때 땅에 떨어진 깃털들은 봉황화가 되었으며, 물에 떨어진 깃털들은 화려한 봉황어가 되었다고 한다."\n\n—— 화서 민속학자 추사, 〈잡설록〉",
     ContentTC = "「传说中，飏行狩于华胥境内，诛杀了二十一凶兽使得天下太平。其中有一凶兽，是只七彩羽翼的巨鸟，总是盘桓天际，难以擒获，于是飏命匠人造巨型箭矢飓风镝，又赐座下臣僚铦以巨弓，铦连射九箭，箭箭命中。巨鸟身死，全身彩羽凋零飘下，落在地上的变成了凤凰花，落在水里的则成了鲜艳夺目的凤凰鱼。」\n\n——华胥民宿学家 秋辞，《稗说了》",
     TextMapContent = "“传说中，飏行狩于华胥境内，诛杀了二十一凶兽使得天下太平。其中有一凶兽，是只七彩羽翼的巨鸟，总是盘桓天际，难以擒获，于是飏命匠人造巨型箭矢飓风镝，又赐座下臣僚铦以巨弓，铦连射九箭，箭箭命中。巨鸟身死，全身彩羽凋零飘下，落在地上的变成了凤凰花，落在水里的则成了鲜艳夺目的凤凰鱼。”\n\n——华胥民俗学家 秋辞，《稗说了》",
     TextMapId = "RESOURCE_TEXT_5027040"
@@ -82960,7 +83051,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLBlessingGroup_Desc_2"
         },
   RLBlessingGroup_Desc_201 = {
-    ContentEN = "Each Lampwick in this set additionally grants +<Highlight>15%</> CRIT Chance and +<Highlight>15%</>> CRIT Damage for ranged weapons.\nIncreases Auto-Pickup Range. Grants Hitstun immunity for <Highlight>3</>s after picking up loot.",
+    ContentEN = "Each Lampwick in this set additionally grants +<Highlight>15%</> CRIT Chance and +<Highlight>15%</> CRIT Damage for ranged weapons.\nIncreases Auto-Pickup Range. Grants Hitstun immunity for <Highlight>3</>s after picking up loot.",
     ContentFR = "Chaque [Lucimèche] de cet ensemble confère +<Highlight>15 %</> de Taux CRIT et +<Highlight>15 %</> de DGT CRIT pour les armes à distance.\nAugmente la Portée ramassage auto et confère l’immunité à l’interruption pendant <Highlight>3</> s après avoir ramassé un objet.",
     ContentJP = "本セットのキャンドルの芯1本ごとに、遠隔武器のクリティカル率+<Highlight>15%</>、遠隔武器のクリティカルダメージ+<Highlight>15%</>。\n アイテム回収範囲がアップし、回収後<Highlight>3</>秒間は被ダメージ時にのけ反らない。",
     ContentKR = "해당 세트의 심지 1개마다 추가로 <Highlight>15%</>의 원거리 무기 크리티컬 확률, <Highlight>15%</>의 원거리 무기 크리티컬 대미지를 제공한다.\n습득 범위가 상승한다. 습득할 때마다 <Highlight>3</>초 동안, 대미지를 받아도 경직되지 않는다.",
@@ -83130,8 +83221,8 @@ return ReadOnly("TextMap_I18n", {
   RLBlessingGroup_Desc_6 = {
     ContentEN = "Seeking Missile",
     ContentJP = "生体誘導ミサイル",
-    ContentKR = "공격형 창생물",
-    ContentTC = "攻擊型創生物",
+    ContentKR = "탐지 미사일",
+    ContentTC = "索敵飛彈",
     TextMapContent = "索敌飞弹",
     TextMapId = "RLBlessingGroup_Desc_6"
         },
@@ -83445,10 +83536,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLBlessing_Desc_203"
         },
   RLBlessing_Desc_204 = {
-    ContentEN = "Picking up dropped items gains <Highlight>$1</> Ultra Shields. This effect can only be triggered once every <Highlight>5</>s.",
-    ContentJP = "ドロップアイテムを拾うと、過負荷シールドを<Highlight>$1</>獲得する。この効果は<Highlight>5</>秒ごとに最大1回発動可能。",
-    ContentKR = "드롭 아이템 습득 시, <Highlight>$1</> 오버로드 실드를 획득한다. 효과는 <Highlight>5</>초마다 최대 1회 발동한다.",
-    ContentTC = "成功拾取掉落物時，獲得<Highlight>$1</>超限護盾，效果每<Highlight>5</>秒最多觸發1次。",
+    ContentEN = "Picking up dropped items gains <Highlight>$1</> Ultra Shields. This effect can only be triggered once every <Highlight>2</>s.",
+    ContentJP = "ドロップアイテムを拾うと、過負荷シールドを<Highlight>$1</>獲得する。この効果は<Highlight>$2</>秒ごとに最大1回発動可能。",
+    ContentKR = "드롭 아이템 습득 시, <Highlight>$1</> 오버로드 실드를 획득한다. 효과는 <Highlight>$2</>초마다 최대 1회 발동한다.",
+    ContentTC = "成功拾取掉落物時，獲得<Highlight>$1</>超限護盾，效果每<Highlight>$2</>秒最多觸發1次。",
     TextMapContent = "成功拾取掉落物时，获得<Highlight>$1</>超限护盾，效果每<Highlight>$2</>秒最多触发1次。",
     TextMapId = "RLBlessing_Desc_204"
         },
@@ -83496,7 +83587,7 @@ return ReadOnly("TextMap_I18n", {
   RLBlessing_Desc_210 = {
     ContentEN = "Picking up items restores additional <Highlight>$1</> points of Sanity.",
     ContentJP = "ドロップアイテムを拾ったら、追加でSPが<Highlight>$1</>回復する。",
-    ContentKR = "드롭 아이텝을 습득 시, 추가로 <Highlight>$1</>의 정신력을 회복한다.",
+    ContentKR = "드롭 아이템을 습득 시, 추가로 <Highlight>$1</>의 정신력을 회복한다.",
     ContentTC = "成功拾取掉落物時，額外回復<Highlight>$1</>點神智。",
     TextMapContent = "成功拾取掉落物时，额外回复<Highlight>$1</>点神智。",
     TextMapId = "RLBlessing_Desc_210"
@@ -85172,7 +85263,7 @@ return ReadOnly("TextMap_I18n", {
   RLBlessing_SimpleDesc_204 = {
     ContentEN = "Picking up dropped items grants Ultra Shields.",
     ContentJP = "ドロップアイテムを拾ったら、過負荷シールドを獲得する。",
-    ContentKR = "드롭 아이텝을 습득 시, 오버로드 실드를 획득한다.",
+    ContentKR = "드롭 아이템을 습득 시, 오버로드 실드를 획득한다.",
     ContentTC = "成功拾取掉落物時，獲得超限護盾。",
     TextMapContent = "成功拾取掉落物时，获得超限护盾。",
     TextMapId = "RLBlessing_SimpleDesc_204"
@@ -85221,7 +85312,7 @@ return ReadOnly("TextMap_I18n", {
   RLBlessing_SimpleDesc_210 = {
     ContentEN = "Picking up dropped items restores additional Sanity.",
     ContentJP = "ドロップアイテムを拾ったら、追加でSPが回復する。",
-    ContentKR = "드롭 아이텝을 습득 시, 추가로 정신력 회복",
+    ContentKR = "드롭 아이템을 습득 시, 추가로 정신력 회복",
     ContentTC = "成功拾取掉落物時，額外回復神智。",
     TextMapContent = "成功拾取掉落物时，额外回复神智。",
     TextMapId = "RLBlessing_SimpleDesc_210"
@@ -86661,11 +86752,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLContract_Desc_109"
         },
   RLContract_Desc_110 = {
-    ContentEN = "Increases prices at Mysterious Merchant by <Highlight>50%</> Embers.",
+    ContentEN = "Increases prices at Abyssal Merchant by <Highlight>50%</> Embers.",
     ContentJP = "謎の行商人のもとで取引をする時、必要なエンバーが<Highlight>50%</>増加。",
-    ContentKR = "미스터리 행상인에게 구매 시, 필요한 잿불이 <Highlight>50%</> 상승한다.",
-    ContentTC = "在神秘行商處購買時，所需餘燼提高<Highlight>50%</>。",
-    TextMapContent = "在神秘行商处购买时，所需余烬提高<Highlight>50%</>。",
+    ContentKR = "심연 행상인에게 구매 시, 필요한 잿불이 <Highlight>50%</> 상승한다.",
+    ContentTC = "在深淵行商處購買時，所需餘燼提高<Highlight>50%</>。",
+    TextMapContent = "在深渊行商处购买时，所需余烬提高<Highlight>50%</>。",
     TextMapId = "RLContract_Desc_110"
         },
   RLContract_Desc_111 = {
@@ -87481,12 +87572,12 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTreasure_Desc_10101"
         },
   RLTreasure_Desc_10102 = {
-    ContentEN = "Grants a <Highlight>@1</> discount at the Mysterious Merchant.",
-    ContentFR = "Réduit les prix de tous les articles du Marchand mystérieux de <Highlight>@1</>.",
+    ContentEN = "Grants a <Highlight>@1</> discount at the Abyssal Merchant.",
+    ContentFR = "Réduit les prix de tous les articles du Marchand abyssal de <Highlight>@1</>.",
     ContentJP = "謎の行商人の全商品価格が<Highlight>@1</>オフ。",
-    ContentKR = "미스터리 행상인의 모든 상품 가격이 <Highlight>@1</> 감소한다.",
-    ContentTC = "神秘行商處的所有商品價格降低<Highlight>@1</>。",
-    TextMapContent = "神秘行商处的所有商品价格降低<Highlight>@1</>。",
+    ContentKR = "심연 행상인의 모든 상품 가격이 <Highlight>@1</> 감소한다.",
+    ContentTC = "深淵行商處的所有商品價格降低<Highlight>@1</>。",
+    TextMapContent = "深渊行商处的所有商品价格降低<Highlight>@1</>。",
     TextMapId = "RLTreasure_Desc_10102"
         },
   RLTreasure_Desc_10103 = {
@@ -87667,10 +87758,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTreasure_Desc_10208"
         },
   RLTreasure_Desc_10209 = {
-    ContentEN = "Select a <Highlight>White</>-tier Lampwick from Flickered or Scattered Abyssoids to instantly upgrade it.",
-    ContentJP = "朦朧と離散の暗影で<Highlight>ノーマル</>品質のキャンドルの芯を選択し、即時ににアップグレードする。",
-    ContentKR = "희미한 그림자와 흩어진 그림자 중 <Highlight>흰색</> 등급의 심지를 선택한 후, 바로 업그레이드한다.",
-    ContentTC = "在微茫與離散幽影中選取<Highlight>白色</>品質燭芯後，使其直接升級。",
+    ContentEN = "Select a <Highlight>Blue</>-tier Lampwick from Flickered or Scattered Abyssoids to instantly upgrade it.",
+    ContentJP = "朦朧と離散の暗影で<Highlight>レア</>品質のキャンドルの芯を選択し、即時ににアップグレードする。",
+    ContentKR = "희미한 그림자와 흩어진 그림자 중 <Highlight>파란색</> 등급의 심지를 선택한 후, 바로 업그레이드한다.",
+    ContentTC = "在微茫與離散幽影中選取<Highlight>藍色</>品質燭芯後，使其直接升級。",
     TextMapContent = "在微茫与离散幽影中选取<Highlight>蓝色</>品质烛芯后，使其直接升级。",
     TextMapId = "RLTreasure_Desc_10209"
         },
@@ -87916,12 +88007,12 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTreasure_Desc_12101"
         },
   RLTreasure_Desc_12102 = {
-    ContentEN = "Mysterious Merchant prices +<Highlight>@1</>. Effect expires after <Highlight>@2</> depth(s) to grant <Highlight>@3</> Embers.",
-    ContentFR = "Augmente le prix des objets du [Marchand mystérieux] de <Highlight>@1</>.\nL’effet prend fin après <Highlight>@2</> profondeurs et octroie <Highlight>@3</> Braises.",
+    ContentEN = "Abyssal Merchant prices +<Highlight>@1</>. Effect expires after <Highlight>@2</> depth(s) to grant <Highlight>@3</> Embers.",
+    ContentFR = "Augmente le prix des objets du [Marchand abyssal] de <Highlight>@1</>.\nL’effet prend fin après <Highlight>@2</> profondeurs et octroie <Highlight>@3</> Braises.",
     ContentJP = "謎の行商人の商品価格+<Highlight>@1</>。<Highlight>@2</>フロア踏破するとこの効果は終了し、エンバー<Highlight>@3</>獲得。",
-    ContentKR = "미스터리 행상인의 모든 상품 가격이 <Highlight>@1</> 상승한다. <Highlight>@2</>층 클리어 후 해당 효과를 종료하고 잿불 <Highlight>@3</>개를 획득한다.",
-    ContentTC = "神秘行商處的所有商品價格提高<Highlight>@1</>，通過<Highlight>@2</>層後結束該效果，並獲得<Highlight>@3</>餘燼。",
-    TextMapContent = "神秘行商处的所有商品价格提高<Highlight>@1</>，通过<Highlight>@2</>层后结束该效果，并获得<Highlight>@3</>余烬。",
+    ContentKR = "심연 행상인의 모든 상품 가격이 <Highlight>@1</> 상승한다. <Highlight>@2</>층 클리어 후 해당 효과를 종료하고 잿불 <Highlight>@3</>개를 획득한다.",
+    ContentTC = "深淵行商處的所有商品價格提高<Highlight>@1</>，通過<Highlight>@2</>層後結束該效果，並獲得<Highlight>@3</>餘燼。",
+    TextMapContent = "深渊行商处的所有商品价格提高<Highlight>@1</>，通过<Highlight>@2</>层后结束该效果，并获得<Highlight>@3</>余烬。",
     TextMapId = "RLTreasure_Desc_12102"
         },
   RLTreasure_Desc_12201 = {
@@ -88040,8 +88131,8 @@ return ReadOnly("TextMap_I18n", {
   RLTreasure_IPDesc_10101 = {
     ContentEN = "Her candlelight chases the chill, painting hope and smiles on children's faces. Yet all mortal flames must die, so again and again she lights new candles. \nIn the sacred lake's depths, a wicksmith forged an eternal flame - only to find no one left waiting in the darkness for her light.",
     ContentJP = "灯火は子供らの頬に笑みを浮かべ、凍える世界に希望を灯した。だが俗世の炎はいつか消える運命である。だから彼女はただ、朽ちる蠟燭の度に新たな火を掲げ続けるしかなかった。\n聖湖の深奥で、キャンドル職人はついに不滅の炎を錬成した。\nしかし、もはやその輝きを待つ人は、誰一人として残されていない。",
-    ContentKR = "촛불은 아이들을 웃게 하고, 추위를 쫓고, 희망을 준다. 하지만 속세의 불길은 언젠가 꺼지는 법이어서, 그녀는 계속해서 새로운 촛불을 켤 수밖에 없었다.\n성호 깊은 곳에서, 심지의 장인은 마침내 영원히 꺼지지 않는 불꽃을 만들어 냈다. 그러나 그녀의 촛불을 기다리는 사람은, 이미 어디도 없었다.",
-    ContentTC = "燭光讓孩童露出笑顏，驅散寒冷，帶來希望。可塵世的火焰終有熄滅之時，所以她只得一次又一次點燃新的燭光。\n \n 在聖湖深處，燭芯匠人終於鍛造出永不熄滅的火焰，然而等待著她的燭光的人，早已無處可尋。",
+    ContentKR = "촛불은 아이들을 웃게 하고, 추위를 쫓고, 희망을 준다. 하지만 속세의 불길은 언젠가 꺼지는 법이어서, 그녀는 계속해서 새로운 촛불을 켤 수밖에 없었다.\n성스러운 호수 깊은 곳에서, 심지의 장인은 마침내 영원히 꺼지지 않는 불꽃을 만들어 냈다. 그러나 그녀의 촛불을 기다리는 사람은, 이미 어디도 없었다.",
+    ContentTC = "燭光讓孩童露出笑顏，驅散寒冷，帶來希望。可塵世的火焰終有熄滅之時，所以她只得一次又一次點燃新的燭光。\n\n在聖湖深處，燭芯匠人終於鍛造出永不熄滅的火焰，然而等待著她的燭光的人，早已無處可尋。",
     TextMapContent = "烛光让孩童露出笑颜，驱散寒冷，带来希望。可尘世的火焰终有熄灭之时，所以她只得一次又一次点燃新的烛光。\n在圣湖深处，烛芯匠人终于锻造出永不熄灭的火焰，然而等待着她的烛光的人，早已无处可寻。",
     TextMapId = "RLTreasure_IPDesc_10101"
         },
@@ -88204,6 +88295,10 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "眾人垂眸時，你要抬眼；眾人匍匐時，你要站立。眾人歌頌時，你要發問；眾人幸福時，你要癲狂。\n \n 如此，便能掙脫滿月之枷鎖，窺見命運另一面的真相。",
     TextMapContent = "众人垂眸时，你要抬眼；众人匍匐时，你要站立。众人歌颂时，你要发问；众人幸福时，你要癫狂。\n如此，便能挣脱满月之枷锁，窥见命运另一面的真相。",
     TextMapId = "RLTreasure_IPDesc_10207"
+        },
+  RLTreasure_IPDesc_10208 = {
+    TextMapContent = "肉鸽遗物包装文本【待包装】",
+    TextMapId = "RLTreasure_IPDesc_10208"
         },
   RLTreasure_IPDesc_10209 = {
     ContentEN = "The bird longs to soar, but the abyss knows no sky. It seeks a branch to rest but finds only fear's gnarled limbs.",
@@ -88390,10 +88485,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTreasure_IPDesc_10312"
         },
   RLTreasure_IPDesc_10313 = {
-    ContentEN = "Her toes brushed the surface of the sacred lake, sending ripples across the water — lightless and still — as though a dark moon were surfacing from the depths. If this lake truly led to the realm of all happiness, why did it not even offer a reflection?\n In an instant, a fierce current arose, and the saint's doubts, along with their very self — were swallowed by the pitch-black whirlpool.",
-    ContentJP = "つま先が聖なる湖の水面に触れたとき、光なき波紋が広がり、まるで暗月が水底から浮かび上がるようだった。もしこの湖面が本当に天の楽土へ通じているのなら、なぜ自分の姿すら映し出せないのか。\n 一瞬にして奔流が湧き立ち、聖徒の疑念もその姿もまた、漆黒の渦へと呑み込まれた。",
-    ContentKR = "발끝이 신성한 호수의 수면에 닿자, 빛 없는 물결 어둠의 달이 물 밑에서 떠오르는 것처럼 출렁인다. 이 수면이 정말로 행복한 천국으로 통한다면, 왜 스스로의 얼굴조차 비추지 못하는 걸까?\n순식간에 급류가 몰아치고 그 의문, 그리고 신도마저 칠흑 같은 소용돌이에 삼켜져 버렸다.",
-    ContentTC = "腳尖觸及聖湖的水面，無光的漣漪蕩漾開來，如同一輪暗月自水底浮起。若這水面當真通往那幸福的眾天之天，為何它甚至無法映出自己的面容？\n 頃刻之間，湍流急起，聖徒心中的疑問與其身影一同，被漆黑的漩渦吞沒。",
+    ContentEN = "Her toes brushed the surface of the sacred lake, sending ripples across the water — lightless and still — as though a dark moon were surfacing from the depths. If this lake truly led to the realm of all happiness, why did it not even offer a reflection?\nIn an instant, a fierce current arose, and the saint's doubts, along with their very self — were swallowed by the pitch-black whirlpool.",
+    ContentJP = "つま先が聖なる湖の水面に触れたとき、光なき波紋が広がり、まるで暗月が水底から浮かび上がるようだった。もしこの湖面が本当に天の楽土へ通じているのなら、なぜ自分の姿すら映し出せないのか。\n一瞬にして奔流が湧き立ち、聖徒の疑念もその姿もまた、漆黒の渦へと呑み込まれた。",
+    ContentKR = "발끝이 성스러운 호수의 수면에 닿자, 빛 없는 물결 어둠의 달이 물 밑에서 떠오르는 것처럼 출렁인다. 이 수면이 정말로 행복한 천국으로 통한다면, 왜 스스로의 얼굴조차 비추지 못하는 걸까?\n순식간에 급류가 몰아치고 그 의문, 그리고 신도마저 칠흑 같은 소용돌이에 삼켜져 버렸다.",
+    ContentTC = "腳尖觸及聖湖的水面，無光的漣漪蕩漾開來，如同一輪暗月自水底浮起。若這水面當真通往那幸福的眾天之天，為何它甚至無法映出自己的面容？\n頃刻之間，湍流急起，聖徒心中的疑問與其身影一同，被漆黑的漩渦吞沒。",
     TextMapContent = "脚尖触及圣湖的水面，无光的涟漪荡漾开来，如同一轮暗月自水底浮起。若这水面当真通往那幸福的众天之天，为何它甚至无法映出自己的面容？\n顷刻之间，湍流急起，圣徒心中的疑问与其身影一同，被漆黑的漩涡吞没。",
     TextMapId = "RLTreasure_IPDesc_10313"
         },
@@ -88496,16 +88591,16 @@ return ReadOnly("TextMap_I18n", {
   RLTreasure_IPDesc_14101 = {
     ContentEN = "Since childhood, she idolized her sister—the brilliant Knight who could conquer any challenge. \nWhile legends warned that none return alive from the abyss beneath the sacred lake, her sister proved them wrong. \nShe lived… in terrible silence.",
     ContentJP = "彼女は幼い頃から、騎士である姉に憧れていた。姉は強く聡明で、成せない任務などなかった。\n聖湖の底に広がる深淵こそ、最凶の戦場だと言われる。最強の騎士ですら、生きて帰ってられない場所だと。それでも姉は戻ってきた。\nただ、それから二度と言葉を口にすることはなかった。",
-    ContentKR = "그녀는 어렸을 때부터 기사인 언니를 숭배했다. 언니는 강하고 똑똑해서, 어떤 임무든 맡아서 척척 해냈다.\n사람들은 성호 아래 심연이 가장 위험한 전쟁터이며, 가장 용맹한 기사도 돌아올 수 없다고 입을 모아 말했다. 하지만 그녀의 언니는 살아서 돌아왔다.\n다만, 언니는 살아있지만, 말을 하지 않게 됐다.",
-    ContentTC = "她從小就崇拜身為騎士的姐姐，姐姐強大而聰慧，沒有什麼任務是她力不能及的。\n \n 人人都說聖湖下的深淵是最凶險的戰場，連最驍勇的騎士也會有去無回，可是她的姐姐活著回來了。\n \n 姐姐活著，只是不再說話了。",
+    ContentKR = "그녀는 어렸을 때부터 기사인 언니를 숭배했다. 언니는 강하고 똑똑해서, 어떤 임무든 맡아서 척척 해냈다.\n사람들은 성스러운 호수 아래 심연이 가장 위험한 전쟁터이며, 가장 용맹한 기사도 돌아올 수 없다고 입을 모아 말했다. 하지만 그녀의 언니는 살아서 돌아왔다.\n다만, 언니는 살아있지만, 말을 하지 않게 됐다.",
+    ContentTC = "她從小就崇拜身為騎士的姐姐，姐姐強大而聰慧，沒有什麼任務是她力不能及的。\n\n人人都說聖湖下的深淵是最凶險的戰場，連最驍勇的騎士也會有去無回，可是她的姐姐活著回來了。\n\n姐姐活著，只是不再說話了。",
     TextMapContent = "她从小就崇拜身为骑士的姐姐，姐姐强大而聪慧，没有什么任务是她力不能及的。\n人人都说圣湖下的深渊是最凶险的战场，连最骁勇的骑士也会有去无回，可是她的姐姐活着回来了。\n姐姐活着，只是不再说话了。",
     TextMapId = "RLTreasure_IPDesc_14101"
         },
   RLTreasure_IPDesc_14201 = {
     ContentEN = "Grown-ups whisper that my sister offended the gods in the sacred lake, so they took a piece of her soul as punishment. \nNo, my sister is a true Knight, devout and honorable. Her soul was lost there by accident. If no one else will believe, I'll make them see. \nThe abyss awaits, but I will return with the piece missing.",
     ContentJP = "姉は聖湖で神を怒らせ、魂の一部を罰として奪われたと大人たちは言う。\nだが、姉は正しく敬虔な騎士だ。きっと自分の魂の欠片をあそこに置き忘れただけ。誰も信じなくても、私が証明する。\nこの深淵へ降りて、絶対に姉の失われた魂を取り戻してみせる。",
-    ContentKR = "어른들은 언니가 성호에서 신을 노하게 하는 바람에, 신이 언니의 영혼을 가져갔다고 했다.\n그럴 리 없다. 언니는 정직하고 경건한 기사였으므로, 분명히 실수로 영혼을 잃었을 것이다. 아무도 믿지 않는다면, 내가 증명할 것이다.\n내가 심연에 들어가, 언니의 잃어버린 영혼을 되찾아 올 것이다.",
-    ContentTC = "大人們說，姐姐在聖湖中觸怒了神明，所以神明收走了她的一部分靈魂作為懲罰。\n \n 不，姐姐是正直而虔誠的騎士，她一定只是不小心把靈魂丟在了那裡。如果沒有人相信，那就讓我來證明。\n \n 我會進入深淵，將姐姐丟失的靈魂帶回來。",
+    ContentKR = "어른들은 언니가 성스러운 호수에서 신을 노하게 하는 바람에, 신이 언니의 영혼을 가져갔다고 했다.\n그럴 리 없다. 언니는 정직하고 경건한 기사였으므로, 분명히 실수로 영혼을 잃었을 것이다. 아무도 믿지 않는다면, 내가 증명할 것이다.\n내가 심연에 들어가, 언니의 잃어버린 영혼을 되찾아 올 것이다.",
+    ContentTC = "大人們說，姐姐在聖湖中觸怒了神明，所以神明收走了她的一部分靈魂作為懲罰。\n\n不，姐姐是正直而虔誠的騎士，她一定只是不小心把靈魂丟在了那裡。如果沒有人相信，那就讓我來證明。\n\n我會進入深淵，將姐姐丟失的靈魂帶回來。",
     TextMapContent = "大人们说，姐姐在圣湖中触怒了神明，所以神明收走了她的一部分灵魂作为惩罚。\n不，姐姐是正直而虔诚的骑士，她一定只是不小心把灵魂丢在了那里。如果没有人相信，那就让我来证明。\n我会进入深渊，将姐姐丢失的灵魂带回来。",
     TextMapId = "RLTreasure_IPDesc_14201"
         },
@@ -88550,11 +88645,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTreasure_Name_10101"
         },
   RLTreasure_Name_10102 = {
-    ContentEN = "Mysterious Merchant's Coupon",
+    ContentEN = "Abyssal Merchant's Coupon",
     ContentJP = "謎の行商人の割引券",
-    ContentKR = "미스터리 행상인의 할인 쿠폰",
-    ContentTC = "神秘行商的折扣券",
-    TextMapContent = "神秘行商的折扣券",
+    ContentKR = "심연 행상인의 할인 쿠폰",
+    ContentTC = "深淵行商的折扣券",
+    TextMapContent = "深渊行商的折扣券",
     TextMapId = "RLTreasure_Name_10102"
         },
   RLTreasure_Name_10103 = {
@@ -89070,11 +89165,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTreasure_SimpleDesc_10101"
         },
   RLTreasure_SimpleDesc_10102 = {
-    ContentEN = "Enjoys a discount at the Mysterious Merchant's stall.",
+    ContentEN = "Enjoys a discount at the Abyssal Merchant's stall.",
     ContentJP = "謎の行商人の全アイテム価格が割引。",
-    ContentKR = "미스터리 행상인의 모든 상품 가격 감소",
-    ContentTC = "神秘行商處的所有商品價格降低。",
-    TextMapContent = "神秘行商处的所有商品价格降低。",
+    ContentKR = "심연 행상인의 모든 상품 가격 감소",
+    ContentTC = "深淵行商處的所有商品價格降低。",
+    TextMapContent = "深渊行商处的所有商品价格降低。",
     TextMapId = "RLTreasure_SimpleDesc_10102"
         },
   RLTreasure_SimpleDesc_10103 = {
@@ -89239,10 +89334,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTreasure_SimpleDesc_10208"
         },
   RLTreasure_SimpleDesc_10209 = {
-    ContentEN = "Select a <Highlight>White</>-tier Lampwick from Flickered or Scattered Abyssoids to instantly upgrade it.",
-    ContentJP = "朦朧と離散の暗影で<Highlight>ノーマル</>品質のキャンドルの芯を選択し、即時ににアップグレードする。",
-    ContentKR = "희미한 그림자와 흩어진 그림자 중 <Highlight>흰색</> 등급의 심지를 선택한 후, 바로 업그레이드",
-    ContentTC = "在微茫與離散幽影中選取<Highlight>白色</>品質燭芯後，使其直接升級。",
+    ContentEN = "Select a <Highlight>Blue</>-tier Lampwick from Flickered or Scattered Abyssoids to instantly upgrade it.",
+    ContentJP = "朦朧と離散の暗影で<Highlight>レア</>品質のキャンドルの芯を選択し、即時ににアップグレードする。",
+    ContentKR = "희미한 그림자와 흩어진 그림자 중 <Highlight>파란색</> 등급의 심지를 선택한 후, 바로 업그레이드",
+    ContentTC = "在微茫與離散幽影中選取<Highlight>藍色</>品質燭芯後，使其直接升級。",
     TextMapContent = "在微茫与离散幽影中选取<Highlight>蓝色</>品质烛芯后，使其直接升级。",
     TextMapId = "RLTreasure_SimpleDesc_10209"
         },
@@ -89481,11 +89576,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTreasure_SimpleDesc_12101"
         },
   RLTreasure_SimpleDesc_12102 = {
-    ContentEN = "Increases the prices of the items at Mysterious Merchant but stops after clearing a certain number of depths and grants Embers.",
+    ContentEN = "Increases the prices of the items at Abyssal Merchant but stops after clearing a certain number of depths and grants Embers.",
     ContentJP = "謎の行商人のすべての商品の価格が上がっている。指定した階数を通過すると上限に達し、エンバーを獲得する。",
-    ContentKR = "선택한 미스터리 행상인의 모든 상품 가격 상승, 일정 층 통과 시 더 이상 상승하지 않고 잿불 획득",
-    ContentTC = "神秘行商處的所有商品價格提高，通過一定層後不再提高並獲得餘燼",
-    TextMapContent = "神秘行商处的所有商品价格提高，通过一定层后不再提高并获得余烬",
+    ContentKR = "선택한 심연 행상인의 모든 상품 가격 상승, 일정 층 통과 시 더 이상 상승하지 않고 잿불 획득",
+    ContentTC = "深淵行商處的所有商品價格提高，通過一定層後不再提高並獲得餘燼",
+    TextMapContent = "深渊行商处的所有商品价格提高，通过一定层后不再提高并获得余烬",
     TextMapId = "RLTreasure_SimpleDesc_12102"
         },
   RLTreasure_SimpleDesc_12201 = {
@@ -90198,7 +90293,7 @@ return ReadOnly("TextMap_I18n", {
   RL_Event318_Select_3 = {
     ContentEN = "Grants a <Highlight>Nocturne Moth</> [Lampwick] of your choice.",
     ContentJP = "キャンドルの芯<highlight>「奈落の黒蝶」</>を選択",
-    ContentKR = "<Highlight>그림자를 삼킨 나비</> [심지]를 1개 선택하세요.",
+    ContentKR = "<Highlight>그림자를 삼킨 나비</> [심지] 1개 선택",
     ContentTC = "選取一個<Highlight>噬影蝶</>[燭芯]。",
     TextMapContent = "选取一个<Highlight>噬影蝶</>[烛芯]。",
     TextMapId = "RL_Event318_Select_3"
@@ -90407,7 +90502,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RL_Event_CantSelect"
         },
   RL_Event_StoryShop_1 = {
-    ContentEN = "Mysterious Merchant Encounter",
+    ContentEN = "Abyssal Merchant Encounter",
     ContentJP = "商人イベント発生",
     ContentKR = "맞아, '상인' 사건이다",
     ContentTC = "沒錯我是商人事件",
@@ -90479,7 +90574,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RaidDungeon_Max_Point_Rank"
         },
   RaidDungeon_NextRank_Point = {
-    ContentEN = "Points Required for Promotion",
+    ContentEN = "Promotion Requirement: ",
     ContentJP = "昇格に必要なスコア",
     ContentKR = "승급 필요 포인트:",
     ContentTC = "晉級所需積分：",
@@ -90496,9 +90591,9 @@ return ReadOnly("TextMap_I18n", {
         },
   RaidDungeon_PreRaid_Abandon = {
     ContentEN = "No Group Stage",
-    ContentJP = "グループ戦に未参加のため、ランキングには反映されません",
-    ContentKR = "그룹 예선전에 참여하지 않아 랭킹을 결산할 수 없습니다.",
-    ContentTC = "未參與分組賽，不計入排名",
+    ContentJP = "グループ戦に参加していません。",
+    ContentKR = "그룹 예선전 미참여",
+    ContentTC = "未參與分組賽",
     TextMapContent = "未参与分组赛",
     TextMapId = "RaidDungeon_PreRaid_Abandon"
         },
@@ -90542,6 +90637,14 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "完成挑战可获取狩月纪念币",
     TextMapId = "RaidDungeon_PreRaid_Reward"
         },
+  RaidDungeon_PreRaid_RewardTips = {
+    ContentEN = "Claim from the Events screen",
+    ContentJP = "イベント画面で受領",
+    ContentKR = "이벤트 화면에서 수령하세요.",
+    ContentTC = "前往活動介面領取",
+    TextMapContent = "前往活动界面领取",
+    TextMapId = "RaidDungeon_PreRaid_RewardTips"
+        },
   RaidDungeon_Raid_Rank = {
     ContentEN = "Apex Rankings",
     ContentJP = "頂上ランキング",
@@ -90565,6 +90668,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "排名",
     TextMapContent = "排名",
     TextMapId = "RaidDungeon_Rank"
+        },
+  RaidDungeon_Rank_Ban = {
+    ContentEN = "Banned",
+    ContentJP = "ロック中",
+    ContentKR = "이용 제한 중",
+    ContentTC = "封禁中",
+    TextMapContent = "封禁中",
+    TextMapId = "RaidDungeon_Rank_Ban"
         },
   RaidDungeon_Rank_CharList = {
     ContentEN = "Lineup",
@@ -90639,7 +90750,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RaidDungeon_Shop_Name"
         },
   RaidDungeon_Shop_UnlockPoint = {
-    ContentEN = "Ranking Points Required",
+    ContentEN = "Points Required: ",
     ContentJP = "必要ランキングスコア",
     ContentKR = "필요한 랭킹 포인트 ",
     ContentTC = "所需排名積分",
@@ -91328,11 +91439,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RougeLike_RoomName_382"
         },
   RougeLike_RoomName_401 = {
-    ContentEN = "Mysterious Merchant",
+    ContentEN = "Abyssal Merchant",
     ContentJP = "謎の行商人",
-    ContentKR = "미스터리 행상인",
-    ContentTC = "神秘行商",
-    TextMapContent = "神秘行商",
+    ContentKR = "심연 행상인",
+    ContentTC = "深淵行商",
+    TextMapContent = "深渊行商",
     TextMapId = "RougeLike_RoomName_401"
         },
   RougeLike_RoomName_501 = {
@@ -91725,7 +91836,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "ATK Speed +<H>#1</>‍. When performing a Charged Attack with this weapon, there is a <H>#2</> chance to reduce Geniemon Support CD by <H>#3</>s.",
     ContentES = "Velocidad de Ataque +<H>#1</>. Al realizar un Ataque Cargado con esta arma, hay <H>#2</> de probabilidad de reducir el enfriamiento del apoyo armónico en <H>#3</> s.",
     ContentFR = "Vitesse d’attaque +<H>#1</>. Lors d’une Attaque chargée avec cette arme, <H>#2</> de chances de réduire le temps de recharge de la Résonance de soutien de <H>#3</> s.",
-    ContentJP = "攻撃速度+<H>#1</>。この武器で溜め攻撃時、<H>#2</>の確率でジェネモン支援のクールダウンを<H>#3</>秒短縮。",
+    ContentJP = "攻撃速度+<H>#1</>。この武器で溜め攻撃を行う時、<H>#2</>の確率でジェネモン支援のクールダウンを<H>#3</>秒短縮。",
     ContentKR = "공격 속도+<H>#1</>. 해당 무기로 차지 공격 시전 시 <H>#2</> 확률로 마령 지원 쿨타임이 <H>#3</>초 단축된다.",
     ContentTC = "攻擊速度+<H>#1</>。使用此武器進行蓄力攻擊時，有<H>#2</>概率使魔靈支援的縮短冷卻時間<H>#3</>秒。",
     TextMapContent = "攻击速度+<H>#1</>。使用此武器进行蓄力攻击时，有<H>#2</>概率使魔灵支援的缩短冷却时间<H>#3</>秒。",
@@ -92514,11 +92625,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_160102_NAME"
         },
   SKILL_160103_DESC = {
-    ContentEN = "When a Lumino bonus effect is triggered, deals an additional Lumino AoE Damage at the target's location.",
+    ContentEN = "When a Lumino bonus effect is triggered, deals an additional Lumino AoE Damage at the target's location. This effect triggers 1 time every 0.5s.",
     ContentES = "Al activar un efecto extra Lumino, inflige daño de área Lumino adicional en la posición del objetivo. Este efecto solo puede ocurrir una vez cada 0,5 s.",
     ContentFR = "Lorsqu’un Effet supplémentaire : Lumino est déclenché, inflige des Dégâts Lumino de zone à l’emplacement de la cible. Cet effet ne peut se produire qu’une fois toutes les 0,5 s.",
-    ContentJP = "ダメージで光属性の追加効果が発動すると、対象位置に光属性範囲ダメージを1回与える。",
-    ContentKR = "대미지를 입혀 빛 속성 추가 효과 발동 시, 대상이 있는 곳에 빛 속성 범위 대미지를 1회 입힌다.",
+    ContentJP = "ダメージで光属性の追加効果が発動すると、対象位置に光属性範囲ダメージを1回与える。（0.5秒に1回まで発動）。",
+    ContentKR = "대미지를 입혀 빛 속성 추가 효과 발동 시, 대상이 있는 곳에 빛 속성 범위 대미지를 1회 입힌다. 효과는 0.5초마다 최대 1회 발동한다.",
     ContentTC = "造成傷害觸發光屬性額外效果時，在目標處造成1次光屬性範圍傷害。效果每0.5秒最多觸發1次。",
     TextMapContent = "造成伤害触发光属性额外效果时，在目标处造成1次光属性范围伤害。效果每0.5秒最多触发1次。",
     TextMapId = "SKILL_160103_DESC"
@@ -92747,7 +92858,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "CRIT Damage +<H>#1</>. When its projectiles hit enemies or the environment, they split into 2 additional projectiles that continue to travel. After switching to this weapon, increases Multishot by <H>#2</>, which decreases over time. This effect can only be triggered once every 10s and is removed when switching to another weapon.",
     ContentES = "Daño CRIT +<H>#1</>. Cuando los proyectiles impactan a enemigos o al entorno, se dividen en 2 proyectiles adicionales que continúan su trayectoria. Tras cambiar a esta arma, aumenta el multidisparo hasta un máximo de <H>#2</>, que disminuye con el tiempo. Este efecto se activa como máximo una vez cada 10 s y desaparece al cambiar de arma.",
     ContentFR = "DGT CRIT +<H>#1</>. Lorsque les projectiles touchent un ennemi ou un élément du décor, ils se divisent en 2 projectiles supplémentaires. En passant à cette arme, le Tir multiple augmente jusqu’à <H>#2</>, puis diminue progressivement. Cet effet peut être déclenché une fois toutes les 10 s et disparaît en changeant d’arme.",
-    ContentJP = "クリティカルダメージ+<H>#1</>。弾丸が敵または障害物に命中すると2発に分裂し前進する。この武器に切り替えると多重射撃が最大<H>#2</>までアップする。この効果は時間経過に応じて少しずつダウンしていく。さらに、この効果は10秒ごとに最大1回発動する。他の武器に切り替えると、この効果は消える。",
+    ContentJP = "クリティカルダメージ+<H>#1</>。弾丸が敵または障害物に命中すると2発に分裂し前進する。この武器に切り替えると多重射撃が最大<H>#2</>までアップする。この効果は時間経過に応じて少しずつダウンしていく。さらに、この効果は10秒のクールダウンがある。他の武器に切り替えると、この効果は消える。",
     ContentKR = "크리티컬 대미지+<H>#1</>. 탄환이 적이나 환경에 명중하면 2개의 탄환으로 분열되어 계속 전진한다. 이 무기로 전환 후, 다중 사격 상승 효과를 획득한다. 최대 <H>#2</> 상승. 상승 효과는 시간 경과에 따라 점차 감소된다. 효과가 10초당 최대 1회 발동하며, 다른 무기로 전환 시 효과가 사라진다.",
     ContentTC = "暴擊傷害+<H>#1</>。子彈命中敵人或場景時，分裂為2個子彈繼續前進。切換到此武器後，獲得多重射擊提高，最大提高<H>#2</>，提高效果隨時間遞減。效果每10秒最多觸發1次，切換至其他武器時，失去效果。",
     TextMapContent = "暴击伤害+<H>#1</>。子弹命中敌人或场景时，分裂为2个子弹继续前进。切换到此武器后，获得多重射击提高，最大提高<H>#2</>，提高效果随时间递减。效果每10秒最多触发1次，切换至其他武器时，失去效果。",
@@ -92797,7 +92908,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Character ATK +<H>#1</>. Charging fires a special bullet that travels slowly and explodes after a short delay, dealing AoE damage. Tap-firing bullets can trigger its early detonation on contact. When an Umbro character casts their Ultimate, grants +<H>#2</> Skill Efficiency for <H>#3</>s.",
     ContentES = "ATQ del personaje +<H>#1</>. Al cargar, dispara un proyectil especial que avanza lentamente y explota tras un breve retraso, lo que inflige daño de área. Los disparos pueden detonar ese proyectil al impactarlo de forma anticipada. Cuando un personaje Umbro usa su Habilidad Definitiva, obtiene eficiencia de habilidad +<H>#2</> durante <H>#3</> s.",
     ContentFR = "ATQ du personnage +<H>#1</>. Lors de la charge, tire une balle spéciale se déplaçant lentement avant d’exploser après un court délai, infligeant des DGT de zone. Les tirs rapides peuvent provoquer son explosion anticipée en la touchant. Lorsqu’un personnage Umbro utilise sa Compétence ultime, il obtient +<H>#2</> d’Efficacité de compétence pendant <H>#3</> s.",
-    ContentJP = "キャラ攻撃+<H>#1</>。長押し時、特殊な弾を1発発射し、ゆっくり前進して一定時間後に爆発し範囲ダメージを与える。短押し時の通常弾丸が特殊弾に命中すると、特殊弾を即座に起爆できる。闇属性キャラが必殺技を発動すると、自身にスキル効率アップ<H>#2</>を付与、<H>#3</>秒継続。",
+    ContentJP = "キャラ攻撃+<H>#1</>。長押し時、特殊弾を1発発射し、ゆっくり前進して一定時間後に爆発し範囲ダメージを与える。短押し時の通常弾丸が特殊弾に命中すると、特殊弾を即座に起爆できる。闇属性キャラが必殺技を発動すると、自身にスキル効率アップ<H>#2</>を付与、<H>#3</>秒継続。",
     ContentKR = "캐릭터 공격력+<H>#1</>. 차지 시 천천히 전진하는 특수 탄환을 1개 발사하며, 일정 시간이 지나면 폭발하여 범위 대미지를 입힌다. 사격을 눌러 발사된 탄환이 특수 탄환에 명중하면 특수 탄환을 사전 폭발시킨다. 어둠 속성 캐릭터가 종결 스킬 시전 후, 자신이 스킬 효율 <H>#2</> 상승 효과를 획득한다. 지속 시간 <H>#3</>초.",
     ContentTC = "角色攻擊+<H>#1</>。蓄力時，發射1枚特殊子彈緩慢前進，一段時間後爆炸造成範圍傷害；點按射擊發射的子彈命中特殊子彈時，提前引爆特殊子彈。暗屬性角色釋放終結技後，自身獲得技能效益提高<H>#2</>，持續<H>#3</>秒。",
     TextMapContent = "角色攻击+<H>#1</>。蓄力时，发射1枚特殊子弹缓慢前进，一段时间后爆炸造成范围伤害；点按射击发射的子弹命中特殊子弹时，提前引爆特殊子弹。暗属性角色释放终结技后，自身获得技能效益提高<H>#2</>，持续<H>#3</>秒。",
@@ -92846,7 +92957,7 @@ return ReadOnly("TextMap_I18n", {
   SKILL_20506_DESC = {
     ContentEN = "Mag Capacity +<H>#1</>. On a CRIT with this weapon, grants 1 stack of +<H>#2</> ATK Speed for <H>#3</>s, stacking up to <H>#4</> times. The effect is removed when switching weapons.",
     ContentES = "Capacidad del Cargador +<H>#1</>. Al infligir Daño CRIT con esta arma, obtienes 1 acumulación que aumenta la Velocidad de Ataque en <H>#2</> durante <H>#3</> s, hasta <H>#4</> acumulaciones. El efecto se elimina al cambiar de arma.",
-    ContentJP = "弾倉容量+<H>#1</>。この武器で与えたダメージがクリティカルした際、<H>#3</>秒間攻撃速度が<H>#2</>アップする（最大<H>#4</>回まで重ねがけ可）。他の武器に切り替えると、この効果は消える。",
+    ContentJP = "弾倉容量+<H>#1</>。この武器でクリティカルダメージを与えると、<H>#3</>秒間攻撃速度が<H>#2</>アップする（最大<H>#4</>回まで重ねがけ可）。他の武器に切り替えると、この効果は消える。",
     ContentKR = "탄창 용량+<H>#1</>. 해당 무기로 입힌 대미지가 크리티컬 발동 시, 자신이 1단계의 공격 속도가 <H>#2</> 상승한다. 지속 시간 <H>#3</>초, 최대 <H>#4</>단계 중첩. 다른 무기로 전환 시 효과가 사라진다.",
     ContentTC = "彈匣容量+<H>#1</>。使用此武器造成的傷害暴擊時，自身獲得1層攻擊速度提高<H>#2</>，持續<H>#3</>秒，最多疊加<H>#4</>層。切換至其他武器時，失去效果。",
     TextMapContent = "弹匣容量+<H>#1</>。使用此武器造成的伤害暴击时，自身获得1层攻击速度提高<H>#2</>，持续<H>#3</>秒，最多叠加<H>#4</>层。切换至其他武器时，失去效果。",
@@ -93383,12 +93494,12 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_310202_NAME"
         },
   SKILL_310203_DESC = {
-    ContentEN = "Carries 2 [Heavy Dirtexpellers] that automatically target and shoot nearby enemies once every 3s, dealing Pyro Damage.\nWhen dodging, Hilda reloads her ranged weapon Magazine to maximum and gains [Elegant Anger] for a period of time.",
+    ContentEN = "When dodging, Hilda reloads her ranged weapon Magazine to maximum and gains [Elegant Anger].",
     ContentES = "Al esquivar, Hilda recarga el cargador de su arma a distancia al máximo y obtiene [Ira Elegante] durante un periodo de tiempo.",
     ContentFR = "Hilda porte 2 [Crassinators lourds] qui ciblent et tirent automatiquement sur les ennemis proches toutes les 3 s, infligeant des Dégâts Pyro.\nLorsqu’elle effectue une esquive, elle recharge entièrement son arme à distance et obtient [Colère raffinée] pendant un certain temps.",
-    ContentJP = "「大型掃除機」2台を展開する。「大型掃除機」は自動的に周囲を捜索しながら敵へと照準を合わせ、3秒ごとに1回の射撃を行い、火属性ダメージを与える。\n敵の攻撃を回避するとヒルダの遠隔武器の弾倉をMaxまで装填。同時に「華麗なる怒り」効果を獲得。",
-    ContentKR = "자신이 2개의 [중형 청소기]를 휴대한다. [중형 청소기]는 자동으로 주위의 적을 조준하고, 3초마다 1회 사격해 불 속성 대미지를 입힌다. \n회피 시, 자신의 원거리 무기 탄약을 최대로 장전하고, 일정 시간 동안 [우아한 분노]를 획득한다.",
-    ContentTC = "自身攜帶2座「重型清掃機」，「重型清掃機」會自動尋找周圍的敵人瞄準，每隔3秒進行1次射擊，造成火屬性傷害。\n 閃避時，將自身遠端武器彈夾彈藥裝填至最大值，並在一段時間內獲得「優雅怒意」。",
+    ContentJP = "敵の攻撃を回避するとヒルダの遠隔武器の弾倉をMaxまで装填。同時に「華麗なる怒り」効果を獲得。",
+    ContentKR = "회피 시, 자신의 원거리 무기 탄약을 최대로 장전하고, 일정 시간 동안 [우아한 분노]를 획득한다.",
+    ContentTC = "閃避時，將自身遠端武器彈夾裝滿，並獲得[優雅怒意]。",
     TextMapContent = "闪避时，将自身远程武器弹夹装满，并获得[优雅怒意]。",
     TextMapId = "SKILL_310203_DESC"
         },
@@ -95243,12 +95354,12 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_DESC_1503Skill02Damage03Range"
         },
   SKILL_DESC_1503Skill02SpCost01 = {
-    ContentEN = "Sanity Cost Reduced",
+    ContentEN = "[Lightswords Slice Starry Streams] Sanity Cost Reduced",
     ContentES = "Costo de Cordura reducido de [Sables de Luz Cortan Corrientes Estrelladas]",
     ContentFR = "Réduction du coût en Lucidité",
-    ContentJP = "SP消費ダウン",
+    ContentJP = "[星霜の神撃]SP消費ダウン",
     ContentKR = "[서리검 유성 털기] 정신력 소모 감소",
-    ContentTC = "神智消耗降低",
+    ContentTC = "[霜劍拂流星]神智消耗降低",
     TextMapContent = "[霜剑拂流星]神智消耗降低",
     TextMapId = "SKILL_DESC_1503Skill02SpCost01"
         },
@@ -95591,7 +95702,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "[Heavy Dirtexpeller] DMG",
     ContentES = "Daño de [Desempolvador Pesado]",
     ContentJP = "「大型掃除機」ダメージ",
-    ContentKR = "[중량형 청소기] 대미지",
+    ContentKR = "[중형 청소기] 대미지",
     ContentTC = "[重型清掃機]傷害",
     TextMapContent = "[重型清扫机]伤害",
     TextMapId = "SKILL_DESC_3102BigFunnelDamage"
@@ -95650,7 +95761,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "[Light Dirtexpeller] DMG",
     ContentES = "Daño de [Desempolvador Ligero]",
     ContentJP = "「小型掃除機」ダメージ",
-    ContentKR = "[경량형 청소기] 대미지",
+    ContentKR = "[경량 청소기] 대미지",
     ContentTC = "[輕型清掃機]傷害",
     TextMapContent = "[轻型清扫机]伤害",
     TextMapId = "SKILL_DESC_3102SmallFunnelDamage"
@@ -96540,7 +96651,7 @@ return ReadOnly("TextMap_I18n", {
     ContentES = "Radio de Daño de [Conquistador Divino]",
     ContentFR = "Rayon des dégâts d’[Usurpation divine]",
     ContentJP = "「エクスディウム」索敵半径",
-    ContentKR = "[신의 권력] 적 수색 반경",
+    ContentKR = "[신의 권력] 대미지 반경",
     ContentTC = "「奪神權柄」傷害半徑",
     TextMapContent = "[夺神权柄]伤害半径",
     TextMapId = "SKILL_DESC_4301Skill01Radius"
@@ -98629,7 +98740,7 @@ return ReadOnly("TextMap_I18n", {
     ContentES = "Rencor por Sobrecarga de Trabajo",
     ContentFR = "Lassitude amère",
     ContentJP = "残業の怨み",
-    ContentKR = "과로 원한",
+    ContentKR = "과로의 원한",
     ContentTC = "過勞怨念",
     TextMapContent = "过劳怨念",
     TextMapId = "SKILL_SECTIONDESC_4202_Skill01_01"
@@ -101144,11 +101255,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "TARGET_DUNGEON_RougeLike_109"
         },
   TARGET_DUNGEON_RougeLike_109_Sub = {
-    ContentEN = "Optional: Make a trade with the Mysterious Merchant\nOptional: Get supplies from the Avian Spirit",
+    ContentEN = "Optional: Make a trade with the Abyssal Merchant\nOptional: Get supplies from the Avian Spirit",
     ContentJP = "（任意）謎の行商人と取引\n（任意）霊鳥から補給を獲得",
-    ContentKR = "선택: 미스터리 행상인과 거래\n선택: 영혼의 새를 통해 보급 획득",
-    ContentTC = "可選：與神秘行商交易\n可選：通過靈鳥獲取補給",
-    TextMapContent = "可选：与神秘行商交易\n可选：通过灵鸟获取补给",
+    ContentKR = "선택: 심연 행상인과 거래\n선택: 영혼의 새를 통해 보급 획득",
+    ContentTC = "可選：與深淵行商交易\n可選：通過靈鳥獲取補給",
+    TextMapContent = "可选：与深渊行商交易\n可选：通过灵鸟获取补给",
     TextMapId = "TARGET_DUNGEON_RougeLike_109_Sub"
         },
   TARGET_DUNGEON_RougeLike_110 = {
@@ -101301,13 +101412,13 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "TERMEXP_1503_Skill02_01"
         },
   TERMEXP_1503_Skill02_02 = {
-    ContentEN = "Kezhou can have a maximum of 7 [Phanoplumes] at the same time. When launched, each [Phanoplume] selects a random enemy to orbit and homes towards them to attack, dealing Lumino Damage to enemies along the path. After attacking the enemy 4 times, the [Phanoplume] dissipates.\n\nTargets hit by [Phanoplume] take additional damage, which is equivalent to a certain percentage of the DoT of Bonus Effect: Lumino multiplied by Kezhou's Melee Weapon Trigger Probability.",
+    ContentEN = "Kezhou can have a maximum of 7 [Phanoplumes] at the same time. When launched, each [Phanoplume] selects a random enemy to orbit and homes towards them to attack, dealing Lumino Damage to enemies along the path. After attacking the enemy 3 times, the [Phanoplume] dissipates.\n\nTargets hit by [Phanoplume] take additional damage, which is equivalent to a certain percentage of the DoT of Bonus Effect: Lumino multiplied by Kezhou's Melee Weapon Trigger Probability.",
     ContentES = "Puede mantener hasta 7 [Pluma Phano] a la vez. Al lanzarse, cada [Pluma Phano] fija un enemigo aleatorio, orbita y se abalanza para atacar, lo que inflige Daño Lumino en trayectoria. Tras golpear 4 veces al objetivo, se disipa. Los objetivos alcanzados por [Pluma Phano] reciben un daño adicional equivalente a un porcentaje del Daño Periódico del efecto extra: Lumino, multiplicado por la Probabilidad de Activación del Arma Cuerpo a Cuerpo de Kezhou.",
-    ContentFR = "Peut être détenue jusqu’à 7 fois.\nLorsqu’elle est libérée, choisit un ennemi aléatoire comme cible, orbite autour de lui et fond régulièrement vers lui pour attaquer, infligeant des Dégâts Lumino aux ennemis sur sa trajectoire.\nAprès 4 attaques sur la cible, la [Phanoplume] disparaît.\nChaque attaque inflige en plus une portion des Dégâts sur la durée de l’Effet supplémentaire : Lumino, calculée selon la Chance de déclenchement de l’arme de mêlée.",
-    ContentJP = "最大7本所持可能。放つとランダムな敵を対象とし、その周りを巡回しながらルート上の敵を攻撃し、光属性ダメージを与える。目標に4回ダメージを与えたら消失する。ダメージを与える時、自身の近接武器の発動確率に応じて、一定の倍率で目標にする光属性追加効果の持続ダメージが計算される。",
-    ContentKR = "최대 7개 보유. 발사 후 랜덤 적을 대상으로 선택하고, 대상을 둘러싸며 끊임없이 대상을 향해 날아가 공격하며, 경로상의 적에게 빛 속성 대미지를 입힌다. 대상에게 4회 대미지를 입히고 사라진다. 대미지를 입힐 시 자신의 근접 무기 발동 확률을 기반으로 일정 배율로 대상의 빛 속성 추가 효과의 지속 대미지를 결산한다.",
-    ContentTC = "最多持有7把。發射後選取隨機敵人作為目標，圍繞目標飛行並不斷飛向目標進行攻擊，對路徑上的敵人造成光屬性傷害，對目標造成4次傷害後消失。造成傷害時基於自身近戰武器觸發概率以一定倍率結算目標的光屬性額外效果的持續傷害。",
-    TextMapContent = "最多持有7把。发射后选取随机敌人作为目标，围绕目标飞行并不断飞向目标进行攻击，对路径上的敌人造成光属性伤害，对目标造成4次伤害后消失。造成伤害时基于自身近战武器触发概率以一定倍率结算目标的光属性额外效果的持续伤害。",
+    ContentFR = "Peut être détenue jusqu’à 7 fois.\nLorsqu’elle est libérée, choisit un ennemi aléatoire comme cible, orbite autour de lui et fond régulièrement vers lui pour attaquer, infligeant des Dégâts Lumino aux ennemis sur sa trajectoire.\nAprès 3 attaques sur la cible, la [Phanoplume] disparaît.\nChaque attaque inflige en plus une portion des Dégâts sur la durée de l’Effet supplémentaire : Lumino, calculée selon la Chance de déclenchement de l’arme de mêlée.",
+    ContentJP = "最大7本所持可能。放つとランダムな敵を対象とし、その周りを巡回しながらルート上の敵を攻撃し、光属性ダメージを与える。目標に3回ダメージを与えたら消失する。ダメージを与える時、自身の近接武器の発動確率に応じて、一定の倍率で目標にする光属性追加効果の持続ダメージが計算される。",
+    ContentKR = "최대 7개 보유. 발사 후 랜덤 적을 대상으로 선택하고, 대상을 둘러싸며 끊임없이 대상을 향해 날아가 공격하며, 경로상의 적에게 빛 속성 대미지를 입힌다. 대상에게 3회 대미지를 입히고 사라진다. 대미지를 입힐 시 자신의 근접 무기 발동 확률을 기반으로 일정 배율로 대상의 빛 속성 추가 효과의 지속 대미지를 결산한다.",
+    ContentTC = "最多持有7把。發射後選取隨機敵人作為目標，圍繞目標飛行並不斷飛向目標進行攻擊，對路徑上的敵人造成光屬性傷害，對目標造成3次傷害後消失。造成傷害時基於自身近戰武器觸發概率以一定倍率結算目標的光屬性額外效果的持續傷害。",
+    TextMapContent = "最多持有7把。发射后选取随机敌人作为目标，围绕目标飞行并不断飞向目标进行攻击，对路径上的敌人造成光属性伤害，对目标造成3次伤害后消失。造成伤害时基于自身近战武器触发概率以一定倍率结算目标的光属性额外效果的持续伤害。",
     TextMapId = "TERMEXP_1503_Skill02_02"
         },
   TERMEXP_1504_ExtraPassive_01 = {
@@ -103279,7 +103390,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Target_Theater_1"
         },
   Target_Theater_10 = {
-    ContentEN = "Deliver a total of <H>%s</> Green-tier materials during the event",
+    ContentEN = "Deliver a total of <H>%s</> Green-tier materials",
     ContentJP = "イベント期間中ノーマル素材を累計<H>%s</>個寄付する",
     ContentKR = "이벤트 기간 동안 초록색 재료 누적 <H>%s</>개 제출",
     ContentTC = "活動期間累計交付<H>%s</>個綠色材料",
@@ -103287,7 +103398,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Target_Theater_10"
         },
   Target_Theater_11 = {
-    ContentEN = "Deliver a total of <H>%s</> Blue-tier materials during the event",
+    ContentEN = "Deliver a total of <H>%s</> Blue-tier materials",
     ContentJP = "イベント期間中レア素材を累計<H>%s</>個寄付する",
     ContentKR = "이벤트 기간 동안 파란색 재료 누적 <H>%s</>개 제출",
     ContentTC = "活動期間累計交付<H>%s</>個藍色材料",
@@ -103295,7 +103406,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Target_Theater_11"
         },
   Target_Theater_12 = {
-    ContentEN = "Deliver a total of <H>%s</> Festive Afterglow during the event",
+    ContentEN = "Deliver a total of <H>%s</> Festive Afterglow",
     ContentJP = "イベント期間中「祭りの余韻」を累計<H>%s</>個寄付する",
     ContentKR = "이벤트 기간 동안 축제의 여운 누적 <H>%s</>개 제출",
     ContentTC = "活動期間累計交付<H>%s</>個節日餘溫",
@@ -104351,7 +104462,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "TheaterOnline_Donate_Name"
         },
   TheaterOnline_Donate_NoMatch = {
-    ContentEN = "No materials available to submit",
+    ContentEN = "No materials available",
     ContentJP = "提出できる素材がありません",
     ContentKR = "제출 가능한 재료가 없습니다.",
     ContentTC = "無可提交的材料",
@@ -104469,7 +104580,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "参加失敗。舞踏会が始まりました。どうか、次回をお待ちください。",
     ContentKR = "참가 실패. 무도회가 이미 시작되었습니다. 다음 회차를 기다려 주세요.",
     ContentTC = "參加失敗，舞會已開始，請等待下一輪",
-    TextMapContent = "参加失败",
+    TextMapContent = "参加失败，舞会已开始，请等待下一轮",
     TextMapId = "TheaterOnline_Game_Sign_Fail"
         },
   TheaterOnline_Game_Sign_Success = {
@@ -105801,7 +105912,7 @@ return ReadOnly("TextMap_I18n", {
   Title_20055 = {
     ContentEN = "Nightingale",
     ContentJP = "青い鳥",
-    ContentKR = "파랑새",
+    ContentKR = "나이팅게일",
     ContentTC = "夜鶯",
     TextMapContent = "夜莺",
     TextMapId = "Title_20055"
@@ -107251,11 +107362,13 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UIGuide_JiGuanZhen_3"
         },
   UIGuide_JiaSu_1 = {
+    ContentDE = "Toucher une Rune d’accélération augmente considérablement la Vitesse de déplacement et la distance du Bond Cyclonique.",
     ContentEN = "Touching an Acceleration Rune greatly increases your movement speed and Helix Leap distance.",
-    ContentJP = "加速符文に触れると、移動速度とジャンプ距離が大幅にアップする。",
+    ContentFR = "Das Berühren einer Beschleunigungs-Rune erhöht deine Bewegungs-GES und die Reichweite des Spiralsprungs erheblich.",
+    ContentJP = "加速符文に触れると、移動速度とスピンジャンプ距離が大幅にアップする。",
     ContentKR = "가속 문자와 접촉하면 이동 속도와 스파이럴 점프 거리가 대폭 상승합니다.",
-    ContentTC = "觸碰加速符文後，你的移動速度和子彈跳距離將會大幅提升。",
-    TextMapContent = "触碰加速符文后，你的移动速度和子弹跳距离将会大幅提升。",
+    ContentTC = "觸碰加速符文後，你的移動速度和螺旋飛躍距離將會大幅提升。",
+    TextMapContent = "触碰加速符文后，你的移动速度和螺旋飞跃距离将会大幅提升。",
     TextMapId = "UIGuide_JiaSu_1"
         },
   UIGuide_JuYuan_1 = {
@@ -109088,7 +109201,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UIGuide_YanShi_2"
         },
   UIGuide_ZhanFeng_1 = {
-    ContentEN = "Ring the <H>Providence Chime</> and it will respond to your wish, awakening hidden mechanisms or memories of bygone days.",
+    ContentEN = "Ring the <H>Aeolian Chime</> and it will respond to your wish, awakening hidden mechanisms or memories of bygone days.",
     ContentJP = "<H>風鈴</>を鳴らすと、あなたの願いに応じて、隠された機巧や失われた記憶が呼び覚まされる。",
     ContentKR = "<H>풍령</>을 두드리면 풍령이 당신의 소원에 응답하여, 숨겨진 장치나 과거의 기억을 일깨웁니다.",
     ContentTC = "敲響<H>占風鐸</>，它將回應你的心願，喚醒隱藏的機關或是舊日的回憶。",
@@ -109988,11 +110101,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Accessory_Desc_40004"
         },
   UI_Accessory_Desc_40005 = {
-    ContentEN = "Wings on the breeze, arms to the sky — sing, soar, and never look down.",
+    ContentEN = "Sink into the darkness and hunt for the light.",
     ContentFR = "Portée par le vent et ses ailes, elle étreint le ciel — chante, plane, et ne regarde jamais en bas.",
-    ContentJP = "この風に乗れば、どこまでだって飛んでいける。",
-    ContentKR = "날개로 바람을 타고 하늘에서 자유를 만끽하자.",
-    ContentTC = "乘著雙翼的風，於天際擁抱自由。",
+    ContentJP = "闇に堕ち、光を求める。",
+    ContentKR = "어둠 속에서, 빛을 찾아라.",
+    ContentTC = "沉入黑暗，巡獵光明。",
     TextMapContent = "沉入黑暗，巡猎光明。",
     TextMapId = "UI_Accessory_Desc_40005"
         },
@@ -111196,14 +111309,14 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_Accessory_Name_20045 = {
     ContentEN = "Glimmering Ripples – Violet",
-    ContentJP = "さざなみ・パープル",
+    ContentJP = "さざなみ・レッドパープル",
     ContentKR = "맑은 물결·보라",
     ContentTC = "粼粼水波·絳紫",
     TextMapContent = "粼粼水波·绛紫",
     TextMapId = "UI_Accessory_Name_20045"
         },
   UI_Accessory_Name_20046 = {
-    ContentEN = "Glimmering Ripples – Dark Blue",
+    ContentEN = "Glimmering Ripples – Azure",
     ContentJP = "さざなみ・インディゴ",
     ContentKR = "맑은 물결·다크 블루",
     ContentTC = "粼粼水波·黛藍",
@@ -111486,11 +111599,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Accessory_Name_40004"
         },
   UI_Accessory_Name_40005 = {
-    ContentEN = "Hymn to the Wind",
-    ContentFR = "Hymne du vent",
-    ContentJP = "自由を讃える風",
-    ContentKR = "찬양하라 자유의 바람을",
-    ContentTC = "歌頌自由之風",
+    ContentDE = "Hymne du vent",
+    ContentEN = "Nightowl Feathers",
+    ContentJP = "フクロウの羽根",
+    ContentKR = "올빼미의 깃털",
+    ContentTC = "夜梟飛羽",
     TextMapContent = "夜枭飞羽",
     TextMapId = "UI_Accessory_Name_40005"
         },
@@ -111547,14 +111660,14 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "燭陰の逆鱗・レッドパープル",
     ContentKR = "촉룡의 역린·보라",
     ContentTC = "燭陰逆鱗·絳紫",
-    TextMapContent = "烛阴逆鳞",
+    TextMapContent = "烛阴逆鳞·绛紫",
     TextMapId = "UI_Accessory_Name_40012"
         },
   UI_Accessory_Name_40013 = {
     ContentEN = "Su Yi Skin Backpiece",
     ContentJP = "スーイースキンのアクセサリー-バック",
     ContentKR = "소을 코스튬·등 장식",
-    TextMapContent = "苏乙皮肤配饰-背部",
+    TextMapContent = "苏乙皮肤配饰-背部【远期待包装】",
     TextMapId = "UI_Accessory_Name_40013"
         },
   UI_Accessory_Name_40014 = {
@@ -111618,7 +111731,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "燭陰の逆鱗・マリーゴールド",
     ContentKR = "촉룡의 역린·골드",
     ContentTC = "燭陰逆鱗·鎏金",
-    TextMapContent = "烛阴逆鳞-金色",
+    TextMapContent = "烛阴逆鳞·鎏金",
     TextMapId = "UI_Accessory_Name_40021"
         },
   UI_Accessory_Name_40022 = {
@@ -111626,15 +111739,15 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "燭陰の逆鱗・アイボリー",
     ContentKR = "촉룡의 역린·아이보리",
     ContentTC = "燭陰逆鱗·涅白",
-    TextMapContent = "烛阴逆鳞-白色",
+    TextMapContent = "烛阴逆鳞·涅白",
     TextMapId = "UI_Accessory_Name_40022"
         },
   UI_Accessory_Name_40023 = {
     ContentEN = "Reverse Scale of Zhuyin – Rust Red",
     ContentJP = "燭陰の逆鱗・ペルシアンレッド",
-    ContentKR = "촉룡의 역린·러스트 레드",
+    ContentKR = "촉룡의 역린·\n러스트 레드",
     ContentTC = "燭陰逆鱗·銹紅",
-    TextMapContent = "烛阴逆鳞-红色",
+    TextMapContent = "烛阴逆鳞·锈红",
     TextMapId = "UI_Accessory_Name_40023"
         },
   UI_Accessory_Name_40024 = {
@@ -111685,9 +111798,9 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Accessory_Name_70001"
         },
   UI_Accessory_Name_70002 = {
-    ContentEN = "Quack Force – Dark Blue",
+    ContentEN = "Quack Force – Azure",
     ContentJP = "いいカモ・インディゴ",
-    ContentKR = "오리 발자국·다크 블루",
+    ContentKR = "오리 발자국·\n다크 블루",
     ContentTC = "小鴨力·黛藍",
     TextMapContent = "小鸭力·黛蓝",
     TextMapId = "UI_Accessory_Name_70002"
@@ -111735,7 +111848,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Accessory_Name_70022 = {
     ContentEN = "Quack Force – Rust Red",
     ContentJP = "いいカモ・ペルシアンレッド",
-    ContentKR = "오리 발자국·러스트 레드",
+    ContentKR = "오리 발자국·\n러스트 레드",
     ContentTC = "小鴨力·銹紅",
     TextMapContent = "小鸭力·锈红",
     TextMapId = "UI_Accessory_Name_70022"
@@ -111803,7 +111916,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Accessory_Name_80021 = {
     ContentEN = "Ripple Melody: Azure",
     ContentJP = "魚影清歌・インディゴ",
-    ContentKR = "물고기 연가·다크 블루",
+    ContentKR = "물고기 연가·\n다크 블루",
     ContentTC = "魚影清歌·黛藍",
     TextMapContent = "鱼影清歌·黛蓝",
     TextMapId = "UI_Accessory_Name_80021"
@@ -111811,7 +111924,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Accessory_Name_80022 = {
     ContentEN = "Ripple Melody: Rose Red",
     ContentJP = "魚影清歌・ペルシアンレッド",
-    ContentKR = "물고기 연가·러스트 레드",
+    ContentKR = "물고기 연가·\n러스트 레드",
     ContentTC = "魚影清歌·銹紅",
     TextMapContent = "鱼影清歌·锈红",
     TextMapId = "UI_Accessory_Name_80022"
@@ -112102,7 +112215,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "「スターターボックス・一」から獲得",
     ContentKR = "'시작 패키지 Ⅰ'에서 획득",
     ContentTC = "透過「啟程禮箱·一」獲得",
-    TextMapContent = "通过「启程礼包·一」获得",
+    TextMapContent = "通过「启程礼箱·一」获得",
     TextMapId = "UI_Accessory_Unlock_Shop_Start_01"
         },
   UI_Accessory_Unlock_Shop_Start_02 = {
@@ -112112,7 +112225,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "「スターターボックス・二」から獲得",
     ContentKR = "'시작 패키지 Ⅱ'에서 획득",
     ContentTC = "透過「啟程禮箱·二」獲得",
-    TextMapContent = "通过「启程礼包·二」获得",
+    TextMapContent = "通过「启程礼箱·二」获得",
     TextMapId = "UI_Accessory_Unlock_Shop_Start_02"
         },
   UI_Accessory_Unlock_Shop_Start_03 = {
@@ -112122,7 +112235,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "「スターターボックス・三」から獲得",
     ContentKR = "'시작 패키지 Ⅲ'에서 획득",
     ContentTC = "透過「啟程禮箱·三」獲得",
-    TextMapContent = "通过「启程礼包·三」获得",
+    TextMapContent = "通过「启程礼箱·三」获得",
     TextMapId = "UI_Accessory_Unlock_Shop_Start_03"
         },
   UI_Accessory_Unlock_Shop_Start_04 = {
@@ -112132,7 +112245,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "「スターターボックス・四」から獲得",
     ContentKR = "'시작 패키지 Ⅳ'에서 획득",
     ContentTC = "透過「啟程禮箱·四」獲得",
-    TextMapContent = "通过「启程礼包·四」获得",
+    TextMapContent = "通过「启程礼箱·四」获得",
     TextMapId = "UI_Accessory_Unlock_Shop_Start_04"
         },
   UI_Accessory_Unlock_Task = {
@@ -112317,20 +112430,20 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Achievement_Des_10105"
         },
   UI_Achievement_Des_10106 = {
-    ContentEN = "Collect all <highlight>Lost Sheets</> in <highlight>Icelake Environs</>",
+    ContentEN = "Collect all <highlight>Lost Sheets</> in <highlight>Purgatorio Island</>",
     ContentFR = "Rassembler toutes les <highlight>Feuilles perdues</> des <highlight>Environs de Givrelac</>",
-    ContentJP = "<highlight>アイスレイク城外周</>すべての<highlight>落とした紙片</>を集める",
-    ContentKR = "<highlight>아이스레이크 시티 주변</>의 모든 <highlight>잃어버린 종이</> 수집",
-    ContentTC = "集齊<highlight>冰湖城周圍</>所有<highlight>遺落的紙張</>",
+    ContentJP = "<highlight>パーガトリー島</>すべての<highlight>落とした紙片</>を集める",
+    ContentKR = "<highlight>연옥도</>의 모든 <highlight>잃어버린 종이</> 수집",
+    ContentTC = "集齊<highlight>凈界島</>所有<highlight>遺落的紙張</>",
     TextMapContent = "集齐<highlight>净界岛</>所有<highlight>遗落的纸张</>",
     TextMapId = "UI_Achievement_Des_10106"
         },
   UI_Achievement_Des_10107 = {
-    ContentEN = "Collect all <highlight>Lost Sheets</> in <highlight>Icelake</>",
+    ContentEN = "Collect all <highlight>Lost Sheets</> around <highlight>Icelake</>",
     ContentFR = "Rassembler toutes les <highlight>Feuilles perdues</> de <highlight>Givrelac</>",
-    ContentJP = "<highlight>アイスレイク城</>すべての<highlight>落とした紙片</>を集める",
-    ContentKR = "<highlight>아이스레이크 시티</>의 모든 <highlight>잃어버린 종이</> 수집",
-    ContentTC = "集齊<highlight>冰湖城</>所有<highlight>遺落的紙張</>",
+    ContentJP = "<highlight>アイスレイク城外周</>すべての<highlight>落とした紙片</>を集める",
+    ContentKR = "<highlight>아이스레이크 시티 주변</>의 모든 <highlight>잃어버린 종이</> 수집",
+    ContentTC = "集齊<highlight>冰湖城周邊</>所有<highlight>遺落的紙張</>",
     TextMapContent = "集齐<highlight>冰湖城周边</>所有<highlight>遗落的纸张</>",
     TextMapId = "UI_Achievement_Des_10107"
         },
@@ -112382,7 +112495,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Achievement_Des_10126 = {
     ContentEN = "Collect all four chapters of Redleaf: A Chronicle of Rebellion at Galea Theatre",
     ContentFR = "Rassembler les quatre chapitres des <highlight>Momiji : Récits du soulèvement</> au <highlight>Théâtre Galea</>",
-    ContentJP = "&lt;highlight&gtガレア劇場</>にある四章の<highlight>『紅葉返り討ち秘話』</>をすべて集める",
+    ContentJP = "<highlight>ガレア劇場</>にある四章の<highlight>『紅葉返り討ち秘話』</>をすべて集める",
     ContentKR = "<highlight>갈레아 극장</>의 모든 <highlight>〈홍엽 반토 비화〉</> 챕터 4개 수집",
     ContentTC = "集齊<highlight>蓋雷亞劇院</>所有<highlight>《紅葉反討秘話》</>的四個章節",
     TextMapContent = "集齐<highlight>盖雷亚剧院</>所有<highlight>《红叶反讨秘话》</>的四个章节",
@@ -113566,10 +113679,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Achievement_Des_4011"
         },
   UI_Achievement_Des_40206 = {
-    ContentEN = "Have <highlight>#1</> Lv. 40 weapons",
-    ContentJP = "累計<highlight>#1</>件の武器がLv.40に到達",
-    ContentKR = "누적 <highlight>#1</>개의 무기 40레벨 달성",
-    ContentTC = "累計<highlight>#1</>把武器達到Lv.40",
+    ContentEN = "Have <highlight>#1</> Lv. 60 weapons",
+    ContentJP = "累計<highlight>#1</>種類の武器がLv.60に到達",
+    ContentKR = "누적 <highlight>#1</>개의 무기 60레벨 달성",
+    ContentTC = "累計<highlight>#1</>把武器達到Lv.60",
     TextMapContent = "累计<highlight>#1</>把不同武器达到Lv.60",
     TextMapId = "UI_Achievement_Des_40206"
         },
@@ -113583,11 +113696,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Achievement_Des_4021"
         },
   UI_Achievement_Des_40302 = {
-    ContentEN = "Ascend <highlight>#1</> different weapons to Ascension Phase 2",
+    ContentEN = "Have <highlight>#1</> weapons that have reached Ascension Phase 6",
     ContentFR = "Atteindre la phase 2 d’ascension avec <highlight>#1</> armes différentes",
-    ContentJP = "累計で<highlight>#1</>種類の武器をランク2まで限界突破する",
-    ContentKR = "각기 다른 무기 <highlight>#1</>개 2급 돌파",
-    ContentTC = "累計<highlight>#1</>把不同武器突破2階",
+    ContentJP = "累計<highlight>#1</>種類の武器をランク6まで限界突破する",
+    ContentKR = "누적 <highlight>#1</>개의 무기 6급 돌파",
+    ContentTC = "累計<highlight>#1</>把武器突破6階",
     TextMapContent = "累计<highlight>#1</>把不同武器突破2阶",
     TextMapId = "UI_Achievement_Des_40302"
         },
@@ -113627,10 +113740,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Achievement_Des_4051"
         },
   UI_Achievement_Des_40602 = {
-    ContentEN = "Upgrade a total of <highlight>#1</> 4★ weapons' Smelting Level to Lv. 5",
-    ContentJP = "★4武器<highlight>#1</>件の熔錬レベルを5までアップする",
-    ContentKR = "누적 <highlight>#1</>개의 4성 무기 용해 레벨이 5레벨 달성",
-    ContentTC = "累計<highlight>#1</>把4星武器熔煉等級提升至5級",
+    ContentEN = "Upgrade a total of <highlight>#1</> weapons' Smelting Level to Lv. 5",
+    ContentJP = "累計で<highlight>#1</>種類の武器の製錬レベルを5までアップする",
+    ContentKR = "누적 <highlight>#1</>개의 무기 용해 레벨이 5레벨 달성",
+    ContentTC = "累計<highlight>#1</>把武器熔煉等級提升至5級",
     TextMapContent = "累计<highlight>#1</>把武器熔炼等级提升至5级",
     TextMapId = "UI_Achievement_Des_40602"
         },
@@ -113644,6 +113757,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Achievement_Des_4061"
         },
   UI_Achievement_Des_40701 = {
+    ContentDE = "Améliorer Trancheur d’ambre au Niveau 5 de fusion",
     ContentEN = "Upgrade Blade Amberglow's Smelting Level to Lv. 5",
     ContentFR = "Améliorer Trancheur d’ambre au Niveau 5 de fusion",
     ContentJP = "アンバーエッジの製錬レベルを5まで強化する",
@@ -113692,7 +113806,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Secured victory within <highlight>#1</>s in solo-mode "Nocturnal Echoes: Beast From the Snowfield" on the highest difficulty",
     ContentFR = "Dans [Échos nocturnes : La Bête née du blizzard], remporter le combat en mode solo et en difficulté maximale en moins de <highlight>#1</> s",
     ContentJP = "ソロで最高難易度の「悪夢の残響：雪国の野獣」を<H>#1</>秒以内にクリア",
-    ContentKR = "싱글 도전에서, <highlight>#1</>초 이내에 '악몽의 끝·설국의 야수' 최고 난이도 클리어",
+    ContentKR = "싱글 도전에서, <highlight>#1</>초 이내에 '악몽의 잔향·설국의 야수' 최고 난이도 클리어",
     ContentTC = "單人挑戰下，<highlight>#1</>秒內取得最高難度「夢魘殘聲·雪國的野獸」的勝利",
     TextMapContent = "单人挑战下，<highlight>#1</>秒内取得最高难度“梦魇残声·雪国的野兽”的胜利",
     TextMapId = "UI_Achievement_Des_5005"
@@ -113853,7 +113967,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Secured victory in "Nocturnal Echoes: Beast From the Snowfield" on the highest difficulty <highlight>without summoning any Combat Partners</>",
     ContentFR = "Dans [Échos nocturnes : La Bête née du blizzard], remporter le combat en difficulté maximale <highlight>sans invoquer de Partenaires de combat</>",
     ContentJP = "<highlight>戦友を召喚せず</>、最高難易度の「悪夢の残響：雪国の野獣」をクリア",
-    ContentKR = "<highlight>협력 동료를 소환하지 않고</> '악몽의 끝·설국의 야수'의 최고 난이도 클리어",
+    ContentKR = "<highlight>협력 동료를 소환하지 않고</> '악몽의 잔향·설국의 야수'의 최고 난이도 클리어",
     ContentTC = "取得最高難度「夢魘殘聲·雪國的野獸」的勝利，<highlight>且未召喚協戰同伴</>",
     TextMapContent = "取得最高难度“梦魇残声·雪国的野兽”的胜利，<highlight>且未召唤协战同伴</>",
     TextMapId = "UI_Achievement_Des_5015"
@@ -114158,7 +114272,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Secured victory in "Nocturnal Echoes: Beast From the Snowfield" on the highest difficulty <highlight>without losing HP or summoning any Combat Partners</>",
     ContentFR = "Dans [Échos nocturnes : La Bête née du blizzard] en difficulté maximale, remporter le combat <highlight>sans perdre de PV ni invoquer de Partenaires de combat</>",
     ContentJP = "<highlight>戦友を召喚せず、かつダメージを受けずに</>、最高難易度の「悪夢の残響：雪国の野獣」をクリア",
-    ContentKR = "<highlight>HP 대미지를 받지 않고, 협력 동료를 소환하지 않은 상태로</> '악몽의 끝·설국의 야수'의 최고 난이도 클리어",
+    ContentKR = "<highlight>HP 대미지를 받지 않고, 협력 동료를 소환하지 않은 상태로</> '악몽의 잔향·설국의 야수'의 최고 난이도 클리어",
     ContentTC = "取得最高難度「夢魘殘聲·雪國的野獸」的勝利，<highlight>未受到生命值傷害且未召喚協戰同伴</>",
     TextMapContent = "取得最高难度“梦魇残声·雪国的野兽”的胜利，<highlight>未受到生命值伤害且未召唤协战同伴</>",
     TextMapId = "UI_Achievement_Des_5055"
@@ -123130,11 +123244,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Banned_Des_Map"
         },
   UI_Banner_GeneralTips = {
-    ContentEN = "Please go to the [Gift Chest] screen to purchase the Phoxhunter Skin Chest.\nPlease go to the Cosmetics screen to purchase the Skin Selection Chest.",
+    ContentEN = "Please go to the [Gift Chest] screen to purchase the Phoxhunter Skin Chest.\nPlease go to the [Cosmetics] screen to purchase the Skin Selection Chest.",
     ContentJP = "月狩り人外見ボックス・は、ギフトページでご購入いただけます。\n 外見選択ボックスは、外見ページでご購入ください。",
     ContentKR = "월석 사냥꾼 패키지는 패키지 탭에서 구매하실 수 있습니다.\n선택 코스튬 패키지는 외형 탭에서 구매하실 수 있습니다.",
-    ContentTC = "狩月人形象禮箱請前往禮箱頁簽購買。_x000D_\n自選形象禮箱請前往外觀頁簽購買。",
-    TextMapContent = "狩月人形象礼箱请前往礼箱页签购买。\n闻香自选形象礼箱·墨玉请前往外观页签购买。",
+    ContentTC = "狩月人形象禮箱請前往禮箱頁簽購買。\n自選形象禮箱請前往外觀頁簽購買。",
+    TextMapContent = "狩月人形象礼箱请前往礼箱页签购买。\n自选形象礼箱请前往外观页签购买。",
     TextMapId = "UI_Banner_GeneralTips"
         },
   UI_Banner_GeneralTipsEntry = {
@@ -123192,10 +123306,10 @@ return ReadOnly("TextMap_I18n", {
   UI_Banner_Remain_Buy = {
     ContentEN = "Remaining Purchases:{空格}",
     ContentFR = "Achats restants :",
-    ContentJP = "残り購入回数:{空格}",
+    ContentJP = "残り購入回数：",
     ContentKR = "남은 구매 횟수:{空格}",
-    ContentTC = "剩餘購買次數",
-    TextMapContent = "剩余购买次数 ",
+    ContentTC = "剩餘購買次數：",
+    TextMapContent = "剩余购买次数：",
     TextMapId = "UI_Banner_Remain_Buy"
         },
   UI_Banner_Reminder = {
@@ -123286,7 +123400,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "新キャラスキン",
     ContentKR = "신규 캐릭터 코스튬",
     ContentTC = "全新角色形象",
-    TextMapContent = "全新形象",
+    TextMapContent = "全新角色形象",
     TextMapId = "UI_Banner_Tab_NewSkin"
         },
   UI_Banner_Tab_NewWeapon = {
@@ -123338,10 +123452,6 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "超值返利1336%",
     TextMapContent = "超值返利1336%",
     TextMapId = "UI_Banner_Tab_SpSale_10"
-        },
-  UI_Banner_Tab_SpSale_200 = {
-    TextMapContent = "超值返利200%",
-    TextMapId = "UI_Banner_Tab_SpSale_200"
         },
   UI_Banner_Tab_SpSale_230 = {
     ContentEN = "230% Bonus Rebate",
@@ -124907,11 +125017,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_CHAR_DATA_TEXT_15020202"
         },
   UI_CHAR_DATA_TEXT_15020203 = {
-    ContentEN = "Sacred Tower Era, Year 998 — known also as Year One of the New Era — stands as a boundary no historian dares overlook. Some scholars divide the continent's past into two distinct eras: Before 998, and After 998. For it was in that year that the disillusioned cast aside the gods. They tore down the icons they once revered, raised blades in defiance, and abandoned the lands they had long called home. Marching northward into hardship and uncertainty, they began what would come to be known as the Great Migration — an event forever bound to the name Erika.\nDaughter of Lord Generous, Erika could have lived a life of comfort and privilege. Instead, she chose to fight — for freedom, for equality — even if it meant standing against her own blood. Records describe her as valiant and passionate — a warrior who led from the front, spear in hand; her unshakable back a banner for others to follow.\nAs for Erika's closest companion, the chronicles mention only one name: Alexis — the sage who would one day found the Free State of Aethyrie. Yet in stories passed down by those who walked the Great Migration themselves, there is always mention of another — a young woman, rarely seen apart from Erika. The two were like sisters, inseparable in both step and spirit. Yet their temperaments could not have been more different: Erika shone with the brilliance of the noonday sun, while the other girl was quiet, reserved — a gentle soul, more akin to the aurora that softly graces the polar night.",
+    ContentEN = "Sacred Tower Era, Year 998 — known also as Year One of the New Era — stands as a boundary no historian dares overlook. Some scholars divide the continent's past into two distinct eras: Before 998, and After 998. For it was in that year that the disillusioned cast aside the gods. They tore down the icons they once revered, raised blades in defiance, and abandoned the lands they had long called home. Marching northward into hardship and uncertainty, they began what would come to be known as the Great Migration — an event forever bound to the name Erika.\n\nDaughter of Lord Generous, Erika could have lived a life of comfort and privilege. Instead, she chose to fight — for freedom, for equality — even if it meant standing against her own blood. Records describe her as valiant and passionate — a warrior who led from the front, spear in hand; her unshakable back a banner for others to follow.\n\nAs for Erika's closest companion, the chronicles mention only one name: Alexis — the sage who would one day found the Free State of Aethyrie. Yet in stories passed down by those who walked the Great Migration themselves, there is always mention of another — a young woman, rarely seen apart from Erika. The two were like sisters, inseparable in both step and spirit. Yet their temperaments could not have been more different: Erika shone with the brilliance of the noonday sun, while the other girl was quiet, reserved — a gentle soul, more akin to the aurora that softly graces the polar night.",
     ContentFR = "L’an 998 de l’Ère de la Tour Sacrée — autrement dit la première année de la Nouvelle Ère — fut, pour tout historien d’Atlasia, une année impossible à ignorer. Certains vont jusqu’à diviser l’histoire du continent en deux âges : avant 998 et après 998.\nCar cette année-là, les désabusés tournèrent le dos aux dieux : ils renversèrent les idoles, brandirent les armes, quittèrent la terre qui les avait vus naître. Vers le nord, ils marchèrent, affrontant un voyage long et éprouvant... celui que les chroniques nomment la Grande Migration.\nImpossible d’évoquer la Grande Migration sans parler d’Erika. Fille du Seigneur "Générosité", elle aurait pu vivre dans l’aisance, comme toute héritière de noble maison. Mais elle choisit de combattre, pour la liberté, pour l’égalité, allant jusqu’à s’opposer à son propre père, afin de poursuivre l’avenir qu’elle imaginait. \nOn la décrit franche, ardente, intrépide, toujours en première ligne, lance au poing, offrant à tous le courage silencieux de son dos dressé face à l’ennemi.\nLes chroniques ne mentionnent qu’un nom pour parler de son plus proche allié : Alexis, le sage qui fonderait un jour la Libre-Alliance d’Aethyrie.\nMais dans la mémoire de ceux qui ont eux-mêmes foulé la route de la Grande Migration, il est toujours question d’une autre présence...\n\nUne jeune femme, inséparable d’Erika. Comme des sœurs, elles marchaient d’un même pas. Pourtant, leurs natures différaient : Erika rayonnait comme le soleil brûlant du zénith, l’autre, discrète et réservée, évoquait plutôt l’aurore boréale qui éclaire doucement la nuit polaire.",
-    ContentJP = "998年――この年は、アトラシアの歴史学者にとって決して避けては通れない特別な年である。ある学者は、この年を境にアトラシアの歴史を「998年前」と「998年後」に二分するほどだ。その年、人々はもはや神に祈らず、聖像を打ち壊し、剣を取り、故郷を後にした。\n彼らは北を目指し、厳しくも長い旅路へと踏み出す――それこそが、史書に記される「大移住」である。\nこの「大移住」に触れると、歴史の筆は必ずひとつの名に至る。それが、「チャリティ」様の令嬢、エリカである。本来ならば貴族の娘として安楽な日々を過ごしていたはずの彼女は、自由と平等を求めて立ち上がり、自らの父とさえ刃を交える道を選んだ。記録によれば、エリカは快活で真っ直ぐな性格で、槍を手に常に戦列の先頭に立ち、その背中で仲間たちを奮い立たせたとされる。\nこの伝説的な戦士の親友として、歴史書にはよく「イーザー共和国」の創設者レクシスの名が記される。だが、実際に反乱軍とともに旅をした人々が語り継ぐ物語には、もう一人の少女の姿がある。\nその娘もまたエリカと同じ年頃で、常に寄り添い、まるで姉妹のような絆を結んでいたという。ただし、陽のように明るく力強いエリカに対し、その少女は静かで内省的な性格だった。\n――エリカが昼の太陽なら、彼女はまさに夜空を彩る静かなオーロラだった。",
-    ContentKR = "성탑력 998년, 즉 신력은 모든 아트라시아의 역사학자에게 회피할 수 없는 해로 간주된다. 심지어 어떤 통사학자들은 아트라시아의 역사를 '998년 이전'과 '998년 이후'의 두 부분으로 나눈다. 그 해, 독실함을 잃은 사람들은 신을 버리고 신상을 파괴했고, 칼과 검을 들고 고향을 떠나, 북쪽을 향해 기나긴 고난의 여정을 시작했다. 이는 역사서에 유명한 '대이동' 사건으로 기록되어 있다.\n'대이동' 사건을 언급할 때, 역사서는 에리카라는 이름을 빠뜨리지 않는다. '관대' 님의 딸로서, 에리카는 귀족 아가씨의 풍요로운 삶을 누릴 수 있었지만, 자유와 평등을 위한 싸움에 참여하기로 결심하고, 심지어는 자신의 친아버지와도 적으로 맞섰다. 오직 마음속에 그린 이상적인 미래를 위해서였다. 기록에 따르면, 그녀는 열정적이고 솔직하고 용감했으며, 언제나 창을 들고 전투의 최전선에서 싸우면서, 강인한 뒷모습으로 많은 이들에게 용기를 주었다.\n이 전설적인 전사의 절친한 벗에 관해, 역사서는 주로 훗날 이스엘 자유국을 세운 현자 렉시스만을 언급한다. 하지만, 반군을 따라 이동한 이들의 후손이 전하는 이야기에 따르면, 에리카의 곁에는 중요한 여성 친구가 한 명 있었다. 두 소녀는 나이가 비슷했고, 항상 함께 다니며 자매처럼 가까웠다. 에너지 넘치고 눈부신 에리카와는 달리, 다른 소녀는 조용하고 내성적인 성격이었다. 에리카가 한낮의 뜨거운 태양이라면, 그 소녀는 밤하늘의 고요한 오로라와 같았다.",
-    ContentTC = "998年，對任何一個阿特拉西亞的史家來說，都是一個無法繞開的年份。一些通史學者更是將阿特拉西亞的歷史分為「998年之前」和「998年之後」上下兩部份。那一年，不再虔信的人們背棄了神明，毀卻了聖像，拿起了刀劍，拋棄了故鄉；他們一路北去，踏上了一場漫長而艱辛的跋涉——這便是史書上著名的「大遷徙」事件。\n提起「大遷徙」事件，史書總不會略過艾瑞卡這個名字。身為「慷慨」大人的女兒，艾瑞卡本可以理所當然地享受貴族小姐的優渥生活，卻毅然選擇為自由與平等而戰，甚至不惜與自己的親生父親為敵，只為追求心中理想的未來。根據記載，她熱情直爽、英勇善戰，總是手持長槍衝在戰鬥的最前線，用堅毅的背影鼓舞眾人。\n關於這位傳奇般的戰士的至交好友，史書往往只會提到後來建立了伊瑟爾自由邦的那位智者萊克西斯。不過，在親自跟隨反抗軍遷徙的那批民眾對後代講述的故事裡，艾瑞卡的身邊還有另一位重要的女性友人。兩位女孩年紀相仿，總是形影不離，情同姊妹。但與活潑耀眼的艾瑞卡不同，另一位女孩的性格更加文靜內斂；如果說艾瑞卡像白晝熾熱的太陽，那麼另外那位女孩就像是夜晚寧靜的極光。",
+    ContentJP = "聖塔暦998年――すなわち新暦元年――それはアトラシアの歴史学者にとって避けて通れない特別な年である。通史を扱う学者の中には、アトラシアの歴史を「998年以前」と「998年以降」に二分する者さえいる。その年、人々は神への信仰を捨て、聖像を打ち壊し、剣を手に取り、故郷を離れた。彼らは北を目指し、長く険しい旅路へと踏み出した――それこそが、史書に記される「大移住」である。\nこの「大移住」を語るとき、史書が必ず記す名がひとつある。それが、「チャリティ」様の令嬢、エリカだ。本来ならば貴族の娘として安楽な日々を過ごしていたはずの彼女は、自由と平等を求めて立ち上がり、自らの父とさえ刃を交える道を選んだ。記録によれば、彼女は情熱的で真っ直ぐ、勇猛果敢で、常に長槍を手に最前線を駆け、仲間をその背で奮い立たせたという。\nこの伝説的な戦士の親友として、歴史書にはよく「イーザー共和国」の創設者レクシスの名が記される。だが、反抗軍とともに歩んだ人々が子孫に語り継いだ物語の中には、エリカの傍らにもう一人、重要な女性の存在が描かれている。\n二人の娘は年頃も近く、まるで姉妹のように片時も離れず寄り添っていた。しかし、陽の光のように眩しく快活なエリカとは対照的に、その友はより静かで内向的な性格をしていた。\nもしエリカが昼の太陽に喩えられるなら、彼女は夜空にきらめく静謐なオーロラのごとき存在であった。",
+    ContentKR = "998년, 즉 성탑력 원년은 모든 아트라시아의 역사학자에게 회피할 수 없는 해로 간주된다. 심지어 어떤 통사학자들은 아트라시아의 역사를 '998년 이전'과 '998년 이후'의 두 부분으로 나눈다. 그 해, 독실함을 잃은 사람들은 신을 버리고 신상을 파괴했고, 칼과 검을 들고 고향을 떠나, 북쪽을 향해 기나긴 고난의 여정을 시작했다. 이는 역사서에 유명한 '대이동' 사건으로 기록되어 있다.\n'대이동' 사건을 언급할 때, 역사서는 에리카라는 이름을 빠뜨리지 않는다. '관대'의 딸로서, 에리카는 귀족 아가씨의 풍요로운 삶을 누릴 수 있었지만, 자유와 평등을 위한 싸움에 참여하기로 결심하고, 심지어는 자신의 친아버지와도 적으로 맞섰다. 오직 마음속에 그린 이상적인 미래를 위해서였다. 기록에 따르면, 그녀는 열정적이고 솔직하고 용감했으며, 언제나 창을 들고 전투의 최전선에서 싸우면서, 강인한 뒷모습으로 많은 이들에게 용기를 주었다.\n이 전설적인 전사의 절친한 벗에 관해, 역사서는 주로 훗날 이스엘 자유국을 세운 현자 렉시스만을 언급한다. 하지만, 반군을 따라 이동한 이들의 후손이 전하는 이야기에 따르면, 에리카의 곁에는 중요한 여성 친구가 한 명 있었다. 두 소녀는 나이가 비슷했고, 항상 함께 다니며 자매처럼 가까웠다. 에너지 넘치고 눈부신 에리카와는 달리, 다른 소녀는 조용하고 내성적인 성격이었다. 에리카가 한낮의 뜨거운 태양이라면, 그 소녀는 밤하늘의 고요한 오로라와 같았다.",
+    ContentTC = "聖塔曆998年——也就是新曆元年——對任何一個阿特拉西亞的史家來說，都是一個無法繞開的年份。一些通史學者更是將阿特拉西亞的曆史分為「998年之前」和「998年之後」上下兩部分。那一年，不再虔信的人們背棄了神明，毀卻了聖像，拿起了刀劍，拋棄了故鄉；他們一路北去，踏上了一場漫長而艱辛的跋涉——這便是史書上著名的「大遷徙」事件。\n提起「大遷徙」事件，史書總不會略過艾瑞卡這個名字。身為「慷慨」大人的女兒，艾瑞卡本可以理所當然地享受貴族小姐的優渥生活，卻毅然選擇為自由與平等而戰，甚至不惜與自己的親生父親為敵，只為追求心中理想的未來。根據記載，她熱情直爽、英勇善戰，總是手執長槍衝在戰鬥的最前線，用堅毅的背影鼓舞眾人。\n關於這位傳奇般的戰士的至交好友，史書往往只會提到後來建立了伊瑟爾自由邦的那位智者萊克西斯。不過，在親自跟隨反抗軍遷徙的那批民眾對後代講述的故事裡，艾瑞卡的身邊還有另一位重要的女性友人。兩位姑娘年紀相仿，總是形影不離，情同姐妹。但與活潑耀眼的艾瑞卡不同，另一位姑娘的性格更加文靜內斂；如果說艾瑞卡像白晝熾熱的太陽，那麼另外那位姑娘就像是夜晚寧靜的極光。",
     TextMapContent = "圣塔历998年——也就是新历元年——对任何一个阿特拉西亚的史家来说，都是一个无法绕开的年份。一些通史学者更是将阿特拉西亚的历史分为“998年之前”和“998年之后”上下两部分。那一年，不再虔信的人们背弃了神明，毁却了圣像，拿起了刀剑，抛弃了故乡；他们一路北去，踏上了一场漫长而艰辛的跋涉——这便是史书上著名的“大迁徙”事件。\n提起“大迁徙”事件，史书总不会略过艾瑞卡这个名字。身为“慷慨”大人的女儿，艾瑞卡本可以理所当然地享受贵族小姐的优渥生活，却毅然选择为自由与平等而战，甚至不惜与自己的亲生父亲为敌，只为追求心中理想的未来。根据记载，她热情直爽、英勇善战，总是手执长枪冲在战斗的最前线，用坚毅的背影鼓舞众人。\n关于这位传奇般的战士的至交好友，史书往往只会提到后来建立了伊瑟尔自由邦的那位智者莱克西斯。不过，在亲自跟随反抗军迁徙的那批民众对后代讲述的故事里，艾瑞卡的身边还有另一位重要的女性友人。两位姑娘年纪相仿，总是形影不离，情同姐妹。但与活泼耀眼的艾瑞卡不同，另一位姑娘的性格更加文静内敛；如果说艾瑞卡像白昼炽热的太阳，那么另外那位姑娘就像是夜晚宁静的极光。",
     TextMapId = "UI_CHAR_DATA_TEXT_15020203"
         },
@@ -125120,9 +125230,9 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_CHAR_DATA_TEXT_15030401"
         },
   UI_CHAR_DATA_TEXT_15030402 = {
-    ContentEN = "Yan Shanting was drunk again. Ever since he had passed fifty, that had become his usual state.\n"Youngsters these days — their talent just isn't what it used to be. Each lot is worse than the last!" He thought darkly, punctuating the thought with a burp reeking of fiery liquor. He knew full well it had been this way for a long time.\nTo most people in Huaxu, Drifters were little more than a noisy rabble of hotheaded youths and stubborn old men too ossified to straighten out — hardly a path anyone would call respectable. Youngsters with any real gift for martial arts were rare indeed. As a result, Drifters these days were no longer constantly on the brink of trading blows with each other. Far more often, they were busy flattering one another, keeping things amiable within their own ranks. Because of that, Yan Shanting often had no choice but to attend one master's celebratory feast or another, held in honour of whatever new disciple they had just taken in. There he would smile, drink, and make a fine show of courtesy, so that the bright-eyed novices would feel honoured — convinced they had chosen the right shifu and that the life of a Drifter was a respectable road after all. As for the disciple's aptitude... securing one at all was fortune enough — few had the luxury of being choosy.\nSo although Yan Shanting's own disciple kept urging him to drink less for the sake of his health, there was no persuading him. Ever since he had made a name for himself among the Drifters and earned the nickname "Master of Thousand Peaks", his old friends and rivals alike seemed to reach a silent agreement: they all became unfailingly courteous. Sparring matches turned into polite exchanges, and with compliments ringing in his ears, he would sit through yet another feast and stagger away thoroughly drunk.\n"Flowers bloom and fall, year after year. Young blades set out into the world and grow old on its roads. When I grow truly old, what face this martial world will be wearing by then?"\n \nMaybe it was the greasy roast goose from today's feast, or the sliced fish that hadn't been cooked quite long enough to lose its smell. Either way, Yan Shanting had barely finished his wistful remark when his stomach lurched — a hot, sour tide rising in his throat — and he promptly emptied the whole feast onto a heap of dead leaves along the mountain path.\nFor all his famed agility and effortless elegance in the martial world, Yan Shanting was no different from a farmhand when it came to throwing up — hardly a refined sight, and certainly not a pleasant smell. Before he had even finished retching, a figure burst out of the heap of leaves, flipped once in mid-air, shook the filth from their clothes, and brought a sword flashing down.\nYan Shanting jolted in shock, but with his stomach still heaving he had no strength to fight and could only stumble aside. Even so, the sword's edge grazed his sleeve and sliced a strip from his robe.\nHis black-clad disciple gasped and leapt between them, spear in hand, setting the shaft crosswise before his shifu.\n"Who are you? Why were you hiding in there to ambush my shifu?" he snapped.\nThe figure from the leaves sounded utterly unconcerned. "I'm not fighting you — you didn't do anything to me. That old fellow threw up on me. I'm fighting him."\nThe disciple frowned, taking a closer look. The intruder was a boy of twelve or thirteen — about the same age as himself — hair a tangled mess, clothes filthy, clearly used to living rough and with no manners to speak of. So he snapped again, "Don't you disrespect my shifu!"\n \nBy now Yan Shanting had finally caught his breath. He held his disciple back and said to the boy, "I dirtied your clothes. That was my fault. I apologise."\nThe boy showed no hesitation at all. "So you do know your manners. Good. Now then — for your apology, what are you going to give me to make up for it?"\nSmiling, Yan Shanting replied, "You've got some skill yourself. How about I teach you a few sword moves?"\nThe boy remained unimpressed. "Your skills aren't that great. I cut your clothes to shreds without even trying. I don't want to learn from you."\nYan Shanting was left speechless. His disciple, however, had heard enough. Spinning his spear in a sharp flourish, he drove off the ground and shot forward like a streak of black-violet lightning.\nThe boy laughed and stepped back without the slightest hurry. The spear tip came close enough to punch a hole clean through him — only to miss by a hair as he knocked it aside with his sword, leaving the disciple's middle completely open. Even so, the disciple didn't panic. He flowed with the momentum, sweeping the spear's shaft up to guard himself. The boy's blade crashed against it in a spray of sparks — and the strike slid harmlessly aside.\nHe hadn't expected it to be a feint. As he gave ground, the boy had already backed against a rock wall. In one smooth motion he ran up the stone and vaulted clean over the black-clad disciple, sword driving straight for Yan Shanting.\nAdmiration flickered in Yan Shanting's eyes, but he dared not be careless. He drew his own sword and sprang forward to meet the thrust head-on — the only correct way to counter that technique. Step left, right, or back, and the follow-up would skewer him. That was why the move was called the Chain of Three Perils.\nSeeing Yan Shanting counter so cleanly, the boy gave a small sound of surprise, pulled his blade back in mid-air, and dropped to the ground in a steady landing.\n \nYan Shanting asked, "Not bad at all, boy. Who's your shifu?"\nThe boy sounded impatient. "I just copied the monkeys in the hills. If you really must know, then the monkey king with the reddest bottom up there is my shifu."\nYan Shanting was speechless once more, while his disciple Yuming looked ready to give this impudent brat another lesson.\nYan Shanting, however, took no offence. He simply put his easy smile back on. "You're a sharp one, lad. How about becoming my disciple?"\n"No. I told you — your skills just aren't that good." With that, Kezhou scooped up his sword and turned to leave.\nYan Shanting remained perfectly calm. "We just fought to a draw, didn't we? How about a wager? A few more rounds — as many as you like. If you can land a hit on me, I'll even let you be my shifu."\nAt that, Kezhou finally turned back, eyeing the grinning old man with open suspicion — then agreed to the wager.\nLater, looking back, Kezhou would feel he had been thoroughly tricked by Yan Shanting that day. But at the time, he had no inkling of what the future held.",
-    ContentJP = "宴山亭は、また酒に呑まれていた。五十を越えてからというもの、酔う日はめっきり増えた。\n 「まったく、最近の若いのは……筋の良い者なんて滅多におらん、年々落ちる一方だ」胸の内で毒づき、げっぷをひとつ。もっとも、こう嘆き始めたのは近ごろに限ったことではない。\n 華胥の者からすれば、流れ者とは、元気が有り余った若造と、引き際を誤った頑固者ばかりが集う、いささか物騒な集団――決して憧れの職ではない。だからこそ、若くして才の抜きんでた者が現れることなどほとんどなく、剣呑な火花が飛び交う旧き気風もすっかり影を潜め、今では互いに持ち上げ合って場を丸く収めるのが当たり前になった。そのせいで、宴山亭は連日のように誰某の弟子入りの宴へ顔を出しては、愛想よく席を温め、「この師を選んだのは幸運だった」と若者たちに思わせ、流れ者も捨てたものではないと思わせる役回りを担わされている。弟子の資質？あるだけ上等、選り好みしていられる時代ではない。\n だから、弟子が「飲みすぎはよくありません」とたしなめても、止まるはずがない。流れ者の世に名を馳せ、「千山を蕩かす」などと大仰な異名までついて以来、親しく斬り結んだ旧友も仇敵も、まるで示し合わせたように頭を垂れ、剣気はなくなり、呼ばれるのは「前輩」の声ばかり。気づけば、熱い酒肴の前でひとり酔い、残るのは身にこびりついた酒の匂いだけ。\n 「花は咲いては散り、散っては咲く……。私が老い切っ た頃には、さてどんな風景になっているやら――」そう言いかけた刹那、今日の宴で食した焼きガチョウの脂が重かったのか、はたまた魚の生臭さが尾を引いたのか、腹の底が一気に反乱を起こし、胸の内の酸が逆流した。赤いの青いの、酸いの甘いの――席で口にしたものをまとめてぶちまけると、山の斜面に積もった枯葉へと無残に降りかかった。\n いかに宴山亭が瀟洒な身法で世に名を立てようと、吐くときばかりは田舎の百姓と変わりない。見栄えも悪く、匂いはなお悪い。だが、まだ吐き終えぬうちに、枯葉の山がばさりと割れ、中からひと影が飛び出した。空中で身を翻し、身体についた汚れを払い落とすや、きらりと剣を抜く。\n 宴山亭は目を瞠ったが、腹の内はまだ荒れ狂い、息も続かぬ。避けるのが精一杯だった。鋭い刃が袖をかすめ、衣の端を裂き落とす。黒衣の弟子が驚き、即座に槍を繰り出して二人の間へ割り込み、横槍を構えて師を庇った。「貴様、何者だ！なぜ師匠を襲う！」枯葉から現れた影は、どこ吹く風といった調子で答えた。\n 「おまえとはやらん。別に恨みはない。だがあのじいさん、吐いたものを俺にぶちまけた。許さん」黒衣の弟子は眉を寄せた。相手は十二、三といった年頃で、自分と大差ない。だが髪はぼさぼさ、顔も手も泥で黒ずみ、どう見ても長く野山をさまよってきた野人同然。礼など知るはずもない。だからきっぱりと言い放つ。「師匠に無礼を働くな！」\n そのとき、ようやく宴山亭は呼吸を整え、弟子を制して前に出た。蓬々とした髪の少年に向かい、静かに言う。「おまえの衣を汚したのは、確かに私の非だ。失礼を詫びよう」少年は遠慮など微塵もない。\n 「へっ、教科書らしい詫びだな。口だけでは何とでもいえよう。具体的に何をくれるんだ？」宴山亭は笑みを浮かべた。\n 「おまえ、少しばかり身のこなしがあるようだ。よければ、刀や剣の手ほどきをしてやろう」だが少年は即座に鼻で笑った。\n 「いやだね。あんたの腕、たいしたことない。ほら、服だって俺が斬り裂かれたじゃないか。そんな人に習う気はない」\n 宴山亭は言葉を失った。黒衣の弟子はとうとう堪えきれず、槍を翻して踏み込み、黒紫の雷のように一直線へ突き進んだ。\n 少年は豪快に笑い、ゆるりと後ろへ身を引く。槍先は今にも肌を穿ちそうでいて、紙一重で届かない。少年の剣が軽く当たり、軌道を弾かれた弟子の中段はがら空きになった。だが弟子も怯まない。即座に槍身を盾のように立て、落ちてきた剣を受け止める。火花が散り、少年の一撃を見事にいなした。しかし、それは囮にすぎなかった。\n 少年は後退の勢いのまま岩壁へ至り、猿のように蹴り上がって身を宙へ投げる。弟子の頭上を越えた少年は、狙いを宴山亭へと向け、刃をまっすぐ突き出した。宴山亭の目には、むしろ賞賛の光が強まっていた。とはいえ受けに回れば斬られる。彼もまた剣を抜き、正面から飛び込み、少年と交差するように刃を突き出す。これが唯一の解法――左も右も後ろも死地となる、ゆえに「連環三劫剣」と呼ばれる理屈だ。\n 宴山亭がその構えをとった瞬間、少年は空中で「ほう」と声を漏らし、攻め手をほどいて軽やかに着地した。宴山亭は問う。\n 「なかなかの腕前だ。師は誰だ？」\n 少年はうんざりしたように返す。\n 「山で猿と勝手にやってただけさ。どうしても師匠って言うなら、山一番ケツの真っ赤な猿の王様が師匠ってところだな」\n 宴山亭はまたしても言葉に詰まった。弟子のユーミンも前に出て、今にも 「無礼者を懲らしめてやる」と言わんばかりの顔になっていた。だが老者は気にしたふうもなく、むしろ先ほどより柔らかい笑みを浮かべて言った。\n 「おまえ、悟りが早い。どうだ、私の弟子にならんか」\n 「いやだね。さっきも言ったけど、あんたの腕は大したことない」\n 言い捨てると、少年――カシュウは剣を取り、立ち去ろうとした。\n 宴山亭はそれでも怒らず、背中に声を投げた。\n 「さっきの勝負は引き分けだ。勝敗は決まっておらん。どうだ、一つ賭けをしよう。何度でも構わん、私と手合わせしてみろ。もし、おまえが一太刀でも私に当てたら……私がおまえの弟子になってやる」その言葉に、カシュウはようやく振り返った。三分ばかり悪だくみの匂いをまとった老人を、じろりと見つめる。そして、賭けを受けると答えた。\n 後年になって思い返すたびに、カシュウはこのときこそ、自分が宴山亭にまんまと一本取られた瞬間だったと苦笑するのだが。無論、この日の彼は、そんな未来を知るよしもなかった。",
-    ContentKR = "연산정은 오늘도 취해 있었다. 오십 줄에 들어선 이후, 그는 시도 때도 없이 술독에 빠져 지내곤 했다.\n"요즘 젊은것들은 하나같이 싹수가 노랗다니까. 아주 갈수록 가관이야!" 끓어오르는 울분을 트림과 함께 뱉어 냈지만, 이런 상황이 어제오늘 일이 아니라는 건 연산정도 알고 있었다.\n화서 사람들에게 있어 나그네란, 혈기만 넘치는 애송이들과 고집불통 늙은이들의 집합소일 뿐, 선망의 대상과는 거리가 멀었다. 따라서 쓸만한 재목을 찾기란 하늘의 별 따기나 다름없었고, 자연히 나그네들의 기풍도 변해갔다. 예전처럼 날을 세우기보다는, 서로 치켜세우며 둥글게 지내는 것이 미덕인 세상이 온 것이다. 연산정이 누가 제자를 들였다며 연회를 열 때마다 울며 겨자 먹기로 전전하는 것도 이 때문이었다. 달려가서 칭찬을 늘어놓고, 풋내기들에게 헛바람을 잔뜩 불어넣으며 체면을 세워줘야, 나그네가 헛된 길이 아니라고 믿지 않겠는가? 실력은 어떠냐고? 찾아와 준 것만으로도 감지덕지할 판국인데 실력이 무슨 대수란 말인가?\n이 때문에 제자의 성화에도 연산정은 술을 줄일 수가 없었다. 폭포수처럼 거침없는 그의 움직임이 '탕척천산'이라는 별호로 강호에 이름을 떨치자, 한때 기꺼이 칼을 맞대던 친구도, 치열하게 싸우던 적수도, 이제는 점잔을 빼기 시작했다. 매섭던 검기는 뻔한 예의로 바뀌었고, 선배님 소리를 들으며 김이 모락모락 나는 요리를 씹어 넘기다 보면, 남는 것이라고는 온몸에 진동하는 술 냄새뿐이었다.\n"꽃이야 지고 나면 다시 핀다지만, 강호의 소년들은 늙어가기만 하는구나. 나까지 늙어 사라지고 나면, 강호 꼴이 아주 볼만하겠어."\n \n오늘따라 거위의 기름기인지, 생선의 비린내인지 모를 것이 속을 뒤집어 놓았다. 말을 채 끝맺기도 전에 뱃속에서 신물이 올라와, 연산정은 연회에서 주워 먹은 온갖 음식들을 게워 냈다. 쏟아져 나온 토사물이 낙엽 더미 위를 적셨다.\n제아무리 강호를 주름잡던 연산정이라도, 꾸부정한 등으로 헛구역질을 해대는 꼴은 여느 시골 주정뱅이와 다름없이 흉하고 역겨웠다. 한창 속을 비워내던 바로 그 순간, 낙엽 더미 속에서 누군가가 불쑥 튀어나왔다. 그는 공중제비를 돌며 몸에 묻은 오물을 털어내고는, 시퍼렇게 날이 선 검을 뽑아 들었다.\n연산정은 당황했지만, 토악질로 숨이 턱 밑까지 차올라 가까스로 몸을 피하는 게 고작이었다. 예리한 칼날이 소매 끝을 스치며 옷자락을 베어냈다.\n검은 옷을 입은 연산정의 제자가, 화들짝 놀라 곧바로 창을 뻗어 상대를 막아선 채 매섭게 소리쳤다.\n"누가 감히 스승님을 습격하느냐!"\n그러나 낙엽 더미에서 튀어나온 습격자는 심드렁하게 대꾸했다.\n"너하곤 볼일 없어. 내 몸에 토악질한 건 저 영감탱이니까, 난 네가 아니라 저 늙은이랑 싸울 거야."\n제자가 미간을 찌푸리며 상대를 살펴보니, 기껏해야 열두세 살인 제 또래의 아이였다. 다만 떠돌이 생활을 오래 한 듯 머리가 잔뜩 헝클어지고 행색이 꼬질꼬질하여, 예의범절 따위를 알 리 만무했다. 제자는 다시 호통을 쳤다.\n"무슨 말버릇이냐! 스승님께 무례하다!"\n \n어느 정도 숨을 고른 연산정이 제자를 만류하며 더벅머리 소년에게 말을 건넸다.\n"네 옷을 더럽힌 건 내 잘못이니 사과하마."\n더벅머리 소년은 뻔뻔할 정도로 당당하게 말했다.\n"글깨나 읽은 사람이라 말귀는 잘 알아듣네. 좋아, 그래서 뭐로 배상해 줄 건데?"\n연산정은 빙그레 웃으며 답했다.\n"기본기는 있는 것 같던데, 내가 네게 검술을 조금 가르쳐 주는 건 어떻겠느냐?"\n소년은 코웃음을 쳤다.\n"당신 실력 별로잖아. 나한테 옷도 잘려 놓고, 가르치긴 뭘 가르쳐."\n연산정이 꿀 먹은 벙어리가 된 꼴을 보자, 검은 옷의 제자는 더 이상 분을 참지 못하고, 현란하게 창을 돌려, 온몸의 힘을 실어 소년에게 검보랏빛 섬광 같은 일격을 찔러 넣었다.\n그러나 더벅머리 소년은 당황한 기색도 없이 하하 웃으며 뒷걸음질 치며, 창이 닿을 듯 말 듯한 거리에서 칼로 창을 쳐냈다. 검은 옷의 제자는 순식간에 가슴 쪽이 무방비 상태가 되었지만, 침착하게 착하게 창 자루를 몸쪽으로 당겨 방어하며, 강하게 내리꽂힌 더벅머리 소년의 공격을 막아 냈다. 칼과 창 자루와 만나 불꽃이 튀었다.\n하지만 검은 옷의 제자의 예상과는 달리, 공격은 단순한 눈속임이었다. 주춤 물러나는가 싶던 더벅머리 소년은 눈 깜짝할 새 암벽을 박차고 올랐고, 그대로 허공으로 몸을 날려 제자 뒤에 선 연산정을 칼끝으로 겨눴다.\n연산정은 소년이 기특했지만, 이대로 가만히 있을 수는 없는 노릇이었다. 그는 즉시 검을 뽑아 정면으로 몸을 날렸다. 왼쪽으로 피하든 오른쪽으로 피하든, 뒤로 물러나든, 상대가 회피하면 그에 맞는 변칙 공격으로 대응하는 이 연환삼겁검을 막아낼 유일한 방법은, 정면 돌파뿐이었기 때문이다.\n \n연산정이 정면으로 대응하자, 더벅머리 소년은 "어?"하고 놀란 소리를 내더니, 공격을 거두고 바닥에 내려섰다.\n \n연산정이 물었다.\n"꼬마야, 실력이 제법인데, 누구에게 배웠느냐?"\n소년이 귀찮다는 듯 대꾸했다.\n"산에 사는 원숭이들 보고 대충 배운 거야. 굳이 따지면, 엉덩이가 제일 빨간 녀석이 내 스승이지."\n이번에도 연산정의 말문이 막히자, 검은 옷의 제자가 버릇없는 소년을 혼내주려는 듯 앞으로 나섰다.\n그러나 연산정은 자신의 제자 욱명을 말리고는 , 오히려 사람 좋은 미소를 지으며 입을 열었다.\n"자질이 훌륭해 보이는데, 내 제자가 되는 건 어떻겠느냐?"\n"싫다니까. 아까 말했잖아. 당신 실력 별로라고."\n말을 마친 소년은 검을 챙겨 몸을 홱 돌렸다.\n하지만 연산정은 화를 내기는커녕, 능청스레 말을 이어 나갔다.\n"조금 전은 비긴 것이나 다름없으니, 나와 내기를 하자꾸나. 몇 번이든 좋으니 나와 겨뤄서, 네 공격이 단 한 번이라도 날 맞힌다면, 내가 널 스승으로 모시마."\n그제야 각주는 걸음을 멈췄다. 몸을 돌려 짓궂은 미소를 짓고 있는 능구렁이 영감을 의심스럽게 바라보던 그는, 결국 그 내기를 받아들이고 말았다.\n훗날, 이때를 회상할 때마다 각주는 자신이 뻔한 수작에 넘어갔다며 혀를 차곤 했지만, 미끼를 덥석 문 그때 그 소년은, 어떤 운명이 자신을 기다리고 있는지 까맣게 모르고 있었다.",
+    ContentEN = "Yan Shanting was drunk again. Ever since he had passed fifty, that had become his usual state.\n"Youngsters these days — their talent just isn't what it used to be. Each lot is worse than the last!" He thought darkly, punctuating the thought with a burp reeking of fiery liquor. He knew full well it had been this way for a long time.\nTo most people in Huaxu, Drifters were little more than a noisy rabble of hotheaded youths and stubborn old men too ossified to straighten out — hardly a path anyone would call respectable. Youngsters with any real gift for martial arts were rare indeed. As a result, Drifters these days were no longer constantly on the brink of trading blows with each other. Far more often, they were busy flattering one another, keeping things amiable within their own ranks. Because of that, Yan Shanting often had no choice but to attend one master's celebratory feast or another, held in honour of whatever new disciple they had just taken in. There he would smile, drink, and make a fine show of courtesy, so that the bright-eyed novices would feel honoured — convinced they had chosen the right shifu and that the life of a Drifter was a respectable road after all. As for the disciple's aptitude... securing one at all was fortune enough — few had the luxury of being choosy.\nSo although Yan Shanting's own disciple kept urging him to drink less for the sake of his health, there was no persuading him. Ever since he had made a name for himself among the Drifters and earned the nickname "Master of Thousand Peaks", his old friends and rivals alike seemed to reach a silent agreement: they all became unfailingly courteous. Sparring matches turned into polite exchanges, and with compliments ringing in his ears, he would sit through yet another feast and stagger away thoroughly drunk.\n"Flowers bloom and fall, year after year. Young blades set out into the world and grow old on its roads. When I grow truly old, what face this martial world will be wearing by then?"\n\nMaybe it was the greasy roast goose from today's feast, or the sliced fish that hadn't been cooked quite long enough to lose its smell. Either way, Yan Shanting had barely finished his wistful remark when his stomach lurched — a hot, sour tide rising in his throat — and he promptly emptied the whole feast onto a heap of dead leaves along the mountain path.\nFor all his famed agility and effortless elegance in the martial world, Yan Shanting was no different from a farmhand when it came to throwing up — hardly a refined sight, and certainly not a pleasant smell. Before he had even finished retching, a figure burst out of the heap of leaves, flipped once in mid-air, shook the filth from their clothes, and brought a sword flashing down.\nYan Shanting jolted in shock, but with his stomach still heaving he had no strength to fight and could only stumble aside. Even so, the sword's edge grazed his sleeve and sliced a strip from his robe.\nHis black-clad disciple gasped and leapt between them, spear in hand, setting the shaft crosswise before his shifu.\n"Who are you? Why were you hiding in there to ambush my shifu?" he snapped.\nThe figure from the leaves sounded utterly unconcerned. "I'm not fighting you — you didn't do anything to me. That old fellow threw up on me. I'm fighting him."\nThe disciple frowned, taking a closer look. The intruder was a boy of twelve or thirteen — about the same age as himself — hair a tangled mess, clothes filthy, clearly used to living rough and with no manners to speak of. So he snapped again, "Don't you disrespect my shifu!"\n\nBy now Yan Shanting had finally caught his breath. He held his disciple back and said to the boy, "I dirtied your clothes. That was my fault. I apologise."\nThe boy showed no hesitation at all. "So you do know your manners. Good. Now then — for your apology, what are you going to give me to make up for it?"\nSmiling, Yan Shanting replied, "You've got some skill yourself. How about I teach you a few sword moves?"\nThe boy remained unimpressed. "Your skills aren't that great. I cut your clothes to shreds without even trying. I don't want to learn from you."\nYan Shanting was left speechless. His disciple, however, had heard enough. Spinning his spear in a sharp flourish, he drove off the ground and shot forward like a streak of black-violet lightning.\nThe boy laughed and stepped back without the slightest hurry. The spear tip came close enough to punch a hole clean through him — only to miss by a hair as he knocked it aside with his sword, leaving the disciple's middle completely open. Even so, the disciple didn't panic. He flowed with the momentum, sweeping the spear's shaft up to guard himself. The boy's blade crashed against it in a spray of sparks — and the strike slid harmlessly aside.\nHe hadn't expected it to be a feint. As he gave ground, the boy had already backed against a rock wall. In one smooth motion he ran up the stone and vaulted clean over the black-clad disciple, sword driving straight for Yan Shanting.\nAdmiration flickered in Yan Shanting's eyes, but he dared not be careless. He drew his own sword and sprang forward to meet the thrust head-on — the only correct way to counter that technique. Step left, right, or back, and the follow-up would skewer him. That was why the move was called the Chain of Three Perils.\nSeeing Yan Shanting counter so cleanly, the boy gave a small sound of surprise, pulled his blade back in mid-air, and dropped to the ground in a steady landing.\n\nYan Shanting asked, "Not bad at all, boy. Who's your shifu?"\nThe boy sounded impatient. "I just copied the monkeys in the hills. If you really must know, then the monkey king with the reddest bottom up there is my shifu."\nYan Shanting was speechless once more, while his disciple Yuming looked ready to give this impudent brat another lesson.\nYan Shanting, however, took no offence. He simply put his easy smile back on. "You're a sharp one, lad. How about becoming my disciple?"\n"No. I told you — your skills just aren't that good." With that, Kezhou scooped up his sword and turned to leave.\nYan Shanting remained perfectly calm. "We just fought to a draw, didn't we? How about a wager? A few more rounds — as many as you like. If you can land a hit on me, I'll even let you be my shifu."\nAt that, Kezhou finally turned back, eyeing the grinning old man with open suspicion — then agreed to the wager.\nLater, looking back, Kezhou would feel he had been thoroughly tricked by Yan Shanting that day. But at the time, he had no inkling of what the future held.",
+    ContentJP = "宴山亭は、また酒に呑まれていた。五十を越えてからというもの、酔う日はめっきり増えた。\n「まったく、最近の若いのは……筋の良い者なんて滅多におらん、年々落ちる一方だ」胸の内で毒づき、げっぷをひとつ。もっとも、こう嘆き始めたのは近ごろに限ったことではない。\n華胥の者からすれば、流れ者とは、元気が有り余った若造と、引き際を誤った頑固者ばかりが集う、いささか物騒な集団――決して憧れの職ではない。だからこそ、若くして才の抜きんでた者が現れることなどほとんどなく、剣呑な火花が飛び交う旧き気風もすっかり影を潜め、今では互いに持ち上げ合って場を丸く収めるのが当たり前になった。そのせいで、宴山亭は連日のように誰某の弟子入りの宴へ顔を出しては、愛想よく席を温め、「この師を選んだのは幸運だった」と若者たちに思わせ、流れ者も捨てたものではないと思わせる役回りを担わされている。弟子の資質？あるだけ上等、選り好みしていられる時代ではない。\nだから、弟子が「飲みすぎはよくありません」とたしなめても、止まるはずがない。流れ者の世に名を馳せ、「千山を蕩かす」などと大仰な異名までついて以来、親しく斬り結んだ旧友も仇敵も、まるで示し合わせたように頭を垂れ、剣気はなくなり、呼ばれるのは「前輩」の声ばかり。気づけば、熱い酒肴の前でひとり酔い、残るのは身にこびりついた酒の匂いだけ。\n「花は咲いては散り、散っては咲く……。私が老い切っ\nた頃には、さてどんな風景になっているやら――」そう言いかけた刹那、今日の宴で食した焼きガチョウの脂が重かったのか、はたまた魚の生臭さが尾を引いたのか、腹の底が一気に反乱を起こし、胸の内の酸が逆流した。赤いの青いの、酸いの甘いの――席で口にしたものをまとめてぶちまけると、山の斜面に積もった枯葉へと無残に降りかかった。\nいかに宴山亭が瀟洒な身法で世に名を立てようと、吐くときばかりは田舎の百姓と変わりない。見栄えも悪く、匂いはなお悪い。だが、まだ吐き終えぬうちに、枯葉の山がばさりと割れ、中からひと影が飛び出した。空中で身を翻し、身体についた汚れを払い落とすや、きらりと剣を抜く。\n宴山亭は目を瞠ったが、腹の内はまだ荒れ狂い、息も続かぬ。避けるのが精一杯だった。鋭い刃が袖をかすめ、衣の端を裂き落とす。黒衣の弟子が驚き、即座に槍を繰り出して二人の間へ割り込み、横槍を構えて師を庇った。「貴様、何者だ！なぜ師匠を襲う！」枯葉から現れた影は、どこ吹く風といった調子で答えた。\n「おまえとはやらん。別に恨みはない。だがあのじいさん、吐いたものを俺にぶちまけた。許さん」黒衣の弟子は眉を寄せた。相手は十二、三といった年頃で、自分と大差ない。だが髪はぼさぼさ、顔も手も泥で黒ずみ、どう見ても長く野山をさまよってきた野人同然。礼など知るはずもない。だからきっぱりと言い放つ。「師匠に無礼を働くな！」\nそのとき、ようやく宴山亭は呼吸を整え、弟子を制して前に出た。蓬々とした髪の少年に向かい、静かに言う。「おまえの衣を汚したのは、確かに私の非だ。失礼を詫びよう」少年は遠慮など微塵もない。\n「へっ、教科書らしい詫びだな。口だけでは何とでもいえよう。具体的に何をくれるんだ？」宴山亭は笑みを浮かべた。\n「おまえ、少しばかり身のこなしがあるようだ。よければ、刀や剣の手ほどきをしてやろう」だが少年は即座に鼻で笑った。\n「いやだね。あんたの腕、たいしたことない。ほら、服だって俺が斬り裂かれたじゃないか。そんな人に習う気はない」\n宴山亭は言葉を失った。黒衣の弟子はとうとう堪えきれず、槍を翻して踏み込み、黒紫の雷のように一直線へ突き進んだ。\n少年は豪快に笑い、ゆるりと後ろへ身を引く。槍先は今にも肌を穿ちそうでいて、紙一重で届かない。少年の剣が軽く当たり、軌道を弾かれた弟子の中段はがら空きになった。だが弟子も怯まない。即座に槍身を盾のように立て、落ちてきた剣を受け止める。火花が散り、少年の一撃を見事にいなした。しかし、それはおとりにすぎなかった。\n少年は後退の勢いのまま岩壁へ至り、猿のように蹴り上がって身を宙へ投げる。弟子の頭上を越えた少年は、狙いを宴山亭へと向け、刃をまっすぐ突き出した。宴山亭の目には、むしろ賞賛の光が強まっていた。とはいえ受けに回れば斬られる。彼もまた剣を抜き、正面から飛び込み、少年と交差するように刃を突き出す。これが唯一の解法――左も右も後ろも死地となる、ゆえに「連環三劫剣」と呼ばれる理屈だ。\n宴山亭がその構えをとった瞬間、少年は空中で「ほう」と声を漏らし、攻め手をほどいて軽やかに着地した。宴山亭は問う。\n「なかなかの腕前だ。師は誰だ？」\n少年はうんざりしたように返す。\n「山で猿と勝手にやってただけさ。どうしても師匠って言うなら、山一番ケツの真っ赤な猿の王様が師匠ってところだな」\n宴山亭はまたしても言葉に詰まった。弟子のユーミンも前に出て、今にも 「無礼者を懲らしめてやる」と言わんばかりの顔になっていた。だが老者は気にしたふうもなく、むしろ先ほどより柔らかい笑みを浮かべて言った。\n「おまえ、悟りが早い。どうだ、私の弟子にならんか」\n「いやだね。さっきも言ったけど、あんたの腕は大したことない」\n言い捨てると、少年――カシュウは剣を取り、立ち去ろうとした。\n宴山亭はそれでも怒らず、背中に声を投げた。\n「さっきの勝負は引き分けだ。勝敗は決まっておらん。どうだ、一つ賭けをしよう。何度でも構わん、私と手合わせしてみろ。もし、おまえが一太刀でも私に当てたら……私がおまえの弟子になってやる」その言葉に、カシュウはようやく振り返った。三分ばかり悪だくみの匂いをまとった老人を、じろりと見つめる。そして、賭けを受けると答えた。\n後年になって思い返すたびに、カシュウはこのときこそ、自分が宴山亭にまんまと一本取られた瞬間だったと苦笑するのだが。無論、この日の彼は、そんな未来を知るよしもなかった。",
+    ContentKR = "연산정은 오늘도 취해 있었다. 오십 줄에 들어선 이후, 그는 시도 때도 없이 술독에 빠져 지내곤 했다.\n"요즘 젊은것들은 하나같이 싹수가 노랗다니까. 아주 갈수록 가관이야!" 끓어오르는 울분을 트림과 함께 뱉어 냈지만, 이런 상황이 어제오늘 일이 아니라는 건 연산정도 알고 있었다.\n화서 사람들에게 있어 나그네란, 혈기만 넘치는 애송이들과 고집불통 늙은이들의 집합소일 뿐, 선망의 대상과는 거리가 멀었다. 따라서 쓸만한 재목을 찾기란 하늘의 별 따기나 다름없었고, 자연히 나그네들의 기풍도 변해갔다. 예전처럼 날을 세우기보다는, 서로 치켜세우며 둥글게 지내는 것이 미덕인 세상이 온 것이다. 연산정이 누가 제자를 들였다며 연회를 열 때마다 울며 겨자 먹기로 전전하는 것도 이 때문이었다. 달려가서 칭찬을 늘어놓고, 풋내기들에게 헛바람을 잔뜩 불어넣으며 체면을 세워줘야, 나그네가 헛된 길이 아니라고 믿지 않겠는가? 실력은 어떠냐고? 찾아와 준 것만으로도 감지덕지할 판국인데 실력이 무슨 대수란 말인가?\n이 때문에 제자의 성화에도 연산정은 술을 줄일 수가 없었다. 폭포수처럼 거침없는 그의 움직임이 '탕척천산'이라는 별호로 강호에 떨치자 새기자, 한때 기꺼이 칼을 맞대던 친구도, 치열하게 싸우던 적수도, 이제는 점잔을 빼기 시작했다. 매섭던 검기는 뻔한 예의로 바뀌었고, 선배님 소리를 들으며 김이 모락모락 나는 요리를 씹어 넘기다 보면, 남는 것이라고는 온몸에 진동하는 술 냄새뿐이었다.\n"꽃이야 지고 나면 다시 핀다지만, 강호의 소년들은 늙어가기만 하는구나. 나까지 늙어 사라지고 나면, 강호 꼴이 아주 볼만하겠어."\n\n오늘따라 거위의 기름기인지, 생선의 비린내인지 모를 것이 속을 뒤집어 놓았다. 말을 채 끝맺기도 전에 뱃속에서 신물이 올라와, 연산정은 연회에서 주워 먹은 온갖 음식들을 게워 냈다. 쏟아져 나온 토사물이 낙엽 더미 위를 적셨다.\n제아무리 강호를 주름잡던 연산정이라도, 꾸부정한 등으로 헛구역질을 해대는 꼴은 여느 시골 주정뱅이와 다름없이 흉하고 역겨웠다. 한창 속을 비워내던 바로 그 순간, 낙엽 더미 속에서 누군가가 불쑥 튀어나왔다. 그는 공중제비를 돌며 몸에 묻은 오물을 털어내고는, 시퍼렇게 날이 선 검을 뽑아 들었다.\n연산정은 당황했지만, 토악질로 숨이 턱 밑까지 차올라 가까스로 몸을 피하는 게 고작이었다. 예리한 칼날이 소매 끝을 스치며 옷자락을 베어냈다.\n검은 옷을 입은 연산정의 제자가, 화들짝 놀라 곧바로 창을 뻗어 상대를 막아선 채 매섭게 소리쳤다. "누가 감히 스승님을 습격하느냐!"\n그러나 낙엽 더미에서 튀어나온 습격자는 심드렁하게 대꾸했다.\n"너하곤 볼일 없어. 내 몸에 토악질한 건 저 영감탱이니까, 난 네가 아니라 저 늙은이랑 싸울 거야."\n제자가 미간을 찌푸리며 상대를 살펴보니, 기껏해야 열두세 살인 제 또래의 아이였다. 다만 떠돌이 생활을 오래 한 듯 머리가 잔뜩 헝클어지고 행색이 꼬질꼬질하여, 예의범절 따위를 알 리 만무했다. 제자는 다시 호통을 쳤다. "무슨 말버릇이냐! 스승님께 무례하다!"\n\n어느 정도 숨을 고른 연산정이 제자를 만류하며 더벅머리 소년에게 말을 건넸다.\n"네 옷을 더럽힌 건 내 잘못이니 사과하마."\n더벅머리 소년은 뻔뻔할 정도로 당당하게 말했다.\n"글깨나 읽은 사람이라 말귀는 잘 알아듣네. 좋아, 그래서 뭐로 배상해 줄 건데?"\n연산정은 빙그레 웃으며 답했다.\n"기본기는 있는 것 같던데, 내가 네게 검술을 조금 가르쳐 주는 건 어떻겠느냐?"\n소년은 코웃음을 쳤다.\n"당신 실력 별로잖아. 나한테 옷도 잘려 놓고, 가르치긴 뭘 가르쳐."\n연산정이 꿀 먹은 벙어리가 된 꼴을 보자, 검은 옷의 제자는 더 이상 분을 참지 못하고, 현란하게 창을 돌려, 온몸의 힘을 실어 소년에게 검보랏빛 섬광 같은 일격을 찔러 넣었다.\n그러나 더벅머리 소년은 당황한 기색도 없이 하하 웃으며 뒷걸음질 치며, 창이 닿을 듯 말 듯한 거리에서 칼로 창을 쳐냈다. 검은 옷의 제자는 순식간에 가슴 쪽이 무방비 상태가 되었지만, 침착하게 착하게 창 자루를 몸쪽으로 당겨 방어하며, 강하게 내리꽂힌 더벅머리 소년의 공격을 막아 냈다. 칼과 창 자루와 만나 불꽃이 튀었다.\n하지만 검은 옷의 제자의 예상과는 달리, 공격은 단순한 눈속임이었다. 주춤 물러나는가 싶던 더벅머리 소년은 눈 깜짝할 새 암벽을 박차고 올랐고, 그대로 허공으로 몸을 날려 제자 뒤에 선 연산정을 칼끝으로 겨눴다.\n연산정은 소년이 기특했지만, 이대로 가만히 있을 수는 없는 노릇이었다. 그는 즉시 검을 뽑아 정면으로 몸을 날렸다. 왼쪽으로 피하든 오른쪽으로 피하든, 뒤로 물러나든, 상대가 회피하면 그에 맞는 변칙 공격으로 대응하는 이 연환삼겁검을 막아낼 유일한 방법은, 정면 돌파뿐이었기 때문이다.\n\n연산정이 정면으로 대응하자, 더벅머리 소년은 "어?"하고 놀란 소리를 내더니, 공격을 거두고 바닥에 내려섰다.\n\n연산정이 물었다. "꼬마야, 실력이 제법인데, 누구에게 배웠느냐?"\n소년이 귀찮다는 듯 대꾸했다. "산에 사는 원숭이들 보고 대충 배운 거야. 굳이 따지면, 엉덩이가 제일 빨간 녀석이 내 스승이지."\n이번에도 연산정의 말문이 막히자, 검은 옷의 제자가 버릇없는 소년을 혼내주려는 듯 앞으로 나섰다.\n그러나 연산정은 자신의 제자 욱명을 말리고는 , 오히려 사람 좋은 미소를 지으며 입을 열었다.\n"자질이 훌륭해 보이는데, 내 제자가 되는 건 어떻겠느냐?"\n"싫다니까. 아까 말했잖아. 당신 실력 별로라고." 말을 마친 소년은 검을 챙겨 몸을 홱 돌렸다.\n하지만 연산정은 화를 내기는커녕, 능청스레 말을 이어 나갔다. "조금 전은 비긴 것이나 다름없으니, 나와 내기를 하자꾸나. 몇 번이든 좋으니 나와 겨뤄서, 네 공격이 단 한 번이라도 날 맞힌다면, 내가 널 스승으로 모시마."\n그제야 각주는 걸음을 멈췄다. 몸을 돌려 짓궂은 미소를 짓고 있는 능구렁이 영감을 의심스럽게 바라보던 그는, 결국 그 내기를 받아들이고 말았다.\n훗날, 이때를 회상할 때마다 각주는 자신이 뻔한 수작에 넘어갔다며 혀를 차곤 했지만, 미끼를 덥석 문 그때 그 소년은, 어떤 운명이 자신을 기다리고 있는지 까맣게 모르고 있었다.",
     ContentTC = "宴山亭又喝醉了，自從過了五十歲後，他時常喝醉。\n「現在的年輕人啊，資質都不太行，是一個不如一個！」他憤憤然想著，打了一個酒嗝。儘管他很清楚，這種情況不是最近剛剛開始的。\n在華胥大部分人眼裡，飄零人就是充斥著精力過剩的青少年與將錯就錯的倔強老人的暴力組織，並不是什麼理想的職業選擇，所以嶄露頭角，天資良好的青年人是極其稀罕之物。所以現在的飄零人之間不再像此前那樣時不時劍拔弩張，而是互相吹捧居多，講究一個和和美美，和光同塵。也正因此，宴山亭不得不時常參加某某大俠的收徒宴，給足面子，好讓那些新入門的小子受寵若驚，感覺自己拜對了師父，而飄零人也並非歧途，至於這弟子的資質如何呢？有就不錯了，沒得挑。\n所以儘管宴山亭自己的徒兒勸他少喝酒，但這又哪裡是勸得住的。自從在飄零人中闖出名號，有了個「蕩滌千山」的外號後，之前那些還願意以武會友的朋友或是敵手都像是約好了一樣，恭敬起來，劍氣變成了客氣，最終在一聲聲前輩中，吃上一桌子熱氣騰騰的菜餚，徒留一身酒氣。\n「花開花落，花落花開。少年子弟江湖老，等我老了，這江湖又不知是怎樣一番模樣。」\n\n也不知道是今天宴席上的燒鵝太過肥膩還是魚膾腥氣未消盡，宴山亭一句話尚未說完，只覺得腹內如同打翻了酸醋缸，氣血上涌，把那席間吃的紅的綠的酸的甜的一併吐了出來，落在了山間堆起的枯葉堆上。\n饒是宴山亭以身法瀟灑，如飛瀑蕩滌山間而獨步江湖，嘔吐起來和尋常的鄉野村夫也別無二致，不甚雅觀，更是腥臭難聞。而還未等他吐完，枯葉堆里卻躍出一個人影來，在空中翻了一個身，抖去身上的穢物，明晃晃拔出劍來。\n宴山亭吃了一驚，但無奈腹內穢物尚未吐盡，一口氣即將用完，全無力氣，只得避讓。沒想到卻被劍鋒掠過衣袖，斬下一截衣角。\n黑衣徒兒見狀也吃了一驚，舉槍來切進二人之間，橫槍護在師父面前，厲聲問道：「你是什麼人？為什麼在這裡襲擊師父。」\n那從枯葉中蹦出的人則漫不經心，回道：「我不和你打，你沒有惹我。那個老傢伙吐我身上，我要和他打。」\n黑衣徒兒皺起了眉，打量起對面，約莫十二三歲年紀，和自己也差不多，只不過蓬頭垢面，顯然是流浪已久，像是野人一般，所以自然也不懂得尊重師長了，於是繼續呵斥：「不許對師父無禮！」\n\n此時宴山亭終於緩過氣來，攔住了徒兒，對著這蓬頭少年說道：「我弄髒了你的衣物，是我不對，向你賠禮。」\n那蓬頭少年倒也毫不客氣：「看來你讀過書，很好。那你說要賠禮，是要賠什麼？」\n宴山亭面帶微笑答道：「我看你也有一點功夫，我教你一些刀劍功夫可好？」\n但這蓬頭少年卻不以為然：「你功夫不厲害，衣服都被我剁爛了，我不要和你學。」\n宴山亭一時啞然，而黑衣徒兒卻再也聽不下去，挽了個槍花，手上腿上一齊用力，如同一道黑紫色的閃電乍起，徑直刺了出去。\n蓬頭少年哈哈一笑，不慌不忙往後撤步，黑衣徒兒的槍尖好似就要碰到他，捅出血窟窿，卻又差了分毫，被他以劍格到一旁，中門大開。然而黑衣徒兒卻也毫不慌亂，順勢以槍桿護在身前，劍刃劈在杆上，火花四濺，化解了蓬頭少年的一劍。\n但他卻未能料到，這只是一式虛招，蓬頭少年在撤步之時已到一面巖壁之前，只見他順勢攀上巖壁，縱身一躍，跳過了黑衣徒兒，徑直向宴山亭刺去。\n宴山亭眼中讚許之意更濃，但也不敢馬虎，掏出劍來，也縱身向前刺去，與蓬頭少年相對，這亦是此招的解法。否則無論是向左向右還是向後，都會被對方的變招刺中，因此也被稱作連環三劫劍。\n看到宴山亭擺出如此架勢，蓬頭少年咦了一聲，在空中撤了招，穩穩落在地上。\n\n而宴山亭卻問了：「小子，身手不錯，師父是誰？」\n少年卻有點不耐煩：「」跟山野間猴子胡亂學的，非要說的話，那山間屁股最紅的猴子大王是我的師父。」\n宴山亭又是一窒，而弟子煜明則站在身前，似乎又想要教訓一下這個不知天高地厚的毛頭小子。\n而老者卻不以為意，反而立刻又換上了一臉笑容：「我看你悟性很好，要不要當我的徒弟。」\n「不要，我剛剛說了，你功夫不厲害。」說完，刻舟便拿起了手中的劍，想要離去。\n宴山亭卻也不惱，繼續對刻舟說道：「剛剛我們是平手，未分勝負。不如我們來打個賭，我們再來較量較量，多少場都行，如果你能夠擊中我，我就拜你為師。」\n聽到這話，刻舟方才轉過身來，狐疑地看著這個面帶三分壞笑的老頭，答應了他的賭局。\n雖然後來，每每回憶到此，刻舟都會覺得自己上了宴山亭的大當，但此時的他，對於未來的一切都不曾知曉。",
     TextMapContent = "宴山亭又喝醉了，自从过了五十岁后，他时常喝醉。\n“现在的年轻人啊，资质都不太行，是一个不如一个！”他愤愤然想着，打了一个酒嗝。尽管他很清楚，这种情况不是最近刚刚开始的。\n在华胥大部分人眼里，飘零人就是充斥着精力过剩的青少年与将错就错的倔强老人的暴力组织，并不是什么理想的职业选择，所以崭露头角，天资良好的青年人是极其稀罕之物。所以现在的飘零人之间不再像此前那样时不时剑拔弩张，而是互相吹捧居多，讲究一个和和美美，和光同尘。也正因此，宴山亭不得不时常参加某某大侠的收徒宴，给足面子，好让那些新入门的小子受宠若惊，感觉自己拜对了师父，而飘零人也并非歧途，至于这弟子的资质如何呢？有就不错了，没得挑。\n所以尽管宴山亭自己的徒儿劝他少喝酒，但这又哪里是劝得住的。自从在飘零人中闯出名号，有了个“荡涤千山”的外号后，之前那些还愿意以武会友的朋友或是敌手都像是约好了一样，恭敬起来，剑气变成了客气，最终在一声声前辈中，吃上一桌子热气腾腾的菜肴，徒留一身酒气。\n“花开花落，花落花开。少年子弟江湖老，等我老了，这江湖又不知是怎样一番模样。”\n\n也不知道是今天宴席上的烧鹅太过肥腻还是鱼脍腥气未消尽，宴山亭一句话尚未说完，只觉得腹内如同打翻了酸醋缸，气血上涌，把那席间吃的红的绿的酸的甜的一并吐了出来，落在了山间堆起的枯叶堆上。\n饶是宴山亭以身法潇洒，如飞瀑荡涤山间而独步江湖，呕吐起来和寻常的乡野村夫也别无二致，不甚雅观，更是腥臭难闻。而还未等他吐完，枯叶堆里却跃出一个人影来，在空中翻了一个身，抖去身上的秽物，明晃晃拔出剑来。\n宴山亭吃了一惊，但无奈腹内秽物尚未吐尽，一口气即将用完，全无力气，只得避让。没想到却被剑锋掠过衣袖，斩下一截衣角。\n黑衣徒儿见状也吃了一惊，举枪来切进二人之间，横枪护在师父面前，厉声问道：“你是什么人？为什么在这里袭击师父。”\n那从枯叶中蹦出的人则漫不经心，回道：“我不和你打，你没有惹我。那个老家伙吐我身上，我要和他打。”\n黑衣徒儿皱起了眉，打量起对面，约莫十二三岁年纪，和自己也差不多，只不过蓬头垢面，显然是流浪已久，像是野人一般，所以自然也不懂得尊重师长了，于是继续呵斥：“不许对师父无礼！”\n\n此时宴山亭终于缓过气来，拦住了徒儿，对着这蓬头少年说道：“我弄脏了你的衣物，是我不对，向你赔礼。”\n那蓬头少年倒也毫不客气：“看来你读过书，很好。那你说要赔礼，是要赔什么？”\n宴山亭面带微笑答道：“我看你也有一点功夫，我教你一些刀剑功夫可好？”\n但这蓬头少年却不以为然：“你功夫不厉害，衣服都被我剁烂了，我不要和你学。”\n宴山亭一时哑然，而黑衣徒儿却再也听不下去，挽了个枪花，手上腿上一齐用力，如同一道黑紫色的闪电乍起，径直刺了出去。\n蓬头少年哈哈一笑，不慌不忙往后撤步，黑衣徒儿的枪尖好似就要碰到他，捅出血窟窿，却又差了分毫，被他以剑格到一旁，中门大开。然而黑衣徒儿却也毫不慌乱，顺势以枪杆护在身前，剑刃劈在杆上，火花四溅，化解了蓬头少年的一剑。\n但他却未能料到，这只是一式虚招，蓬头少年在撤步之时已到一面岩壁之前，只见他顺势攀上岩壁，纵身一跃，跳过了黑衣徒儿，径直向宴山亭刺去。\n宴山亭眼中赞许之意更浓，但也不敢马虎，掏出剑来，也纵身向前刺去，与蓬头少年相对，这亦是此招的解法。否则无论是向左向右还是向后，都会被对方的变招刺中，因此也被称作连环三劫剑。\n看到宴山亭摆出如此架势，蓬头少年咦了一声，在空中撤了招，稳稳落在地上。\n\n而宴山亭却问了：“小子，身手不错，师父是谁？”\n少年却有点不耐烦：“”跟山野间猴子胡乱学的，非要说的话，那山间屁股最红的猴子大王是我的师父。”\n宴山亭又是一窒，而弟子煜明则站在身前，似乎又想要教训一下这个不知天高地厚的毛头小子。\n而老者却不以为意，反而立刻又换上了一脸笑容：“我看你悟性很好，要不要当我的徒弟。”\n“不要，我刚刚说了，你功夫不厉害。”说完，刻舟便拿起了手中的剑，想要离去。\n宴山亭却也不恼，继续对刻舟说道：“刚刚我们是平手，未分胜负。不如我们来打个赌，我们再来较量较量，多少场都行，如果你能够击中我，我就拜你为师。”\n听到这话，刻舟方才转过身来，狐疑地看着这个面带三分坏笑的老头，答应了他的赌局。\n虽然后来，每每回忆到此，刻舟都会觉得自己上了宴山亭的大当，但此时的他，对于未来的一切都不曾知晓。",
     TextMapId = "UI_CHAR_DATA_TEXT_15030402"
@@ -125655,8 +125765,8 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_CHAR_DATA_TEXT_24010104 = {
     ContentEN = "Everyone at Zesheng Pharmacy knew of the stone coffin in the rear garden — a coffin so cold that frost clung to it even in midsummer.\n\nWithin it lay the Founding Master's twin sister, the last Zhuyou of the Hall of Ephemerality. During the Great Plague that had once swept across Huaxu, she had moved among the dying without pause, her life ebbing with every invocation of the Art of Ephemerality — a devotion as admirable as it was heartrending. When the recoil of her healing finally consumed her strength, even someone as gifted as Master Fufeng, who had laid the foundations of her own discipline, could find no way to undo it. All she could do was prepare: a stone coffin, an ice chamber, and — at the very brink of her sister's quietus — a working that stilled every function of her body, holding her in suspension, awaiting a future in which a remedy might at last be found.\n\n"Master Fufeng wagered all her hopes upon the years to come." So said the current head of Zesheng Pharmacy, his fan stirring lightly in his hand as he addressed the new apprentices. "This wager concerns you and me, your senior apprentices, and those who will one day follow after you."\nThe young apprentices, of course, understood little of what he meant. They craned their necks in curiosity, hoping to glimpse the healer from a century past. The head pharmacist allowed it. The woman within was pale as white jade, her breath all but imperceptible, her joints stiff as sculpted ice. To any ordinary eye, she looked long parted from the living. A few apprentices recoiled after only a glance.\nTheir gazes wavered between the woman in the coffin — so lifelike that her stillness seemed unreal — and the head pharmacist, who remained perfectly composed.\nHe caught their doubt at once. "You think she is already gone, do you?" He was a man who moved through life with an air of easy nonchalance; rare did he wear such solemnity. The new apprentices fell silent beneath the weight of his gaze.\nThe head pharmacist surveyed them and said, "The Nine Chapters of Dafeng state: 'To deceive and mislead the many — this must not be done.' So let me speak plainly, on your first day. When Master Fufeng was young, she devoted herself to the study of medicine, compiled The Essence of Herbs, and founded Zesheng Pharmacy. For a hundred years we have saved lives beyond counting. Your own families, no doubt, have sought remedy here. In gratitude, people speak well of us and gloss over our flaws. Yet even so, nothing can efface the fact that Master Fufeng was born a Zhuyou... and did not see that calling through to its end. By the law of the Divine, that alone is a transgression."\nThe apprentices gasped. Many stared in stunned confusion.\nThe head pharmacist let out a quiet breath, as though recalling the long and difficult road behind them. He allowed the apprentices a moment to take in his words, then continued:\n"Medicine has always been a defiance of the order of life and death. It alters the endings of those who have committed no wrongdoing, yet simply lacked the fortune to meet a Zhuyou before death claimed them. And yet the Nine Chapters also proclaim: 'Heaven's great virtue bears the name of Life.' If Heaven may uphold that virtue, then why should mortals who labour towards the same purpose be condemned? But this path is harsher than any outsider can fathom. Every draught you have ever taken to restore health came from tireless experiments — from trials that often brushed the very edge of death before proving true."\nThe garden had fallen utterly still. No one dared make a sound. A pale petal drifted on the wind and settled inside the stone coffin. The head pharmacist brushed it away with gentle care, then lifted his gaze to the young faces before him — some thoughtful, some uncertain, some quietly moved. When he spoke again, his voice was low and steady:\n"A hundred years... and each step has been hard-won. Zesheng Pharmacy was founded to save lives, even when the Nine Chapters disapproved of it. Our predecessors overcame each obstacle with resolve, pushing through dead ends no one else dared to face. And that is why Master Fufeng entrusted her twin sister to us — because she believed that those who came after her would break the impasse she could not, that they would reach the far shore she herself could not cross; that through us, the shadow of illness will recede... and lives once cut short will begin anew."\nWithin the coffin, the woman in her deep slumber had not changed in a century. Yet to the young apprentices, she was no longer the cold enigma she had seemed only moments before, but the very impasse their craft must one day overcome — the unmoving heart of a century's medical endeavour.\n\nAt last, the head pharmacist said, softly yet with unwavering conviction:\n"Zesheng Pharmacy forsakes none."",
-    ContentJP = "澤生閣の弟子なら誰しも知っている。後園には一基の石棺があると。\n \n その棺からは、一日中ひんやりとした気が立ちのぼり、近づくだけで背筋が冷えるほどだ。その中で眠り続けているのは、澤生閣の開祖と双子の妹にして、枯栄閣最後の祝由。彼女はかつて疫病の渦中を駆け巡り、枯栄術の反噬により、死の淵に立たされた。哀れむべきことに、宗門を興した祖師ほどの人物をもってしても、この反噬を覆す術はなかった。彼女にできたことといえば、ただひとつ。\n 妹の寂滅に先んじて石棺と氷室を整え、すべての身体機能を強制的に止める術を施す――それだけだった。\n 「祖師はすべての希望を未来に託したのです」今代の澤生閣主は、扇を軽く揺らしながら新たな弟子たちにそう語った。\n 「その『未来』には、私も、お前たちの兄弟子や姉弟子も、お前たち自身も、そしてお前たちの子孫までも含まれている」\n 入門したての幼い弟子たちにとって、それがどれほどの意味を持つのかは、まだ分からない。ただ興味しんしんに首を伸ばしては、百年前のその医者を一目見たいとせがむばかりだった。閣主はその願いを叶えてやった。\n 石棺の中の人は、石膏のように蒼白な肌をしていた。呼吸の気配すらなく、関節は氷の彫刻のように硬く、どう見ても現世の人とは思えなかった。弟子の中には、見ているだけで怖くなってしまう者もいた。\n 彼らはその人形のような姿に目を奪われつつ、どこか半信半疑のまま、何事もない顔で立つ閣主を見つめた。\n その視線の意味を、閣主はよく知っている。そして静かに言った。「君たちは、もう助からないと思ったのでしょう？」\n ふだんは飄々としている閣主が、めずらしく厳しい声を出す。その威圧に、弟子たちは息を呑み、声も出せなくなった。閣主は一人ひとりの顔を見回し、口を開いた。\n 「『大風九章』にはこうある――『虚を語り、衆を惑わすこと、為すべからず』と。ならば、今日この日が初学の始まりであるからには、私も真実を語らねばね」「祖師フーフォンは、若くして医薬の道に入り、『草本精要』を著し、澤生閣を創設した。それから百年、澤生閣が救った人間は数知れぬ。おそらくお前たちの家族にも、ここで診を受け、薬を処方された者がいるだろう。ゆえに、この閣の恩に報いようと、我々門人の過ちは隠され、功績ばかりが伝えられてきた。だが、そうした善意をもってしても、祝由の生まれでありながら最後まで成し遂げられなかった事実は、消えはしない。祖師は――事実として、『不敬』という罪を背負っているのだ」\n 弟子たちは、思いもよらぬ言葉に驚き、息をのんだ。中には、呆然とする者もいた。閣主は澤生閣の過去を想い返しながら、ひとつ深く息をついた。弟子たちが理解するまで、しばし沈黙を置いたのち、静かに語り継いだ。\n 「医とは、そもそも天に逆らう道だ。運に見放され、祝由にすら間に合わず命を落とすような者たちの『運命』を覆すものだ。『大風九章』には、もうひとつこうある――『天地の大徳、生と称す』と。天地が命を尊ぶのならば、それを引き継ぎ、人が生を貫くことに、何の罪があろう？」\n 「だがその道は、決して平坦ではない。お前たちがこれまで飲んできたどの一服の薬も、すべては先人たちが試行錯誤を重ね、ときには生死の淵に身を置いてようやく導き出した結果なのだ」\n 風が吹いた。一枚の淡い花びらが棺の中へ落ち、閣主はそれを指先でそっと払った。弟子たちは言葉もなく、ただそれぞれの思いを胸に沈めていた。\n 閣主は、その一人ひとりの顔――迷い、思案し、あるいは静かに胸を打たれたその表情を見届けながら、深く、重く言い放った。\n 「百年の時を越え、幾多の困難を経て、なお歩み続けてきた。澤生閣とは、本来大風九章にすら逆らってでも病を癒す場であり、我らが先人は、まさにその覚悟をもって、ひとつひとつ『不可能』を乗り越えてきたのだ」\n 「祖師が、唯一の肉親を私たちに託したのもそのためだ。かつて彼女が届かなかった絶望を、後に続く私たちが覆すと信じていたから。彼女の指が届かなかったその先へ、私たちは必ず辿り着く。病の影を打ち払い、断たれた人生を再び歩ませる。それが、澤生閣の未来なのだ」\n 棺の中の人は、今も変わらず眠り続けている。その顔は、百年前から寸分も変わっていない。だが、目の前の弟子たちにとって、彼女はもはや「冷たい奇観」ではなかった。\n それは、静かに百年の医道を見守り続けてきた山であり、いつか越えるべき背中となったのだ。\n 最後に、閣主はこう結んだ。\n 「澤生閣は――いかなる病人も、決して見捨てはしない」",
-    ContentKR = "택생각의 제자들은 후원 깊은 곳에 있는 석관을 잘 알았다. 사시사철 뼛속까지 시린 한기를 내뿜는 곳이었다.\n \n그 관 속에는 이 택생각을 세운 설립자의 쌍둥이 여동생이 잠들어 있었다. 그녀는 역병이 창궐하던 시절, 쉼 없이 사람들을 구하다 치료술의 반동으로 목숨이 위태로워졌다. 당시에는 이 택생각의 설립자 같은 위대한 인물조차 그녀를 구할 방법을 찾지 못했고, 결국 석관과 빙실을 마련해 동생의 시간을 멈춰 두는 게 전부였다.\n \n"설립자께서는 미래에 모든 희망을 거셨단다."\n이번 대의 택생각 수장은 부채를 흔들며 새로 들어온 제자들에게 말했다.\n"그 미래에는 나도, 너희 선배들도, 지금의 너희도, 그리고 훗날 너희의 뒤를 이을 후배들도 포함되어 있지."\n물론 갓 입문한 아이들이 그 깊은 뜻을 온전히 이해할 리는 없었다. 그들은 그저 백 년 전의 의원을 직접 본다는 호기심에 목을 길게 뺄 뿐이었다. 수장이 관을 보여 주었을 때, 그들의 눈에 들어온 건 창백한 피부와 굳어 버린 관절, 그리고 숨조차 거의 쉬지 않아 사람이 아닌 다른 존재라는 생각이 드는 무언가였다. 아이들은 덜컥 겁을 집어먹었다.\n그들은 얼음 조각처럼 굳어 있는 여인과 태연한 수장의 얼굴을 번갈아 보며, 의심의 눈초리를 거두지 못했다.\n수장은 아이들의 그런 마음을 단번에 꿰뚫어 보고 숙연히 말했다.\n"가망이 없다고 생각하는구나, 그렇지?"\n평소의 느긋함과는 다른 진지함에 아이들은 쥐 죽은 듯 조용해졌다.\n수장은 아이들을 보며 말을 이었다. "대풍구장에는 '망령된 말로 무리를 속이지 말지어다'라는 말이 있지. 부풍 님께서는 어린 나이에 약학에 뜻을 두시고, 〈초목정요〉를 저술하고 이 택생각을 세우셨다. 지난 백 년간, 이 택생각이 구한 이들은 셀 수 없이 많단다. 물론, 그중에는 너희와 너의 가족도 있겠지. 은혜를 입었다 생각한 이들이 우리의 허물을 덮어 주고는 있지만, 그렇다 해도 부풍 님께서 축유로서의 사명을 다하지 못하셨다는 점은 사실이다. 사실상... 그분은 불경한 죄를 저지르신 죄인이야."\n아이들이 깜짝 놀라 당혹스러워하며 숨을 들이쉬었다.\n수장은 택생각의 지난날을 회상하며, 아이들이 조금 전의 이야기를 이해할 시간을 준 후, 설명을 이어 나갔다.\n"의술과 약학은 본래 하늘의 뜻을 거슬러 운명을 바꾸는 일이다. 운이 나빠 축유의 도움을 받지 못하는 이들의 명을 바꾸는 것이지. 대풍구장도 '천지의 가장 큰 덕을 생이라 이른다'하지 않더냐. 사람이 그 뜻을 관철한들 무슨 잘못이 있겠느냐. 하지만, 이 길은 너무나 험난하단다. 너희가 마셨던 탕약 한 그릇조차 수많은 의원의 끊임없는 시도와 연구, 그리고 희생을 통해 일궈 낸 결과이니 말이야."\n정원에는 무거운 적막만이 감돌았다. 때마침 바람에 실려 온 옅은 꽃잎 하나가 열린 관 안으로 떨어지자, 수장은 조심스레 손을 뻗어 꽃잎을 거두어냈다. 그는 생각에 잠겨 있거나 망설이는, 혹은 무언가 느낀 바가 있는 듯한 아이들의 얼굴을 하나하나 살피며 무겁게 입을 열었다.\n"백 년의 세월 동안 고난과 시련은 끊이지 않았지만, 이 택생각은 대풍구장에 맞서서라도 병을 고치고 사람을 구하고자 만든 곳이다. 우리의 선배들은 그 결심 하나로 수많은 어려움을 극복하고, 죽음의 문턱에서 상황을 뒤집어 오셨지. 부풍 님께서 유일한 혈육을 우리에게 맡기신 이유도 바로 그 때문이다. 그분께서는 후학들은 자신을 가로막았던 그 절망을 극복하고, 당신의 손끝이 닿지 못한 더 먼 곳까지 나아가, 질병의 그늘을 걷어 내고, 멈춰 버린 이들의 삶을 다시 시작되게 해 줄 것이라 믿으셨던 거야."\n관 속의 여인은 여전히 깊은 잠에 빠져 있었다. 하지만 백 년간 변치 않은 그 용모는, 이제 아이들의 눈에 더 이상 차가운 구경거리가 아니었다. 그녀는 언젠가 반드시 넘어야 할 높은 산이자, 지난 백 년간 택생각이 걸어온 의술의 길을 묵묵히 지켜본 산증인이었다.\n \n수장은 말했다. "택생각은, 그 어떤 환자도 포기하지 않는다."",
+    ContentJP = "澤生閣の弟子なら誰しも知っている。後園には一基の石棺があると。\n\nその棺からは、一日中ひんやりとした気が立ちのぼり、近づくだけで背筋が冷えるほどだ。その中で眠り続けているのは、澤生閣の開祖と双子の妹にして、枯栄閣最後の祝由。彼女はかつて疫病の渦中を駆け巡り、枯栄術の反噬により、死の淵に立たされた。哀れむべきことに、宗門を興した祖師ほどの人物をもってしても、この反噬を覆す術はなかった。彼女にできたことといえば、ただひとつ。\n妹の寂滅に先んじて石棺と氷室を整え、すべての身体機能を強制的に止める術を施す――それだけだった。\n「祖師はすべての希望を未来に託したのです」今代の澤生閣主は、扇を軽く揺らしながら新たな弟子たちにそう語った。\n「その『未来』には、私も、お前たちの兄弟子や姉弟子も、お前たち自身も、そしてお前たちの子孫までも含まれている」\n入門したての幼い弟子たちにとって、それがどれほどの意味を持つのかは、まだ分からない。ただ興味しんしんに首を伸ばしては、百年前のその医者を一目見たいとせがむばかりだった。閣主はその願いを叶えてやった。\n石棺の中の人は、石膏のように蒼白な肌をしていた。呼吸の気配すらなく、関節は氷の彫刻のように硬く、どう見ても現世の人とは思えなかった。弟子の中には、見ているだけで怖くなってしまう者もいた。\n彼らはその人形のような姿に目を奪われつつ、どこか半信半疑のまま、何事もない顔で立つ閣主を見つめた。\nその視線の意味を、閣主はよく知っている。そして静かに言った。「君たちは、もう助からないと思ったのでしょう？」\nふだんは飄々としている閣主が、めずらしく厳しい声を出す。その威圧に、弟子たちは息を呑み、声も出せなくなった。閣主は一人ひとりの顔を見回し、口を開いた。\n「『大風九章』にはこうある――『虚を語り、衆を惑わすこと、為すべからず』と。ならば、今日この日が初学の始まりであるからには、私も真実を語らねばね」「祖師フーフォンは、若くして医薬の道に入り、『草本精要』を著し、澤生閣を創設した。それから百年、澤生閣が救った人間は数知れぬ。おそらくお前たちの家族にも、ここで診を受け、薬を処方された者がいるだろう。ゆえに、この閣の恩に報いようと、我々門人の過ちは隠され、功績ばかりが伝えられてきた。だが、そうした善意をもってしても、祝由の生まれでありながら最後まで成し遂げられなかった事実は、消えはしない。祖師は――事実として、『不敬』という罪を背負っているのだ」\n弟子たちは、思いもよらぬ言葉に驚き、息をのんだ。中には、呆然とする者もいた。閣主は澤生閣の過去を想い返しながら、ひとつ深く息をついた。弟子たちが理解するまで、しばし沈黙を置いたのち、静かに語り継いだ。\n「医とは、そもそも天に逆らう道だ。運に見放され、祝由にすら間に合わず命を落とすような者たちの『運命』を覆すものだ。『大風九章』には、もうひとつこうある――『天地の大徳、生と称す』と。天地が命を尊ぶのならば、それを引き継ぎ、人が生を貫くことに、何の罪があろう？」\n「だがその道は、決して平坦ではない。お前たちがこれまで飲んできたどの一服の薬も、すべては先人たちが試行錯誤を重ね、ときには生死の淵に身を置いてようやく導き出した結果なのだ」\n風が吹いた。一枚の淡い花びらが棺の中へ落ち、閣主はそれを指先でそっと払った。弟子たちは言葉もなく、ただそれぞれの思いを胸に沈めていた。\n閣主は、その一人ひとりの顔――迷い、思案し、あるいは静かに胸を打たれたその表情を見届けながら、深く、重く言い放った。\n「百年の時を越え、幾多の困難を経て、なお歩み続けてきた。澤生閣とは、本来大風九章にすら逆らってでも病を癒す場であり、我らが先人は、まさにその覚悟をもって、ひとつひとつ『不可能』を乗り越えてきたのだ」\n「祖師が、唯一の肉親を私たちに託したのもそのためだ。かつて彼女が届かなかった絶望を、後に続く私たちが覆すと信じていたから。彼女の指が届かなかったその先へ、私たちは必ず辿り着く。病の影を打ち払い、断たれた人生を再び歩ませる。それが、澤生閣の未来なのだ」\n棺の中の人は、今も変わらず眠り続けている。その顔は、百年前から寸分も変わっていない。だが、目の前の弟子たちにとって、彼女はもはや「冷たい奇観」ではなかった。\nそれは、静かに百年の医道を見守り続けてきた山であり、いつか越えるべき背中となったのだ。\n最後に、閣主はこう結んだ。\n「澤生閣は――いかなる病人も、決して見捨てはしない」",
+    ContentKR = "택생각의 제자들은 후원 깊은 곳에 있는 석관을 잘 알았다. 사시사철 뼛속까지 시린 한기를 내뿜는 곳이었다.\n\n그 관 속에는 이 택생각을 세운 설립자의 쌍둥이 여동생이자, 고영각의 마지막 축유가 잠들어 있었다. 그녀는 역병이 창궐하던 시절, 쉼 없이 사람들을 구하다 치료술의 반동으로 목숨이 위태로워졌다. 당시에는 이 택생각의 설립자 같은 위대한 인물조차 그녀를 구할 방법을 찾지 못했고, 결국 석관과 빙실을 마련해 동생의 시간을 멈춰 두는 게 전부였다.\n\n"설립자께서는 미래에 모든 희망을 거셨단다."\n이번 대의 택생각 수장은 부채를 흔들며 새로 들어온 제자들에게 말했다.\n"그 미래에는 나도, 너희 선배들도, 지금의 너희도, 그리고 훗날 너희의 뒤를 이을 후배들도 포함되어 있지."\n물론 갓 입문한 아이들이 그 깊은 뜻을 온전히 이해할 리는 없었다. 그들은 그저 백 년 전의 의원을 직접 본다는 호기심에 목을 길게 뺄 뿐이었다. 수장이 관을 보여 주었을 때, 그들의 눈에 들어온 건 창백한 피부와 굳어 버린 관절, 그리고 숨조차 거의 쉬지 않아 사람이 아닌 다른 존재라는 생각이 드는 무언가였다. 아이들은 덜컥 겁을 집어먹었다.\n그들은 얼음 조각처럼 굳어 있는 여인과 태연한 수장의 얼굴을 번갈아 보며, 의심의 눈초리를 거두지 못했다.\n수장은 아이들의 그런 마음을 단번에 꿰뚫어 보고 숙연히 말했다.\n"가망이 없다고 생각하는구나, 그렇지?"\n평소의 느긋함과는 다른 진지함에 아이들은 쥐 죽은 듯 조용해졌다.\n수장은 아이들을 보며 말을 이었다. "대풍구장에는 '망령된 말로 무리를 속이지 말지어다'라는 말이 있지. 부풍 님께서는 어린 나이에 약학에 뜻을 두시고, 〈초목정요〉를 저술하고 이 택생각을 세우셨다. 지난 백 년간, 이 택생각이 구한 이들은 셀 수 없이 많단다. 물론, 그중에는 너희와 너의 가족도 있겠지. 은혜를 입었다 생각한 이들이 우리의 허물을 덮어 주고는 있지만, 그렇다 해도 부풍 님께서 축유로서의 사명을 다하지 못하셨다는 점은 사실이다. 사실상... 그분은 불경한 죄를 저지르신 죄인이야."\n아이들이 깜짝 놀라 당혹스러워하며 숨을 들이쉬었다.\n수장은 택생각의 지난날을 회상하며, 아이들이 조금 전의 이야기를 이해할 시간을 준 후, 설명을 이어 나갔다.\n"의술과 약학은 본래 하늘의 뜻을 거슬러 운명을 바꾸는 일이다. 운이 나빠 축유의 도움을 받지 못하는 이들의 명을 바꾸는 것이지. 대풍구장도 '천지의 가장 큰 덕을 생(生)이라 이른다'하지 않더냐. 사람이 그 뜻을 관철한들 무슨 잘못이 있겠느냐. 하지만, 이 길은 너무나 험난하단다. 너희가 마셨던 탕약 한 그릇조차 수많은 의원의 끊임없는 시도와 연구, 그리고 희생을 통해 일궈 낸 결과이니 말이야."\n정원에는 무거운 적막만이 감돌았다. 때마침 바람에 실려 온 옅은 꽃잎 하나가 열린 관 안으로 떨어지자, 수장은 조심스레 손을 뻗어 꽃잎을 거두어냈다. 그는 생각에 잠겨 있거나 망설이는, 혹은 무언가 느낀 바가 있는 듯한 아이들의 얼굴을 하나하나 살피며 무겁게 입을 열었다.\n"백 년의 세월 동안 고난과 시련은 끊이지 않았지만, 이 택생각은 대풍구장에 맞서서라도 병을 고치고 사람을 구하고자 만든 곳이다. 우리의 선배들은 그 결심 하나로 수많은 어려움을 극복하고, 죽음의 문턱에서 상황을 뒤집어 오셨지. 부풍 님께서 유일한 혈육을 우리에게 맡기신 이유도 바로 그 때문이다. 그분께서는 후학들은 자신을 가로막았던 그 절망을 극복하고, 당신의 손끝이 닿지 못한 더 먼 곳까지 나아가, 질병의 그늘을 걷어 내고, 멈춰 버린 이들의 삶을 다시 시작되게 해 줄 것이라 믿으셨던 거야."\n관 속의 여인은 여전히 깊은 잠에 빠져 있었다. 하지만 백 년간 변치 않은 그 용모는, 이제 아이들의 눈에 더 이상 차가운 구경거리가 아니었다. 그녀는 언젠가 반드시 넘어야 할 높은 산이자, 지난 백 년간 택생각이 걸어온 의술의 길을 묵묵히 지켜본 산증인이었다.\n\n수장은 말했다. "택생각은, 그 어떤 환자도 포기하지 않는다."",
     ContentTC = "所有澤生閣的弟子都知道，後園有座石棺，終日寒氣逼人。\n\n棺中睡著的人是祖師的孿生姐妹，枯榮閣的末代祝由，於一場瘟疫中奔走不歇，最終因為枯榮術的反噬幾乎身死，十分可嘆。然而即使是如祖師這樣開宗立派的人物，那時也找不到絲毫逆轉這種反噬的可能，她能做的只是提前準備好一口石棺，一間冰室，在妹妹寂滅前強行暫停她身體的所有機能，以待來日。\n\n「祖師將所有的希望都賭在了未來。」這一屆的澤生閣閣主搖著扇子，對新入門的學徒們這麼說道：「這些將來中有我，有你們的師兄師姐，有你們，也有你們未來的後輩。」\n小學徒們不見得能聽明白他話語中的含義，一個個探頭探腦，想見一見這位百年前的醫者，閣主滿足了他們的願望。棺中人膚色蒼白如石膏，幾乎沒有呼吸的跡象，關節僵硬如冰雕，怎麼看都已久別於人間，有些學徒們光是看了一會，就覺得有些害怕。\n他們懷疑地看著這樽栩栩如生的冰雕，又用質疑的目光看向面色自若的閣主。\n閣主對這樣的目光瞭然於心，他肅然道：「你們覺得她救不活了，對嗎？」通常，他為人處世總有些漫不經心，很少擺出這樣嚴肅的神情，小學徒們被他震懾，一個個噤若寒蟬。\n閣主掃視一圈，說道：「大風九章有言，『妄言欺眾，不可為也』。那麼諸位第一日入門，我也要將話說明白些。祖師扶風少年時即投身醫藥，著有《草本精要》，創立澤生閣。百年來，澤生閣救過的人數不勝數，各位家中想必也在澤生閣問過診，抓過藥。也因此，受過恩的大多也知恩圖報，為我門人隱惡揚善，但即使如此，也無法抹去祖師出身祝由，卻沒能有始有終的事實，她——在事實上是犯下了不敬之罪的罪人。」\n小學徒們驚訝抽氣，不少人滿目茫然。\n閣主回想起澤生閣過去種種，也不由暗自長嘆。他留了一點時間給所有人各自消化，繼續說道：「醫藥本就是逆天改命。改的是那些本無過錯，卻因運氣不好等不到祝由救治便一命歸西的人的命。大風九章也有雲『天地大德，其名為生』，天地可為，人貫徹其意志，又有何錯？但這條道路之艱難坎坷，亦不足為外人所道也。諸位曾經飲下的每一劑藥，都經過醫者的不懈嘗試與研究，甚至經過生死夾縫的考驗才被證實可行的結果。」\n此刻園中寂靜無聲，沒有人再發出聲響，有風吹來一片淡色花瓣落在棺內，被閣主小心拂去，他看著人群中每一張或沉思或猶豫或感動的臉，沉沉說道：「百年光陰，一路顛沛。澤生閣本就是不惜抵抗大風九章也要治病救人的地方，我輩先人，就是以這樣的決心去攻破一個一個難關，解決無數不可能的死局的。祖師也正是因此才將自己唯一的親人交給我們，因為她相信，她的後人們會推翻她當初無能為力的絕境，我們會走到她的指尖無法觸及的遠方，疾病的陰翳會因為我們的存在被驅散，被中斷的人生會因為我們而重新開始。」\n棺中人依舊沉睡，她的面貌已經一百年不曾改變，可是在這群孩子眼中，她已不是幾分鐘前那一座冷冰冰的奇觀，她是一座終將會被越過的，卻默默見證了醫道百年變遷的山巒。\n\n閣主說：「澤生閣，不會放棄任何一個病人。」",
     TextMapContent = "所有泽生阁的弟子都知道，后园有座石棺，终日寒气逼人。\n\n棺中睡着的人是祖师的孪生姐妹，枯荣阁的末代祝由，于一场瘟疫中奔走不歇，最终因为枯荣术的反噬几乎身死，十分可叹。然而即使是如祖师这样开宗立派的人物，那时也找不到丝毫逆转这种反噬的可能，她能做的只是提前准备好一口石棺，一间冰室，在妹妹寂灭前强行暂停她身体的所有机能，以待来日。\n\n“祖师将所有的希望都赌在了未来。”这一届的泽生阁阁主摇着扇子，对新入门的学徒们这么说道：“这些将来中有我，有你们的师兄师姐，有你们，也有你们未来的后辈。”\n小学徒们不见得能听明白他话语中的含义，一个个探头探脑，想见一见这位百年前的医者，阁主满足了他们的愿望。棺中人肤色苍白如石膏，几乎没有呼吸的迹象，关节僵硬如冰雕，怎么看都已久别于人间，有些学徒们光是看了一会，就觉得有些害怕。\n他们怀疑地看着这樽栩栩如生的冰雕，又用质疑的目光看向面色自若的阁主。\n阁主对这样的目光了然于心，他肃然道：“你们觉得她救不活了，对吗？”通常，他为人处世总有些漫不经心，很少摆出这样严肃的神情，小学徒们被他震慑，一个个噤若寒蝉。\n阁主扫视一圈，说道：“大风九章有言，‘妄言欺众，不可为也’。那么诸位第一日入门，我也要将话说明白些。祖师扶风少年时即投身医药，著有《草本精要》，创立泽生阁。百年来，泽生阁救过的人数不胜数，各位家中想必也在泽生阁问过诊，抓过药。也因此，受过恩的大多也知恩图报，为我门人隐恶扬善，但即使如此，也无法抹去祖师出身祝由，却没能有始有终的事实，她——在事实上是犯下了不敬之罪的罪人。”\n小学徒们惊讶抽气，不少人满目茫然。\n阁主回想起泽生阁过去种种，也不由暗自长叹。他留了一点时间给所有人各自消化，继续说道：“医药本就是逆天改命。改的是那些本无过错，却因运气不好等不到祝由救治便一命归西的人的命。大风九章也有云‘天地大德，其名为生’，天地可为，人贯彻其意志，又有何错？但这条道路之艰难坎坷，亦不足为外人所道也。诸位曾经饮下的每一剂药，都经过医者的不懈尝试与研究，甚至经过生死夹缝的考验才被证实可行的结果。”\n此刻园中寂静无声，没有人再发出声响，有风吹来一片淡色花瓣落在棺内，被阁主小心拂去，他看着人群中每一张或沉思或犹豫或感动的脸，沉沉说道：“百年光阴，一路颠沛。泽生阁本就是不惜抵抗大风九章也要治病救人的地方，我辈先人，就是以这样的决心去攻破一个一个难关，解决无数不可能的死局的。祖师也正是因此才将自己唯一的亲人交给我们，因为她相信，她的后人们会推翻她当初无能为力的绝境，我们会走到她的指尖无法触及的远方，疾病的阴翳会因为我们的存在被驱散，被中断的人生会因为我们而重新开始。”\n棺中人依旧沉睡，她的面貌已经一百年不曾改变，可是在这群孩子眼中，她已不是几分钟前那一座冷冰冰的奇观，她是一座终将会被越过的，却默默见证了医道百年变迁的山峦。\n\n阁主说：“泽生阁，不会放弃任何一个病人。”",
     TextMapId = "UI_CHAR_DATA_TEXT_24010104"
@@ -125750,10 +125860,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_CHAR_DATA_TEXT_24010305"
         },
   UI_CHAR_DATA_TEXT_24010401 = {
-    ContentEN = "Fushu sat aboard the vessel that bore her home.\n \nThe travellers' clothing no longer resembled anything from a century past, and even the ship itself was built with a complexity unknown in her time. Among the passengers were foreigners speaking quietly of their work: merchants carrying goods from Luca to trade in Mistwharf.\nThey seemed well acquainted with Huaxu. When their business talk faded, their voices turned to stories from the road. They spoke of Mistwharf's scenery, finer than anything in Haojing, and of plans to go hiking together when time allowed. One mentioned seeing an Emeraldfinch pass over a valley. Another laughed and corrected her, saying that Emeraldfinches only glide, their heavy tail feathers making true flight impossible. Their talk then drifted to EverSpring and to how, during the festival season, Proprietress Zhiliu sent lavish gift boxes to her partners, each holding a commemorative gold coin. A man nearby remarked with a quiet laugh that he preferred the cured Petit Boar strips within, an ideal companion for the long miles of travel.\n \nFushu listened in silence, drawn in despite herself. Their words felt at once strange and familiar. Her thoughts drifted toward the frayed edge of memory. Had she, a century ago, watched an Emeraldfinch glide across the sky? Had she walked every street and alley of Mistwharf, watching its seasons come and go? And the snacks she had cherished as a child — were they the very ones these travellers spoke of? Were they spicy, sweet, or savoury?\n \nPerhaps she had; perhaps not. She could no longer say.\n \nSo many of her memories had grown indistinct. Like footprints pressed deep into sand, even the clearest traces flattened when the tide of time swept over them, leaving the shore smooth and leaving her unsure of the road she had once walked.\nShe sat in quiet reflection, unsure and thoughtful in equal measure, and the question rose unbidden: Perhaps this is why I return to Mistwharf, why I must set my steps towards the Hall of Ephemerality.\nPerhaps her gaze lingered too long upon the merchants, for they soon noticed her and looked her way with curiosity. One of the businesswomen, dressed in foreign fashion, smiled and stepped towards her. "Your attire is lovely. I have only seen clothing like that in Huaxu's history books, so we could not help staring. It is a pleasure to travel with such a beautiful lady. If you do not mind my asking, are you bound for Mistwharf as well?"\n\nFushu was silent for a moment before answering softly, "I once lived there."\n \nThe woman drew a light breath, affecting a note of surprise. "Truly? What a coincidence. We are headed to Mistwharf for trade. Along with spirits and glassware, we have brought a few small curios."\n She opened her palm to reveal a finely crafted pocket watch. Its case was embossed with a great tree, its canopy encircling a luminous moon — a familiar sight to Fushu — though beneath the branches lay flared eaves and covered walkways she did not recognise, belonging to the century that had passed without her.\nWith a soft click the woman opened the case, showing the turning hands — second, minute, hour — each keeping steady time. She adjusted the crown with practised ease. "Our customers often complain that setting the time is troublesome, so we added a few improvements to this model. I wonder whether the people of Mistwharf will— oh!"\nThe hands began to turn backwards somehow. "I am terribly sorry," she said, flushing with embarrassment. "This one must be defective. The others work perfectly. I can fetch you another—"\n"No need."\nFushu's gaze remained on the reversing hands.\n"I prefer this one," she said.\n"Would you sell it to me?"",
-    ContentJP = "フーシュは、帰郷の船に身を任せていた。\n \n 行き交う人々の装いは、百年前とはまるで違い、船の構造もずっと複雑で精巧になっていた。見知らぬ土地の商人たちが乗り合わせ、ルッカから運んだ品を煙津渡で売るのだと、低い声で話していた。\n 彼らは華胥に慣れているようで、商談の後は道中の話に花を咲かせていた。煙津渡の景色は皓京より美しいだとか、次は皆で回遊に行こうだとか。スイヘイスズメが谷を越えて飛ぶのを見たと言えば、別の者が「滑空だよ、あれは尾羽が重すぎて長くは飛べないはずだ」と訂正した。百年春が節句に贈る豪華な贈り物の話になり、シリュウさんの太っ腹ぶりに触れ、記念金貨が入っていたと語る者もいた。するとある男が、「自分はあの珍猪の干し肉の方が好きだ」と笑った。旅の合間のつまみにちょうどいいのだと。\n \n フーシュは黙って耳を傾けていた。\n 語られる「故郷」は、なぜか懐かしく、それでいて見知らぬ場所のようでもあった。百年前、私はスイヘイスズメが空を滑るのを見たことがあっただろうか。煙津渡の四季を歩き尽くしただろうか。子どもの頃に好きだったおやつは、あれと同じ味だったろうか。辛かったか、甘じょっぱかったか──\n \n たぶん、そうだった。いや、違ったかもしれない。今となってははっきりとは思い出せない。\n \n 曖昧な記憶ばかりだ。まるで、足跡を残して歩いた砂浜が、時間の波にさらわれ、すべてを飲み込んでしまったかのように。だから私は──煙津渡へ、枯栄閣へ戻るのだろうか。\n \n 商人を見つめていた視線に気づかれたのか、何人かがこちらを振り返った。やがて一人の女商人が、異国風のスカートを翻しながら近づいてきて、笑顔で言った。\n 「そのお召し物、とても素敵ですね。歴史書でしか見たことのない装いで、思わず見とれてしまいました。こんなに美しい方と同じ船なんてうれしい。もしよければ、目的地を教えていただけますか？あなたも煙津渡へ？」\n \n フーシュは少し間を置いて答えた。「昔、住んでいたゆえ」\n \n 「まあ、偶然！」商人は明るく笑った。「私たちも商売でそちらに。酒やガラス器のほかに、ちょっとした雑貨も……」と言いながら、小さな懐中時計を手のひらに乗せて見せた。\n 月を囲む巨木が精緻に彫られた表面に、フーシュは見覚えのある風景を感じた。だが、木の下の廊橋や飛檐は知らないものだった。それは、彼女の知らない百年の風景だ。\n 商人が懐中時計を開くと、針が静かに動いていた。「時刻合わせが面倒だという声が多くて、ちょっとした工夫をしてあるんです。煙津渡でも気に入ってもらえるといいんですが──あら？」\n 針が逆回転を始めた。「ごめんなさい、不良品かしら……今すぐ別のを──」\n \n 「いいえ、これで構いませんよ」\n フーシュは逆回転する針を見つめたまま言った。\n 「気に入りました。これを売っていただけませんか？」",
-    ContentKR = "부소는 고향으로 향하는 배 위에 앉아 있었다.\n \n백 년이라는 세월은 많은 것을 바꿔 놓았다. 오가는 사람들의 옷차림은 낯설었고, 배의 구조는 그녀가 기억하는 것보다 훨씬 정교하고 복잡했다. 승객 중에는 이방인들이 눈에 띄게 늘어 있었다. 그들은 나지막한 목소리로, 루카 공화국에서 가져온 물건들을 연진 나루터에 어떻게 팔지 이야기하고 있었다.\n화서에 꽤 자주 오가는 사람들인 건지, 장사 이야기가 끝나자, 화젯거리는 자연스레 여행담으로 옮겨갔다. 연진 나루터가 호경보다 낫다며 꽃구경 약속을 잡는가 하면, 골짜기에서 초록 공작새를 봤다는 이야기를 꺼내기도 했다. 누군가 그 새는 꼬리가 무거워 오래 날지 못한다고 핀잔을 주자, 이번에는 백년춘 상회의 명절 선물 이야기로 넘어갔다. 지류 대방이 명절 선물로 통 크게 순금 기념주화를 돌렸다는 이야기에, 한 사내는 자신에게는 여행길에 심심풀이로 먹기 좋은 돼지 육포가 더 좋았을 것이라며 너스레를 떨었다.\n \n부소는 그들의 이야기에 귀를 기울이며, 낯설면서도 그리운 고향의 풍경을 떠올렸다. 백 년 전의 자신도 저들처럼 초록 공작새가 하늘을 나는 모습을 보았을까? 연진 나루터의 사계절 풍경을 두 눈에 담았을까? 어린 시절 좋아했던 간식은 저들이 말한 것처럼 매콤한 맛이었던가, 아니면 짭짤하면서도 달콤한 맛이었던가? \n \n그랬던 것 같기도 하고, 아닌 것 같기도 했다. 너무 가물가물했다.\n \n너무 많은 기억이 흐릿해진 나머지, 확신할 수 있는 게 없었다. 발자국을 아무리 깊게 남겨도, 시간이라는 파도가 밀려오면 모든 흔적이 지워져 버리고, 결국 자신이 걸어온 길조차 잊게 되듯, 부소는 마치 자신이 오랫동안 모래사장 위를 걸어온 여행자가 되어 버린 것만 같았다.\n부소는 멍하니 앉아 생각했다. 어쩌면 잃어버린 기억을 되찾기 위해, 자신은 연진 나루터로, 그리고 고영각으로 돌아가야만 하는 것일지도 몰랐다.\n너무 오래 바라보고 있었던 모양인지, 상인들이 이쪽을 힐끔거렸다. 이국적인 치마를 입은 여자 상인 하나가 웃으며 다가와, 부소의 옷차림을 칭찬하며 살갑게 말을 걸었다. \n"옷이 참 예쁘네요. 화서의 역사책 속 삽화가 살아서 걸어 다니는 줄 알았어요! 이렇게 아름다우신 분과 동행하게 돼서 영광인걸요! 그런데 혹시 어디 가시나요? 연진 나루터로 여행 가시는 거예요?"\n \n부소는 잠시 아무 말이 없다가 입을 열었다. "예전에 거기 살았었어요."\n \n상인은 일부러 더 깜짝 놀라는 척하며 쾌활하게 말했다.\n"세상에! 이런 우연이 있네요! 저희도 거기에 장사하러 가는 길이거든요! 술이나 유리그릇 말고도 자잘한 소품을 좀 챙겨 왔는데..."\n여자는 손바닥을 펼쳐 정교한 회중시계 하나를 보여 주었다. 달을 감싸안은 거대한 나무가 섬세하게 조각된 덮개에서 익숙함이 느껴졌지만, 나무 아래에 새겨진 처마와 복도는 기억에 없었다. 부소가 알지 못하는 백 년 동안 생겨난 변화였다.\n여자가 버튼을 눌러 덮개를 열자, 초침과 분침, 시침이 째깍거리며 돌아갔다. 여자는 태엽을 감으며 싱글벙글한 표정으로 부소에게 이 특별한 공예품을 소개했다.\n"...손님들이 매번 시간 맞추기 귀찮다고 하셔서, 이번 모델에선 개량을 좀 해 봤어요. 연진 나루터의 고객님들이 마음에 들어 하실지 잘... 앗, 이걸 어쩌지!"\n어떻게 된 영문인지 갑자기 시곗바늘이 거꾸로 돌기 시작했다.\n"죄송해요, 정말 죄송해요."\n상인이 땀을 삐질거리며, 난처한 듯 웃음을 지어 보였다.\n"이게 고장이 났나 봐요. 이거 말고 다른 시계들은 멀쩡하니까, 하나 더 꺼내서..."\n"아니에요."\n부소의 눈은 거꾸로 가는 시곗바늘에 고정되어 있었다.\n"전 거꾸로 가는 이 시계가 마음에 드네요. 이 시계, 제게 파시겠어요?"",
-    ContentTC = "扶疏坐在歸鄉的船上。\n\n來往行人的衣著已不是百年前的模樣，船隻的結構比她的時代更加複雜精密。船上多了些異鄉人，他們低聲交流著，說要將來自盧卡的貨物運至煙津渡售賣。\n他們似乎常來華胥，聊完了生意，就聊起一路見聞。他們說煙津渡的風景比皓京的要好，有時間了要一起去踏青，又說起上回見到翠屏雀飛過山穀——此時有人糾正她，說那只是滑翔，翠屏雀尾羽沉重，怎麼可能長時間飛行呢？又說到百年春在年節時給合作商發禮盒，止流掌柜出手闊綽，裡面有一枚純金的紀念幣。此時一個男人笑起來，說他更喜歡裡面的珍豬肉乾，最適合在旅途中拿來打發時間了。\n\n扶疏聽得入神。他們談及的故鄉陌生而熟悉，她的思緒飄入回憶，她想，在一百年前，我是否也曾見過翠屏雀滑過天際；我是否也曾走過煙津渡的每一個角落，遍覽每個時節的美景；我兒時最愛吃的零食又是否是他們提過的那種，嘗起來是辛辣，還是鹹甜？\n\n似乎是的，似乎沒有，不太記得了，應該吧？\n\n太多模稜兩可的回憶了，她已經無法給自己一個確切的答案。就像在沙灘上跋涉了漫長年月的行人，不管她留下的腳印多麼深刻，時間的浪潮一旦湧來，都會變回一片平緩無痕的沙地，最終忘卻自己的來路。\n她坐著。茫然地，若有所思地想到：或許這就是為什麼我要回到煙津渡，要回到枯榮閣。\n她將目光太久地落在商人身上，他們看向她，打量她。最終一位女商人朝她一笑，提著外國樣式的裙子朝她走來，她毫不吝惜自己的誇讚，熱情洋溢地說道：「您穿得真好看，我只在華胥的歷史書上見到這樣的衣裳，剛才都讓我們看呆啦！能和您這樣美麗的女士同行，真是我們的運氣，希望您不介意我們問一問您的目的地，您也是去煙津渡旅行的嗎？」\n\n扶疏沉默了一會，說：「我曾居住在那裡。」\n\n女商人故作驚訝，快樂地說道：「是嘛！太巧了，我們正要去煙津渡做生意呢！除了酒水與玻璃器皿，我們還帶了一些小玩意——」\n她攤開手心，露出一枚精緻的懷錶。表殼上精巧地雕鏤著環繞明月的巨木，她感到有些欣喜，這正是她所熟識的風景，但她從未見過巨木下的飛檐與廊橋，那屬於她所不知道的一百年。\n女商人按鍵彈開表殼，露出行走的時間——秒針、分針、時針，井然有序，踢踏不停。她麻利地轉著旋鈕，笑嘻嘻地向扶疏介紹這種特殊的工藝，「……客人們總說調時很麻煩，所以這款懷錶我們做了特殊的改良。不知道煙津渡的居民會不會喜歡……呀，糟了！」\n那懷錶不知怎的，指針突然倒轉了起來。「抱歉抱歉，」女商人汗涔涔地、有些尷尬地賠著笑臉，這隻懷錶怕不是出了故障。不過其他都是完好的，我再取一隻——」\n「不必取了。」\n扶疏的眼神落在逆行的指針上。\n「我喜歡這隻倒轉的鐘表。可以把它賣給我嗎？」",
+    ContentEN = "Fushu sat aboard the vessel that bore her home.\n\nThe travellers' clothing no longer resembled anything from a century past, and even the ship itself was built with a complexity unknown in her time. Among the passengers were foreigners speaking quietly of their work: merchants carrying goods from Luca to trade in Mistwharf.\nThey seemed well acquainted with Huaxu. When their business talk faded, their voices turned to stories from the road. They spoke of Mistwharf's scenery, finer than anything in Haojing, and of plans to go hiking together when time allowed. One mentioned seeing an Emeraldfinch pass over a valley. Another laughed and corrected her, saying that Emeraldfinches only glide, their heavy tail feathers making true flight impossible. Their talk then drifted to EverSpring and to how, during the festival season, Proprietress Zhiliu sent lavish gift boxes to her partners, each holding a commemorative gold coin. A man nearby remarked with a quiet laugh that he preferred the cured Petit Boar strips within, an ideal companion for the long miles of travel.\n\nFushu listened in silence, drawn in despite herself. Their words felt at once strange and familiar. Her thoughts drifted toward the frayed edge of memory. Had she, a century ago, watched an Emeraldfinch glide across the sky? Had she walked every street and alley of Mistwharf, watching its seasons come and go? And the snacks she had cherished as a child — were they the very ones these travellers spoke of? Were they spicy, sweet, or savoury?\n\nPerhaps she had; perhaps not. She could no longer say.\n\nSo many of her memories had grown indistinct. Like footprints pressed deep into sand, even the clearest traces flattened when the tide of time swept over them, leaving the shore smooth and leaving her unsure of the road she had once walked.\nShe sat in quiet reflection, unsure and thoughtful in equal measure, and the question rose unbidden: Perhaps this is why I return to Mistwharf, why I must set my steps towards the Hall of Ephemerality.\nPerhaps her gaze lingered too long upon the merchants, for they soon noticed her and looked her way with curiosity. One of the businesswomen, dressed in foreign fashion, smiled and stepped towards her. "Your attire is lovely. I have only seen clothing like that in Huaxu's history books, so we could not help staring. It is a pleasure to travel with such a beautiful lady. If you do not mind my asking, are you bound for Mistwharf as well?"\n\nFushu was silent for a moment before answering softly, "I once lived there."\n\nThe woman drew a light breath, affecting a note of surprise. "Truly? What a coincidence. We are headed to Mistwharf for trade. Along with spirits and glassware, we have brought a few small curios."\nShe opened her palm to reveal a finely crafted pocket watch. Its case was embossed with a great tree, its canopy encircling a luminous moon — a familiar sight to Fushu — though beneath the branches lay flared eaves and covered walkways she did not recognise, belonging to the century that had passed without her.\nWith a soft click the woman opened the case, showing the turning hands — second, minute, hour — each keeping steady time. She adjusted the crown with practised ease. "Our customers often complain that setting the time is troublesome, so we added a few improvements to this model. I wonder whether the people of Mistwharf will— oh!"\nThe hands began to turn backwards somehow. "I am terribly sorry," she said, flushing with embarrassment. "This one must be defective. The others work perfectly. I can fetch you another—"\n"No need."\nFushu's gaze remained on the reversing hands.\n"I prefer this one," she said.\n"Would you sell it to me?"",
+    ContentJP = "フーシュは、帰郷の船に身を任せていた。\n\n行き交う人々の装いは、百年前とはまるで違い、船の構造もずっと複雑で精巧になっていた。見知らぬ土地の商人たちが乗り合わせ、ルッカから運んだ品を煙津渡で売るのだと、低い声で話していた。\n彼らは華胥に慣れているようで、商談の後は道中の話に花を咲かせていた。煙津渡の景色は皓京より美しいだとか、次は皆で回遊に行こうだとか。スイヘイジャクが谷を越えて飛ぶのを見たと言えば、別の者が「滑空だよ、あれは尾羽が重すぎて長くは飛べないはずだ」と訂正した。百年春が節句に贈る豪華な贈り物の話になり、シリュウさんの太っ腹ぶりに触れ、記念金貨が入っていたと語る者もいた。するとある男が、「自分はあの珍猪の干し肉の方が好きだ」と笑った。旅の合間のつまみにちょうどいいのだと。\n\nフーシュは黙って耳を傾けていた。\n語られる「故郷」は、なぜか懐かしく、それでいて見知らぬ場所のようでもあった。百年前、私はスイヘイジャクが空を滑るのを見たことがあっただろうか。煙津渡の四季を歩き尽くしただろうか。子どもの頃に好きだったおやつは、あれと同じ味だったろうか。辛かったか、甘じょっぱかったか──\n\nたぶん、そうだった。いや、違ったかもしれない。今となってははっきりとは思い出せない。\n\n曖昧な記憶ばかりだ。まるで、足跡を残して歩いた砂浜が、時間の波にさらわれ、すべてを飲み込んでしまったかのように。だから私は──煙津渡へ、枯栄閣へ戻るのだろうか。\n\n商人を見つめていた視線に気づかれたのか、何人かがこちらを振り返った。やがて一人の女商人が、異国風のスカートを翻しながら近づいてきて、笑顔で言った。\n「そのお召し物、とても素敵ですね。歴史書でしか見たことのない装いで、思わず見とれてしまいました。こんなに美しい方と同じ船なんてうれしい。もしよければ、目的地を教えていただけますか？あなたも煙津渡へ？」\n\nフーシュは少し間を置いて答えた。「昔、住んでいたゆえ」\n\n「まあ、偶然！」商人は明るく笑った。「私たちも商売でそちらに。酒やガラス器のほかに、ちょっとした雑貨も……」と言いながら、小さな懐中時計を手のひらに乗せて見せた。\n月を囲む巨木が精緻に彫られた表面に、フーシュは見覚えのある風景を感じた。だが、木の下の廊橋や飛檐は知らないものだった。それは、彼女の知らない百年の風景だ。\n商人が懐中時計を開くと、針が静かに動いていた。「時刻合わせが面倒だという声が多くて、ちょっとした工夫をしてあるんです。煙津渡でも気に入ってもらえるといいんですが──あら？」\n針が逆回転を始めた。「ごめんなさい、不良品かしら……今すぐ別のを──」\n\n「いいえ、これで構いませんよ」\nフーシュは逆回転する針を見つめたまま言った。\n「気に入りました。これを売っていただけませんか？」",
+    ContentKR = "부소는 고향으로 향하는 배 위에 앉아 있었다.\n\n백 년이라는 세월은 많은 것을 바꿔 놓았다. 오가는 사람들의 옷차림은 낯설었고, 배의 구조는 그녀가 기억하는 것보다 훨씬 정교하고 복잡했다. 승객 중에는 이방인들이 눈에 띄게 늘어 있었다. 그들은 나지막한 목소리로, 루카 공화국에서 가져온 물건들을 연진 나루터에 어떻게 팔지 이야기하고 있었다.\n화서에 꽤 자주 오가는 사람들인 건지, 장사 이야기가 끝나자, 화젯거리는 자연스레 여행담으로 옮겨갔다. 연진 나루터가 호경보다 낫다며 꽃구경 약속을 잡는가 하면, 골짜기에서 초록 공작새를 봤다는 이야기를 꺼내기도 했다. 누군가 그 새는 꼬리가 무거워 오래 날지 못한다고 핀잔을 주자, 이번에는 백년춘 상회의 명절 선물 이야기로 넘어갔다. 지류 대방이 명절 선물로 통 크게 순금 기념주화를 돌렸다는 이야기에, 한 사내는 자신에게는 여행길에 심심풀이로 먹기 좋은 돼지 육포가 더 좋았을 것이라며 너스레를 떨었다.\n\n부소는 그들의 이야기에 귀를 기울이며, 낯설면서도 그리운 고향의 풍경을 떠올렸다. 백 년 전의 자신도 저들처럼 초록 공작새가 하늘을 나는 모습을 보았을까? 연진 나루터의 사계절 풍경을 두 눈에 담았을까? 어린 시절 좋아했던 간식은 저들이 말한 것처럼 매콤한 맛이었던가, 아니면 짭짤하면서도 달콤한 맛이었던가? \n\n그랬던 것 같기도 하고, 아닌 것 같기도 했다. 너무 가물가물했다.\n\n너무 많은 기억이 흐릿해진 나머지, 확신할 수 있는 게 없었다. 발자국을 아무리 깊게 남겨도, 시간이라는 파도가 밀려오면 모든 흔적이 지워져 버리고, 결국 자신이 걸어온 길조차 잊게 되듯, 부소는 마치 자신이 오랫동안 모래사장 위를 걸어온 여행자가 되어 버린 것만 같았다.\n부소는 멍하니 앉아 생각했다. 어쩌면 잃어버린 기억을 되찾기 위해, 자신은 연진 나루터로, 그리고 고영각으로 돌아가야만 하는 것일지도 몰랐다.\n너무 오래 바라보고 있었던 모양인지, 상인들이 이쪽을 힐끔거렸다. 이국적인 치마를 입은 여자 상인 하나가 웃으며 다가와, 부소의 옷차림을 칭찬하며 살갑게 말을 걸었다. \n"옷이 참 예쁘네요. 화서의 역사책 속 삽화가 살아서 걸어 다니는 줄 알았어요! 이렇게 아름다우신 분과 동행하게 돼서 영광인걸요! 그런데 혹시 어디 가시나요? 연진 나루터로 여행 가시는 거예요?"\n\n부소는 잠시 아무 말이 없다가 입을 열었다. "예전에 거기 살았었어요."\n\n상인은 일부러 더 깜짝 놀라는 척하며 쾌활하게 말했다.\n"세상에! 이런 우연이 있네요! 저희도 거기에 장사하러 가는 길이거든요! 술이나 유리그릇 말고도 자잘한 소품을 좀 챙겨 왔는데..."\n여자는 손바닥을 펼쳐 정교한 회중시계 하나를 보여 주었다. 달을 감싸안은 거대한 나무가 섬세하게 조각된 덮개에서 익숙함이 느껴졌지만, 나무 아래에 새겨진 처마와 복도는 기억에 없었다. 부소가 알지 못하는 백 년 동안 생겨난 변화였다.\n여자가 버튼을 눌러 덮개를 열자, 초침과 분침, 시침이 째깍거리며 돌아갔다. 여자는 태엽을 감으며 싱글벙글한 표정으로 부소에게 이 특별한 공예품을 소개했다.\n"...손님들이 매번 시간 맞추기 귀찮다고 하셔서, 이번 모델에선 개량을 좀 해 봤어요. 연진 나루터의 고객님들이 마음에 들어 하실지 잘... 앗, 이걸 어쩌지!"\n어떻게 된 영문인지 갑자기 시곗바늘이 거꾸로 돌기 시작했다.\n"죄송해요, 정말 죄송해요."\n상인이 땀을 삐질거리며, 난처한 듯 웃음을 지어 보였다.\n"이게 고장이 났나 봐요. 이거 말고 다른 시계들은 멀쩡하니까, 하나 더 꺼내서..."\n"아니에요."\n부소의 눈은 거꾸로 가는 시곗바늘에 고정되어 있었다.\n"전 거꾸로 가는 이 시계가 마음에 드네요. 이 시계, 제게 파시겠어요?"",
+    ContentTC = "扶疏坐在歸鄉的船上。\n\n來往行人的衣著已不是百年前的模樣，船隻的結構比她的時代更加複雜精密。船上多了些異鄉人，他們低聲交流著，說要將來自盧卡的貨物運至煙津渡售賣。\n他們似乎常來華胥，聊完了生意，就聊起一路見聞。他們說煙津渡的風景比皓京的要好，有時間了要一起去踏青，又說起上回見到翠屏雀飛過山穀——此時有人糾正她，說那只是滑翔，翠屏雀尾羽沉重，怎麼可能長時間飛行呢？又說到百年春在年節時給合作商發禮盒，止流掌櫃出手闊綽，裡面有一枚純金的紀念幣。此時一個男人笑起來，說他更喜歡裡面的珍豬肉乾，最適合在旅途中拿來打發時間了。\n\n扶疏聽得入神。他們談及的故鄉陌生而熟悉，她的思緒飄入回憶，她想，在一百年前，我是否也曾見過翠屏雀滑過天際；我是否也曾走過煙津渡的每一個角落，遍覽每個時節的美景；我兒時最愛吃的零食又是否是他們提過的那種，嘗起來是辛辣，還是鹹甜？\n\n似乎是的，似乎沒有，不太記得了，應該吧？\n\n太多模稜兩可的回憶了，她已經無法給自己一個確切的答案。就像在沙灘上跋涉了漫長年月的行人，不管她留下的腳印多麼深刻，時間的浪潮一旦湧來，都會變回一片平緩無痕的沙地，最終忘卻自己的來路。\n她坐著。茫然地，若有所思地想到：或許這就是為什麼我要回到煙津渡，要回到枯榮閣。\n她將目光太久地落在商人身上，他們看向她，打量她。最終一位女商人朝她一笑，提著外國樣式的裙子朝她走來，她毫不吝惜自己的誇讚，熱情洋溢地說道：「您穿得真好看，我只在華胥的歷史書上見到這樣的衣裳，剛才都讓我們看呆啦！能和您這樣美麗的女士同行，真是我們的運氣，希望您不介意我們問一問您的目的地，您也是去煙津渡旅行的嗎？」\n\n扶疏沉默了一會，說：「我曾居住在那裡。」\n\n女商人故作驚訝，快樂地說道：「是嘛！太巧了，我們正要去煙津渡做生意呢！除了酒水與玻璃器皿，我們還帶了一些小玩意——」\n她攤開手心，露出一枚精緻的懷錶。表殼上精巧地雕鏤著環繞明月的巨木，她感到有些欣喜，這正是她所熟識的風景，但她從未見過巨木下的飛檐與廊橋，那屬於她所不知道的一百年。\n女商人按鍵彈開表殼，露出行走的時間——秒針、分針、時針，井然有序，踢踏不停。她麻利地轉著旋鈕，笑嘻嘻地向扶疏介紹這種特殊的工藝，「……客人們總說調時很麻煩，所以這款懷錶我們做了特殊的改良。不知道煙津渡的居民會不會喜歡……呀，糟了！」\n那懷錶不知怎的，指針突然倒轉了起來。「抱歉抱歉，」女商人汗涔涔地、有些尷尬地賠著笑臉，這隻懷錶怕不是出了故障。不過其他都是完好的，我再取一隻——」\n「不必取了。」\n扶疏的眼神落在逆行的指針上。\n「我喜歡這隻倒轉的鐘表。可以把它賣給我嗎？」",
     TextMapContent = "扶疏坐在归乡的船上。\n\n来往行人的衣着已不是百年前的模样，船只的结构比她的时代更加复杂精密。船上多了些异乡人，他们低声交流着，说要将来自卢卡的货物运至烟津渡售卖。\n他们似乎常来华胥，聊完了生意，就聊起一路见闻。他们说烟津渡的风景比皓京的要好，有时间了要一起去踏青，又说起上回见到翠屏雀飞过山谷——此时有人纠正她，说那只是滑翔，翠屏雀尾羽沉重，怎么可能长时间飞行呢？又说到百年春在年节时给合作商发礼盒，止流掌柜出手阔绰，里面有一枚纯金的纪念币。此时一个男人笑起来，说他更喜欢里面的珍猪肉干，最适合在旅途中拿来打发时间了。\n\n扶疏听得入神。他们谈及的故乡陌生而熟悉，她的思绪飘入回忆，她想，在一百年前，我是否也曾见过翠屏雀滑过天际；我是否也曾走过烟津渡的每一个角落，遍览每个时节的美景；我儿时最爱吃的零食又是否是他们提过的那种，尝起来是辛辣，还是咸甜？\n\n似乎是的，似乎没有，不太记得了，应该吧？\n\n太多模棱两可的回忆了，她已经无法给自己一个确切的答案。就像在沙滩上跋涉了漫长年月的行人，不管她留下的脚印多么深刻，时间的浪潮一旦涌来，都会变回一片平缓无痕的沙地，最终忘却自己的来路。\n她坐着。茫然地，若有所思地想到：或许这就是为什么我要回到烟津渡，要回到枯荣阁。\n她将目光太久地落在商人身上，他们看向她，打量她。最终一位女商人朝她一笑，提着外国样式的裙子朝她走来，她毫不吝惜自己的夸赞，热情洋溢地说道：“您穿得真好看，我只在华胥的历史书上见到这样的衣裳，刚才都让我们看呆啦！能和您这样美丽的女士同行，真是我们的运气，希望您不介意我们问一问您的目的地，您也是去烟津渡旅行的吗？”\n\n扶疏沉默了一会，说：“我曾居住在那里。”\n\n女商人故作惊讶，快乐地说道：“是嘛！太巧了，我们正要去烟津渡做生意呢！除了酒水与玻璃器皿，我们还带了一些小玩意——”\n她摊开手心，露出一枚精致的怀表。表壳上精巧地雕镂着环绕明月的巨木，她感到有些欣喜，这正是她所熟识的风景，但她从未见过巨木下的飞檐与廊桥，那属于她所不知道的一百年。\n女商人按键弹开表壳，露出行走的时间——秒针、分针、时针，井然有序，踢踏不停。她麻利地转着旋钮，笑嘻嘻地向扶疏介绍这种特殊的工艺，“……客人们总说调时很麻烦，所以这款怀表我们做了特殊的改良。不知道烟津渡的居民会不会喜欢……呀，糟了！”\n那怀表不知怎的，指针突然倒转了起来。“抱歉抱歉，”女商人汗涔涔地、有些尴尬地赔着笑脸，这只怀表怕不是出了故障。不过其他都是完好的，我再取一只——”\n“不必取了。”\n扶疏的眼神落在逆行的指针上。\n“我喜欢这只倒转的钟表。可以把它卖给我吗？”\n",
     TextMapId = "UI_CHAR_DATA_TEXT_24010401"
         },
@@ -125782,9 +125892,9 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_CHAR_DATA_TEXT_24010404"
         },
   UI_CHAR_DATA_TEXT_24010405 = {
-    ContentEN = "Fufeng did not remain forever young — not as she appears in my memories. She was the first among the Zhuyou to grow old. And though I often try to picture how the years must have settled upon her, the truth is that I cannot.\nWe Zhuyou are born white-haired; age leaves no mark there. But it must have shown itself in other ways: in the fine lines gathering at the corners of her eyes; in the coarsening of her skin; in joints that stiffened with each passing year; and in the gradual bow of her back, until the lively child who once leapt and scampered through the Hall could no longer move as she once did.\nI imagine these signs one by one, yet no clear image emerges. But there is no need for haste. When age comes for me as it once came for her, I will only need to look upon my reflection. Across a century, I shall finally glimpse the face that age once granted her — and the age-worn visage she had long hoped I might one day live to bear.\n\nSince my awakening, my mother's final words have returned to me time and again:\nLive your lives in whatever way your hearts truly wish.\nBut what life is it that my own heart desires?\n\nFor many years, I did not know. Now, I believe that Fufeng's life may serve as the mirror by which my own may be measured.\n\nIn this age, when the world has little need of the Zhuyou, I at last possess the years to reflect:\nWas my devotion to the Zhuyou path born of duty — to my parents, to the Hall of Ephemerality — or from teachings of the Nine Chapters of Dafeng carved too deeply into my bones to question? And if all that is set aside — if I am simply Fushu, no longer Zhuyou in name or role — what do I truly cherish? What could I serve with the whole of my remaining life?\n\nNight after night, I study the notes that Fufeng left behind across long decades. In my youth, I believed her impatient; yet every line she wrote on herbs and illnesses is meticulous and exact. Dry though such records may seem, she entrusted herself to them wholly, never allowing carelessness to take root. Her hand remains steady and precise, until she reaches the words "The patient has recovered!" There, her strokes loosen — swift and unrestrained. A century has passed, yet as I read those yellowed pages, the same quiet stirring rises in my chest.\n\nThrough them, I trace back the moments of simple, genuine joy, and I have come to understand this:\nThe joy of preserving a life was real — warm, steady, and bright. For one fated to die young, each life I managed to prolong became a fragment of the future I might never claim. And now, after a hundred years of sleep, to behold another rise restored and return to their own path in sound health... is enough to bring tears to my eyes. I know too well the sorrow of a life cut short before it begins — like a silkworm stifled within its cocoon, a bud struck down before bloom, a mayfly denied the dawn.\n\nI have tasted that fear. I shall not forget it. And I wish — simply as myself, not out of a Zhuyou's duty — that no one in this world should meet such an end.\n So I will continue as a healer. Yet this time, I will allow myself to grow old — and watch, with my own eyes, how far healing may carry itself in the span of my years.",
-    ContentJP = "フーフォンは、私の記憶の中にあるような、永遠に若い姿ではいられない。彼女は、初めて老いることを許された祝由だ。だから私は、彼女が年老いていく姿を思い描こうとする――けれど、どうしても、具体的な像にはならない。\n 私たちの髪が白くなる機会はなかった。でもきっと、彼女の目尻には少しずつ皺が刻まれ、その顔はやがて蜜柑の皮のようにやわらかく縮んでいく。関節は年を追うごとに動きづらくなり、背筋は徐々に伸ばせなくなり、もうあの頃のように、あちこちを駆け回ったり、身軽に飛び回ったりはできなくなるだろう……\n 私は事細かに想像してみる。それでもなお、彼女の老いた姿は、はっきりとは形を結ばない。だけど、焦る必要はない。\n 私が本当に老いる日が来たならば、鏡に映る自分を見ればいい。そうすれば百年の時を越えて、フーフォンの姿を、そして、彼女が私に託した「ありたかった姿」を見ることができるだろう。\n 目覚めてからの毎日、私はあのとき母が残した言葉を思い返していた。「好きなように生きなさい」と。\n でも、私にとって「好きな人生」とは、一体どんな人生だったのか。その答えは長いこと見つからなかったけれど……もしかしたら、フーフォンの生き方こそが、その一つの答えになるのかもしれないと、今は思っている。\n 今や人々は、もはや祝由を必要としなくなった。だからこそ私は、長い長い「自分の時間」を持て余すほどに与えられている。そのなかで、何度も考える――\n 私が祝由にこだわっていたのは、両親との約束や、枯栄閣への責任からだったのか。あるいは、『大風九章』という信仰が、骨の奥まで染みついていたからか。\n それらをすべて取り払ったとき――祝由としてではなく、「フーシュ」としての私は、いったい何を好み、何を愛し、何のためなら、喜んで人生を捧げられるのだろう？\n 幾夜もかけて、私はフーフォンが遺した膨大な記録に目を通していった。彼女が、何十年も変わらず一日たりとも欠かさず、薬と病の研究を続けてきたことを知った。彼女には根気がないと思い込んでいた。けれど実際の彼女は、どんな些細な症状にも記録を欠かさず、文字は端正で、記述は周到だった。\n それは、どこか退屈な作業にも見えるのに、彼女は心からそれを楽しんでいたのだ――一日も、気を抜くことなく。そして、「病が癒えた」と記すときだけ、文字は勢いよく跳ねていた。\n いまの私は、三万日を超える夜を越えて目覚め、黄ばみかけた記録の束に囲まれながら、その文字の跳ねに、彼女と同じ胸の高鳴りを覚えている。\n その瞬間、私は思い出す。私が心から嬉しかった数々の記憶を、鮮明に、そして確信する。病が癒えたときの喜びは、たしかに本物だった。\n それは温かく、やわらかく、短命を定められた祝由・フーシュが手にできない未来を、病を克服した人々が受け継いでくれる、その光だった。\n そして百年の眠りから目覚めた今の私にとっては、健康を取り戻した誰かが、その体でまた人生を歩き出す。その光景を目にすること――それだけで涙が出る。\n なぜなら私は、人生が絶たれる痛みを知っているからだ。始まりもしないうちに、終わりを迎えてしまう。まるで繭の中で息絶える蚕のように。吹雪に打たれて落ちる蕾のように。夜明けを知らないカゲロウのように――\n その恐怖を、私は知っている。だからこそ、私は心の底から願うのだ。世界中の誰ひとりとして、あの絶望の淵に立たされることのないようにと。\n それは、祝由・フー氏としての責任ではない。フーシュという一人の人間としての純粋な願いなのだ。\n これからの私は、医者として、この生を生きていく。だが今度は、七十にも八十にもなる未来を、自分に許そうと思う。\n そしてこの目で見届けたい。私たちが歩んできた医の道が、私の生きているうちに、どこまで遠くへ辿り着けるのかを――",
-    ContentKR = "부풍 언니는 처음으로 장수한 축유인 만큼, 내 기억 속 모습처럼 계속 젊지는 않았을 것이다. 나이 든 언니를 상상해 보려 했지만, 아무리 애를 써도 머릿속에 그 모습이 그려지지 않는다.\n우리 일족은 흰머리가 날 때까지 살아 본 적이 없다. 그렇지만 언니의 눈가에는 주름이 잡혔을 테고, 피부는 귤껍질처럼 거칠어졌을 것이다. 해가 갈수록 관절이 말을 듣지 않고 등도 굽어서, 어릴 때처럼 이리저리 뛰어다니지는 못했겠지...\n되는대로 상상해 보지만, 구체적인 모습은 떠오르지 않는다. 그렇지만 조급해 할 필요는 없겠지... 언젠가 내가 노인이 되었을 때, 거울 속에는 백 년이라는 시간을 뛰어넘은 언니의 얼굴이, 그리고 언니가 내게 바랐던 모습이 비치고 있을 테니까.\n \n나는 깨어난 후, 매일같이 어머니의 마지막 말을 곱씹는다. 어머니께선 "너희가 원하는 방식대로 살면 된다"고 하셨다.\n하지만 과연 어떻게 살아야 내가 원하는 방식으로 사는 걸까?\n나는 오랫동안 답을 찾지 못하다가, 문득 언니의 삶을 거울로 삼으면 되지 않을까라는 생각이 들었다.\n \n이제 사람들은 축유를 찾지 않고, 내겐 오직 나만을 위한 기나긴 사색의 시간이 주어졌다... 내가 축유에 집착했던 건 부모님과 택생각에 대한 약속이었을까? 아니면 뼛속 깊이 새겨진 대풍구장에 대한 믿음 때문이었을까? 이 모든 의무를 벗어던진 축유... 아니, 인간 부소는 무엇을 좋아해야 하고, 무엇을 사랑해야 하며, 무엇을 위해 일생을 바쳐야 하는 것일까?\n \n나는 수많은 밤을 지새우며 언니가 남긴 연구 기록을 하나하나 읽어 보았다. 인내심이라고는 없는 사람인 줄 알았는데, 수기 속에 남긴 약물과 질병에 대한 기록은 놀랄 만큼 꼼꼼했다. 언니는 지루할 법도 한 그 일들을 즐기고 있었고, 단 하루도 게을리하지 않았다. 평소에는 반듯하던 글씨체가, '완치'라는 글자를 적을 때면 유난히 신나게 휘갈겨져 있었다. 셀 수 없이 긴긴밤을 뛰어넘어, 누렇게 바랜 종이 더미를 마주하며, 나는 언니와 함께 벅찬 감동을 느꼈다.\n \n이를 계기로 나는 나 스스로의 기억를 되짚으며, 내가 진심으로 기뻐했던 순간들을 하나하나 되새겨 보았다. 그러면서 환자를 치료하며 느꼈던 기쁨이 내게 진실하고 순수한 감정이었다는 사실을 확인했다. 단명할 운명의 축유 부소에게, 환자들이 이어 나가는 삶은 자신이 가지지 못할 미래의 연장이었다. 그리고 백 년이 지나 깊은 잠에서 깨어난 지금, 나는 사람들이 건강을 되찾아 미래를 써 내려가는 순간을 보면 눈물이 날 정도로 기쁘다. 제대로 시작도 못해보고 삶이 끝나버리는 고통을 이미 겪어 보았기 때문이다. 나비가 되지 못한 채 고치 안에서 생을 마감하는 누에의 아픔을, 피지도 못한 채 떨어져 버리는 꽃봉오리의 슬픔을, 영원히 내일을 보지 못하는 하루살이의 비참함을 나는 이미 겪어 보았다.\n \n그런 공포를 겪는 건 나 하나만으로 족하다. 나는 진심으로 아무도 그런 절망을 마주하지 않기를 바란다. 이는 축유로서의 의무 때문이 아닌, 나, 부소의 소망이다.\n그래서 나는 앞으로도 의원으로서의 생을 살아갈 것이다. 그리고 이번에는 일흔, 여든이 될 때까지 오래오래 살 것이다. 그리고 내가 살아 있는 동안, 의술이 얼마나 발전할 수 있을지, 내 눈으로 직접 지켜볼 것이다.",
+    ContentEN = "Fufeng did not remain forever young — not as she appears in my memories. She was the first among the Zhuyou to grow old. And though I often try to picture how the years must have settled upon her, the truth is that I cannot.\nWe Zhuyou are born white-haired; age leaves no mark there. But it must have shown itself in other ways: in the fine lines gathering at the corners of her eyes; in the coarsening of her skin; in joints that stiffened with each passing year; and in the gradual bow of her back, until the lively child who once leapt and scampered through the Hall could no longer move as she once did.\nI imagine these signs one by one, yet no clear image emerges. But there is no need for haste. When age comes for me as it once came for her, I will only need to look upon my reflection. Across a century, I shall finally glimpse the face that age once granted her — and the age-worn visage she had long hoped I might one day live to bear.\n\nSince my awakening, my mother's final words have returned to me time and again:\nLive your lives in whatever way your hearts truly wish.\nBut what life is it that my own heart desires?\n\nFor many years, I did not know. Now, I believe that Fufeng's life may serve as the mirror by which my own may be measured.\n\nIn this age, when the world has little need of the Zhuyou, I at last possess the years to reflect:\nWas my devotion to the Zhuyou path born of duty — to my parents, to the Hall of Ephemerality — or from teachings of the Nine Chapters of Dafeng carved too deeply into my bones to question? And if all that is set aside — if I am simply Fushu, no longer Zhuyou in name or role — what do I truly cherish? What could I serve with the whole of my remaining life?\n\nNight after night, I study the notes that Fufeng left behind across long decades. In my youth, I believed her impatient; yet every line she wrote on herbs and illnesses is meticulous and exact. Dry though such records may seem, she entrusted herself to them wholly, never allowing carelessness to take root. Her hand remains steady and precise, until she reaches the words "The patient has recovered!" There, her strokes loosen — swift and unrestrained. A century has passed, yet as I read those yellowed pages, the same quiet stirring rises in my chest.\n\nThrough them, I trace back the moments of simple, genuine joy, and I have come to understand this:\nThe joy of preserving a life was real — warm, steady, and bright. For one fated to die young, each life I managed to prolong became a fragment of the future I might never claim. And now, after a hundred years of sleep, to behold another rise restored and return to their own path in sound health... is enough to bring tears to my eyes. I know too well the sorrow of a life cut short before it begins — like a silkworm stifled within its cocoon, a bud struck down before bloom, a mayfly denied the dawn.\n\nI have tasted that fear. I shall not forget it. And I wish — simply as myself, not out of a Zhuyou's duty — that no one in this world should meet such an end.\nSo I will continue as a healer. Yet this time, I will allow myself to grow old — and watch, with my own eyes, how far healing may carry itself in the span of my years.",
+    ContentJP = "フーフォンは、私の記憶の中にあるような、永遠に若い姿ではいられない。彼女は、初めて老いることを許された祝由だ。だから私は、彼女が年老いていく姿を思い描こうとする――けれど、どうしても、具体的な像にはならない。\n私たちの髪が白くなる機会はなかった。でもきっと、彼女の目尻には少しずつ皺が刻まれ、その顔はやがて蜜柑の皮のようにやわらかく縮んでいく。関節は年を追うごとに動きづらくなり、背筋は徐々に伸ばせなくなり、もうあの頃のように、あちこちを駆け回ったり、身軽に飛び回ったりはできなくなるだろう……\n私は事細かに想像してみる。それでもなお、彼女の老いた姿は、はっきりとは形を結ばない。だけど、焦る必要はない。\n私が本当に老いる日が来たならば、鏡に映る自分を見ればいい。そうすれば百年の時を越えて、フーフォンの姿を、そして、彼女が私に託した「ありたかった姿」を見ることができるだろう。\n目覚めてからの毎日、私はあのとき母が残した言葉を思い返していた。「好きなように生きなさい」と。\nでも、私にとって「好きな人生」とは、一体どんな人生だったのか。その答えは長いこと見つからなかったけれど……もしかしたら、フーフォンの生き方こそが、その一つの答えになるのかもしれないと、今は思っている。\n今や人々は、もはや祝由を必要としなくなった。だからこそ私は、長い長い「自分の時間」を持て余すほどに与えられている。そのなかで、何度も考える――\n私が祝由にこだわっていたのは、両親との約束や、枯栄閣への責任からだったのか。あるいは、『大風九章』という信仰が、骨の奥まで染みついていたからか。\nそれらをすべて取り払ったとき――祝由としてではなく、「フーシュ」としての私は、いったい何を好み、何を愛し、何のためなら、喜んで人生を捧げられるのだろう？\n幾夜もかけて、私はフーフォンが遺した膨大な記録に目を通していった。彼女が、何十年も変わらず一日たりとも欠かさず、薬と病の研究を続けてきたことを知った。彼女には根気がないと思い込んでいた。けれど実際の彼女は、どんな些細な症状にも記録を欠かさず、文字は端正で、記述は周到だった。\nそれは、どこか退屈な作業にも見えるのに、彼女は心からそれを楽しんでいたのだ――一日も、気を抜くことなく。そして、「病が癒えた」と記すときだけ、文字は勢いよく跳ねていた。\nいまの私は、三万日を超える夜を越えて目覚め、黄ばみかけた記録の束に囲まれながら、その文字の跳ねに、彼女と同じ胸の高鳴りを覚えている。\nその瞬間、私は思い出す。私が心から嬉しかった数々の記憶を、鮮明に、そして確信する。病が癒えたときの喜びは、たしかに本物だった。\nそれは温かく、やわらかく、短命を定められた祝由・フーシュが手にできない未来を、病を克服した人々が受け継いでくれる、その光だった。\nそして百年の眠りから目覚めた今の私にとっては、健康を取り戻した誰かが、その体でまた人生を歩き出す。その光景を目にすること――それだけで涙が出る。\nなぜなら私は、人生が絶たれる痛みを知っているからだ。始まりもしないうちに、終わりを迎えてしまう。まるで繭の中で息絶える蚕のように。吹雪に打たれて落ちる蕾のように。夜明けを知らないカゲロウのように――\nその恐怖を、私は知っている。だからこそ、私は心の底から願うのだ。世界中の誰ひとりとして、あの絶望の淵に立たされることのないようにと。\nそれは、祝由・フー氏としての責任ではない。フーシュという一人の人間としての純粋な願いなのだ。\nこれからの私は、医者として、この生を生きていく。だが今度は、七十にも八十にもなる未来を、自分に許そうと思う。\nそしてこの目で見届けたい。私たちが歩んできた医の道が、私の生きているうちに、どこまで遠くへ辿り着けるのかを――",
+    ContentKR = "부풍 언니는 처음으로 장수한 축유인 만큼, 내 기억 속 모습처럼 계속 젊지는 않았을 것이다. 나이 든 언니를 상상해 보려 했지만, 아무리 애를 써도 머릿속에 그 모습이 그려지지 않는다.\n우리 일족은 흰머리가 날 때까지 살아 본 적이 없다. 그렇지만 언니의 눈가에는 주름이 잡혔을 테고, 피부는 귤껍질처럼 거칠어졌을 것이다. 해가 갈수록 관절이 말을 듣지 않고 등도 굽어서, 어릴 때처럼 이리저리 뛰어다니지는 못했겠지...\n되는대로 상상해 보지만, 구체적인 모습은 떠오르지 않는다. 그렇지만 조급해 할 필요는 없겠지... 언젠가 내가 노인이 되었을 때, 거울 속에는 백 년이라는 시간을 뛰어넘은 언니의 얼굴이, 그리고 언니가 내게 바랐던 모습이 비치고 있을 테니까.\n\n나는 깨어난 후, 매일같이 어머니의 마지막 말을 곱씹는다. 어머니께선 "너희가 원하는 방식대로 살면 된다"고 하셨다.\n하지만 과연 어떻게 살아야 내가 원하는 방식으로 사는 걸까?\n나는 오랫동안 답을 찾지 못하다가, 문득 언니의 삶을 거울로 삼으면 되지 않을까라는 생각이 들었다.\n\n이제 사람들은 축유를 찾지 않고, 내겐 오직 나만을 위한 기나긴 사색의 시간이 주어졌다... 내가 축유에 집착했던 건 부모님과 고영각에 대한 약속이었을까? 아니면 뼛속 깊이 새겨진 대풍구장에 대한 믿음 때문이었을까? 이 모든 의무를 벗어던진 축유... 아니, 인간 부소는 무엇을 좋아해야 하고, 무엇을 사랑해야 하며, 무엇을 위해 일생을 바쳐야 하는 것일까?\n\n나는 수많은 밤을 지새우며 언니가 남긴 연구 기록을 하나하나 읽어 보았다. 인내심이라고는 없는 사람인 줄 알았는데, 수기 속에 남긴 약물과 질병에 대한 기록은 놀랄 만큼 꼼꼼했다. 언니는 지루할 법도 한 그 일들을 즐기고 있었고, 단 하루도 게을리하지 않았다. 평소에는 반듯하던 글씨체가, '완치'라는 글자를 적을 때면 유난히 신나게 휘갈겨져 있었다. 셀 수 없이 긴긴밤을 뛰어넘어, 누렇게 바랜 종이 더미를 마주하며, 나는 언니와 함께 벅찬 감동을 느꼈다.\n\n이를 계기로 나는 나 스스로의 기억를 되짚으며, 내가 진심으로 기뻐했던 순간들을 하나하나 되새겨 보았다. 그러면서 환자를 치료하며 느꼈던 기쁨이 내게 진실하고 순수한 감정이었다는 사실을 확인했다. 단명할 운명의 축유 부소에게, 환자들이 이어 나가는 삶은 자신이 가지지 못할 미래의 연장이었다. 그리고 백 년이 지나 깊은 잠에서 깨어난 지금, 나는 사람들이 건강을 되찾아 미래를 써 내려가는 순간을 보면 눈물이 날 정도로 기쁘다. 제대로 시작도 못해보고 삶이 끝나버리는 고통을 이미 겪어 보았기 때문이다. 나비가 되지 못한 채 고치 안에서 생을 마감하는 누에의 아픔을, 피지도 못한 채 떨어져 버리는 꽃봉오리의 슬픔을, 영원히 내일을 보지 못하는 하루살이의 비참함을 나는 이미 겪어 보았다.\n\n그런 공포를 겪는 건 나 하나만으로 족하다. 나는 진심으로 아무도 그런 절망을 마주하지 않기를 바란다. 이는 축유로서의 의무 때문이 아닌, 나, 부소의 소망이다.\n그래서 나는 앞으로도 의원으로서의 생을 살아갈 것이다. 그리고 이번에는 일흔, 여든이 될 때까지 오래오래 살 것이다. 그리고 내가 살아 있는 동안, 의술이 얼마나 발전할 수 있을지, 내 눈으로 직접 지켜볼 것이다.",
     ContentTC = "扶風不會像我記憶中的那樣永遠年輕，她是第一個長壽的祝由，我猜想著她衰老的模樣，卻無論如何也想像不出來。\n我們的頭髮沒有變白的機會，但她的眼尾會逐漸生出皺紋，整張臉會變成橘子皮，或許她的關節會一年比一年的不聽使喚，脊背也漸漸無法挺直，不能像小時候一樣四處攀爬飛躍……\n我事無巨細地想像著，卻仍舊拼湊不出一個具體的形象。但我並不著急……等我也真正老去的那天，只要攬鏡自照，便能跨越一百年的光陰，看到扶風的模樣，也看到她希望我成為的模樣。\n\n在甦醒後的每一天，我都思考著母親當初留下的話語，「用你們喜歡的方式，去度過這一生。」\n可是對我來說，究竟怎樣的人生才是我喜歡的人生呢？\n很長一段時間，我都沒有確切的答案，但我想，扶風的一生或許可以成為一面鏡子供我參考。\n\n在人們已經不再需要祝由的今天，我將有漫長的屬於自己的時間去思考……我對祝由的執著究竟是源於對父母與枯榮閣的承諾，還是對大風九章深入骨髓的信仰？剝離掉這一切，身為祝由……不，身為扶疏的我，已然卸下祝由身份的我，喜歡什麼，熱愛什麼，願意為什麼而付出一生呢？\n\n我在許多個夜晚細數扶風數十年如一日的研究，我曾經以為她是一個沒什麼耐心的人，可是她的手札里，對藥物與疾病的記錄事無巨細，精密周詳。儘管看來多少有些枯燥，她卻樂在其中，一日不曾懈怠。她的字跡在記錄時尚且周正，但一旦寫到「病人已康復」的字樣，就龍飛鳳舞起來，而此時此刻的我跨越了三萬多個漫長的夜晚，對著泛黃的故紙堆和她一起心潮澎湃。\n\n藉此契機，我剝開自己的記憶，細數那一個個由衷的快樂的瞬間，於是我得以確認，治癒病人時的欣喜是真實的，暖熱的，對於注定短壽的祝由扶疏來說，自己無法擁有的未來在被治癒的病人身上得以延續。而對於沉睡百年後的我來說，看著人們被治癒後，能繼續用健康的身體繼續書寫人生這樣的瞬間，更是可以讓我落淚。這是因為我已經歷過人生被中斷的痛苦——還未真正開始，就已身不由己地結束，像被悶死在繭里的蠶，像被暴雪打落的花蕾，像從未見過天明的蜉蝣。\n\n這樣的恐懼我已嘗過，且此生難以忘懷，我由衷地希望世上所有人都不用面臨這樣的絕境，不是出於祝由扶氏的責任，而是我，扶疏的意願。\n為此我將會繼續作為醫者去渡過自己的一生，但這次，我會允許自己擁有七老八十的未來，我會用我的眼睛去見證，醫道在我有生之年，會去往多遠的遠方。",
     TextMapContent = "扶风不会像我记忆中的那样永远年轻，她是第一个长寿的祝由，我猜想着她衰老的模样，却无论如何也想象不出来。\n我们的头发没有变白的机会，但她的眼尾会逐渐生出皱纹，整张脸会变成橘子皮，或许她的关节会一年比一年的不听使唤，脊背也渐渐无法挺直，不能像小时候一样四处攀爬飞跃……\n我事无巨细地想象着，却仍旧拼凑不出一个具体的形象。但我并不着急……等我也真正老去的那天，只要揽镜自照，便能跨越一百年的光阴，看到扶风的模样，也看到她希望我成为的模样。\n\n在苏醒后的每一天，我都思考着母亲当初留下的话语，“用你们喜欢的方式，去度过这一生。”\n可是对我来说，究竟怎样的人生才是我喜欢的人生呢？\n很长一段时间，我都没有确切的答案，但我想，扶风的一生或许可以成为一面镜子供我参考。\n\n在人们已经不再需要祝由的今天，我将有漫长的属于自己的时间去思考……我对祝由的执着究竟是源于对父母与枯荣阁的承诺，还是对大风九章深入骨髓的信仰？剥离掉这一切，身为祝由……不，身为扶疏的我，已然卸下祝由身份的我，喜欢什么，热爱什么，愿意为什么而付出一生呢？\n\n我在许多个夜晚细数扶风数十年如一日的研究，我曾经以为她是一个没什么耐心的人，可是她的手札里，对药物与疾病的记录事无巨细，精密周详。尽管看来多少有些枯燥，她却乐在其中，一日不曾懈怠。她的字迹在记录时尚且周正，但一旦写到“病人已康复”的字样，就龙飞凤舞起来，而此时此刻的我跨越了三万多个漫长的夜晚，对着泛黄的故纸堆和她一起心潮澎湃。\n\n借此契机，我剥开自己的记忆，细数那一个个由衷的快乐的瞬间，于是我得以确认，治愈病人时的欣喜是真实的，暖热的，对于注定短寿的祝由扶疏来说，自己无法拥有的未来在被治愈的病人身上得以延续。而对于沉睡百年后的我来说，看着人们被治愈后，能继续用健康的身体继续书写人生这样的瞬间，更是可以让我落泪。这是因为我已经历过人生被中断的痛苦——还未真正开始，就已身不由己地结束，像被闷死在茧里的蚕，像被暴雪打落的花蕾，像从未见过天明的蜉蝣。\n\n这样的恐惧我已尝过，且此生难以忘怀，我由衷地希望世上所有人都不用面临这样的绝境，不是出于祝由扶氏的责任，而是我，扶疏的意愿。\n为此我将会继续作为医者去渡过自己的一生，但这次，我会允许自己拥有七老八十的未来，我会用我的眼睛去见证，医道在我有生之年，会去往多远的远方。",
     TextMapId = "UI_CHAR_DATA_TEXT_24010405"
@@ -125916,10 +126026,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_CHAR_DATA_TEXT_31010401"
         },
   UI_CHAR_DATA_TEXT_31010402 = {
+    ContentDE = "Ce n’était qu’une mission banale. Du moins, c’est ce que Lynn avait cru. Transporter une cargaison : une tâche simple, comme elle n’en avait pas eue depuis longtemps. Le soulagement d’un moment de répit lui fit presque oublier de s’interroger : pourquoi payer aussi cher pour une simple livraison ?\nMais ce n’était qu’un piège, tendu par ses employeurs. Lynn, pensaient-ils, est une arme fiable, qui ne rate jamais sa cible. Mais une arme reste une arme. Et il était temps de lui faire révéler toute sa valeur.\nLes marques tracées sur la carte, les habits conçus pour dissimuler une silhouette féminine, le cliquetis sec du chargeur enclenché, Lynn avait, comme toujours, préparé chaque détail. Pourtant, à l’endroit convenu, ce n’était pas un "destinataire" qui l’attendait... mais une escouade de soldats impériaux, armes au poing.\n« Utiliser une fille comme appât pour couvrir sa fuite... pas très chevaleresque. » ricana celui qui semblait être leur chef. « Mais vous, mademoiselle, je pense qu’on devrait discuter ailleurs, non ? »\n\nLynn ne se souvenait plus combien de fois elle avait pressé la gâchette ce jour-là. Jusqu’à ce que le chargeur soit vide. Même la tête plaquée dans la boue, elle continuait à tirer mécaniquement, suppliant en silence qu’un ultime miracle surgisse de ce petit morceau de métal. \nElle le savait pourtant : nul ne s’échappe du filet de la XIIIᵉ Légion. \nDans une flaque à quelques pas, elle aperçut l’officier blond s’approcher, silhouette découpée à contre-jour, ses bottes militaires soulevant l’eau sale. « Je crois que vous devriez écouter ce que j’ai à proposer, Mademoiselle Lynn. »\n\n« Dis-moi pourquoi tu veux rejoindre la Légion. » Derrière la vitre d’interrogatoire, celle qu’on appelait la « Commandante » parlait d’un ton calme. \n« Randy, tais-toi. Laisse-la répondre. »\n« Parce que... » dit-elle. Lynn inspira profondément. Elle repensa à ce crépuscule, un mois plus tôt. L’eau stagnante, le reflet rouge sang du ciel. « Ce fichu ciel rouge, ce soir-là... il était magnifique. » murmura-t-elle. « J’aimerais le revoir... encore quelques fois. »",
     ContentEN = "It was just an ordinary task, or at least that's what Lynn initially thought. Transporting goods — she had not had such an easy job in a long time. The elation of finally getting a moment of respite made her forget to even wonder why an ordinary delivery task was worth such a hefty price tag.\nBut it was a trap set by her employers. Lynn was undoubtedly a sharpshooter, just as they desired, but she was, after all, just a tool. And now was the time to extract its true value.\nThe marks outlined on the map, capable of concealing the guise of a young girl's form, the crisp sound of a magazine locking into place — Lynn prepared as thoroughly as ever. However, as she waited at the designated location, what she encountered was not some "recipient", but a group of heavily armed Empire soldiers.\n"Using a girl as bait to cover your escape... That's hardly a gentlemanly act," the leader of the soldiers chuckled. "However, young lady, perhaps we should find a different place to have a proper conversation?"\n\nLynn could not recall how many times she pulled the trigger that day. Eventually, the magazine emptied and her head was pressed into the dirt. Despite her futile efforts, she continued to mechanically pull the stiffened trigger with her fingers, desperately pleading for that tiny piece of metal to miraculously save her once again.\nEven though she had heard it long before, no prey could escape the clutches of the Thirteenth Legion.\nShe then saw a blonde officer bathed in light step into a puddle not far away, her military boots splashing the dirty rainwater around. "I think you should consider my proposal first, Miss Lynn," he said.\n\n"Tell me why. Why do you want to join the Legion?" The woman called "chief" asked her coldly through the glass in the interrogation room. "Randy, you shut up. She can answer me herself."\n"Because..." Lynn took a deep breath and recalled that dusk one month ago when she had seen that blood-red sunset glow reflected on the puddle.\n"... the sunset that day was so darn beautiful," she replied, "and I want to see it a few more times."",
     ContentFR = "Ce n’était qu’une mission banale. Du moins, c’est ce que Lynn avait cru. Transporter une cargaison : une tâche simple, comme elle n’en avait pas eue depuis longtemps. Le soulagement d’un moment de répit lui fit presque oublier de s’interroger : pourquoi payer aussi cher pour une simple livraison ?\nMais ce n’était qu’un piège, tendu par ses employeurs. Lynn, pensaient-ils, est une arme fiable, qui ne rate jamais sa cible. Mais une arme reste une arme. Et il était temps de lui faire révéler toute sa valeur.\nLes marques tracées sur la carte, les habits conçus pour dissimuler une silhouette féminine, le cliquetis sec du chargeur enclenché, Lynn avait, comme toujours, préparé chaque détail. Pourtant, à l’endroit convenu, ce n’était pas un "destinataire" qui l’attendait... mais une escouade de soldats impériaux, armes au poing.\n« Utiliser une fille comme appât pour couvrir sa fuite... pas très chevaleresque. » ricana celui qui semblait être leur chef. « Mais vous, mademoiselle, je pense qu’on devrait discuter ailleurs, non ? »\n\nLynn ne se souvenait plus combien de fois elle avait pressé la gâchette ce jour-là. Jusqu’à ce que le chargeur soit vide. Même la tête plaquée dans la boue, elle continuait à tirer mécaniquement, suppliant en silence qu’un ultime miracle surgisse de ce petit morceau de métal. \nElle le savait pourtant : nul ne s’échappe du filet de la XIIIᵉ Légion. \nDans une flaque à quelques pas, elle aperçut l’officier blond s’approcher, silhouette découpée à contre-jour, ses bottes militaires soulevant l’eau sale. « Je crois que vous devriez écouter ce que j’ai à proposer, Mademoiselle Lynn. »\n\n« Dis-moi pourquoi tu veux rejoindre la Légion. » Derrière la vitre d’interrogatoire, celle qu’on appelait la « Commandante » parlait d’un ton calme. \n« Randy, tais-toi. Laisse-la répondre. »\n« Parce que... » dit-elle. Lynn inspira profondément. Elle repensa à ce crépuscule, un mois plus tôt. L’eau stagnante, le reflet rouge sang du ciel. « Ce fichu ciel rouge, ce soir-là... il était magnifique. » murmura-t-elle. « J’aimerais le revoir... encore quelques fois. »",
-    ContentJP = "なんの変哲もない任務だった。少なくともリーンは最初そう思っていた。\n本当に物を配達するだけの簡単な仕事は久しぶりだ。気楽な仕事を請け負えた嬉しさから、普通の配達任務になぜ高額な報酬がつくのか、疑問を抱くことさえ忘れていた。それが雇い主たちのしかけた罠であると、気づけなかったのだ。\nリーンは手練れの銃使いであるが、雇い主たちにとってはただの一丁の銃に過ぎない。彼らは銃の本当の使いどころを見計らったのだ。\n地図に示された場所にて。少女の姿に変装して弾倉をカチリとはめ込む――いつものように万全の態勢を整えたが、約束の場所に「受取人」はおらず、武装した帝国軍の兵士たちが待ちかまえていた。\n「少女を囮に自分たちは逃亡するとは。紳士の風上にもおけないな」。部隊を率いる軍人が笑いながら言った。「さあ、お嬢さん、観念するんだ。場所をかえて、ゆっくりと話を聞こうか？」\n\nその日……何回トリガーを引いたのか、リーンは覚えていない。弾倉が空になるまで、泥にまみれた地面に頭を押しつけられるまで、硬直した指でトリガーを引き続け、小さな金属片に生き延びる奇跡を託し続けた。\n噂には聞いていたのだ。第十三軍団の手から逃れることはできないと。\n少し離れた水たまりから、金髪の将校が光を背に受けて歩いてくる。「まず僕のアドバイスを聞いてみるのがいいと思いますよ、リーンさん」\n\n「軍に入りたい理由は？」。取調室のガラス越しに「軍団長」と呼ばれた女性が淡々と尋ねる。「ランディーは黙っていて。自分の言葉で語らせるのよ」\n「あれは……」。リーンは深呼吸をして、1ヶ月前のあの黄昏を思い出す。視線は水たまりに映る血のように赤い夕焼けだけを追っていた。\n「あの夕焼けは****にきれいだったんだよ」。リーンは言った。「もっとあれが見たいんだ」",
-    ContentKR = "평범하기 그지없는 임무, 적어도 처음엔 그렇게 생각했다. 화물 운송이라니, 린은 오랫동안 이렇게 쉬운 일을 맡아본 적이 없었다. 마침내 잠시나마 숨 돌릴 기회가 왔다는 기쁨에, 그녀는 왜 이런 평범한 운송 의뢰에 아주 높은 보수가 걸려있는지 의심하는 것조차 잊어버렸다.\n\n하지만 고용주들의 함정이었다. 린은 절대 빗나가지 않는 훌륭한 총이지만, 결국은 총일 뿐이다. 고용주들은 지금이야말로 그녀가 진짜 가치를 발휘할 때라고 생각했다.\n\n지도의 표식, 소녀의 체형을 감출 충분한 위장, 탄창의 딸각 소리. 린은 언제나처럼 만반의 준비를 갖췄다. 하지만 약속 장소에서 기다리고 있는 것은 '수취인'이 아니라 실탄으로 무장한 제국 군인들이었다.\n"여자아이를 미끼로 삼아 자기들만 내빼다니, 신사의 품격이라곤 눈곱만큼도 찾아볼 수 없군." 우두머리처럼 보이는 군인이 웃으며 말했다. "어쨌든 아가씨, 우리 장소를 좀 바꿔서 이야기할까?"\n \n그날 방아쇠를 얼마나 당겼는지 기억나지 않는다. 탄창이 바닥나고 머리가 진흙탕에 처박힐 때까지, 린은 뻣뻣해진 손가락을 필사적으로 움직이며, 그 작은 금속 조각이 한 번만 더 그녀를 기적처럼 살아남게 해 주기를 절망 속에 빌었다.\n아주 오래전부터, 제13군단의 그물에서 빠져나갈 수 있는 사냥감은 없다고 들었지만 말이다.\n근처의 웅덩이에서 금발의 장교가 불빛을 등지고 걸어오는 모습이 눈에 들어왔다. 군화에 더러운 빗물이 튀어 있었다.\n"내 제안을 들어보는 게 좋을 것 같은데, 린 양."\n\n"널 군단에 받아줘야 하는 이유를 말해봐." 심문실의 유리 건너편에서 '군단장'이라고 불린 여자가 담담한 목소리로 린에게 물었다. \n"랜디, 넌 입 다물고, 직접 말하게 둬."\n"왜냐하면..." 린은 숨을 깊이 들이쉬며, 한 달 전 저녁의 황혼을 떠올렸다. 물웅덩이에 거꾸로 비친, 피처럼 붉은 노을이었다.\n"씨*, 노을이 정말 아름답더라고요.” 린이 말했다. "노을을 몇 번 더 보고 싶어요."",
+    ContentJP = "なんの変哲もない任務だった。少なくともリーンは最初そう思っていた。\n本当に物を配達するだけの簡単な仕事は久しぶりだ。気楽な仕事を請け負えた嬉しさから、普通の配達任務になぜ高額な報酬がつくのか、疑問を抱くことさえ忘れていた。それが雇い主たちのしかけた罠であると、気づけなかったのだ。\nリーンは手練れの銃使いであるが、雇い主たちにとってはただの一丁の銃に過ぎない。彼らは銃の本当の使いどころを見計らったのだ。\n地図に示された場所にて。少女の姿に変装して弾倉をカチリとはめ込む――いつものように万全の態勢を整えたが、約束の場所に「受取人」はおらず、武装した帝国軍の兵士たちが待ちかまえていた。\n「少女をおとりに自分たちは逃亡するとは。紳士の風上にもおけないな」。部隊を率いる軍人が笑いながら言った。「さあ、お嬢さん、観念するんだ。場所をかえて、ゆっくりと話を聞こうか？」\n\nその日……何回トリガーを引いたのか、リーンは覚えていない。弾倉が空になるまで、泥にまみれた地面に頭を押しつけられるまで、硬直した指でトリガーを引き続け、小さな金属片に生き延びる奇跡を託し続けた。\n噂には聞いていたのだ。第十三軍団の手から逃れることはできないと。\n少し離れた水たまりから、金髪の将校が光を背に受けて歩いてくる。「まず僕のアドバイスを聞いてみるのがいいと思いますよ、リーンさん」\n\n「軍に入りたい理由は？」。取調室のガラス越しに「軍団長」と呼ばれた女性が淡々と尋ねる。「ランディーは黙っていて。自分の言葉で語らせるのよ」\n「あれは……」。リーンは深呼吸をして、1ヶ月前のあの黄昏を思い出す。視線は水たまりに映る血のように赤い夕焼けだけを追っていた。\n「あの夕焼けは****にきれいだったんだよ」。リーンは言った。「もっとあれが見たいんだ」",
+    ContentKR = "평범하기 그지없는 임무, 적어도 처음엔 그렇게 생각했다. 화물 운송이라니, 린은 오랫동안 이렇게 쉬운 일을 맡아본 적이 없었다. 마침내 잠시나마 숨 돌릴 기회가 왔다는 기쁨에, 그녀는 왜 이런 평범한 운송 의뢰에 아주 높은 보수가 걸려있는지 의심하는 것조차 잊어버렸다.\n\n하지만 고용주들의 함정이었다. 린은 절대 빗나가지 않는 훌륭한 총이지만, 결국은 총일 뿐이다. 고용주들은 지금이야말로 그녀가 진짜 가치를 발휘할 때라고 생각했다.\n\n지도의 표식, 소녀의 체형을 감출 충분한 위장, 탄창의 딸각 소리. 린은 언제나처럼 만반의 준비를 갖췄다. 하지만 약속 장소에서 기다리고 있는 것은 '수취인'이 아니라 실탄으로 무장한 제국 군인들이었다.\n"여자아이를 미끼로 삼아 자기들만 내빼다니, 신사의 품격이라곤 눈곱만큼도 찾아볼 수 없군." 우두머리처럼 보이는 군인이 웃으며 말했다. "어쨌든 아가씨, 우리 장소를 좀 바꿔서 이야기할까?"\n\n그날 방아쇠를 얼마나 당겼는지 기억나지 않는다. 탄창이 바닥나고 머리가 진흙탕에 처박힐 때까지, 린은 뻣뻣해진 손가락을 필사적으로 움직이며, 그 작은 금속 조각이 한 번만 더 그녀를 기적처럼 살아남게 해 주기를 절망 속에 빌었다.\n아주 오래전부터, 제13군단의 그물에서 빠져나갈 수 있는 사냥감은 없다고 들었지만 말이다.\n근처의 웅덩이에서 금발의 장교가 불빛을 등지고 걸어오는 모습이 눈에 들어왔다. 군화에 더러운 빗물이 튀어 있었다.\n"내 제안을 들어보는 게 좋을 것 같은데, 린 양."\n\n"널 군단에 받아줘야 하는 이유를 말해봐." 심문실의 유리 건너편에서 '군단장'이라고 불린 여자가 담담한 목소리로 린에게 물었다. \n"랜디, 넌 입 다물고, 직접 말하게 둬."\n"왜냐하면..." 린은 숨을 깊이 들이쉬며, 한 달 전 저녁의 황혼을 떠올렸다. 물웅덩이에 거꾸로 비친, 피처럼 붉은 노을이었다.\n"씨*, 노을이 정말 아름답더라고요.” 린이 말했다. "노을을 몇 번 더 보고 싶어요."",
     ContentTC = "這只是一個平平無奇的任務，至少琳恩一開始是這麼認為的。運送貨物，她已經很久沒有做過如此輕鬆的活計了。終於得到片刻喘息的欣喜，讓她甚至忘記懷疑，為什麼一份普通的送貨任務值得如此高昂的價碼。\n但那只是雇主們設下的圈套。琳恩是一把彈無虛發的好槍，雇主們想，但她終究是一把槍，如今是時候讓它發揮出真正的價值了。\n地圖勾畫的標記，足以掩飾少女身形的偽裝，彈匣卡扣的脆響——琳恩一如既往地做好萬全的準備，然而在約定地點等待的，不是某個「收件人」，而是一群荷槍實彈的帝國士兵。\n「讓女孩子當誘餌來掩護自己逃跑，真是毫無紳士風度的行為。」為首的軍人笑著，「不過，女士，也許我們應該換個地方好好談談？」\n\n琳恩不記得那天自己按了多少次扳機，直到彈匣打空，腦袋被按在污泥裡，她依舊徒勞地扣動著僵硬的手指，無望地乞求那枚小小的金屬片可以再次賜予她活下去的奇跡。\n——即使她早有耳聞，沒有獵物能夠從第十三軍團的羅網中逃離。\n在不遠處的一片水窪中，她看到金髮的軍官背對著光走來，軍靴帶起骯髒的積雨，「我覺得你還是應該先聽聽我的提議，琳恩女士。」\n\n「給我一個你加入軍團的理由。」隔著審訊玻璃，被稱為「軍團長」的女人淡淡地問，「蘭迪你閉嘴，讓她自己說。」\n「因為……」琳恩深吸一口氣，回想起一個月前的那個黃昏，視線中只有倒映在水窪中，像血一樣紅的晚霞。\n「他**的夕陽真的很美，」她說，「我還想再看幾次。」",
     TextMapContent = "这只是一个平平无奇的任务，至少琳恩一开始是这么认为的。运送货物，她已经很久没有做过如此轻松的活计了。终于得到片刻喘息的欣喜，让她甚至忘记怀疑，为什么一份普通的送货任务值得如此高昂的价码。\n但那只是雇主们设下的圈套。琳恩是一把弹无虚发的好枪，雇主们想，但她终究是一把枪，如今是时候让它发挥出真正的价值了。\n地图勾画的标记，足以掩饰少女身形的伪装，弹匣卡扣的脆响——琳恩一如既往地做好万全的准备，然而在约定地点等待的，不是某个“收件人”，而是一群荷枪实弹的帝国士兵。\n“让女孩子当诱饵来掩护自己逃跑，真是毫无绅士风度的行为。”为首的军人笑着，“不过，女士，也许我们应该换个地方好好谈谈？”\n\n琳恩不记得那天自己按了多少次扳机，直到弹匣打空，脑袋被按在污泥里，她依旧徒劳地扣动着僵硬的手指，无望地乞求那枚小小的金属片可以再次赐予她活下去的奇迹。\n——即使她早有耳闻，没有猎物能够从第十三军团的罗网中逃离。\n在不远处的一片水洼中，她看到金发的军官背对着光走来，军靴带起肮脏的积雨，“我觉得你还是应该先听听我的提议，琳恩女士。”\n\n“给我一个你加入军团的理由。”隔着审讯玻璃，被称为“军团长”的女人淡淡地问，“兰迪你闭嘴，让她自己说。”\n“因为……”琳恩深吸一口气，回想起一个月前的那个黄昏，视线中只有倒映在水洼中，像血一样红的晚霞。\n“他 * *的夕阳真的很美，”她说，“我还想再看几次。”",
     TextMapId = "UI_CHAR_DATA_TEXT_31010402"
@@ -128398,7 +128509,7 @@ return ReadOnly("TextMap_I18n", {
     ContentFR = "L’équipe opérationnelle",
     ContentJP = "運営チーム",
     ContentKR = "운영팀",
-    ContentTC = "運營團隊",
+    ContentTC = "營運團隊",
     TextMapContent = "运营团队",
     TextMapId = "UI_CHAR_NAME_9999"
         },
@@ -128696,8 +128807,8 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_CMName_Name_HuanzhePhantom"
         },
   UI_CMName_Name_JiaoJiDeZhongNianRen = {
-    ContentEN = "Anxious Man",
-    ContentJP = "焦る中年男性",
+    ContentEN = "Anxious Citizen",
+    ContentJP = "焦る市民",
     ContentKR = "초조한 중년",
     ContentTC = "焦急的中年人",
     TextMapContent = "焦急的中年人",
@@ -129096,7 +129207,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_CMNpc_Name_Beilinda"
         },
   UI_CMNpc_Name_BlackmarketMerchantA = {
-    ContentEN = "Black Marketeer Standing Watch",
+    ContentEN = "Black Market Watcher",
     ContentFR = "Guetteur du marché noir",
     ContentJP = "見張りの闇市の売人",
     ContentKR = "망보는 암시장 상인",
@@ -129365,7 +129476,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_CMNpc_Name_GuiHuaLi = {
     ContentEN = "Li the Osmanthus Cake Maker",
-    ContentJP = "すももの金木犀シロップ漬け",
+    ContentJP = "桂花屋のリーさん",
     ContentKR = "이계화",
     ContentTC = "桂花李",
     TextMapContent = "桂花李",
@@ -129552,8 +129663,9 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_CMNpc_Name_Lars"
         },
   UI_CMNpc_Name_LiHuan = {
+    ContentDE = "Li Huan",
     ContentEN = "Li Huan",
-    ContentJP = "リカン",
+    ContentJP = "リワン",
     ContentKR = "이완",
     ContentTC = "李浣",
     TextMapContent = "李浣",
@@ -129974,7 +130086,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_CMNpc_Name_Xiangguan = {
     ContentEN = "Xuanheng Sect Incense Warden",
-    ContentJP = "ケンコウ派の香官",
+    ContentJP = "懸衡派の香官",
     ContentKR = "현형파 향관",
     ContentTC = "懸衡派香官",
     TextMapContent = "悬衡派香官",
@@ -130126,6 +130238,22 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "封印烛阴",
     TextMapId = "UI_CMNpc_Seal"
         },
+  UI_CMNpc_Yanjindu_Name_Bird = {
+    ContentEN = "Bird",
+    ContentJP = "トリ",
+    ContentKR = "새",
+    ContentTC = "鳥",
+    TextMapContent = "鸟",
+    TextMapId = "UI_CMNpc_Yanjindu_Name_Bird"
+        },
+  UI_CMNpc_Yanjindu_Name_Deer = {
+    ContentEN = "Deer",
+    ContentJP = "シカ",
+    ContentKR = "사슴",
+    ContentTC = "鹿",
+    TextMapContent = "鹿",
+    TextMapId = "UI_CMNpc_Yanjindu_Name_Deer"
+        },
   UI_CMNpc_Yanjindu_Name_DrHuang = {
     ContentEN = "Apothecary Huang",
     ContentJP = "薬師のコウ",
@@ -130179,7 +130307,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "トウチク",
     ContentKR = "동축",
     ContentTC = "董築",
-    TextMapContent = "困生",
+    TextMapContent = "董筑",
     TextMapId = "UI_CMNpc_Yanjindu_Name_KunSheng"
         },
   UI_CMNpc_Yanjindu_Name_LaMeng = {
@@ -130200,7 +130328,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_CMNpc_Yanjindu_Name_LiShi = {
     ContentEN = "Li Shi",
-    ContentJP = "リシツ",
+    ContentJP = "リーシツ",
     ContentKR = "이신",
     ContentTC = "李什",
     TextMapContent = "李什",
@@ -130208,7 +130336,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_CMNpc_Yanjindu_Name_LinghuNing = {
     ContentEN = "Linghu Ning",
-    ContentJP = "レイコネイ",
+    ContentJP = "チュウジ",
     ContentKR = "영호령",
     ContentTC = "令狐寧",
     TextMapContent = "令狐宁",
@@ -130219,7 +130347,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "ラクガン",
     ContentKR = "낙안",
     ContentTC = "小雁",
-    TextMapContent = "落雁",
+    TextMapContent = "小雁",
     TextMapId = "UI_CMNpc_Yanjindu_Name_LuoYan"
         },
   UI_CMNpc_Yanjindu_Name_MrCheng = {
@@ -130264,7 +130392,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_CMNpc_Yanjindu_Name_QuanDoutong = {
     ContentEN = "Quan Doutong",
-    ContentJP = "ケントツウ",
+    ContentJP = "全通先生",
     ContentKR = "권도통",
     ContentTC = "權都通",
     TextMapContent = "权都通",
@@ -130759,21 +130887,21 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_COMMONPOP_TEXT_100050"
         },
   UI_COMMONPOP_TEXT_100051 = {
-    ContentEN = "Your account (UID: %d) has been suspended until %s due to violations. You will now be logged out.",
+    ContentEN = "Your account (UID: %d) has been suspended until %s due to violations. Please contact the official customer service if you have any questions.",
     ContentES = "Tu cuenta (UID: %d) ha sido suspendida hasta %s por infracciones. Ahora se cerrará la sesión.",
     ContentFR = "Votre compte (UID : %d) est suspendu jusqu’au %s pour comportement inapproprié. Vous allez être déconnecté.",
-    ContentJP = "アカウント(uid:%d)は規約違反により、%sまで利用停止されました。ログアウトします",
-    ContentKR = "부적절한 행위로 인해, 귀하의 계정(uid: %d)은 %s까지 계정 정지되었습니다. 로그아웃이 진행됩니다.",
-    ContentTC = "您的帳號(uid:%d)因不當行為被封禁至%s，將退出登錄",
-    TextMapContent = "您的账号(uid:%d)因不当行为被封禁至%s，将退出登录",
+    ContentJP = "アカウント(uid:%d)は規約違反により、%sまで利用停止されました。ご不明な点がございましたらカスタマーサポートまでご連絡ください。",
+    ContentKR = "부적절한 행위로 인해, 귀하의 계정(uid: %d)은 %s까지 계정 정지되었습니다. 문의사항은 고객센터로 연락해 주세요.",
+    ContentTC = "您的帳號(uid:%d)因不當行為被封禁至%s，如有疑問請聯繫官方客服",
+    TextMapContent = "您的账号(uid:%d)因不当行为被封禁至%s，如有疑问请联系官方客服",
     TextMapId = "UI_COMMONPOP_TEXT_100051"
         },
   UI_COMMONPOP_TEXT_100052 = {
-    ContentEN = "Your account (UID: %d) has been banned for %s until %s. You will now be logged out.",
-    ContentJP = "あなたのアカウント（UID:%d）は、%s により %sまでロックされています。ログアウトします。",
-    ContentKR = "사용 중인 계정(UID: %d)이 %s(으)로 인해 %s까지 이용이 제한되었습니다. 로그아웃됩니다.",
-    ContentTC = "您的帳號(uid:%d)因%s被封禁至%s，將退出登錄",
-    TextMapContent = "您的账号(uid:%d)因%s被封禁至%s，将退出登录",
+    ContentEN = "Your account (UID: %d) has been banned for %s until %s. Please contact the official customer service if you have any questions.",
+    ContentJP = "あなたのアカウント（UID:%d）は、%s により %sまでロックされています。ご不明な点がございましたらカスタマーサポートまでご連絡ください。",
+    ContentKR = "사용 중인 계정(UID: %d)이 %s(으)로 인해 %s까지 이용이 제한되었습니다. 문의사항은 고객센터로 연락해 주세요.",
+    ContentTC = "您的帳號(uid:%d)因%s被封禁至%s，如有疑問請聯繫官方客服",
+    TextMapContent = "您的账号(uid:%d)因%s被封禁至%s，如有疑问请联系官方客服",
     TextMapId = "UI_COMMONPOP_TEXT_100052"
         },
   UI_COMMONPOP_TEXT_100052_0 = {
@@ -130953,7 +131081,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "接続エラー：サーバーに接続できません。ネットワークの通信状態をご確認下さい。",
     ContentKR = "서버에 연결할 수 없습니다. 네트워크 연결을 확인하십시오.",
     ContentTC = "連接失敗：無法連接伺服器，請檢查您的網路連接。",
-    TextMapContent = "检测到您的账号存在违规使用第三方插件的行为，已断开与服务器的连接",
+    TextMapContent = "连接失败：无法连接服务器，请检查您的网络连接。",
     TextMapId = "UI_COMMONPOP_TEXT_100074"
         },
   UI_COMMONPOP_TEXT_100075 = {
@@ -130995,6 +131123,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "是否移除該好友？",
     TextMapContent = "是否移除该好友？",
     TextMapId = "UI_COMMONPOP_TEXT_100077"
+        },
+  UI_COMMONPOP_TEXT_100078 = {
+    ContentEN = "Unauthorised third-party plug-ins have been detected on your account. You have been disconnected from the server.",
+    ContentJP = "お客様のアカウントにおいて、第三者プラグインの不正使用が検出されたため、サーバーとの接続を切断いたしました。",
+    ContentKR = "사용 중인 계정에서 제3자 플러그인 사용이 감지되어 서버와의 연결이 종료되었습니다.",
+    ContentTC = "檢測到您的帳號存在違規使用第三方插件的行為，已斷開與伺服器的連接。",
+    TextMapContent = "检测到您的账号存在违规使用第三方插件的行为，已断开与服务器的连接。",
+    TextMapId = "UI_COMMONPOP_TEXT_100078"
         },
   UI_COMMONPOP_TEXT_100090_1 = {
     ContentEN = "Player Being Reported",
@@ -132054,6 +132190,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "破译机关",
     TextMapId = "UI_CONFIRM_BREAKCODE"
         },
+  UI_CONFIRM_ExploreBadgeShop = {
+    TextMapContent = "皎皎徽章商店（待包装）",
+    TextMapId = "UI_CONFIRM_ExploreBadgeShop"
+        },
   UI_CONFIRM_FISHING = {
     ContentEN = "Fish",
     ContentES = "Pescar",
@@ -132667,8 +132807,8 @@ return ReadOnly("TextMap_I18n", {
   UI_CTL_PositionPlayer = {
     ContentEN = "Locate Player",
     ContentES = "Localizar jugador",
-    ContentFR = "플레이어 위치 확인",
     ContentJP = "プレイヤーのロケーションを確認する",
+    ContentKR = "플레이어 위치 확인",
     ContentTC = "定位玩家",
     TextMapContent = "定位玩家",
     TextMapId = "UI_CTL_PositionPlayer"
@@ -136262,7 +136402,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_DUNGEON_DES_TRAINING_15 = {
     ContentEN = "Invincible",
-    ContentFR = "Invincible",
+    ContentFR = "Invincibilité",
     ContentJP = "無敵",
     ContentKR = "무적",
     ContentTC = "無敵",
@@ -140232,7 +140372,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Event_ModDrop_Challenge"
         },
   UI_Event_ModDrop_ChallengeName = {
-    ContentEN = "Limited-Time Demon Wedge Commission",
+    ContentEN = "Demon Wedge Commission",
     ContentFR = "Mission temporaire – Sceau démoniaque",
     ContentJP = "限定魔の楔依頼",
     ContentKR = "기간 한정 악마의 쐐기 의뢰",
@@ -140354,7 +140494,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "1．イベント期間中、ノクトボイジャー手帳の依頼には毎日<highlight>6</>回報酬獲得量を増加するボーナスが付与されます。このボーナスは依頼手帳の効果と加算されます、この状態で依頼を開始するとより多くの依頼報酬を獲得できます。\n 2．イベント期間中は、毎日ログインすることで<highlight>1</>回まで限定魔の楔依頼に挑戦できます。ノクトボイジャー手帳の各魔の楔関連依頼には、それぞれ対応する限定魔の楔依頼があります。限定魔の楔依頼では、ホルダーが大量に出現します。\n 3．挑戦回数とボーナスは日をまたいで持ち越すことはできず、翌日にはリセットされます。",
     ContentKR = "1. 이벤트 기간 동안, 녹토 보이저 지침서 의뢰 중 매일 <highlight>6</>회의 악마의 쐐기 보상 증가 보너스가 적용됩니다. 이 보너스는 의뢰 수첩과 중복 적용되며, 보너스가 중복 적용된 의뢰를 완료하면 의뢰 보상을 더 많이 획득할 수 있습니다.\n2. 이벤트 기간 동안, 접속 시 매일 <highlight>1</>회까지 기간 한정 악마의 쐐기 의뢰에 도전할 수 있습니다. 녹토 보이저 지침서의 악마의 쐐기 관련 의뢰에는, 그와 연계된 기간 한정 악마의 쐐기 의뢰가 있습니다. 해당 기간 한정 의뢰에서는 지휘자가 대거 등장합니다.\n3. 도전 횟수와 보상 버프 횟수는 다음 날로 누적되지 않고, 모두 초기화됩니다.",
     ContentTC = "1、活動期間，夜航手冊中的委託每天將有<highlight>6</>次獎勵提升的加成，該加成可與委託手冊疊加，此時開始委託，將獲得更多的委託獎勵\n 2、活動期間，每天上線即可挑戰<highlight>1</>次限時魔之楔委託。夜航手冊中的每個魔之楔相關委託都對應一個限時魔之楔委託，號令者會大量出現在限時魔之楔委託中\n 3、挑戰次數和獎勵加成次數無法跨日積累，次日將全部清空",
-    TextMapContent = "1、活动期间，夜航手册中的委托每天将有<highlight>6</>次奖励提升的加成，该加成可与委托手册叠加，此时开始委托，将获得更多的委托奖励\n2、活动期间，每天上线即可挑战<highlight>1</>次限时魔之楔委托。挑战次数无法跨日积累，次日将全部清空\n3、夜航手册中的每个魔之楔相关委托都对应一个限时魔之楔委托，号令者会大量出现在限时魔之楔委托中",
+    TextMapContent = "1、活动期间，夜航手册中的委托每天将有<highlight>6</>次奖励提升的加成，该加成可与委托手册叠加，此时开始委托，将获得更多的委托奖励\n2、活动期间，每天上线即可挑战<highlight>1</>次限时魔之楔委托。夜航手册中的每个魔之楔相关委托都对应一个限时魔之楔委托，号令者会大量出现在限时魔之楔委托中\n3、挑战次数和奖励加成次数无法跨日积累，次日将全部清空",
     TextMapId = "UI_Event_ModDrop_Rule"
         },
   UI_Event_ModDrop_Tips = {
@@ -142495,7 +142635,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_GameReview_Comment"
         },
   UI_GameReview_Content_1 = {
-    ContentEN = "We'd love to hear what you think: ",
+    ContentEN = "We'd love to hear what you think",
     ContentJP = "よろしければ、評価をお聞かせください。",
     ContentKR = "리뷰를 작성해 주세요.",
     ContentTC = "請給我們一個評價吧",
@@ -142567,7 +142707,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_GameReview_Title_1"
         },
   UI_GameReview_Title_2 = {
-    ContentEN = "Please consider leaving a review for our game",
+    ContentEN = "Please leave a review",
     ContentJP = "ゲームについて、あなたのご意見をお聞かせください",
     ContentKR = "게임에 대한 리뷰를 작성해 주세요.",
     ContentTC = "請對我們的遊戲做出評價吧",
@@ -143380,6 +143520,14 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "一人一剑一江湖。",
     TextMapId = "UI_HeadFrame_Des_10019"
         },
+  UI_HeadFrame_Empty = {
+    ContentEN = "Unequip",
+    ContentJP = "装備しない",
+    ContentKR = "미장착",
+    ContentTC = "不佩戴",
+    TextMapContent = "不佩戴",
+    TextMapId = "UI_HeadFrame_Empty"
+        },
   UI_HeadFrame_Frame = {
     ContentEN = "Avatar Frame",
     ContentES = "Marco de avatar",
@@ -143443,7 +143591,7 @@ return ReadOnly("TextMap_I18n", {
   UI_HeadFrame_Name_10006 = {
     ContentEN = "Envelope – Violet",
     ContentJP = "封筒‐レッドパープル",
-    ContentKR = "봉투·진자",
+    ContentKR = "봉투·보라",
     ContentTC = "信封·絳紫",
     TextMapContent = "信封·绛紫",
     TextMapId = "UI_HeadFrame_Name_10006"
@@ -144414,6 +144562,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "向上選擇",
     TextMapContent = "向上选择",
     TextMapId = "UI_Keyboard_UpSelect"
+        },
+  UI_LEAVE_DUNGEONEDGE = {
+    TextMapContent = "已远离灵鸟回声战斗区域（待包装）【已废弃】",
+    TextMapId = "UI_LEAVE_DUNGEONEDGE"
+        },
+  UI_LEAVE_DUNGEONEDGE_TIPS = {
+    TextMapContent = "即将离开战斗区域，是否直接退出灵鸟回声？（待包装）【已废弃】",
+    TextMapId = "UI_LEAVE_DUNGEONEDGE_TIPS"
         },
   UI_LEAVE_EDGE = {
     ContentEN = "You have strayed from the explorable area",
@@ -146380,7 +146536,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_MECHANISM_118003"
         },
   UI_MECHANISM_118004 = {
-    ContentEN = "Ring the Providence Chime",
+    ContentEN = "Ring the Aeolian Chime",
     ContentJP = "風鈴を鳴らす",
     ContentKR = "풍령 울리기",
     ContentTC = "敲響占風鐸",
@@ -148623,7 +148779,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_NPC_Name_Laoliutou_Sce = {
     ContentEN = "Old Man Liu",
-    ContentJP = "リュウじい",
+    ContentJP = "リュウ爺さん",
     ContentKR = "유씨",
     ContentTC = "老柳頭",
     TextMapContent = "老柳头",
@@ -148663,7 +148819,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_NPC_Name_Longlaoban_Sce = {
     ContentEN = "Long",
-    ContentJP = "龍さん",
+    ContentJP = "龍社長",
     ContentKR = "용사장",
     ContentTC = "龍老闆",
     TextMapContent = "龙老板",
@@ -148703,7 +148859,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_NPC_Name_Qianlaoban_Sce = {
     ContentEN = "Proprietor Qian",
-    ContentJP = "ゼニさん",
+    ContentJP = "ゼニ店主",
     ContentKR = "전 사장",
     ContentTC = "錢老闆",
     TextMapContent = "钱老板",
@@ -148711,7 +148867,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UI_NPC_Name_Qiaofeng_Sce = {
     ContentEN = "Qiaofeng",
-    ContentJP = "コウホウ",
+    ContentJP = "ホウコ",
     ContentKR = "교봉",
     ContentTC = "巧鳳",
     TextMapContent = "巧凤",
@@ -150681,7 +150837,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Npc_Name_240025 = {
     ContentEN = "Zhuyin",
     ContentJP = "燭陰（しょくいん）",
-    ContentKR = "촉룡의",
+    ContentKR = "촉룡",
     ContentTC = "燭陰",
     TextMapContent = "烛阴",
     TextMapId = "UI_Npc_Name_240025"
@@ -152313,19 +152469,19 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Npc_Name_ReqingWaiter"
         },
   UI_Npc_Name_RougeLike_Shop1 = {
-    ContentEN = "Mysterious Merchant",
+    ContentEN = "Abyssal Merchant",
     ContentJP = "謎の行商人",
-    ContentKR = "미스터리 행상인",
-    ContentTC = "神秘行商",
-    TextMapContent = "神秘行商",
+    ContentKR = "심연 행상인",
+    ContentTC = "深淵行商",
+    TextMapContent = "深渊行商",
     TextMapId = "UI_Npc_Name_RougeLike_Shop1"
         },
   UI_Npc_Name_RougeLike_Shop2 = {
-    ContentEN = "Mysterious Merchant",
+    ContentEN = "Abyssal Merchant",
     ContentJP = "謎の行商人",
-    ContentKR = "미스터리 행상인",
-    ContentTC = "神秘行商",
-    TextMapContent = "神秘行商",
+    ContentKR = "심연 행상인",
+    ContentTC = "深淵行商",
+    TextMapContent = "深渊行商",
     TextMapId = "UI_Npc_Name_RougeLike_Shop2"
         },
   UI_Npc_Name_RougeZhujue = {
@@ -152339,7 +152495,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Npc_Name_RunningBoy = {
     ContentEN = "Proud Boy",
     ContentJP = "興奮した子供",
-    ContentKR = "흥분한 어린아이",
+    ContentKR = "흥분한 아이",
     ContentTC = "興奮的孩童",
     TextMapContent = "兴奋的孩童",
     TextMapId = "UI_Npc_Name_RunningBoy"
@@ -156135,11 +156291,12 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Party_RewardDetail"
         },
   UI_PatchFix_Popup = {
+    ContentDE = "Voulez-vous effacer le cache et retélécharger les données ? (Vos données sauvegardées ne seront pas supprimées.)",
     ContentEN = "Are you sure you want to clear the cache and re-download game data? (Your saved data will not be deleted.)",
     ContentES = "¿Deseas borrar la caché y volver a descargar los datos? (Tus datos guardados no serán eliminados.)",
     ContentFR = "Voulez-vous effacer le cache et retélécharger les données ? (Vos données sauvegardées ne seront pas supprimées.)",
     ContentJP = "キャッシュクリアを実行し、データを再ダウンロードしますか？（保存されたデータは消えない）",
-    ContentKR = "캐시 클리어하고 데이터를 다시 다운로드하시겠습니까? (저장된 데이터는 지워지지 않습니다다)",
+    ContentKR = "캐시 클리어하고 데이터를 다시 다운로드하시겠습니까? (저장된 데이터는 지워지지 않습니다)",
     ContentTC = "確定要清除緩存，並重新下載數據嗎？（保存數據不會消失）",
     TextMapContent = "确定要清除缓存，并重新下载数据吗？（保存数据不会消失）",
     TextMapId = "UI_PatchFix_Popup"
@@ -157098,6 +157255,14 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "可将头像更换为"阳光磨坊"的形象。",
     TextMapId = "UI_PlayerHead_Des_20003"
         },
+  UI_PlayerHead_Des_Common = {
+    ContentEN = "Used as an avatar.",
+    ContentJP = "アイコンに使用できる。",
+    ContentKR = "프로필 사진에 사용된다.",
+    ContentTC = "適用於頭像。",
+    TextMapContent = "适用于头像。",
+    TextMapId = "UI_PlayerHead_Des_Common"
+        },
   UI_PlayerHead_Name_10001 = {
     ContentEN = "Portrait: Memory",
     ContentFR = "Portrait : Souvenir",
@@ -157284,6 +157449,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_PlayerHead_Name_10023"
         },
   UI_PlayerHead_Name_10024 = {
+    ContentEN = "Portrait: Drifting Swordsman",
+    ContentJP = "放浪剣士の肖像",
+    ContentKR = "나그네 각주의 초상화",
+    ContentTC = "飄零劍客的肖像",
+    TextMapContent = "飘零剑客的肖像",
     TextMapId = "UI_PlayerHead_Name_10024"
         },
   UI_PlayerHead_Name_10025 = {
@@ -157352,6 +157522,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "糧秣專員的肖像·太陽",
     TextMapContent = "粮秣专员的肖像·太阳",
     TextMapId = "UI_PlayerHead_Name_20003"
+        },
+  UI_PlayerHead_Name_20004 = {
+    ContentEN = "Portrait: The Huaxu Apothecary – Ripple",
+    ContentJP = "薬師華胥の肖像・さざなみ",
+    ContentKR = "화서 약사의 초상화·잔물결",
+    ContentTC = "華胥藥師的肖像·柔波",
+    TextMapContent = "华胥药师的肖像·柔波",
+    TextMapId = "UI_PlayerHead_Name_20004"
         },
   UI_PlayerHead_Name_30001 = {
     ContentEN = "Daze",
@@ -157436,7 +157614,7 @@ return ReadOnly("TextMap_I18n", {
   UI_PlayerHead_Name_30011 = {
     ContentEN = "Between the Shores",
     ContentJP = "此岸と彼岸",
-    ContentKR = "피안×차안",
+    ContentKR = "차안×피안",
     ContentTC = "此岸×彼岸",
     TextMapContent = "此岸×彼岸",
     TextMapId = "UI_PlayerHead_Name_30011"
@@ -157622,7 +157800,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "アイコン：ミラクル‐ユカリウマ",
     ContentKR = "프로필: 반짝이는 보랏빛 먹구름",
     ContentTC = "頭像：閃亮紫紗黑雲",
-    TextMapContent = "头像：闪亮紫砂黑云",
+    TextMapContent = "头像：闪亮紫纱黑云",
     TextMapId = "UI_PlayerHead_Name_30034"
         },
   UI_PlayerHead_Name_30035 = {
@@ -157630,7 +157808,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "アイコン：まっしぐら‐ユカリウマ",
     ContentKR = "프로필: 기적의 보랏빛 먹구름",
     ContentTC = "頭像：奇跡紫紗黑雲",
-    TextMapContent = "头像：奇迹紫砂黑云",
+    TextMapContent = "头像：奇迹紫纱黑云",
     TextMapId = "UI_PlayerHead_Name_30035"
         },
   UI_PlayerHead_Name_30036 = {
@@ -157638,7 +157816,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "アイコン：ピカピカ‐ユカリウマ",
     ContentKR = "프로필: 굳센 보랏빛 먹구름",
     ContentTC = "頭像：銳意紫紗黑雲",
-    TextMapContent = "头像：锐意紫砂黑云",
+    TextMapContent = "头像：锐意紫纱黑云",
     TextMapId = "UI_PlayerHead_Name_30036"
         },
   UI_PlayerHead_Name_30037 = {
@@ -158062,7 +158240,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "アイコン：海辺の戯れ・チェリーホワイト",
     ContentKR = "프로필: 여유로운 바닷가·벚꽃",
     ContentTC = "頭像：悠遊水岸·白櫻",
-    TextMapContent = "悠游水岸·白樱",
+    TextMapContent = "头像：悠游水岸·白樱",
     TextMapId = "UI_PlayerHead_Name_30089"
         },
   UI_PlayerHead_Name_30090 = {
@@ -158070,7 +158248,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "アイコン：海辺の戯れ・ナチュラル",
     ContentKR = "프로필: 여유로운 바닷가",
     ContentTC = "頭像：悠遊水岸·本色",
-    TextMapContent = "悠游水岸·本色",
+    TextMapContent = "头像：悠游水岸·本色",
     TextMapId = "UI_PlayerHead_Name_30090"
         },
   UI_PlayerHead_Name_30091 = {
@@ -158078,7 +158256,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "アイコン：海辺の戯れ・レッドパープル",
     ContentKR = "프로필: 여유로운 바닷가·보라",
     ContentTC = "頭像：悠遊水岸·絳紫",
-    TextMapContent = "悠游水岸·绛紫",
+    TextMapContent = "头像：悠游水岸·绛紫",
     TextMapId = "UI_PlayerHead_Name_30091"
         },
   UI_PlayerHead_Name_30092 = {
@@ -158086,7 +158264,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "アイコン：瞬速フリーズ・ナチュラル",
     ContentKR = "프로필: 프리즈 프레임",
     ContentTC = "頭像：極速定格・本色",
-    TextMapContent = "极速定格·本色",
+    TextMapContent = "头像：极速定格·本色",
     TextMapId = "UI_PlayerHead_Name_30092"
         },
   UI_PlayerHead_Name_30093 = {
@@ -158094,7 +158272,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "アイコン：瞬速フリーズ・マリーゴールド",
     ContentKR = "프로필: 프리즈 프레임·골드",
     ContentTC = "頭像：極速定格・鎏金",
-    TextMapContent = "极速定格·鎏金",
+    TextMapContent = "头像：极速定格·鎏金",
     TextMapId = "UI_PlayerHead_Name_30093"
         },
   UI_PlayerHead_Name_30094 = {
@@ -158102,7 +158280,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "アイコン：瞬速フリーズ・チェリーホワイト",
     ContentKR = "프로필: 프리즈 프레임·벚꽃",
     ContentTC = "頭像：極速定格・白櫻",
-    TextMapContent = "极速定格·白樱",
+    TextMapContent = "头像：极速定格·白樱",
     TextMapId = "UI_PlayerHead_Name_30094"
         },
   UI_Player_Level = {
@@ -158307,11 +158485,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_QUEST_CONDITION_FINISHQUEST"
         },
   UI_QUEST_CONDITION_PLAYERLEVEL = {
-    ContentEN = "Resonance Rank: ",
+    ContentEN = "Trial Rank:",
     ContentFR = "Niveau d’Aventure :",
-    ContentJP = "レゾナンスLv.：",
-    ContentKR = "레조넌스 레벨: ",
-    ContentTC = "和鳴等級：",
+    ContentJP = "冒険Lv.：",
+    ContentKR = "수련 레벨:",
+    ContentTC = "歷練等級：",
     TextMapContent = "历练等级：",
     TextMapId = "UI_QUEST_CONDITION_PLAYERLEVEL"
         },
@@ -158486,7 +158664,7 @@ return ReadOnly("TextMap_I18n", {
   UI_QUEST_SpecialSlide = {
     ContentEN = "Special Side Quest",
     ContentJP = "特別サブクエスト",
-    ContentKR = "사이드 퀘스트",
+    ContentKR = "스페셜 사이드 퀘스트",
     ContentTC = "特殊支線",
     TextMapContent = "特殊支线",
     TextMapId = "UI_QUEST_SpecialSlide"
@@ -159210,6 +159388,14 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "北",
     TextMapId = "UI_Radar_Dire_North"
         },
+  UI_RaidDungeon_Unlock_Time = {
+    ContentEN = "Before Unlocking",
+    ContentJP = "後にアンロック",
+    ContentKR = "후 해제",
+    ContentTC = "後解鎖",
+    TextMapContent = "后解锁",
+    TextMapId = "UI_RaidDungeon_Unlock_Time"
+        },
   UI_Raid_BattleCountDown = {
     ContentEN = "Challenge ends in: ",
     ContentES = "El desafío termina en:",
@@ -159632,6 +159818,30 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "邀请附近",
     TextMapId = "UI_RegionOnline_InviteNearby"
         },
+  UI_RegionOnline_Invite_Inviting = {
+    ContentEN = "Invite failed: you have already sent an invitation",
+    ContentJP = "招待に失敗しました。同じ相手を繰り返し招待することはできません。",
+    ContentKR = "초대 실패. 이미 초대 중인 상대입니다.",
+    ContentTC = "邀請失敗，無法重複邀請",
+    TextMapContent = "邀请失败，无法重复邀请",
+    TextMapId = "UI_RegionOnline_Invite_Inviting"
+        },
+  UI_RegionOnline_Invite_Sitting = {
+    ContentEN = "Invite failed: the player is currently unavailable",
+    ContentJP = "招待に失敗しました。相手は現在、他の操作を行っています。",
+    ContentKR = "초대 실패. 상대가 상호작용 중입니다.",
+    ContentTC = "邀請失敗，玩家正在互動中",
+    TextMapContent = "邀请失败，玩家正在互动中",
+    TextMapId = "UI_RegionOnline_Invite_Sitting"
+        },
+  UI_RegionOnline_Invite_State = {
+    ContentEN = "Invite failed: the player cannot be invited at the moment",
+    ContentJP = "招待に失敗しました。相手は現在、招待を受け付けられません。",
+    ContentKR = "초대 실패. 상대가 초대를 받을 수 없는 상태입니다.",
+    ContentTC = "邀請失敗，玩家暫時不可被邀請",
+    TextMapContent = "邀请失败，玩家暂时不可被邀请",
+    TextMapId = "UI_RegionOnline_Invite_State"
+        },
   UI_RegionOnline_Invited = {
     ContentEN = "Invited",
     ContentES = "Invitado",
@@ -159990,7 +160200,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Rou_Toast_27022"
         },
   UI_Rou_Toast_27027 = {
-    ContentEN = "Insufficient Trial Rank. Unable to enter the abyss at this depth",
+    ContentEN = "Insufficient Trial Rank. Unable to enter this Abyssward.",
     ContentJP = "レゾナンスレベルが不足しているため、さらに深い階層へ潜ることができません",
     ContentKR = "수련 레벨이 부족해 해당 깊이까지 침잠할 수 없습니다.",
     ContentTC = "歷練等級不足，無法沉潛到該深度",
@@ -160064,7 +160274,7 @@ return ReadOnly("TextMap_I18n", {
   UI_RougeLike_Blessing_Upgraded = {
     ContentEN = "Upgraded",
     ContentJP = "レベルアップ済み",
-    ContentKR = "업그레이드함",
+    ContentKR = "레벨업 완료",
     ContentTC = "已升級",
     TextMapContent = "已升级",
     TextMapId = "UI_RougeLike_Blessing_Upgraded"
@@ -160273,11 +160483,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Rouge_Event_ReviewESC"
         },
   UI_Rouge_Shop_MainTab = {
-    ContentEN = "Mysterious Merchant",
+    ContentEN = "Abyssal Merchant",
     ContentJP = "謎の行商人",
-    ContentKR = "미스터리 행상인",
-    ContentTC = "神秘行商",
-    TextMapContent = "神秘行商",
+    ContentKR = "심연 행상인",
+    ContentTC = "深淵行商",
+    TextMapContent = "深渊行商",
     TextMapId = "UI_Rouge_Shop_MainTab"
         },
   UI_Rouge_Shop_SubTab_Blessing = {
@@ -161982,7 +162192,7 @@ return ReadOnly("TextMap_I18n", {
     ContentES = "Sello de compañero de combate derrotado",
     ContentFR = "Défaites (Emblème de combat)",
     ContentJP = "戦友シジル行動不能回数",
-    ContentKR = "협력 인장 행동 불가 횟수",
+    ContentKR = "협력 인장 행동 불능 횟수",
     ContentTC = "協戰印記無法行動次數",
     TextMapContent = "协战印记无法行动次数",
     TextMapId = "UI_STAT_Sigil_DEAD"
@@ -163464,7 +163674,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "交換可能な燦爛ジェスチャー：\n<highlight>%s</>",
     ContentKR = "교환 가능한 찬란 전시 동작:\n<highlight>%s</>",
     ContentTC = "可兌換璀璨展示動作：\n<highlight>%s</>",
-    TextMapContent = "可兑换流光形象：<highlight>%s</>",
+    TextMapContent = "可兑换璀璨展示动作：\n<highlight>%s</>",
     TextMapId = "UI_SkinGacha_Shop_Bubble"
         },
   UI_SkinGacha_Shop_Goto = {
@@ -163592,6 +163802,22 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "足跡特效",
     TextMapContent = "足迹特效",
     TextMapId = "UI_SkinPreview_Accessory_FX_Footprint"
+        },
+  UI_SkinPreview_Accessory_FX_HelixLeap = {
+    ContentEN = "Helix Leap Effect",
+    ContentJP = "スピンジャンプエフェクト",
+    ContentKR = "스파이럴 점프 이펙트",
+    ContentTC = "螺旋飛躍特效",
+    TextMapContent = "螺旋飞跃特效",
+    TextMapId = "UI_SkinPreview_Accessory_FX_HelixLeap"
+        },
+  UI_SkinPreview_Accessory_FX_PlungingATK = {
+    ContentEN = "Plunging Attack Effect",
+    ContentJP = "落下攻撃エフェクト",
+    ContentKR = "낙하 공격 이펙트",
+    ContentTC = "下落攻擊特效",
+    TextMapContent = "下落攻击特效",
+    TextMapId = "UI_SkinPreview_Accessory_FX_PlungingATK"
         },
   UI_SkinPreview_Accessory_FX_Teleport = {
     ContentEN = "Teleport Effects",
@@ -163819,7 +164045,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Skin_Des_1601 = {
     ContentEN = "Drifting through night and sea, in robes of white, to meet the dawn.",
     ContentJP = "白い衣に身を包み、剣を持って、夜の海を越える。夜明けの果てにまた会おう。",
-    ContentKR = "사람, 검, 그리고 새하얀 옷. 넓은 바다와 차가운 밤을 넘어, 새벽의 끝에서 만나리라.",
+    ContentKR = "검 한 자루에 흰 옷 걸치고 홀로 걷는다. 거친 바다와 차디찬 밤을 건너, 새벽의 끝과 만나기 위해.",
     ContentTC = "一人，一劍，一襲白衣。跨過汪洋與寒夜，只為在黎明的盡頭相逢。",
     TextMapContent = "一人，一剑，一袭白衣。跨过汪洋与寒夜，只为在黎明的尽头相逢。",
     TextMapId = "UI_Skin_Des_1601"
@@ -163997,6 +164223,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "自硝煙塵灰下生長的翠綠，如野草般輕，如野草般不息。",
     TextMapContent = "自硝烟尘灰下生长的翠绿，如野草般轻，如野草般不息。",
     TextMapId = "UI_Skin_Des_5401"
+        },
+  UI_Skin_Forbid = {
+    ContentEN = "Unavailable",
+    ContentJP = "使用不可",
+    ContentKR = "사용 불가",
+    ContentTC = "不可用",
+    TextMapContent = "不可用",
+    TextMapId = "UI_Skin_Forbid"
         },
   UI_Skin_GotoBuy = {
     ContentEN = "Go to Shop",
@@ -165634,7 +165868,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Shoot the objects to earn points\n (Watch out! Do not hit the red ones!)",
     ContentFR = "Tirez sur les cibles pour marquer des points.\n (Attention : ne touchez pas les cibles rouges !)",
     ContentJP = "遠隔攻撃で仕掛けを破壊してポイントを獲得、赤いギミックに当たらないよう注意",
-    ContentKR = "원거리 공격으로 장치를 파괴하면 포인트를 획득합니다.\n 빨간색 장치가 맞지 않게 주의하세요.",
+    ContentKR = "원거리 공격으로 장치를 파괴하면 포인트를 획득합니다.\n빨간색 장치가 맞지 않게 주의하세요.",
     ContentTC = "遠程攻擊破壞機關獲得積分，注意不要擊中紅色機關",
     TextMapContent = "远程攻击破坏机关获得积分，注意不要击中红色机关",
     TextMapId = "UI_TEMPLE_80401"
@@ -165649,10 +165883,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_TEMPLE_80402"
         },
   UI_TEMPLE_80403 = {
-    ContentEN = "Shoot the objects to earn points\n  (Watch out! Do not hit the red ones!)",
+    ContentEN = "Shoot the objects to earn points\n(Watch out! Do not hit the red ones!)",
     ContentFR = "Tirer sur les cibles pour marquer des points.\n(Attention : ne touchez pas les cibles rouges !)",
     ContentJP = "遠隔攻撃で仕掛けを破壊してポイントを獲得、赤いギミックに当たらないよう注意",
-    ContentKR = "원거리 공격으로 장치를 파괴하면 점수를 획득합니다. \n빨간색 장치에 맞지 않게 주의하세요.",
+    ContentKR = "원거리 공격으로 장치를 파괴하면 포인트를 획득합니다. \n빨간색 장치에 맞지 않게 주의하세요.",
     ContentTC = "遠程攻擊破壞機關獲得積分，注意不要擊中紅色機關",
     TextMapContent = "远程攻击破坏机关获得积分，注意不要击中红色机关",
     TextMapId = "UI_TEMPLE_80403"
@@ -166064,7 +166298,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "ランチャー以外の弾丸系遠隔武器で挑戦することをおすすめする。特定位置ではトラップの破壊がしやすくなる。",
     ContentKR = "탄환을 사용하는 원거리 무기 사용을 추천합니다(핸드 캐논 불포함). 특정 위치에 서면 더 쉽게 장치를 파괴할 수 있습니다.",
     ContentTC = "推薦使用發射子彈的非榴炮類遠端武器，站在特定位置可以更輕鬆地破壞機關",
-    TextMapContent = "在特定位置可以更轻松地破坏机关",
+    TextMapContent = "推荐使用发射子弹的非榴炮类远程武器，站在特定位置可以更轻松地破坏机关",
     TextMapId = "UI_TEMPLE_DES_80402"
         },
   UI_TEMPLE_DES_80403 = {
@@ -166073,7 +166307,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "ランチャー以外の弾丸系遠隔武器で挑戦することをおすすめする。仕掛けの変化パターンを注意深く観察せよ。",
     ContentKR = "탄환을 사용하는 원거리 무기 사용을 추천합니다(핸드 캐논 불포함). 장치의 변화 규칙을 관찰하세요.",
     ContentTC = "推薦使用發射子彈的非榴炮類遠端武器，注意觀察機關的變化規律",
-    TextMapContent = "注意观察机关的变化规律",
+    TextMapContent = "推荐使用发射子弹的非榴炮类远程武器，注意观察机关的变化规律",
     TextMapId = "UI_TEMPLE_DES_80403"
         },
   UI_TEMPLE_DES_80404 = {
@@ -166082,7 +166316,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "ランチャー以外の弾丸系遠隔武器で挑戦することをおすすめする。仕掛けの変化と移動パターンを注意深く観察せよ。",
     ContentKR = "탄환을 사용하는 원거리 무기 사용을 추천합니다(핸드 캐논 불포함). 장치의 변화 규칙과 이동 규칙을 관찰하세요.",
     ContentTC = "推薦使用發射子彈的非榴炮類遠端武器，注意觀察機關的變化與移動規律",
-    TextMapContent = "注意观察机关的变化与移动规律",
+    TextMapContent = "推荐使用发射子弹的非榴炮类远程武器，注意观察机关的变化与移动规律",
     TextMapId = "UI_TEMPLE_DES_80404"
         },
   UI_TEMPLE_DES_80501 = {
@@ -167459,6 +167693,14 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "%d秒后自动退出",
     TextMapId = "UI_Text_ExitTime"
         },
+  UI_Theater_CommonReward = {
+    ContentEN = "Common Reward",
+    ContentJP = "通常報酬",
+    ContentKR = "일반 보상",
+    ContentTC = "普通獎勵",
+    TextMapContent = "普通奖励",
+    TextMapId = "UI_Theater_CommonReward"
+        },
   UI_Theater_Donate_End = {
     ContentEN = "Closed",
     ContentJP = "段階終了済み",
@@ -167507,6 +167749,14 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "已发送",
     TextMapId = "UI_Theater_Mail_Sent"
         },
+  UI_Theater_PremiumReward = {
+    ContentEN = "Premium Reward",
+    ContentJP = "上級報酬",
+    ContentKR = "고급 보상",
+    ContentTC = "高級獎勵",
+    TextMapContent = "高级奖励",
+    TextMapId = "UI_Theater_PremiumReward"
+        },
   UI_Theater_Round = {
     ContentEN = "Today's Round %s",
     ContentJP = "今日第%sラウンド",
@@ -167530,6 +167780,14 @@ return ReadOnly("TextMap_I18n", {
     ContentTC = "進行中",
     TextMapContent = "进行中",
     TextMapId = "UI_Theater_Started"
+        },
+  UI_Theater_Waiting = {
+    ContentEN = "Starting Soon",
+    ContentJP = "まもなく始まります",
+    ContentKR = "곧 시작됩니다.",
+    ContentTC = "即將開始",
+    TextMapContent = "即将开始",
+    TextMapId = "UI_Theater_Waiting"
         },
   UI_Ticket_Choose = {
     ContentEN = "Confirm Selection",
@@ -168838,7 +169096,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_WEAPON_DESC_10503"
         },
   UI_WEAPON_DESC_10504 = {
-    ContentEN = "ithered coral lies strewn along the silent shore — fragments that cradle the sea's shattered dreams.",
+    ContentEN = "Withered coral lies strewn along the silent shore — fragments that cradle the sea's shattered dreams.",
     ContentJP = "砂浜に朽ちた珊瑚の骸、碧き海に果てなき夢の破片を抱いて。",
     ContentKR = "모래 위에 시들어버린 산호 유해에는 푸른 바다의 무한한 꿈 조각이 응결돼 있다.",
     ContentTC = "凋零在沙灘上的珊瑚遺骸，凝結著碧海無垠的碎夢。",
@@ -170837,9 +171095,9 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_WeaponAccessory_Name_10027"
         },
   UI_WeaponAccessory_Name_10028 = {
-    ContentEN = "Chroma Conch – Dark Blue",
+    ContentEN = "Chroma Conch – Azure",
     ContentJP = "カラフルホラガイ・インディゴ",
-    ContentKR = "알록달록 소라·다크 블루",
+    ContentKR = "알록달록 소라·\n다크 블루",
     ContentTC = "繽紛海螺·黛藍",
     TextMapContent = "缤纷海螺·黛蓝",
     TextMapId = "UI_WeaponAccessory_Name_10028"
@@ -170847,7 +171105,7 @@ return ReadOnly("TextMap_I18n", {
   UI_WeaponAccessory_Name_10029 = {
     ContentEN = "Chroma Conch – Celeste",
     ContentJP = "カラフルホラガイ・スカイブルー",
-    ContentKR = "알록달록 소라·스카이 블루",
+    ContentKR = "알록달록 소라·\n스카이 블루",
     ContentTC = "繽紛海螺·晴藍",
     TextMapContent = "缤纷海螺·晴蓝",
     TextMapId = "UI_WeaponAccessory_Name_10029"
@@ -174336,7 +174594,7 @@ return ReadOnly("TextMap_I18n", {
         },
   WikiText_20300102 = {
     ContentEN = "During a Legion operation designed to lure out {nickname}, Zhiliu intervened once more, rescuing and escorting {nickname} to Huaxu.",
-    ContentJP = "帝国軍が{nickname}をおびき出す囮作戦を仕掛けた際、シリュウが再び現れ{nickname}を救い出し、華胥へ連れて行った。",
+    ContentJP = "帝国軍が{nickname}をおびき出すおとり作戦を仕掛けた際、シリュウが再び現れ{nickname}を救い出し、華胥へ連れて行った。",
     ContentKR = "{nickname}을(를) 유인하려는 군단의 작전에서 지류는 다시 한번 {nickname}을(를) 구해낸 후, 일행을 화서로 데려간다.",
     ContentTC = "在軍團試圖釣出{nickname}的誘餌作戰中，止流再次出面將{nickname}救下，並將其帶往華胥。",
     TextMapContent = "在军团试图钓出{nickname}的诱饵作战中，止流再次出面将{nickname}救下，并将其带往华胥。",
@@ -176377,7 +176635,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "枯栄閣は、今や時代に取り残された遺物となってしまいました。ですが、病を癒し命を救う道において、後継の志士が絶えることはありません。たとえその使命がいかに重かろうとも、この責務を背負い、志を貫いて歩み続ける者が、必ず現れるのです。",
     ContentKR = "고영각은 이미 세월의 유물로 남아 빛바래져 가지만, 의학의 길을 걸을 사람은 영원히 사라지지 않아요. 아무리 무거운 사명이라도 누군가는 그 사명을 등에 지고 흔들림 없이 걸어 나갈 거예요.",
     ContentTC = "枯榮閣雖然已是歲月的一件遺物，但在治病救人的道路上，永遠不缺後繼者。即便使命沉重，總有人會肩負起這份責任，矢志不渝地走下去。",
-    TextMapContent = "枯荣阁虽然已是岁月的一件遗物，但在救病治人的道路上，永远不缺后继者。即便使命沉重，总有人会肩负起这份责任，矢志不渝地走下去。",
+    TextMapContent = "枯荣阁虽然已是岁月的一件遗物，但在治病救人的道路上，永远不缺后继者。即便使命沉重，总有人会肩负起这份责任，矢志不渝地走下去。",
     TextMapId = "voice_ch_char_Baiheng_vo_topic_01_4"
         },
   voice_ch_char_Baiheng_vo_topic_02_1 = {
@@ -176465,7 +176723,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "夢物語のように聞こえるでしょう？ですが、術法の奇跡がなくとも、医師の果たすべき役目は何一つ変わりません。こんなこと、 医学書すら満足に読み解けぬ私が言うと、笑い話にしかなりませんね。",
     ContentKR = "공상과 별다를 게 없는 것 같죠? 하지만 술법이 가져다주는 기적이 없더라도, 의사가 해야 할 일은 여태껏 변한 적이 없죠. 의서도 제대로 이해하지 못하는 주제에 멋들어진 말만 해대다니, 제가 생각해도 참 우습네요.",
     ContentTC = "聽起來與空想無異吧？但即使沒有術法帶來的奇跡，醫師所要做的事也從未改變。這樣的話由我這個醫書都未讀通的人說出口，實在貽笑大方。",
-    TextMapContent = "听起来与空想无异吧？但即使没有术法带来的奇迹，医师所要做的事也从未改变。（轻笑）这样的话由我这个医书都未读通的人说出口，实在贻笑大方。",
+    TextMapContent = "听起来与空想无异吧？但即使没有术法带来的奇迹，医师所要做的事也从未改变。这样的话由我这个医书都未读通的人说出口，实在贻笑大方。",
     TextMapId = "voice_ch_char_Baiheng_vo_topic_04_2"
         },
   voice_ch_char_Baiheng_vo_topic_04_3 = {
@@ -176828,7 +177086,7 @@ return ReadOnly("TextMap_I18n", {
     ContentJP = "「セブンヴァーチェス」はね、エリュシオンでいっちばんすごくて、いっちばんカッコよくて、いっちばん気高い七人のこと！もちろん、美徳もてんこ盛り！……えへへっ。",
     ContentKR = "'세븐 버튜스'는 엘리시안에서 가장 늠름하고, 고귀하고, 강하면서 멋진 일곱 명을 말해. 물론, 일곱 덕목이란 이름답게 최고의 덕목을 갖춘 7명이란 의미이기도 하지, 헤헷!",
     ContentTC = "「七美德」是艾利西安最威風，最高貴，最強大帥氣的七個人。當然，顧名思義，也是美德最豐沛的七個人啦。",
-    TextMapContent = "“七美德”是艾利西安最威风，最高贵，最强大帅气的七个人。当然，顾名思义，也是美德最丰沛的七个人啦（自鸣得意地嘿嘿笑一下）。",
+    TextMapContent = "“七美德”是艾利西安最威风，最高贵，最强大帅气的七个人。当然，顾名思义，也是美德最丰沛的七个人啦。",
     TextMapId = "voice_ch_char_Baonu_vo_topic_04_1"
         },
   voice_ch_char_Baonu_vo_topic_04_2 = {
@@ -178848,7 +179106,7 @@ return ReadOnly("TextMap_I18n", {
     ContentFR = "Danse de l’épée, votre fin est proche !",
     ContentJP = "剣の舞ひとつ、黄泉への送り火としよう。",
     ContentKR = "이 검무로 네 목숨을 거두리라.",
-    ContentTC = "一輪劍舞，送君赴死。",
+    ContentTC = "一輪劍舞，請君赴死。",
     TextMapContent = "一轮剑舞，送君赴死。",
     TextMapId = "voice_ch_char_Kezhou_vo_skill02_r02"
         },
@@ -181588,6 +181846,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Saiqi01_vo_appear = {
     ContentEN = "The butterfly's just fluttered over with an invitation. It told me there's a midsummer ball in the woods full of viola tricolor...",
     ContentJP = "見て！この蝶が私たちを舞踏会に誘っているのよ。「真夏にパンジーが咲き乱れる森で......」って言ってるの。",
+    ContentKR = "저 나비가 우릴 무도회에 초대하고 싶대. 팬지꽃이 가득 핀 한여름 숲속의 무도회라는데...",
     ContentTC = "這隻蝴蝶邀請我們參加舞會呢，它說，在盛夏開滿三色堇的森林……",
     TextMapContent = "这只蝴蝶邀请我们参加舞会呢，它说，在盛夏开满三色堇的森林……",
     TextMapId = "voice_ch_char_Saiqi01_vo_appear"
@@ -181595,6 +181854,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Saiqi01_vo_battlestart = {
     ContentEN = "Let's go — to corners of the world I've never seen.",
     ContentJP = "さぁ行こう！まだ踏み入れたことのない世界へ。",
+    ContentKR = "가자, 한 번도 경험하지 못한 세계로.",
     ContentTC = "走吧，去向我不曾踏足的天地。",
     TextMapContent = "走吧，去向我不曾踏足的天地。",
     TextMapId = "voice_ch_char_Saiqi01_vo_battlestart"
@@ -181602,6 +181862,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Saiqi01_vo_gain = {
     ContentEN = "Look, those twinkling lights — are they fireflies pretending to be stars? And that racket matching the titmice — is it the cicadas singing? Oh, the baby deer and bunny asked me to play music for their ball, but I don't know how to play the violin... Can you teach me?",
     ContentJP = "ねぇ見て！星みたいにピカピカ光ってるのは、蛍なの？聞いて聞いて！あの騒がしく鳴いてるのが蝉の声？あっ…シカちゃんとウサギちゃんが舞踏会の伴奏をしてって言うんだけど......私、バイオリンを弾けないんだよ......教えてくれない？",
+    ContentKR = "봐봐! 저기 별처럼 반짝거리는 게 반딧불이야? 저기 박새처럼 소란스럽게 우는 건 매미 울음소리인가? 어, 사슴이랑 토끼가 무도회 반주를 해 달라고 하네. 근데 난 바이올린을 연주할 줄 모르는걸... 혹시, 가르쳐 줄 수 있어?",
     ContentTC = "你看！那些和星星一樣亮的就是螢火蟲嗎？你聽，那些和山雀一樣聒噪的就是蟬鳴嗎？啊，小鹿和小兔子讓我給舞會伴奏，可我不會拉琴……可以來教教我嗎？",
     TextMapContent = "你看！那些和星星一样亮的就是萤火虫吗？你听，那些和山雀一样聒噪的就是蝉鸣吗？啊，小鹿和小兔子让我给舞会伴奏，可我不会拉琴……可以来教教我吗？\n",
     TextMapId = "voice_ch_char_Saiqi01_vo_gain"
@@ -181609,6 +181870,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Saiqi01_vo_skill02_r01 = {
     ContentEN = "Dance— for a life ablaze!",
     ContentJP = "輝かしい人生のために、踊りましょう！",
+    ContentKR = "이제, 찬란한 생명을 위해 춤추자.",
     ContentTC = "為絢爛的生命起舞吧。",
     TextMapContent = "为绚烂的生命起舞吧。",
     TextMapId = "voice_ch_char_Saiqi01_vo_skill02_r01"
@@ -182067,6 +182329,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Shuimu01_vo_appear = {
     ContentEN = ""Thump... thump..." Do you hear it? It's my heartbeat, every beat a syllable of missing you.",
     ContentJP = "「ドキ......ドキ......」ねぇ、聞こえる？これは、私が思いを語っている胸の鼓動なのよ。",
+    ContentKR = ""쿵... 쿵..." 들리세요? 간절한 그리움에 뛰는 제 심장 소리가...?",
     ContentTC = "「砰……砰……」你聽到了嗎，這是我訴說著思念的心跳。",
     TextMapContent = "“砰……砰……”你听到了吗，这是我诉说着思念的心跳。",
     TextMapId = "voice_ch_char_Shuimu01_vo_appear"
@@ -182074,6 +182337,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Shuimu01_vo_battlestart = {
     ContentEN = "Shall we begin with a waltz? Like this... one, and two...",
     ContentJP = "さぁ、一曲のワルツから始めよう。そう、一歩、二歩......",
+    ContentKR = "우리 왈츠부터 시작해 봐요. 자, 한 발, 두 발...",
     ContentTC = "讓我們從一曲華爾茲跳起吧，就這樣，一步、兩步……",
     TextMapContent = "让我们从一曲华尔兹跳起吧，就这样，一步、两步……",
     TextMapId = "voice_ch_char_Shuimu01_vo_battlestart"
@@ -182081,6 +182345,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Shuimu01_vo_gain = {
     ContentEN = "Before the dawn comes, let's dance together, forever and ever — until I kiss your pale lips, until death do us part.",
     ContentJP = "夜明けが訪れる前に、一緒に踊ってみよう、永遠にーーあなたの蒼白な唇に口付けをするまで、命の果てまで誰にも私たちを引き離すことができない…",
+    ContentKR = "새벽이 오기 전에 우리 함께 춤춰요. 영원히, 영원히 이 춤을 멈추지 말아요. 제가 당신의 창백한 입술에 입 맞출 때까지, 죽음이 우릴 갈라놓을 때까지...",
     ContentTC = "在黎明到來前，讓我們一起跳舞吧，永遠永遠地跳下去——直到我親吻你蒼白的嘴唇，直到死亡將我們分開。",
     TextMapContent = "在黎明到来前，让我们一起跳舞吧，永远永远地跳下去——直到我亲吻你苍白的嘴唇，直到死亡将我们分开。",
     TextMapId = "voice_ch_char_Shuimu01_vo_gain"
@@ -182088,6 +182353,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Shuimu01_vo_skill02_r01 = {
     ContentEN = "Let's tint the seven-ply sapphire gauze with crimson.",
     ContentJP = "サファイヤのような薄絹に、深紅の色を染めよう。",
+    ContentKR = "저 사파이어와도 같은 일곱 겹 베일을 진홍빛으로 물들여 볼까요.",
     ContentTC = "讓那藍寶石般的七層紗染上殷紅。",
     TextMapContent = "让那蓝宝石般的七层纱染上殷红。",
     TextMapId = "voice_ch_char_Shuimu01_vo_skill02_r01"
@@ -182524,6 +182790,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Songlu01_vo_appear = {
     ContentEN = "Tap left, tap right, then spin around... Ooohhh! Almost stepped on my foot. Teach me once more, Filbert!",
     ContentJP = "左足はこう、右足はこう、そ～れ！くるりと...って、危なかった！足踏んじゃいそう...ヘーゼルナッツ、もう一回教えて～！",
+    ContentKR = "왼발 찍고, 오른발 찍고, 한 바퀴 턴... 우왓! 하마터면 밟을 뻔했어! 헤이즐넛, 다시 한번 가르쳐 줘!",
     ContentTC = "左腳點一下，右腳點一下，然後轉個圈……嗚啊！差點踩到腳了！榛子再教我一次！",
     TextMapContent = "左脚点一下，右脚点一下，然后转个圈……呜啊！差点踩到脚了！榛子再教我一次！",
     TextMapId = "voice_ch_char_Songlu01_vo_appear"
@@ -182531,6 +182798,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Songlu01_vo_battlestart = {
     ContentEN = "Just give me your hand and spin around together!",
     ContentJP = "はやくはやく！手をちょうだい、一緒にくるくる回るよ！",
+    ContentKR = "빨리빨리! 손 이리 줘 봐, 같이 한 바퀴 턴해야지!",
     ContentTC = "快點快點！把手伸給我，一起轉圈圈！",
     TextMapContent = "快点快点！把手伸给我，一起转圈圈！",
     TextMapId = "voice_ch_char_Songlu01_vo_battlestart"
@@ -182538,6 +182806,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Songlu01_vo_gain = {
     ContentEN = "Ooh, look — sparkling stars, cute sunflowers, all fluffy-soft like freshly baked bread... Aww, I've never worn such a lovely dress! Oh? Filbert says she can't wait to dance already!",
     ContentJP = "わぁ、キラキラのホシに、小さなヒマワリ、焼きたてのパンのようにふわふわしてる......こんなに可愛いドレス、生まれて初めて着たよ！あれ？ヘーゼルナッツが「もう踊りたくてうずうずだよ」って言ってる！",
+    ContentKR = "와아, 저 위에 반짝반짝 별들이랑 작은 해바라기가 갓 구워낸 빵처럼 폭신폭신하네... 나 이렇게 귀여운 치마 처음 입어봐! 으응? 헤이즐넛이 어서 빨리 춤추러 가고 싶다는데?!",
     ContentTC = "哇，上面有閃亮亮的星星，小小的向日葵，像剛烤好的麵包一樣鬆鬆軟軟……這麼可愛的裙子，我還是第一次穿呢！哎？榛子說，她已經迫不及待要去跳舞了！",
     TextMapContent = "哇，上面有闪亮亮的星星，小小的向日葵，像刚烤好的面包一样松松软软……这么可爱的裙子，我还是第一次穿呢！哎？榛子说，她已经迫不及待要去跳舞了！",
     TextMapId = "voice_ch_char_Songlu01_vo_gain"
@@ -182545,6 +182814,7 @@ return ReadOnly("TextMap_I18n", {
   voice_ch_char_Songlu01_vo_skill02_r01 = {
     ContentEN = "Prepare yourself for Filbert's suuuuuper dance move!",
     ContentJP = "見てなさい、ヘーゼルナッツの超超超～華麗なステップを！",
+    ContentKR = "헤이즐넛의 아주아주 엄청 화려한 스텝을 보여줄게!",
     ContentTC = "讓你見識一下榛子的超超超華麗舞步！",
     TextMapContent = "让你见识一下榛子的超超超华丽舞步！",
     TextMapId = "voice_ch_char_Songlu01_vo_skill02_r01"

@@ -153416,7 +153416,7 @@ local Data = {
           VoiceName = "sfx/boss/Tuosi/vo_$Locale$_Skill08"
         },
         [60180001] = {
-          Content = "近吾者，必罹天劫！",
+          ContentDE = "Annäher dich, und erfahre den Zorn der Götter!",
           DialogueId = 60180001,
           Duration = 3,
           GUID = "9834E965",
@@ -153424,7 +153424,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleStart"
         },
         [60180002] = {
-          Content = "吼————",
+          ContentDE = "GRRRAAAH!",
           DialogueId = 60180002,
           Duration = 3,
           GUID = "9834E966",
@@ -153432,7 +153432,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Condemn"
         },
         [60180003] = {
-          Content = "俱往矣……",
+          ContentDE = "Alles ... ist nichts.",
           DialogueId = 60180003,
           Duration = 3,
           GUID = "9834E967",
@@ -153440,7 +153440,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleEnd"
         },
         [60180004] = {
-          Content = "晦暝临世。",
+          ContentDE = "Siehe ... der Abend der Welt bricht herein.",
           DialogueId = 60180004,
           Duration = 4,
           GUID = "9834E968",
@@ -153448,7 +153448,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill05"
         },
         [60180005] = {
-          Content = "吼————",
+          ContentDE = "RÖÖÖÖÖR ...!",
           DialogueId = 60180005,
           Duration = 5,
           GUID = "9834E969",
@@ -153456,7 +153456,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill06"
         },
         [60180006] = {
-          Content = "曀曀其阴，虺虺其雷——",
+          ContentDE = "Die Himmel verdunkeln sich, der Donner bringt Verdammnis!",
           DialogueId = 60180006,
           Duration = 3,
           GUID = "9834E970",

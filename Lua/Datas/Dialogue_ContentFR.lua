@@ -153418,7 +153418,7 @@ local Data = {
           VoiceName = "sfx/boss/Tuosi/vo_$Locale$_Skill08"
         },
         [60180001] = {
-          Content = "近吾者，必罹天劫！",
+          ContentFR = "Que quiconque ose s’approcher soit foudroyé par le jugement des cieux !",
           DialogueId = 60180001,
           Duration = 3,
           GUID = "9834E965",
@@ -153426,7 +153426,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleStart"
         },
         [60180002] = {
-          Content = "吼————",
+          ContentFR = "ROAAAH !",
           DialogueId = 60180002,
           Duration = 3,
           GUID = "9834E966",
@@ -153434,7 +153434,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Condemn"
         },
         [60180003] = {
-          Content = "俱往矣……",
+          ContentFR = "Tout s’efface dans le néant...",
           DialogueId = 60180003,
           Duration = 3,
           GUID = "9834E967",
@@ -153442,7 +153442,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleEnd"
         },
         [60180004] = {
-          Content = "晦暝临世。",
+          ContentFR = "Les ténèbres s’abattent sur ce monde.",
           DialogueId = 60180004,
           Duration = 4,
           GUID = "9834E968",
@@ -153450,7 +153450,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill05"
         },
         [60180005] = {
-          Content = "吼————",
+          ContentFR = "ROAAAR !",
           DialogueId = 60180005,
           Duration = 5,
           GUID = "9834E969",
@@ -153458,7 +153458,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill06"
         },
         [60180006] = {
-          Content = "曀曀其阴，虺虺其雷——",
+          ContentFR = "Les ombres grondent, le tonnerre s’éveille...",
           DialogueId = 60180006,
           Duration = 3,
           GUID = "9834E970",

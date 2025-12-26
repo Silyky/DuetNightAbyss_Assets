@@ -4764,7 +4764,7 @@ local Data = {
           SpeakNpcName = "StoryNPC_Flynn"
         },
         [6201519] = {
-          ContentJP = "私は......ただ慣れただけだ。私だって迷ったり、後悔したり、絶望したりする時がある。だが今はもう、そのすべてを受け入れただけだ。",
+          ContentJP = "私は......ただ慣れただけだ。",
           DialogueId = 6201519,
           GUID = "0F865CB6",
           NextDialogue = 6201527,
@@ -4826,7 +4826,7 @@ local Data = {
           RougeTalkActorType = 3
         },
         [6201527] = {
-          Content = "我也曾经迷茫过、后悔过、绝望过，但现在，我已经接受了。",
+          ContentJP = "私だって迷ったり、後悔したり、絶望したりする時がある。だが今はもう、そのすべてを受け入れただけだ。",
           DialogueId = 6201527,
           GUID = "0F865CB7",
           NextDialogue = 6201520,
@@ -75898,7 +75898,7 @@ local Data = {
         [12001744] = {
           Camera = "-4712.811523,-5129.952148,-449.893555,3.000004,7.998759,-159.590851,15.610398,132.488495,false,Manual,10.0",
           CameraBlendCurve = "easeInOutQuad",
-          ContentJP = "全員、聞け！直ちに広場周辺を封鎖し、あらゆるものを制圧せよ！フクロウ一羽、アイスレイク城の城壁からへ出すことは許さない！",
+          ContentJP = "全員、聞け！直ちに広場周辺を封鎖し、あらゆるものを制圧せよ！フクロウ一羽、アイスレイク城の外へ出すことは許さない",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12001744,
           FinalCamera = "-4657.364258,-5152.696777,-458.228516,3.000002,7.998759,-159.590851,15.610398,132.488495,false,Manual,10.0",
@@ -76299,7 +76299,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1200/120017/1E0B903A"
         },
         [12001770] = {
-          ContentJP = "私と車に乗っている方は全員、身分が清白なで、正式な出国手続きも済ませているの。どうか、少しだけご融通いただけないかしら？",
+          ContentJP = "私と車に乗っている方は全員、身分が潔白なで、正式な出国手続きも済ませているの。どうか、少しだけご融通いただけないかしら？",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12001770,
           GUID = "1E0B9064",
@@ -76522,7 +76522,7 @@ local Data = {
         },
         [12001801] = {
           Camera = "26.581055,-95.871094,153.29248,0.000088,-8.170654,-51.38456,12.0,60.0,false,Manual,10.0",
-          ContentJP = "さて、もう自由に話話しても大丈夫よ。でも、表情には気をつけて。あの兵士たちが後ろからついているから。",
+          ContentJP = "さて、もう自由に話しても大丈夫よ。でも、表情には気をつけて。あの兵士たちが後ろについているから。",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12001801,
           FinalCamera = "1.03418,-98.566895,152.582031,0.000092,-8.970668,-40.585316,12.0,100.0,false,Manual,10.0",
@@ -76759,7 +76759,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1200/120018/1E0B9916"
         },
         [12001824] = {
-          ContentJP = "（ここまで読むなんて……この<H><Default note="text:カショ">華胥</></>から来た女性、一体何を依頼するつもりなんだろう……）",
+          ContentJP = "（ここまで読むなんて……この<Default note="text:カショ">華胥</>から来た女性、一体何を依頼するつもりなんだろう……）",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12001824,
           GUID = "1E0B9940",
@@ -76975,7 +76975,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1200/120045/1E0D509C"
         },
         [12004503] = {
-          Content = "任务失败，请重新开始。",
+          ContentJP = "クエスト失敗、再チャレンジしてください。",
           DialogueId = 12004503,
           GUID = "1E0D509D",
           SpeakNpcId = 200002
@@ -77963,7 +77963,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120103/1E110880"
         },
         [12010305] = {
-          ContentJP = "近日、<W><Default note="text:しょくいん">燭陰</>の禍</>が日に日に強まっています。そんな中、通行禁止令に不満を抱き、「<Default note="text:ももとき">百年春</>」を経由せずに外部から護衛を雇い、危険な地へ挑もうとする星織人も増えておりまして。",
+          ContentJP = "近日、<Default note="text:しょくいん">燭陰</>の禍</>が日に日に強まっています。そんな中、通行禁止令に不満を抱き、「<Default note="text:ももとき">百年春</>」を経由せずに外部から護衛を雇い、危険な地へ挑もうとする星織人も増えておりまして。",
           DialogueId = 12010305,
           GUID = "1E1108AA",
           NextDialogue = 12010306,
@@ -78349,7 +78349,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120104/1E111B34"
         },
         [12010419] = {
-          ContentJP = "ついでに言うとね、<Default note="text:ビーアン">狴犴</>は大風九章の中じゃ、いちばんフツーの執法者なんだよ。",
+          ContentJP = "ついでに言うとね、<Default note="text:ビーアン">狴犴</>は大風九章の中じゃ、いちばんフツーの<Default note="text:法の番人">執法者</>なんだよ。",
           DialogueId = 12010419,
           GUID = "1E111B5E",
           NextDialogue = 12010420,
@@ -78407,7 +78407,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120104/1E111C5A"
         },
         [12010426] = {
-          ContentJP = "（……なんだろう、この感じ。あの戒律の碑に――<H>引き寄せられている</>ような気が……）",
+          ContentJP = "（……この感じ。あの戒律の碑に――<H>引き寄せられている</>ような気が……）",
           DialogueId = 12010426,
           DisableMouth = 1,
           GUID = "1E111C84",
@@ -78717,7 +78717,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120105/1E112AA0"
         },
         [12010513] = {
-          ContentJP = "でも、さっきの……どういうこと？あの<Default note="text:カショ">華胥</>の執法者、どうして急に攻撃してきたんだ！？",
+          ContentJP = "でも、さっきの……どういうこと？あの<Default note="text:カショ">華胥</>の<Default note="text:法の番人">執法者</>、どうして急に攻撃してきたんだ！？",
           DialogueId = 12010513,
           GUID = "1E112ACA",
           NextDialogue = 12010514,
@@ -78750,7 +78750,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120105/1E112B48"
         },
         [12010517] = {
-          ContentJP = "慌てないで。<Default note="text:ビーアン">狴犴</>と見た目こそ似ているけど、<Default note="text:ゲンビー">玄狴</>は<Default note="text:カショ">華胥</>の執法者じゃないの。アレは<H><Default note="text:しょくいん">燭陰</>の禍</>によって生まれた混沌の落とし子よ。",
+          ContentJP = "慌てないで。<Default note="text:ビーアン">狴犴</>と見た目こそ似ているけど、<Default note="text:ゲンビー">玄狴</>は<Default note="text:カショ">華胥</>の<Default note="text:法の番人">執法者</>じゃないの。アレは<H><Default note="text:しょくいん">燭陰</>の禍</>によって生まれた混沌の落とし子よ。",
           DialogueId = 12010517,
           GUID = "1E112B72",
           NextDialogue = 12010518,
@@ -79534,7 +79534,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120108/1E115A88"
         },
         [12010805] = {
-          ContentJP = "さて、本題に入りましょう。今回あなたたちを雇ったのは――この<H>「<Default note="text:しょくいん">燭陰</>の禍」</>に備えるためよ。「<Default note="text:しょくいん">燭陰</>の禍」っていうのは……",
+          ContentJP = "さて、本題に入りましょう。今回あなたたちを雇ったのは――この「<Default note="text:しょくいん">燭陰</>の禍」に備えるためよ。「<Default note="text:しょくいん">燭陰</>の禍」っていうのは……",
           DialogueId = 12010805,
           GUID = "1E115AB2",
           LookAt = {
@@ -79744,7 +79744,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120108/1E115CAA"
         },
         [12010818] = {
-          ContentJP = "だからこそ、今回お願いしたいのは——すでに完全に穢れきった「塵砂の荒海」の奥深くへ入り込み、そこで</W><Default note="text:しょくいん">燭陰</>の鱗を三枚</>、手に入れてきてほしいの。あの邪龍を再び封じるためにね。",
+          ContentJP = "だからこそ、今回お願いしたいのは——すでに完全に穢れきった「塵砂の荒海」の奥深くへ入り込み、そこで<Default note="text:しょくいん">燭陰</>の鱗を三枚</>、手に入れてきてほしいの。あの邪龍を再び封じるためにね。",
           DialogueId = 12010818,
           GUID = "1E115CD4",
           NextDialogue = 12010819,
@@ -80970,7 +80970,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120120/1E121F14"
         },
         [12012003] = {
-          ContentJP = "{性别:僕は{nickname}、こっちは…|私は{nickname}、こっちは…}",
+          ContentJP = "{性别:僕|私}は{nickname}、こっちは…",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12012003,
           GUID = "1E121F3E",
@@ -83502,7 +83502,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120134/1E130B7E"
         },
         [12013444] = {
-          ContentJP = "不安定に響く心音が鼓動のように鳴り続ける",
+          ContentJP = "……",
           DialogueId = 12013444,
           GUID = "1E130BA8",
           NextDialogue = 12013445,
@@ -87850,7 +87850,7 @@ local Data = {
         },
         [12018405] = {
           Camera = "-63.644783,133.544785,118.57605,0.000155,11.196975,138.185074,35.000011,122.361931,false,Manual,6.0",
-          ContentJP = "それは{性别:僕|私}には関係ない。今回の作戦の安全性と正当性、{性别:僕|私}が知りたいのはそれだけ{性别:だ|よ}。",
+          ContentJP = "{性别:僕|私}が知りたいのはそれだけ{性别:だ|よ}。",
           DialogueId = 12018405,
           FacialId = {
             [1] = "100001:Angry01"
@@ -88576,7 +88576,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120190/1E169B85"
         },
         [12019051] = {
-          ContentJP = "もう明白だろう？光った順にブロックを辿れば、この状況は解けるよ。",
+          ContentJP = "もう明白だろう？光った順にブロックを辿れば、この状況は解けるさ。",
           DialogueId = 12019051,
           GUID = "1E169B86",
           NextDialogue = 12019052,
@@ -89003,7 +89003,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120196/1E16FF17"
         },
         [12019701] = {
-          ContentJP = "またか……この醒石碑は二人で同時に叩く必要がある。その後、足元の地面が動いて、{性别:僕|私}たちを別の場所に落とす仕掛けになってるんだ。",
+          ContentJP = "この醒石碑は二人で同時に叩く必要がある。その後、足元の地面が動いて、{性别:僕|私}たちを別の場所に落とす仕掛けになってるんだ。",
           DialogueId = 12019701,
           GUID = "1E170E32",
           NextDialogue = 12019702,
@@ -89456,7 +89456,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120203/1E17719E"
         },
         [12020308] = {
-          ContentJP = "そうだそうだ！スノウもずっと胡散臭いって思ってたんだよね！一緒にボコボコするの手伝うぞ！",
+          ContentJP = "そうだそうだ！スノウもずっと胡散臭いって思ってたんだよね！一緒にボコボコするのを手伝うぞ！",
           DialogueId = 12020308,
           GUID = "1E1771C8",
           NextDialogue = 12020309,
@@ -89520,7 +89520,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120203/1E1772EE"
         },
         [12020316] = {
-          ContentJP = "あんたらのせいで、ユーミンと再会する機会を逃しちまったじゃねぇか！そこのグラサン、どう落とし前つけるつもりなんだ？",
+          ContentJP = "あんたらのせいで、ユーミンと再会する機会を逃しちまったじゃねぇか！",
           DialogueId = 12020316,
           GUID = "1E177318",
           NextDialogue = 12020317,
@@ -89528,7 +89528,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120203/1E177318"
         },
         [12020317] = {
-          ContentJP = "おや、彼はあなたを見て逃げたかのように見えたがね。そうでなければ、なぜ君を手を組んで私を撃退しようとしなかったのかな？",
+          ContentJP = "おや、彼はあなたを見て逃げたのように見えたがね。そうでなければ、なぜ君を手を組んで私を撃退しようとしなかったのかな？",
           DialogueId = 12020317,
           GUID = "1E177342",
           NextDialogue = 12020318,
@@ -89875,7 +89875,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120209/1E17D3BA"
         },
         [12020906] = {
-          ContentJP = "あなたたちの仕事はもう終わりよ。<Default note="text:ももとき">百年春</>で待ってもらうよう、望春に伝えたはずだけど……",
+          ContentJP = "あなたたちの仕事はもう終わりよ。<Default note="text:ももとき">百年春</>で待ってもらうよう、ボウシュンに伝えたはずだけど……",
           DialogueId = 12020906,
           GUID = "1E17D3E4",
           NextDialogue = 12020907,
@@ -90115,7 +90115,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120220/1E188832"
         },
         [12022006] = {
-          ContentJP = "我が<Default note="text:カショ">華胥</>が乱世の戦に巻き込まれたのも、すべては人の心が混沌に堕したがゆえ！",
+          ContentJP = "我が<Default note="text:カショ">華胥</>が乱世の戦に巻き込まれたのも、すべては人の心が混沌に堕ちたがゆえ！",
           DialogueId = 12022006,
           GUID = "1E18885C",
           NextDialogue = 12022007,
@@ -90123,7 +90123,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120220/1E18885C"
         },
         [12022007] = {
-          ContentJP = "今この日をもって――<Default note="text:しょくいん">燭陰</>は、封印されねばならぬ。",
+          ContentJP = "今この日をもって――<Default note="text:しょくいん">燭陰</>は、追放されねばならぬ。",
           DialogueId = 12022007,
           GUID = "1E188886",
           NextDialogue = 12022008,
@@ -90188,7 +90188,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120220/1E1889AC"
         },
         [12022015] = {
-          ContentJP = "{性别:<Default note="text:しょくいん">燭陰</>、さっきのはあなたの記憶なのか？いったい何を伝えようとしているんだ？|<Default note="text:しょくいん">燭陰</>、さっきのはあなたの記憶？いったい何を伝えようとしているの？}",
+          ContentJP = "{性别:<Default note="text:しょくいん">燭陰</>、さっきのはあなたの記憶なのか？いったい何を伝えようとしているんだ？|<Default note="text:しょくいん">燭陰</>、さっきのはあなたの記憶なの？いったい何を伝えようとしているの？}",
           DialogueId = 12022015,
           GUID = "1E1889D6",
           NextDialogue = 12022016,
@@ -90252,7 +90252,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120222/1E18A8AE"
         },
         [12022204] = {
-          ContentJP = "必要ないわ。",
+          ContentJP = "必要はないわ。",
           DialogueId = 12022204,
           GUID = "1E18A8D8",
           NextDialogue = 12022205,
@@ -90608,7 +90608,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120223/1E18BCDC"
         },
         [12022327] = {
-          ContentJP = "やっぱりな。あのグラサンの仲間にいいやつはいねぇって！",
+          ContentJP = "やっぱりな。",
           DialogueId = 12022327,
           GUID = "120223151.0",
           NextDialogue = 12022316,
@@ -91044,7 +91044,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120228/1E190C99"
         },
         [12022814] = {
-          ContentJP = "また玄狴が来るぞ！ 気を抜くな！",
+          ContentJP = "また玄狴が来るぞ！ 気を抜かないで！",
           DialogueId = 12022814,
           GUID = "1E190CA1",
           NextDialogue = 12022815,
@@ -91072,7 +91072,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120228/1E190CA4"
         },
         [12022818] = {
-          ContentJP = "そこの異郷人！けがしてないか？早く百年春の中へ避難しろ！",
+          ContentJP = "そこの異郷人！けがしてないか？早く百年春の中へ避難して！",
           DialogueId = 12022818,
           GUID = "1E190CA5",
           VoiceName = "voice/$Locale$/story/1201/120228/1E190CA5"
@@ -133138,12 +133138,12 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51100001] = {
-          Content = "心诚不怕道路难，自有龙神保周全。前方崎岖污浊地，为还宏愿也向前、前、前面路过的那位有龙氏！留步、留步啊！",
+          ContentJP = "心さえ誠なら、道の険しさも恐れるに足らぬ。龍神さまが必ず護ってくださる。この先は泥濘と穢れに満ちた道だが、誓いを果たすためならば歩みを止めはせぬ！……おお、そこの龍の血を引く者よ！ しばし、足を止められよ！",
           DialogueId = 51100001,
           GUID = "7FEC69EA"
         },
         [51100002] = {
-          Content = "哎呀别左顾右盼了，老夫喊的就是你哇。",
+          ContentJP = "どこを見ておる、お主じゃよ！",
           DialogueId = 51100002,
           GUID = "7FEC6A14",
           NextOptions = {
@@ -133154,14 +133154,14 @@ local Data = {
           SpeakNpcId = 700319
         },
         [51100003] = {
-          Content = "都有龙神护你周全了，为什么喊住我呢？",
+          ContentJP = "何かあったら、龍神様に言いなよ。",
           DialogueId = 51100003,
           GUID = "7FEC6A3E",
           ImprPlusId = 1208,
           NextDialogue = 51100004
         },
         [51100004] = {
-          Content = "咳，龙神祂老人家是很忙的，又要帮我，又要帮他，要是一个没留神，没把我看住可怎么办？",
+          ContentJP = "ゴホン……龍神さまもお忙しい方じゃ。もし一瞬でも目を離されたら、わしなどすぐ迷子になってしまうわい。",
           DialogueId = 51100004,
           GUID = "7FEC6A68",
           NextDialogue = 51100005,
@@ -133171,7 +133171,7 @@ local Data = {
           }
         },
         [51100005] = {
-          Content = "听天命前，多多少少也得尽点人事嘛！",
+          ContentJP = "天命を待つばかりでなく、人の務めも果たさねばならんのじゃ！",
           DialogueId = 51100005,
           GUID = "7FEC6A92",
           NextDialogue = 51100015,
@@ -133181,14 +133181,14 @@ local Data = {
           }
         },
         [51100006] = {
-          Content = "老先生，你遇到什么麻烦了吗？",
+          ContentJP = "おじいさん、どうしたの？",
           DialogueId = 51100006,
           GUID = "7FEC6ABC",
           ImprPlusId = 1207,
           NextDialogue = 51100007
         },
         [51100007] = {
-          Content = "好有礼貌的年轻人啊！我在这里站了半晌了，只有几个人愿意听我这个老骨头说的话。",
+          ContentJP = "おお、なんと礼儀正しい若者だろう！ずいぶんここにおったが、足を止めてくれる者はほんの数人じゃった。",
           DialogueId = 51100007,
           GUID = "7FEC6AE6",
           NextDialogue = 51100008,
@@ -133198,7 +133198,7 @@ local Data = {
           }
         },
         [51100008] = {
-          Content = "要是你能完完整整听我把话说完，还不跑，那就更好嘞！",
+          ContentJP = "こうして最後まで話を聞いてくれるなら、それだけで大いに助かる！",
           DialogueId = 51100008,
           GUID = "7FEC6B10",
           NextDialogue = 51100015,
@@ -133208,28 +133208,28 @@ local Data = {
           }
         },
         [51100009] = {
-          Content = "怪了，都死了那么久了……怎么还能看到我？",
+          ContentJP = "おかしいな……もう死んで随分経つのに……まだ見える者がいたなんて……",
           DialogueId = 51100009,
           GUID = "7FEC6B3A",
           ImprPlusId = 1210,
           NextDialogue = 51100010
         },
         [51100010] = {
-          Content = "……",
+          ContentJP = "……",
           DialogueId = 51100010,
           GUID = "7FEC6B64",
           NextDialogue = 51100011,
           SpeakNpcId = 700319
         },
         [51100011] = {
-          Content = "………………",
+          ContentJP = "……？",
           DialogueId = 51100011,
           GUID = "7FEC6B8E",
           NextDialogue = 51100012,
           SpeakNpcId = 700319
         },
         [51100012] = {
-          Content = "鬼啊！",
+          ContentJP = "……ひっ……！で、出たぁぁぁ！",
           DialogueId = 51100012,
           GUID = "7FEC6BB8",
           NextDialogue = 51100013,
@@ -133239,7 +133239,7 @@ local Data = {
           }
         },
         [51100013] = {
-          Content = "开玩笑的，你看，我有影子也有脚。",
+          ContentJP = "冗談だよ。ほら、影も足もちゃんとあるでしょ。",
           DialogueId = 51100013,
           GUID = "7FEC6BE2",
           NextDialogue = 51100014,
@@ -133249,7 +133249,7 @@ local Data = {
           }
         },
         [51100014] = {
-          Content = "唉哟……唉哟……要了我的老命了！下次别开这种玩笑了，就算把我吓死，我也不会把存款地址告诉你的！",
+          ContentJP = "ひぃぃ……心臓が止まるわ！二度とそんな冗談はやめてくれ！死んだとて、財産の隠し場所は教えんぞ！",
           DialogueId = 51100014,
           GUID = "7FEC6C0C",
           NextDialogue = 51100015,
@@ -133259,21 +133259,21 @@ local Data = {
           }
         },
         [51100015] = {
-          Content = "其实，是我有事要往尘漠石海跑一趟，但你瞧我，一大把年纪了，走到这里都够呛！",
+          ContentJP = "実はのう、これから塵砂の荒海へ向かわねばならんのじゃ。だが、この歳ではここに来るのもやっとでな……",
           DialogueId = 51100015,
           GUID = "7FEC6C36",
           NextDialogue = 51100016,
           SpeakNpcId = 700319
         },
         [51100016] = {
-          Content = "这一路上，先是半路杀出玄色狴犴伤人，老夫躲闪不及，本来已经认命，结果被冲出来执法的正统狴犴一尾巴丢出一丈远！",
+          ContentJP = "途中で玄狴に襲われ、もう終わりかと思ったところを、正統なる狴犴が現れて助けてくださった。尾でぶん投げられて、一丈も飛ばされたがな！",
           DialogueId = 51100016,
           GUID = "7FEC6C60",
           NextDialogue = 51100017,
           SpeakNpcId = 700319
         },
         [51100017] = {
-          Content = "哎！我这脑袋脖子肩膀后背腰椎屁股胳膊腿哟！",
+          ContentJP = "……おかげで頭も首も腰も足も、ぜんぶ痛いわい！",
           DialogueId = 51100017,
           GUID = "7FEC6C8A",
           NextDialogue = 51100018,
@@ -133283,7 +133283,7 @@ local Data = {
           }
         },
         [51100018] = {
-          Content = "岁月不饶人呐，要是放在年轻那会，站起来拍拍裤子也没事了，有胆子大的，还会趁狴犴执法的时候合照一张，够吹好几天了。",
+          ContentJP = "若い頃なら、立ち上がって笑い話にできたろうに。命を拾っただけありがたいと思うべきかもしれん。",
           DialogueId = 51100018,
           GUID = "7FEC6CB4",
           NextDialogue = 51100019,
@@ -133293,7 +133293,7 @@ local Data = {
           }
         },
         [51100019] = {
-          Content = "但到了我这岁数，被黑狴犴咬一口，也就是两眼一闭，来生再做好汉，被白狴犴这一救，我这老骨头真要瘫在床上个把月喽……",
+          ContentJP = "玄狴の牙にかかれば二度と立ち上がれぬが、狴犴（ビーアン）に救われたおかげで寝込むだけで済んだんじゃ。",
           DialogueId = 51100019,
           GUID = "7FEC6CDE",
           NextDialogue = 51100020,
@@ -133303,7 +133303,7 @@ local Data = {
           }
         },
         [51100020] = {
-          Content = "哦对了，我可没有说狴犴不好的意思，要是有个三长两短，那也是太皓的安排！太皓的安排怎么会错呢？你说呢，年轻人？",
+          ContentJP = "ああ、もちろん狴犴を悪く言うつもりはない。すべては太皓の御心。太皓さまの采配に間違いなどあろうはずもない。そうじゃろ、若者よ？",
           DialogueId = 51100020,
           GUID = "7FEC6D08",
           NextOptions = {
@@ -133314,14 +133314,14 @@ local Data = {
           SpeakNpcId = 700319
         },
         [51100021] = {
-          Content = "回家吧老先生，回家吧，现在外面太危险了。",
+          ContentJP = "はやく家に帰りな。外は危ないよ。",
           DialogueId = 51100021,
           GUID = "7FEC6D32",
           ImprPlusId = 1207,
           NextDialogue = 51100022
         },
         [51100022] = {
-          Content = "我也想哇，可如果在这里掉头，我就疑似对太皓不忠了！",
+          ContentJP = "わしとて帰りたいさ。だがここで背を向ければ、太皓さまに背くことになる。そんな真似、できはせん！",
           DialogueId = 51100022,
           GUID = "7FEC6D5C",
           NextDialogue = 51100027,
@@ -133331,14 +133331,14 @@ local Data = {
           }
         },
         [51100023] = {
-          Content = "这么危险，还要坚持要出门，一定是有非常重要的事情吧？",
+          ContentJP = "危険を冒してでも行く理由があるってこと？",
           DialogueId = 51100023,
           GUID = "7FEC6D86",
           ImprPlusId = 1209,
           NextDialogue = 51100024
         },
         [51100024] = {
-          Content = "没想到你年纪轻轻，却是个知心人。人生中，总有几件事是不能退缩的。",
+          ContentJP = "そうじゃ！人の一生には、どうしても退けぬ時があるのじゃ！",
           DialogueId = 51100024,
           GUID = "7FEC6DB0",
           NextDialogue = 51100027,
@@ -133348,14 +133348,14 @@ local Data = {
           }
         },
         [51100025] = {
-          Content = "废话那么多，你不会是想碰瓷我吧？",
+          ContentJP = "まさか、たかろうとしてるんじゃないよね？",
           DialogueId = 51100025,
           GUID = "7FEC6DDA",
           ImprPlusId = 1210,
           NextDialogue = 51100026
         },
         [51100026] = {
-          Content = "胡说八道！碰瓷也得挑对象啊，老夫挑谁，也不会挑你这样满身绷带还在外面四处奔波的人啊！",
+          ContentJP = "馬鹿を申すな！もしわしが人を騙すつもりなら、こんな満身創痍の若造など選ぶものか！",
           DialogueId = 51100026,
           GUID = "7FEC6E04",
           NextDialogue = 51100027,
@@ -133365,14 +133365,14 @@ local Data = {
           }
         },
         [51100027] = {
-          Content = "总之，接下来前往尘漠石海的路只靠老夫自己是万万不可能了。",
+          ContentJP = "この足では、もう塵砂の荒海には辿り着けん。",
           DialogueId = 51100027,
           GUID = "7FEC6E2E",
           NextDialogue = 51100028,
           SpeakNpcId = 700319
         },
         [51100028] = {
-          Content = "所以啊，老夫候在这路边，就盼望着太皓保佑，送个古道热肠、身手了得，还不畏惧石海晶尘的勇士，把我安安全全地送到地方去……",
+          ContentJP = "だからこそ、太皓さまの加護を信じて待っておったのじゃ。そして今こうして出会った……",
           DialogueId = 51100028,
           GUID = "7FEC6E58",
           NextDialogue = 51100029,
@@ -133382,28 +133382,28 @@ local Data = {
           }
         },
         [51100029] = {
-          Content = "现在看来，那个人必定是你无疑了！",
+          ContentJP = "お主こそが太皓さまの遣わした勇士に違いない！",
           DialogueId = 51100029,
           GUID = "7FEC6E82",
           NextDialogue = 51100030,
           SpeakNpcId = 700319
         },
         [51100030] = {
-          Content = "真是太皓保佑！太皓保佑啊！",
+          ContentJP = "ありがたや、ありがたや……太皓さまのご加護は、やはり偉大じゃ！",
           DialogueId = 51100030,
           GUID = "7FEC6EAC",
           NextDialogue = 51100031,
           SpeakNpcId = 700319
         },
         [51100031] = {
-          Content = "不过你放心，老夫不是不懂事的人。",
+          ContentJP = "安心せい。わしも礼はわきまえておる。",
           DialogueId = 51100031,
           GUID = "7FEC6ED6",
           NextDialogue = 51100032,
           SpeakNpcId = 700319
         },
         [51100032] = {
-          Content = "请神办事要献贡品，请人办事要给酬劳，把我送到地方，我一定会好好感谢你的！",
+          ContentJP = "神への祈りは供物がつきもの、人への頼み事は報酬が作法とな。わしを送り届けてくれたら、必ず感謝のしるしを贈ろうぞ。",
           DialogueId = 51100032,
           GUID = "7FEC6F00",
           NextOptions = {
@@ -133416,7 +133416,7 @@ local Data = {
           }
         },
         [51100033] = {
-          Content = "到底要不要付出时间和精力，护送老人前往一个危险之地呢。",
+          ContentJP = "時間を費やすし、危険な任務だ。どうする？",
           DialogueId = 51100033,
           FailDialogue = 51100034,
           GUID = "7FEC6F2A",
@@ -133424,25 +133424,25 @@ local Data = {
           NextDialogue = 51100036
         },
         [51100034] = {
-          Content = "（很遗憾，你现在有更重要的事要做，你决定稍后再来。）",
+          ContentJP = "残念だが、今はもっと大事な用がある。老人をあとにして立ち去った……",
           DialogueId = 51100034,
           GUID = "7FEC6F54",
           NextDialogue = 51100035
         },
         [51100035] = {
-          Content = "在太皓回应我的祈愿前，我会一直等待并心怀期待……",
+          ContentJP = "太皓さま、どうかお救いを……わしはここで待ち続けるぞ……",
           DialogueId = 51100035,
           GUID = "7FEC6F7E",
           SpeakNpcId = 700319
         },
         [51100036] = {
-          Content = "我就知道太皓一定会眷顾我的！",
+          ContentJP = "やはり太皓さまはわしを見捨てなかった！ ",
           DialogueId = 51100036,
           GUID = "7FEC6FA8",
           SpeakNpcId = 700319
         },
         [51100037] = {
-          Content = "尘漠石海一直都是这么阴森可怖的吗？",
+          ContentJP = "塵砂の荒海って、昔からこんなに不気味な場所だったの？",
           DialogueId = 51100037,
           Duration = 4,
           GUID = "7FEC6FD2",
@@ -133450,7 +133450,7 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51100038] = {
-          Content = "唉……一言难尽啊。",
+          ContentJP = "ふむ……それを語り出すと長くなるのぅ。",
           DialogueId = 51100038,
           Duration = 2,
           GUID = "7FEC6FFC",
@@ -133458,7 +133458,7 @@ local Data = {
           SpeakNpcId = 700319
         },
         [51100039] = {
-          Content = "很久以前，石海只是一片普通的石林，但自从烛阴之灾兴起，那里就被尘漠吞没了。",
+          ContentJP = "昔はただの岩だらけの林だったんじゃ。だが、「燭陰の禍」以来、あの地は塵砂に飲まれてしまった。",
           DialogueId = 51100039,
           Duration = 8,
           GUID = "7FEC7026",
@@ -133466,7 +133466,7 @@ local Data = {
           SpeakNpcId = 700319
         },
         [51100040] = {
-          Content = "所有的植物都被黑紫色的晶体所包裹，一旦被缠上，就像被裹进琥珀的昆虫，从此不再生长，生机被定格在那一刻。",
+          ContentJP = "今じゃあの地の植物という植物が、黒紫の晶体に包まれておる。まるで琥珀に閉じ込められた虫のように、時が止まったようにな。",
           DialogueId = 51100040,
           Duration = 10,
           GUID = "7FEC7050",
@@ -133474,7 +133474,7 @@ local Data = {
           SpeakNpcId = 700319
         },
         [51100041] = {
-          Content = "即使是能跑能跳的动物，在那待久了也会变成“活化石”。",
+          ContentJP = "動物でさえ、長く留まれば「動く化石」になってしまうとも言われておる。",
           DialogueId = 51100041,
           Duration = 6,
           GUID = "7FEC707A",
@@ -133482,14 +133482,14 @@ local Data = {
           SpeakNpcId = 700319
         },
         [51100042] = {
-          Content = "甚至有传闻说，玄色狴犴的本质，就是被尘漠侵蚀的白色狴犴……",
+          ContentJP = "しかもな……かつて白かった狴犴が、塵に蝕まれて玄色に染まった——そんな噂まであるのじゃ。",
           DialogueId = 51100042,
           Duration = 8,
           GUID = "7FEC70A4",
           SpeakNpcId = 700319
         },
         [51100043] = {
-          Content = "这地方荒无人烟，少有人来，只要不在这里逗留太久，反而不会碰到野兽与狴犴，老夫就是打着这个主意才打算从这里抄近路。",
+          ContentJP = "この辺りは誰も寄りつかん。だが、あえてここを通れば、獣や狴犴には出くわしにくい——それがわしの狙いだったんじゃがのう。",
           DialogueId = 51100043,
           DisableMouth = 0,
           GUID = "7FEC70CE",
@@ -133502,7 +133502,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100044] = {
-          Content = "用华胥人的话，这就是所谓的“灯下黑”吧？",
+          ContentJP = "なるほど……「灯台下暗し」ってやつだね？",
           DialogueId = 51100044,
           DisableMouth = 0,
           GUID = "7FEC70F8",
@@ -133512,7 +133512,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100045] = {
-          Content = "哟，还挺懂行的！",
+          ContentJP = "おぉ、よくわかっておるのぅ！",
           DialogueId = 51100045,
           DisableMouth = 0,
           GUID = "7FEC7122",
@@ -133522,7 +133522,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100046] = {
-          Content = "实不相瞒，这近路我抄了不少次了，没想到这回翻了车。",
+          ContentJP = "正直に言うと、既に何度もここを抜けておるのじゃが、今回は……外れくじを引いたようじゃ。",
           DialogueId = 51100046,
           DisableMouth = 0,
           GUID = "7FEC714C",
@@ -133535,7 +133535,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100047] = {
-          Content = "那天不知怎么的，总觉得这尘漠石海比从前都要大，我走啊走，走啊走，一直走到天黑都没能走出去。",
+          ContentJP = "歩けど歩けど、塵の海はどこまでも広がり、気づけば日も落ちて、道もわからんようになってしもうた。",
           DialogueId = 51100047,
           DisableMouth = 0,
           GUID = "7FEC7176",
@@ -133545,7 +133545,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100048] = {
-          Content = "这地方平时就阴森，太阳一下山更是伸手不见五指，我老眼昏花，在这里迷路，来来回回打转都摸不出去！",
+          ContentJP = "あの暗さときたら、手を伸ばしても何も見えん。おまけに足ももつれて転んでしもうてな……",
           DialogueId = 51100048,
           DisableMouth = 0,
           GUID = "7FEC71A0",
@@ -133558,7 +133558,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100049] = {
-          Content = "最后体力不支，一个倒栽葱撞到后脑勺……迷迷糊糊的时候，好像看到好几只狴犴在我面前跳来跳去……",
+          ContentJP = "朦朧とする意識の中で……狴犴たちが跳ね回るのが見えた気がする。",
           DialogueId = 51100049,
           DisableMouth = 0,
           GUID = "7FEC71CA",
@@ -133568,7 +133568,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100050] = {
-          Content = "哦！我还听到有“人”同我说话，能有执法狴犴陪伴在侧的，那必然只有白龙神太皓，我这是听到神旨啦！",
+          ContentJP = "それだけじゃない！誰かがわしに語りかけてきたんじゃ！狴犴を従える「白龍・太皓」に違いない、そう確信したぞ！",
           DialogueId = 51100050,
           DisableMouth = 0,
           GUID = "7FEC71F4",
@@ -133578,7 +133578,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100051] = {
-          Content = "等我再醒来，已经被送出了尘漠石海，除了后脑勺上一个大包，哪儿都好好的，太皓保佑！太皓保佑啊！",
+          ContentJP = "目を覚ましたら、不思議なことにわしは塵砂の荒海の外におった。後頭部にできたでっかいタンコブ以外は無傷！太皓さまの加護に違いない！",
           DialogueId = 51100051,
           DisableMouth = 0,
           GUID = "7FEC721E",
@@ -133591,14 +133591,14 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100052] = {
-          Content = "大难不死，不管是不是太皓搭救，也算是因祸得福了。",
+          ContentJP = "大難を乗り越えたってことか。たとえ神の助けでなくとも、幸運だ{性别:な|ね}。",
           DialogueId = 51100052,
           GUID = "7FEC7248",
           ImprPlusId = 1209,
           NextDialogue = 51100053
         },
         [51100053] = {
-          Content = "大难不死和因祸得福我爱听，中间那句多余了吧。",
+          ContentJP = "うむ、それはいい言葉じゃが……真ん中の一文はいらんかったのう。",
           DialogueId = 51100053,
           DisableMouth = 0,
           GUID = "7FEC7272",
@@ -133608,14 +133608,14 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100054] = {
-          Content = "在头部遭到重击的情况下，不排除是脑震荡造成的幻觉。",
+          ContentJP = "頭を打って……幻覚でもみたんじゃ？",
           DialogueId = 51100054,
           GUID = "7FEC729C",
           ImprPlusId = 1208,
           NextDialogue = 51100055
         },
         [51100055] = {
-          Content = "去去去！怎么不盼着老人家好啊？",
+          ContentJP = "なぬっ！？もっとこう、わしの無事を喜ぶとかはできんのか！",
           DialogueId = 51100055,
           DisableMouth = 0,
           GUID = "7FEC72C6",
@@ -133625,7 +133625,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100056] = {
-          Content = "你别不信！那一定是太皓显灵，祂还给了我一件信物，让我下回在尘漠石海遇见麻烦，可以吹响这件宝物，祂一定会显灵。",
+          ContentJP = "それにあのお方は「信の証」を残してくださったのじゃ！この笛を吹けば……神が再び姿を現してくださる！",
           DialogueId = 51100056,
           DisableMouth = 0,
           GUID = "7FEC72F0",
@@ -133635,7 +133635,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100057] = {
-          Content = "喏，就是这个！",
+          ContentJP = "これじゃよ、これ！",
           DialogueId = 51100057,
           DisableMouth = 0,
           GUID = "7FEC731A",
@@ -133648,7 +133648,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100058] = {
-          Content = "（你仔细翻看一番，但无论你如何辨认，这都只是一片普通的树叶而已。）",
+          ContentJP = "よく見てみたが、どう見てもただの葉っぱである。",
           DialogueId = 51100058,
           DisableMouth = 0,
           GUID = "7FEC7344",
@@ -133657,7 +133657,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100059] = {
-          Content = "如果我现在摘下一片叶子，打乱次序，你还能分辨出哪片是太皓的信物吗？",
+          ContentJP = "もしこの中から一枚葉っぱを取って入れ替えたら……見分けられる？",
           DialogueId = 51100059,
           DisableMouth = 0,
           GUID = "7FEC736E",
@@ -133667,7 +133667,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100060] = {
-          Content = "年轻人，你本末倒置啦！或许这的确只是一片普通的树叶，但如果这是太皓摘下的树叶，那再普通也不普通了。",
+          ContentJP = "若いの、頭が硬いのぅ。たとえ普通の葉でも、それが太皓さまのお手になるものなら……もうそれだけで、神聖な証じゃよ。",
           DialogueId = 51100060,
           DisableMouth = 0,
           GUID = "7FEC7398",
@@ -133680,7 +133680,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100061] = {
-          Content = "况且，你得吹响它，白龙神君是否回应咱们，那才是检验神迹的唯一方法！",
+          ContentJP = "大事なのは、これを吹いたときに神が応えてくれるかどうか。それだけが真実を示すのじゃ！",
           DialogueId = 51100061,
           DisableMouth = 0,
           GUID = "7FEC73C2",
@@ -133690,7 +133690,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100062] = {
-          Content = "只是老夫年纪大了，缺了几颗牙齿，怎么吹都漏风，只得劳烦你，帮我吹响这叶笛啦！",
+          ContentJP = "……とはいえ、わしはもう歯が抜けておってのう。どうやっても風が漏れてうまく吹けんのじゃ……。すまんが、お主、代わりに吹いてくれんかの？",
           DialogueId = 51100062,
           DisableMouth = 0,
           GUID = "7FEC73EC",
@@ -133705,19 +133705,19 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100063] = {
-          Content = "你从没尝试过把树叶当成乐器吹奏，但你决定赌一下自己天赋异禀的可能。",
+          ContentJP = "葉っぱなんて吹いたことないけど……もしかしたら才能あるかも？——そんな期待を胸に、あなたは試してみることにした。",
           DialogueId = 51100063,
           GUID = "7FEC7416",
           ImprCheckId = 1073,
           NextDialogue = 51100065
         },
         [51100064] = {
-          Content = "（你憋红了脸，但树叶并不配合，空气中弥漫着尴尬的沉默。）",
+          ContentJP = "頬を真っ赤にして吹いてみたものの……葉っぱはまるで反応せず。気まずい沈黙だけが、空気を支配していた。",
           DialogueId = 51100064,
           GUID = "7FEC7440"
         },
         [51100065] = {
-          Content = "（树叶发出了清脆的响声，与某种鸟类的鸣叫十分相似。）",
+          ContentJP = "葉っぱから、鳥のさえずりのような澄んだ音が響いた。",
           DialogueId = 51100065,
           DisableMouth = 0,
           GUID = "7FEC746A",
@@ -133726,7 +133726,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100066] = {
-          Content = "（空气一时十分安静，你与老者面面相觑。）",
+          ContentJP = "空気がぴたりと静まり返る。あなたと老人は顔を見合わせた。",
           DialogueId = 51100066,
           DisableMouth = 0,
           GUID = "7FEC7494",
@@ -133735,7 +133735,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100067] = {
-          Content = "谁呀，打扰我的好梦？",
+          ContentJP = "……誰だよ、俺の昼寝の邪魔したやつは……",
           DialogueId = 51100067,
           DisableMouth = 0,
           GUID = "7FEC74BE",
@@ -133746,7 +133746,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100068] = {
-          Content = "（一道声音不知从哪里传来，好像是刚睡醒一般，不知是不是错觉，你总觉得这声音十分耳熟。）",
+          ContentJP = "どこからともなく聞こえてきた声。どうやら寝起きのようだが、どこかで聞いたことがあるような……",
           DialogueId = 51100068,
           DisableMouth = 0,
           GUID = "7FEC74E8",
@@ -133755,7 +133755,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100069] = {
-          Content = "？",
+          ContentJP = "……",
           DialogueId = 51100069,
           DisableMouth = 0,
           GUID = "7FEC7512",
@@ -133765,7 +133765,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100070] = {
-          Content = "就是这个声音！年轻人，我就说我是被白龙神君眷顾的人吧！",
+          ContentJP = "この声じゃ！聞いたか、若いの！やはりわしは白龍・太皓に選ばれし者なのじゃ！",
           DialogueId = 51100070,
           DisableMouth = 0,
           GUID = "7FEC753C",
@@ -133778,7 +133778,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100071] = {
-          Content = "老先生，我觉得你还是……",
+          ContentJP = "いや、いったん落ち着いて……",
           DialogueId = 51100071,
           DisableMouth = 0,
           GUID = "7FEC7566",
@@ -133788,7 +133788,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100072] = {
-          Content = "嘘，噤声！咳咳……太皓在上，小老儿冒昧，搅扰了您安眠，在此给您赔不是了！",
+          ContentJP = "しっ！……こほんっ。太皓さま……休息を邪魔してしまい、申し訳ございませぬ。どうかお怒りを鎮めてくだされ！",
           DialogueId = 51100072,
           DisableMouth = 0,
           GUID = "7FEC7590",
@@ -133801,7 +133801,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100073] = {
-          Content = "太皓？你称我为太皓？",
+          ContentJP = "太皓……？まさか、俺のことか？",
           DialogueId = 51100073,
           DisableMouth = 0,
           GUID = "7FEC75BA",
@@ -133812,7 +133812,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100074] = {
-          Content = "正是哇！还是小老儿唐突，直呼神名，冒犯您了？",
+          ContentJP = "はっ、つい僭越にも直に御名を……なんたるご不敬！どうかお許しを！",
           DialogueId = 51100074,
           DisableMouth = 0,
           GUID = "7FEC75E4",
@@ -133825,7 +133825,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100075] = {
-          Content = "哈哈，你说得倒没错，我……吾的意思就是如此，区区凡人，怎可直呼吾名？",
+          ContentJP = "ハハ、まぁいいや。そう、そうだぞ。神の名を軽々しく呼ぶなど……無礼にもほどがある。",
           DialogueId = 51100075,
           DisableMouth = 0,
           GUID = "7FEC760E",
@@ -133836,7 +133836,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100076] = {
-          Content = "哎哟白龙神君说得没错，是小老儿冒犯了！",
+          ContentJP = "ああ〜そのお言葉、身に染みます！この老いぼれめ、なんたる無礼を……",
           DialogueId = 51100076,
           DisableMouth = 0,
           GUID = "7FEC7638",
@@ -133849,7 +133849,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100077] = {
-          Content = "无妨，吾气量宽宏，就原谅你这一回！那人间的凡夫俗子，今日来这鸟……偏僻之地搅扰本座清静，到底所为何事啊？",
+          ContentJP = "気にすんなって。俺は心が広いからな。で、あんたらは何の用でこんな辺鄙なとこに？",
           DialogueId = 51100077,
           DisableMouth = 0,
           GUID = "7FEC7662",
@@ -133860,7 +133860,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100078] = {
-          Content = "嘿嘿嘿，小老儿倒没有什么了不得的大事，只是上次承蒙您关照，小老儿才有命从这鬼地方获救，内心着实感激不已！",
+          ContentJP = "いやぁ、その……前に一度、太皓さまに命を救われまして！その御恩を忘れられず、またお姿を拝見したく……！",
           DialogueId = 51100078,
           DisableMouth = 0,
           GUID = "7FEC768C",
@@ -133878,7 +133878,7 @@ local Data = {
     Loader = function()
       return {
         [51100079] = {
-          Content = "实不相瞒，小老儿归乡后日夜敬香祷告，祭祀不停，只盼着再聆听一次白龙神君的教诲，就心满意足喽……",
+          ContentJP = "村に戻ってからというもの、日夜感謝を捧げてきました。",
           DialogueId = 51100079,
           DisableMouth = 0,
           GUID = "7FEC76B6",
@@ -133888,7 +133888,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100080] = {
-          Content = "只是不管小老儿怎么祝祷，白龙神君都没有回应，小老儿惶恐不已，生怕是哪里做错了，惹得您不喜，这才不避艰险，来讨您一个示下……",
+          ContentJP = "ですが、どんなに祈っても、返事をいただけず……もしかして怒らせてしまったのではと、気が気じゃなかったのです。",
           DialogueId = 51100080,
           DisableMouth = 0,
           GUID = "7FEC76E0",
@@ -133901,7 +133901,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100081] = {
-          Content = "哦！我……吾想起来了！是你！上回你磕到脑袋，抓着吾的袖口满嘴胡言乱语，险些吐吾身上，都不记得了？",
+          ContentJP = "あー……思い出した。お前か、頭ぶつけて寝ぼけてたヤツ。俺の袖掴んでなんかぶつぶつ言ってたな。その上危うくゲロ吐きかけて……覚えてないのか？",
           DialogueId = 51100081,
           DisableMouth = 0,
           GUID = "7FEC770A",
@@ -133912,7 +133912,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100082] = {
-          Content = "所以你就是撞到头产生幻——",
+          ContentJP = "ってことはやっぱりただの幻覚で……",
           DialogueId = 51100082,
           DisableMouth = 0,
           GUID = "7FEC7734",
@@ -133922,7 +133922,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100083] = {
-          Content = "哎呀！哎呀呀！竟对白龙神君如此大不敬！小老儿真是罪该万死！",
+          ContentJP = "ああっ！わしは白龍さまに向かって……なんたる大罪……！",
           DialogueId = 51100083,
           DisableMouth = 0,
           GUID = "7FEC775E",
@@ -133935,7 +133935,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100084] = {
-          Content = "怪不得从那以后您都不爱搭理我，那着实是我咎由自取呀！",
+          ContentJP = "なるほど……だからあれ以来、太皓さまがそっけなかったのも当然……すべてはこの老いぼれの不徳ゆえ……！",
           DialogueId = 51100084,
           DisableMouth = 0,
           GUID = "7FEC7788",
@@ -133945,7 +133945,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100085] = {
-          Content = "幸好小老儿来这一趟，否则冒犯了您都不晓得！难为您还肯回应我的叶笛声，如此重诺，真不愧是慈爱公平宽容和蔼善心悲悯的白龙神君！",
+          ContentJP = "だが、こうして参上してこそ、ようやく過ちに気づけた。それでもなお、葉笛の声に応じてくださるとは……なんとお約束に篤く、慈悲深く、公平にして寛容、優しき白龍よ！",
           DialogueId = 51100085,
           DisableMouth = 0,
           GUID = "7FEC77B2",
@@ -133955,7 +133955,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100086] = {
-          Content = "？",
+          ContentJP = "……？",
           DialogueId = 51100086,
           DisableMouth = 0,
           GUID = "7FEC77DC",
@@ -133966,7 +133966,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100087] = {
-          Content = "哈哈哈哈哈哈哈哈哈哈哈哈哈……好！说得好！有眼光！",
+          ContentJP = "ハハハハハッ……！よくぞ言った！気に入ったぞ！あんた、なかなか見る目があるじゃないか！",
           DialogueId = 51100087,
           DisableMouth = 0,
           GUID = "7FEC7806",
@@ -133977,7 +133977,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100088] = {
-          Content = "噗……",
+          ContentJP = "ぷっ……",
           DialogueId = 51100088,
           DisableMouth = 0,
           GUID = "7FEC7830",
@@ -133987,7 +133987,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100089] = {
-          Content = "笑什么笑！这可是在白龙神君面前！",
+          ContentJP = "こら！白龍様の前で失敬な！",
           DialogueId = 51100089,
           DisableMouth = 0,
           GUID = "7FEC785A",
@@ -133997,7 +133997,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100090] = {
-          Content = "人之性情禀赋，不可强行扭转，既然爱笑，就随{性别:他|她}笑吧。",
+          ContentJP = "人の性分というのは、無理にねじ曲げられるもんじゃない。笑いたいなら、笑わせておけばいい。",
           DialogueId = 51100090,
           DisableMouth = 0,
           GUID = "7FEC7884",
@@ -134008,7 +134008,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100091] = {
-          Content = "白龙神君真是仁慈！可凡是身在华胥者，皆要受到大风九章的约束，人的性情禀赋，依稀可能大概，还是得受此管教，不可随心而行吧……",
+          ContentJP = "白龍様はまことに慈悲深きお方……ですが、華胥の地に生きる者は皆、「大風九章」の掟に従うべきかと。人の性分とはいえ、やはり……多少なりとも節度を持たねばならぬのでは……？",
           DialogueId = 51100091,
           DisableMouth = 0,
           GUID = "7FEC78AE",
@@ -134018,7 +134018,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100092] = {
-          Content = "哦？那大风九章第九条，不也说要“垂聆天宪，恭肃为敬”？你先是冒犯于我，我念你神志不清，不予追究。",
+          ContentJP = "ほう？では問おう、「大風九章」第九条には何とある？——「天の戒を仰ぎ、慎みて従うは敬なり」……そうだろう？あんたはかつて、俺に無礼を働いた。だがあの時は、正気を失っていたと見なし、咎めはしなかった。",
           DialogueId = 51100092,
           DisableMouth = 0,
           GUID = "7FEC78D8",
@@ -134029,7 +134029,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100093] = {
-          Content = "现在你神思清明，却又顶撞于我，该当何罪！",
+          ContentJP = "だが今は、正気そのもの。そのうえでこの俺に逆らったとなれば……その罪、いかほどか、わかっておるのか？",
           DialogueId = 51100093,
           DisableMouth = 0,
           GUID = "7FEC7902",
@@ -134040,7 +134040,7 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100094] = {
-          Content = "这、这……",
+          ContentJP = "そ、それは……",
           DialogueId = 51100094,
           DisableMouth = 0,
           GUID = "7FEC792C",
@@ -134049,48 +134049,48 @@ local Data = {
           bAllowClickSkipScript = false
         },
         [51100095] = {
-          Content = "白龙神君发怒了！我要被狴犴执法了！救命啊！我只是嘴硬，其实也不想丢了老命啊！",
+          ContentJP = "白龍様がお怒りに……！狴犴に裁かれてしまうぅ〜！た、助けてくれぇ！口が滑っただけなんじゃ！どうか命だけは……！",
           DialogueId = 51100095,
           GUID = "7FEC7956",
           NextDialogue = 51100096,
           SpeakNpcId = 700319
         },
         [51100096] = {
-          Content = "冷静点，仔细观察，这些狴犴的目标另有其人。",
+          ContentJP = "落ち着いて。よく見て……あの狴犴たちの狙いは、あなたじゃない。",
           DialogueId = 51100096,
           GUID = "7FEC7980",
           NextDialogue = 51100097,
           SpeakNpcId = 100001
         },
         [51100097] = {
-          Content = "{nickname}，又见面了！",
+          ContentJP = "{nickname}、また会ったな！",
           DialogueId = 51100097,
           GUID = "7FEC79AA",
           NextDialogue = 51100098,
           SpeakNpcId = 700318
         },
         [51100098] = {
-          Content = "这狴犴倒是会赶巧，只是这对手我已打到厌倦，劳烦你一回，帮我将他们驱赶干净吧！",
+          ContentJP = "また狴犴か、つくづくタイミングがいいな……けどな、同じ顔ぶれはもう見飽きたんだわ。悪いが、今回はあんたが片付けてくれよ。",
           DialogueId = 51100098,
           GUID = "7FEC79D4",
           SpeakNpcId = 700318
         },
         [51100104] = {
-          Content = "究竟怎么了！白龙神君呢！白龙神君难道不保佑我了吗！",
+          ContentJP = "いったいどうなっておるんじゃ！白龍様は！？わしは見捨てられたのか！？",
           DialogueId = 51100104,
           GUID = "7FEC7AD0",
           NextDialogue = 51100105,
           SpeakNpcId = 700319
         },
         [51100105] = {
-          Content = "这半路杀出的没头没脑没由来的家伙又是谁？",
+          ContentJP = "それに……お主は誰じゃ！？どこの馬の骨とも知らんやつが、いきなり現れおって……！",
           DialogueId = 51100105,
           GUID = "7FEC7AFA",
           NextDialogue = 51100106,
           SpeakNpcId = 700319
         },
         [51100106] = {
-          Content = "这一切的一切的……到底怎么回事！",
+          ContentJP = "もうわけがわからん……何がどうなってるんじゃ！！",
           DialogueId = 51100106,
           GUID = "7FEC7B24",
           NextOptions = {
@@ -134102,98 +134102,98 @@ local Data = {
           SpeakNpcId = 700319
         },
         [51100107] = {
-          Content = "你的一切症状都符合脑震荡的反应，你从来没碰到过真正的白龙神君。",
+          ContentJP = "やっぱり脳震盪による幻覚だよ。白龍様とは……会ってないんじゃないかな。",
           DialogueId = 51100107,
           GUID = "7FEC7B4E",
           ImprPlusId = 1208,
           NextDialogue = 51100111
         },
         [51100108] = {
-          Content = "当时你并非由白龙神君拯救，但你被这位过路人救下，捡回一条命，也是好事。",
+          ContentJP = "命の恩人は白龍様じゃなかったかもしれないけど……命拾いできた。それだけでも、十分な奇跡だと思わない？",
           DialogueId = 51100108,
           GUID = "7FEC7B78",
           ImprPlusId = 1209,
           NextDialogue = 51100111
         },
         [51100109] = {
-          Content = "我也不是你和白龙神君祈祷来的，但报酬我一样要收。",
+          ContentJP = "別にあなたや白龍様の祈りに応えたわけじゃないよ。助けた分、報酬はきっちりもらうから{性别:な|ね}。",
           DialogueId = 51100109,
           GUID = "7FEC7BA2",
           ImprPlusId = 1206,
           NextDialogue = 51100111
         },
         [51100110] = {
-          Content = "你猜我之前在笑什么？",
+          ContentJP = "……ところで、さっき笑った理由、知りたい？",
           DialogueId = 51100110,
           GUID = "7FEC7BCC",
           ImprPlusId = 1210,
           NextDialogue = 51100111
         },
         [51100111] = {
-          Content = "我是谁？飘零人刻舟是也！当然，你要是还愿意称我为太皓，也不是不能照单全收！",
+          ContentJP = "俺は誰かって？流れ者カシュウさ。まぁ、太皓サマって呼びたいんなら、それでもいいが？",
           DialogueId = 51100111,
           GUID = "7FEC7BF6",
           NextDialogue = 51100112,
           SpeakNpcId = 700318
         },
         [51100112] = {
-          Content = "或者，你也可以把刚才的夸人话对着你救命恩人再说一遍？慈悲公允宽和……还有什么来着？",
+          ContentJP = "それよりさ、さっき神に向かって言ってた「慈悲深くて、公平で、優しくて」ってやつ、今ここにいる命の恩人にも、改めて言ってくれない？",
           DialogueId = 51100112,
           GUID = "7FEC7C20",
           NextDialogue = 51100113,
           SpeakNpcId = 700318
         },
         [51100113] = {
-          Content = "诶，老头儿，你还真的挺擅长夸人的！当初救下你时，你连自己是谁都说不出来，但那好听的话还是一箩筐一箩筐的，不比清醒时说的差！",
+          ContentJP = "はは、あんたは本当に褒め上手だよな～。あの時、意識も朦朧としてて、自分の名前すら言えなかったくせに……褒め言葉だけは次から次へと止まらなかったもんな。今よりよっぽどスラスラ出てたぜ？",
           DialogueId = 51100113,
           GUID = "7FEC7C4A",
           NextDialogue = 51100114,
           SpeakNpcId = 700318
         },
         [51100114] = {
-          Content = "那、那我昏迷前看到的那些狴犴是……",
+          ContentJP = "じゃ、じゃあ……あのとき見た狴犴は……？",
           DialogueId = 51100114,
           GUID = "7FEC7C74",
           NextDialogue = 51100115,
           SpeakNpcId = 700319
         },
         [51100115] = {
-          Content = "看来你还不知道，常被狴犴“陪伴”的除了白龙神和应天尉，还有可能是被穷追不舍的飘零人。",
+          ContentJP = "あぁ、それね。狴犴に「付き添われてる」のは、白龍とか応天尉だけじゃない。俺たち流れ者も、しつこく追われてるんだよ。",
           DialogueId = 51100115,
           GUID = "7FEC7C9E",
           NextDialogue = 51100116,
           SpeakNpcId = 700318
         },
         [51100116] = {
-          Content = "你你你你你你——",
+          ContentJP = "なっ……ななななな……！",
           DialogueId = 51100116,
           GUID = "7FEC7CC8",
           NextDialogue = 51100117,
           SpeakNpcId = 700319
         },
         [51100117] = {
-          Content = "怪不得怪不得！白龙神君才不会说什么人之天赋性情，只有你们这些法外狂徒，才满嘴的歪理邪说！",
+          ContentJP = "やっぱりか！おかしいと思ったんじゃ！「人の性分は縛れぬ」など、白龍様が言うはずがない！あんたらみたいな無頼者だけがほざくことじゃ！",
           DialogueId = 51100117,
           GUID = "7FEC7CF2",
           NextDialogue = 51100118,
           SpeakNpcId = 700319
         },
         [51100118] = {
-          Content = "可恨我一时被蒙蔽了双眼，竟没识出你的本来面目！",
+          ContentJP = "ちっ……わしとしたことが、目が曇っておったわ！まさかお前の正体を見抜けなんだとはな！",
           DialogueId = 51100118,
           GUID = "7FEC7D1C",
           NextDialogue = 51100119,
           SpeakNpcId = 700319
         },
         [51100119] = {
-          Content = "喂！这么说就过分了吧！这老头儿，翻脸如翻书一般，你自己上下打量打量，能全须全尾地站在这，你还得谢我呢！",
+          ContentJP = "おいおい、手のひら返しも早ぇな。あんたがそうしてピンピンしてんのは、誰のおかげかな？",
           DialogueId = 51100119,
           GUID = "7FEC7D46",
           NextDialogue = 51100120,
           SpeakNpcId = 700318
         },
         [51100120] = {
-          Content = "懒得和你掰扯，{nickname}，你怎么说？",
+          ContentJP = "くだらねぇ言い争いはもう飽きた。{nickname}、なんとか言ってくれ。",
           DialogueId = 51100120,
           GUID = "7FEC7D70",
           NextOptions = {
@@ -134203,165 +134203,165 @@ local Data = {
           SpeakNpcId = 700318
         },
         [51100121] = {
-          Content = "还是应该谢谢刻舟。",
+          ContentJP = "カシュウにお礼を言うべきだよ。",
           DialogueId = 51100121,
           GUID = "7FEC7D9A",
           ImprPlusId = 1207,
           NextDialogue = 51100122
         },
         [51100122] = {
-          Content = "刻舟戏弄你确实不对，但不管怎么说，他是你的救命恩人，算上那枚叶子，他甚至准备多救你几次，不能和解吗？",
+          ContentJP = "カシュウの態度に問題はあったけど、命を救ってくれたのは事実だよ。葉っぱのことまで含めれば、何度も助けようとしたんだし、和解できないかな？",
           DialogueId = 51100122,
           GUID = "7FEC7DC4",
           NextDialogue = 51100123,
           SpeakNpcId = 100001
         },
         [51100123] = {
-          Content = "我自小被白龙神君和大风九章庇护长大，若没有狴犴奉天执法，还没遇见你，我就已经命丧玄色狴犴之口了。",
+          ContentJP = "わしは白龍神君と大風九章に守られて育った。もし狴犴の法がなければ、とっくにこの身は喰われておったわ。",
           DialogueId = 51100123,
           GUID = "7FEC7DEE",
           NextDialogue = 51100124,
           SpeakNpcId = 700319
         },
         [51100124] = {
-          Content = "这飘零人或许救我一次，两次，三次，但和白龙神君相比，实在微不足道。我尊奉白龙神君，自然要和这群法外狂徒划清关系。",
+          ContentJP = "流れ者に一度や二度助けられたところで、白龍様に比べれば取るに足らん。わしは白龍様を信じる。無頼の輩と交わる気はない。",
           DialogueId = 51100124,
           GUID = "7FEC7E18",
           NextDialogue = 51100129,
           SpeakNpcId = 700319
         },
         [51100125] = {
-          Content = "这未尝不是神的旨意。",
+          ContentJP = "それもまた神の導きでは？",
           DialogueId = 51100125,
           GUID = "7FEC7E42",
           ImprPlusId = 1208,
           NextDialogue = 51100126
         },
         [51100126] = {
-          Content = "老先生认为生死都是太皓的安排，那么被飘零人救下自然也是白龙神君的旨意，从这个角度想，你理应坦然接受救命恩人是法外狂徒。",
+          ContentJP = "あなたは生死も太皓の定めだと考えてるんだよね？なら、流れ者に助けられたのも白龍様の導きじゃない？",
           DialogueId = 51100126,
           GUID = "7FEC7E6C",
           NextDialogue = 51100127,
           SpeakNpcId = 100001
         },
         [51100127] = {
-          Content = "嗯？乍一听把我都绕进去了，但飘零人，绝无可能被什么条条框框束缚。我救他，只是举手之劳，我戏弄他，也是因我看不惯他盲信。",
+          ContentJP = "はっ、俺まで神様の筋書きにされるのかよ。流れ者は法になんざ縛られねぇ。助けるのも気まぐれ、からかうのも気分次第だ。",
           DialogueId = 51100127,
           GUID = "7FEC7E96",
           NextDialogue = 51100128,
           SpeakNpcId = 700318
         },
         [51100128] = {
-          Content = "我便弄不明白，这些人做什么要把自己迈出去的一步归功于上天的推动？ 人非草木，自己会动。你瞧他笃信白龙神，不也找了你护卫左右？",
+          ContentJP = "それに何をするにも天のせいにするのはおかしいだろ。人は木でも草でもねぇ、自分で動くもんだ。あんたも神を信じながら、結局は護衛を頼ってんじゃねぇか。",
           DialogueId = 51100128,
           GUID = "7FEC7EC0",
           NextDialogue = 51100129,
           SpeakNpcId = 700318
         },
         [51100129] = {
-          Content = "放诞无礼！",
+          ContentJP = "無礼者め！",
           DialogueId = 51100129,
           GUID = "7FEC7EEA",
           NextDialogue = 51100130,
           SpeakNpcId = 700319
         },
         [51100130] = {
-          Content = "朽木脑袋！",
+          ContentJP = "頑固ジジイが！",
           DialogueId = 51100130,
           GUID = "7FEC7F14",
           NextDialogue = 51100131,
           SpeakNpcId = 700318
         },
         [51100131] = {
-          Content = "……我尽力了，看来是不会出现握手言和的画面了。",
+          ContentJP = "……ダメか。仲直りは無理そうだね。",
           DialogueId = 51100131,
           GUID = "7FEC7F3E",
           NextDialogue = 51100132,
           SpeakNpcId = 100001
         },
         [51100132] = {
-          Content = "切！我才不愿将大好光阴浪费在这里，走吧，{nickname}，今日你我一定要好好切磋一场！",
+          ContentJP = "けっ、時間の無駄だ。行くぞ、{nickname}。今日こそ手合わせ願おう！",
           DialogueId = 51100132,
           GUID = "7FEC7F68",
           NextDialogue = 51100133,
           SpeakNpcId = 700318
         },
         [51100133] = {
-          Content = "等等！",
+          ContentJP = "待て！",
           DialogueId = 51100133,
           GUID = "7FEC7F92",
           NextDialogue = 51100134,
           SpeakNpcId = 700319
         },
         [51100134] = {
-          Content = "（老者将两份酬劳分别交给了你与刻舟。）",
+          ContentJP = "老人は二人にそれぞれ報酬を手渡した。",
           DialogueId = 51100134,
           GUID = "7FEC7FBC",
           NextDialogue = 51100135
         },
         [51100135] = {
-          Content = "大风九章第二条，“夫人根基，定文为信”，我答应要给少年人酬劳，自然不会言而无信。",
+          ContentJP = "大風九章・第二条「人の根、信に立つ」。約束したからには報酬を渡そう。",
           DialogueId = 51100135,
           GUID = "7FEC7FE6",
           NextDialogue = 51100136,
           SpeakNpcId = 700319
         },
         [51100136] = {
-          Content = "大风九章第六条，“以我及人，制宜为义”，我虽厌憎你，但确实承你恩惠，这酬劳，就当做你我两清，从此井水不犯河水。",
+          ContentJP = "第六条「我をもって他を量り、宜しく処するは義なり」。お主は憎たらしい輩だが、恩を受けたのは事実。これで互いに借りは無しだ。",
           DialogueId = 51100136,
           GUID = "7FEC8010",
           NextDialogue = 51100137,
           SpeakNpcId = 700319
         },
         [51100137] = {
-          Content = "（说完这句话，老者便不愿再假手他人，一个人迟缓却坚定地踏上了回程的道路，你不便跟上，默默目送他远去。）",
+          ContentJP = "そう言い残し、老人は一人でゆっくりと帰路についた。あなたは黙ってその背を見送った。",
           DialogueId = 51100137,
           GUID = "7FEC803A",
           NextDialogue = 51100138
         },
         [51100138] = {
-          Content = "说起来，最近许久不见你人影，为何出现在这里？",
+          ContentJP = "そういえば、しばらく見なかったけど……なんでこんな所に？",
           DialogueId = 51100138,
           GUID = "7FEC8064",
           NextDialogue = 51100139,
           SpeakNpcId = 100001
         },
         [51100139] = {
-          Content = "烛阴之灾日益泛滥，这地方本来有悬衡派的香塔镇着，但最近越来越不顶用了，这老头儿会在里面迷路也并非偶然。",
+          ContentJP = "燭陰の禍が広がって、この辺りを抑えてた香塔も効き目が薄れてきた。あのジジイが迷ったのも無理はねぇ。",
           DialogueId = 51100139,
           GUID = "7FEC808E",
           NextDialogue = 51100140,
           SpeakNpcId = 700318
         },
         [51100140] = {
-          Content = "被尘漠侵蚀的地域愈发扩大，这才让他走到天黑也走不出来。",
+          ContentJP = "塵漠に呑まれた土地は増える一方だ。",
           DialogueId = 51100140,
           GUID = "7FEC80B8",
           NextDialogue = 51100141,
           SpeakNpcId = 700318
         },
         [51100141] = {
-          Content = "我想着师兄说不定会奉命前来调查，才总是守在这里，没想到碰到这老头迷失其中，这人嘴皮子利索，倒也有趣。可惜……",
+          ContentJP = "ユーミンが調査に来るだろうと張ってたが、まさか迷子のジジイに出くわすとはな。口だけは達者で、少しは笑えたが……",
           DialogueId = 51100141,
           GUID = "7FEC80E2",
           NextDialogue = 51100142,
           SpeakNpcId = 700318
         },
         [51100142] = {
-          Content = "（刻舟将钱袋子抛了抛，最终丢进你的怀中。）",
+          ContentJP = "カシュウは金袋をあなたに放り投げた。",
           DialogueId = 51100142,
           GUID = "7FEC810C",
           NextDialogue = 51100143
         },
         [51100143] = {
-          Content = "这东西能换来好几瓶绝顶佳酿，我本应高兴……但我救人本不图报酬，不如给你。",
+          ContentJP = "これだけありゃ上等な酒が何本も買える。けどな、俺は見返りなんざ要らねぇ。持ってけ。",
           DialogueId = 51100143,
           GUID = "7FEC8136",
           NextDialogue = 51100144,
           SpeakNpcId = 700318
         },
         [51100144] = {
-          Content = "说来好笑，高高在上的龙神救人，换来的就是顶礼膜拜，感恩戴德，而飘零人救人，却总是冷嘲热讽，潦草打发。",
+          ContentJP = "笑えるよな。龍神の救いには礼拝と感謝を、流れ者の救いには皮肉とあしらいを。世の中そんなもんだ。",
           DialogueId = 51100144,
           GUID = "7FEC8160",
           NextOptions = {
@@ -134371,122 +134371,122 @@ local Data = {
           SpeakNpcId = 700318
         },
         [51100145] = {
-          Content = "但你们救下的生命都是等价的。",
+          ContentJP = "でも、命の重みに違いはないよ。",
           DialogueId = 51100145,
           GUID = "7FEC818A",
           ImprPlusId = 1207,
           NextDialogue = 51100147
         },
         [51100146] = {
-          Content = "你觉得问心无愧，那就是值得。",
+          ContentJP = "自分が納得できるなら、それで十分だよ。",
           DialogueId = 51100146,
           GUID = "7FEC81B4",
           ImprPlusId = 1209,
           NextDialogue = 51100147
         },
         [51100147] = {
-          Content = "哈！我就知道你是同道中人，不消你说，我自然明白！",
+          ContentJP = "ははっ！やっぱりあんたは話がわかる。俺も道理は理解してるよ！",
           DialogueId = 51100147,
           GUID = "7FEC81DE",
           NextDialogue = 51100148,
           SpeakNpcId = 700318
         },
         [51100148] = {
-          Content = "不管了，少思虑那些三天以后才会发生的事情，趁着良辰美景，不如对剑高歌！我想想，此情此景，再没比这一句更合适的了——",
+          ContentJP = "先のことなんざ考えるだけ無駄だ。三日後にどうなるかより、今を楽しむ方がよっぽどいい。",
           DialogueId = 51100148,
           GUID = "7FEC8208",
           NextDialogue = 51100149,
           SpeakNpcId = 700318
         },
         [51100149] = {
-          Content = "梦亦妄生颠倒想，",
+          ContentJP = "夢は幻、妄もまた揺らぐ。",
           DialogueId = 51100149,
           GUID = "7FEC8232",
           NextDialogue = 51100150,
           SpeakNpcId = 700318
         },
         [51100150] = {
-          Content = "何如明月自由人！",
+          ContentJP = "されど月影の下、人は自由なり。",
           DialogueId = 51100150,
           GUID = "7FEC825C",
           SpeakNpcId = 700318
         },
         [51101001] = {
-          Content = "这次借的也不是一笔小数目啊……",
+          ContentJP = "今回の金額も、なかなかの額で……",
           DialogueId = 51101001,
           GUID = "7FED0DFA",
           SpeakNpcId = 700320
         },
         [51101002] = {
-          Content = "那边两个人好像在吵什么东西，小仆从小仆从，我们快去阻止他们吧！",
+          ContentJP = "ねえ見て！あっちで二人が言い合ってるよ！早く止めに行こう！",
           DialogueId = 51101002,
           GUID = "7FED0E24",
           SpeakNpcId = 900003
         },
         [51101003] = {
-          Content = "来，这里是您的借贷契书，确认无误就在这里签字画押吧。",
+          ContentJP = "こちらが借用書です。内容に問題なければ、ここに署名をお願いします。",
           DialogueId = 51101003,
           GUID = "7FED0E4E",
           NextDialogue = 51101004,
           SpeakNpcId = 700320
         },
         [51101004] = {
-          Content = "这次借的也不是一笔小数目啊。怎么，又想上哪里去看看了？",
+          ContentJP = "今回の借金も少なくない額だが……さて、今度はどこへおつもりで？",
           DialogueId = 51101004,
           GUID = "7FED0E78",
           NextDialogue = 51101005,
           SpeakNpcId = 700320
         },
         [51101005] = {
-          Content = "哈哈，还是您懂我！这次啊，我想再去维德弗尼尔山那儿走一趟。山里的孩子许久没见我，怕是早就在盼着我了。",
+          ContentJP = "ハハッ、さすがわかってるね！今回はね、またヴィドフニル山まで足を延ばそうと思ってるんだ。山の子どもたちとも久しく会っていないから、きっと待ちわびているだろうし。",
           DialogueId = 51101005,
           GUID = "7FED0EA2",
           NextDialogue = 51101006,
           SpeakNpcId = 700321
         },
         [51101006] = {
-          Content = "您还是一点没变啊。按照规定，这样一笔数额的借款必须留下贵重抵押物，您能接受吗？",
+          ContentJP = "まったく、昔から変わらないですね。ただ規定ですので、これほどの額の借金には必ず相応の担保をお預かりしなければなりません。ご承知いただけますか？",
           DialogueId = 51101006,
           GUID = "7FED0ECC",
           NextDialogue = 51101007,
           SpeakNpcId = 700320
         },
         [51101007] = {
-          Content = "晓得，就和以前一样嘛。",
+          ContentJP = "わかってるよ、前と同じでいいだろう。",
           DialogueId = 51101007,
           GUID = "7FED0EF6",
           NextDialogue = 51101008,
           SpeakNpcId = 700321
         },
         [51101008] = {
-          Content = "什么嘛，原来只是借钱啊，没意思没意思……",
+          ContentJP = "なーんだ、借金の話か……つまんないの。",
           DialogueId = 51101008,
           GUID = "7FED0F20",
           NextDialogue = 51101009,
           SpeakNpcId = 900003
         },
         [51101009] = {
-          Content = "（白扫兴地叹了口气，刚拉着你准备转身离开，就听到远处那名男子远远叫住了你们。他一跑一喘地赶到你的面前。）",
+          ContentJP = "スノウががっかりして肩を落とし、あなたを引っ張って立ち去ろうとしたそのとき。遠くからあなたたちを呼び止める声がした。走ってきた男は、息を切らせながらあなたたちの前に立ちはだかる。",
           DialogueId = 51101009,
           GUID = "7FED0F4A",
           NextDialogue = 51101010
         },
         [51101010] = {
-          Content = "呼……呼……二位留步。",
+          ContentJP = "ぜぇ……はぁ……ちょっと待ってくれ！",
           DialogueId = 51101010,
           GUID = "7FED0F74",
           NextDialogue = 51101011,
           SpeakNpcId = 700321
         },
         [51101011] = {
-          Content = "自我介绍一下，我叫赵谦，是名织星客。",
+          ContentJP = "自己紹介が遅れたな。私はチョウケン、星織人をしている。",
           DialogueId = 51101011,
           GUID = "7FED0F9E",
           NextDialogue = 51101012,
           SpeakNpcId = 700321
         },
         [51101012] = {
-          Content = "听闻二位少侠是百年春请来的武力高强的贵客，那个……若是二位得闲，可否请二位保护我走一遭，取一趟货？我会给报酬的！",
+          ContentJP = "噂では、あなた方は百年春が招いた実力ある護衛だとか。もしよければ――私を護衛して一緒に荷を取りに行ってほしいんだ。もちろん報酬はお支払いする！",
           DialogueId = 51101012,
           GUID = "7FED0FC8",
           NextOptions = {
@@ -134496,69 +134496,69 @@ local Data = {
           SpeakNpcId = 700321
         },
         [51101013] = {
-          Content = "那我就帮帮你吧。",
+          ContentJP = "手伝うよ。",
           DialogueId = 51101013,
           GUID = "7FED0FF2",
           ImprPlusId = 1207,
           NextDialogue = 51101014
         },
         [51101014] = {
-          Content = "太好了。放心，报酬绝对亏待不了你们。",
+          ContentJP = "ありがたい！安心してくれ、報酬は十分に用意するから。",
           DialogueId = 51101014,
           GUID = "7FED101C",
           NextDialogue = 51101017,
           SpeakNpcId = 700321
         },
         [51101015] = {
-          Content = "你都要借钱了，还请得起护卫吗？",
+          ContentJP = "借金までしてるのに、護衛を雇う余裕なんてあるの{性别:か|}？",
           DialogueId = 51101015,
           GUID = "7FED1046",
           ImprPlusId = 1206,
           NextDialogue = 51101016
         },
         [51101016] = {
-          Content = "古话说得好，千金散尽还复来嘛。钱这东西啊，只是个身外之物。要是为了省钱误了生意，那才是捡了芝麻丢了西瓜。",
+          ContentJP = "「金は天下の回りもの」って言うだろう？金なんて所詮は身外の物。商機を逃す方がよっぽど損ってもんだ。",
           DialogueId = 51101016,
           GUID = "7FED1070",
           NextDialogue = 51101017,
           SpeakNpcId = 700321
         },
         [51101017] = {
-          Content = "烛阴之灾的遗祸还遍布烟津渡，我人受点伤是小，货物丢了可就麻烦大了。",
+          ContentJP = "それに、今は燭陰の禍の影響で煙津渡は危険なんだ。私がケガするのは構わないが、荷を失うのは致命的でね。",
           DialogueId = 51101017,
           GUID = "7FED109A",
           NextDialogue = 51101018,
           SpeakNpcId = 700321
         },
         [51101018] = {
-          Content = "我听锦鲤皎皎说，织星客都是一群跑到大陆各个地方做生意的家伙，那你也一定去过很多地方吧？",
+          ContentJP = "そういえばニシキが言ってた。星織人って、あちこちの国を回って商売してる人たちなんでしょ？ じゃあ色んなところに行ったんだろうね！",
           DialogueId = 51101018,
           GUID = "7FED10C4",
           NextDialogue = 51101019,
           SpeakNpcId = 900003
         },
         [51101019] = {
-          Content = "算不上多吧，也就去过各个国家的主要城市而已，阿特拉西亚大陆上，还有很多边边角角的村镇我没去过呢。",
+          ContentJP = "大したことはないさ。主要な都市をいくつか巡った程度で、アトラシア大陸の端っこの村なんかはまだ行ったことがない。",
           DialogueId = 51101019,
           GUID = "7FED10EE",
           NextDialogue = 51101020,
           SpeakNpcId = 700321
         },
         [51101020] = {
-          Content = "那事情结束后，除了工钱，你还要跟本魔王大人讲讲你在其他国家碰到的好玩的事哦！",
+          ContentJP = "じゃあ今回の仕事が終わったら、報酬に加えて――他の国で見てきた面白い話も、このスノウ様に聞かせてもらうよ！",
           DialogueId = 51101020,
           GUID = "7FED1118",
           NextDialogue = 51101021,
           SpeakNpcId = 900003
         },
         [51101021] = {
-          Content = "好嘞，没问题。那我们现在出发吧，先去农家处取我之前定好的一批蜜饯果子。",
+          ContentJP = "ハハッ、もちろんだ！それじゃ、まずは農家に行って、この前頼んでおいた果物の砂糖漬けを受け取ってこよう！",
           DialogueId = 51101021,
           GUID = "7FED1142",
           SpeakNpcId = 700321
         },
         [51101022] = {
-          Content = "是玄色狴犴，有劳二位少侠了。",
+          ContentJP = "玄狴だ！二人とも、頼んだぞ！",
           DialogueId = 51101022,
           Duration = 4,
           GUID = "7FED116C",
@@ -134566,178 +134566,178 @@ local Data = {
           SpeakNpcId = 700321
         },
         [51101023] = {
-          Content = "哼哼，你就在本魔王大人身后躲好吧——小仆从，揍扁它们！",
+          ContentJP = "ふん、スノウの背後に隠れてなさい！――我が下僕、やっつけちゃって！",
           DialogueId = 51101023,
           Duration = 7,
           GUID = "7FED1196",
           SpeakNpcId = 200002
         },
         [51101024] = {
-          Content = "身手果真了得！我们接着赶路吧，就在前方不远了。",
+          ContentJP = "いやはや、見事な腕前だ！さあ先を急ごう。もうすぐだ。",
           DialogueId = 51101024,
           Duration = 7,
           GUID = "7FED11C0",
           SpeakNpcId = 700321
         },
         [51101025] = {
-          Content = "二位在此稍事休息，我去找农家付个钱。",
+          ContentJP = "二人はここで少し休んでくれ。私は支払いをしてくる。",
           DialogueId = 51101025,
           GUID = "7FED11EA",
           NextDialogue = 51101026,
           SpeakNpcId = 700321
         },
         [51101026] = {
-          Content = "一段时间后……",
+          ContentJP = "しばらくして……",
           DialogueId = 51101026,
           GUID = "7FED1214",
           NextDialogue = 51101027
         },
         [51101027] = {
-          Content = "取好了，这蜜饯果子可是我们华胥的特产，来尝一口呗。",
+          ContentJP = "取ってきたぞ。果物の砂糖漬けは我ら華胥の名産だ。ひと口どうだ？",
           DialogueId = 51101027,
           GUID = "7FED123E",
           NextDialogue = 51101028,
           SpeakNpcId = 700321
         },
         [51101028] = {
-          Content = "咳，好甜……",
+          ContentJP = "うっ……甘っ……",
           DialogueId = 51101028,
           GUID = "7FED1268",
           NextDialogue = 51101029,
           SpeakNpcId = 100001
         },
         [51101029] = {
-          Content = "慢点嚼，刚进口是会有点齁，吃到后面就习惯了。",
+          ContentJP = "ゆっくり噛め。最初はくどいが、後から慣れてくる。",
           DialogueId = 51101029,
           GUID = "7FED1292",
           NextDialogue = 51101030,
           SpeakNpcId = 700321
         },
         [51101030] = {
-          Content = "唔，感觉是个挑人的零食呀，那个维什么什么山的人会买吗？",
+          ContentJP = "ふーん、人を選ぶお菓子だな。あのヴィ……なんとか山の人たち、こんなの食べるの？",
           DialogueId = 51101030,
           GUID = "7FED12BC",
           NextDialogue = 51101031,
           SpeakNpcId = 900003
         },
         [51101031] = {
-          Content = "嘿嘿，维德弗尼尔山脉那边既没多少水果，也没什么调味，更重要的是蜜饯耐储存不怕变质，在那儿很受欢迎呢。",
+          ContentJP = "ハハッ、ヴィドフニル山脈は果物も少なく、調味料も乏しい。だが蜜漬けは保存が利くから重宝される。あそこでは引っ張りだこだよ。",
           DialogueId = 51101031,
           GUID = "7FED12E6",
           NextDialogue = 51101032,
           SpeakNpcId = 700321
         },
         [51101032] = {
-          Content = "好了，吃完我们就去下一个地方吧。",
+          ContentJP = "さあ、食べ終わったら次の場所へ向かおう。",
           DialogueId = 51101032,
           GUID = "7FED1310",
           SpeakNpcId = 700321
         },
         [51101033] = {
-          Content = "一段时间后……",
+          ContentJP = "しばらくして……",
           DialogueId = 51101033,
           GUID = "7FED133A",
           NextDialogue = 51101034
         },
         [51101034] = {
-          Content = "诶？你怎么抱了一堆石头回来呀。",
+          ContentJP = "えっ？なにその石？",
           DialogueId = 51101034,
           GUID = "7FED1364",
           NextDialogue = 51101035,
           SpeakNpcId = 900003
         },
         [51101035] = {
-          Content = "这可不是普通的石头，而是在烟津渡南边的湖里捞出来打磨后的温凉玉。",
+          ContentJP = "これはただの石じゃない。煙津渡の南の湖で拾い、磨いた温涼玉だ。",
           DialogueId = 51101035,
           GUID = "7FED138E",
           NextDialogue = 51101036,
           SpeakNpcId = 700321
         },
         [51101036] = {
-          Content = "我这次准备从西北边的冰原借道去维德弗尼尔山，那冰原又乱又冷，每天都有人冻死在那。",
+          ContentJP = "今回は北西の氷原を越えてヴィドフニル山へ行くつもりだ。だがあの氷原は荒れ果て、寒さで毎日死人が出るほど過酷でね。",
           DialogueId = 51101036,
           GUID = "7FED13B8",
           NextDialogue = 51101037,
           SpeakNpcId = 700321
         },
         [51101037] = {
-          Content = "而温凉玉烧过之后就会发热一段时间，正好放在怀里暖和暖和身子。我在那卖过很多次了，抢手得很。",
+          ContentJP = "だが温涼玉を火で熱すれば、しばらく体を温められる。懐に忍ばせれば命綱になる。前にもたくさん持って行ったんだが、飛ぶように売れたよ。",
           DialogueId = 51101037,
           GUID = "7FED13E2",
           NextDialogue = 51101038,
           SpeakNpcId = 700321
         },
         [51101038] = {
-          Content = "这次买了不少，希望能帮到更多人吧……",
+          ContentJP = "今回もたくさん仕入れた。きっと役立つはずだ。",
           DialogueId = 51101038,
           GUID = "7FED140C",
           NextDialogue = 51101039,
           SpeakNpcId = 700321
         },
         [51101039] = {
-          Content = "好了好了，不说这些让人难过的事了，赶紧把东西搬到码头上吧。",
+          ContentJP = "……よし、暗い話はここまでだ。さあ荷を港へ運ぼう！",
           DialogueId = 51101039,
           GUID = "7FED1436",
           SpeakNpcId = 700321
         },
         [51101040] = {
-          Content = "辛苦啦，这一路上多亏了你们，才走得这么顺利。",
+          ContentJP = "いやぁ、本当に助かったよ。君たちのおかげでここまで無事に来られた。",
           DialogueId = 51101040,
           GUID = "7FED1460",
           NextDialogue = 51101041,
           SpeakNpcId = 700321
         },
         [51101041] = {
-          Content = "来，我看看兜里的钱还剩多少……算了不数了，全给你们当报酬吧，毕竟拉着你们跟我跑东跑西的，天都黑了。",
+          ContentJP = "さて、懐に残ってる金は……いや、もう数えるまでもない。全部君たちへの報酬だ。付き合わせてしまったし、もう日も暮れたからね。",
           DialogueId = 51101041,
           GUID = "7FED148A",
           NextDialogue = 51101042,
           SpeakNpcId = 700321
         },
         [51101042] = {
-          Content = "这么大方，那我就不客气啦！",
+          ContentJP = "へぇ～、太っ腹じゃん！どれどれ……",
           DialogueId = 51101042,
           GUID = "7FED14B4",
           NextDialogue = 51101043,
           SpeakNpcId = 900003
         },
         [51101043] = {
-          Content = "100，200，300……这也没多少嘛。",
+          ContentJP = "100、200、300……思ったより少ない……",
           DialogueId = 51101043,
           GUID = "7FED14DE",
           NextDialogue = 51101044,
           SpeakNpcId = 900003
         },
         [51101044] = {
-          Content = "啊哈哈……抱歉抱歉。我身上也只剩下一点路费了。",
+          ContentJP = "ははは……すまない、これでも路銀を少し残したくらいなんだ。",
           DialogueId = 51101044,
           GUID = "7FED1508",
           NextDialogue = 51101045,
           SpeakNpcId = 700321
         },
         [51101045] = {
-          Content = "感觉你做织星客也有段时间了，为什么还要借钱做生意呢？",
+          ContentJP = "でも、あなたも星織人をやって長いんでしょう？ どうして借金をしてまで商売を？",
           DialogueId = 51101045,
           GUID = "7FED1532",
           NextDialogue = 51101046,
           SpeakNpcId = 100001
         },
         [51101046] = {
-          Content = "对哦，白见过的那些借钱的家伙都是一个个嘴上哭着穷，实际上藏了不少好宝贝！快，让白看看你压箱底的小金库！",
+          ContentJP = "そうだよ！スノウが見てきた借金持ちは、みんな裏で宝物を隠してるんだよ！さあ見せなさい、「秘密の金庫」を！",
           DialogueId = 51101046,
           GUID = "7FED155C",
           NextDialogue = 51101047,
           SpeakNpcId = 900003
         },
         [51101047] = {
-          Content = "好机灵的皎皎，那就给你们看看吧，要是有喜欢的，尽管拿去。",
+          ContentJP = "ふふ、賢いな。その通りだ。見せてあげよう。気に入ったものがあったら持っていって構わない。",
           DialogueId = 51101047,
           GUID = "7FED1586",
           NextDialogue = 51101048,
           SpeakNpcId = 700321
         },
         [51101048] = {
-          Content = "这都是些什么哇，一块碎掉的小珍珠……还有一朵干巴巴的花？想拿这些垃圾敷衍魔王大人，拿回去拿回去！",
+          ContentJP = "なにこれ？欠けた真珠に……干からびた花？こんなんんで魔王様を誤魔化そうなんて、そうはいかないよ？シッシッ！",
           DialogueId = 51101048,
           GUID = "7FED15B0",
           NextOptions = {
@@ -134747,278 +134747,278 @@ local Data = {
           SpeakNpcId = 900003
         },
         [51101049] = {
-          Content = "我想，这些东西的价值，在于它们背后的故事，对吗？",
+          ContentJP = "……でも、それらの品には「物語」があるんですよね？",
           DialogueId = 51101049,
           GUID = "7FED15DA",
           ImprPlusId = 1209,
           NextDialogue = 51101050
         },
         [51101050] = {
-          Content = "好眼力！",
+          ContentJP = "おお、さすが。よく見抜いたな。",
           DialogueId = 51101050,
           GUID = "7FED1604",
           NextDialogue = 51101053,
           SpeakNpcId = 700321
         },
         [51101051] = {
-          Content = "看来不打你一顿，你是不会承认自己其实是亿万富翁了。",
+          ContentJP = "強引な手を使わないと、出してくれないようですね？",
           DialogueId = 51101051,
           GUID = "7FED162E",
           ImprPlusId = 1210,
           NextDialogue = 51101052
         },
         [51101052] = {
-          Content = "少侠收手，收手。听我说完。",
+          ContentJP = "待て待て！聞いてくれ。",
           DialogueId = 51101052,
           GUID = "7FED1658",
           NextDialogue = 51101053,
           SpeakNpcId = 700321
         },
         [51101053] = {
-          Content = "这些是我赚到的最贵重的宝贝了，二位且听我慢慢道来。",
+          ContentJP = "これらは私の一番の宝なんだ。",
           DialogueId = 51101053,
           GUID = "7FED1682",
           NextDialogue = 51101054,
           SpeakNpcId = 700321
         },
         [51101054] = {
-          Content = "这珍珠，是我在卢卡一位画家手里买到的。我本想在那里买点颜料带回华胥卖，却在画具店前碰到了一位徘徊的年轻人。",
+          ContentJP = "この真珠はルッカで手に入れた。絵具を買って帰ろうとした時に、店の前で、うろついていた若者から買ったんだ。",
           DialogueId = 51101054,
           GUID = "7FED16AC",
           NextDialogue = 51101055,
           SpeakNpcId = 700321
         },
         [51101055] = {
-          Content = "一把没剩几根毛的画笔插在他乱糟糟的头发里，全身上下没有一处不沾着五颜六色的颜料，卢卡潮湿的空气让我离得老远都能闻到他身上散发出来的异味。",
+          ContentJP = "毛のほとんど抜け落ちた筆を乱れた髪に差し込み、全身どこを見ても絵具まみれ。湿ったルッカの空気の中でも、離れていてわかるほど独特な匂いを漂わせていた。",
           DialogueId = 51101055,
           GUID = "7FED16D6",
           NextDialogue = 51101056,
           SpeakNpcId = 700321
         },
         [51101056] = {
-          Content = "呕呃……",
+          ContentJP = "うぇ……",
           DialogueId = 51101056,
           GUID = "7FED1700",
           NextDialogue = 51101057,
           SpeakNpcId = 900003
         },
         [51101057] = {
-          Content = "哈哈哈，我当时也差不多这个反应。可能艺术家多少都会有些另类，我这种粗人是理解不了，但我能理解他眼神中的渴望。",
+          ContentJP = "ははっ、私も最初は同じように面食らったよ。芸術家ってやつは、どうにも風変わりだからな。粗野な私には理解できないことも多い。――けど、あの瞳に宿っていた渇望だけは、一目でわかった。",
           DialogueId = 51101057,
           GUID = "7FED172A",
           NextDialogue = 51101058,
           SpeakNpcId = 700321
         },
         [51101058] = {
-          Content = "他就那样在店门口从左边走到右边，抬头看看店内的颜料，又从右边走到左边，看看店内的画布。",
+          ContentJP = "そいつは店先をうろうろしながら、絵具やキャンバスを名残惜しそうに眺めていたんだ。",
           DialogueId = 51101058,
           GUID = "7FED1754",
           NextDialogue = 51101059,
           SpeakNpcId = 700321
         },
         [51101059] = {
-          Content = "最后他摸了摸口袋，叹了口气就转身要走，我这时候很快啊，立马过去拦住了他。",
+          ContentJP = "最後にはポケットを探って、ため息ひとつ。諦めて帰ろうとしたその瞬間、私は慌てて声をかけた。",
           DialogueId = 51101059,
           GUID = "7FED177E",
           NextDialogue = 51101060,
           SpeakNpcId = 700321
         },
         [51101060] = {
-          Content = "聊了一会我发现，我果然听不懂他讲的光泽、饱和、构图之类的专业术语。但我能听懂他是一位上不起学、买不起画具却想追求艺术的苦孩子。",
+          ContentJP = "話してみれば、専門用語などさっぱりだったけど……金も学もないのに、それでも必死で芸術を追いかけてる子だってことだけは、すぐに伝わったよ。",
           DialogueId = 51101060,
           GUID = "7FED17A8",
           NextDialogue = 51101061,
           SpeakNpcId = 700321
         },
         [51101061] = {
-          Content = "那不是我第一次去卢卡，也不是我第一次碰到穷画家，但却是我第一次看到一个闪闪发光的人。",
+          ContentJP = "ルカには何度も行ったし、貧しい画家に会うのも初めてじゃなかった。でも、人があんなふうに「輝いて見えた」のは、初めてだった。",
           DialogueId = 51101061,
           GUID = "7FED17D2",
           NextDialogue = 51101062,
           SpeakNpcId = 700321
         },
         [51101062] = {
-          Content = "闪闪发光？卢卡的颜料这么厉害，都能反光了！",
+          ContentJP = "輝いて……？ルッカの絵具ってそんなにスゴイのか！？",
           DialogueId = 51101062,
           GUID = "7FED17FC",
           NextDialogue = 51101063,
           SpeakNpcId = 900003
         },
         [51101063] = {
-          Content = "不，我说的是眼神中的那种感觉。我喜欢他那充满朝气与希望的样子，就像华胥的年轻人一样。",
+          ContentJP = "違うよ。私が言ってるのは瞳の輝きだ。あの若者の、朝の光みたいに希望に満ちた目が好きだったんだ。まるで華胥の若者たちのようにな。",
           DialogueId = 51101063,
           GUID = "7FED1826",
           NextDialogue = 51101064,
           SpeakNpcId = 700321
         },
         [51101064] = {
-          Content = "也许是我羡慕那个样子，也许是我太久没回华胥了，结果就是我把那趟赚到的钱基本都给了他，他过意不去，就把他妈妈的珍珠手链给了我。",
+          ContentJP = "たぶん、私はあの姿に憧れてたんだろう。あるいは長く故郷を離れていたせいかもしれない。気づけば、そのときの稼ぎをほとんど渡してしまってな。彼も気にして、母親の形見の真珠の首飾りをくれたんだ。",
           DialogueId = 51101064,
           GUID = "7FED1850",
           NextDialogue = 51101065,
           SpeakNpcId = 700321
         },
         [51101065] = {
-          Content = "后来我去卢卡做生意都会顺路看看他，每次看到他获得新的成就，都能让我感到十分欣慰。",
+          ContentJP = "それからルッカに行くたびに彼の様子を見に行った。新しい絵を描いている姿や、少しずつ認められていくのを見るたびに、本当に嬉しくてな。",
           DialogueId = 51101065,
           GUID = "7FED187A",
           NextDialogue = 51101066,
           SpeakNpcId = 700321
         },
         [51101066] = {
-          Content = "唯一可惜的是他送我的手链，被一场暴风雨卷进了海里，就剩下这一颗了。",
+          ContentJP = "……ただ残念なのは、その首飾りは嵐にさらわれて、いま残ってるのはこの一粒だけだ。",
           DialogueId = 51101066,
           GUID = "7FED18A4",
           NextDialogue = 51101067,
           SpeakNpcId = 700321
         },
         [51101067] = {
-          Content = "（赵谦讪讪的笑着，随后又用手小心翼翼地捧起那朵泛黄枯死的花。）",
+          ContentJP = "チョウケンは少し照れ笑いを浮かべ、枯れて色褪せた花を大切そうに手にすくい上げる。",
           DialogueId = 51101067,
           GUID = "7FED18CE",
           NextDialogue = 51101068
         },
         [51101068] = {
-          Content = "这朵花的故事说起来倒也简单，那时我在赫墨的沙漠中碰到了一名脱水的小姑娘。",
+          ContentJP = "この花にも、ちょっとした思い出がある。あれはケメト砂漠で倒れていた少女を助けたときのことだ。",
           DialogueId = 51101068,
           GUID = "7FED18F8",
           NextDialogue = 51101069,
           SpeakNpcId = 700321
         },
         [51101069] = {
-          Content = "那地方偏得很，来不及送到附近的大型聚落，所以求医问路，安置小姑娘都比较麻烦。费了好一番功夫才救了回来。",
+          ContentJP = "あの場所はあまりに辺鄙で、大きな集落まで連れて行くのも難しい。医者を呼ぶのも、少女を休ませるのもひと苦労だった。",
           DialogueId = 51101069,
           GUID = "7FED1922",
           NextDialogue = 51101070,
           SpeakNpcId = 700321
         },
         [51101070] = {
-          Content = "后来我从小姑娘那了解到，她瘫倒的那片沙漠经常有人脱水而死，但为了生存，人们还是一个接一个地走入茫茫黄沙。",
+          ContentJP = "あとで彼女から聞いたんだが、その砂漠では脱水で命を落とす人が後を絶たないらしい。けれど生きるために、人はそれでも黄砂の中を進まなきゃならないんだ。",
           DialogueId = 51101070,
           GUID = "7FED194C",
           NextDialogue = 51101071,
           SpeakNpcId = 700321
         },
         [51101071] = {
-          Content = "我救不了他们所有人，但花点钱雇人多找点水源还是能做到的。这朵花，便是小姑娘从那些水源蔓延出的绿洲中采下的。",
+          ContentJP = "私一人では全部救えない。だが金を出して水源を探させることくらいはできる。この花は、あの少女が水源から生まれた小さなオアシスで摘んできたものなんだ。",
           DialogueId = 51101071,
           GUID = "7FED1976",
           NextDialogue = 51101072,
           SpeakNpcId = 700321
         },
         [51101072] = {
-          Content = "这么一想，我这大半辈子虽然跑过不少地方，但赚的钱基本都在路上花掉了啊，哈哈哈哈哈。",
+          ContentJP = "思えば私は半生、あちこち駆け回っては稼ぎを道中で使い果たしてばかりだ。",
           DialogueId = 51101072,
           GUID = "7FED19A0",
           NextDialogue = 51101073,
           SpeakNpcId = 700321
         },
         [51101073] = {
-          Content = "不过钱嘛，没了还能再赚，为了理想辛苦点也是值得的。",
+          ContentJP = "……でもな、金なんてまた稼げばいい。理想のために苦労するなら、それで十分だろう？",
           DialogueId = 51101073,
           GUID = "7FED19CA",
           NextDialogue = 51101074,
           SpeakNpcId = 700321
         },
         [51101074] = {
-          Content = "理想？",
+          ContentJP = "理想？",
           DialogueId = 51101074,
           GUID = "7FED19F4",
           NextDialogue = 51101075,
           SpeakNpcId = 900003
         },
         [51101075] = {
-          Content = "嗯，织星客最早的理想，也是最天真的理想。",
+          ContentJP = "ああ。星織人の始まりにある――いちばん素朴で、いちばん大事な理想だ。",
           DialogueId = 51101075,
           GUID = "7FED1A1E",
           NextDialogue = 51101076,
           SpeakNpcId = 700321
         },
         [51101076] = {
-          Content = "你们看我指的这是什么？",
+          ContentJP = "あれ、何かわかるか？",
           DialogueId = 51101076,
           GUID = "7FED1A48",
           NextDialogue = 51101077,
           SpeakNpcId = 700321
         },
         [51101077] = {
-          Content = "我知道我知道，是星星！",
+          ContentJP = "わかるよ！星でしょ！",
           DialogueId = 51101077,
           GUID = "7FED1A72",
           NextDialogue = 51101078,
           SpeakNpcId = 900003
         },
         [51101078] = {
-          Content = "我把它连起来呢？",
+          ContentJP = "じゃあ、繋げたら？",
           DialogueId = 51101078,
           GUID = "7FED1A9C",
           NextDialogue = 51101079,
           SpeakNpcId = 700321
         },
         [51101079] = {
-          Content = "唔嗯……",
+          ContentJP = "うーん……",
           DialogueId = 51101079,
           GUID = "7FED1AC6",
           NextDialogue = 51101080,
           SpeakNpcId = 900003
         },
         [51101080] = {
-          Content = "连起来是天象仪座，我们常常用它来确认方向。而这里连起来便是织星者座，也是我们织星客名称的由来。",
+          ContentJP = "線で結べば、天象儀座だ。私たちはそれで方角を知る。だから私たちは星織人と呼ばれているんだ。",
           DialogueId = 51101080,
           GUID = "7FED1AF0",
           NextDialogue = 51101081,
           SpeakNpcId = 700321
         },
         [51101081] = {
-          Content = "阿特拉西亚大陆上的各个国家，城镇，就像这天上的星星一样，有的璀璨耀眼，有的黯淡无光。但它们都在那里。",
+          ContentJP = "アトラシア大陸の国々や町も、空の星々と同じさ。輝くものもあれば、かすんで見えるものもある。けれど、どれも確かにそこに存在している。",
           DialogueId = 51101081,
           GUID = "7FED1B1A",
           NextDialogue = 51101082,
           SpeakNpcId = 700321
         },
         [51101082] = {
-          Content = "也许看上去距离很远，彼此孤立，但只要连接起来，便会组成全新的“星座”。而我们织星客的足迹便是将这些“星星”连起来的线。",
+          ContentJP = "互いに離れ孤立しているように見えても、線で結べば星座になる。私たち星織人の旅路は、その線を描くことなんだ。",
           DialogueId = 51101082,
           GUID = "7FED1B44",
           NextDialogue = 51101083,
           SpeakNpcId = 700321
         },
         [51101083] = {
-          Content = "遥远的过去，这片土地第一次响起人类的啼哭，他们一无所有，只有头顶这片星空。",
+          ContentJP = "遥か昔、この大地で人間が初めて声を上げたとき、持っていたのは頭上の星空だけだった。",
           DialogueId = 51101083,
           GUID = "7FED1B6E",
           NextDialogue = 51101084,
           SpeakNpcId = 700321
         },
         [51101084] = {
-          Content = "未来的某天，也许人类又会回到一无所有的状态，但那些被织星客连起来的“线”并不会因此断掉。",
+          ContentJP = "そして未来のどこかで、人がまた何も持たなくなったとしても――星織人が結んだ線は決して消えない。",
           DialogueId = 51101084,
           GUID = "7FED1B98",
           NextDialogue = 51101085,
           SpeakNpcId = 700321
         },
         [51101085] = {
-          Content = "商品、文明与知识，将沿着这些线送到大陆的各个角落，送到那些需要它们的人手中。我们大地上的“群星”，也会变得越来越耀眼。",
+          ContentJP = "商品も、知識も、文明も――その線を伝って大陸の隅々へと届く。必要とする者の手に渡り、大地の群星はもっと輝きを増していくんだ。",
           DialogueId = 51101085,
           GUID = "7FED1BC2",
           NextDialogue = 51101086,
           SpeakNpcId = 700321
         },
         [51101086] = {
-          Content = "（赵谦说着说着笑了起来——恰巧碰上岸边传来的，悠长的鸣笛声。你想起他说过的“闪闪发光的人”，而此时此刻眼前的这位织星客，眼底似乎也有什么在闪闪发光。）",
+          ContentJP = "チョウケンは笑いながら語る。そのとき、岸辺から長く響く汽笛の音。かつて彼が言った光を放つ人を思い出す。――今の彼自身の瞳もまた、確かに光を宿していた。",
           DialogueId = 51101086,
           GUID = "7FED1BEC",
           NextDialogue = 51101087
         },
         [51101087] = {
-          Content = "船到了，我也该走了。希望未来的某天，我们能在这片大陆的某个角落重逢。",
+          ContentJP = "船が来たようだ。……私はこれで行く。願わくば、いつの日か大陸のどこかで再び会えることを。",
           DialogueId = 51101087,
           GUID = "7FED1C16",
           NextDialogue = 51101088,
           SpeakNpcId = 700321
         },
         [51101088] = {
-          Content = "后会有期。",
+          ContentJP = "また会おう。",
           DialogueId = 51101088,
           GUID = "7FED1C40",
           NextOptions = {
@@ -135027,26 +135027,26 @@ local Data = {
           SpeakNpcId = 700321
         },
         [51101089] = {
-          Content = "后会有期。",
+          ContentJP = "また会おう。",
           DialogueId = 51101089,
           GUID = "7FED1C6A"
         },
         [51101090] = {
-          Content = "哦呦，这码头上货的地方怎么被这些小家伙占住了。咱们一块赶走它们吧。",
+          ContentJP = "おや、港の荷揚げ場が小さなモンスターどもに占領されているな。まとめて追い払おう！",
           DialogueId = 51101090,
           GUID = "7FED1C94",
           NextDialogue = 51101091,
           SpeakNpcId = 700321
         },
         [51101091] = {
-          Content = "去去，呼略，去去，我们要往这放东西呢。",
+          ContentJP = "シッシッ、どけどけ！ここに荷を置かねばならんのだ！",
           DialogueId = 51101091,
           GUID = "7FED1CBE",
           SpeakNpcId = 700321
         },
         [51102001] = {
           Camera = "645.011719,215.524414,95.914062,0.000001,-6.599854,-162.398209,35.0,651.573547,false,Manual,2.8",
-          Content = "二位英雄请留步。",
+          ContentJP = "そこのお二人、ちょっと待った。",
           DialogueId = 51102001,
           GUID = "7FEDB20A",
           NextDialogue = 51102002,
@@ -135057,7 +135057,7 @@ local Data = {
         },
         [51102002] = {
           Camera = "-156.484375,-67.136719,113.200684,0.000001,-9.999662,14.205973,35.0,299.776581,false,Manual,2.8",
-          Content = "什么事？",
+          ContentJP = "ん、何か？",
           DialogueId = 51102002,
           GUID = "7FEDB234",
           LookAt = {
@@ -135071,7 +135071,7 @@ local Data = {
         },
         [51102003] = {
           Camera = "-27.642578,-571.077148,131.51416,0.000049,-9.599796,81.000999,35.0,631.937927,false,Manual,2.8",
-          Content = "说来唐突，阁下可曾听闻玄天口谕？",
+          ContentJP = "唐突で悪いが……「天の声」を聞いたことはないか？",
           DialogueId = 51102003,
           GUID = "7FEDB25E",
           NextDialogue = 51102004,
@@ -135079,7 +135079,7 @@ local Data = {
         },
         [51102004] = {
           Camera = "-7.996094,1.37793,50.615234,0.000117,-8.999327,37.795189,35.0,145.872787,false,Manual,2.8",
-          Content = "玄天口谕？那是什么东西？",
+          ContentJP = "天の声？なにそれ？",
           DialogueId = 51102004,
           GUID = "7FEDB288",
           LookAt = {
@@ -135093,7 +135093,7 @@ local Data = {
         },
         [51102005] = {
           Camera = "375.533203,122.591797,81.722656,0.00012,-2.399288,-162.004395,35.0,468.597351,false,Manual,2.8",
-          Content = "即是于思绪中回荡之声，其声若……若来自九霄天外，如同严父，又似慈母……",
+          ContentJP = "心に響くんだ。厳しい父のようでもあり、優しい母のようでもある、不思議な声だ。",
           DialogueId = 51102005,
           GUID = "7FEDB2B2",
           NextDialogue = 51102006,
@@ -135101,7 +135101,7 @@ local Data = {
         },
         [51102006] = {
           Camera = "-156.484375,-67.136719,113.200684,0.000001,-9.999662,14.205973,35.0,299.776581,false,Manual,2.8",
-          Content = "（那个声音，难道他说的是……）",
+          ContentJP = "（……まさか、あの声のこと？）",
           DialogueId = 51102006,
           GUID = "7FEDB2DC",
           NextDialogue = 51102007,
@@ -135109,7 +135109,7 @@ local Data = {
         },
         [51102007] = {
           Camera = "-156.484375,-67.136719,113.200684,0.000001,-9.999662,14.205973,35.0,299.776581,false,Manual,2.8",
-          Content = "你也听到过那个声音？",
+          ContentJP = "あなたもあの声を聞いたことがあるの{性别:か|}？",
           DialogueId = 51102007,
           GUID = "7FEDB306",
           LookAt = {
@@ -135123,7 +135123,7 @@ local Data = {
         },
         [51102008] = {
           Camera = "375.533203,122.591797,81.722656,0.00012,-2.399288,-162.004395,35.0,468.597351,false,Manual,2.8",
-          Content = "什么叫“也”？敢情还真听过？",
+          ContentJP = "なっ……！本当に耳にしたのか！？",
           DialogueId = 51102008,
           GUID = "7FEDB330",
           NextDialogue = 51102009,
@@ -135131,7 +135131,7 @@ local Data = {
         },
         [51102009] = {
           Camera = "-239.767578,-371.516602,182.77832,0.000116,-17.599176,51.401344,35.0,565.41864,false,Manual,2.8",
-          Content = "嗯？明明是你先问的，你怎么好像一幅很惊讶的样子？",
+          ContentJP = "え？そもそもあんたが聞いたんじゃない！何驚いてるんだし！",
           DialogueId = 51102009,
           GUID = "7FEDB35A",
           LookAt = {
@@ -135145,7 +135145,7 @@ local Data = {
         },
         [51102010] = {
           Camera = "375.533203,122.591797,81.722656,0.00012,-2.399288,-162.004395,35.0,468.597351,false,Manual,2.8",
-          Content = "没没没，只是确信了您就是在下苦苦等候的英雄，一时有感而发。",
+          ContentJP = "いやいや、これでようやく確信が持てたよ……！やっぱり君たちこそ、俺が待ち続けてた人間だ！",
           DialogueId = 51102010,
           GUID = "7FEDB384",
           NextDialogue = 51102011,
@@ -135156,14 +135156,14 @@ local Data = {
         },
         [51102011] = {
           Camera = "-27.642578,-571.077148,131.51416,0.000049,-9.599796,81.000999,35.0,631.937927,false,Manual,2.8",
-          Content = "咱们言归正传，在下偶得天机，如今时机已到，便与英雄透露一二……",
+          ContentJP = "さて——本題に入ろう。俺はある「啓示」を受けた。時が満ちた今、君たちに伝えたい。",
           DialogueId = 51102011,
           GUID = "7FEDB3AE",
           SpeakNpcId = 700322
         },
         [51102012] = {
           Camera = "15.212891,-75.541016,90.239258,0.000013,-5.598753,28.601549,35.0,133.830734,false,Manual,2.8",
-          Content = "什么天机，说来听听？",
+          ContentJP = "啓示って……内容は？",
           DialogueId = 51102012,
           GUID = "7FEDB3D8",
           LookAt = {
@@ -135177,7 +135177,7 @@ local Data = {
         },
         [51102013] = {
           Camera = "375.533203,122.591797,81.722656,0.00012,-2.399288,-162.004395,35.0,468.597351,false,Manual,2.8",
-          Content = "莫急莫急，这第一句，“重山叠水之外，孤帆朽木之间”。",
+          ContentJP = "そう焦るな。まずは「山と川を越え、朽ち果てた船に宝は眠る」……だ。",
           DialogueId = 51102013,
           GUID = "7FEDB402",
           NextDialogue = 51102014,
@@ -135188,7 +135188,7 @@ local Data = {
         },
         [51102014] = {
           Camera = "15.212891,-75.541016,90.239258,0.000013,-5.598753,28.601549,35.0,133.830734,false,Manual,2.8",
-          Content = "听起来像是在说黑市旁的那艘沉船……那里有什么？",
+          ContentJP = "……もしかして、闇市のそばの沈没船のこと？そこに何があるの{性别:か|}？",
           DialogueId = 51102014,
           GUID = "7FEDB42C",
           NextDialogue = 51102015,
@@ -135196,7 +135196,7 @@ local Data = {
         },
         [51102015] = {
           Camera = "375.533203,122.591797,81.722656,0.00012,-2.399288,-162.004395,35.0,468.597351,false,Manual,2.8",
-          Content = "英雄果然聪慧，在下正是得这第一条口谕才走访此间。",
+          ContentJP = "さすがだ。鋭いな。——俺はその言葉を頼りにここへ来た。",
           DialogueId = 51102015,
           GUID = "7FEDB456",
           NextDialogue = 51102016,
@@ -135207,7 +135207,7 @@ local Data = {
         },
         [51102016] = {
           Camera = "375.533203,122.591797,81.722656,0.00012,-2.399288,-162.004395,35.0,468.597351,false,Manual,2.8",
-          Content = "在下观得二位仪表堂堂器宇不凡，又有霞光普照，定是财运亨通之人。这预言所示之处，应是二位的财源所在了。",
+          ContentJP = "見たところお二人、只者じゃないな。なんとも光を放たれているではないか。だからこそ、この宝も君たちを待ってるはずだ。",
           DialogueId = 51102016,
           GUID = "7FEDB480",
           NextDialogue = 51102017,
@@ -135215,7 +135215,7 @@ local Data = {
         },
         [51102017] = {
           Camera = "-7.996094,1.37793,50.615234,0.000117,-8.999327,37.795189,35.0,145.872787,false,Manual,2.8",
-          Content = "那我们就四处走走看看，见到可疑的地方就挖开，说不定能找到什么宝藏呢！",
+          ContentJP = "じゃあ探しに行ってみようよ！怪しいとこを片っ端から掘れば、何か出てくるかも！",
           DialogueId = 51102017,
           GUID = "7FEDB4AA",
           LookAt = {
@@ -135229,7 +135229,7 @@ local Data = {
         },
         [51102018] = {
           Camera = "-27.642578,-571.077148,131.51416,0.000049,-9.599796,81.000999,35.0,631.937927,false,Manual,2.8",
-          Content = "如果真要那么简单就能找到宝藏，恐怕他也不会在这抓人帮忙了。",
+          ContentJP = "そんな簡単なら、わざわざ{性别:僕|私}を巻き込まない{性别:だろう|でしょ}。",
           DialogueId = 51102018,
           GUID = "7FEDB4D4",
           LookAt = {
@@ -135244,7 +135244,7 @@ local Data = {
         },
         [51102019] = {
           Camera = "-27.642578,-571.077148,131.51416,0.000049,-9.599796,81.000999,35.0,631.937927,false,Manual,2.8",
-          Content = "此言差矣，生死有命富贵在天，在下岂有篡天改命之能？该是二位的命数，在下不过指点一二，只求与鸿运之人结缘罢了。",
+          ContentJP = "はは……富も運命も天次第さ。俺は道を示すだけ、決めるのは君たちだ。",
           DialogueId = 51102019,
           GUID = "7FEDB4FE",
           NextDialogue = 51102020,
@@ -135255,7 +135255,7 @@ local Data = {
         },
         [51102020] = {
           Camera = "375.533203,122.591797,81.722656,0.00012,-2.399288,-162.004395,35.0,468.597351,false,Manual,2.8",
-          Content = "若二位不信，在下这卦分文不取，等二位去一探究竟再回来不迟。",
+          ContentJP = "信じるなら行ってみろ。何も出ずとも笑い話で終わろう。もし何かを掘り起こせれば——まさしく運命の縁ってやつだ。",
           DialogueId = 51102020,
           GUID = "7FEDB528",
           NextOptions = {
@@ -135268,7 +135268,7 @@ local Data = {
           }
         },
         [51102021] = {
-          Content = "好吧，如果有什么发现我会告诉你。",
+          ContentJP = "わかった。何か見つけたら教えるよ。",
           DialogueId = 51102021,
           GUID = "7FEDB552",
           ImprPlusId = 1207,
@@ -135276,7 +135276,7 @@ local Data = {
         },
         [51102022] = {
           Camera = "375.533203,122.591797,81.722656,0.00012,-2.399288,-162.004395,35.0,468.597351,false,Manual,2.8",
-          Content = "多谢二位英雄。",
+          ContentJP = "おお、感謝する！",
           DialogueId = 51102022,
           GUID = "7FEDB57C",
           SpeakNpcId = 700322,
@@ -135285,7 +135285,7 @@ local Data = {
           }
         },
         [51102023] = {
-          Content = "好吧，不过要是真有宝藏，你不会管我要分成吧？",
+          ContentJP = "いいけど、本当にお宝があったら山分けだから{性别:な|ね}？",
           DialogueId = 51102023,
           GUID = "7FEDB5A6",
           ImprPlusId = 1206,
@@ -135293,7 +135293,7 @@ local Data = {
         },
         [51102024] = {
           Camera = "375.533203,122.591797,81.722656,0.00012,-2.399288,-162.004395,35.0,468.597351,false,Manual,2.8",
-          Content = "那自然不会。",
+          ContentJP = "ああ、もちろんだ。",
           DialogueId = 51102024,
           GUID = "7FEDB5D0",
           SpeakNpcId = 700322,
@@ -135303,7 +135303,7 @@ local Data = {
         },
         [51102025] = {
           Camera = "-115.849609,-257.954102,150.429199,0.000071,-17.399326,54.601627,35.0,425.215027,false,Manual,2.8",
-          Content = "这是……五枚铜币？",
+          ContentJP = "ええと……銅貨？それもたった5枚しかない。",
           DialogueId = 51102025,
           GUID = "7FEDB5FA",
           LookAt = {
@@ -135318,7 +135318,7 @@ local Data = {
         },
         [51102026] = {
           Camera = "645.011719,215.524414,95.914062,0.000001,-6.599854,-162.398209,35.0,651.573547,false,Manual,2.8",
-          Content = "哦，果真有所收获，看来喻示所言非虚。",
+          ContentJP = "おお、本当にあったか！やはり啓示は偽りじゃなかったな！",
           DialogueId = 51102026,
           GUID = "7FEDB624",
           LookAt = {
@@ -135332,7 +135332,7 @@ local Data = {
         },
         [51102027] = {
           Camera = "-115.849609,-257.954102,150.429199,0.000071,-17.399326,54.601627,35.0,425.215027,false,Manual,2.8",
-          Content = "好小气，这真的是宝藏吗，不会是哪个小朋友偷偷藏的零花钱吧？",
+          ContentJP = "しょぼ……子どもの小遣い隠し場所じゃないの？",
           DialogueId = 51102027,
           GUID = "7FEDB64E",
           LookAt = {
@@ -135346,7 +135346,7 @@ local Data = {
         },
         [51102028] = {
           Camera = "375.533203,122.591797,81.722656,0.00012,-2.399288,-162.004395,35.0,468.597351,false,Manual,2.8",
-          Content = "这……英雄莫怪，这一遭乃是必经之路，兴许下一程就有收获了呢？",
+          ContentJP = "まあまあ、そう怒るなって。これは通過点みたいなもんだ。次は、とびっきりのお宝があるかもしれないぞ？",
           DialogueId = 51102028,
           GUID = "7FEDB678",
           NextDialogue = 51102029,
@@ -135357,7 +135357,7 @@ local Data = {
         },
         [51102029] = {
           Camera = "15.212891,-75.541016,90.239258,0.000013,-5.598753,28.601549,35.0,133.830734,false,Manual,2.8",
-          Content = "总感觉你在骗我……",
+          ContentJP = "なんだか怪しいんだけど……",
           DialogueId = 51102029,
           FacialId = {
             [1] = "100001:Doubt01"
@@ -135375,7 +135375,7 @@ local Data = {
         },
         [51102030] = {
           Camera = "-27.642578,-571.077148,131.51416,0.000047,-8.999784,79.401276,35.0,631.937927,false,Manual,2.8",
-          Content = "话不能这么说，在下只是遇到有缘人便多言几句，并无意强求。",
+          ContentJP = "俺はただ、縁ある者に道筋を示しているだけさ。無理強いはしないよ。",
           DialogueId = 51102030,
           FacialId = {
             [1] = "100001:None"
@@ -135386,7 +135386,7 @@ local Data = {
         },
         [51102031] = {
           Camera = "-27.642578,-571.077148,131.51416,0.000047,-8.999784,79.401276,35.0,631.937927,false,Manual,2.8",
-          Content = "这第二句，“枯骨独卧折戟侧，苔深犹照石海空”。是否要前去寻这地方，英雄自便就是。",
+          ContentJP = "二つ目は「折れた槍を抱いて眠る骸、苔に覆われし石の海、空は映らず」。行くかどうかは、君たち次第だ。",
           DialogueId = 51102031,
           GUID = "7FEDB6F6",
           NextDialogue = 51102032,
@@ -135397,7 +135397,7 @@ local Data = {
         },
         [51102032] = {
           Camera = "-156.484375,-67.136719,113.200684,0.000001,-9.999662,14.205973,35.0,299.776581,false,Manual,2.8",
-          Content = "（折戟……石海……？听起来有些熟悉，有时间的话还是去看看吧。）",
+          ContentJP = "（折れた槍、石の海……聞き覚えがあるな。時間があれば行ってみようかな。）",
           DialogueId = 51102032,
           FacialId = {
             [1] = "100001:Think01"
@@ -135410,7 +135410,7 @@ local Data = {
         },
         [51102033] = {
           Camera = "-149.505859,1027.396973,-1193.769531,0.00001,4.000114,168.796509,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "那个神秘兮兮的家伙说的地方应该就在这附近……",
+          ContentJP = "さっきの人が言ってたのは、恐らくこの辺だと思う……",
           DialogueId = 51102033,
           GUID = "7FEDB74A",
           LookAt = {
@@ -135425,7 +135425,7 @@ local Data = {
         },
         [51102034] = {
           Camera = "-489.546875,1160.666992,-1151.067383,0.000046,-12.999803,-22.002632,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "这个地方好阴森，真的会有宝藏吗？",
+          ContentJP = "なんか不気味……ほんとに宝なんてあるの？",
           DialogueId = 51102034,
           GUID = "7FEDB774",
           NextDialogue = 51102035,
@@ -135436,7 +135436,7 @@ local Data = {
         },
         [51102035] = {
           Camera = "-149.505859,1027.396973,-1193.769531,0.00001,4.000114,168.796509,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "如果真有宝藏，就不会有人把这件事告诉别人了吧？",
+          ContentJP = "まぁ、本当にお宝があるのなら、他人に教えたりはしないと思うけど……",
           DialogueId = 51102035,
           GUID = "7FEDB79E",
           NextDialogue = 51102036,
@@ -135447,7 +135447,7 @@ local Data = {
         },
         [51102036] = {
           Camera = "-376.947266,534.023438,-1147.687012,0.000055,-7.799748,81.195419,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "吼——",
+          ContentJP = "グオォォォ……！",
           DialogueId = 51102036,
           GUID = "7FEDB7C8",
           Scripts = "SetVisibility{ActorId{210087},Visibility{"Show"}}",
@@ -135458,21 +135458,21 @@ local Data = {
           }
         },
         [51102037] = {
-          Content = "又是这些大黑狗，到底是从哪里冒出来的！",
+          ContentJP = "またこの黒い化け犬！一体どこから出てきたんだし！？",
           DialogueId = 51102037,
           GUID = "7FEDB7F2",
           NextDialogue = 51102038,
           SpeakNpcId = 700363
         },
         [51102038] = {
-          Content = "快躲到我身后。",
+          ContentJP = "スノウ、{性别:僕|私}の後ろに隠れて！",
           DialogueId = 51102038,
           GUID = "7FEDB81C",
           SpeakNpcId = 100001
         },
         [51102039] = {
           Camera = "-354.792969,1106.128906,-1192.614258,0.000058,-11.599819,-22.20047,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "真是的，怎么突然冒出来这么多怪物，还好我们很强，要是一般人来这可就糟了。",
+          ContentJP = "うへぇ……すごい数。スノウたちだったから良かったけど、一般人ならひとたまりもなかったよね。",
           DialogueId = 51102039,
           GUID = "7FEDB846",
           LookAt = {
@@ -135486,7 +135486,7 @@ local Data = {
         },
         [51102040] = {
           Camera = "125.566406,965.652344,-1111.134766,0.000054,-12.199892,167.597137,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "很强的是……“我们”？",
+          ContentJP = "……「たち」？",
           DialogueId = 51102040,
           GUID = "7FEDB870",
           NextDialogue = 51102041,
@@ -135497,7 +135497,7 @@ local Data = {
         },
         [51102041] = {
           Camera = "-407.277344,1005.297363,-1174.481445,0.000019,-13.000062,18.001871,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "啊这个……还是不要找什么宝藏了，我们快离开这吧？",
+          ContentJP = "あっ、ええと……と、とにかく宝探しなんてやめて帰ろうよ！",
           DialogueId = 51102041,
           GUID = "7FEDB89A",
           NextDialogue = 51102042,
@@ -135508,7 +135508,7 @@ local Data = {
         },
         [51102042] = {
           Camera = "-1358.679688,548.598145,-979.144531,0.000016,-9.200011,23.799543,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "不着急，我们在这附近稍微走走吧，我有点好奇之前遇到的那个家伙到底想做什么。",
+          ContentJP = "そう慌てないで。あのうさんくさい人が何を企んでるか気にならない？もう少しこのあたりを調べてみよう。",
           DialogueId = 51102042,
           GUID = "7FEDB8C4",
           SpeakNpcId = 100001,
@@ -135526,7 +135526,7 @@ local Data = {
       return {
         [51102043] = {
           Camera = "-15.613281,332.233398,273.983398,0.000018,-29.799984,-91.399025,35.0,282.505707,false,Manual,2.8",
-          Content = "嗯？这是什么？",
+          ContentJP = "ん？なにこれ……",
           DialogueId = 51102043,
           GUID = "7FEDB8EE",
           NextDialogue = 51102044,
@@ -135535,7 +135535,7 @@ local Data = {
         },
         [51102044] = {
           Camera = "444.105469,-373.708008,196.07666,0.000038,-9.999697,143.80011,35.0,696.120667,false,Manual,2.8",
-          Content = "小仆从小仆从你快过来看，好像真的有宝藏诶！",
+          ContentJP = "ちょっとちょっと、見て！これって例のお宝じゃない！？",
           DialogueId = 51102044,
           GUID = "7FEDB918",
           NextDialogue = 51102045,
@@ -135546,7 +135546,7 @@ local Data = {
         },
         [51102045] = {
           Camera = "444.105469,-373.708008,196.07666,0.000038,-9.999697,143.80011,35.0,696.120667,false,Manual,2.8",
-          Content = "那我们就不客气地收下啦！",
+          ContentJP = "ふへへへ、じゃあ遠慮なく……",
           DialogueId = 51102045,
           GUID = "7FEDB942",
           NextDialogue = 51102046,
@@ -135557,7 +135557,7 @@ local Data = {
         },
         [51102046] = {
           Camera = "231.78125,-321.335938,167.96875,0.000082,-9.999294,125.396858,35.0,422.409485,false,Manual,2.8",
-          Content = "且慢。",
+          ContentJP = "待て。",
           DialogueId = 51102046,
           GUID = "7FEDB96C",
           NextDialogue = 51102047,
@@ -135570,7 +135570,7 @@ local Data = {
         },
         [51102047] = {
           Camera = "415.392578,629.603516,188.165527,0.000093,-3.999048,-126.200905,35.0,819.580994,false,Manual,2.8",
-          Content = "二位英雄，恐怕这些财物不能让你们带走。",
+          ContentJP = "お二人さん、それをこちらに渡して頂けるかな？",
           DialogueId = 51102047,
           GUID = "7FEDB996",
           NextDialogue = 51102048,
@@ -135584,7 +135584,7 @@ local Data = {
         },
         [51102048] = {
           Camera = "-130.197266,-168.708008,189.508789,0.000113,-15.199028,75.196854,35.0,238.547546,false,Manual,2.8",
-          Content = "你在这里干什么？",
+          ContentJP = "何をするつもり？",
           DialogueId = 51102048,
           GUID = "7FEDB9C0",
           NextDialogue = 51102049,
@@ -135595,7 +135595,7 @@ local Data = {
         },
         [51102049] = {
           Camera = "177.078125,336.283203,166.046387,0.000125,-5.199065,-126.603699,35.0,516.776245,false,Manual,2.8",
-          Content = "既然凶兽已驱，在下自然是取回应得之物。",
+          ContentJP = "獣が片付いた今、宝を回収しに来たに決まってるじゃないか。",
           DialogueId = 51102049,
           GUID = "7FEDB9EA",
           NextDialogue = 51102050,
@@ -135606,7 +135606,7 @@ local Data = {
         },
         [51102050] = {
           Camera = "177.078125,336.283203,166.046387,0.000125,-5.199065,-126.603699,35.0,516.776245,false,Manual,2.8",
-          Content = "多亏二位英雄“碰巧”来此除凶驱祸，不然在下埋在此处的积蓄怕是无法取回了。",
+          ContentJP = "いやぁ、ちょうどいい具合に手間が省けたよ。ここに埋めたはいいが、掘り起こせず困ってたんだ。",
           DialogueId = 51102050,
           GUID = "7FEDBA14",
           NextDialogue = 51102051,
@@ -135617,7 +135617,7 @@ local Data = {
         },
         [51102051] = {
           Camera = "-113.234375,-79.991211,166.837891,0.000162,-10.798952,72.195564,35.0,148.932434,false,Manual,2.8",
-          Content = "如果是这样，一开始就实话实说不就好了？",
+          ContentJP = "だったら、最初からそういえばいいのに。",
           DialogueId = 51102051,
           GUID = "7FEDBA3E",
           NextDialogue = 51102052,
@@ -135628,7 +135628,7 @@ local Data = {
         },
         [51102052] = {
           Camera = "534.162109,-171.324219,313.386719,0.000211,-18.79907,165.795944,35.0,672.763,false,Manual,2.8",
-          Content = "此言差矣，在下若是寻求帮助，岂不是要凭空折损一笔报酬。",
+          ContentJP = "それでは取り分が減ってしまうだろう？",
           DialogueId = 51102052,
           GUID = "7FEDBA68",
           NextDialogue = 51102053,
@@ -135639,7 +135639,7 @@ local Data = {
         },
         [51102053] = {
           Camera = "-101.107422,-127.650391,136.024414,0.000225,-16.998995,60.194729,35.0,188.31813,false,Manual,2.8",
-          Content = "有道理……等等，这不就是让我们打白工嘛？！",
+          ContentJP = "確かに……ってちょっと！スノウたち、タダ働きってこと！？",
           DialogueId = 51102053,
           GUID = "7FEDBA92",
           NextDialogue = 51102054,
@@ -135650,7 +135650,7 @@ local Data = {
         },
         [51102054] = {
           Camera = "177.078125,336.283203,166.046387,0.000125,-5.199065,-126.603699,35.0,516.776245,false,Manual,2.8",
-          Content = "是又如何？这些本就是在下的财产，二位总不能在大风九章之下强取豪夺吧？",
+          ContentJP = "だから何だ？元は俺の財産だ。まさか英雄サマが、横取りなんてこすい真似、しねぇよな？",
           DialogueId = 51102054,
           GUID = "7FEDBABC",
           NextDialogue = 51102055,
@@ -135661,7 +135661,7 @@ local Data = {
         },
         [51102055] = {
           Camera = "-130.197266,-168.708008,189.508789,0.000113,-15.199028,75.196854,35.0,238.547546,false,Manual,2.8",
-          Content = "你的财产？怕不是用你那套招摇撞骗得来的不义之财。",
+          ContentJP = "あなたの財産？どうせ人を騙して巻き上げた金なんじゃない？",
           DialogueId = 51102055,
           GUID = "7FEDBAE6",
           NextDialogue = 51102056,
@@ -135672,7 +135672,7 @@ local Data = {
         },
         [51102056] = {
           Camera = "-24.017578,125.793945,181.728516,0.000098,-3.3992,-116.801804,35.0,238.547546,false,Manual,2.8",
-          Content = "这位英雄可不要凭空污人清白，未来之事皆无定数，在下不过是提出一种猜测，总有人愿意花些小钱为未来的发达买单。",
+          ContentJP = "おいおい、心外だな。未来なんて誰にも分からねぇ。俺はただ一つの可能性を示しただけだ。少しばかりの金で先行きを買いたいって連中は、いつだっているもんさ。",
           DialogueId = 51102056,
           GUID = "7FEDBB10",
           NextDialogue = 51102057,
@@ -135680,7 +135680,7 @@ local Data = {
         },
         [51102057] = {
           Camera = "-24.017578,125.793945,181.728516,0.000098,-3.3992,-116.801804,35.0,238.547546,false,Manual,2.8",
-          Content = "至于能否兑现……就不在在下的能力范围之内了。",
+          ContentJP = "それが現実になるかどうか……それは俺の力の及ぶところじゃない。",
           DialogueId = 51102057,
           GUID = "7FEDBB3A",
           NextDialogue = 51102058,
@@ -135688,7 +135688,7 @@ local Data = {
         },
         [51102058] = {
           Camera = "534.162109,-171.324219,313.386719,0.000211,-18.79907,165.795944,35.0,672.763,false,Manual,2.8",
-          Content = "诚然，在下的做法有些不确定性，但既然大风九章从未降下裁决，英雄又如何能称之为招摇撞骗呢？",
+          ContentJP = "確かに、俺のやり方は正当ではないかもしれんな。だが大風九章が裁きを下していない以上、それを欺きと断じるのは早計ではないかね。",
           DialogueId = 51102058,
           GUID = "7FEDBB64",
           NextDialogue = 51102059,
@@ -135699,7 +135699,7 @@ local Data = {
         },
         [51102059] = {
           Camera = "-101.107422,-127.650391,136.024414,0.000225,-16.998995,60.194729,35.0,188.31813,false,Manual,2.8",
-          Content = "居然还一脸得意地解释起来了！这家伙惹我生气了！",
+          ContentJP = "なにそれ！ドヤ顔でよくもそんなこと言えたな！ほんっとムカつく！",
           DialogueId = 51102059,
           FacialId = {
             [1] = "700363:Angry01"
@@ -135713,7 +135713,7 @@ local Data = {
         },
         [51102060] = {
           Camera = "-130.197266,-168.708008,189.508789,0.000113,-15.199028,75.196854,35.0,238.547546,false,Manual,2.8",
-          Content = "……",
+          ContentJP = "……",
           DialogueId = 51102060,
           GUID = "7FEDBBB8",
           NextDialogue = 51102061,
@@ -135724,7 +135724,7 @@ local Data = {
         },
         [51102061] = {
           Camera = "-129.705078,-259.818359,233.538086,0.000134,-20.598783,73.194275,35.0,346.317627,false,Manual,2.8",
-          Content = "小仆从你怎么不说话，你倒是想想办法啊。",
+          ContentJP = "ちょっと下僕！？何黙ってるの！どうするの！？",
           DialogueId = 51102061,
           GUID = "7FEDBBE2",
           SpeakNpcId = 700363,
@@ -135733,32 +135733,32 @@ local Data = {
           }
         },
         [51102062] = {
-          Content = "识相点就赶紧离开吧，若是再纠缠，恐怕大风九章就要对二位出手了。",
+          ContentJP = "おとなしく引き下がった方が身のためだぜ。これ以上食い下がるなら……大風九章の裁きが下るやもしれんぞ。",
           DialogueId = 51102062,
           GUID = "7FEDBC0C",
           SpeakNpcId = 700322
         },
         [51102063] = {
-          Content = "怎么还不走？赖在这干嘛？",
+          ContentJP = "いつまで居座るつもりだ？",
           DialogueId = 51102063,
           GUID = "7FEDBC36",
           SpeakNpcId = 700322
         },
         [51102064] = {
-          Content = "二位最好离那个箱子远点，不然在下就要叫人了！",
+          ContentJP = "その箱から離れろ。いい加減にしねぇと……人を呼ぶぞ。",
           DialogueId = 51102064,
           GUID = "7FEDBC60",
           SpeakNpcId = 700322
         },
         [51102065] = {
-          Content = "在下真的要叫人了！",
+          ContentJP = "本当に人を呼ぶぞ！？",
           DialogueId = 51102065,
           GUID = "7FEDBC8A",
           SpeakNpcId = 700322
         },
         [51102066] = {
           Camera = "-75.28125,-74.974609,175.415527,0.000164,-17.598877,87.793106,35.0,129.289429,false,Manual,2.8",
-          Content = "原来如此……",
+          ContentJP = "なるほど……",
           DialogueId = 51102066,
           GUID = "7FEDBCB4",
           NextDialogue = 51102067,
@@ -135769,7 +135769,7 @@ local Data = {
         },
         [51102067] = {
           Camera = "177.078125,336.283203,166.046387,0.000125,-5.199065,-126.603699,35.0,516.776245,false,Manual,2.8",
-          Content = "什……什么原来如此？",
+          ContentJP = "な、なるほどって……何が？",
           DialogueId = 51102067,
           GUID = "7FEDBCDE",
           NextDialogue = 51102068,
@@ -135780,7 +135780,7 @@ local Data = {
         },
         [51102068] = {
           Camera = "-130.197266,-168.708008,189.508789,0.000113,-15.199028,75.196854,35.0,238.547546,false,Manual,2.8",
-          Content = "我本来还好奇你为什么要这么大费周章，还要自己跳出来亲自解说一番……",
+          ContentJP = "最初から妙だと思ってた。どうしてわざわざ自分で出てきて、必死に説明してたのか……",
           DialogueId = 51102068,
           GUID = "7FEDBD08",
           LookAt = {
@@ -135794,7 +135794,7 @@ local Data = {
         },
         [51102069] = {
           Camera = "46.033203,-537.740234,203.479492,0.000243,-11.398854,99.396233,35.0,611.363647,false,Manual,2.8",
-          Content = "看来大风九章并没有认可这埋在荒郊野外的不义之财为你所有，所以你才要专门在我面前长篇大论试图劝退我们。",
+          ContentJP = "大風九章はこの箱を「あなたの物」だと認めていない。だから長々と話して、{性别:僕|私}たちを退けようとしたわけだ。",
           DialogueId = 51102069,
           GUID = "7FEDBD32",
           NextDialogue = 51102070,
@@ -135805,7 +135805,7 @@ local Data = {
         },
         [51102070] = {
           Camera = "46.033203,-537.740234,203.479492,0.000243,-11.398854,99.396233,35.0,611.363647,false,Manual,2.8",
-          Content = "只要我像这样触碰到这个箱子，就会知道大风九章并不会生效，也就是说——这就是我捡到的。",
+          ContentJP = "こうして触れても、何も起きない……つまり、この宝は{性别:僕|私}が拾ったものってことだ。",
           DialogueId = 51102070,
           GUID = "7FEDBD5C",
           NextDialogue = 51102071,
@@ -135816,7 +135816,7 @@ local Data = {
         },
         [51102071] = {
           Camera = "-101.107422,-127.650391,136.024414,0.000225,-16.998995,60.194729,35.0,188.31813,false,Manual,2.8",
-          Content = "真的诶，什么事都没有发生……",
+          ContentJP = "あれ、ほんとだ。何も起きない……",
           DialogueId = 51102071,
           GUID = "7FEDBD86",
           NextDialogue = 51102072,
@@ -135827,7 +135827,7 @@ local Data = {
         },
         [51102072] = {
           Camera = "-130.197266,-168.708008,189.508789,0.000113,-15.199028,75.196854,35.0,238.547546,false,Manual,2.8",
-          Content = "怪不得煜明说这黑市都是些鸡鸣狗盗之徒，大风九章竟被这样曲解利用……",
+          ContentJP = "ユーミンが言ってた通り{性别:だ|ね}。闇市はろくでもない連中ばかり{性别:だな|}。大風九章を都合よく捻じ曲げて利用してる……",
           DialogueId = 51102072,
           GUID = "7FEDBDB0",
           NextDialogue = 51102073,
@@ -135835,7 +135835,7 @@ local Data = {
         },
         [51102073] = {
           Camera = "-24.017578,125.793945,181.728516,0.000098,-2.399199,-116.801994,35.0,238.547546,false,Manual,2.8",
-          Content = "你……你……",
+          ContentJP = "お、お前……",
           DialogueId = 51102073,
           GUID = "7FEDBDDA",
           NextDialogue = 51102074,
@@ -135846,7 +135846,7 @@ local Data = {
         },
         [51102074] = {
           Camera = "-130.197266,-168.708008,189.508789,0.000113,-15.199028,75.196854,35.0,238.547546,false,Manual,2.8",
-          Content = "如何，要试试在大风九章之下强取豪夺吗？",
+          ContentJP = "どうする？試しに力ずくで奪ってみる？",
           DialogueId = 51102074,
           GUID = "7FEDBE04",
           NextDialogue = 51102075,
@@ -135857,7 +135857,7 @@ local Data = {
         },
         [51102075] = {
           Camera = "-101.107422,-127.650391,136.024414,0.000225,-16.998995,60.194729,35.0,188.31813,false,Manual,2.8",
-          Content = "就算你真的敢动手，你也打不过我们小仆从的哦~",
+          ContentJP = "ふふん、やれるもんならやってみなさい！まぁ、うちの下僕には勝てないけどね～",
           DialogueId = 51102075,
           GUID = "7FEDBE2E",
           NextDialogue = 51102076,
@@ -135868,7 +135868,7 @@ local Data = {
         },
         [51102076] = {
           Camera = "444.105469,-373.708008,196.07666,0.000038,-9.999697,143.80011,35.0,696.120667,false,Manual,2.8",
-          Content = "你们……不要再让在下见到你们！否则肯定让你们吃不了兜着走！",
+          ContentJP = "くっ……二度と俺の前に現れるな！次に会ったら……ただじゃおかねぇぞ！",
           DialogueId = 51102076,
           GUID = "7FEDBE58",
           NextDialogue = 51102077,
@@ -135879,7 +135879,7 @@ local Data = {
         },
         [51102077] = {
           Camera = "-130.197266,-168.708008,189.508789,0.000113,-15.199028,75.196854,35.0,238.547546,false,Manual,2.8",
-          Content = "哦是吗？如果下次再见你没能让我们吃不了兜着走，大风九章会不会觉得你在说谎呢？",
+          ContentJP = "へぇ。じゃあ次に会ったとき、{性别:僕|私}たちを打ち負かせなかったら……大風九章は「お前が嘘をついた」と見なすかもしれない{性别:な|ね}。",
           DialogueId = 51102077,
           GUID = "7FEDBE82",
           NextDialogue = 51102078,
@@ -135890,7 +135890,7 @@ local Data = {
         },
         [51102078] = {
           Camera = "534.162109,-171.324219,313.386719,0.000211,-18.79907,165.795944,35.0,672.763,false,Manual,2.8",
-          Content = "你……我……哎！",
+          ContentJP = "なっ……ぐっ、くそ！",
           DialogueId = 51102078,
           GUID = "7FEDBEAC",
           NextDialogue = 51102079,
@@ -135901,7 +135901,7 @@ local Data = {
         },
         [51102079] = {
           Camera = "100.279297,-863.963867,265.523926,0.00021,-8.998719,99.399925,35.0,1009.015198,false,Manual,2.8",
-          Content = "哼，让你骗我们！宝箱~宝箱~看看里面有多少好东西吧。",
+          ContentJP = "へっへ～ん！ざまぁみろ！さてさて、何が入ってるかなぁ～",
           DialogueId = 51102079,
           GUID = "7FEDBED6",
           NextDialogue = 51102080,
@@ -135912,7 +135912,7 @@ local Data = {
         },
         [51102080] = {
           Camera = "-113.234375,-79.991211,166.837891,0.000161,-10.19894,72.195618,35.0,148.932434,false,Manual,2.8",
-          Content = "（到头来还是没搞清楚那个声音是什么。）",
+          ContentJP = "（……結局、あの声が何だったのかは分からずじまいか。）",
           DialogueId = 51102080,
           GUID = "7FEDBF00",
           NextDialogue = 51102081,
@@ -135923,7 +135923,7 @@ local Data = {
         },
         [51102081] = {
           Camera = "-113.234375,-79.991211,166.837891,0.000161,-10.19894,72.195618,35.0,148.932434,false,Manual,2.8",
-          Content = "（不过没想到会有人靠钻大风九章的空子牟利……这是抛下剑盾，将力量交予“规则”的结果？）",
+          ContentJP = "（けど、こうして誰かが大風九章を抜け道にして稼いでる……それが、剣や盾を捨て「規律」にすがった結果だというの{性别:か|}？",
           DialogueId = 51102081,
           GUID = "7FEDBF2A",
           NextDialogue = 51102082,
@@ -135931,27 +135931,27 @@ local Data = {
         },
         [51102082] = {
           Camera = "423.552734,881.602539,168.477539,0.000161,-0.198916,-119.004143,35.0,936.815369,false,Manual,2.8",
-          Content = "（虬先生……这也是你想让我看到的吗？）",
+          ContentJP = "（キョウンさん……あなたが{性别:僕|私}に見せたかったのはこれなのか？）",
           DialogueId = 51102082,
           GUID = "7FEDBF54",
           SpeakNpcId = 100001
         },
         [51102083] = {
-          Content = "二位英雄请留步。",
+          ContentJP = "そこのお二人、ちょっと待った。",
           DialogueId = 51102083,
           GUID = "7FEDBF7E",
           SpeakNpcId = 700322
         },
         [51103001] = {
           Camera = "-544.789062,-142.763672,309.863281,0.000017,-20.213533,11.708329,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "（行至附近，你突然感觉怀中的牵机方枢震动了起来。）",
+          ContentJP = "歩みを進めていると、不意に懐の「機巧制御盤」が振動しだした。",
           DialogueId = 51103001,
           GUID = "7FEE561A",
           NextDialogue = 51103002
         },
         [51103002] = {
           Camera = "-231.298828,240.494141,220.422852,0.000012,-20.813593,-48.089558,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "小仆从，什么声音？是什么东西在震？！",
+          ContentJP = "な、何この音！？何かが鳴ってない？",
           DialogueId = 51103002,
           FacialId = {
             [1] = "200002:Shock01"
@@ -135967,28 +135967,28 @@ local Data = {
           SpeakNpcId = 200002
         },
         [51103003] = {
-          Content = "（震动似乎遵循着什么规律，仔细查看一下吧。）",
+          ContentJP = "この振動には、一定の法則があるようだ。調べてみよう。",
           DialogueId = 51103003,
           GUID = "7FEE5645",
           ImprPlusId = 1203,
           NextDialogue = 51103004
         },
         [51103004] = {
-          Content = "（你用平生所学的所有知识分析了一下震动的声音，最终一无所获。）",
+          ContentJP = "全力で解析してみたが、結局何もわからなかった。",
           DialogueId = 51103004,
           GUID = "7FEE566E",
           IsBlack = 1,
           NextDialogue = 51103007
         },
         [51103005] = {
-          Content = "（这玩意该不会要爆炸了吧，赶紧扔掉！）",
+          ContentJP = "（まさか爆発するんじゃ……！？ はやく捨てないと！）",
           DialogueId = 51103005,
           GUID = "7FEE566F",
           ImprPlusId = 1205,
           NextDialogue = 51103006
         },
         [51103006] = {
-          Content = "（你一把将牵机方枢丢出去老远，但预想之中的爆炸并没有发生。确认它就只是在单纯地震动之后，你将它重新捡了起来。）",
+          ContentJP = "慌てて制御盤を遠くへ投げ捨てた。だが爆発は起きず、ただ振動するだけだった。しばらくして、あなたは再びそれを拾い上げた。",
           DialogueId = 51103006,
           GUID = "7FEE5698",
           IsBlack = 1,
@@ -135996,7 +135996,7 @@ local Data = {
         },
         [51103007] = {
           Camera = "-544.789062,-142.763672,309.863281,0.000017,-20.213533,11.708329,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "没看到关闭震动的机关，难道是坏了吗？等会去找公尚师傅帮忙看看吧。",
+          ContentJP = "振動を止めるスイッチは見当たらないなぁ。壊れたのかな？あとでコウショウ師匠に見てもらおう。",
           DialogueId = 51103007,
           FacialId = {
             [1] = "100001:Doubt01"
@@ -136009,7 +136009,7 @@ local Data = {
           }
         },
         [51103008] = {
-          Content = "这个东西原来质量这么差哦，还没用几次就这样了……",
+          ContentJP = "えーなにそれ、粗悪品じゃん！まだ数回しか使ってないのに！",
           DialogueId = 51103008,
           FacialId = {
             [1] = "200002:Angry01"
@@ -136022,7 +136022,7 @@ local Data = {
           }
         },
         [51103009] = {
-          Content = "（打定主意后，你转身准备离开，没走几步，你就感到牵机方枢的震动减弱了。）",
+          ContentJP = "そう言いながら歩いていると、急に振動が弱まった。",
           DialogueId = 51103009,
           GUID = "7FEE5716",
           NextDialogue = 51103010,
@@ -136030,7 +136030,7 @@ local Data = {
         },
         [51103010] = {
           Camera = "532.106445,-37.09668,232.477539,0.000057,-18.413574,-177.48764,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "……",
+          ContentJP = "……",
           DialogueId = 51103010,
           FacialId = {
             [1] = "100001:Think01"
@@ -136046,14 +136046,14 @@ local Data = {
           }
         },
         [51103011] = {
-          Content = "刚才我面向那边的时候，这牵机方枢的震动明显比其他方向要强一些。难道这震动，是在为我指明方向？",
+          ContentJP = "あの方向を向いてる時だけ、振動が強くなってる……もしかして、道しるべをしてくれてるのかな？",
           DialogueId = 51103011,
           GUID = "7FEE576A",
           NextDialogue = 51103012,
           SpeakNpcId = 100001
         },
         [51103012] = {
-          Content = "哇——小仆从，那个方向该不会藏着什么大宝贝？！我们赶紧去看看吧！",
+          ContentJP = "それって、お宝じゃない！？はやく行こっ！",
           DialogueId = 51103012,
           FacialId = {
             [1] = "200002:Happy01"
@@ -136066,7 +136066,7 @@ local Data = {
         },
         [51103013] = {
           Camera = "-273.101562,182.818359,178.920898,0.00004,-6.843535,-26.529842,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "公尚师傅，你怎么在这？",
+          ContentJP = "コウショウ師匠……ど、どうしてここに？",
           DialogueId = 51103013,
           FacialId = {
             [1] = "100001:Shock01"
@@ -136081,7 +136081,7 @@ local Data = {
         },
         [51103014] = {
           Camera = "689.817383,85.535156,210.976562,0.000054,-12.043699,-166.726059,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "大惊小怪的干什么？",
+          ContentJP = "いちいち大げさなやつだ。",
           DialogueId = 51103014,
           FacialId = {
             [1] = "100001:None"
@@ -136094,7 +136094,7 @@ local Data = {
           SpeakNpcId = 700323
         },
         [51103015] = {
-          Content = "我腿脚不好，懒得走动。察觉你们到了附近，便用牵机方枢指引你们过来。如何？这只是它千般妙用中的一种，要论其中更多门道……",
+          ContentJP = "私は足腰が悪くてな、歩き回るのは億劫なんだ。だからその装置でお前たちを呼び寄せた。どうだ、良い使い道だろう。そのほかにも……",
           DialogueId = 51103015,
           GUID = "7FEE5812",
           NextDialogue = 51103016,
@@ -136102,7 +136102,7 @@ local Data = {
         },
         [51103016] = {
           Camera = "-24.505859,162.111328,225.938477,0.000064,-16.843164,-31.323021,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "还以为有什么大宝贝，原来是你……没劲。",
+          ContentJP = "なんだ、あんたか。お宝かと思ったのに……",
           DialogueId = 51103016,
           GUID = "7FEE583C",
           LookAt = {
@@ -136116,7 +136116,7 @@ local Data = {
         },
         [51103017] = {
           Camera = "-24.505859,162.111328,225.938477,0.000064,-16.843164,-31.323021,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "叫我们过来，就是为了说这些吗？",
+          ContentJP = "{性别:わざわざ呼び寄せたのは、このためなのか？|わざわざ呼び寄せたのは、このためなの？}",
           DialogueId = 51103017,
           GUID = "7FEE5866",
           NextDialogue = 51103018,
@@ -136127,7 +136127,7 @@ local Data = {
         },
         [51103018] = {
           Camera = "689.817383,85.535156,210.976562,0.000054,-12.043699,-166.726059,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "唉，连机关的使用说明都不愿意听完。现在的年轻人，沉不下心来研究学问，着实浮躁啊。",
+          ContentJP = "ふん、今どきの若者はせっかちでいかん。学問というものに腰を据えて向き合えんのか。",
           DialogueId = 51103018,
           GUID = "7FEE5890",
           LookAt = {
@@ -136141,7 +136141,7 @@ local Data = {
         },
         [51103019] = {
           Camera = "-24.505859,162.111328,225.938477,0.000064,-16.843164,-31.323021,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "我们小仆从日理万机，你再不说正题，我们可就要走了。",
+          ContentJP = "スノウたちは忙しいの！他に用がないなら帰るよ！",
           DialogueId = 51103019,
           GUID = "7FEE58BA",
           NextDialogue = 51103020,
@@ -136152,14 +136152,14 @@ local Data = {
         },
         [51103020] = {
           Camera = "689.817383,85.535156,210.976562,0.000054,-12.043699,-166.726059,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "哎哎，可别走——",
+          ContentJP = "待て待て！",
           DialogueId = 51103020,
           GUID = "7FEE58E4",
           NextDialogue = 51103021,
           SpeakNpcId = 700323
         },
         [51103021] = {
-          Content = "你二位怎么说也是机枢派荣誉学徒了。既然与我机枢派有缘，那我这引路人可得担起责任，让你们一品机枢之乐。",
+          ContentJP = "お前たちは既に機枢派の名誉弟子だ。せっかくだから、私が直々に「機枢の楽しみ」を味わわせてやろう。",
           DialogueId = 51103021,
           GUID = "7FEE590E",
           NextDialogue = 51103022,
@@ -136167,7 +136167,7 @@ local Data = {
         },
         [51103022] = {
           Camera = "-24.505859,162.111328,225.938477,0.000064,-16.843164,-31.323021,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "我在这里布置了数处机枢机关，皆为匠心打造，各有精妙设计。怎么样，是不是心动了，想赶紧体验一把？",
+          ContentJP = "ここに仕掛けをいくつか設けた。どれも工夫が凝らされておるぞ。どうだ、試してみたくなっただろう？",
           DialogueId = 51103022,
           GUID = "7FEE5938",
           NextOptions = {
@@ -136177,14 +136177,14 @@ local Data = {
           SpeakNpcId = 700323
         },
         [51103023] = {
-          Content = "呃，这个嘛……",
+          ContentJP = "ええと……",
           DialogueId = 51103023,
           GUID = "7FEE5939",
           ImprPlusId = 1204,
           NextDialogue = 51103025
         },
         [51103024] = {
-          Content = "没什么更实质性的好处吗？",
+          ContentJP = "報酬は？",
           DialogueId = 51103024,
           GUID = "7FEE5940",
           ImprPlusId = 1201,
@@ -136192,7 +136192,7 @@ local Data = {
         },
         [51103025] = {
           Camera = "689.817383,85.535156,210.976562,0.000054,-12.043699,-166.726059,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "唉，就知道你们年轻人会这样。",
+          ContentJP = "ははは、やはりそう来るか。",
           DialogueId = 51103025,
           GUID = "7FEE5962",
           NextDialogue = 51103026,
@@ -136202,7 +136202,7 @@ local Data = {
           }
         },
         [51103026] = {
-          Content = "根据我收徒这么多年来的碰壁经验，没什么好处，你们年轻人是不会上钩的。放心，奖励我早就准备好了。",
+          ContentJP = "安心せい、若もんの考えとることくらい、手に取るようにわかる。褒美はちゃんと用意しておるぞ。",
           DialogueId = 51103026,
           GUID = "7FEE598C",
           NextDialogue = 51103027,
@@ -136210,7 +136210,7 @@ local Data = {
         },
         [51103027] = {
           Camera = "-24.505859,162.111328,225.938477,0.000064,-16.843164,-31.323021,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "那就勉强答应你吧。",
+          ContentJP = "じゃあ付き合うよ……",
           DialogueId = 51103027,
           GUID = "7FEE59B6",
           SpeakNpcId = 100001,
@@ -136219,35 +136219,35 @@ local Data = {
           }
         },
         [51103028] = {
-          Content = "我们现在玩的这个很简单，找到附近的机枢球，用你手里的牵机方枢把它们引到这个坑里就行，试试看。",
+          ContentJP = "ルールは簡単だ。近くにある機枢球を探して、この機巧制御盤であの穴まで誘導すればいい。さあ、試してみな。",
           DialogueId = 51103028,
           Duration = 12,
           GUID = "7FEE59E0",
           SpeakNpcId = 700323
         },
         [51103029] = {
-          Content = "不错，一点就通。",
+          ContentJP = "やるじゃないか、コツを掴んだようだな。さあ次に進もう！",
           DialogueId = 51103029,
           Duration = 5,
           GUID = "7FEE5A0A",
           SpeakNpcId = 700323
         },
         [51103030] = {
-          Content = "这个机枢考验的是你的记忆力，记住那些金色组件的位置，然后用牵机方枢把它们拉出来就行，也不难对吧。",
+          ContentJP = "ここは記憶力の試練だ。赤い部品の位置を覚えて、機巧制御盤で引っ張り出せばいい。そう難しくはないだろう？",
           DialogueId = 51103030,
           Duration = 12,
           GUID = "7FEE5A34",
           SpeakNpcId = 700323
         },
         [51103031] = {
-          Content = "干得好，不愧是我授予了机枢派名誉学徒的人。拿上你应得的奖励吧。",
+          ContentJP = "よくやった！ さすが機枢派の名誉弟子だ。ご褒美を受け取って、次の挑戦に進め。",
           DialogueId = 51103031,
           Duration = 7,
           GUID = "7FEE5A5E",
           SpeakNpcId = 700323
         },
         [51103032] = {
-          Content = "这种机枢会稍微复杂一点，你可得看仔细了。",
+          ContentJP = "最後のは難易度が上がるぞ。しっかり見ておけよ。",
           DialogueId = 51103032,
           Duration = 7,
           GUID = "7FEE5A88",
@@ -136255,14 +136255,14 @@ local Data = {
           SpeakNpcId = 700323
         },
         [51103033] = {
-          Content = "这机枢门的位置会根据牵引的方向不同而产生变化，所以你得把它停在合适的位置，然后钻进去拿奖励，明白了吧？",
+          ContentJP = "このからくり門は、引き寄せる方向によって位置が変わる。正しい場所で止めれば、報酬を受け取れるぞ。わかったな？",
           DialogueId = 51103033,
           GUID = "7FEE5AB2",
           SpeakNpcId = 700323
         },
         [51103034] = {
           Camera = "259.686523,140.730469,196.319336,0.000266,-11.042141,-145.534332,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "感觉如何？",
+          ContentJP = "どうだ？",
           DialogueId = 51103034,
           GUID = "7FEE5ADC",
           LookAt = {
@@ -136278,7 +136278,7 @@ local Data = {
           SpeakNpcId = 700323
         },
         [51103035] = {
-          Content = "是有点好玩。",
+          ContentJP = "ちょっと楽しかったかも。",
           DialogueId = 51103035,
           GUID = "7FEE5ADD",
           ImprPlusId = 1202,
@@ -136286,7 +136286,7 @@ local Data = {
         },
         [51103036] = {
           Camera = "-343.328125,-542.464844,187.925781,0.000128,-9.042596,61.258392,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "哈哈，但凡体验过机枢之乐的人，无一不为其折服！别担心，我在烟津渡还布置了不少机枢，想玩的话管够。",
+          ContentJP = "ハハッ、そうだろう？ 一度でもからくりの面白さを味わえば誰だって虜になる！安心しろ、煙津渡にはまだまだ仕掛けを用意してある。好きなだけ遊んでいけ。",
           DialogueId = 51103036,
           GUID = "7FEE5B06",
           NextDialogue = 51103042,
@@ -136296,7 +136296,7 @@ local Data = {
           }
         },
         [51103037] = {
-          Content = "奖励太少了。",
+          ContentJP = "報酬が少なすぎるよ。",
           DialogueId = 51103037,
           GUID = "7FEE5B07",
           ImprPlusId = 1201,
@@ -136304,14 +136304,14 @@ local Data = {
         },
         [51103038] = {
           Camera = "-343.328125,-542.464844,187.925781,0.000128,-9.042596,61.258392,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "别担心，玩得越多，奖励就越多。我在烟津渡还布置了不少机枢，俗话说得好，积少成多嘛！",
+          ContentJP = "心配するな。遊べば遊ぶほど報酬も増えていく。煙津渡にはまだからくりをたくさん仕込んであるんだ。俗に言うだろう、「塵も積もれば山となる」ってな！",
           DialogueId = 51103038,
           GUID = "7FEE5B30",
           NextDialogue = 51103042,
           SpeakNpcId = 700323
         },
         [51103039] = {
-          Content = "感觉不够……好玩……",
+          ContentJP = "まだまだ……物足りない{性别:な|ね}。",
           DialogueId = 51103039,
           GUID = "7FEE5B31",
           ImprPlusId = 1205,
@@ -136319,7 +136319,7 @@ local Data = {
         },
         [51103040] = {
           Camera = "-343.328125,-542.464844,187.925781,0.000128,-9.042596,61.258392,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "唉，没品，实在没品！你先别急，这些只是入门级别，六岁学童都能轻松过关。",
+          ContentJP = "やれやれ、欲深いな！まあ焦るな、今のはほんの入門編。子どもでも簡単に突破できる程度のものだ。",
           DialogueId = 51103040,
           GUID = "7FEE5B5A",
           NextDialogue = 51103041,
@@ -136329,7 +136329,7 @@ local Data = {
           }
         },
         [51103041] = {
-          Content = "好玩的还在后面呢！我在烟津渡还布置了不少机枢，再不济，为了奖励，你也多试试吧。",
+          ContentJP = "本当に面白いのはこの先だ。煙津渡にはまだまだからくりを仕掛けてある。報酬目当てでも構わん、もっと挑戦してみろ。",
           DialogueId = 51103041,
           GUID = "7FEE5B84",
           NextDialogue = 51103042,
@@ -136337,7 +136337,7 @@ local Data = {
         },
         [51103042] = {
           Camera = "259.686523,140.730469,196.319336,0.000266,-11.042141,-145.534332,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "哎？原来我们一路上看到的那些机关块全都是你布置的。公尚师傅，你做这些到底有什么目的？",
+          ContentJP = "え？道中で見たあの仕掛けの数々、全部あなたが仕込んだの？でも、いったい何のために？",
           DialogueId = 51103042,
           FacialId = {
             [1] = "200002:Shock01"
@@ -136351,7 +136351,7 @@ local Data = {
         },
         [51103043] = {
           Camera = "-343.328125,-542.464844,187.925781,0.000128,-9.042596,61.258392,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "目的？哈哈，这样想就落入俗套了。",
+          ContentJP = "目的？ハハハ、そんなふうに考えるのは凡俗の発想さ。",
           DialogueId = 51103043,
           GUID = "7FEE5BD8",
           NextDialogue = 51103044,
@@ -136361,14 +136361,14 @@ local Data = {
           }
         },
         [51103044] = {
-          Content = "也难免你们这样想，毕竟帝国的炼金术师搞研究都带着些军事目的，像工造局那些迂腐的老东西则是为了混口饭吃。",
+          ContentJP = "まあ無理もない。帝国の錬金術師どもは軍事目的で研究しているし、工造局の古臭い連中は生活のためにやっている。",
           DialogueId = 51103044,
           GUID = "7FEE5C02",
           NextDialogue = 51103045,
           SpeakNpcId = 700323
         },
         [51103045] = {
-          Content = "他们也不能说错，但目的性太强，便体会不到机枢中纯粹的乐趣。",
+          ContentJP = "それも間違いじゃないが、目的ばかりに囚われていては、からくりの純粋な楽しみを味わえんのだよ。",
           DialogueId = 51103045,
           GUID = "7FEE5C2C",
           NextDialogue = 51103046,
@@ -136376,7 +136376,7 @@ local Data = {
         },
         [51103046] = {
           Camera = "259.686523,140.730469,196.319336,0.000266,-11.042141,-145.534332,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "公尚师傅研究机枢，就是因为有趣吗？",
+          ContentJP = "じゃあ、師匠は純粋に楽しむために研究してるってこと？",
           DialogueId = 51103046,
           GUID = "7FEE5C56",
           NextDialogue = 51103047,
@@ -136384,7 +136384,7 @@ local Data = {
         },
         [51103047] = {
           Camera = "-343.328125,-542.464844,187.925781,0.000128,-9.042596,61.258392,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "人生不过短短数十年，怎能蹉跎在无趣之物上呢？只有从本心出发，才能追寻“道”的极致啊。",
+          ContentJP = "人の一生なんて短いものだ。くだらんものに費やしてどうする？ 本心からの好奇心こそが「道」の極致を追う力になるのだ。",
           DialogueId = 51103047,
           GUID = "7FEE5C80",
           NextDialogue = 51103048,
@@ -136394,14 +136394,14 @@ local Data = {
           }
         },
         [51103048] = {
-          Content = "说到这里，虽然秦虬那家伙老是狗嘴吐不出象牙……但也多亏了他，我这些年里才能无拘无束全心沉浸于机枢研究。",
+          ContentJP = "それに……キョウンは口の悪い男だが、あいつのおかげで私は何年も好きなだけ研究に没頭できた。",
           DialogueId = 51103048,
           GUID = "7FEE5CAA",
           NextDialogue = 51103049,
           SpeakNpcId = 700323
         },
         [51103049] = {
-          Content = "哎，刚才这句话你可别告诉他啊，不然他尾巴都得翘到天上去。",
+          ContentJP = "――っと、このことは内緒だぞ。あいつに知られたら、鼻を天まで伸ばしかねねぇ。",
           DialogueId = 51103049,
           GUID = "7FEE5CD4",
           NextOptions = {
@@ -136411,21 +136411,21 @@ local Data = {
           SpeakNpcId = 700323
         },
         [51103050] = {
-          Content = "好的。",
+          ContentJP = "分かった。",
           DialogueId = 51103050,
           GUID = "7FEE5CD5",
           ImprPlusId = 1202,
           NextDialogue = 51103052
         },
         [51103051] = {
-          Content = "师傅，你也不想这些话传到他耳朵里吧。",
+          ContentJP = "ふふん、この話が彼の耳に入ったらまずいよね。",
           DialogueId = 51103051,
           GUID = "7FEE5CD6",
           ImprPlusId = 1205,
           NextDialogue = 51103052
         },
         [51103052] = {
-          Content = "哈哈！好了好了，今天就到这里罢。我也得回去捣鼓别的发明了。",
+          ContentJP = "ハハハッ！もう今日はここまでにしよう。私は別の発明に戻らねばならん。",
           DialogueId = 51103052,
           FacialId = {
             [1] = "700323:CM_Happy01"
@@ -136439,54 +136439,54 @@ local Data = {
           SpeakNpcId = 700323
         },
         [51103053] = {
-          Content = "对了，等我研究出来新的机枢，记得再来体验体验啊。",
+          ContentJP = "焦るな、また新しいアイデアが浮かんだぞ。",
           DialogueId = 51103053,
           GUID = "7FEE5D28",
           SpeakNpcId = 700323
         },
         [51103054] = {
-          Content = "别急，我有新点子了。",
+          ContentJP = "……そうだ、新しいからくりが完成したら、また体験しに来いよ。",
           DialogueId = 51103054,
           GUID = "7FEE5D29",
           SpeakNpcId = 700323
         },
         [51103055] = {
-          Content = "公尚师傅，你怎么在这？",
+          ContentJP = "コウショウ師匠……ど、どうしてここに？",
           DialogueId = 51103055,
           GUID = "7FEE5D2A",
           NextDialogue = 51103014,
           SpeakNpcId = 100001
         },
         [51103056] = {
-          Content = "公尚师傅，你怎么在这？",
+          ContentJP = "コウショウ師匠……ど、どうしてここに？",
           DialogueId = 51103056,
           GUID = "7FEE5D2B",
           NextDialogue = 51103014,
           SpeakNpcId = 100001
         },
         [51104001] = {
-          Content = "小仆从小仆从，听我说！锦鲤皎皎告诉了本魔王一个天大的秘密——",
+          ContentJP = "ねぇねぇ、聞いて！ニシキがとっておきの情報を教えてくれたんだ！",
           DialogueId = 51104001,
           GUID = "7FEEFA2A",
           NextDialogue = 51104002,
           SpeakNpcId = 700324
         },
         [51104002] = {
-          Content = "整个烟津渡最好吃最地道的小吃，就藏在这个码头的摊子里！这可是只有本地人才能知道的秘密，一般人她才不告诉！",
+          ContentJP = "この港の屋台の片隅に、煙津渡で一番おいしい菓子があるって！地元の人しか知らない名物らしいよ！",
           DialogueId = 51104002,
           GUID = "7FEEFA54",
           NextDialogue = 51104003,
           SpeakNpcId = 700324
         },
         [51104003] = {
-          Content = "就是前面的桂花糕摊位了，我们赶紧去看看吧！",
+          ContentJP = "ほら、あの桂花菓子の屋台だ！早く行ってみよう！",
           DialogueId = 51104003,
           GUID = "7FEEFA7E",
           SpeakNpcId = 700324
         },
         [51104004] = {
           Camera = "-640.476562,-1148.253906,155.432617,0.000009,-1.399472,64.393364,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "哥，这边这边！",
+          ContentJP = "兄ちゃん、こっちこっち！",
           DialogueId = 51104004,
           GUID = "7FEEFAA8",
           LookAt = {
@@ -136498,7 +136498,7 @@ local Data = {
           SpeakNpcId = 700327
         },
         [51104005] = {
-          Content = "别跑那么快啊，等等我！",
+          ContentJP = "おい、走るなって！待てよ！",
           DialogueId = 51104005,
           GUID = "7FEEFAD2",
           LookAt = {
@@ -136514,7 +136514,7 @@ local Data = {
         },
         [51104006] = {
           Camera = "359.076172,-369.277344,120.089844,0.000002,-2.199519,103.398605,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "哥，我想吃这个。",
+          ContentJP = "兄ちゃん、これ食べたい！",
           DialogueId = 51104006,
           GUID = "7FEEFAFC",
           LookAt = {
@@ -136529,7 +136529,7 @@ local Data = {
           }
         },
         [51104007] = {
-          Content = "啊？桂花糕啊……明明说好不买这买那才带你出门的。",
+          ContentJP = "えっ、桂花菓子？……さっき「無駄遣いしない」って約束したばかりだろ！",
           DialogueId = 51104007,
           FacialId = {
             [1] = "700326:Syouganai01"
@@ -136546,7 +136546,7 @@ local Data = {
           }
         },
         [51104008] = {
-          Content = "我没有买这买那，今天从出门到现在我明明只让你买了一次蜂蜜糍耙。",
+          ContentJP = "うん、だから朝から今まで蜂蜜もちしかおねだりしてないじゃん！",
           DialogueId = 51104008,
           GUID = "7FEEFB50",
           LookAt = {
@@ -136560,7 +136560,7 @@ local Data = {
           }
         },
         [51104009] = {
-          Content = "糍粑不好消化，刚吃完现在又要吃这桂花糕……",
+          ContentJP = "もちは消化に悪い。さっき食べたばかりなのに、またお菓子なんて……",
           DialogueId = 51104009,
           FacialId = {
             [1] = "700326:Unhappy01"
@@ -136578,7 +136578,7 @@ local Data = {
           }
         },
         [51104010] = {
-          Content = "一会回家吃不下饭被阿娘骂事小，要是再晚上肚子胀到睡不着觉我可帮不了你。",
+          ContentJP = "帰って晩ご飯が食べられなかったら母さんに叱られるし、夜お腹が張って眠れなくなっても知らないからな。",
           DialogueId = 51104010,
           GUID = "7FEEFBA4",
           LookAt = {
@@ -136592,7 +136592,7 @@ local Data = {
           }
         },
         [51104011] = {
-          Content = "我不管！今天吃不到桂花糕我就不回去了，到时候阿娘一着急你就惨咯。",
+          ContentJP = "そんなの知らない！桂花菓子買ってくれるまで帰らないからね！母さんが怒って困るのは兄ちゃんだよ！",
           DialogueId = 51104011,
           GUID = "7FEEFBCE",
           LookAt = {
@@ -136606,7 +136606,7 @@ local Data = {
           }
         },
         [51104012] = {
-          Content = "行吧行吧，拗不过你。老板，要一份桂花糕。",
+          ContentJP = "はぁ……しょうがないな。――すみませーん、桂花菓子を一つください。",
           DialogueId = 51104012,
           FacialId = {
             [1] = "700326:Syouganai01"
@@ -136627,7 +136627,7 @@ local Data = {
           }
         },
         [51104013] = {
-          Content = "好嘞。",
+          ContentJP = "はいよ。",
           DialogueId = 51104013,
           FacialId = {
             [1] = "700328:Smile01"
@@ -136644,7 +136644,7 @@ local Data = {
           }
         },
         [51104014] = {
-          Content = "呃……老板，桂花糕能卖半份……啊不，三分之一份吗？出门带的铜币好像不够了……",
+          ContentJP = "……あっ、でも……桂花菓子、半分……いや、三分の一で売ってもらえますか？持ち金が足りなくて……",
           DialogueId = 51104014,
           GUID = "7FEEFC4C",
           LookAt = {
@@ -136658,7 +136658,7 @@ local Data = {
           }
         },
         [51104015] = {
-          Content = "你这小家伙……罢了罢了。",
+          ContentJP = "まったく……しょうがないねぇ。",
           DialogueId = 51104015,
           FacialId = {
             [1] = "700328:Syouganai01"
@@ -136675,7 +136675,7 @@ local Data = {
           }
         },
         [51104016] = {
-          Content = "我们家老爷子倒是交代过，要是有小孩子嘴馋也不用太计较，按老爷子说法，给你们两个小家伙出个谜语。",
+          ContentJP = "うちの親父はね、子ども相手には細かいこと言うなって口うるさく言ってたんだよ。だから、こうしよう。ひとつ謎かけを出す。",
           DialogueId = 51104016,
           GUID = "7FEEFCA0",
           LookAt = {
@@ -136689,7 +136689,7 @@ local Data = {
           }
         },
         [51104017] = {
-          Content = "要是你俩能猜上来啊，这桂花糕送你们一份也行。",
+          ContentJP = "それが解けたら、この桂花菓子をおまけしてやるよ。",
           DialogueId = 51104017,
           GUID = "7FEEFCCA",
           LookAt = {
@@ -136700,7 +136700,7 @@ local Data = {
           SpeakNpcId = 700328
         },
         [51104018] = {
-          Content = "真的吗？",
+          ContentJP = "ほんとに！？",
           DialogueId = 51104018,
           GUID = "7FEEFCF4",
           LookAt = {
@@ -136715,7 +136715,7 @@ local Data = {
           }
         },
         [51104019] = {
-          Content = "我骗你们两个小毛孩做什么。",
+          ContentJP = "子ども相手に嘘はつかんさ。",
           DialogueId = 51104019,
           GUID = "7FEEFD1E",
           LookAt = {
@@ -136729,7 +136729,7 @@ local Data = {
           }
         },
         [51104020] = {
-          Content = "小武，快说谢谢叔叔！",
+          ContentJP = "ほらタケ、ありがとうは？",
           DialogueId = 51104020,
           GUID = "7FEEFD48",
           LookAt = {
@@ -136744,7 +136744,7 @@ local Data = {
           }
         },
         [51104021] = {
-          Content = "哎，莫着急谢，先听谜面。山腰悬玉钩，树杪挂银舟。圆缺妆台镜，阴晴刈麦秋。",
+          ContentJP = "礼は早いぞ。ではよく聞け。「山の中腹に玉の鉤、梢にかかる銀の舟。満ちたり欠けたり、鏡のごとく。晴れも、曇りも、秋の刈り入れ照らすもの……」さて、これはなんだ？",
           DialogueId = 51104021,
           GUID = "7FEEFD72",
           LookAt = {
@@ -136762,13 +136762,13 @@ local Data = {
           }
         },
         [51104022] = {
-          Content = "盘子",
+          ContentJP = "お皿",
           DialogueId = 51104022,
           GUID = "7FEEFD9C",
           NextDialogue = 51104023
         },
         [51104023] = {
-          Content = "感觉不太对劲……",
+          ContentJP = "違う気がする……",
           DialogueId = 51104023,
           GUID = "7FEEFDC6",
           NextOptions = {
@@ -136778,13 +136778,13 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51104024] = {
-          Content = "天之树",
+          ContentJP = "天上樹",
           DialogueId = 51104024,
           GUID = "7FEEFDF0",
           NextDialogue = 51104025
         },
         [51104025] = {
-          Content = "感觉不太对劲……",
+          ContentJP = "違う気がする……",
           DialogueId = 51104025,
           GUID = "7FEEFE1A",
           NextOptions = {
@@ -136794,20 +136794,20 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51104026] = {
-          Content = "月亮",
+          ContentJP = "月",
           DialogueId = 51104026,
           GUID = "7FEEFE44",
           NextDialogue = 51104027
         },
         [51104027] = {
-          Content = "答案是……",
+          ContentJP = "答えは……",
           DialogueId = 51104027,
           GUID = "7FEEFE6E",
           NextDialogue = 51104028,
           SpeakNpcId = 100001
         },
         [51104028] = {
-          Content = "我知道我知道，是月亮！",
+          ContentJP = "わかった！月でしょ！",
           DialogueId = 51104028,
           GUID = "7FEEFE98",
           LookAt = {
@@ -136821,7 +136821,7 @@ local Data = {
           }
         },
         [51104029] = {
-          Content = "老爷子这谜题是不是出的太简单了……来吧，给你们的桂花糕。兄弟俩一人一半，不许抢。",
+          ContentJP = "はは、簡単すぎたか……ほれ、お前たちの桂花菓子だ。兄弟で半分こするんだぞ。",
           DialogueId = 51104029,
           GUID = "7FEEFEC2",
           NextDialogue = 51104030,
@@ -136832,7 +136832,7 @@ local Data = {
           }
         },
         [51104030] = {
-          Content = "吃桂花糕咯！",
+          ContentJP = "やったー！桂花菓子だ！",
           DialogueId = 51104030,
           GUID = "7FEEFEEC",
           Scripts = "PARA{\nMoveTo{ActorId{700327},TargetPoint{\"P51104030XiaoWu\"},MoveSpeed{220},Visibility{\"Show\"}},\nMoveTo{ActorId{700326},TargetPoint{\"P51104030XiaoWen\"},MoveSpeed{220},Visibility{\"Show\"}}\n}",
@@ -136840,7 +136840,7 @@ local Data = {
         },
         [51104031] = {
           Camera = "672.617188,97.414062,143.926758,0.000022,-5.400849,-167.989822,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "老板。",
+          ContentJP = "すみません。",
           DialogueId = 51104031,
           GUID = "7FEEFF16",
           LookAt = {
@@ -136854,7 +136854,7 @@ local Data = {
         },
         [51104032] = {
           Camera = "68.732422,-386.160156,178.870117,0.000121,-11.199583,62.005909,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "哟？看起来是外国客人，来给身边这位小朋友买点本地的桂花糕尝尝？",
+          ContentJP = "おや？旅人かな。こちらのお嬢ちゃんに、地元の桂花菓子を食べさせたいのかい？",
           DialogueId = 51104032,
           GUID = "7FEEFF40",
           NextDialogue = 51104033,
@@ -136866,7 +136866,7 @@ local Data = {
         },
         [51104033] = {
           Camera = "447.546875,110.363281,105.350098,0.000169,-6.799733,-128.996719,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "白才不是什么小朋友！听好了，你面前的可是将来要征服世界的光之魔王大人！",
+          ContentJP = "こらー！スノウを子ども扱いするな！君の前にいるのは、未来を導く「光の魔王様」だぞ！",
           DialogueId = 51104033,
           FacialId = {
             [1] = "700324:Unhappy02"
@@ -136885,14 +136885,14 @@ local Data = {
           }
         },
         [51104034] = {
-          Content = "我们也可以猜谜免单吗？",
+          ContentJP = "謎かけを解いたら、タダでお菓子くれるんだよね？",
           DialogueId = 51104034,
           GUID = "7FEEFF94",
           ImprPlusId = 1206,
           NextDialogue = 51104036
         },
         [51104035] = {
-          Content = "刚才的两位小朋友好像参与了一些优惠活动？",
+          ContentJP = "さっきの子どもたち、何やらお得なイベントに参加したようだけど……",
           DialogueId = 51104035,
           GUID = "7FEEFFBE",
           ImprPlusId = 1203,
@@ -136900,7 +136900,7 @@ local Data = {
         },
         [51104036] = {
           Camera = "68.732422,-386.160156,178.870117,0.000121,-11.199583,62.005909,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "呃……老爷子倒是没吩咐大人能不能猜谜免单啊……",
+          ContentJP = "うーむ……子ども以外にも適用していいものか……",
           DialogueId = 51104036,
           GUID = "7FEEFFE8",
           LookAt = {
@@ -136914,7 +136914,7 @@ local Data = {
           }
         },
         [51104037] = {
-          Content = "算了，反正你也是打算给小朋友吃的吧？不在乎这一点了。",
+          ContentJP = "まあよい、どうせその子に食べさせるんだろう？",
           DialogueId = 51104037,
           GUID = "7FEF0012",
           NextDialogue = 51104038,
@@ -136925,7 +136925,7 @@ local Data = {
         },
         [51104038] = {
           Camera = "447.546875,110.363281,105.350098,0.000169,-6.799733,-128.996719,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "喂，所以说谁是小朋友啊！",
+          ContentJP = "だーかーら！子ども扱いしないで！！",
           DialogueId = 51104038,
           FacialId = {
             [1] = "700324:Doubt01"
@@ -136939,7 +136939,7 @@ local Data = {
         },
         [51104039] = {
           Camera = "68.732422,-386.160156,178.870117,0.000121,-11.199583,62.005909,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "谜面吗……我想想。啊，这个吧——金粟满枝不染尘，暗香先报九秋春。莫嫌花小无颜色，曾引仙人月下寻。",
+          ContentJP = "さて、よく聞けよ。「枝に満つ金の粒、塵も寄せず。かすかなる香、秋を告ぐ。色無れど、月に誘われ人も来ず。仙の道すら、花に尋ねむ」",
           DialogueId = 51104039,
           FinalDialogueId = 51104045,
           GUID = "7FEF0066",
@@ -136954,14 +136954,14 @@ local Data = {
           }
         },
         [51104040] = {
-          Content = "百年春",
+          ContentJP = "百年春",
           DialogueId = 51104040,
           GUID = "7FEF0090",
           NextDialogue = 51104041
         },
         [51104041] = {
           Camera = "68.732422,-386.160156,178.870117,0.000121,-11.199583,62.005909,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "要不客人您再想想？",
+          ContentJP = "惜しいな、もう一度考えてみるか？",
           DialogueId = 51104041,
           GUID = "7FEF00BA",
           NextOptions = {
@@ -136971,14 +136971,14 @@ local Data = {
           SpeakNpcId = 700328
         },
         [51104042] = {
-          Content = "沉月香",
+          ContentJP = "沈月香",
           DialogueId = 51104042,
           GUID = "7FEF00E4",
           NextDialogue = 51104043
         },
         [51104043] = {
           Camera = "68.732422,-386.160156,178.870117,0.000121,-11.199583,62.005909,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "倒是有些接近了，再想想？",
+          ContentJP = "お、だいぶ近いぞ。もう少しだ。",
           DialogueId = 51104043,
           GUID = "7FEF010E",
           NextOptions = {
@@ -136988,13 +136988,13 @@ local Data = {
           SpeakNpcId = 700328
         },
         [51104044] = {
-          Content = "桂花",
+          ContentJP = "桂花",
           DialogueId = 51104044,
           GUID = "7FEF0138",
           NextDialogue = 51104045
         },
         [51104045] = {
-          Content = "得了，就是这桂花糕的桂花……来，刚蒸好还冒着热气呢，您拿好。",
+          ContentJP = "その通り。桂花菓子の桂花さ――さあ、蒸したてだ。持っていきな",
           DialogueId = 51104045,
           GUID = "7FEF0162",
           NextDialogue = 51104046,
@@ -137005,7 +137005,7 @@ local Data = {
           }
         },
         [51104046] = {
-          Content = "也不知道老爷子是怎么想的，做些糕点本就是小本营生，倒还是要猜谜白送些出去。这么一折腾啊，自己的养老钱都剩不下几个了哟。",
+          ContentJP = "まったく……親父の気まぐれにはついていけない。商売で飯を食ってるのに、謎かけで菓子をタダでやるなんて……。こんな調子じゃ、老後の蓄えも残りゃしないよ。",
           DialogueId = 51104046,
           DialoguePanelType = "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_ChapterEast01_GuiHuaCake01.T_Guide_ChapterEast01_GuiHuaCake01'}",
           GUID = "7FEF018C",
@@ -137017,7 +137017,7 @@ local Data = {
         },
         [51104047] = {
           Camera = "393.902344,31.90625,149.760742,0.000111,-7.799338,-168.793396,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "你不同意这么做吗？",
+          ContentJP = "あなたはこのやり方には反対なんだ{性别:な|ね}。",
           DialogueId = 51104047,
           GUID = "7FEF01B6",
           NextDialogue = 51104048,
@@ -137028,7 +137028,7 @@ local Data = {
         },
         [51104048] = {
           Camera = "68.732422,-386.160156,178.870117,0.000121,-11.199583,62.005909,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "哦，客人你别误会，说了猜谜白送那自然就是白送。看着小孩子眼巴巴地站在一边流口水，拿胳膊擦擦又往身上抹，我也不忍心。",
+          ContentJP = "いや、そうじゃない。小さな子が菓子を欲しがってるのを見れば、つい渡したくなる。……俺もそうだったんだ。",
           DialogueId = 51104048,
           GUID = "7FEF01E0",
           NextDialogue = 51104049,
@@ -137039,7 +137039,7 @@ local Data = {
           }
         },
         [51104049] = {
-          Content = "小孩嘛，能吃多少？送就送了。当初我举目无亲在这街头闲逛，要不是馋这一口桂花糕让老爷子注意到我，收留我做了个学徒，恐怕也……",
+          ContentJP = "天涯孤独でこの町をさまよってた俺を救ってくれたのはこの桂花菓子だ。この菓子のおかげで、親父に巡り合い、弟子として受け入れてもらえた……",
           DialogueId = 51104049,
           FacialId = {
             [1] = "700328:Happy01"
@@ -137052,7 +137052,7 @@ local Data = {
           }
         },
         [51104050] = {
-          Content = "嗨，我跟客人您说这个干嘛……咱就是有点好奇，老爷子这猜谜送桂花糕的规矩，是为什么立的。",
+          ContentJP = "……っと、客人に愚痴を聞かせるもんじゃないな。ただ、あの人がなぜ謎かけで菓子を渡すなんて決まりを作ったのか、不思議でさ。",
           DialogueId = 51104050,
           FacialId = {
             [1] = "700328:None"
@@ -137065,7 +137065,7 @@ local Data = {
           }
         },
         [51104051] = {
-          Content = "不过老爷子不想说，咱也不多问。摊子和手艺都是人家的，回头客也都是冲着桂花李的招牌来的。这些东西传给我一个捡来的野小子，我已经知足了。",
+          ContentJP = "本人が言わない以上、俺が口を出すことじゃない。看板も腕前も全部あの人のものだ。俺みたいな拾われ者に継がせてくれただけで、十分すぎる恩だよ。",
           DialogueId = 51104051,
           GUID = "7FEF025E",
           NextDialogue = 51104052,
@@ -137073,7 +137073,7 @@ local Data = {
         },
         [51104052] = {
           Camera = "393.902344,31.90625,149.760742,0.000111,-7.799338,-168.793396,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "你好像是在抱怨，但其实心里很喜欢这位老爷子吧？",
+          ContentJP = "口では不満を言ってても、本当は大事に思ってるんだ{性别:な|ね}。",
           DialogueId = 51104052,
           GUID = "7FEF0288",
           NextDialogue = 51104053,
@@ -137084,7 +137084,7 @@ local Data = {
         },
         [51104053] = {
           Camera = "68.732422,-386.160156,178.870117,0.000121,-11.199583,62.005909,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "哈哈……这位客人，不瞒您说，他供我吃住又教我手艺。我早就把他当父亲看待了。只是他平日里不许我叫爹，非让我叫他师父。",
+          ContentJP = "……はは、図星だな。あの人には飯を食わせてもらい、技を叩き込んでもらった。俺にとってはもう父親みたいな存在だ。ただ親父とは呼ばせてくれなくてな、師匠と呼べの一点張りだよ。",
           DialogueId = 51104053,
           GUID = "7FEF02B2",
           NextDialogue = 51104054,
@@ -137094,7 +137094,7 @@ local Data = {
           }
         },
         [51104054] = {
-          Content = "这再造之恩，无以能报。我只希望一直给他养老，让他安安稳稳地颐享天年哟。",
+          ContentJP = "だからせめて、老後を支えてやりたい。穏やかに暮らして、天寿を全うしてほしいんだ",
           DialogueId = 51104054,
           GUID = "7FEF02DC",
           NextDialogue = 51104055,
@@ -137102,7 +137102,7 @@ local Data = {
         },
         [51104055] = {
           Camera = "470.919922,-447.367188,169.704102,0.000065,-7.799495,112.800148,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "哟，小李，忙着呐？",
+          ContentJP = "おぅ、リー！忙しそうだな。",
           DialogueId = 51104055,
           GUID = "7FEF0306",
           LookAt = {
@@ -137115,7 +137115,7 @@ local Data = {
           SpeakNpcId = 700332
         },
         [51104056] = {
-          Content = "赵叔，您怎么来了？现做的桂花糕，给您包一份？",
+          ContentJP = "チョウさん、いらっしゃい！菓子、包みましょうか？",
           DialogueId = 51104056,
           GUID = "7FEF0330",
           LookAt = {
@@ -137128,7 +137128,7 @@ local Data = {
           }
         },
         [51104057] = {
-          Content = "不用不用，先招呼客人。闲下来了跟你家老爷子招呼一声，说好了上我那喝两杯，半晌了都没见人，再不来啊，我这好酒他可就尝不着喽。",
+          ContentJP = "いやいや、客人を優先しなさい。それより、お前の親父さんによろしく言っといてくれ。うちで飲もうって誘ったのに、全然来なくてな。いい酒が冷めちまう。",
           DialogueId = 51104057,
           GUID = "7FEF035A",
           NextDialogue = 51104058,
@@ -137138,7 +137138,7 @@ local Data = {
           }
         },
         [51104058] = {
-          Content = "……这可奇怪了。老爷子这些年来，和人约好了时间从来只有提早登门，绝无迟到的道理。要是我不小心误了点，他还会用拐杖敲我哩。",
+          ContentJP = "……妙だな。約束の時間に遅れたことなんて一度もない。むしろ俺が遅れると、杖でこづかれるくらいで……",
           DialogueId = 51104058,
           GUID = "7FEF0384",
           LookAt = {
@@ -137153,7 +137153,7 @@ local Data = {
           }
         },
         [51104059] = {
-          Content = "不行，今日先收摊了。我得去找找老爷子。",
+          ContentJP = "駄目だ、今日はもう店じまいだ。探しに行かないと。",
           DialogueId = 51104059,
           GUID = "7FEF03AE",
           NextDialogue = 51104060,
@@ -137163,7 +137163,7 @@ local Data = {
           }
         },
         [51104060] = {
-          Content = "赵叔，您回家等着吧，我有了消息一定知会您。",
+          ContentJP = "チョウさん、家で待っててください。見つけたら知らせるんで！",
           DialogueId = 51104060,
           GUID = "7FEF03D8",
           NextDialogue = 51104061,
@@ -137174,7 +137174,7 @@ local Data = {
         },
         [51104061] = {
           Camera = "447.546875,110.363281,105.350098,0.000169,-6.799733,-128.996719,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "哎……？现在外面有那么多玄色狴犴，该不会是碰上——呸呸呸，不乌鸦嘴，不乌鸦嘴！",
+          ContentJP = "えっ……？まさか、どこぞの玄狴に……いやいやいや、縁起でもない！今の聞かなかったことにして！",
           DialogueId = 51104061,
           FacialId = {
             [1] = "700324:Shock01"
@@ -137192,7 +137192,7 @@ local Data = {
         },
         [51104062] = {
           Camera = "393.902344,31.90625,149.760742,0.000111,-7.799338,-168.793396,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "……老板，我们也一起去吧。这包桂花糕就算委托费了。",
+          ContentJP = "{性别:……店主さん、僕たちも手伝うよ。この桂花菓子は、その前金ってことで。|……店主さん、私たちも手伝うわ。この桂花菓子は、その前金ってことで。}",
           DialogueId = 51104062,
           GUID = "7FEF042C",
           NextDialogue = 51104063,
@@ -137203,7 +137203,7 @@ local Data = {
         },
         [51104063] = {
           Camera = "68.732422,-386.160156,178.870117,0.000121,-11.199583,62.005909,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "那可帮大忙了。我知道老爷子可能去的地方，跟我来吧。",
+          ContentJP = "そりゃあありがたい。行きそうな場所に心当たりがあるんだ。ついてきてくれ。",
           DialogueId = 51104063,
           GUID = "7FEF0456",
           LookAt = {
@@ -137212,47 +137212,47 @@ local Data = {
           SpeakNpcId = 700328
         },
         [51104064] = {
-          Content = "这些天煞的孽畜，娃娃不要怕，躲到爷爷身后来。",
+          ContentJP = "うぬら、また現れおったか……！大丈夫だ、わしの背に隠れておれ！",
           DialogueId = 51104064,
           GUID = "7FEF0480",
           NextDialogue = 51104065,
           SpeakNpcId = 700333
         },
         [51104065] = {
-          Content = "哥，我怕……",
+          ContentJP = "兄ちゃん……こわいよぉ……",
           DialogueId = 51104065,
           GUID = "7FEF04AA",
           NextDialogue = 51104066,
           SpeakNpcId = 700327
         },
         [51104066] = {
-          Content = "别怕，拿好香囊，白龙神君会保佑我们的。",
+          ContentJP = "大丈夫、香袋があれば、白龍様が守ってくださるはずだ！",
           DialogueId = 51104066,
           GUID = "7FEF04D4",
           NextDialogue = 51104067,
           SpeakNpcId = 700326
         },
         [51104067] = {
-          Content = "那是……刚刚的那两个孩子！",
+          ContentJP = "……あれは！さっきの子どもたち！？",
           DialogueId = 51104067,
           GUID = "7FEF04FE",
           SpeakNpcId = 100001
         },
         [51104068] = {
-          Content = "罪业伏诛！",
+          ContentJP = "罪業ことごとくを、滅するべし！",
           DialogueId = 51104068,
           GUID = "7FEF0528",
           SpeakNpcId = 700325
         },
         [51104069] = {
-          Content = "是煜明！",
+          ContentJP = "ユーミンだ！",
           DialogueId = 51104069,
           GUID = "7FEF0552",
           SpeakNpcId = 100001
         },
         [51104070] = {
           Camera = "-137.351562,325.910156,238.606445,0.00011,-10.794915,-30.803417,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "是你们……出手相助，感激不尽。",
+          ContentJP = "助勢、感謝する。",
           DialogueId = 51104070,
           GUID = "7FEF057C",
           LookAt = {
@@ -137266,7 +137266,7 @@ local Data = {
         },
         [51104071] = {
           Camera = "445.683594,-16.105469,156.394531,0.000105,-5.594867,157.996689,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "老爷子！怎么回事，怎么让玄色狴犴缠上了，伤着没有？",
+          ContentJP = "親父！なぜ狴犴に取り囲まれて……怪我は？",
           DialogueId = 51104071,
           GUID = "7FEF05A6",
           LookAt = {
@@ -137280,7 +137280,7 @@ local Data = {
         },
         [51104072] = {
           Camera = "222.753906,168.0625,157.84082,0.00014,-5.794309,-28.59362,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "我硬朗的很，能有什么事？倒是这两个娃娃吓得不轻，幸亏我就在附近，勉强护着他们。要是再晚一点……",
+          ContentJP = "心配はいらん。まだ骨は折れとらんよ。ただ、この子らは危なかった。すぐそばにおったから庇えたが、あと一歩遅ければ……",
           DialogueId = 51104072,
           GUID = "7FEF05D0",
           LookAt = {
@@ -137292,7 +137292,7 @@ local Data = {
         },
         [51104073] = {
           Camera = "445.683594,-16.105469,156.394531,0.000105,-5.594867,157.996689,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "你们两个小子，不快点回家在这荒郊野岭的乱逛干什么？",
+          ContentJP = "お前たち！どうしてこんな野辺で遊んでいる！家に帰る時刻だろう！",
           DialogueId = 51104073,
           GUID = "7FEF05FA",
           NextDialogue = 51104074,
@@ -137300,7 +137300,7 @@ local Data = {
         },
         [51104074] = {
           Camera = "222.753906,168.0625,157.84082,0.00014,-5.794309,-28.59362,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "你认识这两个小娃娃？",
+          ContentJP = "ふむ、知り合いか？",
           DialogueId = 51104074,
           GUID = "7FEF0624",
           NextDialogue = 51104075,
@@ -137311,7 +137311,7 @@ local Data = {
         },
         [51104075] = {
           Camera = "445.683594,-16.105469,156.394531,0.000105,-5.594867,157.996689,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "码头上刚见过面，这小兄弟俩猜谜赢了咱们家的桂花糕回去。",
+          ContentJP = "港で見かけたんです。うちの謎かけで菓子を持ち帰った兄弟ですよ。",
           DialogueId = 51104075,
           GUID = "7FEF064E",
           NextDialogue = 51104076,
@@ -137324,7 +137324,7 @@ local Data = {
         },
         [51104076] = {
           Camera = "254.984375,78.167969,126.896484,0.000137,-6.39389,-21.59598,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "对不起。是我不想晚归挨骂，才带着小武走这条近路……",
+          ContentJP = "ごめんなさい……叱られるのが嫌で、近道を選んだら……",
           DialogueId = 51104076,
           GUID = "7FEF0678",
           LookAt = {
@@ -137341,7 +137341,7 @@ local Data = {
           }
         },
         [51104077] = {
-          Content = "哥……你不用道歉，怪我贪玩，误了回家的时辰。",
+          ContentJP = "違うんだ。……僕が遊びたいって言ったから、遅くなったんだ……",
           DialogueId = 51104077,
           GUID = "7FEF06A2",
           NextDialogue = 51104078,
@@ -137353,7 +137353,7 @@ local Data = {
         },
         [51104078] = {
           Camera = "-137.351562,325.910156,238.606445,0.00011,-10.794915,-30.803417,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "好了，有事回去再说。浣儿，你先把这两个娃娃送回家去。",
+          ContentJP = "よい、無事ならそれでよい。ワンよ、二人を家まで送ってやりなさい。",
           DialogueId = 51104078,
           GUID = "7FEF06CC",
           NextDialogue = 51104079,
@@ -137361,7 +137361,7 @@ local Data = {
         },
         [51104079] = {
           Camera = "445.683594,-16.105469,156.394531,0.000105,-5.594867,157.996689,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "好，您也早点回去，回头和赵叔报个平安。多谢几位英雄出手，我先告辞了。",
+          ContentJP = "わかりました。――君たち、本当にありがとう。俺は子どもたちを送ってくから、これで。",
           DialogueId = 51104079,
           GUID = "7FEF06F6",
           NextDialogue = 51104080,
@@ -137369,7 +137369,7 @@ local Data = {
         },
         [51104080] = {
           Camera = "-137.351562,325.910156,238.606445,0.00011,-10.794915,-30.803417,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "谢过应天尉，还有这两位异国的英雄了。若不是三位出手搭救，我这把老骨头怕是保不下那两个娃娃。",
+          ContentJP = "異国の客人方、そして応天尉殿。助けていただき、感謝する。もし皆がおらなんだら、子らを守り切れんかっただろう。",
           DialogueId = 51104080,
           GUID = "7FEF0720",
           LookAt = {
@@ -137383,7 +137383,7 @@ local Data = {
         },
         [51104081] = {
           Camera = "343.269531,125.167969,194.758789,0.000055,-10.200463,-97.399925,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "职责所在，不必言谢。",
+          ContentJP = "務めを果たしたまで。礼は不要だ。",
           DialogueId = 51104081,
           GUID = "7FEF074A",
           NextDialogue = 51104082,
@@ -137394,7 +137394,7 @@ local Data = {
         },
         [51104082] = {
           Camera = "139.769531,398.101562,168.59668,0.000137,-6.594056,-58.797264,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "……恕我妄言，权当是我这匹夫老眼昏花。这位应天尉大人，我可曾在摊前见过你……与你的弟弟？",
+          ContentJP = "……思い違いかもしれんが、応天尉殿。以前、桂花菓子の屋台で見かけたことがある。弟君とご一緒ではなかったかな？",
           DialogueId = 51104082,
           GUID = "7FEF0774",
           NextDialogue = 51104083,
@@ -137405,7 +137405,7 @@ local Data = {
         },
         [51104083] = {
           Camera = "343.269531,125.167969,194.758789,0.000055,-10.200463,-97.399925,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "…………",
+          ContentJP = "…………",
           DialogueId = 51104083,
           GUID = "7FEF079E",
           NextDialogue = 51104084,
@@ -137415,7 +137415,7 @@ local Data = {
           }
         },
         [51104084] = {
-          Content = "嗯。",
+          ContentJP = "うん。",
           DialogueId = 51104084,
           GUID = "7FEF07C8",
           NextDialogue = 51104085,
@@ -137423,7 +137423,7 @@ local Data = {
         },
         [51104085] = {
           Camera = "139.769531,398.101562,168.59668,0.000137,-6.594056,-58.797264,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "那不会错了，我就说应天尉大人怎么有几分面熟。你是当时那位哥哥，还有个不听话的弟弟。就好像……就好像刚才那两个娃娃一样。",
+          ContentJP = "やはりそうか。どこか見覚えがあると思った。あのときの兄弟……お前さんは兄で、弟は少しやんちゃな子だった。まるで、さきほどの二人のようにな。",
           DialogueId = 51104085,
           GUID = "7FEF07F2",
           NextOptions = {
@@ -137436,14 +137436,14 @@ local Data = {
           }
         },
         [51104086] = {
-          Content = "原来应天尉也有亲人。",
+          ContentJP = "応天尉にも家族がいたんだ？",
           DialogueId = 51104086,
           GUID = "7FEF081C",
           ImprPlusId = 1209,
           NextDialogue = 51104088
         },
         [51104087] = {
-          Content = "不听话的弟弟……难不成是刻舟？",
+          ContentJP = "やんちゃな弟って……もしかしてカシュウのこと？",
           DialogueId = 51104087,
           GUID = "7FEF0846",
           ImprPlusId = 1203,
@@ -137451,7 +137451,7 @@ local Data = {
         },
         [51104088] = {
           Camera = "343.269531,125.167969,194.758789,0.000055,-10.200463,-97.399925,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "并非血亲，只是师出同门罢了。",
+          ContentJP = "血のつながりはない。ただ同じ師を持つ者だ。",
           DialogueId = 51104088,
           GUID = "7FEF0870",
           NextDialogue = 51104089,
@@ -137459,7 +137459,7 @@ local Data = {
         },
         [51104089] = {
           Camera = "139.769531,398.101562,168.59668,0.000137,-6.594056,-58.797264,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "这样啊……你如今成了应天尉，倒也算出人头地。你那师弟呢？我看那小娃脾气顽劣，但聪慧得很，想必如今也和你一样一表人才。",
+          ContentJP = "なるほど……だが、そなたは見事に名を成した。あの弟君も才気ある子だった。きっと今ごろは、そなたに並ぶ器となっておろう。",
           DialogueId = 51104089,
           GUID = "7FEF089A",
           NextDialogue = 51104090,
@@ -137467,7 +137467,7 @@ local Data = {
         },
         [51104090] = {
           Camera = "343.269531,125.167969,194.758789,0.000055,-10.200463,-97.399925,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "…………",
+          ContentJP = "…………",
           DialogueId = 51104090,
           GUID = "7FEF08C4",
           NextDialogue = 51104091,
@@ -137475,7 +137475,7 @@ local Data = {
         },
         [51104091] = {
           Camera = "139.769531,398.101562,168.59668,0.000137,-6.594056,-58.797264,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "……看来是我老头子说错话咯。也罢，时光荏苒，造化弄人，又曾几回能教人如愿以偿。",
+          ContentJP = "……いや、わしの思い違いかもしれん。年月は人を翻弄し、願い通りに運ぶとは限らんからな。",
           DialogueId = 51104091,
           GUID = "7FEF08EE",
           NextDialogue = 51104092,
@@ -137486,21 +137486,21 @@ local Data = {
         },
         [51104092] = {
           Camera = "343.269531,125.167969,194.758789,0.000055,-10.200463,-97.399925,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "老人家，野外凶险，还是早些归家吧。",
+          ContentJP = "野外は危険だ。早く家に戻るがよい。",
           DialogueId = 51104092,
           GUID = "7FEF0918",
           NextDialogue = 51104093,
           SpeakNpcId = 700325
         },
         [51104093] = {
-          Content = "也是，不然浣儿又该惦记了。几位若顺路，不妨和老夫一起走走？",
+          ContentJP = "うむ。ワンもまた案じておろう。……もしよければ、皆も共に参らぬか？",
           DialogueId = 51104093,
           GUID = "7FEF0942",
           SpeakNpcId = 700333
         },
         [51104094] = {
           Camera = "500.710938,139.5625,82.334961,0.000169,-10.993831,-172.027054,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "又劳烦几位了，最近这地界一直都不太平。",
+          ContentJP = "また助けてもらってしまったな……このあたり、近頃ずっと騒がしくてのう。",
           DialogueId = 51104094,
           GUID = "7FEF096C",
           LookAt = {
@@ -137514,7 +137514,7 @@ local Data = {
           }
         },
         [51104095] = {
-          Content = "那里曾经有片桂花林。噢，倒也算不上林，只是几棵长在一起的桂花树罢了。但是那桂花开得好，一到时节，香气隔了山头都能闻到。",
+          ContentJP = "昔はあのあたりに桂花の林があった。いや、林というほどでもない、ただ数本の桂花が寄り添って咲いておっただけだ。だが、その香りは山を越えて届き、時が来れば辺り一面に甘く満ちたものだ。",
           DialogueId = 51104095,
           GUID = "7FEF0996",
           LookAt = {
@@ -137528,7 +137528,7 @@ local Data = {
           }
         },
         [51104096] = {
-          Content = "桂花树下啊，有个小村子。说是村子，其实也就零零散散几户人家。这边有块不大不小的田，几户人就靠它填饱肚子。",
+          ContentJP = "桂の木の下には小さな村があってな。村といっても、家はまばらに数軒。小さな田畑を耕し、どうにか腹を満たす程度の暮らしよ。",
           DialogueId = 51104096,
           GUID = "7FEF09C0",
           LookAt = {
@@ -137539,7 +137539,7 @@ local Data = {
           SpeakNpcId = 700333
         },
         [51104097] = {
-          Content = "这村子人家又少，离皓京也偏远，村里的孩子们没什么娱乐活动。我就让他们摘些桂花回来，做成桂花糕给孩子们分分。顺便出几个谜语让他们猜着玩。",
+          ContentJP = "人も少なく、都からも遠い。子らには遊び場もなくてな……だから摘んだ花を菓子にしてやり、なぞかけを出して楽しませたものだ。",
           DialogueId = 51104097,
           GUID = "7FEF09EA",
           LookAt = {
@@ -137550,7 +137550,7 @@ local Data = {
           SpeakNpcId = 700333
         },
         [51104098] = {
-          Content = "这谜语猜的最好的，当属……当属我的儿子。浣儿他从小机灵，我不求他出人头地，只希望他能平平安安长大，接过我这小本生意……",
+          ContentJP = "その謎に一番強かったのは――わしの息子、ワンだ。利口な子でな……大きな望みなど持たずとも、無事に育ち、この菓子屋を継いでくれればそれでよかった。",
           DialogueId = 51104098,
           GUID = "7FEF0A14",
           LookAt = {
@@ -137565,7 +137565,7 @@ local Data = {
         },
         [51104099] = {
           Camera = "-118.90625,-330.195312,98.025879,0.0002,-11.993771,63.773678,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "难道说……",
+          ContentJP = "まさか……！！",
           DialogueId = 51104099,
           GUID = "7FEF0A3E",
           LookAt = {
@@ -137580,7 +137580,7 @@ local Data = {
         },
         [51104100] = {
           Camera = "500.710938,139.5625,82.334961,0.000169,-10.993831,-172.027054,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "呵呵。浣儿从小崇拜应天尉，某次执法时非要去看热闹，结果不小心卷进其中，在坏人手下丢了性命……",
+          ContentJP = "そうだ。あの子は応天尉に憧れていてな。ある日、執法の場を見たいと駆け出し、巻き込まれて……帰らぬ人となった。",
           DialogueId = 51104100,
           GUID = "7FEF0A68",
           LookAt = {
@@ -137594,7 +137594,7 @@ local Data = {
           }
         },
         [51104101] = {
-          Content = "几十年过去了，村里的人离的离散的散，我原本的名字，也没人记得了。后来的人啊，只知道我姓李，做得一手桂花糕，干脆都叫我桂花李。",
+          ContentJP = "幾十年も過ぎ、村は人も散り、名も忘れられた。残ったのは桂花のリーと呼ばれるこの老いぼれだけよ。",
           DialogueId = 51104101,
           GUID = "7FEF0A92",
           LookAt = {
@@ -137605,7 +137605,7 @@ local Data = {
           SpeakNpcId = 700333
         },
         [51104102] = {
-          Content = "我这把老骨头再不想走，孤苦伶仃地也在这过不下去，只能去码头卖卖糕点。收养了个没爹没娘的小娃娃，还把儿子的名字给了他。",
+          ContentJP = "独りで居ても心は空しくてな……だから城へ出ては菓子を売り、親を失った子を一人引き取った。そしてあの子の名を継がせた。",
           DialogueId = 51104102,
           GUID = "7FEF0ABC",
           LookAt = {
@@ -137616,7 +137616,7 @@ local Data = {
           SpeakNpcId = 700333
         },
         [51104103] = {
-          Content = "明明是我自己把他当儿子养，可他真叫我爹的时候，我反而心里难受。一到这时候，我就总会回到这里走走。",
+          ContentJP = "わしが父と思い育てても、呼ばれるたび胸が痛んでな……そんな時は、こうしてまたここに戻ってしまうのだ。",
           DialogueId = 51104103,
           GUID = "7FEF0AE6",
           LookAt = {
@@ -137635,7 +137635,7 @@ local Data = {
     Loader = function()
       return {
         [51104104] = {
-          Content = "从这看下去，总会感觉那个小村子又回来了，它就在这，哪也没去。",
+          ContentJP = "ここから眺めていると、不思議とあの村がまだそこにある気がしてな。",
           DialogueId = 51104104,
           GUID = "7FEF0B10",
           LookAt = {
@@ -137646,7 +137646,7 @@ local Data = {
           SpeakNpcId = 700333
         },
         [51104105] = {
-          Content = "孩子，你还记得，你第一次带着师弟来买桂花糕，我给你出的谜面吗？",
+          ContentJP = "……そういえば、お前さん。初めて弟と桂花菓子を買いに来た時、わしが出した謎かけを覚えておるか？",
           DialogueId = 51104105,
           GUID = "7FEF0B3A",
           LookAt = {
@@ -137658,7 +137658,7 @@ local Data = {
         },
         [51104106] = {
           Camera = "-86.242188,466.148438,64.947754,0.000178,-7.393345,-67.627014,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "风也愁，雨也愁，木樨归处秋复秋，无人共倚舟。",
+          ContentJP = "風嘆きて、雨嘆く。金木犀の帰処、秋は重なり、秋に還る。ともに船倚る人もなく、ただ影一つあるのみ。",
           DialogueId = 51104106,
           GUID = "7FEF0B64",
           LookAt = {
@@ -137670,7 +137670,7 @@ local Data = {
         },
         [51104107] = {
           Camera = "500.710938,139.5625,82.334961,0.000169,-10.993831,-172.027054,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "记性真不错。当年你们怎么也猜不出来，那是当然。只是我老头子随口的感慨罢了，哪有什么谜底。",
+          ContentJP = "おお、よく覚えておったな。だがあれはただの老いの感慨。答えなど初めから無いのだ。",
           DialogueId = 51104107,
           GUID = "7FEF0B8E",
           LookAt = {
@@ -137681,7 +137681,7 @@ local Data = {
           SpeakNpcId = 700333
         },
         [51104108] = {
-          Content = "这么多年过去，儿子没了，但我有了徒弟，朋友没了，我又认识了愿意陪我喝酒的老伙伴。可唯独那桂花旁的小村子，终究是回不去了。",
+          ContentJP = "……年月は過ぎ、息子は帰らず、友も減った。だが弟子を得て、仲間を得て、酒を酌み交わす友もできた。けれど――桂の花咲くあの村だけは、もう戻らぬ。",
           DialogueId = 51104108,
           GUID = "7FEF0BB8",
           LookAt = {
@@ -137692,7 +137692,7 @@ local Data = {
           SpeakNpcId = 700333
         },
         [51104109] = {
-          Content = "你还年轻，故人尚在，归处仍存，莫要像我老头子一般……",
+          ContentJP = "お前はまだ若い。故郷も、友も、すべて残っておる。どうか、わしのようにはなるな。",
           DialogueId = 51104109,
           GUID = "7FEF0BE2",
           LookAt = {
@@ -137703,7 +137703,7 @@ local Data = {
           SpeakNpcId = 700333
         },
         [51104110] = {
-          Content = "就到这吧，剩下几步路老朽自己回去也无事。多谢几位英雄出手相助了。",
+          ContentJP = "もうここまででよい。残りの道は、ひとりで歩ける。皆の助太刀、まことに感謝するぞ。",
           DialogueId = 51104110,
           GUID = "7FEF0C0C",
           LookAt = {
@@ -137715,7 +137715,7 @@ local Data = {
         },
         [51104111] = {
           Camera = "-5.03125,-308.234375,39.374512,0.000165,-6.393542,75.963158,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "煜明，没想到在这又见面了。上次在听鸦原一别后，刻舟托我带话给你……",
+          ContentJP = "ユーミン、また会えた{性别:な|ね}。……カシュウから言伝を預かっているんだけど……",
           DialogueId = 51104111,
           GUID = "7FEF0C36",
           LookAt = {
@@ -137728,7 +137728,7 @@ local Data = {
         },
         [51104112] = {
           Camera = "156.148438,383.179688,54.88623,0.000159,-8.793397,-104.439034,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "他的心思我早已知晓，恕难遂其心愿……劳烦你们二位了。",
+          ContentJP = "……あいつの想いは承知している。だが叶えることはできん。二人に手間をかけさせたな。",
           DialogueId = 51104112,
           GUID = "7FEF0C60",
           LookAt = {
@@ -137740,7 +137740,7 @@ local Data = {
         },
         [51104113] = {
           Camera = "-5.03125,-308.234375,39.374512,0.000165,-6.393542,75.963158,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "喂喂，我说，你们明明曾经那么要好，还一起买桂花糕吃。有什么误会真的不能说开嘛？",
+          ContentJP = "なにそれ！昔は菓子を分け合った仲じゃんか！何か誤解があるのなら話し合えばいいのに！",
           DialogueId = 51104113,
           GUID = "7FEF0C8A",
           LookAt = {
@@ -137755,7 +137755,7 @@ local Data = {
         },
         [51104114] = {
           Camera = "156.148438,383.179688,54.88623,0.000159,-8.793397,-104.439034,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "……有人欲归家而故园不复。更有些人，故里虽在，却终不得回。",
+          ContentJP = "……帰りたいと願っても、帰る場所が消えてしまう者もいる。帰る場所はあっても、もう二度と踏み入れぬ者もいる。",
           DialogueId = 51104114,
           GUID = "7FEF0CB4",
           LookAt = {
@@ -137769,7 +137769,7 @@ local Data = {
           }
         },
         [51104115] = {
-          Content = "其中恩怨纠葛并非寥寥数语可以道明。更何况如今我需应天执法，他乃飘零中人，立场之别，已是天渊。",
+          ContentJP = "その因縁は言葉で尽くせるものではない。それに、いまの俺は応天の執法者。あいつは流れ者だ。立場が違う――それだけで、もう深い溝があるのだ。",
           DialogueId = 51104115,
           GUID = "7FEF0CDE",
           LookAt = {
@@ -137780,7 +137780,7 @@ local Data = {
           SpeakNpcId = 700325
         },
         [51104116] = {
-          Content = "多谢两位从中调解……怕是让你们失望了。",
+          ContentJP = "すまぬ、せっかく取り持ってくれたが、望みには応えられん。",
           DialogueId = 51104116,
           GUID = "7FEF0D08",
           LookAt = {
@@ -137796,7 +137796,7 @@ local Data = {
         },
         [51104117] = {
           Camera = "-5.03125,-308.234375,39.374512,0.000165,-6.393542,75.963158,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "白听不明白，好像很深奥的样子……不过既然你想清楚了，那我和小仆从也不多说什么了。",
+          ContentJP = "……なんだかよくわからないけど。でも、あんたが決めたなら、もう言わないよ。",
           DialogueId = 51104117,
           GUID = "7FEF0D32",
           LookAt = {
@@ -137810,7 +137810,7 @@ local Data = {
           }
         },
         [51104118] = {
-          Content = "那我们先走了。你保重好身体，不要太拼命了。",
+          ContentJP = "無理しないで、身体を大事にするんだよ。",
           DialogueId = 51104118,
           GUID = "7FEF0D5C",
           NextDialogue = 51104119,
@@ -137819,7 +137819,7 @@ local Data = {
         },
         [51104119] = {
           Camera = "-1452.339844,-2423.003906,585.456543,0.000174,-7.592308,44.551308,35.000008,100000.0,false,DoNotOverride,2.8",
-          Content = "师兄，山外山的大家都未曾怪你，你何必如此执拗？",
+          ContentJP = "ユーミン、山外山の皆は誰ひとりあんたを責めてない。",
           DialogueId = 51104119,
           GUID = "7FEF0D86",
           IsBlack = 1,
@@ -137829,14 +137829,14 @@ local Data = {
           }
         },
         [51104120] = {
-          Content = "罢了，今日我纵是与你大战三百回合也要带你回去！",
+          ContentJP = "今日こそ、しばりつけてでも連れて帰るからな！",
           DialogueId = 51104120,
           GUID = "7FEF0DB0",
           IsBlack = 1,
           NextDialogue = 51104121
         },
         [51104121] = {
-          Content = "……此去一别，不复当年，这或许就是天意。",
+          ContentJP = "……昔日には戻れぬ。それもまた定めか。",
           DialogueId = 51104121,
           DialoguePanelType = "{type:showpic;dir:Texture2D'/Game/UI/Texture/Dynamic/Image/Guide/T_Guide_ChapterEast01_GuiHuaCake02.T_Guide_ChapterEast01_GuiHuaCake02'}",
           GUID = "7FEF0DDA",
@@ -137847,25 +137847,25 @@ local Data = {
           }
         },
         [51104122] = {
-          Content = "故人尚在，归处仍存吗……终究只是个愿景罢了。",
+          ContentJP = "故人はまだ残れど、帰る場所は……ただ幻にすぎぬのだ。",
           DialogueId = 51104122,
           GUID = "7FEF0E04",
           SpeakNpcId = 700325
         },
         [51104200] = {
-          Content = "盘子",
+          ContentJP = "お皿",
           DialogueId = 51104200,
           GUID = "7FEF1AD0",
           NextDialogue = 51104202
         },
         [51104201] = {
-          Content = "天之树",
+          ContentJP = "天上樹",
           DialogueId = 51104201,
           GUID = "7FEF1AD1",
           NextDialogue = 51104202
         },
         [51104202] = {
-          Content = "感觉不太对劲……",
+          ContentJP = "違う気がする……",
           DialogueId = 51104202,
           GUID = "7FEF1AD2",
           NextOptions = {
@@ -137874,20 +137874,20 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51104203] = {
-          Content = "百年春",
+          ContentJP = "百年春",
           DialogueId = 51104203,
           GUID = "7FEF0139",
           NextDialogue = 51104205
         },
         [51104204] = {
-          Content = "沉月香",
+          ContentJP = "沈月香",
           DialogueId = 51104204,
           GUID = "7FEF013A",
           NextDialogue = 51104206
         },
         [51104205] = {
           Camera = "68.732422,-386.160156,178.870117,0.000121,-11.199583,62.005909,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "要不客人您再想想？",
+          ContentJP = "惜しいな、もう一度考えてみるか？",
           DialogueId = 51104205,
           GUID = "7FEF013B",
           NextOptions = {
@@ -137897,7 +137897,7 @@ local Data = {
         },
         [51104206] = {
           Camera = "68.732422,-386.160156,178.870117,0.000121,-11.199583,62.005909,35.0,100000.0,false,DoNotOverride,2.8",
-          Content = "倒是有些接近了，再想想？",
+          ContentJP = "お、だいぶ近いぞ。もう少しだ。",
           DialogueId = 51104206,
           GUID = "7FEF013C",
           NextOptions = {
@@ -139013,7 +139013,7 @@ local Data = {
           }
         },
         [51105515] = {
-          Content = "（一阵有一些激烈但不那么激烈的打斗声）",
+          ContentJP = "（激しく戦い合う音が響き渡った。あまり激しくないけど。）",
           DialogueId = 51105515,
           GUID = "7FEFF28E",
           Scripts = "PlayNormalSound{EventPath{"event:/sfx/common/story/jiaojiao/fight"},PlayAs2D{true}}"
@@ -139509,152 +139509,152 @@ local Data = {
           ToFinalCameraBlendTime = 7
         },
         [51105801] = {
-          ContentJP = "ジェネモン 「ミラクル‐ユカリウマ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ユカリウマ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105801,
           GUID = "7FF0217A"
         },
         [51105802] = {
-          ContentJP = "ジェネモン 「まっしぐら‐ユカリウマ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ユカリウマ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105802,
           GUID = "7FF021A4"
         },
         [51105803] = {
-          ContentJP = "ジェネモン 「ミラクル‐ピチョン」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ピチョン」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105803,
           GUID = "7FF021CE"
         },
         [51105804] = {
-          ContentJP = "ジェネモン 「まっしぐら‐ピチョン」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ピチョン」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105804,
           GUID = "7FF021F8"
         },
         [51105805] = {
-          ContentJP = "ジェネモン 「ミラクル‐モエドリ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「モエドリ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105805,
           GUID = "7FF02222"
         },
         [51105806] = {
-          ContentJP = "ジェネモン 「まっしぐら‐モエドリ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「モエドリ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105806,
           GUID = "7FF0224C"
         },
         [51105807] = {
-          ContentJP = "ジェネモン 「ミラクル‐モフボン」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「モフボン」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105807,
           GUID = "7FF02276"
         },
         [51105808] = {
-          ContentJP = "ジェネモン 「まっしぐら‐モフボン」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「モフボン」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105808,
           GUID = "7FF022A0"
         },
         [51105809] = {
-          ContentJP = "ジェネモン 「ミラクル‐フワタケ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「フワタケ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105809,
           GUID = "7FF022CA"
         },
         [51105810] = {
-          ContentJP = "ジェネモン 「まっしぐら‐フワタケ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「フワタケ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105810,
           GUID = "7FF022F4"
         },
         [51105811] = {
-          ContentJP = "ジェネモン 「ミラクル‐キラリン」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「キラリン」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105811,
           GUID = "7FF0231E"
         },
         [51105812] = {
-          ContentJP = "ジェネモン 「まっしぐら‐キラリン」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「キラリン」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105812,
           GUID = "7FF02348"
         },
         [51105813] = {
-          ContentJP = "ジェネモン 「ミラクル‐ハローボックス」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ハローボックス」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105813,
           GUID = "7FF02372"
         },
         [51105814] = {
-          ContentJP = "ジェネモン 「まっしぐら‐ハローボックス」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ハローボックス」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105814,
           GUID = "7FF0239C"
         },
         [51105815] = {
-          ContentJP = "ジェネモン 「ミラクル‐ミニウサギ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ミニウサギ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105815,
           GUID = "7FF023C6"
         },
         [51105816] = {
-          ContentJP = "ジェネモン 「まっしぐら‐ミニウサギ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ミニウサギ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105816,
           GUID = "7FF023F0"
         },
         [51105817] = {
-          ContentJP = "ジェネモン 「ミラクル‐ミスタードリーム」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ミスタードリーム」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105817,
           GUID = "7FF0241A"
         },
         [51105818] = {
-          ContentJP = "ジェネモン 「まっしぐら‐ミスタードリーム」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ミスタードリーム」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105818,
           GUID = "7FF02444"
         },
         [51105819] = {
-          ContentJP = "ジェネモン 「ミラクル‐フユカイ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「フユカイ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105819,
           GUID = "7FF0246E"
         },
         [51105820] = {
-          ContentJP = "ジェネモン 「まっしぐら‐フユカイ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「フユカイ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105820,
           GUID = "7FF02498"
         },
         [51105821] = {
-          ContentJP = "ジェネモン 「ミラクル‐キャンディーラビット」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「キャンディーラビット」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105821,
           GUID = "7FF024C2"
         },
         [51105822] = {
-          ContentJP = "ジェネモン 「まっしぐら‐キャンディーラビット」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「キャンディーラビット」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105822,
           GUID = "7FF024EC"
         },
         [51105823] = {
-          ContentJP = "ジェネモン 「ミラクル‐メラブー」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「メラブー」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105823,
           GUID = "7FF02516"
         },
         [51105824] = {
-          ContentJP = "ジェネモン 「まっしぐら‐メラブー」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「メラブー」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105824,
           GUID = "7FF02540"
         },
         [51105825] = {
-          ContentJP = "ジェネモン 「ミラクル‐ビリキャッカー」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ビリキャッカー」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105825,
           GUID = "7FF0256A"
         },
         [51105826] = {
-          ContentJP = "ジェネモン 「まっしぐら‐ビリキャッカー」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「ビリキャッカー」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105826,
           GUID = "7FF02594"
         },
         [51105827] = {
-          ContentJP = "ジェネモン 「ミラクル‐フワッコ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「フワッコ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105827,
           GUID = "7FF025BE"
         },
         [51105828] = {
-          ContentJP = "ジェネモン 「まっしぐら‐フワッコ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「フワッコ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105828,
           GUID = "7FF025E8"
         },
         [51105829] = {
-          ContentJP = "ジェネモン 「ミラクル‐マルマルハチ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「マルマルハチ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105829,
           GUID = "7FF02612"
         },
         [51105830] = {
-          ContentJP = "ジェネモン 「まっしぐら‐マルマルハチ」のスキルを発動し、祭りに参加しよう！",
+          ContentJP = "ジェネモン 「マルマルハチ」のスキルを発動し、祭りに参加しよう！",
           DialogueId = 51105830,
           GUID = "7FF0263C"
         },
@@ -139912,7 +139912,7 @@ local Data = {
           NextDialogue = 51105923
         },
         [51105923] = {
-          ContentJP = "けれど、こうして先輩と出会えた。これぞ、災い転じて福となすですね！もし奥義を得たなら、私は義を貫き、不正を斬り、 乱れる世界を正し、滅びゆく)<Default note="text:カショ">華胥</>を救ってみせます！",
+          ContentJP = "けれど、こうして先輩と出会えた。これぞ、災い転じて福となすですね！もし奥義を得たなら、私は義を貫き、不正を斬り、 乱れる世界を正し、滅びゆく<Default note="text:カショ">華胥</>を救ってみせます！",
           DialogueId = 51105923,
           GUID = "7FF0357E",
           NextDialogue = 51105924,
@@ -144190,7 +144190,7 @@ local Data = {
           GUID = "7FF7FCE2"
         },
         [51119000] = {
-          ContentJP = "金の口がひらけば白龍が舞い、扇ひとつで物語が生まれる――さてさて、<Default note="text:カショ">華胥</>にお集まりの皆々さま、里の衆も、遠路はるばるやって来た旅のお方も、どうかこのケントツウに耳をお貸しくだされ！",
+          ContentJP = "金の口がひらけば白龍が舞い、扇ひとつで物語が生まれる――さてさて、<Default note="text:カショ">華胥</>にお集まりの皆々さま、里の衆も、遠路はるばるやって来た旅のお方も、どうかこの全通先生に耳をお貸しくだされ！",
           DialogueId = 51119000,
           GUID = "7FF896F0",
           NextDialogue = 51119001,
@@ -144200,7 +144200,7 @@ local Data = {
           }
         },
         [51119001] = {
-          ContentJP = "拙者の名はケントツウ、かつて白龍様より「全通さん」なる異名を賜った――などと申せば、皆さま少しは興味を持ってくださるかと思いまして。",
+          ContentJP = "拙者の名はゼンブツウ、かつて白龍様より「全通」なる異名を賜った――などと申せば、皆さま少しは興味を持ってくださるかと思いまして。",
           DialogueId = 51119001,
           GUID = "7FF8971A",
           NextDialogue = 51119002,
@@ -144266,7 +144266,7 @@ local Data = {
           SpeakNpcId = 701026
         },
         [51119009] = {
-          ContentJP = "懐に余裕のある見物人たちが次々と銀貨を差し出すと、ほどなくして、茶壺を抱えた使いの者が駆けてきた。ケントツウは紫砂の急須を受け取るなり、ごくりと喉を鳴らし、大きく一息――そして、また語り口を開いた。",
+          ContentJP = "懐に余裕のある見物人たちが次々と銀貨を差し出すと、ほどなくして、茶壺を抱えた使いの者が駆けてきた。全通先生は紫砂の急須を受け取るなり、ごくりと喉を鳴らし、大きく一息――そして、また語り口を開いた。",
           DialogueId = 51119009,
           GUID = "7FF8986A",
           NextDialogue = 51119010
@@ -144341,7 +144341,7 @@ local Data = {
           SpeakNpcId = 701026
         },
         [51119019] = {
-          ContentJP = "ここで、ケントツウ一拍置いて、観客の期待を煽る。",
+          ContentJP = "ここで、全通先生一拍置いて、観客の期待を煽る。",
           DialogueId = 51119019,
           GUID = "7FF89A0E",
           NextDialogue = 51119020
@@ -144409,7 +144409,7 @@ local Data = {
           }
         },
         [51119028] = {
-          ContentJP = "聴衆たちからは白龍神君を讃える声があがる。ケントツウのもとには、次々と銭が投げ込まれた――そして、人々は笑顔で散っていった。",
+          ContentJP = "聴衆たちからは白龍神君を讃える声があがる。全通先生のもとには、次々と銭が投げ込まれた――そして、人々は笑顔で散っていった。",
           DialogueId = 51119028,
           GUID = "7FF89B88",
           Scripts = "PARA{\nMoveTo{ActorId{701081},TargetPoint{\"quandoutong_show1\"},MoveSpeed{100},Visibility{\"Hide\"}},\nMoveTo{ActorId{701082},TargetPoint{\"quandoutong_show2\"},MoveSpeed{100},Visibility{\"Hide\"}},\nMoveTo{ActorId{701083},TargetPoint{\"quandoutong_show3\"},MoveSpeed{100},Visibility{\"Hide\"}},\nMoveTo{ActorId{701084},TargetPoint{\"quandoutong_show4\"},MoveSpeed{100},Visibility{\"Hide\"}},\nMoveTo{ActorId{701085},TargetPoint{\"quandoutong_show5\"},MoveSpeed{100},Visibility{\"Hide\"}},\nMoveTo{ActorId{701086},TargetPoint{\"quandoutong_show6\"},MoveSpeed{100},Visibility{\"Hide\"}}\n}"
@@ -146453,7 +146453,7 @@ local Data = {
           NextDialogue = 51125721
         },
         [51125721] = {
-          ContentJP = "背後からは、リュウじいがふたたび華胥の二人の開祖――ノリとヤンの偉業を語る声と、それに茶をすすりながら相槌を打つ人々の喝采が聞こえてきた……",
+          ContentJP = "背後からは、リュウじいさんがふたたび華胥の二人の開祖――ノリとヤンの偉業を語る声と、それに茶をすすりながら相槌を打つ人々の喝采が聞こえてきた……",
           DialogueId = 51125721,
           GUID = "7FFCE59A"
         },
@@ -147816,7 +147816,7 @@ local Data = {
           SpeakNpcId = 701053
         },
         [51126537] = {
-          ContentJP = "ううう……俺なんか、勉強苦手だから商人になったのに……なんで勉強しなきゃいけないんだよ～なあコウホウ、俺の人柄、お前なら分かるだろ？同じ飯食って育った仲じゃないか……",
+          ContentJP = "ううう……俺なんか、勉強苦手だから商人になったのに……なんで勉強しなきゃいけないんだよ～なあホウコ、俺の人柄、お前なら分かるだろ？同じ飯食って育った仲じゃないか……",
           DialogueId = 51126537,
           GUID = "7FFD6B7A",
           NextDialogue = 51126538,
@@ -149801,7 +149801,7 @@ local Data = {
           SpeakNpcId = 701070
         },
         [51127802] = {
-          ContentJP = "まったく、時々とはいえこんな微茫市に顔を出すなんて、この銭老板の名誉に関わる！ もし誰かに見られたらどうする？ 「銭老板があの悪党どもとつるんでる」なんて言われたら、俺の顔は丸つぶれだ！",
+          ContentJP = "まったく、時々とはいえこんな微茫市に顔を出すなんて、このゼニの名誉に関わる！ もし誰かに見られたらどうする？ 「ゼニ店主があの悪党どもとつるんでる」なんて言われたら、俺の顔は丸つぶれだ！",
           DialogueId = 51127802,
           GUID = "7FFE3B04",
           NextDialogue = 51127803,
@@ -150955,7 +150955,7 @@ local Data = {
         },
         [51140035] = {
           Camera = "-174.360352,-43.571289,181.889648,0.000123,-15.293852,16.366138,35.000011,100000.0,false,DoNotOverride,7.0",
-          ContentJP = "……わかった。聞いてみるよ。望む答えが得られるかは分からないけどね。",
+          ContentJP = "……わかった。聞いてみるよ。望む答えが得られるかは分からないけど。",
           DialogueId = 51140035,
           FacialId = {
             [1] = "100001:Smile01"
@@ -151427,7 +151427,7 @@ local Data = {
         },
         [51140077] = {
           Camera = "-24.294922,12.818359,82.566406,0.000001,0.0,-178.519165,18.36294,75.471931,false,Manual,2.8",
-          Content = "……我明白了！扶疏的姐姐救治的那个病人，不是尾生的妻子，而是尾生自己！他的妻子早就过世了，而他得了心病，一直以为自己的妻子还在身边！",
+          ContentJP = "わかった……！フーシュのお姉さんが診ていた患者は、オショウの妻じゃなくて……オショウ本人！オショウの妻はずっと前に亡くなっていて、彼は心を壊し、ずっと妻が側にいるって錯覚してたんだ……！",
           DialogueId = 51140077,
           FacialId = {
             [1] = "200002:Smile01"
@@ -152160,7 +152160,7 @@ local Data = {
           GUID = "8012DDFE"
         },
         [51160004] = {
-          ContentJP = "遊びすぎて風邪をひいた少女か。どう見ても、オショウの言う「妻」とは結びつかないな。",
+          ContentJP = "遊びすぎて風邪をひいた少女か。どう見ても、オショウの言う「妻」とは結びつかない{性别:な|ね}。",
           DialogueId = 51160004,
           GUID = "8012DE28",
           SpeakNpcId = 100001
@@ -153427,7 +153427,7 @@ local Data = {
           VoiceName = "sfx/boss/Tuosi/vo_$Locale$_Skill08"
         },
         [60180001] = {
-          Content = "近吾者，必罹天劫！",
+          ContentJP = "我に近づく者、ことごとく天罰を受けよ！",
           DialogueId = 60180001,
           Duration = 3,
           GUID = "9834E965",
@@ -153435,7 +153435,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleStart"
         },
         [60180002] = {
-          Content = "吼————",
+          ContentJP = "ガオォーーッ！",
           DialogueId = 60180002,
           Duration = 3,
           GUID = "9834E966",
@@ -153443,7 +153443,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Condemn"
         },
         [60180003] = {
-          Content = "俱往矣……",
+          ContentJP = "……すべては、過ぎ去ったのか。",
           DialogueId = 60180003,
           Duration = 3,
           GUID = "9834E967",
@@ -153451,7 +153451,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_BattleEnd"
         },
         [60180004] = {
-          Content = "晦暝临世。",
+          ContentJP = "真の暗闇、いざや降臨！",
           DialogueId = 60180004,
           Duration = 4,
           GUID = "9834E968",
@@ -153459,7 +153459,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill05"
         },
         [60180005] = {
-          Content = "吼————",
+          ContentJP = "ガアオオオ――ッ！",
           DialogueId = 60180005,
           Duration = 5,
           GUID = "9834E969",
@@ -153467,7 +153467,7 @@ local Data = {
           VoiceName = "sfx/boss/Heilong/vo_$Locale$_Skill06"
         },
         [60180006] = {
-          Content = "曀曀其阴，虺虺其雷——",
+          ContentJP = "我が影は世界を覆い尽し、我が雷は天地を震わす！",
           DialogueId = 60180006,
           Duration = 3,
           GUID = "9834E970",
@@ -158062,7 +158062,7 @@ local Data = {
           SpeakNpcId = 818065
         },
         [71007001] = {
-          ContentJP = "どうしたものか……白龍様ｙ、どうか助けてくだされ……！",
+          ContentJP = "どうしたものか……白龍様、どうか助けてくだされ……！",
           DialogueId = 71007001,
           GUID = "B1C2321A",
           SpeakNpcId = 818066
@@ -160396,7 +160396,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100102] = {
-          Content = "浮名洗尽始见心，风月不染本来明。",
+          ContentJP = "虚名捨ててようやく現れ、風月に染まず清らかな心。",
           DialogueId = 72100102,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160406,7 +160406,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100103] = {
-          Content = "远道而来的朋友，你拂开繁花，可曾窥见自己明朗的本心呢？",
+          ContentJP = "遠路はるばる訪れた友よ、あなたまるで満開の花の如く、自らの澄みきった本来の心を垣間見ただろうか？",
           DialogueId = 72100103,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160440,7 +160440,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100202] = {
-          Content = "好似做了个久远的美梦……",
+          ContentJP = "美しく長い夢を見たようだ…",
           DialogueId = 72100202,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160450,7 +160450,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100203] = {
-          Content = "梦见孩提时，娘亲牵着我的手去渡口买糖人。",
+          ContentJP = "幼き頃、母が私の手を引いて渡口で飴細工を買いに行った夢を見たようだ。",
           DialogueId = 72100203,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160484,7 +160484,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100302] = {
-          Content = "要被太阳抓住了！都怪你，我被太阳抓起来了！",
+          ContentJP = "ああっ、太陽に捕まっちゃう！あなたのせいで、太陽に捕まっちゃっう！",
           DialogueId = 72100302,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160494,7 +160494,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100303] = {
-          Content = "唔……比起被太阳抓住，还不如被你抓住……",
+          ContentJP = "ううん……太陽に捕まるより、あなたに捕まっていたほうがましだ……",
           DialogueId = 72100303,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160528,7 +160528,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100402] = {
-          Content = "空中飘来的味道是什么香料，吿苍，还是春一品？",
+          ContentJP = "漂ってくるこの香りは、何の香料でしょう？吿蒼？いや、それとも春一品かな？",
           DialogueId = 72100402,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160538,7 +160538,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100403] = {
-          Content = "不如我自制的香方，可惜，我再也做不出了。",
+          ContentJP = "私の手作り薫物には及びませんな……もう二度と作れないのが本当に残念だ。",
           DialogueId = 72100403,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160572,7 +160572,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100502] = {
-          Content = "我儿梁卿！你可安好？",
+          ContentJP = "リアン、我が息子よ！元気であったか？",
           DialogueId = 72100502,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160582,7 +160582,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100503] = {
-          Content = "咦？不是我儿？你是谁……？",
+          ContentJP = "いや違う、あなたは……誰だ？",
           DialogueId = 72100503,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160616,7 +160616,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100602] = {
-          Content = "如果沿着高高的大树往天上爬，就可以接近太皓大人吗？",
+          ContentJP = "高い木を沿って天に昇れば、太皓様に近づけるでしょうか？",
           DialogueId = 72100602,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160626,7 +160626,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100603] = {
-          Content = "那要爬多久呢？十年，一百年，够不够呢？",
+          ContentJP = "どのくらい登ればいいんでしょう？十年、百年……足りるでしょうか？",
           DialogueId = 72100603,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160660,7 +160660,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100702] = {
-          Content = "好冷……浑身都好冷，感觉牙齿要被冻掉下来了。",
+          ContentJP = "さむい…寒くて体が震える、歯が凍えて抜け落ちそうだ。",
           DialogueId = 72100702,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160670,7 +160670,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100703] = {
-          Content = "等等，原来我没有牙齿吗？那这种战栗的感觉是……",
+          ContentJP = "待って、私に歯なんてあったっけ？じゃあこの震えは…？",
           DialogueId = 72100703,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160704,7 +160704,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100802] = {
-          Content = "我以前总来这里看天空，好像可以从云层后面望见我自己。",
+          ContentJP = "昔はよくここに来て空を見上げていた。雲の向こうに自分が見えるような気がしてね。",
           DialogueId = 72100802,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160714,7 +160714,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100803] = {
-          Content = "现在不用看啦，毕竟我再也看不到我自己啦~",
+          ContentJP = "今はもう見なくていい。だって、私はもう自分を見えないからな～",
           DialogueId = 72100803,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160748,7 +160748,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72100902] = {
-          Content = "你喜欢什么颜色？豆绿还是鹤灰？",
+          ContentJP = "あなたはどんな色が好き？緑色？それとも灰色？",
           DialogueId = 72100902,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160758,7 +160758,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72100903] = {
-          Content = "我啊，我喜欢云水蓝，就像我的身体一样蓝。",
+          ContentJP = "私は私の体のような水色が好きだ。",
           DialogueId = 72100903,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160792,7 +160792,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101002] = {
-          Content = "尘漠铺天盖地，分不清方向，也辨别不了来路……",
+          ContentJP = "塵砂が空を覆い、方向も分からず、来た道も見失う……",
           DialogueId = 72101002,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160802,7 +160802,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101003] = {
-          Content = "还好有你为我指明方向。谢谢你，远道而来的朋友。",
+          ContentJP = "私に道を示してくれてありがとう、遠路はるばる来てくれた友よ。",
           DialogueId = 72101003,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160836,7 +160836,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101102] = {
-          Content = "噫哈哈！被你发现啦！一切都在我的计谋之中！",
+          ContentJP = "わっはっは！見つかっちゃったね！すべて計画通りだ！",
           DialogueId = 72101102,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160846,7 +160846,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101103] = {
-          Content = "按照计划，下一步该把这个交给你了！",
+          ContentJP = "計画により、これを君に渡す！",
           DialogueId = 72101103,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160924,7 +160924,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101302] = {
-          Content = "水流拍击石块，浸润泥土，滋养生命。",
+          ContentJP = "水流が石を打ち、大地をうるおし、命を育む。",
           DialogueId = 72101302,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160934,7 +160934,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101303] = {
-          Content = "我听说大家最后都会去一个叫忘川的地方，忘川……也是这样的一条小溪吗？",
+          ContentJP = "みんな最後には「三途の川」に行くって聞いたけど、「三途の川」って……こんな小さな川なのかな。",
           DialogueId = 72101303,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160968,7 +160968,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101402] = {
-          Content = "芦苇草，高又高，藏里面，看不到。",
+          ContentJP = "葦は高くそびえ、その中に隠れれば誰にも見つからない。",
           DialogueId = 72101402,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -160978,7 +160978,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101403] = {
-          Content = "嘻嘻，要不是这片芦苇地秃了一块，你又怎么能发现我呢？",
+          ContentJP = "ふふ、もし少し禿げてなかったら、私を見つけられなかったでしょ？",
           DialogueId = 72101403,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161012,7 +161012,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101502] = {
-          Content = "这根尖尖的石头是怎么形成的呢？我在这里观察了好久。",
+          ContentJP = "この尖った石はどうやってできたんだろう？ずっとここで観察してたんだ。",
           DialogueId = 72101502,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161022,7 +161022,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101503] = {
-          Content = "它这么尖，用来做成一把锐利的长矛最为合适。",
+          ContentJP = "こんなに鋭いから、槍にするのが適当だ。",
           DialogueId = 72101503,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161056,7 +161056,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101602] = {
-          Content = "斜坡！斜坡！我乘着风，踏着花，从坡上呼啸而下。",
+          ContentJP = "坂だ！坂だ！私は風に乗り、花を踏みしめ、坂から下りる！",
           DialogueId = 72101602,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161066,7 +161066,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101603] = {
-          Content = "呜呼！莫要拦我！",
+          ContentJP = "やほー！私を止めることなどもういない！",
           DialogueId = 72101603,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161100,7 +161100,7 @@ local Data = {
           Scripts = "PlayAnimation{Sync{true},Duration{1},ActorId{830001},AnimationId{"Wuyou_Born"}}"
         },
         [72101702] = {
-          Content = "这些明黄的色彩，是落叶还是花瓣？",
+          ContentJP = "この鮮やかな黄色の彩りは、落ち葉ですか、それとも花びらでしょうか？",
           DialogueId = 72101702,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -161110,7 +161110,7 @@ local Data = {
           SpeakNpcId = 830001
         },
         [72101703] = {
-          Content = "不知道……但包裹我的却是粉紫色，你一定一眼就发现了吧。",
+          ContentJP = "分かりません…でも、私を包んでいるのは薄い紫色だった、あなたはきっと一目で気づかれたでしょうね。",
           DialogueId = 72101703,
           FacialId = {
             [1] = "830001:PetPan_Common"
@@ -196225,7 +196225,7 @@ local Data = {
         },
         [80200356] = {
           Camera = "71.251167,76.700455,164.569336,0.000129,-5.199686,-133.204468,50.000011,99.112167,false,Manual,15.973291",
-          ContentJP = "つまり、僕には憶夢草はもう必要ないわけだけど。……それでも、試すの？",
+          ContentJP = "つまり、{性别:僕|私}には憶夢草はもう必要ないわけだけど。……それでも、試すの？",
           DialogueId = 80200356,
           Duration = 1,
           FinalCamera = "66.068237,71.181648,163.882812,0.000129,-5.199686,-133.204468,50.000011,99.112167,false,Manual,15.973291",
@@ -196474,7 +196474,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/001/C8CC3028"
         },
         [80210117] = {
-          ContentJP = "先の会話はな、最近もっとも流行してる流れ者小説で一番有名なセリフってさ。めちゃすっげーんだ！ここ読むたび、本の中に飛び込みたくなっちゃうぜ！",
+          ContentJP = "先の会話はな、最近もっとも流行してる流れ者小説で一番有名なセリフさ。めちゃすっげーんだ！ここ読むたび、本の中に飛び込みたくなっちゃうぜ！",
           DialogueId = 80210117,
           GUID = "C8CC3052",
           NextDialogue = 80210118,
@@ -196575,7 +196575,7 @@ local Data = {
         },
         [80210125] = {
           Camera = "160.730469,298.234375,220.72168,0.000052,-13.400564,-69.973022,35.000011,125.0,false,Manual,2.8",
-          ContentJP = "まあ、そりゃそうだな。今の世の中じゃ、侠客なんてもうほとんどいねぇ",
+          ContentJP = "まあ、そりゃそうだな。今の世の中じゃ、侠客なんてもうほとんどいねぇ。",
           DialogueId = 80210125,
           FinalCamera = "165.699219,284.596191,217.265625,0.000052,-13.400564,-69.973022,35.000011,110.763969,false,Manual,2.8",
           GUID = "C8CC31A2",
@@ -196643,7 +196643,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/001/C8CC324A"
         },
         [80210130] = {
-          ContentJP = "けどさ、俺には何も言ってくれなかったんだぜ。",
+          ContentJP = "けどさ、俺には何も言ってくれないんだぜ。",
           DialogueId = 80210130,
           GUID = "C8CC3274",
           NextDialogue = 80210131,
@@ -196679,7 +196679,7 @@ local Data = {
         },
         [80210133] = {
           Camera = "393.839844,444.308105,335.135742,0.000015,-26.198637,-130.560333,35.000011,240.726898,false,Manual,2.8",
-          ContentJP = "……はは。いつかまたな。じゃ、ここまでだ",
+          ContentJP = "……はは。いつかまたな。じゃ、ここまでだ。",
           DialogueId = 80210133,
           FacialId = {
             [1] = "790067:Smile02"
@@ -196766,7 +196766,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/002/C8CC3E1A"
         },
         [80210202] = {
-          ContentJP = "されと、浮世の真ん中にいる彼ら自身の気持ちは、誰に分かるであろう。",
+          ContentJP = "されど、浮世の真ん中にいる彼ら自身の気持ちは、誰に分かるであろう。",
           DialogueId = 80210202,
           GUID = "C8CC3E44",
           NextDialogue = 80210203,
@@ -196866,7 +196866,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/002/C8CC3F6A"
         },
         [80210210] = {
-          ContentJP = "ところが、夜は一転して凍てつく寒さ。このままじゃ凍え死んで、名もなき骸骨になるところだった。",
+          ContentJP = "ところが、夜は一転して凍てつく寒さ。そのままじゃ凍え死んで、名もなき骸骨になるところだった。",
           DialogueId = 80210210,
           GUID = "C8CC3F94",
           NextDialogue = 80210211,
@@ -196888,7 +196888,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/002/C8CC3FBE"
         },
         [80210212] = {
-          ContentJP = "最初は対になった星かと思っただが、遠く離れていても刺すような殺気が伝わってきて、ようやく察した——星じゃない。オオカミの目だ。",
+          ContentJP = "最初は対になった星かと思ったんだが、遠く離れていても刺すような殺気が伝わってきて、ようやく察した——星じゃない。オオカミの目だ。",
           DialogueId = 80210212,
           GUID = "C8CC3FE8",
           NextDialogue = 80210213,
@@ -197017,7 +197017,7 @@ local Data = {
         },
         [80210223] = {
           Camera = "371.589844,-637.212402,325.822266,0.000051,-17.998013,119.596794,33.0,1098.901978,false,Manual,3.0",
-          ContentJP = "まさか、ずっと華胥にいるあなたがヒュペリアのアイスレイク城さえも知ってるとは。",
+          ContentJP = "まさか、ずっと華胥にいるお前がヒュペリアのアイスレイク城さえも知ってるとは。",
           DialogueId = 80210223,
           FinalCamera = "305.197266,-520.310547,282.146484,0.000051,-17.998013,119.596794,33.0,1098.901978,false,Manual,3.0",
           GUID = "C8CC41B6",
@@ -197027,7 +197027,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/002/C8CC41B6"
         },
         [80210224] = {
-          ContentJP = "つい最近、アイスレイク城に住んでる新しい友だちができてな。多少くらいは知ってるぜ",
+          ContentJP = "つい最近、アイスレイク城に住んでる新しい友だちができてな。多少くらいは知ってるぜ。",
           DialogueId = 80210224,
           FacialId = {
             [1] = "790067:Smile01"
@@ -197052,7 +197052,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/002/C8CC420A"
         },
         [80210226] = {
-          ContentJP = "その途中、伝説の海獣「セイレーン」に遭った。花魁のような美貌に、美しい歌声で人を魅惑させる。",
+          ContentJP = "その途中、伝説の海獣「セイレーン」に遭った。花魁のような美貌に、美しい歌声で人を魅惑する。",
           DialogueId = 80210226,
           GUID = "C8CC4234",
           NextDialogue = 80210227,
@@ -197090,7 +197090,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/002/C8CC4288"
         },
         [80210229] = {
-          ContentJP = "そのおかげで、呼吸の術はより一層、精進してたよ。今の僕にとっては、毒霧のような小細工なんて取るに足らん。僕はあの時悟った術を「長鯨の心法」と呼んでいる。",
+          ContentJP = "そのおかげで、呼吸の術はより一層、向上してたよ。今の僕にとっては、毒霧のような小細工なんて取るに足らん。僕はあの時悟った術を「長鯨の心法」と呼んでいる。",
           DialogueId = 80210229,
           GUID = "C8CC42B2",
           NextDialogue = 80210230,
@@ -197307,7 +197307,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/002/C8CC45A6"
         },
         [80210248] = {
-          ContentJP = "えっ、いつの間に？見なかったよ。",
+          ContentJP = "えっ、いつの間に？見えなかったよ。",
           DialogueId = 80210248,
           GUID = "C8CC45D0",
           NextDialogue = 80210249,
@@ -197338,7 +197338,7 @@ local Data = {
         },
         [80210251] = {
           Camera = "-31.490234,-67.365234,193.577148,0.000082,-19.79907,13.007189,30.000008,125.0,false,Manual,2.8",
-          ContentJP = "冗談だ。まだ飲んでねえよ",
+          ContentJP = "冗談だ。まだ飲んでねえよ。",
           DialogueId = 80210251,
           FacialId = {
             [1] = "790067:Smile01"
@@ -197578,7 +197578,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/003/C8CC50A4"
         },
         [80210315] = {
-          ContentJP = "かしこまりました！リユウさん、早く油揚げをもってください。",
+          ContentJP = "かしこまりました！リユウさん、早く油揚げをもってきてください。",
           DialogueId = 80210315,
           GUID = "C8CC50CE",
           NextDialogue = 80210316,
@@ -197715,7 +197715,7 @@ local Data = {
         },
         [80210329] = {
           Camera = "-159.164062,204.953125,88.058105,0.000052,9.999997,-80.395218,20.0,169.81192,false,Manual,2.8",
-          ContentJP = "お目が高いな。うちのリユウさんが作った油揚げ料理はあちこちで有名なんですよ。きっと、あの「燭龍焼き」とやらにも劣らないでしょうな。",
+          ContentJP = "お目が高いですね。うちのリユウさんが作った油揚げ料理はあちこちで有名なんですよ。きっと、その「燭龍焼き」とやらにも劣らないでしょうね。",
           DialogueId = 80210329,
           FinalCamera = "-156.535156,189.371094,90.843262,0.000052,9.999997,-80.395218,20.0,169.81192,false,Manual,2.8",
           GUID = "C8CC531A",
@@ -197922,7 +197922,7 @@ local Data = {
         },
         [80210347] = {
           Camera = "-400.648438,-387.972656,82.464844,0.000133,1.999995,51.002842,20.0,592.152588,false,Manual,2.8",
-          ContentJP = "わかったばい。だが覚えておけ、これはリユウが作った料理だ。もしおまえの友達に余計な話をしたら、あんたの舌を切り取って鍋にするぞ。",
+          ContentJP = "わかったばい。だが覚えておけ、これはリユウが作った料理ばい。もしおまえの友達に余計な話をしたら、あんたの舌を切り取って鍋にするばい。",
           DialogueId = 80210347,
           FinalCamera = "-544.378906,-565.476562,74.48877,0.000132,1.999995,51.004082,20.0,592.152588,false,Manual,2.8",
           GUID = "C8CC560E",
@@ -197940,7 +197940,7 @@ local Data = {
         },
         [80210401] = {
           Camera = "-15.96875,236.780762,198.734375,0.00004,-1.999995,63.206463,40.310993,407.767792,false,Manual,2.8",
-          ContentJP = "朝っぱらから{性别:なんだ|なによ}、もう少し休ませてくれよ……どうしたの{性别:か|}？",
+          ContentJP = "朝っぱらから{性别:なんだ|なによ}、もう少し{性别:休ませてくれよ|休ませてよ}……どうしたの{性别:か|}？",
           DialogueId = 80210401,
           FacialId = {
             [1] = "790008:Doubt01"
@@ -197978,7 +197978,7 @@ local Data = {
         },
         [80210403] = {
           Camera = "-748.292969,-30.820801,161.345703,0.000053,0.0,31.808994,40.310993,975.20166,false,Manual,2.8",
-          ContentJP = "眠気は吹っ飛んだ。詳しく教えて、誰と誰が戦う？",
+          ContentJP = "眠気は吹っ飛んだ。詳しく教えて、誰と誰が戦う{性别:|の}？",
           DialogueId = 80210403,
           FinalCamera = "-626.019531,45.025391,161.345703,0.000053,0.0,31.809633,40.310993,872.170044,false,Manual,2.8",
           GUID = "C8CC5F3E",
@@ -198041,7 +198041,7 @@ local Data = {
         },
         [80210409] = {
           Camera = "511.71875,-314.994141,144.21875,0.000125,-4.000004,125.200066,42.362053,376.295776,false,Manual,2.8",
-          ContentJP = "えっ？なんで私たちしかいないの{性别:か|}？「有名な流れ者たちが揃って来る」って言った{性别:だろう|でしょう}",
+          ContentJP = "えっ？なんで私たちしかいないの{性别:か|}？「有名な流れ者たちが揃って来る」って言った{性别:だろう|でしょう}？",
           DialogueId = 80210409,
           FacialId = {
             [1] = "790008:Doubt01"
@@ -198153,7 +198153,7 @@ local Data = {
         },
         [80210418] = {
           Camera = "478.570312,-143.509766,121.444336,0.000169,2.99999,132.400314,42.362053,217.393646,false,Manual,2.8",
-          ContentJP = "もし{性别:僕|私}が彼女の立場でも、きっと同じ選択をする{性别:だろう|でしょう}。",
+          ContentJP = "もし{性别:僕|私}が彼女の立場でも、きっと同じ選択をする{性别:だろう|かも}。",
           DialogueId = 80210418,
           FinalCamera = "472.527344,-136.883301,121.911133,0.00017,2.99999,132.400513,42.362053,217.393646,false,Manual,2.8",
           GUID = "C8CC61B4",
@@ -198238,7 +198238,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/004/C8CC6304"
         },
         [80210427] = {
-          ContentJP = "そして彼は華胥を離れ、愛を取り戻すため旅に出たが、未だに進展がねぇ",
+          ContentJP = "そして彼は華胥を離れ、愛を取り戻すため旅に出たが、未だに進展がねぇ。",
           DialogueId = 80210427,
           GUID = "C8CC632E",
           NextDialogue = 80210428,
@@ -198348,7 +198348,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/004/C8CC64A8"
         },
         [80210437] = {
-          ContentJP = "でも、こうなると……残された参加者はあなただけではないか？",
+          ContentJP = "でも、こうなると……残された参加者はあなただけではない{性别:か|の}？",
           DialogueId = 80210437,
           GUID = "C8CC64D2",
           NextDialogue = 80210438,
@@ -198413,7 +198413,7 @@ local Data = {
         },
         [80210443] = {
           Camera = "511.71875,-314.994141,144.21875,0.000125,-4.000004,125.200066,42.362053,376.295776,false,Manual,2.8",
-          ContentJP = "だから大風九章を倒したいの{か|}……",
+          ContentJP = "だから大風九章を倒したいの{性别:か|}……",
           DialogueId = 80210443,
           FinalCamera = "491.65625,-286.541504,141.78418,0.000125,-4.000004,125.200066,42.362053,376.295776,false,Manual,2.8",
           GUID = "C8CC65CE",
@@ -198470,7 +198470,7 @@ local Data = {
         },
         [80210449] = {
           Camera = "511.71875,-314.994141,144.21875,0.000125,-4.000004,125.200066,42.362053,376.295776,false,Manual,2.8",
-          ContentJP = "ゆえに、歩むべき道を歩き、未だ果たせぬ志を成し遂げる――そういうことだ。流れ者ってのがどうやって今日まで続いてきたのか、ちょっと分かった気がする。",
+          ContentJP = "ゆえに、歩むべき道を歩き、未だ果たせぬ志を成し遂げる――{性别:そういうことだ|そういうことなんだね}。流れ者ってのがどうやって今日まで続いてきたのか、ちょっと分かった気がする。",
           DialogueId = 80210449,
           FinalCamera = "491.65625,-286.541504,141.78418,0.000125,-4.000004,125.200066,42.362053,376.295776,false,Manual,2.8",
           GUID = "C8CC66CA",
@@ -207353,14 +207353,14 @@ local Data = {
           NextDialogue = 12013526
         },
         [120136021] = {
-          Content = "还是先拜访扶疏吧。",
+          ContentJP = "やはりフーシュのところに行こう。",
           DialogueId = 120136021,
           GUID = "120136021.0",
           ImprPlusId = 1204,
           Scripts = "SetOutport{FinishType{2},OptionIdx{1}}"
         },
         [120136022] = {
-          Content = "去了解虬先生的委托详情。",
+          ContentJP = "キョウンに依頼の詳細を聞いてみよう。",
           DialogueId = 120136022,
           GUID = "120136022.0",
           ImprPlusId = 1201,
@@ -207441,14 +207441,14 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120193/1E16CD3A"
         },
         [120223281] = {
-          ContentJP = "華胥が災禍に沈むのを、黙って見ていたくない。何かできることがあるはずだ。共感+",
+          ContentJP = "華胥が災禍に沈むのを、黙って見ていたくない。何かできることがあるはずだ。",
           DialogueId = 120223281,
           GUID = "120223281.0",
           ImprPlusId = 1204,
           NextDialogue = 12022329
         },
         [120223282] = {
-          ContentJP = "今日は本当に色々あった……もう、アイスレイク城に戻りたい……功利+",
+          ContentJP = "今日は本当に色々あった……もう、アイスレイク城に戻りたい……",
           DialogueId = 120223282,
           GUID = "120223282.0",
           ImprPlusId = 1201,

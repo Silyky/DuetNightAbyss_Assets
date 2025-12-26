@@ -7328,17 +7328,20 @@ return ReadOnly("Reward", {
   [7423] = {
     Count = {
       [1] = 5000,
-      [2] = 1
+      [2] = 1,
+      [3] = 1
     },
     Id = {
       [1] = 101,
-      [2] = 10005
+      [2] = 10005,
+      [3] = 20039
     },
     Mode = "Fixed",
     RewardId = 7423,
     Type = {
       [1] = "Resource",
-      [2] = "Title"
+      [2] = "Title",
+      [3] = "Title"
     }
   },
   [7424] = {

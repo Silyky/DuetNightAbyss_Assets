@@ -2826,6 +2826,10 @@ local Data = {
           ContentES = "Intro",
           TextMapId = "Enter",
         },
+        Episode_Region_None_Trans = {
+          ContentES = "DONGGUO",
+          TextMapId = "Episode_Region_None_Trans"
+        },
         Equals = {
           ContentES = "=",
           TextMapId = "Equals",
