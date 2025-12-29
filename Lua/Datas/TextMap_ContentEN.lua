@@ -36738,7 +36738,7 @@ local Data = {
           TextMapId = "RLBlessingGroup_Desc_301"
         },
         RLBlessingGroup_Desc_302 = {
-          ContentEN = "Gains 1 stack of <Highlight>[Gleam]</> per second (max 60). At 60 stacks, casting a skill consumes all <Highlight>[Gleam]</> and grants <Highlight>[Radiance]</> for 10s</>, increasing Skill DMG by <Highlight>50%</>.",
+          ContentEN = "Gains 1 stack of <Highlight>[Gleam]</> per second (max 60). At 60 stacks, casting a skill consumes all <Highlight>[Gleam]</> and grants [Radiance] for <Highlight>10s</>, increasing Skill DMG by <Highlight>50%</>.",
           TextMapId = "RLBlessingGroup_Desc_302"
         },
         RLBlessingGroup_Desc_303 = {
@@ -45778,7 +45778,7 @@ local Data = {
           TextMapId = "Target_Theater_3"
         },
         Target_Theater_4 = {
-          ContentEN = "Complete <H>%s</> open-world event(s)",
+          ContentEN = "Complete <H>%s</> Dynamic Quest(s)",
           TextMapId = "Target_Theater_4"
         },
         Target_Theater_5 = {

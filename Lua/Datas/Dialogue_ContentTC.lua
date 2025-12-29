@@ -207366,7 +207366,7 @@ local Data = {
         },
         [120140071] = {
           Camera = "-100.281265,-48.355263,188.657227,0.000027,-30.597736,172.820831,35.0,83.274841,false,Manual,9.454929",
-          Content = "……",
+          ContentTC = "……",
           DialogueId = 120140071,
           Duration = 5,
           FacialId = {
@@ -207380,11 +207380,12 @@ local Data = {
           },
           NextDialogue = 120140072,
           SpeakNpcId = 210013,
+          Subtitle = "……",
           ToFinalCameraBlendTime = 6
         },
         [120140072] = {
           Camera = "-122.874931,-13.669342,144.513672,0.000172,-6.199066,39.004654,34.624279,90.312065,false,Manual,10.366989",
-          Content = "……",
+          ContentTC = "……",
           DialogueId = 120140072,
           Duration = 2,
           GUID = "120140072.0",
@@ -207393,6 +207394,7 @@ local Data = {
           },
           NextDialogue = 12014008,
           SpeakNpcId = 100001,
+          Subtitle = "……",
           TalkActionId = {
             [1] = "100001:Explain02_End"
           }

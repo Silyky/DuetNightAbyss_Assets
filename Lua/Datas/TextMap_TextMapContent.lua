@@ -46421,7 +46421,7 @@ local Data = {
           TextMapId = "Target_Theater_3"
         },
         Target_Theater_4 = {
-          TextMapContent = "完成<H>%s</>次动态事件",
+          TextMapContent = "完成<H>%s</>次突发事件",
           TextMapId = "Target_Theater_4"
         },
         Target_Theater_5 = {

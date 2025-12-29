@@ -22724,7 +22724,7 @@ return ReadOnly("TextMap_I18n", {
         },
   EntryTitle_101005 = {
     ContentEN = "The Hyperborean Legion",
-    ContentJP = "ヒュペリア帝国",
+    ContentJP = "ヒュペリア軍団",
     ContentKR = "휘페르보레아 군단",
     ContentTC = "海伯利亞軍團",
     TextMapContent = "海伯利亚军团",
@@ -83104,7 +83104,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLBlessingGroup_Desc_301"
         },
   RLBlessingGroup_Desc_302 = {
-    ContentEN = "Gains 1 stack of <Highlight>[Gleam]</> per second (max 60). At 60 stacks, casting a skill consumes all <Highlight>[Gleam]</> and grants <Highlight>[Radiance]</> for 10s</>, increasing Skill DMG by <Highlight>50%</>.",
+    ContentEN = "Gains 1 stack of <Highlight>[Gleam]</> per second (max 60). At 60 stacks, casting a skill consumes all <Highlight>[Gleam]</> and grants [Radiance] for <Highlight>10s</>, increasing Skill DMG by <Highlight>50%</>.",
     ContentFR = "Gagne 1 cumul de [Lueur] par seconde (max 60). À 60 cumuls, l’utilisation d’une compétence consomme toutes les [Lueurs] et confère [Éclat] pendant <Highlight>10</> s, augmentant les dégâts de compétence de <Highlight>50 %</>.",
     ContentJP = "毎秒<Highlight>「輝光」</>を1スタック獲得、最大60スタック。スキル発動時、<Highlight>「輝光」</>スタックが60なら、全て消費して<Highlight>10</>秒間「キラキラ」状態に入る。この間スキルダメージ+<Highlight>50%</>。",
     ContentKR = "매초 <Highlight>[화광]</> 1단계를 획득한다. 최대 60단계 중첩. 스킬 시전 시, <Highlight>[화광]</>이 60단계에 도달하면, 모든 <Highlight>[화광]</> 단계를 제거하고 [반짝임] 상태에 진입한다. 지속 시간 <Highlight>10</>초. 지속 기간 스킬 대미지가 <Highlight>50%</> 상승한다.",
@@ -103438,11 +103438,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Target_Theater_3"
         },
   Target_Theater_4 = {
-    ContentEN = "Complete <H>%s</> open-world event(s)",
-    ContentJP = "<H>%s</>回ダイナミックイベントをクリアする",
-    ContentKR = "동적 이벤트 <H>%s</>회 완료",
-    ContentTC = "完成<H>%s</>次動態事件",
-    TextMapContent = "完成<H>%s</>次动态事件",
+    ContentEN = "Complete <H>%s</> Dynamic Quest(s)",
+    ContentJP = "<H>%s</>回突発イベントをクリアする",
+    ContentKR = "돌발 사건 <H>%s</>회 완료",
+    ContentTC = "完成<H>%s</>次突發事件",
+    TextMapContent = "完成<H>%s</>次突发事件",
     TextMapId = "Target_Theater_4"
         },
   Target_Theater_5 = {
@@ -106086,7 +106086,7 @@ return ReadOnly("TextMap_I18n", {
   UIGUIDE_AMMO = {
     ContentEN = "There is a chance to obtain ammo supplies by defeating enemies, opening chests, or destroying breakable objects, which can be used to replenish the projectiles for ranged weapons.",
     ContentFR = "Vous pouvez obtenir des <Highlight>munitions</> en vainquant des ennemis, en ouvrant des coffres ou en détruisant certains éléments du décor.",
-    ContentJP = "遠隔武器用の弾薬は、敵の撃破、貯蔵箱の開封、マップ上の壺や箱等のオブジェクト破壊などの方法で一定の確率で入手できます。",
+    ContentJP = "遠隔武器用の弾薬は、敵の撃破、貯蔵箱の開封、マップ上の壺や箱等のオブジェクト破壊など行うと一定の確率で入手できます。",
     ContentKR = "적을 처치하거나, 수납함을 열거나, 주변의 물체를 파괴하는 등의 방법으로 원거리 무기의 탄약을 보충할 수 있는 탄약을 획득할 수 있습니다.",
     ContentTC = "通過擊敗敵人，打開儲物箱，破壞場景中的可破壞物等方式有機率獲得彈藥補給，進而補充遠端武器的彈藥。",
     TextMapContent = "通过击败敌人，打开储物箱，破坏场景中的可破坏物等方式有几率获得弹药补给，进而补充远程武器的弹药。",
@@ -107869,7 +107869,7 @@ return ReadOnly("TextMap_I18n", {
         },
   UIGuide_Run_PC = {
     ContentEN = "Hold &Avoid& to sprint.",
-    ContentJP = "& Avoid & を長押しでダッシュ",
+    ContentJP = "&Avoid&を長押しでダッシュ",
     ContentKR = "&Avoid&를 길게 눌러 돌진할 수 있습니다.",
     ContentTC = "長按&Avoid&可進行衝刺。",
     TextMapContent = "长按&Avoid&可进行冲刺。",

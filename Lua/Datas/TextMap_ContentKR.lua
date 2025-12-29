@@ -45783,7 +45783,7 @@ local Data = {
           TextMapId = "Target_Theater_3"
         },
         Target_Theater_4 = {
-          ContentKR = "동적 이벤트 <H>%s</>회 완료",
+          ContentKR = "돌발 사건 <H>%s</>회 완료",
           TextMapId = "Target_Theater_4"
         },
         Target_Theater_5 = {

@@ -9698,7 +9698,7 @@ local Data = {
           TextMapId = "EntryTitle_101004"
         },
         EntryTitle_101005 = {
-          ContentJP = "ヒュペリア帝国",
+          ContentJP = "ヒュペリア軍団",
           TextMapId = "EntryTitle_101005"
         },
         EntryTitle_101006 = {
@@ -45758,7 +45758,7 @@ local Data = {
           TextMapId = "Target_Theater_3"
         },
         Target_Theater_4 = {
-          ContentJP = "<H>%s</>回ダイナミックイベントをクリアする",
+          ContentJP = "<H>%s</>回突発イベントをクリアする",
           TextMapId = "Target_Theater_4"
         },
         Target_Theater_5 = {
@@ -47062,7 +47062,7 @@ local Data = {
           TextMapId = "Two",
         },
         UIGUIDE_AMMO = {
-          ContentJP = "遠隔武器用の弾薬は、敵の撃破、貯蔵箱の開封、マップ上の壺や箱等のオブジェクト破壊などの方法で一定の確率で入手できます。",
+          ContentJP = "遠隔武器用の弾薬は、敵の撃破、貯蔵箱の開封、マップ上の壺や箱等のオブジェクト破壊など行うと一定の確率で入手できます。",
           TextMapId = "UIGUIDE_AMMO"
         },
         UIGUIDE_ATTACK = {
@@ -47894,7 +47894,7 @@ local Data = {
           TextMapId = "UIGuide_Rouge_2_3"
         },
         UIGuide_Run_PC = {
-          ContentJP = "& Avoid & を長押しでダッシュ",
+          ContentJP = "&Avoid&を長押しでダッシュ",
           TextMapId = "UIGuide_Run_PC"
         },
         UIGuide_Run_Phone = {

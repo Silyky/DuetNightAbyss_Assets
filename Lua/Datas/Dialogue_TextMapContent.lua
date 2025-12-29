@@ -207365,6 +207365,7 @@ local Data = {
           },
           NextDialogue = 120140072,
           SpeakNpcId = 210013,
+          Subtitle = "……",
           ToFinalCameraBlendTime = 6
         },
         [120140072] = {
@@ -207378,6 +207379,7 @@ local Data = {
           },
           NextDialogue = 12014008,
           SpeakNpcId = 100001,
+          Subtitle = "……",
           TalkActionId = {
             [1] = "100001:Explain02_End"
           }

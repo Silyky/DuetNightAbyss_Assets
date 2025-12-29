@@ -32558,7 +32558,7 @@ local Data = {
         [10102422] = {
           Camera = "-3715.893799,4608.366699,265.344238,0.000265,-8.60015,-142.191864,21.341076,438.68515,false,DoNotOverride,4.0",
           CameraBlendCurve = "easeInOutQuad",
-          ContentJP = "でも、魔法の力を極められるのはほんの僅かなの。ほとんどのカロンはただの農夫や商人と同じ――一般労働で生計を立てているのよ。",
+          ContentJP = "でも、魔法の力を極められるのはほんの僅かなの。ほとんどのカロンはただの農夫や商人と同じ―― 一般労働で生計を立てているのよ。",
           DialogueId = 10102422,
           FacialId = {
             [1] = "200006:Unhappy01"
@@ -139202,7 +139202,7 @@ local Data = {
         },
         [51105615] = {
           Camera = "221.630859,16.369629,149.368164,0.000039,-18.199278,-167.801788,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentJP = "えっ！？ガレイア劇場だね？わかった、すぐ行くーっ！！",
+          ContentJP = "えっ！？ガレア劇場だね？わかった、すぐ行くーっ！！",
           DialogueId = 51105615,
           GUID = "7FF002F6",
           SpeakNpcId = 700352,
@@ -154162,7 +154162,7 @@ local Data = {
         },
         [70014001] = {
           Camera = "-394.105225,225.10498,147.011475,0.00004,-19.999113,-46.394775,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentJP = "（カミラが受け取り拒否したお酒。次はどこへと運ばれるのやら）",
+          ContentJP = "（カミラが受け取り拒否した発酵飲料。次はどこへと運ばれるのやら）",
           DialogueId = 70014001,
           Duration = 5,
           GUID = "AF45D00A",
@@ -207368,7 +207368,7 @@ local Data = {
         },
         [120140071] = {
           Camera = "-100.281265,-48.355263,188.657227,0.000027,-30.597736,172.820831,35.0,83.274841,false,Manual,9.454929",
-          Content = "……",
+          ContentJP = "……",
           DialogueId = 120140071,
           Duration = 5,
           FacialId = {
@@ -207382,11 +207382,12 @@ local Data = {
           },
           NextDialogue = 120140072,
           SpeakNpcId = 210013,
+          Subtitle = "……",
           ToFinalCameraBlendTime = 6
         },
         [120140072] = {
           Camera = "-122.874931,-13.669342,144.513672,0.000172,-6.199066,39.004654,34.624279,90.312065,false,Manual,10.366989",
-          Content = "……",
+          ContentJP = "……",
           DialogueId = 120140072,
           Duration = 2,
           GUID = "120140072.0",
@@ -207395,6 +207396,7 @@ local Data = {
           },
           NextDialogue = 12014008,
           SpeakNpcId = 100001,
+          Subtitle = "……",
           TalkActionId = {
             [1] = "100001:Explain02_End"
           }
