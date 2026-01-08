@@ -1469,27 +1469,27 @@ local Data = {
           TextMapId = "Buff_Content_11221"
         },
         Buff_Content_11222 = {
-          ContentJP = "味方ユニットのスキルダメージが#1ダウンし、クリティカル率が#2アップする。",
+          ContentJP = "味方ユニットの与ダメージが#1ダウンし、クリティカル率が#2アップする。",
           TextMapId = "Buff_Content_11222"
         },
         Buff_Content_201 = {
-          ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットがスキルまた武器によりダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
+          ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットがダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
           TextMapId = "Buff_Content_201"
         },
         Buff_Content_202 = {
-          ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットクリティカルダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
+          ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットがクリティカルダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
           TextMapId = "Buff_Content_202"
         },
         Buff_Content_203 = {
-          ContentJP = "敵ユニットの被ダメージが#1ダウンする。\n遠隔武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
+          ContentJP = "敵ユニットの被ダメージが#1ダウンする。\n敵ユニットが遠隔武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
           TextMapId = "Buff_Content_203"
         },
         Buff_Content_204 = {
-          ContentJP = "敵ユニットの被ダメージが#1ダウンする。武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
+          ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットが武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
           TextMapId = "Buff_Content_204"
         },
         Buff_Content_205 = {
-          ContentJP = "敵ユニットの被ダメージが#1ダウンする。近接武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
+          ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットが近接武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
           TextMapId = "Buff_Content_205"
         },
         Buff_Content_206 = {
@@ -40086,7 +40086,7 @@ local Data = {
           TextMapId = "RL_Event304_Select_1"
         },
         RL_Event304_Select_2 = {
-          ContentJP = "「エンバー-50」ランダムに<Highlight>レア</>または<Highlightレジェンド</>「レリック」を獲得。",
+          ContentJP = "「エンバー-50」ランダムに<Highlight>レア</>または<Highlight>レジェンド</>「レリック」を獲得。",
           TextMapId = "RL_Event304_Select_2"
         },
         RL_Event304_Select_3 = {
@@ -40966,7 +40966,7 @@ local Data = {
           TextMapId = "SKILL_10105_DESC"
         },
         SKILL_10201_DESC = {
-          ContentJP = "スキル範囲+<H>#1</>。この武器で通常攻撃時、攻撃速度アップ<H>#2</>のスタックを1獲得、<H>#3</>秒継続、最大<H>#4</>スタック。他の武器に切り替えると効果を失う。",
+          ContentJP = "スキル範囲+<H>#1</>。この武器による通常攻撃が命中する時、攻撃速度アップ<H>#2</>のスタックを1獲得、<H>#3</>秒継続、最大<H>#4</>スタック。他の武器に切り替えると効果を失う。",
           TextMapId = "SKILL_10201_DESC"
         },
         SKILL_10202_DESC = {
@@ -46325,6 +46325,10 @@ local Data = {
           ContentJP = "参加成功",
           TextMapId = "TheaterOnline_Game_Sign_Success"
         },
+        TheaterOnline_Game_Sign_Waiting = {
+          ContentJP = "ダンスパーティの終わりを待つ",
+          TextMapId = "TheaterOnline_Game_Sign_Waiting"
+        },
         TheaterOnline_Game_Start01 = {
           ContentJP = "ルーナダンスパーティイベント開始",
           TextMapId = "TheaterOnline_Game_Start01"
@@ -50594,11 +50598,11 @@ local Data = {
           TextMapId = "UI_Achievement_Des_4021"
         },
         UI_Achievement_Des_40302 = {
-          ContentJP = "累計<highlight>#1</>種類の武器をランク6まで限界突破する",
+          ContentJP = "累計で<highlight>#1</>種類の武器をランク2まで限界突破する",
           TextMapId = "UI_Achievement_Des_40302"
         },
         UI_Achievement_Des_40306 = {
-          ContentJP = "累計<highlight>#1</>件の武器が限界突破を1回達成",
+          ContentJP = "累計<highlight>#1</>種類の武器をランク6まで限界突破する",
           TextMapId = "UI_Achievement_Des_40306"
         },
         UI_Achievement_Des_4031 = {
@@ -60292,7 +60296,7 @@ local Data = {
         UI_DETAILS = {
           ContentJP = "確認",
           TextMapId = "UI_DETAILS",
-        }
+        },
         UI_DGNpc_Name_BlackMerchant = {
           ContentJP = "闇商人",
           TextMapId = "UI_DGNpc_Name_BlackMerchant"
@@ -75594,7 +75598,7 @@ local Data = {
           TextMapId = "UI_WeaponSkin_Des_3010402"
         },
         UI_WeaponSkin_Des_3010403 = {
-          ContentJP = "とある父の叱咤が長槍となった。愛という名の鞭だ――いや、つまりは、父の愛は重いってことだ。",
+          ContentJP = "とある父の叱咤が長柄武器となった。愛という名の鞭だ――いや、つまりは、父の愛は重いってことだ。",
           TextMapId = "UI_WeaponSkin_Des_3010403"
         },
         UI_WeaponSkin_Des_3010404 = {
@@ -75706,7 +75710,7 @@ local Data = {
           TextMapId = "UI_WeaponSkin_Name_3010402"
         },
         UI_WeaponSkin_Name_3010403 = {
-          ContentJP = "父祖の遺志・長槍",
+          ContentJP = "父祖の遺志・長柄",
           TextMapId = "UI_WeaponSkin_Name_3010403"
         },
         UI_WeaponSkin_Name_3010404 = {

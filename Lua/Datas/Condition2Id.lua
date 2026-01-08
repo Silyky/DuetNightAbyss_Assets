@@ -3329,6 +3329,13 @@ return ReadOnly("Condition2Id", {
           [1] = 999999
         }
       }
+    },
+    [1191512] = {
+      [0] = {
+        [602] = {
+          [1] = 20023001
+        }
+      }
     }
   },
   OwnCharIdAndLevel = {

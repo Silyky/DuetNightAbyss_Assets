@@ -585,6 +585,30 @@ return {
             startPort = "Out",
             endQuest = "17646721553243664",
             endPort = "In"
+          },
+          {
+            startQuest = "17669928183811424",
+            startPort = "Out",
+            endQuest = "17669928183811425",
+            endPort = "In"
+          },
+          {
+            startQuest = "17669928183811422",
+            startPort = "Out",
+            endQuest = "17669928183811423",
+            endPort = "In"
+          },
+          {
+            startQuest = "1752463403168441",
+            startPort = "QuestStart",
+            endQuest = "17669928183811422",
+            endPort = "In"
+          },
+          {
+            startQuest = "1752463403168441",
+            startPort = "QuestStart",
+            endQuest = "17669928183811424",
+            endPort = "In"
           }
         },
         nodeData = {
@@ -660,7 +684,7 @@ return {
             key = "17540161998261316532",
             type = "GoToNode",
             name = "前往机关",
-            pos = {x = 2243.72565139414, y = 169.99190820426196},
+            pos = {x = 2598.988809288877, y = 359.46559241478826},
             propsData = {
               GuideUIEnable = false,
               StaticCreatorId = 2080080,
@@ -719,7 +743,7 @@ return {
             key = "17557453372342799",
             type = "GoToNode",
             name = "前往吸球入坑",
-            pos = {x = 1971.540539232839, y = 159.4997312556905},
+            pos = {x = 2268.382644495997, y = 371.0786786241116},
             propsData = {
               GuideUIEnable = true,
               StaticCreatorId = 2080083,
@@ -1002,7 +1026,7 @@ return {
             key = "17611195963892970538",
             type = "WaitingMechanismEnterStateNode",
             name = "等待机关进入状态",
-            pos = {x = 821.7320327131187, y = -145.83859941368854},
+            pos = {x = 804.3636116604871, y = -153.7333362557938},
             propsData = {
               CreateType = "StaticCreator",
               CreateId = 2080089,
@@ -1015,14 +1039,14 @@ return {
             key = "17611195963892970539",
             type = "SetVarNode",
             name = "设置变量值",
-            pos = {x = 1226.5888504632476, y = -144.504248319419},
+            pos = {x = 1198.1677978316686, y = -157.1358272667874},
             propsData = {VarName = "JiShuvar1", VarValue = 1}
           },
           ["17611195963892970540"] = {
             key = "17611195963892970540",
             type = "WaitingMechanismEnterStateNode",
             name = "等待机关进入状态",
-            pos = {x = 822.0261381703568, y = 54.75077239474035},
+            pos = {x = 806.2366644861463, y = 43.69814081579298},
             propsData = {
               CreateType = "StaticCreator",
               CreateId = 2080094,
@@ -1035,21 +1059,21 @@ return {
             key = "17611195963892970541",
             type = "SetVarNode",
             name = "设置变量值",
-            pos = {x = 1226.743939826927, y = 57.97850125814526},
+            pos = {x = 1201.4807819321902, y = 43.767974942355785},
             propsData = {VarName = "JiShuvar2", VarValue = 1}
           },
           ["17611195963892970542"] = {
             key = "17611195963892970542",
             type = "SetVarNode",
             name = "设置变量值",
-            pos = {x = 1226.4133537463408, y = 250.58014960979358},
+            pos = {x = 1197.9923011147619, y = 244.26436013610936},
             propsData = {VarName = "JiShuvar3", VarValue = 1}
           },
           ["17611195963892970543"] = {
             key = "17611195963892970543",
             type = "WaitingMechanismEnterStateNode",
             name = "等待机关进入状态",
-            pos = {x = 822.9534360134954, y = 251.55198614137743},
+            pos = {x = 799.2692254871796, y = 243.65724929927217},
             propsData = {
               CreateType = "StaticCreator",
               CreateId = 2080099,
@@ -1078,6 +1102,46 @@ return {
             name = "显示图文引导",
             pos = {x = 1533.6828999591912, y = 1773.7008797397764},
             propsData = {GuideId = 93}
+          },
+          ["17669928183811422"] = {
+            key = "17669928183811422",
+            type = "WaitingMechanismEnterStateNode",
+            name = "等待机关进入状态",
+            pos = {x = 1605.8690464430956, y = -156.34276086223255},
+            propsData = {
+              CreateType = "StaticCreator",
+              CreateId = 2080090,
+              StateId = 1210151,
+              IsGuideEnable = false,
+              GuidePointName = ""
+            }
+          },
+          ["17669928183811423"] = {
+            key = "17669928183811423",
+            type = "SetVarNode",
+            name = "设置变量值",
+            pos = {x = 2004.4100747195405, y = -150.27156766269988},
+            propsData = {VarName = "JiShuvar1", VarValue = 1}
+          },
+          ["17669928183811424"] = {
+            key = "17669928183811424",
+            type = "WaitingMechanismEnterStateNode",
+            name = "等待机关进入状态",
+            pos = {x = 1607.742099268755, y = 47.40450568303844},
+            propsData = {
+              CreateType = "StaticCreator",
+              CreateId = 2080096,
+              StateId = 1210172,
+              IsGuideEnable = false,
+              GuidePointName = ""
+            }
+          },
+          ["17669928183811425"] = {
+            key = "17669928183811425",
+            type = "SetVarNode",
+            name = "设置变量值",
+            pos = {x = 2002.986216714799, y = 49.05328717802229},
+            propsData = {VarName = "JiShuvar2", VarValue = 1}
           }
         },
         commentData = {}

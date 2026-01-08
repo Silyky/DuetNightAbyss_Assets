@@ -19963,7 +19963,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1003/100348/191F0250"
         },
         [10034825] = {
-          ContentTC = "小仆從，這裡有個奇奇怪怪的機關誒！",
+          ContentTC = "小僕從，這裡有個奇奇怪怪的機關誒！",
           DialogueId = 10034825,
           GUID = "191F0101",
           NextDialogue = 10034826,
@@ -54392,7 +54392,7 @@ local Data = {
         },
         [10130801] = {
           Camera = "50.077148,-329.630371,240.10498,0.000162,-26.599609,119.809021,50.0,292.198273,false,Manual,7.759425",
-          ContentTC = "小仆從你看，旁邊放著好幾個<H>火藥桶</>哎！",
+          ContentTC = "小僕從你看，旁邊放著好幾個<H>火藥桶</>哎！",
           DialogueId = 10130801,
           Duration = 10,
           FacialId = {
@@ -54600,7 +54600,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1002/101313/195BD064"
         },
         [10131307] = {
-          ContentTC = "那小仆從有空拿給<H>鐵匠皎皎前輩</>瞧瞧吧！至於現在，讓我繼續帶領你們向礦坑深處進發！",
+          ContentTC = "那小僕從有空拿給<H>鐵匠皎皎前輩</>瞧瞧吧！至於現在，讓我繼續帶領你們向礦坑深處進發！",
           DialogueId = 10131307,
           GUID = "195BD065",
           NextDialogue = 10131308,
@@ -77029,7 +77029,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120100/1E10D748"
         },
         [12010005] = {
-          ContentTC = "小仆從，這就是你們經常說的南方吧。這裡和你的家鄉像嗎？",
+          ContentTC = "小僕從，這就是你們經常說的南方吧。這裡和你的家鄉像嗎？",
           DialogueId = 12010005,
           GUID = "1E10D772",
           NextDialogue = 12010006,
@@ -77671,7 +77671,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120102/1E10F914"
         },
         [12010211] = {
-          ContentTC = "小仆從，你怎麼來了……你、你都聽見了？",
+          ContentTC = "小僕從，你怎麼來了……你、你都聽見了？",
           DialogueId = 12010211,
           GUID = "1E10F93E",
           NextOptions = {
@@ -77818,7 +77818,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120102/1E10FBDE"
         },
         [12010228] = {
-          ContentTC = "小仆從，看到了嗎！那個傢伙只用了一招就讓壞人消失了誒。",
+          ContentTC = "小僕從，看到了嗎！那個傢伙只用了一招就讓壞人消失了誒。",
           DialogueId = 12010228,
           GUID = "1E10FC08",
           NextDialogue = 12010229,
@@ -78452,7 +78452,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120104/1E111D80"
         },
         [12010433] = {
-          ContentTC = "小仆從，你什麼時候偷偷學會了華胥文字？白都不知道！",
+          ContentTC = "小僕從，你什麼時候偷偷學會了華胥文字？白都不知道！",
           DialogueId = 12010433,
           GUID = "1E111DAA",
           NextDialogue = 12010434,
@@ -78511,7 +78511,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120104/1E111EA6"
         },
         [12010440] = {
-          ContentTC = "白突然有了一個想法！莫非，小仆從就是這位前輩的不知道第幾十代曾曾曾曾孫？",
+          ContentTC = "白突然有了一個想法！莫非，小僕從就是這位前輩的不知道第幾十代曾曾曾曾孫？",
           DialogueId = 12010440,
           GUID = "1E111ED0",
           NextOptions = {
@@ -78698,7 +78698,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120105/1E112A4C"
         },
         [12010511] = {
-          ContentTC = "其實你再晚來兩步，小仆從唰唰兩下就能解決啦，{性别:他|她}很厲害的！",
+          ContentTC = "其實你再晚來兩步，小僕從唰唰兩下就能解決啦，{性别:他|她}很厲害的！",
           DialogueId = 12010511,
           GUID = "1E112A76",
           NextDialogue = 12010512,
@@ -78731,7 +78731,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120105/1E112AF4"
         },
         [12010515] = {
-          ContentTC = "怎、怎麼辦，小仆從，我們是不是得趕緊潛逃？你的水性怎麼樣？",
+          ContentTC = "怎、怎麼辦，小僕從，我們是不是得趕緊潛逃？你的水性怎麼樣？",
           DialogueId = 12010515,
           GUID = "1E112B1E",
           NextDialogue = 12010516,
@@ -78925,7 +78925,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120105/1E112E90"
         },
         [12010537] = {
-          ContentTC = "小、小仆從，你不要搞錯了，那明明是在考驗你的實力……",
+          ContentTC = "小、小僕從，你不要搞錯了，那明明是在考驗你的實力……",
           DialogueId = 12010537,
           GUID = "1E112EBA",
           GuideFacialId = "Angry",
@@ -79147,7 +79147,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120107/1E114A9E"
         },
         [12010708] = {
-          ContentTC = "咳咳……小仆從，我們趕緊走吧，別讓金主大人久等了！",
+          ContentTC = "咳咳……小僕從，我們趕緊走吧，別讓金主大人久等了！",
           DialogueId = 12010708,
           GUID = "1E114AC8",
           SpeakNpcId = 200002,
@@ -79705,7 +79705,7 @@ local Data = {
         },
         [12010816] = {
           Camera = "-186.98848,-7.478424,161.543945,0.000262,-16.208401,29.619329,35.0,357.667114,false,Manual,6.0",
-          ContentTC = "哇，對手真的是一條龍耶，魔王大人已經熱血沸騰起來了！那需要我和小仆從做什麼呢？",
+          ContentTC = "哇，對手真的是一條龍耶，魔王大人已經熱血沸騰起來了！那需要我和小僕從做什麼呢？",
           DialogueId = 12010816,
           FacialId = {
             [1] = "210004:None"
@@ -80113,7 +80113,7 @@ local Data = {
         },
         [12010909] = {
           Camera = "-19.247467,268.217834,206.660156,0.001299,-34.998592,-66.185158,35.0,247.601944,false,Manual,4.0",
-          ContentTC = "嗯嗯，白和小仆從要扮演危險角色……這感覺對味了！",
+          ContentTC = "嗯嗯，白和小僕從要扮演危險角色……這感覺對味了！",
           DialogueId = 12010909,
           FacialId = {
             [1] = "200002:Smile02"
@@ -80172,7 +80172,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120110/1E117ADA"
         },
         [12011002] = {
-          ContentTC = "白還記得和小仆從第一次探險，也是下洞窟，仿佛就像昨天剛剛發生一樣！",
+          ContentTC = "白還記得和小僕從第一次探險，也是下洞窟，仿佛就像昨天剛剛發生一樣！",
           DialogueId = 12011002,
           Duration = 4,
           GUID = "1E117B04",
@@ -80237,7 +80237,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120111/1E118B42"
         },
         [12011102] = {
-          ContentTC = "看，小仆從！這裡黑布隆冬的，說話還會有回音耶。你會怕黑嗎？",
+          ContentTC = "看，小僕從！這裡黑布隆冬的，說話還會有回音耶。你會怕黑嗎？",
           DialogueId = 12011102,
           Duration = 3,
           GUID = "1E118B6C",
@@ -80268,7 +80268,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120111/1E118BC0"
         },
         [12011201] = {
-          ContentTC = "呸、呸！好的不靈壞的靈，小仆從簡直是烏鴉嘴——",
+          ContentTC = "呸、呸！好的不靈壞的靈，小僕從簡直是烏鴉嘴——",
           DialogueId = 12011201,
           Duration = 2,
           GUID = "1E119BAA",
@@ -80421,7 +80421,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120114/1E11BD76"
         },
         [12011408] = {
-          ContentTC = "對哦，好像確實有這麼一回事……那白和小仆從回頭要狠狠地奉幾根香！",
+          ContentTC = "對哦，好像確實有這麼一回事……那白和小僕從回頭要狠狠地奉幾根香！",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12011408,
           FacialId = {
@@ -80515,7 +80515,7 @@ local Data = {
         },
         [12011413] = {
           Camera = "77.085526,178.859253,127.048584,0.000261,-3.609953,-158.824905,35.000011,303.13736,false,Manual,6.0",
-          ContentTC = "沒錯，就是那處沉船黑市！白和小仆從要去那裡談一樁大生意！",
+          ContentTC = "沒錯，就是那處沉船黑市！白和小僕從要去那裡談一樁大生意！",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12011413,
           FacialId = {
@@ -80556,7 +80556,7 @@ local Data = {
         },
         [12011415] = {
           Camera = "-20.366999,-42.464127,13.334961,0.000288,25.588646,77.37146,35.000011,257.516388,false,Manual,14.0",
-          ContentTC = "怎、怎麼辦，小仆從？！我們好像被他誤解了……",
+          ContentTC = "怎、怎麼辦，小僕從？！我們好像被他誤解了……",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12011415,
           FacialId = {
@@ -80707,7 +80707,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120115/1E11CD60"
         },
         [12011505] = {
-          ContentTC = "……小仆從你聽，就是不發工資的意思咯？比帝國還摳門！",
+          ContentTC = "……小僕從你聽，就是不發工資的意思咯？比帝國還摳門！",
           DialogueId = 12011505,
           Duration = 2,
           GUID = "1E11CD8A",
@@ -80800,7 +80800,7 @@ local Data = {
         },
         [12011705] = {
           Camera = "79.016762,83.664368,179.60791,0.000035,-33.004574,-79.798035,25.000006,153.629883,false,Manual,6.0",
-          ContentTC = "喂，小仆從！後面那麼大的動靜，是怎麼回事！",
+          ContentTC = "喂，小僕從！後面那麼大的動靜，是怎麼回事！",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12011705,
           GUID = "1E11EE5A",
@@ -80831,7 +80831,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120117/1E11EE84"
         },
         [12011707] = {
-          ContentTC = "那、那個，小仆從，我覺得……",
+          ContentTC = "那、那個，小僕從，我覺得……",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12011707,
           FacialId = {
@@ -81604,7 +81604,7 @@ local Data = {
         },
         [12012114] = {
           Camera = "-144.614258,249.075195,179.435547,0.000213,-26.201075,8.196909,40.000011,243.196228,false,Manual,3.746801",
-          ContentTC = "怎、怎麼辦，小仆從？感覺今天做什麼都不順利，這就是華胥俗稱的「點背」嘛！",
+          ContentTC = "怎、怎麼辦，小僕從？感覺今天做什麼都不順利，這就是華胥俗稱的「點背」嘛！",
           DefaultLookAt = "TalkNpc",
           DialogueId = 12012114,
           FacialId = {
@@ -81644,7 +81644,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120122/1E123FBA"
         },
         [12012202] = {
-          ContentTC = "小仆從，對面好像起了什麼爭執！我們趕緊過去看看熱鬧！",
+          ContentTC = "小僕從，對面好像起了什麼爭執！我們趕緊過去看看熱鬧！",
           DialogueId = 12012202,
           Duration = 3,
           GUID = "1E123FE4",
@@ -81914,7 +81914,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120124/1E1260B4"
         },
         [12012403] = {
-          ContentTC = "小仆從，我們擠到前排去吧。",
+          ContentTC = "小僕從，我們擠到前排去吧。",
           DialogueId = 12012403,
           Duration = 2,
           GUID = "1E1260DE",
@@ -81935,7 +81935,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120125/1E1270F2"
         },
         [12012502] = {
-          ContentTC = "小仆從，我看不太明白。但好像……那個姑娘占了上風？那她是不是有翻盤的機會了！",
+          ContentTC = "小僕從，我看不太明白。但好像……那個姑娘占了上風？那她是不是有翻盤的機會了！",
           DialogueId = 12012502,
           GUID = "1E12711C",
           NextDialogue = 12012503,
@@ -82669,7 +82669,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120131/1E12D506"
         },
         [12013112] = {
-          ContentTC = "誒，扶疏姐姐為什麼老盯著小仆從看呀，難道小仆從還有什麼沒治好的傷？",
+          ContentTC = "誒，扶疏姐姐為什麼老盯著小僕從看呀，難道小僕從還有什麼沒治好的傷？",
           DialogueId = 12013112,
           GUID = "1E12D530",
           NextDialogue = 12013113,
@@ -82845,7 +82845,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120132/1E12E448"
         },
         [12013205] = {
-          ContentTC = "自身氣血……小仆從，這又是什麼意思？",
+          ContentTC = "自身氣血……小僕從，這又是什麼意思？",
           DialogueId = 12013205,
           GUID = "1E12E472",
           NextDialogue = 12013206,
@@ -82943,7 +82943,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120133/1E12F486"
         },
         [12013304] = {
-          ContentTC = "說起來，小仆從用一支笛子換取了頂級醫生的諾言！這就是那個虬先生的意圖嗎？",
+          ContentTC = "說起來，小僕從用一支笛子換取了頂級醫生的諾言！這就是那個虬先生的意圖嗎？",
           DialogueId = 12013304,
           GUID = "1E12F4B0",
           NextDialogue = 12013305,
@@ -83031,7 +83031,7 @@ local Data = {
         },
         [12013405] = {
           Camera = "-81.517975,-323.171509,152.899414,0.000041,-15.400177,85.60154,35.000008,557.472534,false,DoNotOverride,2.8",
-          ContentTC = "……小仆從，搞技術的人，都是這麼熱情好客的嗎？",
+          ContentTC = "……小僕從，搞技術的人，都是這麼熱情好客的嗎？",
           DialogueId = 12013405,
           FacialId = {
             [1] = "200002:Guilty"
@@ -83307,7 +83307,7 @@ local Data = {
         },
         [12013424] = {
           Camera = "-127.312958,25.078018,85.87793,0.000067,-13.821461,9.846305,35.000008,100000.0,false,DoNotOverride,2.8",
-          ContentTC = "哎？那是不是意味著小仆從學成出師了？",
+          ContentTC = "哎？那是不是意味著小僕從學成出師了？",
           DialogueId = 12013424,
           FacialId = {
             [1] = "210014:CM_Idle",
@@ -83379,7 +83379,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120134/1E130908"
         },
         [12013429] = {
-          ContentTC = "小仆從，你看！那邊有一個奇怪的東西，散發出邪惡的氣息！",
+          ContentTC = "小僕從，你看！那邊有一個奇怪的東西，散發出邪惡的氣息！",
           DialogueId = 12013429,
           GUID = "1E130932",
           NextDialogue = 12013430,
@@ -83418,7 +83418,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120134/1E1309DA"
         },
         [12013434] = {
-          ContentTC = "小仆從，別發呆了，打起精神來！",
+          ContentTC = "小僕從，別發呆了，打起精神來！",
           DialogueId = 12013434,
           GUID = "1E130A04",
           SpeakNpcId = 200002,
@@ -83458,7 +83458,7 @@ local Data = {
         },
         [12013439] = {
           Camera = "234.427734,226.169922,38.391602,0.000054,8.448527,-130.795746,11.88,100000.0,false,Manual,2.8",
-          ContentTC = "小仆從，怎麼從剛剛開始，你就有點心不在焉的樣子？",
+          ContentTC = "小僕從，你怎麼自顧自地往這個方向走了？這裡空蕩蕩的，什麼都沒有的樣子......",
           DialogueId = 12013439,
           GUID = "1E130AD6",
           NextDialogue = 12013457,
@@ -83466,7 +83466,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120134/1E130AD6"
         },
         [12013440] = {
-          ContentTC = "……小仆從，我相信你。這麼難懂的語句，絕對不是隨隨便便就能想出來的。",
+          ContentTC = "……小僕從，我相信你。這麼難懂的語句，絕對不是隨隨便便就能想出來的。",
           DialogueId = 12013440,
           GUID = "1E130B00",
           NextDialogue = 12013441,
@@ -83532,7 +83532,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120134/1E130C26"
         },
         [12013448] = {
-          ContentTC = "小仆從，所以那個聲音對你說了什麼？",
+          ContentTC = "小僕從，所以那個聲音對你說了什麼？",
           DialogueId = 12013448,
           GUID = "1E130C50",
           NextDialogue = 12013449,
@@ -83694,7 +83694,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120135/1E1315AA"
         },
         [12013506] = {
-          ContentTC = "白和小仆從的時間可是很寶貴的！只能給你一分鍾……不對，三十秒的時間！",
+          ContentTC = "白和小僕從的時間可是很寶貴的！只能給你一分鍾……不對，三十秒的時間！",
           DialogueId = 12013506,
           GUID = "1E1315D4",
           NextDialogue = 12013507,
@@ -84101,7 +84101,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120136/1E13256A"
         },
         [12013602] = {
-          ContentTC = "拜訪扶疏還是幫助虯老板……先去哪裡呢？小仆從，你決定吧！",
+          ContentTC = "拜訪扶疏還是幫助虯老板……先去哪裡呢？小僕從，你決定吧！",
           DialogueId = 12013602,
           Duration = 3,
           GUID = "1E132594",
@@ -84167,7 +84167,7 @@ local Data = {
         [12013803] = {
           Camera = "-112.108292,-52.482899,103.758789,0.000038,0.798579,-177.772751,25.000002,100000.0,false,DoNotOverride,2.8",
           CameraBlendCurve = "easeInOutQuad",
-          ContentTC = "小仆從，我們先進去看看吧。",
+          ContentTC = "小僕從，我們先進去看看吧。",
           DialogueId = 12013803,
           FinalCamera = "-190.457108,-94.858833,111.126953,0.000037,-12.000703,-148.576523,25.000002,100000.0,false,DoNotOverride,2.8",
           GUID = "1E13468E",
@@ -84206,7 +84206,7 @@ local Data = {
     Loader = function()
       return {
         [12013903] = {
-          ContentTC = "小仆從你你你不要隨便講鬼故事——扶疏她的確住在這裡，沒錯吧……？",
+          ContentTC = "小僕從你你你不要隨便講鬼故事——扶疏她的確住在這裡，沒錯吧……？",
           DialogueId = 12013903,
           Duration = 3,
           GUID = "1E1356F6",
@@ -84490,7 +84490,7 @@ local Data = {
         },
         [12014017] = {
           Camera = "-333.198242,-92.549561,186.976562,0.000109,-17.397945,13.034511,40.000011,340.723328,false,Manual,8.0",
-          ContentTC = "這樣才對嘛！小仆從，沒想到你的口才這麼好，不愧是本魔王最得力的跟班！",
+          ContentTC = "這樣才對嘛！小僕從，沒想到你的口才這麼好，不愧是本魔王最得力的跟班！",
           DialogueId = 12014017,
           FacialId = {
             [1] = "200002:Confident02"
@@ -84757,7 +84757,7 @@ local Data = {
         },
         [12014033] = {
           Camera = "-294.044525,50.440552,165.479492,0.000202,-16.597221,-20.770725,40.0,289.488281,false,Manual,6.491352",
-          ContentTC = "聽起來很神奇的樣子……！那我和小仆從可以去這個地方嗎？",
+          ContentTC = "聽起來很神奇的樣子……！那我和小僕從可以去這個地方嗎？",
           DialogueId = 12014033,
           FacialId = {
             [1] = "200002:Happy02"
@@ -84815,7 +84815,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120142/1E138804"
         },
         [12014203] = {
-          ContentTC = "哼哼，畢竟現在白和小仆從可是出師的機樞派榮譽學徒！你就看好了！",
+          ContentTC = "哼哼，畢竟現在白和小僕從可是出師的機樞派榮譽學徒！你就看好了！",
           DialogueId = 12014203,
           Duration = 2,
           GUID = "1E13882E",
@@ -84857,7 +84857,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120143/1E139842"
         },
         [12014302] = {
-          ContentTC = "嗚、嗚哇——誰在說話？幽靈？！救命啊，小仆從！",
+          ContentTC = "嗚、嗚哇——誰在說話？幽靈？！救命啊，小僕從！",
           DialogueId = 12014302,
           GUID = "1E13986C",
           NextDialogue = 12014303,
@@ -85489,7 +85489,7 @@ local Data = {
         [12015505] = {
           Camera = "115.516785,197.20285,91.707275,0.000133,-32.198425,-53.396206,30.0,140.374573,false,Manual,8.366085",
           CameraBlendCurve = "easeInOutQuad",
-          ContentTC = "等等，小仆從，你不覺得他們的交談有哪裡不對勁嗎？！",
+          ContentTC = "等等，小僕從，你不覺得他們的交談有哪裡不對勁嗎？！",
           DialogueId = 12015505,
           FinalCamera = "105.107033,219.02327,94.781616,0.000144,-27.398195,-54.795994,30.0,166.458572,false,Manual,11.745219",
           GUID = "1E145DCA",
@@ -85509,7 +85509,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120155/1E145DCA"
         },
         [12015507] = {
-          ContentTC = "你沒有聽明白嗎小仆從！按他話裡的意思，扶疏至少活了一百年那麼久！",
+          ContentTC = "你沒有聽明白嗎小僕從！按他話裡的意思，扶疏至少活了一百年那麼久！",
           DialogueId = 12015507,
           FacialId = {
             [1] = "200002:Shock01"
@@ -85771,7 +85771,7 @@ local Data = {
         [12015523] = {
           Camera = "188.509262,31.106506,50.589233,0.000078,-30.155823,110.398247,40.0,100000.0,false,DoNotOverride,2.8",
           CameraBlendCurve = "easeInOutQuad",
-          ContentTC = "放心。現在白和小仆從都給你撐腰，這樣你就有兩個朋友了！",
+          ContentTC = "放心。現在白和小僕從都給你撐腰，這樣你就有兩個朋友了！",
           DialogueId = 12015523,
           FacialId = {
             [1] = "100001:Smile01"
@@ -86000,7 +86000,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120155/1E1462E0"
         },
         [12015537] = {
-          ContentTC = "小仆從，我們快走吧……！",
+          ContentTC = "小僕從，我們快走吧……！",
           DialogueId = 12015537,
           GUID = "1E14630A",
           SpeakNpcId = 200002,
@@ -86070,7 +86070,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120156/1E146E08"
         },
         [12015701] = {
-          ContentTC = "喂——小仆從，你快過來看看！",
+          ContentTC = "喂——小僕從，你快過來看看！",
           DialogueId = 12015701,
           Duration = 3,
           GUID = "1E147DF2",
@@ -86079,7 +86079,7 @@ local Data = {
         },
         [12015801] = {
           Camera = "428.589844,98.277344,126.54541,0.0,0.0,-179.794739,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentTC = "……難道是白幻聽了嗎？小仆從，你來幫我確認一下，是不是有什麼聲音從這邊傳過來？",
+          ContentTC = "……難道是白幻聽了嗎？小僕從，你來幫我確認一下，是不是有什麼聲音從這邊傳過來？",
           DialogueId = 12015801,
           GUID = "1E148E5A",
           NextDialogue = 12015802,
@@ -86178,7 +86178,7 @@ local Data = {
         },
         [12015901] = {
           Camera = "428.589844,98.277344,126.54541,0.0,0.0,-179.794739,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentTC = "小仆從，剛剛什麼動靜？",
+          ContentTC = "小僕從，剛剛什麼動靜？",
           DialogueId = 12015901,
           GUID = "1E149EC2",
           NextDialogue = 12015902,
@@ -86191,7 +86191,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120159/1E149EC2"
         },
         [12015902] = {
-          ContentTC = "小仆從，小仆從？……{nickname}？！",
+          ContentTC = "小僕從，小僕從？……{nickname}？！",
           DialogueId = 12015902,
           GUID = "1E149EEC",
           NextDialogue = 12015903,
@@ -86224,7 +86224,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120159/1E149F6A"
         },
         [12015906] = {
-          ContentTC = "嗚哇……剛剛有什麼人在看不到見的地方說話，我和小仆從準備去找找看，可是剛剛突然有一道光閃過，「滋溜」一聲，小仆從就變成了這個呆呆的樣子！",
+          ContentTC = "嗚哇……剛剛有什麼人在看不到見的地方說話，我和小僕從準備去找找看，可是剛剛突然有一道光閃過，「滋溜」一聲，小僕從就變成了這個呆呆的樣子！",
           DialogueId = 12015906,
           GUID = "1E149F94",
           NextDialogue = 12015907,
@@ -86331,7 +86331,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120159/1E14A1E0"
         },
         [12015921] = {
-          ContentTC = "但、但是，白只能在這裡乾等著，什麼事情都做不了，也不知道裡面是什麼情況，小仆從到底怎麼樣了……",
+          ContentTC = "但、但是，白只能在這裡乾等著，什麼事情都做不了，也不知道裡面是什麼情況，小僕從到底怎麼樣了……",
           DialogueId = 12015921,
           GUID = "1E14A20A",
           NextDialogue = 12015922,
@@ -86387,7 +86387,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120159/1E14A306"
         },
         [12015928] = {
-          ContentTC = "整天說自己是什麼魔王大人，結果連我的小仆從都護不住……",
+          ContentTC = "整天說自己是什麼魔王大人，結果連我的小僕從都護不住……",
           DialogueId = 12015928,
           GUID = "1E14A330",
           NextDialogue = 12015929,
@@ -86403,7 +86403,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120159/1E14A35A"
         },
         [12015930] = {
-          ContentTC = "笨蛋仆從，你一定要好好地回來哦！不然罰你給卡蜜拉打一年……不對，十年，一百年工！",
+          ContentTC = "笨蛋僕從，你一定要好好地回來哦！不然罰你給卡蜜拉打一年……不對，十年，一百年工！",
           DialogueId = 12015930,
           GUID = "1E14A384",
           SpeakNpcId = 200002,
@@ -86763,7 +86763,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120169/1E154350"
         },
         [12017001] = {
-          ContentTC = "小仆從，快跟上來，怎麼這麼慢！魔王大人還要帶你一起去征服世界呢！",
+          ContentTC = "小僕從，快跟上來，怎麼這麼慢！魔王大人還要帶你一起去征服世界呢！",
           DialogueId = 12017001,
           Duration = 4,
           GUID = "1E15533A",
@@ -87871,7 +87871,7 @@ local Data = {
         },
         [12018406] = {
           Camera = "-113.994232,54.671646,165.879028,0.000155,-25.60232,96.198647,25.000002,113.956665,false,DoNotOverride,22.0",
-          ContentTC = "嗚哇，氣氛好緊張……小仆從，要不還是算了吧？",
+          ContentTC = "嗚哇，氣氛好緊張……小僕從，要不還是算了吧？",
           DialogueId = 12018406,
           FacialId = {
             [1] = "200002:Sad01"
@@ -88698,7 +88698,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120192/1E16BC7E"
         },
         [12019204] = {
-          ContentTC = "等等，小仆從！前面有人！",
+          ContentTC = "等等，小僕從！前面有人！",
           DialogueId = 12019204,
           GUID = "1E16BCA8",
           SpeakNpcId = 200002,
@@ -88733,7 +88733,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120193/1E16CCE6"
         },
         [12019304] = {
-          ContentTC = "這位是我的小仆從，{nickname}。{性别:他|她}是僅次於白的最厲害的人！",
+          ContentTC = "這位是我的小僕從，{nickname}。{性别:他|她}是僅次於白的最厲害的人！",
           DialogueId = 12019304,
           GUID = "1E16CD10",
           NextDialogue = 12019305,
@@ -88901,7 +88901,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120196/1E16FDCA"
         },
         [12019602] = {
-          ContentTC = "哼哼……大個子只會用蠻力，還得我們小仆從來！",
+          ContentTC = "哼哼……大個子只會用蠻力，還得我們小僕從來！",
           DialogueId = 12019602,
           GUID = "1E16FDF4",
           NextDialogue = 12019603,
@@ -88924,7 +88924,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120196/1E16FE48"
         },
         [12019605] = {
-          ContentTC = "小仆從，空中懸著的那個球看起來有點奇怪。要不要用牽機方樞試試看？",
+          ContentTC = "小僕從，空中懸著的那個球看起來有點奇怪。要不要用牽機方樞試試看？",
           DialogueId = 12019605,
           GUID = "1E16FE72",
           SpeakNpcId = 200002,
@@ -89720,7 +89720,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120206/1E17A1DA"
         },
         [12020602] = {
-          ContentTC = "小仆從，我們回百年春看看吧！",
+          ContentTC = "小僕從，我們回百年春看看吧！",
           DialogueId = 12020602,
           Duration = 2,
           GUID = "1E17A204",
@@ -90027,7 +90027,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120213/1E1814DC"
         },
         [12021303] = {
-          ContentTC = "不好，它發狂了！小仆從！！！",
+          ContentTC = "不好，它發狂了！小僕從！！！",
           DialogueId = 12021303,
           Duration = 2,
           GUID = "1E181506",
@@ -90203,7 +90203,7 @@ local Data = {
         },
         [12022101] = {
           Camera = "-78.574219,498.462891,113.020996,0.000014,-0.99994,-74.596542,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentTC = "小仆從，你沒事吧？",
+          ContentTC = "小僕從，你沒事吧？",
           DialogueId = 12022101,
           GUID = "1E1897F2",
           NextDialogue = 12022102,
@@ -90486,7 +90486,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120223/1E18BA66"
         },
         [12022312] = {
-          ContentTC = "那個女人，她不僅把本魔王和小仆從囚禁起來，還硬生生地吞了一條龍！那可是龍耶！",
+          ContentTC = "那個女人，她不僅把本魔王和小僕從囚禁起來，還硬生生地吞了一條龍！那可是龍耶！",
           DialogueId = 12022312,
           GUID = "1E18BA90",
           NextDialogue = 12022313,
@@ -90665,7 +90665,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120224/1E18C92A"
         },
         [12022402] = {
-          ContentTC = "委托就這樣黃了……小仆從，你說我們大老遠來華胥，是不是白跑一趟？",
+          ContentTC = "委托就這樣黃了……小僕從，你說我們大老遠來華胥，是不是白跑一趟？",
           DialogueId = 12022402,
           Duration = 4,
           GUID = "1E18C954",
@@ -90886,7 +90886,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120226/1E18E9FA"
         },
         [12022602] = {
-          ContentTC = "小仆從，剛剛你聽到的那個預言，真的發生了！它到底想告訴我們什麼呢？",
+          ContentTC = "小僕從，剛剛你聽到的那個預言，真的發生了！它到底想告訴我們什麼呢？",
           DialogueId = 12022602,
           GUID = "1E18EA24",
           NextDialogue = 12022603,
@@ -90956,7 +90956,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120228/1E190AF4"
         },
         [12022803] = {
-          ContentTC = "哼哼，對於小仆從來說，這都是小菜一碟的事情！",
+          ContentTC = "哼哼，對於小僕從來說，這都是小菜一碟的事情！",
           DialogueId = 12022803,
           GUID = "1E190B1E",
           NextDialogue = 12022804,
@@ -91020,7 +91020,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120228/1E190C44"
         },
         [12022811] = {
-          ContentTC = "小仆從，那我們趕緊去找止流姐姐吧！",
+          ContentTC = "小僕從，那我們趕緊去找止流姐姐吧！",
           DialogueId = 12022811,
           GUID = "1E190C6E",
           NextDialogue = 12022812,
@@ -91438,7 +91438,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120232/1E194C6A"
         },
         [12023202] = {
-          ContentTC = "小仆從，被這麼一打岔，剛剛采來的燭陰鱗還沒有交給止流姐姐呢！我們趕緊回去找她吧！",
+          ContentTC = "小僕從，被這麼一打岔，剛剛采來的燭陰鱗還沒有交給止流姐姐呢！我們趕緊回去找她吧！",
           DialogueId = 12023202,
           GUID = "1E194C94",
           SpeakNpcId = 200002,
@@ -91461,7 +91461,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120233/1E195CD2"
         },
         [12023302] = {
-          ContentTC = "止流姐姐，你要的燭陰鱗我們也采摘回來啦！怎麼樣，白和小仆從是不是很厲害？快誇誇我們！",
+          ContentTC = "止流姐姐，你要的燭陰鱗我們也采摘回來啦！怎麼樣，白和小僕從是不是很厲害？快誇誇我們！",
           DialogueId = 12023302,
           GUID = "1E195CFC",
           NextDialogue = 12023303,
@@ -91517,7 +91517,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120233/1E195DF8"
         },
         [12023309] = {
-          ContentTC = "對了，小仆從，先前你采摘燭陰鱗時聽到的那個聲音，要不要也和止流姐姐說一聲？",
+          ContentTC = "對了，小僕從，先前你采摘燭陰鱗時聽到的那個聲音，要不要也和止流姐姐說一聲？",
           DialogueId = 12023309,
           GUID = "1E195E22",
           NextDialogue = 12023310,
@@ -91632,7 +91632,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120234/1E196D3A"
         },
         [12023402] = {
-          ContentTC = "哎？！小仆從，你這樣一說，好像是有點。但她為什麼要這樣做呢？",
+          ContentTC = "哎？！小僕從，你這樣一說，好像是有點。但她為什麼要這樣做呢？",
           DialogueId = 12023402,
           GUID = "1E196D64",
           NextDialogue = 12023403,
@@ -98165,7 +98165,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120114/1E2038C8"
         },
         [12034005] = {
-          ContentTC = "因為那個可怕的怪物是靠吸食人們的信念長大的，現在這座城市裡有太多人受到它的蠱惑，成為了它的仆從，讓它變得很強很強。",
+          ContentTC = "因為那個可怕的怪物是靠吸食人們的信念長大的，現在這座城市裡有太多人受到它的蠱惑，成為了它的僕從，讓它變得很強很強。",
           DialogueId = 12034005,
           GUID = "1E2038F2",
           NextDialogue = 12034006,
@@ -192828,7 +192828,7 @@ local Data = {
           SpeakNpcId = 95102
         },
         [80190212] = {
-          ContentTC = "也有可能只是他們想要透過這種方式，向他們的追隨者宣揚索拉是如何殘忍對待卡戎的。",
+          ContentTC = "也有可能只是他們想要通過這種方式，向他們的追隨者宣揚索拉是如何殘忍對待卡戎的。",
           DialogueId = 80190212,
           GUID = "C8BF6EA8",
           NextDialogue = 80190213,

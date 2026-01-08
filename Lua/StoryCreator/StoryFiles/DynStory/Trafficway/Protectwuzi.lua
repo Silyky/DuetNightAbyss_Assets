@@ -566,16 +566,6 @@ return {
                   TalkActorType = "Npc",
                   TalkActorId = 818008,
                   TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 100001,
-                  TalkActorVisible = true
                 }
               },
               OptionType = "normal",
@@ -648,16 +638,6 @@ return {
                 {
                   TalkActorType = "Npc",
                   TalkActorId = 818008,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Player",
-                  TalkActorId = 0,
-                  TalkActorVisible = true
-                },
-                {
-                  TalkActorType = "Npc",
-                  TalkActorId = 100001,
                   TalkActorVisible = true
                 }
               },

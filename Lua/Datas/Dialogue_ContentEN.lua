@@ -90338,7 +90338,7 @@ local Data = {
           VoiceName = "voice/$Locale$/story/1201/120222/1E18AA7C"
         },
         [12022215] = {
-          ContentEN = "But merchants know no "if only."",
+          ContentEN = "But merchants have no "if only."",
           DialogueId = 12022215,
           GUID = "1E18AAA6",
           NextDialogue = 12022216,
@@ -137923,7 +137923,7 @@ local Data = {
         },
         [51105204] = {
           Camera = "122.45166,-377.09082,180.578125,0.000048,-8.599699,81.995476,35.0,219.013687,false,Manual,2.8",
-          ContentEN = "Ugh… Something's missing… It feels like I didn’t get enough out of it.",
+          ContentEN = "Ugh… Something's missing… It feels like I didn't get enough out of it.",
           DialogueId = 51105204,
           GUID = "7FEFBF88",
           NextDialogue = 51105205,
@@ -137934,7 +137934,7 @@ local Data = {
         },
         [51105205] = {
           Camera = "391.339111,-304.583008,188.128906,0.00004,-11.199583,155.19725,35.0,305.677551,false,Manual,2.8",
-          ContentEN = "The Silvercandle Carnival just... fizzled out. It was so anticlimactic that I’ve lost all my inspiration.",
+          ContentEN = "The Silvercandle Carnival just... fizzled out. It was so anticlimactic that I've lost all my inspiration.",
           DialogueId = 51105205,
           GUID = "7FEFBFB2",
           LookAt = {
@@ -138261,7 +138261,7 @@ local Data = {
         },
         [51105315] = {
           Camera = "214.145203,-52.911133,124.187378,0.000093,-10.999684,148.988251,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "Hmm, so that's why you two never sell anything. Now I’m a little disappointed.",
+          ContentEN = "Hmm, so that's why you two never sell anything. Now I'm a little disappointed.",
           DialogueId = 51105315,
           GUID = "7FEFD1BE",
           LookAt = {
@@ -138298,7 +138298,7 @@ local Data = {
         },
         [51105318] = {
           Camera = "-202.37793,93.230225,130.826981,0.000078,-8.999676,-11.213411,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "You got it! But I’ve never done this before. Can you teach me the ropes?",
+          ContentEN = "You got it! But I've never done this before. Can you teach me the ropes?",
           DialogueId = 51105318,
           FacialId = {
             [1] = "700353:CM_Idle"
@@ -138456,7 +138456,7 @@ local Data = {
         },
         [51105333] = {
           Camera = "390.128845,-909.648804,240.500732,0.000087,-4.799129,103.981491,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "Is that so? Well, being in the background is fine by me. Your turn! Let’s see how "trading" is supposed to lift spirits.",
+          ContentEN = "Is that so? Well, being in the background is fine by me. Your turn! Let's see how "trading" is supposed to lift spirits.",
           DialogueId = 51105333,
           FacialId = {
             [1] = "700353:Happy01"
@@ -139157,7 +139157,7 @@ local Data = {
         },
         [51105611] = {
           Camera = "50.040039,30.647461,131.996094,0.000035,3.20023,0.399084,35.0,100000.0,false,DoNotOverride,2.8",
-          ContentEN = "I didn't, but I’ve been hearing rumors lately. Apparently, a certain Luno has been working to cheer up the people of Icelake. From the descriptions, it has to be you.",
+          ContentEN = "I didn't, but I've been hearing rumors lately. Apparently, a certain Luno has been working to cheer up the people of Icelake. From the descriptions, it has to be you.",
           DialogueId = 51105611,
           GUID = "7FF0024E",
           NextDialogue = 51105612,
@@ -150351,7 +150351,7 @@ local Data = {
           NextDialogue = 51128203
         },
         [51128203] = {
-          ContentEN = "I know! Thanks for the warning. That's exactly why I'm here. I'll light a stick of Lunarose for Lord Argent where only the brave venture, and beg Him to purge the Scourge of Zhuyin once and for all!",
+          ContentEN = "I know! Thanks for the warning. That's exactly why I'm here. I'll light a stick of Lunarose for Lord Argent where only the brave venture, and beg Them to purge the Scourge of Zhuyin once and for all!",
           DialogueId = 51128203,
           GUID = "7FFE7CCE",
           SpeakNpcId = 701073
@@ -150524,7 +150524,7 @@ local Data = {
           SpeakNpcId = 100001
         },
         [51128226] = {
-          ContentEN = "That there's incense burning in the middle of nowhere, of course! He'll see how sincere my heart is!",
+          ContentEN = "That there's incense burning in the middle of nowhere, of course! They'll see how sincere my heart is!",
           DialogueId = 51128226,
           GUID = "7FFE8094",
           NextDialogue = 51128227,
@@ -196484,7 +196484,7 @@ local Data = {
           VoiceName = "voice/$Locale$/inv/Kezhou/001/C8CC3052"
         },
         [80210118] = {
-          ContentEN = "If Mom didn't drag me by the ear to study every day, I’d have gone to Outer Peaks already — learned real skills, fought for justice!",
+          ContentEN = "If Mom didn't drag me by the ear to study every day, I'd have gone to Outer Peaks already — learned real skills, fought for justice!",
           DialogueId = 80210118,
           GUID = "C8CC307C",
           LookAt = {
@@ -197594,7 +197594,7 @@ local Data = {
         },
         [80210317] = {
           Camera = "-159.164062,204.953125,88.058105,0.000052,9.999997,-80.395218,20.0,169.81192,false,Manual,2.8",
-          ContentEN = "Right. Sir, it'll be just a moment. But since you mentioned that Drifters "eat with purpose," could you tell me more? The place is empty — I'd love to hear.",
+          ContentEN = "Right. Sir, it'll just be a moment. But since you mentioned that Drifters "eat with purpose," could you tell me more? The place is empty — I'd love to hear.",
           DialogueId = 80210317,
           FinalCamera = "-156.535156,189.371094,90.843262,0.000052,9.999997,-80.395218,20.0,169.81192,false,Manual,2.8",
           GUID = "C8CC5122",
@@ -198257,7 +198257,7 @@ local Data = {
         },
         [80210429] = {
           Camera = "523.363281,229.195312,121.128906,0.000162,1.999995,-122.399033,42.362053,406.334045,false,Manual,2.8",
-          ContentEN = "The last was called the Gourmet Knight — a master of the kitchen. His "The Untamable Loong Beyond Reach" was a legend.",
+          ContentEN = "The last was called the Gourmet Knight — a master of the kitchen. His "Untamable Loong Beyond Reach" was a legend.",
           DialogueId = 80210429,
           FinalCamera = "434.003906,248.654785,121.818359,0.000152,1.999995,-107.80146,42.362053,398.766113,false,Manual,2.8",
           GUID = "C8CC6382",

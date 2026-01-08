@@ -81094,7 +81094,7 @@ return ReadOnly("Talk_SoundEditor", {
   voice_en_char_Kezhou_vo_appear = {
     ProgrammerSoundPath = "event:/voice/en/char/Kezhou/vo",
     SelectKey = "voice_en_char_Kezhou_vo_appear",
-    SoundLength = 2920
+    SoundLength = 6730
   },
   voice_en_char_Kezhou_vo_battleidle = {
     ProgrammerSoundPath = "event:/voice/en/char/Kezhou/vo",
@@ -92280,6 +92280,11 @@ return ReadOnly("Talk_SoundEditor", {
     ProgrammerSoundPath = "event:/voice/en/inv/Kezhou/002",
     SelectKey = "voice_en_inv_Kezhou_002_C8CC46A2",
     SoundLength = 2470
+  },
+  voice_en_inv_Kezhou_002_C8CC46CC = {
+    ProgrammerSoundPath = "event:/voice/en/inv/Kezhou/002",
+    SelectKey = "voice_en_inv_Kezhou_002_C8CC46CC",
+    SoundLength = 1250
   },
   voice_en_inv_Kezhou_002_C8CC46CC_1 = {
     ProgrammerSoundPath = "event:/voice/en/inv/Kezhou/002",

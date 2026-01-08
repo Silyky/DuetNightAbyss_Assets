@@ -1473,7 +1473,7 @@ local Data = {
           TextMapId = "Buff_Content_11221"
         },
         Buff_Content_11222 = {
-          TextMapContent = "友方单位造成的技能伤害降低#1，暴击率提高#2。",
+          TextMapContent = "友方单位造成的伤害降低#1，暴击率提高#2。",
           TextMapId = "Buff_Content_11222"
         },
         Buff_Content_201 = {
@@ -46988,6 +46988,10 @@ local Data = {
           TextMapContent = "参加成功",
           TextMapId = "TheaterOnline_Game_Sign_Success"
         },
+        TheaterOnline_Game_Sign_Waiting = {
+          TextMapContent = "等待当前舞会结束",
+          TextMapId = "TheaterOnline_Game_Sign_Waiting"
+        },
         TheaterOnline_Game_Start01 = {
           TextMapContent = "皎谊舞会活动开始",
           TextMapId = "TheaterOnline_Game_Start01"
@@ -76789,7 +76793,7 @@ local Data = {
           TextMapId = "UI_WeaponSkin_Des_3010402"
         },
         UI_WeaponSkin_Des_3010403 = {
-          TextMapContent = "一柄颇为特殊的长枪，象征着父亲的鞭策——呃，我的意思是说，父爱如山。",
+          TextMapContent = "一柄颇为特殊的长柄武器，象征着父亲的鞭策——呃，我的意思是说，父爱如山。",
           TextMapId = "UI_WeaponSkin_Des_3010403"
         },
         UI_WeaponSkin_Des_3010404 = {
@@ -76901,7 +76905,7 @@ local Data = {
           TextMapId = "UI_WeaponSkin_Name_3010402"
         },
         UI_WeaponSkin_Name_3010403 = {
-          TextMapContent = "父辈余荫·长枪",
+          TextMapContent = "父辈余荫·长柄",
           TextMapId = "UI_WeaponSkin_Name_3010403"
         },
         UI_WeaponSkin_Name_3010404 = {

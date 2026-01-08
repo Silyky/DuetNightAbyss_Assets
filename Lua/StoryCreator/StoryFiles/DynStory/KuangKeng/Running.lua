@@ -144,12 +144,6 @@ return {
             endPort = "In"
           },
           {
-            startQuest = "17370099970278173",
-            startPort = "Out",
-            endQuest = "173701070387115747",
-            endPort = "In"
-          },
-          {
             startQuest = "173701070387115747",
             startPort = "Out",
             endQuest = "173701071590016048",
@@ -411,6 +405,18 @@ return {
             startQuest = "17370095398203147",
             startPort = "Out",
             endQuest = "17370098651655963",
+            endPort = "In"
+          },
+          {
+            startQuest = "17671639135761097",
+            startPort = "Out",
+            endQuest = "173701070387115747",
+            endPort = "In"
+          },
+          {
+            startQuest = "17370099970278173",
+            startPort = "Out",
+            endQuest = "17671639135761097",
             endPort = "In"
           }
         },
@@ -1125,6 +1131,13 @@ return {
               NewTargetPointName = "",
               StaticCreatorIdList = {1440141, 1440143}
             }
+          },
+          ["17671639135761097"] = {
+            key = "17671639135761097",
+            type = "WaitOfTimeNode",
+            name = "延迟等待",
+            pos = {x = 4353.752747252747, y = 532.0412087912088},
+            propsData = {WaitTime = 0.3}
           }
         },
         commentData = {}

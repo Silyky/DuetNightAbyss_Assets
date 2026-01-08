@@ -381,7 +381,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "ATTR_DESC_SkillEfficiency"
         },
   ATTR_DESC_SkillIntensity = {
-    ContentEN = "Affects Skill Damage and the effect magnitude of buffs/debuffs.",
+    ContentEN = "Affects Skill DMG and the effect magnitude of buffs/debuffs.",
     ContentES = "Afecta los Daños de habilidad así como la intensidad de sus bonificaciones y penalizaciones.",
     ContentFR = "Affecte les Dégâts de compétence ainsi que l’intensité de leurs bonus et malus.",
     ContentJP = "スキルの一部ダメージとバフ・デバフ効果量に影響。",
@@ -2044,7 +2044,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Attr_SkillEfficiency_Name"
         },
   Attr_SkillIntensity_Name = {
-    ContentEN = "Skill DMG",
+    ContentEN = "Skill Intensity",
     ContentES = "Daño de Habilidad",
     ContentFR = "Dégâts de compétence",
     ContentJP = "スキル威力",
@@ -3575,7 +3575,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Content_11122"
         },
   Buff_Content_11211 = {
-    ContentEN = "When an ally's HP is above #1, their Skill Damage is increased by #2, and they become immune to Hitstun.",
+    ContentEN = "When an ally's HP is above #1, their Skill Intensity is increased by #2, and they become immune to Hitstun.",
     ContentES = "Cuando el PV de un aliado esté por encima de #1, su Daño de Habilidad aumenta en #2 y se vuelve inmune al Aturdimiento.",
     ContentJP = "味方ユニットのHPが#1%以上のとき、スキル威力が#2アップし、ダメージを受けてものけ反らない。",
     ContentKR = "아군 유닛의 HP 백분율이 #1를 초과할 때, 스킬 위력이 #2 상승하고, 대미지를 받아도 경직되지 않는다.",
@@ -3602,21 +3602,23 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Content_11221"
         },
   Buff_Content_11222 = {
-    ContentEN = "Allies lose #1 Skill DMG and gain #2 CRIT Chance.",
-    ContentES = "Los aliados pierden #1 de Daño de Habilidad y ganan #2 de Daño CRIT.",
-    ContentJP = "味方ユニットのスキルダメージが#1ダウンし、クリティカル率が#2アップする。",
-    ContentKR = "아군 유닛이 입히는 스킬 대미지가 #1 감소하고, 크리티컬 확률이 #2 상승한다.",
-    ContentTC = "友方單位造成的技能傷害降低#1，暴擊率提高#2。",
-    TextMapContent = "友方单位造成的技能伤害降低#1，暴击率提高#2。",
+    ContentDE = "Les alliés infligent #1 de dégâts en moins, mais leur Taux CRIT augmente de #2.",
+    ContentEN = "Allies lose #1 DMG and gain #2 CRIT Chance.",
+    ContentES = "Los aliados pierden #1 de Daño y ganan #2 de Prob. CRIT.",
+    ContentFR = "Der verursachte SCH aller Verbündeten wird um #1 verringert. Der KRIT-Rate wird um #2 erhöht.",
+    ContentJP = "味方ユニットの与ダメージが#1ダウンし、クリティカル率が#2アップする。",
+    ContentKR = "아군 유닛이 입히는 대미지가 #1 감소하고, 크리티컬 확률이 #2 상승한다.",
+    ContentTC = "友方單位造成的傷害降低#1，暴擊率提高#2。",
+    TextMapContent = "友方单位造成的伤害降低#1，暴击率提高#2。",
     TextMapId = "Buff_Content_11222"
         },
   Buff_Content_201 = {
-    ContentEN = "Enemy units take #1 less damage, but each time they take Skill Damage or Weapon Damage, the damage reduction decreases by #2.",
+    ContentEN = "Enemy units take #1 less damage, but each time they take damage, the damage reduction decreases by #2.",
     ContentES = "Las unidades enemigas reciben #1 de daño reducido. Esta reducción disminuye en #2 cada vez que reciben daño de habilidad o de arma.",
     ContentFR = "Les ennemis subissent #1 de dégâts en moins. Chaque fois qu’ils sont touchés par une compétence ou une arme, cette réduction diminue de #2.",
-    ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットがスキルまた武器によりダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
-    ContentKR = "적 유닛이 입힌 대미지가 #1 감소하며, 스킬 및 무기 대미지를 입힐 때마다 대미지 감소 효과가 #2 감소한다.",
-    ContentTC = "敵方單位受到的傷害降低#1，每次受到技能或武器傷害時，傷害降低幅度降低#2。",
+    ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットがダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
+    ContentKR = "적 유닛이 받는 대미지가 #1 감소하며, 대미지를 받을 때마다 대미지 감소 효과가 #2 감소한다.",
+    ContentTC = "敵方單位受到的傷害降低#1，每次受到傷害時，傷害降低幅度降低#2。",
     TextMapContent = "敌方单位受到的伤害降低#1，每次受到伤害时，伤害降低幅度降低#2。",
     TextMapId = "Buff_Content_201"
         },
@@ -3624,8 +3626,8 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Enemy units take #1 less damage, but each time they take CRIT Damage, the damage reduction decreases by #2.",
     ContentES = "Las unidades enemigas reciben #1 de daño reducido. Esta reducción disminuye en #2 cada vez que reciben Daño CRIT.",
     ContentFR = "Les ennemis subissent #1 de dégâts en moins. Chaque coup critique réduit cet effet de #2.",
-    ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットクリティカルダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
-    ContentKR = "적 유닛이 입힌 대미지가 #1 감소하며, 크리티컬 대미지를 입힐 때마다 대미지 감소 효과가 #2 감소한다.",
+    ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットがクリティカルダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
+    ContentKR = "적 유닛이 받는 대미지가 #1 감소하고, 원거리 무기 대미지를 받을 때마다 대미지 감소 효과가 #2 감소한다.",
     ContentTC = "敵方單位受到的傷害降低#1，每次受到暴擊傷害時，傷害降低幅度降低#2。",
     TextMapContent = "敌方单位受到的伤害降低#1，每次受到暴击伤害时，伤害降低幅度降低#2。",
     TextMapId = "Buff_Content_202"
@@ -3634,7 +3636,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Enemies take #1 less damage. This reduction diminishes by #2 each time they take damage from a ranged weapon.",
     ContentES = "Las unidades enemigas reciben #1 de daño reducido. Esta reducción disminuye en #2 cada vez que reciben Daño de Arma a distancia.",
     ContentFR = "Les ennemis subissent #1 de dégâts en moins. Chaque fois qu’ils reçoivent des DGT d’arme à distance, cette réduction diminue de #2.",
-    ContentJP = "敵ユニットの被ダメージが#1ダウンする。\n遠隔武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
+    ContentJP = "敵ユニットの被ダメージが#1ダウンする。\n敵ユニットが遠隔武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
     ContentKR = "적 유닛이 받는 대미지가 #1 감소하고, 원거리 무기 대미지를 받을 때마다 대미지 감소 효과가 #2 감소한다.",
     ContentTC = "敵方單位受到的傷害降低#1，每次受到遠端武器傷害時，傷害降低幅度降低#2。",
     TextMapContent = "敌方单位受到的伤害降低#1，每次受到远程武器伤害时，伤害降低幅度降低#2。",
@@ -3643,7 +3645,7 @@ return ReadOnly("TextMap_I18n", {
   Buff_Content_204 = {
     ContentEN = "Enemy units take #1 reduced damage. This reduction diminishes by #2 each time they take weapon damage.",
     ContentES = "Las unidades enemigas reciben #1 de daño reducido. Esta reducción disminuye en #2 cada vez que reciben Daño de Arma.",
-    ContentJP = "敵ユニットの被ダメージが#1ダウンする。武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
+    ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットが武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
     ContentKR = "적 유닛이 받는 대미지가 #1 감소하고, 무기 대미지를 받을 때마다 대미지 감소 효과가 #2 감소한다.",
     ContentTC = "敵方單位受到的傷害降低#1，每次受到武器傷害時，傷害降低幅度降低#2。",
     TextMapContent = "敌方单位受到的伤害降低#1，每次受到武器伤害时，伤害降低幅度降低#2。",
@@ -3652,7 +3654,7 @@ return ReadOnly("TextMap_I18n", {
   Buff_Content_205 = {
     ContentEN = "Enemy units take #1 reduced damage. This reduction diminishes by #2 each time they take melee weapon damage.",
     ContentES = "Las unidades enemigas reciben #1 de daño reducido. Esta reducción disminuye en #2 cada vez que reciben Daño de Arma cuerpo a cuerpo.",
-    ContentJP = "敵ユニットの被ダメージが#1ダウンする。近接武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
+    ContentJP = "敵ユニットの被ダメージが#1ダウンする。敵ユニットが近接武器ダメージを受けた時に、この効果によりのダメージ軽減が#2ダウンする。",
     ContentKR = "적 유닛이 받는 대미지가 #1 감소하고, 근접 무기 대미지를 받을 때마다 대미지 감소 효과가 #2 감소한다.",
     ContentTC = "敵方單位受到的傷害降低#1，每次受到近戰武器傷害時，傷害降低幅度降低#2。",
     TextMapContent = "敌方单位受到的伤害降低#1，每次受到近战武器伤害时，伤害降低幅度降低#2。",
@@ -3688,7 +3690,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Content_30"
         },
   Buff_Content_301 = {
-    ContentEN = "Every #1 instances of damage dealt by any ally grant 1 stack of #2 Skill Damage Increase, lasting #3 s and stacking up to #4 times.",
+    ContentEN = "Every #1 instances of damage dealt by any ally grant 1 stack of #2 Skill Intensity Increase, lasting #3 s and stacking up to #4 times.",
     ContentES = "Cada #1 ataques que infligen daño por un aliado otorgan 1 acumulación de Aumento de Daño de Habilidad de #2 durante #3 s, y se acumula hasta #4 veces.",
     ContentFR = "Tous les alliés gagnent 1 cumul de bonus de #2 aux dégâts de compétence toutes les #1 attaques, pendant #3 s, jusqu’à #4 cumuls.",
     ContentJP = "味方ユニットがダメージ#1回を与える度に、 #3秒の間にスキル威力が#2アップする。最大#4スタックまで重ねがけできる。",
@@ -3718,7 +3720,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Content_303"
         },
   Buff_Content_304 = {
-    ContentEN = "For every #1 Sanity spent by all allies in total, grants #2 Skill Damage Increase for #3s, stacking up to #4 times. At max stacks, grants immunity to Hitstun.",
+    ContentEN = "For every #1 Sanity spent by all allies in total, grants #2 Skill Intensity Increase for #3s, stacking up to #4 times. At max stacks, grants immunity to Hitstun.",
     ContentES = "Por cada #1 puntos de Cordura gastados por todos los aliados en total, otorga #2 de aumento de Daño de Habilidad durante #3 s, acumulándose hasta #4 veces. Al alcanzar las acumulaciones máximas, se vuelven inmunes al Aturdimiento.",
     ContentFR = "Pour chaque #1 points de Lucidité dépensés au total par les alliés, ceux-ci gagnent +#2 de Dégâts de compétence pendant #3 s, cumulable jusqu’à #4 fois. À plein cumul, ils deviennent immunisés aux interruptions.",
     ContentJP = "味方ユニットが#1SPを消費すると、#3秒の間にスキル威力が#2アップする。\n最大#4スタックまで重ねがけできる。最大重ねがけ時、ダメージを受けてものけ反らない。",
@@ -3758,7 +3760,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Content_511"
         },
   Buff_Content_512 = {
-    ContentEN = "Allies lose #1 CRIT Damage. Skill damage has a #2 chance to trigger an elemental bonus effect.",
+    ContentEN = "Allies lose #1 CRIT DMG. Skill DMG has a #2 chance to trigger an elemental bonus effect.",
     ContentES = "Los aliados pierden #1 de Daño CRIT. El Daño de Habilidad tiene #2 de probabilidad de activar un efecto adicional elemental.",
     ContentFR = "Les alliés voient leurs DGT CRIT réduits de #1. Leurs Dégâts de compétence ont #2 de chances d’activer un Effet supplémentaire élémentaire.",
     ContentJP = "味方ユニットのクリティカルダメージが#1ダウンするが、\nスキルダメージを与える時に#2の確率で追加属性効果が発動する。",
@@ -3825,7 +3827,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Title_100"
         },
   Buff_Title_11111 = {
-    ContentEN = "Defence Variation: Brotherhood",
+    ContentEN = "Bulwark Cadence: Brotherhood",
     ContentES = "Variación defensiva: Hermandad",
     ContentJP = "防御のヴァリエーション：三兄弟",
     ContentKR = "방어의 변주: 삼형제",
@@ -3917,7 +3919,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Title_202"
         },
   Buff_Title_203 = {
-    ContentEN = "Defence Variation: Sniper's Honour",
+    ContentEN = "Bulwark Cadence: Sniper's Honour",
     ContentES = "Variación defensiva: Gloria del francotirador",
     ContentFR = "Résonance défensive : Gloire du tireur d’élite",
     ContentJP = "防御の変奏：スナイパーの栄光",
@@ -3927,7 +3929,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Title_203"
         },
   Buff_Title_204 = {
-    ContentEN = "Defence Variation: Braveheart",
+    ContentEN = "Bulwark Cadence: Braveheart",
     ContentES = "Variación defensiva: Corazón valiente",
     ContentJP = "防御のヴァリエーション：勇敢なる心",
     ContentKR = "방어의 변주: 용감한 마음",
@@ -3936,7 +3938,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Title_204"
         },
   Buff_Title_205 = {
-    ContentEN = "Defence Variation: Swordsman's Honour",
+    ContentEN = "Bulwark Cadence: Swordsman's Honour",
     ContentES = "Variación defensiva: Honor del espadachín",
     ContentJP = "防御のヴァリエーション：剣士の栄光",
     ContentKR = "방어의 변주: 검사의 긍지",
@@ -3945,7 +3947,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Title_205"
         },
   Buff_Title_206 = {
-    ContentEN = "Defence Variation: Endless Trial",
+    ContentEN = "Bulwark Cadence: Endless Trial",
     ContentES = "Variación defensiva: Prueba eterna",
     ContentJP = "防御のヴァリエーション：絶え間なき洗礼",
     ContentKR = "방어의 변주: 연속 세례",
@@ -3954,7 +3956,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Title_206"
         },
   Buff_Title_211 = {
-    ContentEN = "Shield Variation: Gloom of the Undying",
+    ContentEN = "Aegis Cadence: Gloom of the Undying",
     ContentES = "Variación de escudo: Sombra del inmortal",
     ContentFR = "Résonance de bouclier : Ombre de l’immortel",
     ContentJP = "シールドの変奏：色褪せた不死者",
@@ -4024,7 +4026,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Title_401"
         },
   Buff_Title_402 = {
-    ContentEN = "Defence Variation: Uncrowned Arena",
+    ContentEN = "Bulwark Cadence: Uncrowned Arena",
     ContentES = "Variación defensiva: Arena sin corona",
     ContentFR = "Résonance défensive : Arène sans couronne",
     ContentJP = "防御の変奏：無冠の闘技場",
@@ -4054,7 +4056,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Buff_Title_512"
         },
   Buff_Title_905 = {
-    ContentEN = "Defence Variation: Thoroughly Tempered",
+    ContentEN = "Bulwark Cadence: Thoroughly Tempered",
     ContentES = "Variación defensiva: Forjado por la prueba",
     ContentJP = "防御のヴァリエーション：幾たびの試煉",
     ContentKR = "방어의 변주: 수많은 시련",
@@ -16343,7 +16345,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Description_120102_2"
         },
   Description_120102_3 = {
-    ContentEN = "Collet your travel funds",
+    ContentEN = "Collect your travel funds",
     ContentJP = "旅費を持っていく",
     ContentKR = "여비 챙기기",
     ContentTC = "帶上盤纏",
@@ -27030,7 +27032,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "GRADEUP_1503_02"
         },
   GRADEUP_1503_03 = {
-    ContentEN = "[Wanderings of Youth] Level +2; [Life's A Fleeting, Shifting Tide] Level +1.",
+    ContentEN = "[Drift of Youth] Level +2; [Life's A Fleeting, Shifting Tide] Level +1.",
     ContentES = "[Deriva de la Juventud] nivel +2; [La vida deriva, las fuerzas se invierten] nivel +1.",
     ContentFR = "[Errance juvénile] niveau +2 ; [La vie dérive, les forces s’inversent] niveau +1.",
     ContentJP = "「少年の遊」レベル+2、「無常たる浮世」レベル+1",
@@ -27208,7 +27210,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "GRADEUP_1801_03"
         },
   GRADEUP_1801_04 = {
-    ContentEN = "Each stack of [Taleweaver Quill] increases Fina's Skill Damage by #2 and Skill Range by #3.",
+    ContentEN = "Each stack of [Taleweaver Quill] increases Fina's Skill Intensity by #2 and Skill Range by #3.",
     ContentES = "Cada acumulación de [Pluma Tejedora de Cuentos] aumenta el Daño de Habilidad de Fina en #2 y su Rango de Habilidad en #3.",
     ContentFR = "Chaque cumul de [Plume enchantée] augmente les Dégâts de compétence de #2 et la Portée de compétence de #3.",
     ContentJP = "「夢に咲く花」1スタックにつき、自身のスキル威力が#2アップし、スキル範囲が#3アップする。",
@@ -27358,7 +27360,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "GRADEUP_2301_06"
         },
   GRADEUP_2401_01 = {
-    ContentEN = "When Fushu or her nearby teammates are applied with [Nine-Needle Therapy], they ignore the target's DEF by #1 when dealing Skill Damage.",
+    ContentEN = "When Fushu or her nearby teammates are applied with [Nine-Needle Therapy], they ignore the target's DEF by #1 when dealing Skill DMG.",
     ContentES = "Con [Terapia de las Nueve Agujas], al infligir Daño de Habilidad se ignora #1 de la DEF del objetivo.",
     ContentFR = "Lorsque Fushu ou ses alliés proches bénéficient de [Thérapie des neuf aiguilles], leurs Dégâts de compétence ignorent #1 de la DÉF de la cible.",
     ContentJP = "「九針擁護」を持つ目標がスキルダメージを与える時、目標の防御力を#1無視する。",
@@ -27708,7 +27710,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "GRADEUP_3202_05"
         },
   GRADEUP_3202_06 = {
-    ContentEN = "All weapon and skill damage (excluding [Spinblades] and [Laceration]) detonates 2 stacks of [Laceration].",
+    ContentEN = "All Weapon and Skill DMG (excluding [Spinblades] and [Laceration]) detonates 2 stacks of [Laceration].",
     ContentES = "Todo el daño de armas y habilidades (excepto [Dagas Rotatorias] y [Laceración]) detona 2 acumulaciones de [Laceración].",
     ContentFR = "Tous les DGT d’arme et tous les Dégâts de compétence (hors [Lames tournoyantes] et [Lacération]) détonent 2 [Lacérations].",
     ContentJP = "武器および「回転ダガー」・「裂傷」以外のスキルダメージは、「裂傷」を2スタック爆発させる。",
@@ -27928,7 +27930,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "GRADEUP_4201_03"
         },
   GRADEUP_4201_04 = {
-    ContentEN = "Plunging Attack deals additional damage equal to #4 of Yuming's Skill Damage, with a maximum of #5.",
+    ContentEN = "Plunging Attack deals additional damage equal to #4 of Yuming's Skill Intensity, with a maximum of #5.",
     ContentES = "El Ataque Descendente inflige daño adicional equivalente a #4 del Daño de Habilidad de Yuming, con un máximo de #5.",
     ContentFR = "Les Attaques plongeantes infligent des dégâts supplémentaires équivalents à #4 des Dégâts de compétence de Yuming, jusqu’à un maximum de #5.",
     ContentJP = "落下攻撃の追加ダメージを得る。ダメージ数値はスキル威力の#4（最大#5まで）。",
@@ -28128,7 +28130,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "GRADEUP_5101_05"
         },
   GRADEUP_5101_06 = {
-    ContentEN = "After picking up [Activated Sal Volatile], [Tranquilizer Dewdrop], or [Ammo Supply Chest], Truffle gains 1 stack that increases her Skill Damage by #3 for #4s, up to #6 stacks.",
+    ContentEN = "After picking up [Activated Sal Volatile], [Tranquilizer Dewdrop], or [Ammo Supply Chest], Truffle gains 1 stack that increases her Skill Intensity by #3 for #4s, up to #6 stacks.",
     ContentES = "Tras recoger [Sal volátil activada], [Gota de tranquilizante] o [Caja de suministros de munición], obtiene 1 acumulación que aumenta el daño de habilidad en #3, hasta un máximo de #6 acumulaciones, durante #4 s.",
     ContentFR = "En ramassant [Sel volatil stimulant], [Goutte de rosée apaisante] ou une [Caisse de munitions], Truffle gagne 1 cumul augmentant ses Dégâts de compétence de #3 pendant #4 s, jusqu’à #6 cumuls.",
     ContentJP = "「気つけ薬」 「結露」 「弾薬の補給箱」を拾うと、自身のスキル威力が#3アップ(#4秒持続）、最大#6回まで重ねがけ可能。",
@@ -30414,7 +30416,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "HuaXu_Event_Des_10200117"
         },
   HuaXu_Event_Des_10200118 = {
-    ContentEN = "Collect treasure maps in Mistwharf",
+    ContentEN = "Collect Advenspheres in Mistwharf",
     ContentES = "Recolecta Esfera de exploración en Puerto de las Brumas",
     ContentJP = "「煙津渡」にある探検の証を収集",
     ContentKR = "[연진 나루터] 지역의 탐험의 증표 수집",
@@ -35291,7 +35293,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_DESC_1311"
         },
   MOD_DESC_1312 = {
-    ContentEN = "Increases Skill Damage by #1 for #2s when battle starts during commissions or Nocturnal Echoes.",
+    ContentEN = "Increases Skill Intensity by #1 for #2s when battle starts during commissions or Nocturnal Echoes.",
     ContentFR = "Lors des missions ou des Échos nocturnes, augmente les Dégâts de compétence de #1 pendant #2 s au début du combat.",
     ContentJP = "依頼と悪夢の残響で戦闘を開始した時、#2秒間スキル威力が#1アップする。",
     ContentKR = "의뢰와 악몽의 잔향 전투 시작 시, 스킬 위력이 #1 상승한다. #2초 지속.",
@@ -35354,7 +35356,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_DESC_1410"
         },
   MOD_DESC_1420 = {
-    ContentEN = "Skill Damage -#1. When attacking with a weapon, deals #2 additional damage of the same element type.",
+    ContentEN = "Skill DMG -#1. When attacking with a weapon, deals #2 additional damage of the same element type.",
     ContentFR = "Réduit les Dégâts de compétence de #1 et, lors des attaques avec une arme, inflige #2 de Dégâts supplémentaires du même attribut.",
     ContentJP = "スキルダメージが#1ダウン、武器を使用して攻撃すると#2の同属性追加ダメージを与える。",
     ContentKR = "스킬 대미지가 #1 감소하지만, 무기로 공격할 시 #2의 동일 속성 추가 대미지를 입힌다.",
@@ -35678,7 +35680,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_DESC_1931"
         },
   MOD_DESC_1941 = {
-    ContentEN = "When an Electro character uses skills, they gain 1 stack that increases Skill Damage by #2 for #1s, up to #3 stacks.",
+    ContentEN = "When an Electro character uses skills, they gain 1 stack that increases Skill DMG by #2 for #1s, up to #3 stacks.",
     ContentFR = "Lorsque qu’un personnage Électro utilise une compétence, il obtient 1 cumul augmentant les Dégâts de compétence de #2 pendant #1 s, jusqu’à #3 cumuls.",
     ContentJP = "雷属性キャラがスキルを使用すると、#1秒間スキルダメージが#2アップする（最大#3回まで重ねがけ可）。",
     ContentKR = "번개 속성 캐릭터가 스킬 시전 시, 1단계의 스킬 대미지가 #2 상승한다. 지속 시간 #1초, 최대 #3단계 중첩.",
@@ -35687,7 +35689,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_DESC_1941"
         },
   MOD_DESC_1951 = {
-    ContentEN = "When an Anemo character uses Combat Skills, it gains a #2 Skill Damage Increase for #1s.",
+    ContentEN = "When an Anemo character uses Combat Skills, it gains a #2 Skill Intensity Increase for #1s.",
     ContentFR = "Lorsque qu’un personnage Anémo utilise une compétence de combat, il obtient un bonus de Dégâts de compétence de #2 pendant #1 s.",
     ContentJP = "風属性キャラがバトルスキルを使用すると、#1秒間スキル威力が#2アップする。",
     ContentKR = "바람 속성 캐릭터가 전투 스킬 시전 시, 스킬 위력이 #2 상승한다. #1초 지속.",
@@ -35939,7 +35941,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_DESC_6121"
         },
   MOD_DESC_6123 = {
-    ContentEN = "Grants +#2 Skill Damage to self and allies when Skill Efficiency is ≥ #1.",
+    ContentEN = "Grants +#2 Skill Intensity to self and allies when Skill Efficiency is ≥ #1.",
     ContentFR = "Lorsque l’Efficacité de compétence est ≥ #1, augmente les Dégâts de compétence de vous-même et des coéquipiers de #2.",
     ContentJP = "スキル効率が#1以上のとき、自身と味方のスキル威力が#2アップする。",
     ContentKR = "스킬 효율이 #1 이상일 때, 자신과 팀원의 스킬 위력이 #2 상승한다.",
@@ -35957,7 +35959,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_DESC_6131"
         },
   MOD_DESC_6133 = {
-    ContentEN = "Grants +#2 Skill Damage to self and allies when Skill Efficiency is ≥ #1.",
+    ContentEN = "Grants +#2 Skill Intensity to self and allies when Skill Efficiency is ≥ #1.",
     ContentFR = "Lorsque l’Efficacité de compétence est ≥ #1, augmente les Dégâts de compétence de vous-même et des coéquipiers de #2.",
     ContentJP = "スキル効率が#1以上のとき、自身と味方のスキル威力が#2アップする。",
     ContentKR = "스킬 효율이 #1 이상일 때, 자신과 팀원의 스킬 위력이 #2 상승한다.",
@@ -35966,7 +35968,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_DESC_6133"
         },
   MOD_DESC_6141 = {
-    ContentEN = "Grants +#2 Skill Damage when Skill Efficiency is ≥ #1.",
+    ContentEN = "Grants +#2 Skill Intensity when Skill Efficiency is ≥ #1.",
     ContentFR = "Lorsque l’Efficacité de compétence est ≥ #1, augmente les Dégâts de compétence de #2.",
     ContentJP = "スキル効率が#1以上のとき、自身のスキル威力が#2アップする。",
     ContentKR = "스킬 효율이 #1 이상일 때, 자신의 스킬 위력이 #2 상승한다.",
@@ -35984,7 +35986,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "MOD_DESC_6143"
         },
   MOD_DESC_6151 = {
-    ContentEN = "Grants +#2 Skill Damage when Skill Efficiency is ≥ #1.",
+    ContentEN = "Grants +#2 Skill Intensity when Skill Efficiency is ≥ #1.",
     ContentFR = "Lorsque l’Efficacité de compétence est ≥ #1, augmente les Dégâts de compétence de #2.",
     ContentJP = "スキル効率が#1以上のとき、自身のスキル威力が#2アップする。",
     ContentKR = "스킬 효율이 #1 이상일 때, 자신의 스킬 위력이 #2 상승한다.",
@@ -38525,7 +38527,7 @@ return ReadOnly("TextMap_I18n", {
   MOD_Type_Name_Changeling01 = {
     ContentEN = "Changeling's",
     ContentJP = "チェンジリングの",
-    ContentKR = "체인질링의",
+    ContentKR = "체인질링의{空格}",
     ContentTC = "換生靈之",
     TextMapContent = "换生灵之",
     TextMapId = "MOD_Type_Name_Changeling01"
@@ -38542,7 +38544,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Feathered Serpent's{空格}",
     ContentFR = "Quetzalcoatl{空格}",
     ContentJP = "ケツァルの",
-    ContentKR = "쿠쿨칸의",
+    ContentKR = "쿠쿨칸의{空格}",
     ContentTC = "羽蛇之",
     TextMapContent = "羽蛇之",
     TextMapId = "MOD_Type_Name_FeatheredSnake01"
@@ -55691,7 +55693,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "PET_404_PASSIVE"
         },
   PET_404_SKILL = {
-    ContentEN = "Grants #2 Ultra Shield points to self and allies, and randomly applies one of the following effects for #1s: +#3 ATK, +#4 DEF, +#5 Skill Damage, or +#6 Skill Duration.",
+    ContentEN = "Grants #2 Ultra Shield points to self and allies, and randomly applies one of the following effects for #1s: +#3 ATK, +#4 DEF, +#5 Skill Intensity, or +#6 Skill Duration.",
     ContentES = "Otorga #2 puntos de Escudo Ultra a sí mismo y a sus aliados, y aplica aleatoriamente uno de los siguientes efectos durante #1 s: ATQ +#3, DEF +#4, Daño de Habilidad +#5 o Duración de Habilidad +#6.",
     ContentFR = "Octroie #2 points d’Ultra-bouclier à soi-même et aux alliés, et applique aléatoirement l’un des effets suivants pendant #1 s : ATQ +#3, DÉF +#4, Dégâts de compétence +#5 ou Durée de compétence +#6.",
     ContentJP = "自身と仲間に#2の過負荷シールドを付与し、さらに攻撃アップ#3、防御アップ#4、スキル威力アップ#5、スキル耐久アップ#6のいずれか一つをランダムで付与、#1秒継続。",
@@ -55911,7 +55913,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "PET_416_PASSIVE"
         },
   PET_416_SKILL = {
-    ContentEN = "Deals Lumino Damage equal to #1 of the main character's ATK to enemies within range and increases the Skill Damage taken by them by #2 for #3s.",
+    ContentEN = "Deals Lumino Damage equal to #1 of the main character's ATK to enemies within range and increases the Skill DMG taken by them by #2 for #3s.",
     ContentES = "Inflige Daño Lumino igual a #1 del ATQ del personaje principal a los enemigos dentro del alcance y aumenta el Daño de Habilidad que reciben en #2 durante #3 s.",
     ContentFR = "Inflige des Dégâts Lumino équivalents à #1 de l’ATQ du personnage principal aux ennemis proches et augmente les Dégâts de compétence qu’ils subissent de #2 pendant #3 s.",
     ContentJP = "周囲の敵にメインキャラの攻撃力#1に相当する光属性ダメージを与え、敵が受けるスキルダメージを#2アップする、#3秒継続。",
@@ -68018,7 +68020,7 @@ return ReadOnly("TextMap_I18n", {
   READ_DESC_2000083 = {
     ContentEN = "A contract dated to Year X of Dafeng, recording a loan taken by the merchant She Yuqing from Li Laoqian. The format is proper and the terms clearly stated — though one "0" in the multiplier has been written in a markedly smaller hand, small enough to elude even the sharpest eyes.",
     ContentJP = "大風○○年に作成された借用契約書。商人シャー氏がダマ氏から金を借りた件について記されている。形式は整っているが、一文字だけ異様に小さい「十」が混ざっており、目の良い若者でも注意深く見なければ気づけない。",
-    ContentKR = "대풍 xx년에 작성된 계약서. 상인 사서경과 사기군 사이의 금전 차용에 관한 내용이 적혀 있다. 형식과 내용 모두 흠잡을 데 없지만, 시력이 좋은 청년이라도, 자세히 보지 않으면 발견할 수 없을 만큼 열 '십'자 하나가 유난히 작다.",
+    ContentKR = "대풍 xx년에 작성된 계약서. 상인 사서경과 사기군 사이의 금전 차용에 관한 내용이 적혀 있다. 형식과 내용 모두 흠잡을 데 없지만, 시력이 좋은 청년이라도, 자세히 보지 않으면 발견할 수 없을 만큼 '0'자 하나가 유난히 작다.",
     ContentTC = "一份寫於大風xx年的契書，內容圍繞著為商人佘餘慶向李老千借款一事展開。契書格式完整，條理清晰，不過其中有一個「十」字格外的小，即便是視力極佳的年輕人，若不仔細查看，也很難發現。",
     TextMapContent = "一份写于大风xx年的契书，内容围绕着为商人佘余庆向李老千借款一事展开。契书格式完整，条理清晰，不过其中有一个“十”字格外的小，即便是视力极佳的年轻人，若不仔细查看，也很难发现。",
     TextMapId = "READ_DESC_2000083"
@@ -69783,7 +69785,7 @@ return ReadOnly("TextMap_I18n", {
   READ_TEXT_2000068 = {
     ContentEN = "Welcome to The Asphodel. Our tavern serves drinks from every corner of the continent. And don't worry — we always collect the coin before you pass out.\n \n The Hyperborean Empire:\n Most of our Empire's brews find their way into the bellies of alchemists and soldiers, so the names may not sound drinkable... yet the taste is finer than you'd think. Craving something strong? Just say the word!\n Legion Wolfblood\n Standard issue across the Legions — a spirit strong enough to burn off fear on the battlefield and double as a battlefield disinfectant. The taste is strong — deliberately so, they say, to stop soldiers from overindulging.\n \n Phoxichor Engine Lubricant\n A favourite among Imperial alchemists. Named for its uncanny resemblance — in both colour and texture — to the actual lubricant used in Phoxichor engines. Rumour has it one absent-minded alchemist once took a swig of the real thing by mistake.\n \n Fortress Barrage\n A fiery spirit from the Empire's southern reaches. Best downed in one go to savour the full effect — like a fortress cannon blasting through your body, leaving your limbs no longer your own. Intense. Devastating. Glorious.\n \n Laurelled Delight\n The go-to toast when a Charon earns their Laurel. Often shaken into a froth for the ceremony — but beneath the bubbles lies a crisp, refreshing flavour, delightful on the tongue.\n \n Huaxu:\n If spirits are too strong for your taste, why not try something from the Eastern realm? Unlike the grape wines we know, theirs are brewed from rice — smooth, mellow, and golden as amber. And with Huaxu's travelling merchants scattered far and wide, these delicacies are never far from hand. In the mood for something different? Just say the word!\n Tiger's Soul\n An amber-hued rice wine with a rich, mellow depth — said to carry the essence of a tiger's spirit. In Huaxu, it is a common daily draught, a medicinal tonic, and a warming comfort all in one.\n \n Peach Blush\n A light, sweet wine with the fragrance of fresh fruit. Blended with peach gum, its texture is as soft to chew as it is to sip. Its delicate blush has long made it a favourite among ladies.\n \n A Goblet Above\n A Huaxu proverb says: "One day above is a year below." True to its name, a single goblet of this potent brew sends you into a deep slumber — and when you wake, much time will have fled. Best not overindulge — lest you find yourself in Heaven sooner than you wished.\n \n Azure Dragon's Draught\n In Huaxu, the Charon are honoured as Loongscions — descendants of the Eastern dragon. This is their drink of choice: crisp as a mountain spring, with a finish that lingers like the breath of a Loong.\n \n Republic of Luca:\n You may know Luca for its artists, sailors, dreamers and madcaps... but did you know it also gave birth to a world of cocktails? Try them, and you'll be won over by their rich layers and flights of fancy. They rarely leave one truly drunk... but they do have a way of stirring inspiration. So, what shall it be? Just say the word!\n Palette\n A cascade of spirits, layered in dazzling colours — a painting in a glass. Stir it, and all brilliance collapses into black.\n \n Masquerade Rhapsody\n Not one drink, but ten — each wearing the same disguise. You won't know what lies within until you taste it... just as you never truly know the face behind a mask at the ball.\n \n Poet's Rhyme\n Soft upon the tongue, yet echoing long after — like the rhyme that closes a verse. Poets and playwrights drink deep in pursuit of inspiration... sometimes yielding a masterpiece, and sometimes, a grand puddle of vomit.\n \n Chisel\n A rare Luca spirit, named by sailors who once gazed upon statues crated in their holds and thought of the tool that shaped them. True to its name, it etches fire through the body with each swallow.\n \n Aethyrie:\n Do scholars drink? Indeed they do. They drink to dull the sting of failure... and to raise a jubilant toast with a ringing "Eureka!" when discovery strikes. Like knowledge, wine intoxicates all the same. The only pity is that even in naming it, they cannot resist teaching a lesson. If such hidden meanings amuse you — just say the word.\n Truth in the Cup\n Aethyrie's scholars once argued fiercely over the world's first principle — some claimed it was air, others fire, others still countless tiny particles. At last, they agreed on one thing: whatever its origin, it must be plentiful in wine, for nothing else so swiftly brings joy, and peace among rivals.\n \n Philosopher's Tears\n One tale tells of a philosopher who, upon realising that the diagonal of a square vessel could not be expressed by rational number, wept until his tears ran dry, and bled instead. Thus, the crimson hue of this wine. Aethyrie's scholars adore the tale. Of course, the truth is simpler and far less poignant: it's just the colour of grapes.\n \n O, Bounty!\n Brewed only in years of true abundance, this wine heralds the coming of plenty. Once the vats are filled, the people of Aethyrie gather in celebration — drinking deep, lifting their voices in song or spirited debate, rejoicing in the bounty of the year.\n \n The Syllogism\n Major premise: wine brings inspiration.\n Minor premise: inspiration is the wellspring of creation.\n Conclusion: wine is the wellspring of creation.\n In Aethyrie, only students sharp enough to name the fallacy earn the right to drink it. Luckily for you, here in Hyperborea, no riddle need be solved before your glass is filled.\n \n Khemet:\n Life in the desert is harsh, its people rugged — yet their welcome is as warm as the sands are fierce. When Starweavers or Phoxhunters pass through their villages, the locals pour out drinks as bold and mysterious as the desert itself. This tavern may not lie among the dunes, but our welcome is no less hearty. Care to taste the desert wind? Just say the word!\n Black Honey\n Dark as pitch, yet heavy with sweetness. Its deep shade comes from carbon — said to draw out every impurity.\n \n Serpent's Kiss\n Rumoured to be laced with snake venom, it numbs the tongue with a venomous tingle and chills the body with a creeping cool. In truth, it's nothing but fizzing gases.\n \n Experimental Dregs\n A dangerous concoction brewed from industrial alcohol and leftover dregs of countless alchemical experiments. They say you might find a lizard's claw or rat's tail adrift within. Only the daring drink it — more a test of courage than a toast.\n \n The Burning Wind\n Steeped with spice and peppers, this fiery brew scours the throat like the desert wind itself. One mouthful, and you're carried to Khemet's sands in all their scorching glory.\n \n The Elysian Church:\n To the south lies the Elysian Church — the Empire's sworn foe. Its folk drown in scripture, bowing to false gods in blind faith... hopeless, if you ask me. But their wines — now those are worth a taste. Rare, costly, and hard to come by. If your purse is heavy enough, just say the word!\n The Tenth God\n The war with Elysium grinds on, and so their wares are forbidden in the Empire. Even so, one brew still finds its way to our shelves: The Tenth God. It's named in jest — as if one drink could rival the blessings of all nine gods. Perhaps that sly irreverence is why the officials turned a blind eye — a blasphemous name, for a drink too fine to ban.\n \n Traditional Charon Brews:\n The mountains beyond the Empire's northern edge are not empty. There, the Charon who still defy its yoke dwell — honouring their Father Ask and Mother Embla. They brew their own drinks for rites that preserve their faith and legend. Sometimes, these brews are traded for a handful of coins. They're not strong, but in Icelake's biting cold, nothing warms you better. If you'd warm your bones — and hear a tale of the Charon — just say the word!\n Heaventree Sap\n A light, clear blue liquor that recalls the gleam of Phoxene. Unlike Phoxichor Engine Lubricant, it runs bright and fluid. Its name honours the Heaventrees — sacred to Charon tradition.\n \n Borealberry Brew\n Brewed from Borealberries — a prized fruit of Icelake and the far north — this wine is fragrant and best enjoyed steaming hot. The Charon may not fear the cold, but none would turn down a sweet, steaming glass of fruit-rich delight in the heart of winter.\n \n \n We don't serve minors. And don't bother with "it's for my parents" — that tale's worn thin.\n Also, no vomiting in the tavern. You'll pay for the cleaning... and we'll throw in a good thrashing, free of charge.",
     ContentJP = "アスフォデロスへようこそ。当酒場では大陸各地のさまざまな酒を取り揃えております。\n お客様が酔い潰れる前に代金を頂戴いたします。\n \n ヒュペリア帝国：\n 我らの帝国の酒の大半は錬金術師と軍人たちの腹に収まるので、酒の名前は……飲み物らしからぬものが多いのですが、味はどれも素晴らしいですよ。強い酒をご所望なら、どうぞお申し付けを！\n 帝国軍の狼血\n 帝国軍全員に配給している飲み物。アルコール度数が高く、戦場で恐怖を忘れさせ、傷口の応急消毒にも使える。ただし味は実のところ最悪で、兵が飲み過ぎないようにするためだと言われている。\n \n イコルエンジン潤滑油\n 帝国軍の錬金術師お気に入り。色合いと質感が本当にイコルエンジンの潤滑油そっくりなことからこの名前が付けられた。新しいイコルエンジンを開発中に錯乱して、手元の潤滑油を本当に飲み干してしまった錬金術師がいたという噂さえある。\n \n 要塞砲撃\n 帝国南側で流行している烈酒。おすすめの飲み方は一気飲み。要塞の主砲で撃ち抜かれたかのように四肢が自分のものではなくなる奇妙な体験ができる。震撼、炸裂！\n \n 桂冠の歓悦\n 通常のカロンが桂冠カロンになるのを祝う際の定番の飲み物。激しくシェイクして泡を作る用途のほうが多いが、実のところ味はさっぱりとして飲みやすい。\n \n 華胥：\n 強い酒は無理？ 東の国の酒はいかがでしょう。こちらの一般的な葡萄酒と違い、彼らは米で醸すため、口当たりは柔らかく余韻が長い。酒体は琥珀のような黄金色です。しかも華胥の商人は大陸各地に遍在しますから、これらの美酒は入手困難というわけでもありません。ともあれ、違う味を試したいのであれば、どうぞお申し付けを！\n 虎魄\n 琥珀色の酒は芳醇で温厚。猛虎の魂魄が宿ると信じられ、薬として用いられることも多い。華胥の地で最も一般的な酒である。\n \n 笑投桃\n 甘い淡酒、果実のにおいがする。桃膠を加えるため、飲むというより食べる体験と言ってよい独特な楽しみ方がある。酒体は淡い紅色を帯び、女性客に広く愛される。\n \n 天の一盞\n 華胥の諺曰く、「天上一日、地上一年」。この烈酒はその語義を借りたもの。一杯飲めば深い眠りに落ち、目覚めた時にはすでに長い時間が過ぎている、さながら天上の一夢のように。飲み過ぎは推奨せず、本当に天に昇ってしまう危険あり。\n \n 蒼龍酔\n 伝説によれば、カロン族は華胥の国では龍の民と呼ばれてるという。蒼龍酔はまさに彼らが愛飲する酒で、口当たりは清冽だが、余韻は長い。\n \n ルッカ共和国：\n ルッカが芸術家・航海者・狂人の産地であることはご存じかもしれませんが、実は各種カクテルの産地でもあります。ぜひお試しあれ、豊かなレイヤーと奔放な組み合わせに心打たれるでしょう。酔いたくはないが、ひらめきが欲しい？ どうぞお申し付けを！\n パレット\n 複数の酒を調合し、グラスの中で層を成す。色鮮やかで鑑賞価値は高いが、かき混ぜると黒くなる。\n \n マスカレード・ラプソディ\n 実は十種の異なる風味の酒の総称。見た目からは種類を判別できず、口にして初めて杯の中身が分かる。仮面舞踏会で、相手の仮面の下の素顔が分からないのと同じなように。\n \n 詩人の脚韻\n 口当たりはまろやかで、余韻が長い酒。そのため詩人たちは詩の脚韻を連想させ、この名が付いた。多くの創作者がひらめきを求めてがぶ飲みし、壮大な劇作……あるいは壮観な嘔吐を生み出す。\n \n 彫刻刀\n ルッカでは珍しい烈酒。外洋に出た水夫たちが船倉で運ばれる彫像を見て彫刻刀を連想し、名付けたという。名の通り、飲めば胃の中を穿たれるような感覚。\n \n イーザー：\n 学者も酒を飲むのかって？ ええ、飲みますとも。書巻と学術に埋もれる彼らは、研究失敗の挫折を薄めるために酒を飲み、「発見したぞ！」と叫ぶ時にも酒で祝う。酒も知識も人を酔わせるのです。ただ残念なのは、酒に名を付ける時でさえ、彼らは知識を伝え理を説こうとすること。もしその深意に興味がおありなら、どうぞお申し付けを！\n 酒の中の真理\n イーザーの学者たちはかつて世界の根源を真剣に考えた。ある者は気、ある者は火、またある者は無数のよく似た小粒子の集合だと言う。彼らは論争をやめず、激しくやり合った末にこう一致した——世界の根源が何であれ、酒という飲み物の中には必ず大量に存在し、歓喜と和解をもたらす、と。\n \n 哲人の涙\n 悲しき哲人は、方形の酒器の対角線が有理数で表せないと知って絶望し、涙が枯れるまで泣き、やがて赤い血を流した。哲人の涙の赤い酒体はここから由来しているという。もっとも実際に赤いのは、原料が葡萄だからにすぎないのだが。\n \n 豊饒よ、豊饒！\n 一定水準の豊作に達した時にのみ仕込む酒。イーザーの人々はこれを醸して盛大な祭を開き、その後に一緒に痛飲し、即興で歌い、あるいは討論を催して、豊饒な年の到来を祝う。\n \n 三段論\n 大前提：酒はさらなるひらめきをもたらす。\n 小前提：ひらめきは創作の源泉である。\n 結論：酒は創作の源泉である。\n 上の推論の論理的誤りを指摘できたイーザーの学生だけが、この酒を飲むことを許される。だが幸い、ここはヒュペリア。あなたは先に問題を解かなくても飲める。\n \n ケメト王国：\n 砂漠は過酷、住民は荒々しい——だがそれと同時に彼らは情に厚い。星織人や月狩り人が村を通れば、謎めいた個性派の酒が振る舞われる。うちは砂漠ではないが、もてなしの心は同じ。異国の熱風を感じたいなら、どうぞお申し付けを！\n 黒蜜\n ほとんど真っ黒だが糖分をたっぷり含む甘い酒。黒さの由来は、不純物を吸着するための炭粉。\n \n 蛇の口づけ\n 製造過程で蛇毒を加えるという酒。そのため口の中にわずかな痺れを感じ、体にも涼気が走ると言われるが、実際には酒の中に少量のガスを加えているだけ。\n \n 錬金廃液\n ケメトの錬金術師たちが各種実験で用いたアルコールを回収し、調合して作る酒。正直に言えばかなり危険で、トカゲの爪やネズミの尾が混じることも。勇気を証明したい月狩り人におすすめ。\n \n 焚風\n 各種スパイスと唐辛子を加えた酒。辛辣な香りは砂漠の熱風そのもの。一口含めば、たちまちケメトの大地にいるかのよう。\n \n エリュシオン礼賛会：\n 大陸南方に横たわるエリュシオン礼賛会は、我が帝国の敵国だ。連中は経文に耽溺し、偽りの神を信じ、もう手遅れ！ だが酒だけは、まあ救いがある。在庫は多くないし手に入れにくい。財布が十分に膨れているなら、どうぞお申し付けを！\n 十柱目の神\n 帝国と礼賛会の戦は続いており、帝国内で礼賛会産の品の販売は厳禁。そのため当店でさえ、礼賛会の酒を多種類そろえるのは難しい。だが礼賛会で流行する密造酒「第十の神」だけは例外。名の意味は、この酒がもたらす恩恵は、礼賛会が崇める九柱の神に匹敵するということ。神々に対してさほど敬意のない名だからこそ、帝国の役人も、この酒が帝国に広まっても悪くはあるまいと思ったのだろう。\n \n カロンの民の手作り醸造酒：\n 帝国よりさらに北の山々は無人ではない。帝国に従うことをよしとしないカロンたちは、いまも深い山の中で父なる神、母なる神を信じ、彼ら自らの醸した酒で儀礼を執り行い、信仰と伝承を紡ぎ続けている。銅貨と引き換えにそれらの酒を分けてくれることもある。度数は高くないが、凍えるアイスレイク城の気候にぴったりな飲み物。体を温め、カロンの物語を体験したい方はお申し付けを！\n 天上樹の樹液\n 青い酒は月ノ石を思わせる。イコルエンジン潤滑液との違いは粘度で、天上樹の樹液はより軽やかで透明感がある。この名は、カロン族の伝統文化における天上樹への崇敬を表す。\n \n アイスベリー特醸酒\n アイスレイク城およびさらに北の特産「アイスベリー」を原料に醸した果実酒。果物の香りは芳しく、ホットで飲むのに向いている。カロンの民は寒さを恐れぬとはいえ、真冬に湯気立つ甘いアイスベリー特醸酒を一杯、拒む者はいない。\n \n 未成年のお客様には酒類を提供いたしません。「家族のために買う」も不可です。\n 店内で嘔吐しないでください。追加の清掃費を請求し、ついでに一発お見舞いします。",
-    ContentKR = "대륙 각지의 온갖 술을 맛볼 수 있는 아스포델에 어서 오세요!\n술값은 취해 쓰러지시기 전에 받습니다.\n \n휘페르보레아 제국:\n우리 제국의 술은 대부분 연금술사들과 군인들의 뱃속에 들어간답니다. 그래서인지 이름들이 영... 음료하고는 거리가 멀지만, 맛 하나는 일품이죠. 독한 술을 원하신다면, 언제든 말씀해 주세요!\n \n군단용 울프 블러드\n군단에 일괄적으로 지급되는 보급품입니다. 높은 도수 덕분에 전장에선 공포를 잊게 해 주고, 상처에 부어 응급 소독약으로도 사용할 수 있죠. 다만, 병사들의 과음을 막기 위해 맛은 끔찍하다고 하네요.\n \n폭시코르 엔진 윤활유\n군단의 연금술사들이 가장 사랑하는 술입니다. 색과 질감이 폭시코르 엔진 윤활유와 너무 비슷해서 이런 이름이 붙었죠. 하도 똑같아서, 신형 엔진을 개발하던 연금술사가 착각하고 진짜 엔진 윤활유를 단숨에 원샷해 버렸단 소문도 있답니다.\n \n요새 폭격\n제국 남부에서 유행 중인 독주입니다. 요새의 포격에 맞은 것처럼 팔다리가 따로 노는 느낌을 경험하려면 단숨에 들이키는 게 좋답니다. 짜릿하고, 강렬하거든요!\n \n계관의 환희\n평범한 카론이 계관카론이 되었을 때 자주 사용되는 축하주입니다. 힘껏 흔들어 거품을 내는 용도로 많이 사용되지만, 의외로 맛이 상쾌하고 깔끔해서 술술 넘어간답니다.\n \n화서:\n독한 술이 부담스럽다면, 동방의 나라에서 온 술은 어떠신가요? 포도가 아닌 쌀로 빚은 화서의 술은 비단처럼 부드러운 목 넘김과 긴 여운이 느껴지고, 호박처럼 영롱한 금빛을 띠죠. 대륙 곳곳을 누비는 화서의 상인들 덕분에, 어렵지 않게 이 술들을 맛보실 수 있답니다. 새로운 맛에 도전하고 싶다면, 언제든 말씀해 주세요!\n\n호박\n연한 금빛에 묵직한 과일 향이 느껴지는 술입니다. 호랑이의 혼이 깃들어 있다며 약재로도 자주 사용되죠. 화서에서 가장 자주 볼 수 있는 술 중 하나랍니다.\n \n복숭앗빛 웃음꽃\n달콤한 맛과 과일 향을 자랑하는 순한 술입니다. 복숭아나무 진액으로 만든 젤리가 더해져, 마신다기보다는 먹는다는 표현이 더 잘 어울리겠네요. 은은한 분홍빛이 돌아 여성 고객님들에게 특히 더 인기랍니다.\n \n천상의 한 잔\n"하늘에서의 하루는 땅에서의 일 년과 같다"는 화서의 속담을 그대로 옮겨 온 술입니다. 한 잔 마시고 깊은 잠에 빠졌다 깨어나 보면, 천상에서 꿈꾼 듯 시간이 훌쩍 지나가 있거든요. 많이 드시진 마세요. 승천해 버릴지도 모르니까요.\n \n청룡의 취기\n화서에서 용의 자손이라 불린 카론들이 즐겨 마셨다고 전해지는 술입니다. 청량한 첫맛과 긴 여운이 일품이랍니다.\n \n루카 공화국:\n루카가 예술가, 항해가, 그리고 미치광이들의 산실이라는 이야기는 잘 아시겠지만, 온갖 칵테일의 발상지라는 사실은 모르셨겠죠. 일단 한번 맛보면 풍부한 맛과 기상천외한 조합에 감동하게 되실 겁니다. 취기보다 영감이 필요하시다면, 언제든 말씀해 주세요!\n \n팔레트\n여러 가지 술이 겹겹이 층을 이루고 있는 술입니다. 알록달록해 무척 예쁘지만, 섞으면 검게 변해 버린답니다.\n \n가면무도회 카프리치오\n10가지 다른 맛을 가진 술들을 하나로 묶은 명칭입니다. 겉보기엔 똑같지만 어떤 맛인지는 마셔 보기 전까지 절대 알 수 없답니다. 가면무도회에서 파트너의 얼굴을 알 수 없는 것처럼 말이죠.\n \n시인의 운율\n마지막 시구의 운율처럼 부드럽지만 여운이 남는 맛을 지녀 붙여진 이름입니다. 수많은 창작자가 영감을 얻기 위해 잔뜩 들이킨 후, 성대한 희극 또는 장엄한 구토를 만들어 내죠.\n \n조각칼\n루카에서는 보기 드문 독주입니다. 항해에 나선 선원들이 운송을 위해 선실에 있던 조각상을 보고 떠올린 이름이라고 하죠. 이름처럼, 마시면 위장을 꿰뚫는 듯한 느낌이 든답니다.\n \n이스엘:\n학자들도 술을 마시냐고요? 물론이죠. 고서와 학문에 파묻혀 사는 학자들도 연구가 실패하면 술로 좌절감을 달래고, '유레카'를 외칠 땐 축배를 든답니다. 술과 지식은 둘 다 사람을 취하게 하거든요. 학자들은 술에 이름을 지을 때조차 지식을 설파하려 든다는 게 조금 아쉽지만요. 이런 심오한 뜻에 관심이 있다면, 언제든 말씀해 주세요!\n \n술 속의 진리\n이스엘의 학자들이 모여 진지하게 세상의 근원을 고찰한 적이 있었답니다. 기, 불, 수많은 작은 알갱이 등을 거론하며 격렬한 논쟁 끝에, 학자들은 만장일치로 이런 결론을 내렸죠. 세상의 근원이 무엇이든, 사람에게 기쁨과 화합을 안겨 주는 술 속에 듬뿍 담겨 있을 거라고 말이에요.\n \n철학자의 눈물\n네모난 술잔의 대각선 길이는 절대 정수로 나타낼 수 없다는 사실을 발견한 비운의 철학자가 있었습니다. 이 술은 통곡을 하다 눈물이 말라붙은 그의 눈에서 흐른 붉은 피에서 비롯되었다고 하죠. 사실은 포도로 담근 술이라 붉은 거지만, 이스엘의 학자들은 이 유래를 무척 좋아한답니다.\n \n풍요여!\n어지간한 풍년이 아니고서는 담그지도 않는 귀한 술입니다. 이스엘 사람들은 이 술이 완성되면, 성대한 축제를 열어 다 함께 이 술을 나누어 마시며 노래를 부르거나 열띤 토론을 벌인답니다.\n \n삼단 논법\n대전제: 술은 더 많은 영감을 선사한다.\n소전제: 영감은 창작의 원천이다.\n결론: 술은 창작의 원천이다.\n이스엘에서는 이 추론의 논리적 오류를 지적하는 학생에게만 이 술을 마실 자격이 주어지죠. 하지만 여기는 휘페르보레아인 만큼, 주문만 하시면 맛보실 수 있답니다.\n \n케메트 왕국:\n척박한 사막이라는 환경에 주민들의 성격도 거칠지만, 그만큼 손님 대접은 융숭하답니다. 별을 잇는 자나 월석 사냥꾼이 그들의 마을을 지날 때면, 신비하고 개성 넘치는 술들을 맛볼 수 있죠. 아스포델은 사막이 아니지만, 손님을 환대하는 마음은 그들 못지않습니다. 이국의 열정을 느끼고 싶다면, 언제든 말씀해 주세요!\n \n검은 꿀\n칠흑처럼 검지만 단맛이 아주 강한 술입니다. 색이 검은 이유는 불순물을 흡착하는 숯가루 때문이랍니다.\n \n뱀의 입맞춤\n뱀독을 넣어 만들었다고 알려진 술입니다. 그래서인지 마시면 입안이 저릿하고 온몸이 서늘해지죠. 사실은 술 안에 어떤 기체를 추가한 것뿐이지만요.\n \n연금술 폐기물\n케메트의 연금술사들이 온갖 실험에 사용하고 남은 알코올을 섞어 만든 술입니다. 안에서 도마뱀 발톱이나 쥐꼬리가 나올 수도 있는 상당히 위험한 술이죠. 자신의 용기를 증명하고픈 모험심 강한 월석 사냥꾼에게 추천드립니다.\n \n열풍\n다양한 향신료와 고추를 넣어 만든 술입니다. 사막의 뜨거운 바람처럼 화끈한 맛이 일품이죠. 한 모금만 마셔도 케메트 땅 한복판에 서 있는 기분이 든답니다.\n \n엘리시안 교회:\n대륙 남부에 떡하니 버티고 있는 엘리시안 교회는 우리 제국의 적입니다. 거기 사람들은 경전에 빠져 거짓된 신을 섬기는 구제 불능들이고요! 그렇지만 술 하나만은 봐줄 만하답니다. 재고가 많지는 않고 구하기도 힘들지만, 주머니 사정이 넉넉하시다면, 언제든 말씀해 주세요!\n \n열 번째 신\n서로 전쟁 중인 만큼, 교회에서 생산된 물건들은 제국 내 판매가 엄격히 금지되어 있습니다. 그래서 아스포델도 교회의 주류를 들여오기 쉽지 않죠. 하지만 이 술만은 예외랍니다. 교회에서 숭배하는 아홉 신에 버금가는 은혜를 내리는 술이라는 뜻에서 이런 이름이 붙었다고 하는데, 신성모독에 가까운 이름 덕분에 제국의 관료들도 이 술은 유통돼도 괜찮다고 여기는 모양이네요.\n \n카론의 자가 양조주:\n제국 북쪽에 있는 산속에도 사람은 살고 있답니다. 제국을 따르지 않고 여전히 자신들의 신을 섬기는 카론들이 살고 있거든요. 그들은 직접 빚은 술로 의식을 올리며 자신들의 신앙과 전설을 이어가고 있습니다. 판매도 하고요. 도수는 높지 않지만, 살을 에는 듯한 아이스레이크 시티의 추위를 이겨내기엔 이만한 게 없죠. 몸도 녹이고 카론에 대한 이야기를 나누고 싶다면, 언제든 말씀해 주세요!\n \n천국의 나무 수액\n월석이 연상되는 푸른 빛을 자랑하는 술입니다. 점도도 폭시코르 엔진 윤활유보다 훨씬 묽고, 색도 더 투명하죠. 천국의 나무를 숭상하는 카론의 전통문화가 담긴 이름을 지녔답니다.\n \n특제 아이스베리주\n아이스레이크 시티 북쪽 땅의 특산물인 아이스베리로 담근 과실주입니다. 진한 과일향 덕분에 데워 마시기 딱 좋죠. 추위에 강한 카론이라도, 한겨울에 김이 모락모락 나는 이 달콤한 술을 마다할 사람은 없을 겁니다.\n \n \n미성년자에게 술을 판매하지 않습니다. '부모님 심부름'이라고 해도 판매하지 않습니다.\n가게 안에서 토하지 마세요. 구토 시 매타작과 함께 청소비가 부과됩니다.",
+    ContentKR = "대륙 각지의 온갖 술을 맛볼 수 있는 아스포델에 어서 오세요!\n술값은 취해 쓰러지시기 전에 받습니다.\n\n휘페르보레아 제국:\n우리 제국의 술은 대부분 연금술사들과 군인들의 뱃속에 들어간답니다. 그래서인지 이름들이 영... 음료하고는 거리가 멀지만, 맛 하나는 일품이죠. 독한 술을 원하신다면, 언제든 말씀해 주세요!\n\n군단용 울프 블러드\n군단에 일괄적으로 지급되는 보급품입니다. 높은 도수 덕분에 전장에선 공포를 잊게 해 주고, 상처에 부어 응급 소독약으로도 사용할 수 있죠. 다만, 병사들의 과음을 막기 위해 맛은 끔찍하다고 하네요.\n\n폭시코르 엔진 윤활유\n군단의 연금술사들이 가장 사랑하는 술입니다. 색과 질감이 폭시코르 엔진 윤활유와 너무 비슷해서 이런 이름이 붙었죠. 하도 똑같아서, 신형 엔진을 개발하던 연금술사가 착각하고 진짜 엔진 윤활유를 단숨에 원샷해 버렸단 소문도 있답니다.\n\n요새 폭격\n제국 남부에서 유행 중인 독주입니다. 요새의 포격에 맞은 것처럼 팔다리가 따로 노는 느낌을 경험하려면 단숨에 들이키는 게 좋답니다. 짜릿하고, 강렬하거든요!\n\n계관의 환희\n평범한 카론이 계관카론이 되었을 때 자주 사용되는 축하주입니다. 힘껏 흔들어 거품을 내는 용도로 많이 사용되지만, 의외로 맛이 상쾌하고 깔끔해서 술술 넘어간답니다.\n\n화서:\n독한 술이 부담스럽다면, 동방의 나라에서 온 술은 어떠신가요? 포도가 아닌 쌀로 빚은 화서의 술은 비단처럼 부드러운 목 넘김과 긴 여운이 느껴지고, 호박처럼 영롱한 금빛을 띠죠. 대륙 곳곳을 누비는 화서의 상인들 덕분에, 어렵지 않게 이 술들을 맛보실 수 있답니다. 새로운 맛에 도전하고 싶다면, 언제든 말씀해 주세요!\n\n호박\n연한 금빛에 묵직한 과일 향이 느껴지는 술입니다. 호랑이의 혼이 깃들어 있다며 약재로도 자주 사용되죠. 화서에서 가장 자주 볼 수 있는 술 중 하나랍니다.\n\n복숭앗빛 웃음꽃\n달콤한 맛과 과일 향을 자랑하는 순한 술입니다. 복숭아나무 진액으로 만든 젤리가 더해져, 마신다기보다는 먹는다는 표현이 더 잘 어울리겠네요. 은은한 분홍빛이 돌아 여성 고객님들에게 특히 더 인기랍니다.\n\n천상의 한 잔\n"하늘에서의 하루는 땅에서의 일 년과 같다"는 화서의 속담을 그대로 옮겨 온 술입니다. 한 잔 마시고 깊은 잠에 빠졌다 깨어나 보면, 천상에서 꿈꾼 듯 시간이 훌쩍 지나가 있거든요. 많이 드시진 마세요. 승천해 버릴지도 모르니까요.\n\n청룡의 취기\n화서에서 용의 자손이라 불린 카론들이 즐겨 마셨다고 전해지는 술입니다. 청량한 첫맛과 긴 여운이 일품이랍니다.\n\n루카 공화국:\n루카가 예술가, 항해가, 그리고 미치광이들의 산실이라는 이야기는 잘 아시겠지만, 온갖 칵테일의 발상지라는 사실은 모르셨겠죠. 일단 한번 맛보면 풍부한 맛과 기상천외한 조합에 감동하게 되실 겁니다. 취기보다 영감이 필요하시다면, 언제든 말씀해 주세요!\n\n팔레트\n여러 가지 술이 겹겹이 층을 이루고 있는 술입니다. 알록달록해 무척 예쁘지만, 섞으면 검게 변해 버린답니다.\n\n가면무도회 카프리치오\n10가지 다른 맛을 가진 술들을 통틀어서 부르는 이름입니다. 겉보기엔 똑같지만 어떤 맛인지는 마셔 보기 전까지 절대 알 수 없답니다. 가면무도회에서 파트너의 얼굴을 알 수 없는 것처럼 말이죠.\n\n시인의 운율\n마지막 시구의 운율처럼 부드럽지만 여운이 남는 맛을 지녀 붙여진 이름입니다. 수많은 창작자가 영감을 얻기 위해 잔뜩 들이킨 후, 성대한 희극 또는 장엄한 구토를 만들어 내죠.\n\n조각칼\n루카에서는 보기 드문 독주입니다. 항해에 나선 선원들이 운송을 위해 선실에 있던 조각상을 보고 떠올린 이름이라고 하죠. 이름처럼, 마시면 위장을 꿰뚫는 듯한 느낌이 든답니다.\n\n이스엘:\n학자들도 술을 마시냐고요? 물론이죠. 고서와 학문에 파묻혀 사는 학자들도 연구가 실패하면 술로 좌절감을 달래고, '유레카'를 외칠 땐 축배를 든답니다. 술과 지식은 둘 다 사람을 취하게 하거든요. 학자들은 술에 이름을 지을 때조차 지식을 설파하려 든다는 게 조금 아쉽지만요. 이런 심오한 뜻에 관심이 있다면, 언제든 말씀해 주세요!\n\n술 속의 진리\n이스엘의 학자들이 모여 진지하게 세상의 근원을 고찰한 적이 있었답니다. 기, 불, 수많은 작은 알갱이 등을 거론하며 격렬한 논쟁 끝에, 학자들은 만장일치로 이런 결론을 내렸죠. 세상의 근원이 무엇이든, 사람에게 기쁨과 화합을 안겨 주는 술 속에 듬뿍 담겨 있을 거라고 말이에요.\n\n철학자의 눈물\n네모난 술잔의 대각선 길이는 절대 정수로 나타낼 수 없다는 사실을 발견한 비운의 철학자가 있었습니다. 이 술은 통곡을 하다 눈물이 말라붙은 그의 눈에서 흐른 붉은 피에서 비롯되었다고 하죠. 사실은 포도로 담근 술이라 붉은 거지만, 이스엘의 학자들은 이 유래를 무척 좋아한답니다.\n\n풍요여!\n어지간한 풍년이 아니고서는 담그지도 않는 귀한 술입니다. 이스엘 사람들은 이 술이 완성되면, 성대한 축제를 열어 다 함께 이 술을 나누어 마시며 노래를 부르거나 열띤 토론을 벌인답니다.\n\n삼단 논법\n대전제: 술은 더 많은 영감을 선사한다.\n소전제: 영감은 창작의 원천이다.\n결론: 술은 창작의 원천이다.\n이스엘에서는 이 추론의 논리적 오류를 지적하는 학생에게만 이 술을 마실 자격이 주어지죠. 하지만 여기는 휘페르보레아인 만큼, 주문만 하시면 맛보실 수 있답니다.\n\n케메트 왕국:\n척박한 사막이라는 환경에 주민들의 성격도 거칠지만, 그만큼 손님 대접은 융숭하답니다. 별을 잇는 자나 월석 사냥꾼이 그들의 마을을 지날 때면, 신비하고 개성 넘치는 술들을 맛볼 수 있죠. 아스포델은 사막이 아니지만, 손님을 환대하는 마음은 그들 못지않습니다. 이국의 열정을 느끼고 싶다면, 언제든 말씀해 주세요!\n\n검은 꿀\n칠흑처럼 검지만 단맛이 아주 강한 술입니다. 색이 검은 이유는 불순물을 흡착하는 숯가루 때문이랍니다.\n\n뱀의 입맞춤\n뱀독을 넣어 만들었다고 알려진 술입니다. 그래서인지 마시면 입안이 저릿하고 온몸이 서늘해지죠. 사실은 술 안에 어떤 기체를 추가한 것뿐이지만요.\n\n연금술 폐기물\n케메트의 연금술사들이 온갖 실험에 사용하고 남은 알코올을 섞어 만든 술입니다. 안에서 도마뱀 발톱이나 쥐꼬리가 나올 수도 있는 상당히 위험한 술이죠. 자신의 용기를 증명하고픈 모험심 강한 월석 사냥꾼에게 추천드립니다.\n\n열풍\n다양한 향신료와 고추를 넣어 만든 술입니다. 사막의 뜨거운 바람처럼 화끈한 맛이 일품이죠. 한 모금만 마셔도 케메트 땅 한복판에 서 있는 기분이 든답니다.\n\n엘리시안 교회:\n대륙 남부에 떡하니 버티고 있는 엘리시안 교회는 우리 제국의 적입니다. 거기 사람들은 경전에 빠져 거짓된 신을 섬기는 구제 불능들이고요! 그렇지만 술 하나만은 봐줄 만하답니다. 재고가 많지는 않고 구하기도 힘들지만, 주머니 사정이 넉넉하시다면, 언제든 말씀해 주세요!\n\n열 번째 신\n서로 전쟁 중인 만큼, 교회에서 생산된 물건들은 제국 내 판매가 엄격히 금지되어 있습니다. 그래서 아스포델도 교회의 주류를 들여오기 쉽지 않죠. 하지만 이 술만은 예외랍니다. 교회에서 숭배하는 아홉 신에 버금가는 은혜를 내리는 술이라는 뜻에서 이런 이름이 붙었다고 하는데, 신성모독에 가까운 이름 덕분에 제국의 관료들도 이 술은 유통돼도 괜찮다고 여기는 모양이네요.\n\n카론의 자가 양조주:\n제국 북쪽에 있는 산속에도 사람은 살고 있답니다. 제국을 따르지 않고 여전히 자신들의 신을 섬기는 카론들이 살고 있거든요. 그들은 직접 빚은 술로 의식을 올리며 자신들의 신앙과 전설을 이어가고 있습니다. 판매도 하고요. 도수는 높지 않지만, 살을 에는 듯한 아이스레이크 시티의 추위를 이겨내기엔 이만한 게 없죠. 몸도 녹이고 카론에 대한 이야기를 나누고 싶다면, 언제든 말씀해 주세요!\n\n천국의 나무 수액\n월석이 연상되는 푸른 빛을 자랑하는 술입니다. 점도도 폭시코르 엔진 윤활유보다 훨씬 묽고, 색도 더 투명하죠. 천국의 나무를 숭상하는 카론의 전통문화가 담긴 이름을 지녔답니다.\n\n특제 아이스베리주\n아이스레이크 시티 북쪽 땅의 특산물인 아이스베리로 담근 과실주입니다. 진한 과일향 덕분에 데워 마시기 딱 좋죠. 추위에 강한 카론이라도, 한겨울에 김이 모락모락 나는 이 달콤한 술을 마다할 사람은 없을 겁니다.\n\n\n미성년자에게 술을 판매하지 않습니다. '부모님 심부름'이라고 해도 판매하지 않습니다.\n가게 안에서 토하지 마세요. 구토 시 매타작과 함께 청소비가 부과됩니다.",
     ContentTC = "歡迎來到水仙平原，本酒館提供全大陸的各種類的酒水。\n我們會在您醉倒之前向您收取酒錢。\n\n海伯利亞帝國：\n我們的帝國的酒大部分被那些煉金術師和軍人們喝進了肚子，所以酒的名字嘛……不太像是能喝的東西，但是味道都還是很棒的，想喝烈酒，請開尊口！\n軍團狼血\n軍團統一配給飲品，酒精含量高，讓人在戰場上忘記恐懼，還能夠對傷口進行應急消毒處理，但味道其實很糟糕，據說是為了避免士兵喝多。\n\n月髓引擎潤滑油\n軍團煉金術師最愛，因為其色澤與質地真的很像是月髓引擎的潤滑油而得名，甚至據說有煉金術師在開發新的月髓引擎時昏了頭，真的拿起了手邊的潤滑油一飲而盡。\n\n要塞轟擊\n流行於帝國南側的烈酒，推薦喝法是一飲而盡，能體驗到被要塞主炮轟擊一樣的四肢都不屬於自己的奇妙體驗，震撼，炸裂！\n\n桂冠歡悅\n慶祝普通卡戎成為桂冠卡戎時的常見飲品，雖然更多的時候是在劇烈搖晃後用來製造泡沫，但其實味道清爽，適合入口。\n\n華胥：\n喝不了烈的，來點東方國度的酒？與我們這裡常見的用葡萄釀酒不同，他們會用米釀酒，口感綿柔悠長，酒體像是琥珀一樣金黃。並且因為華胥的商人遍布大陸各地，所以這些好酒並非難以獲得。總之，想換換口味的話，請開尊口！\n虎魄\n琥珀色的酒液芳淳溫厚，被認為其中蘊含了猛虎的魂魄，經常會被當做藥引使用，是華胥之地最常見的酒類。\n\n笑投桃\n甜味明顯的淡酒，有明顯水果香氣，會在其中加入桃膠，帶來不一樣的飲用甚至可以說是食用體驗。同時酒體也呈現出淡淡的紅色，廣受女性客人喜愛。\n\n天上一盞\n華胥諺語有言，天上一天，地上一年。此種烈酒便是借用詞義，飲用後一盞後便會沉沉睡去，再醒來時已經過去許久，如同天上一夢。不建議喝多，否則有直接上天的風險。\n\n蒼龍醉\n傳說卡戎在華胥之國被稱為有龍氏，而蒼龍醉正是他們愛飲用的酒類，入口清冽，回味悠長。\n\n盧卡共和國：\n也許您知道盧卡盛產藝術家、航海家與瘋子，但您也許不知道那裡還出產各種雞尾酒。試試吧，您會被它們豐富的層次感與天馬行空的搭配所打動的。如果您不想喝醉，只想要點靈感，請開尊口！\n調色板\n由多種不同的酒類調製而成，在酒杯中會分層，五彩斑斕，觀賞價值高，但是攪勻後會變成黑色。\n\n假面舞會狂想曲\n其實是十種不同口味的酒的統稱，你無法從外表分辨這些酒的類型，只能品嚐之後才能得知杯中之物的味道，正如你無法得知假面舞會的舞伴面具下的容顏一樣。\n\n詩人韻腳\n入口柔順但是回味悠長的一種酒，因此讓詩人們聯想起詩歌在句末的韻腳，由此得名。許多創作者喜歡大量飲用以尋找靈感，製造一場盛大戲劇或是壯觀的嘔吐。\n\n刻刀\n盧卡之地罕見的烈酒，據說是出洋的水手們看到船艙中運輸的塑像時聯想到了刻刀而得名，如同名字一樣，喝下去後會在胃中穿鑿一番。\n\n伊瑟爾：\n學者們也會喝酒嗎？您好，會的。埋首於經卷與學術中的學者們會飲酒以衝淡研究失敗的挫敗感，也會在高呼「我發現了」時用酒漿歡慶。酒與知識一樣，都讓人沉醉，只是略顯遺憾的是，他們就連給酒起名字時，也在試圖和你傳達知識講述道理，如果您恰好也對這些深意有興趣的話，請開尊口！\n酒中至理\n伊瑟爾的學者們曾經認真思考過世界的本源，有人認為是氣，有人認為是火，還有人認為世界是有無數個差不多的小顆粒組成的。他們爭執不休，並在激烈的爭吵後一致認同，不管世界的本源是什麼，都一定大量存在於酒這種飲料中，帶來歡樂與和解。\n\n哲人之泣\n悲傷的哲人在發現方形的盛酒器的對角線無法以有理數寫出，於是他因絕望而哭泣，流乾了眼淚後流出了鮮紅的血，而哲人之泣的紅色酒體便來源於此。伊瑟爾的學者們偏愛這一則傳說，儘管酒體泛紅的原因僅僅是因為釀造材料是葡萄。\n\n豐饒啊豐饒！\n在達到一定程度的豐收時才會開始釀造的酒類，伊瑟爾的人們釀造出它後會舉行盛大的慶典，隨後一起痛飲，即興唱出歌曲或舉行辯論，以慶祝豐饒年成的來到。\n\n三段論\n大前提：喝酒會帶來更多的靈感。小前提：靈感是創作之源泉。結論：喝酒是創作之源泉。\n只有指出上述推論中的邏輯謬誤的伊瑟爾學生，才被允許飲用這種酒類。但慶幸吧，這裡是海伯利亞，你不需要先做題才能喝酒。\n\n赫墨王國：\n沙漠環境嚴苛，居民性格粗糲，但是他們也同樣熱情好客，當織星客或是狩月人路過他們的村落，也同樣能飲用到神秘而個性的酒。弊店雖然不是沙漠，但同樣熱情好客，想感受異域熱風，請開尊口！\n黑蜜\n近乎純黑但是又富含糖分的甜酒，黑色的來源是吸附雜質的碳粉。\n\n蛇之吻\n據說在製作過程中加入了蛇毒的酒，因此在飲用時口腔內部也會感到些許麻痹，同時身體也會感到絲絲涼意，雖然實際上只是在酒液中增加了一些氣體。\n\n煉金廢液\n赫墨的煉金術師們回收各種實驗中用到的酒精，調配勾兌而成的酒類，實話說相當危險，其中可能會出現蜥蜴爪子或者老鼠尾巴，建議富有冒險精神的狩月人在證明自己的勇氣時飲用。\n\n焚風\n加入了各種香料與辣椒的酒水，辛辣的氣息如同沙漠中的熱風，只要飲下一口，便如同置身於赫墨國土上一般。\n\n艾利西安傳頌會：\n橫亙大陸南方的艾利西安傳頌會，是咱們帝國的敵國。他們的國民沉迷在經文中，篤信他們的偽神，沒救啦！但是他們的酒嘛，姑且還算是有救。存貨不多，很難搞到，如果您錢包足夠滿，請開尊口！\n第十神\n帝國與傳頌會的戰爭一直持續，所以帝國嚴禁傳頌會的產物在國內銷售，因此即便是本店，也難以搞到更多種類的傳頌會酒類。第十神作為傳頌會流行的私酒，是唯一的例外。名字的意思是，這種酒帶來的恩惠堪比傳頌會尊崇的九位神明。也許正是因為這個看起來對神明不是那麼尊敬的名字，讓帝國的官員們覺得這一種酒在帝國傳播並不是什麼壞事。\n\n卡戎之民自釀：\n帝國更北方的山裡並非毫無人煙，那些不願意順從帝國的卡戎們依舊還在山間信奉著他們的父神母神，用自己釀的酒水舉行儀典，將他們的信仰與傳說繼續下去。他們也會用這些酒水換取銅幣，雖然度數不高，但是絕對是適合冰湖城這凍人天氣的好飲品，想暖暖身子，講一段卡戎的故事的話，請開尊口！\n天之樹汁\n藍色的酒水讓人想到月石，與月石引擎潤滑液的顯著不同在於粘稠度，天之樹汁要更加輕盈通透，這個名字代表著卡戎一族傳統文化中對於天之樹的尊崇。\n\n北風莓特釀\n以冰湖城和更北方土地的特產北風莓為原料釀造的果酒，果香馥鬱，適合熱飲。即便卡戎之民不懼嚴寒，但是也沒有人能夠拒絕在寒冬中來上一杯熱氣騰騰甜香四溢的北風莓特釀。\n\n\n我們不向未成年的客人提供酒水，「替家裡人買的」也不行。\n請不要在店裡嘔吐，我們會向您收取額外的清理費用並贈與一頓毆打。",
     TextMapContent = "欢迎来到水仙平原，本酒馆提供全大陆的各种类的酒水。\n我们会在您醉倒之前向您收取酒钱。\n\n海伯利亚帝国：\n我们的帝国的酒大部分被那些炼金术师和军人们喝进了肚子，所以酒的名字嘛……不太像是能喝的东西，但是味道都还是很棒的，想喝烈酒，请开尊口！\n军团狼血\n军团统一配给饮品，酒精含量高，让人在战场上忘记恐惧，还能够对伤口进行应急消毒处理，但味道其实很糟糕，据说是为了避免士兵喝多。\n\n月髓引擎润滑油\n军团炼金术师最爱，因为其色泽与质地真的很像是月髓引擎的润滑油而得名，甚至据说有炼金术师在开发新的月髓引擎时昏了头，真的拿起了手边的润滑油一饮而尽。\n\n要塞轰击\n流行于帝国南侧的烈酒，推荐喝法是一饮而尽，能体验到被要塞主炮轰击一样的四肢都不属于自己的奇妙体验，震撼，炸裂！\n\n桂冠欢悦\n庆祝普通卡戎成为桂冠卡戎时的常见饮品，虽然更多的时候是在剧烈摇晃后用来制造泡沫，但其实味道清爽，适合入口。\n\n华胥：\n喝不了烈的，来点东方国度的酒？与我们这里常见的用葡萄酿酒不同，他们会用米酿酒，口感绵柔悠长，酒体像是琥珀一样金黄。并且因为华胥的商人遍布大陆各地，所以这些好酒并非难以获得。总之，想换换口味的话，请开尊口！\n虎魄\n琥珀色的酒液芳淳温厚，被认为其中蕴含了猛虎的魂魄，经常会被当做药引使用，是华胥之地最常见的酒类。\n\n笑投桃\n甜味明显的淡酒，有明显水果香气，会在其中加入桃胶，带来不一样的饮用甚至可以说是食用体验。同时酒体也呈现出淡淡的红色，广受女性客人喜爱。\n\n天上一盏\n华胥谚语有言，天上一天，地上一年。此种烈酒便是借用词义，饮用后一盏后便会沉沉睡去，再醒来时已经过去许久，如同天上一梦。不建议喝多，否则有直接上天的风险。\n\n苍龙醉\n传说卡戎在华胥之国被称为有龙氏，而苍龙醉正是他们爱饮用的酒类，入口清冽，回味悠长。\n\n卢卡共和国：\n也许您知道卢卡盛产艺术家、航海家与疯子，但您也许不知道那里还出产各种鸡尾酒。试试吧，您会被它们丰富的层次感与天马行空的搭配所打动的。如果您不想喝醉，只想要点灵感，请开尊口！\n调色板\n由多种不同的酒类调制而成，在酒杯中会分层，五彩斑斓，观赏价值高，但是搅匀后会变成黑色。\n\n假面舞会狂想曲\n其实是十种不同口味的酒的统称，你无法从外表分辨这些酒的类型，只能品尝之后才能得知杯中之物的味道，正如你无法得知假面舞会的舞伴面具下的容颜一样。\n\n诗人韵脚\n入口柔顺但是回味悠长的一种酒，因此让诗人们联想起诗歌在句末的韵脚，由此得名。许多创作者喜欢大量饮用以寻找灵感，制造一场盛大戏剧或是壮观的呕吐。\n\n刻刀\n卢卡之地罕见的烈酒，据说是出洋的水手们看到船舱中运输的塑像时联想到了刻刀而得名，如同名字一样，喝下去后会在胃中穿凿一番。\n\n伊瑟尔：\n学者们也会喝酒吗？您好，会的。埋首于经卷与学术中的学者们会饮酒以冲淡研究失败的挫败感，也会在高呼“我发现了”时用酒浆欢庆。酒与知识一样，都让人沉醉，只是略显遗憾的是，他们就连给酒起名字时，也在试图和你传达知识讲述道理，如果您恰好也对这些深意有兴趣的话，请开尊口！\n酒中至理\n伊瑟尔的学者们曾经认真思考过世界的本源，有人认为是气，有人认为是火，还有人认为世界是有无数个差不多的小颗粒组成的。他们争执不休，并在激烈的争吵后一致认同，不管世界的本源是什么，都一定大量存在于酒这种饮料中，带来欢乐与和解。\n\n哲人之泣\n悲伤的哲人在发现方形的盛酒器的对角线无法以有理数写出，于是他因绝望而哭泣，流干了眼泪后流出了鲜红的血，而哲人之泣的红色酒体便来源于此。伊瑟尔的学者们偏爱这一则传说，尽管酒体泛红的原因仅仅是因为酿造材料是葡萄。\n\n丰饶啊丰饶！\n在达到一定程度的丰收时才会开始酿造的酒类，伊瑟尔的人们酿造出它后会举行盛大的庆典，随后一起痛饮，即兴唱出歌曲或举行辩论，以庆祝丰饶年成的来到。\n\n三段论\n大前提：喝酒会带来更多的灵感。小前提：灵感是创作之源泉。结论：喝酒是创作之源泉。\n只有指出上述推论中的逻辑谬误的伊瑟尔学生，才被允许饮用这种酒类。但庆幸吧，这里是海伯利亚，你不需要先做题才能喝酒。\n\n赫墨王国：\n沙漠环境严苛，居民性格粗粝，但是他们也同样热情好客，当织星客或是狩月人路过他们的村落，也同样能饮用到神秘而个性的酒。弊店虽然不是沙漠，但同样热情好客，想感受异域热风，请开尊口！\n黑蜜\n近乎纯黑但是又富含糖分的甜酒，黑色的来源是吸附杂质的碳粉。\n\n蛇之吻\n据说在制作过程中加入了蛇毒的酒，因此在饮用时口腔内部也会感到些许麻痹，同时身体也会感到丝丝凉意，虽然实际上只是在酒液中增加了一些气体。\n\n炼金废液\n赫墨的炼金术师们回收各种实验中用到的酒精，调配勾兑而成的酒类，实话说相当危险，其中可能会出现蜥蜴爪子或者老鼠尾巴，建议富有冒险精神的狩月人在证明自己的勇气时饮用。\n\n焚风\n加入了各种香料与辣椒的酒水，辛辣的气息如同沙漠中的热风，只要饮下一口，便如同置身于赫墨国土上一般。\n\n艾利西安传颂会：\n横亘大陆南方的艾利西安传颂会，是咱们帝国的敌国。他们的国民沉迷在经文中，笃信他们的伪神，没救啦！但是他们的酒嘛，姑且还算是有救。存货不多，很难搞到，如果您钱包足够满，请开尊口！\n第十神\n帝国与传颂会的战争一直持续，所以帝国严禁传颂会的产物在国内销售，因此即便是本店，也难以搞到更多种类的传颂会酒类。第十神作为传颂会流行的私酒，是唯一的例外。名字的意思是，这种酒带来的恩惠堪比传颂会尊崇的九位神明。也许正是因为这个看起来对神明不是那么尊敬的名字，让帝国的官员们觉得这一种酒在帝国传播并不是什么坏事。\n\n卡戎之民自酿：\n帝国更北方的山里并非毫无人烟，那些不愿意顺从帝国的卡戎们依旧还在山间信奉着他们的父神母神，用自己酿的酒水举行仪典，将他们的信仰与传说继续下去。他们也会用这些酒水换取铜币，虽然度数不高，但是绝对是适合冰湖城这冻人天气的好饮品，想暖暖身子，讲一段卡戎的故事的话，请开尊口！\n天之树汁\n蓝色的酒水让人想到月石，与月石引擎润滑液的显著不同在于粘稠度，天之树汁要更加轻盈通透，这个名字代表着卡戎一族传统文化中对于天之树的尊崇。\n\n北风莓特酿\n以冰湖城和更北方土地的特产北风莓为原料酿造的果酒，果香馥郁，适合热饮。即便卡戎之民不惧严寒，但是也没有人能够拒绝在寒冬中来上一杯热气腾腾甜香四溢的北风莓特酿。\n\n\n我们不向未成年的客人提供酒水，“替家里人买的”也不行。\n请不要在店里呕吐，我们会向您收取额外的清理费用并赠与一顿殴打。",
     TextMapId = "READ_TEXT_2000068"
@@ -69903,7 +69905,7 @@ return ReadOnly("TextMap_I18n", {
   READ_TEXT_2000083 = {
     ContentEN = "Loan Contract — Year X of Dafeng\n\nOn the Xth day of the Xth month in Year X of Dafeng, She Yuqing borrowed ten thousand copper coins from Li Laoqian, with interest accruing at one hundred per month.\nRepayment of both principal and interest is due by the Xth day of the Xth month. After that date, the total amount owed — principal and interest — shall be eligible for triple compensation..\n\nWitnessed by Lord Argent, and in accordance with the teachings of the Nine Chapters of Dafeng, both parties hereby establish this contract and seal it with their fingerprints as proof.\n\nSignatories:\nShe Yuqing\nLi Laoqian\n\nIssued in Huaxu, on the Xth day of the Xth month in Year X of Dafeng.",
     ContentJP = "『大風×年 シャー氏 貸借契約書』\n \n 大風×年×月×日、シャー氏はダマ氏より銅貨一万枚を借り受け、月利は百枚とする。\n 返済期限は×月×日までとし、その期日までに元金および利銭を合わせて返済すること。もし期日を過ぎた場合は、元利合計の三倍を賠償として支払うものとする。\n \n 白龍様を証人とし、大風九章の教えに則り、ここに契約を結ぶ。指印をもってその証とする。\n \n 契約者：\n シャー氏\n レイ・ダマ氏\n \n 華胥 大風×年×月×日",
-    ContentKR = "〈대풍 x년, 사서경 차용 증서〉\n \n대풍 x년 x월 x일, 사사경은 사기군에게 일만 쿠퍼를 차용하고, 이에 대한 이자로 월 일백 쿠퍼를 지급한다.\n사서경은 x월 x일까지 원리금을 모두 상환하여야 하며, 하루라도 기한을 넘길 경우, 원리금의 총 3.배를 배상한다.\n \n백룡신군께서 증인이 되어 주시고, 대풍구장의 가르침을 받을어, 양측은 계약을 체결하고 아래에 지장을 찍어 그 증표로 삼는다.\n \n양 당사자:\n사서경\n사기군\n \n화서 대풍x년 x월 x일",
+    ContentKR = "〈대풍 x년, 사서경 차용 증서〉\n\n대풍 x년 x월 x일, 사사경은 사기군에게 일만 쿠퍼를 차용하고, 이에 대한 이자로 월 일백 쿠퍼를 지급한다.\n사서경은 x월 x일까지 원리금을 모두 상환하여야 하며, 하루라도 기한을 넘길 경우, 원리금의 총 3.배를 배상한다.\n\n백룡신군께서 증인이 되어 주시고, 대풍구장의 가르침을 받들어, 양측은 계약을 체결하고 아래에 지장을 찍어 그 증표로 삼는다.\n\n양 당사자:\n사서경\n사기군\n\n화서 대풍x년 x월 x일",
     ContentTC = "《大風x年佘餘慶貸錢契》\n\n大風x年x月x日，佘餘慶於李老千處貸銅幣一萬，月生利錢一百。\n限至x月x日，佘餘慶需將本利一併酬還，過此日，則連本帶利按三.倍賠付。\n\n得白龍神君見證，遵大風九章之訓，雙方於此立契，畫指為信。\n\n立契人：\n佘餘慶\n李老千\n\n華胥大風x年x月x日",
     TextMapContent = "《大风x年佘余庆贷钱契》\n\n大风x年x月x日，佘余庆于李老千处贷铜币一万，月生利钱一百。\n限至x月x日，佘余庆需将本利一并酬还，过此日，则连本带利按三.倍赔付。\n\n得白龙神君见证，遵大风九章之训，双方于此立契，画指为信。\n\n立契人：\n佘余庆\n李老千\n\n华胥大风x年x月x日\n",
     TextMapId = "READ_TEXT_2000083"
@@ -72085,7 +72087,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RESOURCE_DESC_122"
         },
   RESOURCE_DESC_123 = {
-    ContentEN = "A neatly bound Hardcover Edition compiling once-scattered stanzas.",
+    ContentEN = "A neatly bound Hardcover Edition compiling once-scattered verses.",
     ContentJP = "散らばっていた詩篇を一冊に綴じた上製詩集。",
     ContentKR = "흩어진 시집을 제본한 양장본 시집.",
     ContentTC = "將散落的詩篇裝訂好的精裝詩集。",
@@ -72093,7 +72095,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RESOURCE_DESC_123"
         },
   RESOURCE_DESC_124 = {
-    ContentEN = "A finely bound Collector's Edition compiling once-scattered stanzas.",
+    ContentEN = "A finely bound Collector's Edition compiling once-scattered verses.",
     ContentJP = "散らばっていた詩篇を一冊に綴じた特装詩集。",
     ContentKR = "흩어진 시집을 제본한 소장본 시집.",
     ContentTC = "將散落的詩篇裝訂好的典藏詩集。",
@@ -77681,7 +77683,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RESOURCE_NAME_20019"
         },
   RESOURCE_NAME_2002 = {
-    ContentEN = "Stanza",
+    ContentEN = "Verse",
     ContentJP = "詩の一節",
     ContentKR = "시 단락",
     ContentTC = "詩歌段落",
@@ -77814,7 +77816,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RESOURCE_NAME_20032"
         },
   RESOURCE_NAME_2004 = {
-    ContentEN = "Stanza",
+    ContentEN = "Verse",
     ContentJP = "詩の一節",
     ContentKR = "시 단락",
     ContentTC = "詩歌段落",
@@ -83724,7 +83726,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLBlessing_Desc_311"
         },
   RLBlessing_Desc_312 = {
-    ContentEN = "Increases Skill Damage by <Highlight>#1</>.",
+    ContentEN = "Increases Skill Intensity by <Highlight>#1</>.",
     ContentJP = "スキル威力が<Highlight>#1</>アップする",
     ContentKR = "스킬 위력이 <Highlight>#1</> 상승한다.",
     ContentTC = "技能威力提高<Highlight>#1</>。",
@@ -83740,7 +83742,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLBlessing_Desc_313"
         },
   RLBlessing_Desc_314 = {
-    ContentEN = "The Skill Damage Increase granted by [Radiance] is raised to <Highlight>$1</>.",
+    ContentEN = "The Skill DMG Increase granted by [Radiance] is raised to <Highlight>$1</>.",
     ContentFR = "Augmente le bonus de Dégâts de compétence conféré par [Éclat] à <Highlight>$1</>.",
     ContentJP = "「キラキラ」状態によるスキルダメージ増加効果が<Highlight>$1</>アップ。",
     ContentKR = "[반짝임] 상태가 제공하는 스킬 대미지 상승 효과가 <Highlight>$1</>까지 상승한다.",
@@ -83767,7 +83769,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLBlessing_Desc_401"
         },
   RLBlessing_Desc_402 = {
-    ContentEN = "Summoning grants +<Highlight>$1</> Skill Damage for <Highlight>$2</>s. Stacks up to <Highlight>$3</> times.",
+    ContentEN = "Summoning grants +<Highlight>$1</> Skill Intensity for <Highlight>$2</>s. Stacks up to <Highlight>$3</> times.",
     ContentFR = "Lorsqu’un familier est invoqué, les Dégâts de compétence augmentent de <Highlight>$1</> pendant <Highlight>$2</> s, cumulable jusqu’à <Highlight>$3</> fois.",
     ContentJP = "スキルを発動する時、<Highlight>$2</>秒間スキル威力が<Highlight>$1</>アップする（最大<Highlight>$3</>スタックまで重ねがけ可）。",
     ContentKR = "소환물 소환 시, 자신의 스킬 위력이 <Highlight>$1</> 상승한다. 효과 지속 시간 <Highlight>$2</>초, 최대 <Highlight>$3</>단계 중첩.",
@@ -84187,7 +84189,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLBlessing_Desc_706"
         },
   RLBlessing_Desc_707 = {
-    ContentEN = "Increases Skill Damage by <Highlight>$2</> when HP is below <Highlight>100%</> and by <Highlight>$1</> when HP is <Highlight>100%</>.",
+    ContentEN = "Increases Skill Intensity by <Highlight>$2</> when HP is below <Highlight>100%</> and by <Highlight>$1</> when HP is <Highlight>100%</>.",
     ContentJP = "HP割合が<Highlight>100%</>未満の場合、スキル威力が<Highlight>$2</>アップする。HP割合が<Highlight>100%</>の場合、スキル威力が<Highlight>$1</>アップする。",
     ContentKR = "HP 비율이 <Highlight>100%</> 미만일 때, 스킬 위력이 <Highlight>$2</> 상승한다. HP 비율이 <Highlight>100%</>일 때, 스킬 위력이 <Highlight>$1</> 상승한다.",
     ContentTC = "生命值百分比小於<Highlight>100%</>時，技能威力提高<Highlight>$2</>；生命值百分比為<Highlight>100%</>時，技能威力提高<Highlight>$1</>。",
@@ -85448,7 +85450,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLBlessing_SimpleDesc_311"
         },
   RLBlessing_SimpleDesc_312 = {
-    ContentEN = "Increases Skill Damage.",
+    ContentEN = "Increases Skill Intensity.",
     ContentFR = "Augmente les Dégâts de compétence.",
     ContentJP = "スキル威力アップ",
     ContentKR = "스킬 위력이 상승한다.",
@@ -85492,7 +85494,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLBlessing_SimpleDesc_401"
         },
   RLBlessing_SimpleDesc_402 = {
-    ContentEN = "Grants Skill Damage Increase when summoning.",
+    ContentEN = "Grants Skill Intensity Increase when summoning.",
     ContentFR = "L’invocation d’un familier augmente les Dégâts de compétence.",
     ContentJP = "召喚ユニットを召喚時、自身のスキル威力アップ。",
     ContentKR = "소환물 소환 시, 자신의 스킬 위력이 상승한다.",
@@ -85912,7 +85914,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLBlessing_SimpleDesc_706"
         },
   RLBlessing_SimpleDesc_707 = {
-    ContentEN = "Increases Skill Damage. The effect intensifies at lower HP.",
+    ContentEN = "Increases Skill Intensity. The effect intensifies at lower HP.",
     ContentJP = "スキル威力がアップする。HP割合が低い場合はその効果がさらに強くなる。",
     ContentKR = "스킬 위력 상승, HP 비율이 낮을 시 효과 상승",
     ContentTC = "技能威力提高，生命百分比較低時效果更強。",
@@ -86888,7 +86890,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLGroup_InActive"
         },
   RLTalent_Desc_101 = {
-    ContentEN = "+<Highlight>#1</> Skill Damage",
+    ContentEN = "+<Highlight>#1</> Skill Intensity",
     ContentFR = "Dégâts de compétence +<Highlight>#1</>",
     ContentJP = "スキル威力が<Highlight>#1</>アップ",
     ContentKR = "스킬 위력 <Highlight>#1</> 상승",
@@ -86942,7 +86944,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTalent_Desc_106"
         },
   RLTalent_Desc_107 = {
-    ContentEN = "+<Highlight>#1</> Skill Damage",
+    ContentEN = "+<Highlight>#1</> Skill Intensity",
     ContentFR = "Dégâts de compétence +<Highlight>#1</>",
     ContentJP = "スキル威力が<Highlight>#1</>アップ",
     ContentKR = "스킬 위력 <Highlight>#1</> 상승",
@@ -87203,7 +87205,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTalent_Desc_409"
         },
   RLTalent_Name_101 = {
-    ContentEN = "Skill Damage Boost",
+    ContentEN = "Skill Intensity Boost",
     ContentJP = "スキル威力アップ",
     ContentKR = "스킬 위력 상승",
     ContentTC = "技能威力提高",
@@ -87251,7 +87253,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTalent_Name_106"
         },
   RLTalent_Name_107 = {
-    ContentEN = "Skill Damage Boost+",
+    ContentEN = "Skill Intensity Boost+",
     ContentJP = "スキル威力アップ+",
     ContentKR = "스킬 위력 상승+",
     ContentTC = "技能威力提高+",
@@ -89229,7 +89231,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RLTreasure_SimpleDesc_10109"
         },
   RLTreasure_SimpleDesc_10110 = {
-    ContentEN = "Increases Melee Weapon Damage and decreases Skill Damage.",
+    ContentEN = "Increases Melee Weapon DMG and decreases Skill DMG.",
     ContentJP = "近接武器ダメージアップ、スキルダメージダウン。",
     ContentKR = "근접 무기 대미지 상승, 스킬 대미지 감소",
     ContentTC = "近戰武器傷害提高，技能傷害降低。",
@@ -90018,7 +90020,7 @@ return ReadOnly("TextMap_I18n", {
         },
   RL_Event304_Select_2 = {
     ContentEN = "[Price: Embers -50] Gain a random <Highlight>Blue</>-tier or <Highlight>Purple</>-tier [Artefact].",
-    ContentJP = "「エンバー-50」ランダムに<Highlight>レア</>または<Highlightレジェンド</>「レリック」を獲得。",
+    ContentJP = "「エンバー-50」ランダムに<Highlight>レア</>または<Highlight>レジェンド</>「レリック」を獲得。",
     ContentKR = "[-50 잿불] <Highlight>파란색</> 또는 <Highlight>보라색</> [유물] 1개 랜덤 획득.",
     ContentTC = "[-50餘燼]隨機獲得一個<Highlight>藍色</>或<Highlight>紫色</>[遺物]。",
     TextMapContent = "[-50余烬]随机获得一个<Highlight>蓝色</>或<Highlight>紫色</>[遗物]。",
@@ -90766,7 +90768,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "RaidDungeon_Time_Remain"
         },
   Raid_Buff_11 = {
-    ContentEN = "When an Anemo character's Skill Damage is above 100%, gain #2 All-Element Penetration for every #1 over the threshold, up to #3.",
+    ContentEN = "When an Anemo character's Skill Intensity is above 100%, gain #2 All-Element Penetration for every #1 over the threshold, up to #3.",
     ContentES = "Cuando el Daño de Habilidad de un personaje Anemo supere el 100 %, por cada #1 que exceda el umbral, obtiene #2 de Penetración de todo atributo, hasta un máximo de #3.",
     ContentJP = "風属性キャラのスキル威力が100%を超えたとき、#1超過するにつき、全属性貫通が#2アップ、最大#3まで。",
     ContentKR = "바람 속성 캐릭터의 스킬 위력이 100% 이상일 때, 초과하는 위력 #1당 모든 속성 관통이 #2 상승한다. 최대 #3 상승",
@@ -91843,11 +91845,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_10105_DESC"
         },
   SKILL_10201_DESC = {
-    ContentEN = "Skill Range +<H>#1</>. When performing Normal Attacks with this weapon, grants a <H>#2</> ATK Speed Increase for <H>#3</>s (up to <H>#4</> stacks). Effect is removed when switching weapons.",
+    ContentEN = "Skill Range +<H>#1</>. Each hit of Normal Attack with this weapon grants a <H>#2</> ATK Speed Increase for <H>#3</>s (up to <H>#4</> stacks). Effect is removed when switching weapons.",
     ContentES = "Rango de Habilidad +<H>#1</>. Al realizar Ataque Normal con esta arma, obtienes 1 acumulación que aumenta la velocidad de ataque en <H>#2</> durante <H>#3</> s, hasta <H>#4</> acumulaciones. El efecto se elimina al cambiar de arma.",
     ContentFR = "Portée de compétence +<H>#1</>.\nLorsqu’une Attaque normale est effectuée avec cette arme, confère +<H>#2</> de Vitesse d’attaque pendant <H>#3</> s.\nCumulable jusqu’à <H>#4</> fois. L’effet est annulé lors du changement d’arme.",
-    ContentJP = "スキル範囲+<H>#1</>。この武器で通常攻撃時、攻撃速度アップ<H>#2</>のスタックを1獲得、<H>#3</>秒継続、最大<H>#4</>スタック。他の武器に切り替えると効果を失う。",
-    ContentKR = "스킬 범위+<H>#1</>. 해당 무기로 기본 공격 시전 시, 공격 속도 <H>#2</> 상승 효과 1단계를 획득한다. 지속 시간 <H>#3</>초, 최대 <H>#4</>단계 중첩. 다른 무기로 전환 시 효과가 사라진다.",
+    ContentJP = "スキル範囲+<H>#1</>。この武器による通常攻撃が命中する時、攻撃速度アップ<H>#2</>のスタックを1獲得、<H>#3</>秒継続、最大<H>#4</>スタック。他の武器に切り替えると効果を失う。",
+    ContentKR = "스킬 범위+<H>#1</>. 해당 무기로 기본 공격 적중 시, 공격 속도 <H>#2</> 상승 효과 1단계를 획득한다. 지속 시간 <H>#3</>초, 최대 <H>#4</>단계 중첩. 다른 무기로 전환 시 효과가 사라진다.",
     ContentTC = "技能範圍+<H>#1</>。使用此武器進行普通攻擊時，獲得1層攻擊速度提高<H>#2</>，持續<H>#3</>秒，最多疊加<H>#4</>層。切換至其他武器時，失去效果。",
     TextMapContent = "技能范围+<H>#1</>。使用此武器进行普通攻击时，获得1层攻击速度提高<H>#2</>，持续<H>#3</>秒，最多叠加<H>#4</>层。切换至其他武器时，失去效果。",
     TextMapId = "SKILL_10201_DESC"
@@ -91863,7 +91865,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_10202_DESC"
         },
   SKILL_10203_DESC = {
-    ContentEN = "Skill Damage +<H>#1</>. When an Electro character performs a Plunging Attack with this weapon, grants +<H>#2</> Skill Damage for <H>#3</>s (up to <H>3</> stacks).",
+    ContentEN = "Skill Intensity +<H>#1</>. When an Electro character performs a Plunging Attack with this weapon, grants +<H>#2</> Skill DMG for <H>#3</>s (up to <H>3</> stacks).",
     ContentES = "Daño de Habilidad +<H>#1</>. Cuando un personaje Electro realiza un Ataque Descendente con esta arma, obtiene 1 acumulación que aumenta el Daño de Habilidad en <H>#2</> durante <H>#3</> s, hasta <H>3</> acumulaciones.",
     ContentFR = "Dégâts de compétence +<H>#1</>. Lorsqu’un personnage Électro effectue une Attaque plongeante avec cette arme, il obtient +<H>#2</> de Dégâts de compétence pendant <H>#3</> s. Cumulable jusqu’à <H>3</> fois.",
     ContentJP = "スキル威力+<H>#1</>。雷属性キャラがこの武器で落下攻撃を行うと、スキルダメージアップ<H>#2</>のスタックを1獲得、<H>#3</>秒継続、最大<H>3</>スタック。",
@@ -91873,7 +91875,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_10203_DESC"
         },
   SKILL_10204_DESC = {
-    ContentEN = "Resolve +<H>#1</>. After an Anemo character uses their Ultimate Skill, grants [Thousand Winds' Blessing]: increases Resolve by <H>#2</> and ATK Speed by <H>#3</> for <H>#4</>s. Each instance of Skill Damage or Ranged Weapon Damage extends the duration by <H>#5</>s.",
+    ContentEN = "Resolve +<H>#1</>. After an Anemo character uses their Ultimate Skill, grants [Thousand Winds' Blessing]: increases Resolve by <H>#2</> and ATK Speed by <H>#3</> for <H>#4</>s. Each instance of Skill DMG or Ranged Weapon DMG extends the duration by <H>#5</>s.",
     ContentES = "Tenacidad +<H>#1</>. Tras usar su Habilidad Definitiva, un personaje Anemo obtiene [Plegaria de los Mil Vientos]: Tenacidad +<H>#2</> y Velocidad de Ataque +<H>#3</> durante <H>#4</> s. Cada vez que inflige Daño de Habilidad o Daño de Arma a distancia, la duración se extiende <H>#5</> s.",
     ContentFR = "Ténacité +<H>#1</>. Lorsqu’un personnage Anémo utilise sa compétence ultime, il obtient [Bénédiction des Mille Vents] :\nTénacité +<H>#2</>, Vitesse d’attaque +<H>#3</> pendant <H>#4</> s.\nChaque Dégâts de compétence ou DGT d’arme à distance prolonge la durée de l’effet de <H>#5</> s.",
     ContentJP = "背水+<H>#1</>。風属性キャラが必殺技を発動すると、「風祈り」を得る。「風祈り」：<H>#4</>秒間背水が<H>#2</>アップし、攻撃速度が<H>#3</>アップする。スキルダメージと遠隔武器ダメージを与えるたびに、持続時間が<H>#5</>秒延長される。",
@@ -91883,7 +91885,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_10204_DESC"
         },
   SKILL_10206_DESC = {
-    ContentEN = "Skill Damage +<H>#1</>.",
+    ContentEN = "Skill Intensity +<H>#1</>.",
     ContentES = "Daño de Habilidad +<H>#1</>.",
     ContentFR = "Dégâts de compétence +<H>#1</>.",
     ContentJP = "スキル威力+<H>#1</>。",
@@ -91931,7 +91933,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_10303_DESC"
         },
   SKILL_10304_DESC = {
-    ContentEN = "Morale +<H>#1</>. When an Electro character uses their Ultimate Skill, grants +<H>#2</> Skill Damage for <H>#3</>s (up to <H>#4</> stacks).",
+    ContentEN = "Morale +<H>#1</>. When an Electro character uses their Ultimate Skill, grants +<H>#2</> Skill Intensity for <H>#3</>s (up to <H>#4</> stacks).",
     ContentES = "Moral +<H>#1</>. Cuando un personaje Electro usa su Habilidad Definitiva, obtiene 1 acumulación que aumenta el Daño de Habilidad en <H>#2</> durante <H>#3</> s, hasta <H>#4</> acumulaciones.",
     ContentFR = "Vigueur +<H>#1</>. Lorsqu’un personnage Électro utilise sa Compétence ultime, obtient +<H>#2</> en Dégâts de compétence pendant <H>#3</> s (cumulable jusqu’à <H>#4</> fois).",
     ContentJP = "「高揚」+<H>#1</>。雷属性キャラが必殺技を発動すると、スキル威力アップ<H>#2</>のスタックを1獲得、<H>#3</>秒継続、最大<H>#4</>スタックまで。",
@@ -91981,7 +91983,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_10501_DESC"
         },
   SKILL_10502_DESC = {
-    ContentEN = "Skill Damage +<H>#1</>. When a Hydro character deals CRIT Damage with this weapon, increases Skill DMG for allies by <H>#2</> for <H>#3</>s.",
+    ContentEN = "Skill Intensity +<H>#1</>. When a Hydro character deals CRIT DMG with this weapon, increases Skill DMG for allies by <H>#2</> for <H>#3</>s.",
     ContentES = "Daño de Habilidad +<H>#1</>. Cuando un personaje Hydro inflige Daño CRIT con esta arma, aplica a los aliados Daño de Habilidad +<H>#2</> durante <H>#3</> s.",
     ContentFR = "Dégâts de compétence +<H>#1</>. Lorsqu’un personnage Hydro inflige un coup critique avec cette arme, augmente les Dégâts de compétence des alliés de <H>#2</> pendant <H>#3</> s.",
     ContentJP = "スキル威力+<H>#1</>。水属性キャラがこの武器でクリティカルダメージを与えると、<H>#3</>秒間近くにいる味方にスキルダメージ<H>#2</>アップの効果を付与する。",
@@ -92361,7 +92363,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_150104_NAME"
         },
   SKILL_150202_DESC = {
-    ContentEN = "Enters [Funeral Rite] status. Upon entry, if the user's Skill Range exceeds 100%, the excess is converted into Skill Damage at a fixed ratio, and Skill Range is reduced to 100% for the duration.\nWhile under [Funeral Rite], gains Trigger Probability Increase for ranged weapons; [Lunar Hunt] and [Solar Eclipse] cost no Sanity; [Lunar Hunt] pulls enemies toward its centre; [Solar Eclipse] deals increased damage.\n[Funeral Rite] ends after a set duration or after casting a total of 6 [Lunar Hunt] and/or [Solar Eclipse].",
+    ContentEN = "Enters [Funeral Rite] status. Upon entry, if the user's Skill Range exceeds 100%, the excess is converted into Skill Intensity at a fixed ratio, and Skill Range is reduced to 100% for the duration.\nWhile under [Funeral Rite], gains Trigger Probability Increase for ranged weapons; [Lunar Hunt] and [Solar Eclipse] cost no Sanity; [Lunar Hunt] pulls enemies toward its centre; [Solar Eclipse] deals increased damage.\n[Funeral Rite] ends after a set duration or after casting a total of 6 [Lunar Hunt] and/or [Solar Eclipse].",
     ContentES = "Entra en estado [Rito Fúnebre]. Al entrar, si el Rango de Habilidad supera el 100%, el exceso se convierte en Daño de Habilidad a una proporción fija y el Rango de Habilidad se reduce al 100% hasta que termine el estado.\nEn [Rito Fúnebre], aumenta la Probabilidad de Activación de Armas a distancia; [Cacería Lunar] y [Eclipse Solar] no consumen Cordura; [Cacería Lunar] atrae a los enemigos hacia el centro; [Eclipse Solar] aumenta Bono de daño.\n[Rito Fúnebre] termina tras cierto tiempo o después de lanzar 6 veces [Cacería Lunar] y [Eclipse Solar].",
     ContentFR = "Entre en état [Rite funéraire].\nÀ l’activation, si la Portée de compétence dépasse 100 %, l’excédent est converti en Dégâts de compétence selon un ratio fixe, et la Portée est ramenée à 100 % pour la durée de l’effet.\nPendant [Rite funéraire] :\nla Chance de déclenchement des armes à distance est augmentée ;\n[Chasse lunaire] et [Éclipse solaire] ne consomment pas de Lucidité ;\n[Chasse lunaire] attire les ennemis vers son centre ;\n[Éclipse solaire] inflige davantage de dégâts.\nL’état prend fin après une durée déterminée ou après 6 utilisations combinées de [Chasse lunaire] et [Éclipse solaire].",
     ContentJP = "「葬送」状態になる。この時、自身のスキル範囲が100%以上の場合、超えた部分を一定比率でスキル威力に転換し、スキル範囲も100%まで狭まる。この効果は「葬送」状態が終わるまで持続する。\n 「葬送」状態では、遠隔武器の発動確率がアップする。「日食」を発動する時にSPを消費しなくなり、ダメージ倍率もアップする。「月食」を発動する時にSPを消費しなくなり、目標を範囲中心に引き寄せる。\n 一定時間経過、または「月食」と「日食」を6回発動すると、「葬送」状態が終わる。",
@@ -92491,7 +92493,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_150303_DESC"
         },
   SKILL_150303_NAME = {
-    ContentEN = "Life Drifts, Tides Rearrange",
+    ContentEN = "Life's A Fleeting, Shifting Tide",
     ContentES = "La vida deriva, las fuerzas se invierten",
     ContentFR = "La vie dérive, les forces s’inversent",
     ContentJP = "無常たる浮世",
@@ -92795,7 +92797,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_20103_DESC"
         },
   SKILL_20201_DESC = {
-    ContentEN = "Skill Damage +<H>#1</>.",
+    ContentEN = "Skill Intensity +<H>#1</>.",
     ContentES = "Daño de Habilidad +<H>#1</>.",
     ContentFR = "Dégâts de compétence +<H>#1</>.",
     ContentJP = "スキル威力+<H>#1</>。",
@@ -92835,7 +92837,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_20301_DESC"
         },
   SKILL_20302_DESC = {
-    ContentEN = "Multishot +<H>#1</>. When a Pyro character performs a Dodge, grants 1 stack that increases Skill Damage and Ranged Weapon Damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
+    ContentEN = "Multishot +<H>#1</>. When a Pyro character performs a Dodge, grants 1 stack that increases Skill DMG and Ranged Weapon DMG by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
     ContentES = "Multidisparo +<H>#1</>. Cuando un personaje Pyro esquiva, obtiene 1 acumulación que aumenta el Daño de Habilidad y el Daño de Armas a distancia en <H>#2</> durante <H>#3</> s, hasta <H>#4</> acumulaciones.",
     ContentFR = "Tir multiple +<H>#1</>. Lorsqu’un personnage Pyro esquive, il gagne 1 cumul augmentant les Dégâts de compétence et les DGT d’arme à distance de <H>#2</> pour <H>#3</> s, jusqu’à <H>#4</> cumuls.",
     ContentJP = "多重射撃+<H>#1</>。火属性キャラが回避すると、<H>#3</>秒間スキルダメージと遠隔武器ダメージが<H>#2</>アップする（最大<H>#4</>回まで重ねがけ可）。",
@@ -93004,7 +93006,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_20601_DESC"
         },
   SKILL_20602_DESC = {
-    ContentEN = "Skill Duration +<H>#1</>. Landing a CRIT hit with this weapon randomly grants other allies one of the following for <H>#2</>s: +<H>#3</> ATK, +<H>#4</> DEF, +<H>#5</> Skill Damage, or +<H>#6</> Skill Duration.",
+    ContentEN = "Skill Duration +<H>#1</>. Landing a CRIT hit with this weapon randomly grants other allies one of the following for <H>#2</>s: +<H>#3</> ATK, +<H>#4</> DEF, +<H>#5</> Skill Intensity, or +<H>#6</> Skill Duration.",
     ContentES = "Duración de Habilidad +<H>#1</>. Al infligir Daño CRIT con esta arma, aplica aleatoriamente a los aliados durante <H>#2</> s uno de los siguientes efectos: ATQ +<H>#3</>, DEF +<H>#4</>, Daño de Habilidad +<H>#5</> o Duración de Habilidad +<H>#6</>.",
     ContentFR = "Durée de compétence +<H>#1</>. Lorsqu’un coup critique est infligé avec cette arme, confère aléatoirement à vos alliés l’un des effets suivants pendant <H>#2</> s : ATQ +#3, DÉF +#4, Dégâts de compétence +#5 ou Durée de compétence +#6.",
     ContentJP = "スキル耐久+<H>#1</>。この武器でクリティカルダメージを与えると、仲間に攻撃アップ<H>#3</>、防御アップ<H>#4</>、スキル威力アップ<H>#5</>、スキル耐久アップ<H>#6</>のいずれか一つを付与、<H>#2</>秒継続。",
@@ -93014,7 +93016,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_20602_DESC"
         },
   SKILL_20603_DESC = {
-    ContentEN = "Skill Range +<H>#1</>. While charging, the weapon gradually locks onto nearby enemies. Upon release, fires tracking arrows at all locked targets. When a Lumino character deals Skill Damage, grants +<H>#2</> Skill DMG for <H>#3</>s.",
+    ContentEN = "Skill Range +<H>#1</>. While charging, the weapon gradually locks onto nearby enemies. Upon release, fires tracking arrows at all locked targets. When a Lumino character deals Skill DMG, grants +<H>#2</> Skill DMG for <H>#3</>s.",
     ContentES = "Rango de Habilidad +<H>#1</>. Al cargar, fija gradualmente a los enemigos dentro del rango; al soltar, dispara flechas de localización a los objetivos fijados. Cuando un personaje Lumino inflige Daño de Habilidad, obtiene Daño de Habilidad +<H>#2</> durante <H>#3</> s.",
     ContentFR = "Portée de compétence +<H>#1</>. Pendant la charge, verrouille progressivement les ennemis dans la zone. Lors du relâchement, tire des flèches traçantes vers toutes les cibles verrouillées. Lorsqu’un personnage Lumino inflige des Dégâts de compétence, il obtient +<H>#2</> de Dégâts de compétence pendant <H>#3</> s.",
     ContentJP = "スキル範囲+<H>#1</>。チャージ中、範囲内の敵を逐次ロックオンし、発動時にロックした敵へ追尾矢を放つ。光属性キャラがスキルダメージを与えると、自身にスキルダメージアップ<H>#2</>を付与、<H>#3</>秒継続。",
@@ -93294,7 +93296,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_240103_NAME"
         },
   SKILL_240104_DESC = {
-    ContentEN = "Increases Skill Damage based on the number of [Yunchi] on the field.",
+    ContentEN = "Increases Skill Intensity based on the number of [Yunchi] on the field.",
     ContentES = "Aumenta el Daño de Habilidad según el número de [Yunchi] presentes.",
     ContentFR = "Augmente les Dégâts de compétence de Fushu en fonction du nombre de [Yunchi] présents sur le champ de bataille.",
     ContentJP = "存在する「召喚ユニット‐雲龍」の数によって、自身のスキル威力がアップする。",
@@ -93814,7 +93816,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_330102_NAME"
         },
   SKILL_330103_DESC = {
-    ContentEN = "When the user or allies pick up loot, the user gains 1 stack of [Jackpot!], lasting for the rest of the battle. Each stack increases Skill DMG, up to 20 stacks.",
+    ContentEN = "When the user or allies pick up loot, the user gains 1 stack of [Jackpot!], lasting for the rest of the battle. Each stack increases Skill Intensity, up to 20 stacks.",
     ContentES = "Cuando el usuario o sus aliados recogen botín, el usuario obtiene 1 acumulación de [¡Tesoro!], que dura el resto de la batalla. Cada acumulación aumenta el Daño de Habilidad, hasta un máximo de 20 acumulaciones.",
     ContentFR = "Lorsque vous ou vos alliés ramassez un butin, vous obtenez un cumul permanent de [Jackpot !] : augmente les Dégâts de compétence, jusqu’à 20 cumuls maximum.",
     ContentJP = "自身と周囲の味方がアイテムを拾うと、自身はスキル威力を強化する「宝物ゲット！」を1スタック獲得（最大で20スタック）。",
@@ -94414,7 +94416,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_510103_NAME"
         },
   SKILL_510104_DESC = {
-    ContentEN = "When dealing skill damage, there is a chance to drop 1 [Ammo Supply Chest].",
+    ContentEN = "When dealing Skill DMG, there is a chance to drop 1 [Ammo Supply Chest].",
     ContentES = "Al infligir daño de habilidad, existe la posibilidad de generar 1 [Caja de suministros de munición].",
     ContentFR = "Lorsqu’elle inflige des Dégâts de compétence, Truffle a une chance de générer 1 [Caisse de munitions].",
     ContentJP = "スキルでダメージを与えると、一定確率で「弾薬補給箱」を1つ生成する。",
@@ -94574,7 +94576,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_530102_NAME"
         },
   SKILL_530103_DESC = {
-    ContentEN = "When dealing CRIT damage, Psyche gains one of the following buffs at random: ATK Boost, Skill Damage Boost, or Resolve Boost.\nIncreases Psyche's damage for each buff she gains, up to 12 buffs.",
+    ContentEN = "When dealing CRIT damage, Psyche gains one of the following buffs at random: ATK Boost, Skill Intensity Boost, or Resolve Boost.\nIncreases Psyche's damage for each buff she gains, up to 12 buffs.",
     ContentES = "Al infligir Daño CRIT, obtiene aleatoriamente una de las siguientes mejoras: Aumento de ATQ, Aumento de Daño de Habilidad o Aumento de Tenacidad.\nAumenta el daño de Psyche por cada mejora que obtiene, hasta un máximo de 12 mejoras.",
     ContentFR = "Lorsqu’elle inflige un DGT CRIT, Psyche obtient aléatoirement l’un des bonus suivants :\n– Attaque augmentée\n– Dégâts de compétence augmentés\n– Ténacité renforcée\nElle voit en plus ses dégâts augmenter pour chaque bonus dont elle bénéficie, jusqu’à un total de 12 bonus comptabilisés.",
     ContentJP = "クリティカルヒットが発生すると「攻撃力アップ」、「スキル威力アップ」、「背水アップ」のうちランダムで1つの効果を獲得。\n自身の持つバフ効果の数に応じて与ダメージがアップ、最多12件のバフ効果がカウントされる。",
@@ -95609,7 +95611,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_DESC_2301Rate"
         },
   SKILL_DESC_2401MaxSkill02SkillIntensity = {
-    ContentEN = "Skill Damage Cap Boost",
+    ContentEN = "Skill Intensity Cap Boost",
     ContentES = "Límite de aumento de Daño de Habilidad",
     ContentFR = "Limite d’augmentation des Dégâts de compétence",
     ContentJP = "スキル威力アップ上限",
@@ -95659,7 +95661,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_DESC_2401Skill02DamageRadius"
         },
   SKILL_DESC_2401Skill02SkillIntensityRate = {
-    ContentEN = "Skill Damage Increase",
+    ContentEN = "Skill Intensity Increase",
     ContentES = "Aumento de Daño de Habilidad",
     ContentFR = "Augmentation des Dégâts de compétence",
     ContentJP = "スキル威力アップ",
@@ -98128,7 +98130,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_DESC_SkillExecuteDamageRadius"
         },
   SKILL_DESC_SkillIntenUp = {
-    ContentEN = "Skill DMG Boost",
+    ContentEN = "Skill Intensity Boost",
     ContentES = "Aumento de Daño de Habilidad",
     ContentFR = "Augmentation des Dégâts de compétence",
     ContentJP = "スキル威力アップ",
@@ -98138,7 +98140,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_DESC_SkillIntenUp"
         },
   SKILL_DESC_SkillIntenUpLayer = {
-    ContentEN = "Skill DMG Boost per stack",
+    ContentEN = "Skill Intensity Boost per stack",
     ContentES = "Aumento de Daño de Habilidad por acumulación",
     ContentFR = "Augmentation des Dégâts de compétence par cumul",
     ContentJP = "1バフ効果ごとスキル威力アップ",
@@ -98148,7 +98150,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "SKILL_DESC_SkillIntenUpLayer"
         },
   SKILL_DESC_SkillIntensity = {
-    ContentEN = "Skill Damage",
+    ContentEN = "Skill Intensity",
     ContentES = "Daño de Habilidad",
     ContentJP = "スキル威力",
     ContentKR = "스킬 위력",
@@ -101522,7 +101524,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "TERMEXP_2301_Summon"
         },
   TERMEXP_2401_Skill02Buff = {
-    ContentEN = "Increases Skill Damage by a percentage of [Fushu]'s Skill Damage.",
+    ContentEN = "Increases Skill Intensity by a percentage of [Fushu]'s Skill Intensity.",
     ContentES = "Aumenta el Daño de Habilidad en un porcentaje del Daño de Habilidad de [Fushu].",
     ContentFR = "Augmente les Dégâts de compétence en fonction d’un pourcentage des Dégâts de compétence de Fushu.",
     ContentJP = "スキル威力がアップする。数値は「フーシュ」のスキル威力の一定比率に相当する。",
@@ -101582,7 +101584,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "TERMEXP_3103_Skill02"
         },
   TERMEXP_3103_Summon01 = {
-    ContentEN = "When dealing damage, causes greater Stance reduction to the target(s). The greater the difference between Yale and Oliver's Skill Range and the Skill Damage, the higher the chance of deploying [Tot Popper: Yale's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Yale's Make].",
+    ContentEN = "When dealing damage, causes greater Stance reduction to the target(s). The greater the difference between Yale and Oliver's Skill Range and the Skill Intensity, the higher the chance of deploying [Tot Popper: Yale's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Yale's Make].",
     ContentES = "Al infligir daño, causa una mayor reducción de Postura al objetivo. Cuanto mayor sea la diferencia entre el Daño de Habilidad de Yale y Oliver y el Rango de Habilidad, mayor será la probabilidad de activación de desplegar [Pequeño Bum: Creado por Yale]. Si la diferencia es superior o igual al 50 %, se garantiza que será un [Pequeño Bum: Creado por Yale].",
     ContentFR = "Inflige un plus fort affaiblissement de la posture. Plus l’écart entre ses Dégâts de compétence et sa Portée de compétence est élevé, plus la probabilité d’obtenir un [P’tit Boum : signé Yale] augmente. \nSi l’écart est supérieur ou égal à 50 %, un [P’tit Boum : signé Yale] est garanti.",
     ContentJP = "敵にダメージを与えると、通常より大きく体勢を崩させる。自身の「スキル威力-スキル範囲」の差が大きいほど、「キュートちゃん‐イェール式」を投げる確率が高くなる。差が50%以上の場合、必ず「キュートちゃん‐イェール式」を投げる",
@@ -101592,7 +101594,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "TERMEXP_3103_Summon01"
         },
   TERMEXP_3103_Summon02 = {
-    ContentEN = "Deals higher damage. The greater the difference between Yale and Oliver's Skill Damage and the Skill Range provided by equipped Demon Wedges, the higher the chance of deploying [Tot Popper: Oliver's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Oliver's Make].",
+    ContentEN = "Deals higher damage. The greater the difference between Yale and Oliver's Skill Intensity and the Skill Range provided by equipped Demon Wedges, the higher the chance of deploying [Tot Popper: Oliver's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Oliver's Make].",
     ContentES = "Inflige mayor daño. Cuanto mayor sea la diferencia entre el Rango de Habilidad de Yale y Oliver y el Daño de Habilidad, mayor será la probabilidad de activación de desplegar [Pequeño Bum: Creado por Oliver]. Si la diferencia es superior o igual al 50 %, se garantiza que será un [Pequeño Bum: Creado por Oliver].",
     ContentFR = "Inflige davantage de dégâts. Plus l’écart entre sa Portée de compétence et ses Dégâts de compétence est élevé, plus la probabilité d’obtenir un [P’tit Boum : signé Oliver] augmente.\nSi l’écart est supérieur ou égal à 50 %, un [P’tit Boum : signé Oliver] est garanti.",
     ContentJP = "通常より高いダメージを与える。魔の楔による「スキル範囲-スキル威力」の差が大きいほど、「キュートちゃん‐オリバー式」を投げる確率が高くなる。差が50%以上の場合、必ず「キュートちゃん‐オリバー式」を投げる",
@@ -101612,7 +101614,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "TERMEXP_3201_Skill01"
         },
   TERMEXP_3202_Passive01 = {
-    ContentEN = "All weapon and skill damage (excluding [Spinblades] and [Laceration]) detonates 2 stacks of [Laceration], dealing additional elemental damage. Max 20 detonations per second.",
+    ContentEN = "All Weapon and Skill DMG (excluding [Spinblades] and [Laceration]) detonates 2 stacks of [Laceration], dealing additional elemental damage. Max 20 detonations per second.",
     ContentES = "Todo el daño de armas y habilidades (excepto [Dagas Rotatorias] y [Laceración]) detona 1 acumulación de [Laceración], lo que inflige daño adicional de atributo. Máximo de 20 detonaciones por segundo.",
     ContentFR = "Tous les DGT d’arme et tous les Dégâts de compétence (hors [Lames tournoyantes] et [Lacération]) détonent 1 [Lacération] et infligent des dégâts supplémentaires de l’attribut correspondant. Jusqu’à 20 détonations par seconde.",
     ContentJP = "武器および「回転ダガー」・「裂傷」以外のスキルダメージは「裂傷」を1スタック爆発させ、追加で対応属性ダメージを与える（毎秒最大20回）。",
@@ -101682,7 +101684,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "TERMEXP_4102_Skill02_02"
         },
   TERMEXP_4102_Skill02_03 = {
-    ContentEN = "When Zhiliu has 2 [Talismans: Xun], [Heaven-Earth Divination] is replaced with [Fortune's Clarity].\n[Fortune's Clarity]: Consumes all [Talismans] to deal Electro Damage to enemies around and increase Zhiliu's Skill Damage.",
+    ContentEN = "When Zhiliu has 2 [Talismans: Xun], [Heaven-Earth Divination] is replaced with [Fortune's Clarity].\n[Fortune's Clarity]: Consumes all [Talismans] to deal Electro Damage to enemies around and increase Zhiliu's Skill DMG.",
     ContentES = "Cuando tiene 2 [Talismánes: Xun], [Adivinación Cielo-Tierra] se reemplaza con esta habilidad.\nElimina todos los [Talismánes]. Inflige Daño Electro a los enemigos cercanos y aumenta el Daño de Habilidad del usuario.",
     ContentFR = "[Clarté du destin] remplace [Divination cosmique] lorsque Zhiliu possède 2 [Talismans : Xun].\nConsomme tous les [Talismans], inflige des Dégâts Électro autour d’elle et augmente ses Dégâts de compétence.",
     ContentJP = "自身が2枚の「泉の符‐巽」を持っている時、「天地の理」はこのスキルに置き換えられる。\nすべての「泉の符」を除去し、周りの一定範囲内の敵に雷属性のダメージを与えて、自身がスキルダメージアップの効果を得る。",
@@ -102001,7 +102003,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Deals Skill DMG equal to <Highlight>810%</> of Character ATK to enemies within <Highlight>6 </>m.",
     ContentJP = "周囲<Highlight>6</>メートル以内の敵にキャラクターの攻撃力<Highlight>810%</>に相当するスキルダメージを与える。",
     ContentKR = "주변 <Highlight>6</>m 범위 내의 적에게 캐릭터 공격력 <Highlight>810%</>의 스킬 대미지를 입힌다.",
-    ContentTC = "对周围<Highlight>6</>米范围内的敌人造成<Highlight>810%</>角色攻击的技能伤害。",
+    ContentTC = "對周圍<Highlight>6</>米範圍內的敵人造成<Highlight>810%</>角色攻擊的技能傷害。",
     TextMapContent = "对周围<Highlight>6</>米范围内的敌人造成<Highlight>810%</>角色攻击的技能伤害。",
     TextMapId = "TERMEXP_Rou_10103_Emission"
         },
@@ -102009,7 +102011,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "While active, increases Skill DMG by <Highlight>50%</>.",
     ContentJP = "この状態中、スキルダメージが<Highlight>50%</>アップする。",
     ContentKR = "해당 상태에서 스킬 대미지가 <Highlight>50%</> 상승한다.",
-    ContentTC = "在此状态中技能伤害提高<Highlight>50%</>。",
+    ContentTC = "在此狀態中技能傷害提高<Highlight>50%</>。",
     TextMapContent = "在此状态中技能伤害提高<Highlight>50%</>。",
     TextMapId = "TERMEXP_Rou_10103_Radiance"
         },
@@ -103310,7 +103312,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Tag_SkillEfficiency"
         },
   Tag_SkillIntensity = {
-    ContentEN = "Skill Damage",
+    ContentEN = "Skill Intensity",
     ContentFR = "Dégâts de compétence",
     ContentJP = "スキル威力",
     ContentKR = "스킬 위력",
@@ -104591,6 +104593,14 @@ return ReadOnly("TextMap_I18n", {
     TextMapContent = "参加成功",
     TextMapId = "TheaterOnline_Game_Sign_Success"
         },
+  TheaterOnline_Game_Sign_Waiting = {
+    ContentEN = "Wait for the ball to end",
+    ContentJP = "ダンスパーティの終わりを待つ",
+    ContentKR = "이번 무도회 종료까지 기다려 주세요",
+    ContentTC = "等待當前舞會結束",
+    TextMapContent = "等待当前舞会结束",
+    TextMapId = "TheaterOnline_Game_Sign_Waiting"
+        },
   TheaterOnline_Game_Start01 = {
     ContentEN = "The Lunoball begins",
     ContentJP = "ルーナダンスパーティイベント開始",
@@ -105424,7 +105434,7 @@ return ReadOnly("TextMap_I18n", {
   Title_10078 = {
     ContentEN = "Worry-Worn",
     ContentJP = "気苦労の絶えない",
-    ContentKR = "애타는",
+    ContentKR = "애타는{空格}",
     ContentTC = "操碎了心的",
     TextMapContent = "操碎了心的",
     TextMapId = "Title_10078"
@@ -105432,7 +105442,7 @@ return ReadOnly("TextMap_I18n", {
   Title_10079 = {
     ContentEN = "Pure-White",
     ContentJP = "純白の",
-    ContentKR = "순백의",
+    ContentKR = "순백의{空格}",
     ContentTC = "純白",
     TextMapContent = "纯白",
     TextMapId = "Title_10079"
@@ -105440,7 +105450,7 @@ return ReadOnly("TextMap_I18n", {
   Title_10080 = {
     ContentEN = "Battle-Tempered",
     ContentJP = "鍛え抜かれた",
-    ContentKR = "노련한",
+    ContentKR = "노련한{空格}",
     ContentTC = "千錘百鍊的",
     TextMapContent = "千锤百炼的",
     TextMapId = "Title_10080"
@@ -105448,7 +105458,7 @@ return ReadOnly("TextMap_I18n", {
   Title_10081 = {
     ContentEN = "Sleepy-Eyed",
     ContentJP = "眠くてたまらない",
-    ContentKR = "꾸벅꾸벅 조는",
+    ContentKR = "꾸벅꾸벅 조는{空格}",
     ContentTC = "昏昏欲睡的",
     TextMapContent = "昏昏欲睡的",
     TextMapId = "Title_10081"
@@ -105456,7 +105466,7 @@ return ReadOnly("TextMap_I18n", {
   Title_10082 = {
     ContentEN = "Apocalyptic",
     ContentJP = "終末の",
-    ContentKR = "종말의",
+    ContentKR = "종말의{空格}",
     ContentTC = "末日的",
     TextMapContent = "末日的",
     TextMapId = "Title_10082"
@@ -105464,7 +105474,7 @@ return ReadOnly("TextMap_I18n", {
   Title_10083 = {
     ContentEN = "Wall-Leaping",
     ContentJP = "身軽な",
-    ContentKR = "날쌘",
+    ContentKR = "날쌘{空格}",
     ContentTC = "飛檐走壁的",
     TextMapContent = "飞檐走壁的",
     TextMapId = "Title_10083"
@@ -105472,7 +105482,7 @@ return ReadOnly("TextMap_I18n", {
   Title_10084 = {
     ContentEN = "Polite",
     ContentJP = "礼儀正しい",
-    ContentKR = "예의 바른",
+    ContentKR = "예의 바른{空格}",
     ContentTC = "禮貌的",
     TextMapContent = "礼貌的",
     TextMapId = "Title_10084"
@@ -105486,7 +105496,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Title_20001"
         },
   Title_20002 = {
-    ContentEN = "Weapon Master",
+    ContentEN = " Weapon Master",
     ContentJP = "武器マスター",
     ContentKR = "무기 마스터",
     ContentTC = "武器大師",
@@ -105494,7 +105504,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Title_20002"
         },
   Title_20003 = {
-    ContentEN = "Bounty Hunter",
+    ContentEN = " Bounty Hunter",
     ContentJP = "宝物ハンター",
     ContentKR = "보물 사냥꾼",
     ContentTC = "寶藏獵人",
@@ -105502,7 +105512,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Title_20003"
         },
   Title_20004 = {
-    ContentEN = "scholar",
+    ContentEN = " Scholar",
     ContentJP = "学者",
     ContentKR = "학자",
     ContentTC = "學者",
@@ -105510,7 +105520,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Title_20004"
         },
   Title_20005 = {
-    ContentEN = "Master",
+    ContentEN = " Master",
     ContentJP = "達人",
     ContentKR = "고수",
     ContentTC = "高手",
@@ -105910,7 +105920,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Title_20054"
         },
   Title_20055 = {
-    ContentEN = "Nightingale",
+    ContentEN = " Nightingale",
     ContentJP = "青い鳥",
     ContentKR = "나이팅게일",
     ContentTC = "夜鶯",
@@ -105958,7 +105968,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "Title_20060"
         },
   Title_20061 = {
-    ContentEN = "Master of Slacking",
+    ContentEN = " Master of Slacking",
     ContentJP = "サボりの達人",
     ContentKR = "농땡이꾼",
     ContentTC = "摸魚大師",
@@ -108064,7 +108074,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UIGuide_Sp"
         },
   UIGuide_SpecialDestructible_1 = {
-    ContentEN = "Some objects can only be destroyed by <H>specific Bonus Effects</> or <H>specific Skill Damage</> that deal specific damage.",
+    ContentEN = "Some objects can only be destroyed by <H>specific Bonus Effects</> or <H>specific Skill DMG</>.",
     ContentFR = "Certains objets ne peuvent être détruits qu’à l’aide d’un <H>Effet supplémentaire spécifique</> ou d’une <H>compétence infligeant des dégâts d’un attribut particulier</>.",
     ContentJP = "オブジェクトには、<H>特定の属性追加効果</>または<H>特定の属性スキルダメージ</>でしか破壊できないものがあります。",
     ContentKR = "일부 오브젝트는 <H>특정 속성의 추가 효과</>나 <H>특정 속성의 스킬 대미지</>를 받아야만 파괴할 수 있습니다.",
@@ -110780,7 +110790,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Accessory_Name_10046 = {
     ContentEN = "Kitty Headpiece: Dark Jade",
     ContentJP = "猫の髪飾り‐黒玉",
-    ContentKR = "묘묘 머리 장식·제트 블랙",
+    ContentKR = "묘묘 머리 장식·\n제트 블랙",
     ContentTC = "喵喵髮飾·墨玉",
     TextMapContent = "喵喵发饰·墨玉",
     TextMapId = "UI_Accessory_Name_10046"
@@ -110911,7 +110921,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Accessory_Name_10063 = {
     ContentEN = "Mounted Head of Zhuyin – Rust Red",
     ContentJP = "燭陰狩・ペルシアンレッド",
-    ContentKR = "촉룡 토벌·러스트 레드",
+    ContentKR = "촉룡 토벌·\n러스트 레드",
     ContentTC = "燭陰獵首·銹紅",
     TextMapContent = "烛阴猎首·锈红",
     TextMapId = "UI_Accessory_Name_10063"
@@ -111010,7 +111020,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Accessory_Name_20007 = {
     ContentEN = "Ascetic's Blindfold: Rose Red",
     ContentJP = "苦行者のアイマスク-赤錆",
-    ContentKR = "고행자의 안대·러스트 레드",
+    ContentKR = "고행자의 안대·\n러스트 레드",
     ContentTC = "苦修者眼罩·銹紅",
     TextMapContent = "苦修者眼罩·锈红",
     TextMapId = "UI_Accessory_Name_20007"
@@ -111106,7 +111116,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Accessory_Name_20019 = {
     ContentEN = "Bandage Wrap: Celeste",
     ContentJP = "眼帯-スカイブルー",
-    ContentKR = "응급 붕대·스카이 블루",
+    ContentKR = "응급 붕대·\n스카이 블루",
     ContentTC = "應急繃帶·晴藍",
     TextMapContent = "应急绷带·晴蓝",
     TextMapId = "UI_Accessory_Name_20019"
@@ -111350,7 +111360,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Accessory_Name_20051 = {
     ContentEN = "Sigil of Zhuyin – Rust Red",
     ContentJP = "燭陰のスティグマ・ペルシアンレッド",
-    ContentKR = "촉룡의 낙인·러스트 레드",
+    ContentKR = "촉룡의 낙인·\n러스트 레드",
     ContentTC = "燭陰烙印·銹紅",
     TextMapContent = "烛阴烙印·锈红",
     TextMapId = "UI_Accessory_Name_20051"
@@ -111697,7 +111707,7 @@ return ReadOnly("TextMap_I18n", {
   UI_Accessory_Name_40017 = {
     ContentEN = "Phoxfox Tail: Dark Jade",
     ContentJP = "月狐の玉尾・エメラルドグリーン",
-    ContentKR = "달의 여우 꼬리·제트 블랙",
+    ContentKR = "달의 여우 꼬리·\n제트 블랙",
     ContentTC = "月舞狐的尾玉·墨玉",
     TextMapContent = "月舞狐的尾玉·墨玉",
     TextMapId = "UI_Accessory_Name_40017"
@@ -113682,7 +113692,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Have <highlight>#1</> Lv. 60 weapons",
     ContentJP = "累計<highlight>#1</>種類の武器がLv.60に到達",
     ContentKR = "누적 <highlight>#1</>개의 무기 60레벨 달성",
-    ContentTC = "累計<highlight>#1</>把武器達到Lv.60",
+    ContentTC = "累計<highlight>#1</>把不同武器達到Lv.60",
     TextMapContent = "累计<highlight>#1</>把不同武器达到Lv.60",
     TextMapId = "UI_Achievement_Des_40206"
         },
@@ -113696,19 +113706,19 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_Achievement_Des_4021"
         },
   UI_Achievement_Des_40302 = {
-    ContentEN = "Have <highlight>#1</> weapons that have reached Ascension Phase 6",
+    ContentEN = "Ascend <highlight>#1</> different weapons to Ascension Phase 2",
     ContentFR = "Atteindre la phase 2 d’ascension avec <highlight>#1</> armes différentes",
-    ContentJP = "累計<highlight>#1</>種類の武器をランク6まで限界突破する",
-    ContentKR = "누적 <highlight>#1</>개의 무기 6급 돌파",
-    ContentTC = "累計<highlight>#1</>把武器突破6階",
+    ContentJP = "累計で<highlight>#1</>種類の武器をランク2まで限界突破する",
+    ContentKR = "각기 다른 무기 <highlight>#1</>개 2급 돌파",
+    ContentTC = "累計<highlight>#1</>把不同武器突破2階",
     TextMapContent = "累计<highlight>#1</>把不同武器突破2阶",
     TextMapId = "UI_Achievement_Des_40302"
         },
   UI_Achievement_Des_40306 = {
-    ContentEN = "Have <highlight>#1</> weapons that have reached Ascension Phase 1",
-    ContentJP = "累計<highlight>#1</>件の武器が限界突破を1回達成",
-    ContentKR = "누적 <highlight>#1</>개의 무기 1급 돌파",
-    ContentTC = "累計<highlight>#1</>把武器突破1階",
+    ContentEN = "Have <highlight>#1</> weapons that have reached Ascension Phase 6",
+    ContentJP = "累計<highlight>#1</>種類の武器をランク6まで限界突破する",
+    ContentKR = "누적 <highlight>#1</>개의 무기 6급 돌파",
+    ContentTC = "累計<highlight>#1</>把不同武器突破6階",
     TextMapContent = "累计<highlight>#1</>把不同武器突破6阶",
     TextMapId = "UI_Achievement_Des_40306"
         },
@@ -140947,11 +140957,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_FORGING_COMPLETED"
         },
   UI_FORGING_CURRENT = {
-    ContentEN = "Owned: ",
+    ContentEN = "Owned:",
     ContentES = "Poseído:",
     ContentFR = "Possédé :",
     ContentJP = "所持中：",
-    ContentKR = "보유 중:",
+    ContentKR = "보유 중:{空格}",
     ContentTC = "已擁有:",
     TextMapContent = "已拥有:",
     TextMapId = "UI_FORGING_CURRENT"
@@ -143225,7 +143235,7 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_HardBoss_Unlocklevel"
         },
   UI_HardBoss_WaitOthers = {
-    ContentEN = "Waiting for Other Players",
+    ContentEN = "Waiting for Other Players ",
     ContentES = "Esperando a otros jugadores",
     ContentJP = "他のユーザーを待っています",
     ContentKR = "다른 플레이어 대기 중",
@@ -167360,7 +167370,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Ironball Pitcher",
     ContentES = "Lanzador de bola de hierro",
     ContentJP = "アイアンスロー",
-    ContentKR = "포환 투척자",
+    ContentKR = "포환 투척자 ",
     ContentTC = "擲鐵球者",
     TextMapContent = "掷铁球者",
     TextMapId = "UI_TempleEvent_Ball"
@@ -167478,7 +167488,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Behind Cover ",
     ContentES = "Disparo con cobertura",
     ContentJP = "掩体射撃",
-    ContentKR = "엄폐물 사격",
+    ContentKR = "엄폐물 사격 ",
     ContentTC = "掩體射擊",
     TextMapContent = "掩体射击",
     TextMapId = "UI_TempleEvent_ShiftShot"
@@ -167487,7 +167497,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Marksmanship Trial ",
     ContentES = "Prueba de Tiro",
     ContentJP = "射撃試練",
-    ContentKR = "사격 시련",
+    ContentKR = "사격 시련 ",
     ContentTC = "打靶試煉",
     TextMapContent = "打靶试炼",
     TextMapId = "UI_TempleEvent_Shot"
@@ -171296,11 +171306,11 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_WeaponSkin_Des_3010402"
         },
   UI_WeaponSkin_Des_3010403 = {
-    ContentEN = "A lance of unusual design, said to embody a father's love: firm, instructive, and just a little traumatising.",
-    ContentJP = "とある父の叱咤が長槍となった。愛という名の鞭だ――いや、つまりは、父の愛は重いってことだ。",
-    ContentKR = "다소 특이한 장창. 아버지의 채찍... 아니, 아버지의 사랑을 상징한다.",
-    ContentTC = "一柄頗為特殊的長槍，象徵著父親的鞭策——呃，我的意思是說，父愛如山。",
-    TextMapContent = "一柄颇为特殊的长枪，象征着父亲的鞭策——呃，我的意思是说，父爱如山。",
+    ContentEN = "A polearm of unusual design, said to embody a father's love: firm, instructive, and just a little traumatising.",
+    ContentJP = "とある父の叱咤が長柄武器となった。愛という名の鞭だ――いや、つまりは、父の愛は重いってことだ。",
+    ContentKR = "다소 특이한 장병기. 아버지의 채찍... 아니, 아버지의 사랑을 상징한다.",
+    ContentTC = "一柄頗為特殊的長柄武器，象徵著父親的鞭策——呃，我的意思是說，父愛如山。",
+    TextMapContent = "一柄颇为特殊的长柄武器，象征着父亲的鞭策——呃，我的意思是说，父爱如山。",
     TextMapId = "UI_WeaponSkin_Des_3010403"
         },
   UI_WeaponSkin_Des_3010404 = {
@@ -171523,10 +171533,10 @@ return ReadOnly("TextMap_I18n", {
     TextMapId = "UI_WeaponSkin_Name_3010402"
         },
   UI_WeaponSkin_Name_3010403 = {
-    ContentEN = "Tough Love – Lance",
-    ContentJP = "父祖の遺志・長槍",
-    ContentKR = "선조의 그늘·장창",
-    ContentTC = "父輩餘蔭·長槍",
+    ContentEN = "Tough Love – Polearm",
+    ContentJP = "父祖の遺志・長柄",
+    ContentKR = "선조의 그늘·장병기",
+    ContentTC = "父輩餘蔭·長柄",
     TextMapContent = "父辈余荫·长枪",
     TextMapId = "UI_WeaponSkin_Name_3010403"
         },

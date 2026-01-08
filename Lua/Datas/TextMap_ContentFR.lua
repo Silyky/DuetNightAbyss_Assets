@@ -1284,6 +1284,10 @@ local Data = {
           ContentFR = "Lorsqu’un ennemi de menace majeure tombe sous #1 de PV, il devient invincible pendant #2 s et appelle des renforts. Chaque ennemi vaincu confère à tous les alliés un bonus de #3 aux dégâts infligés, cumulable jusqu’à #4 fois. L’invincibilité prend fin prématurément après la défaite d’un certain nombre d’ennemis.",
           TextMapId = "Buff_Content_100"
         },
+        Buff_Content_11222 = {
+          ContentFR = "Der verursachte SCH aller Verbündeten wird um #1 verringert. Der KRIT-Rate wird um #2 erhöht.",
+          TextMapId = "Buff_Content_11222"
+        },
         Buff_Content_201 = {
           ContentFR = "Les ennemis subissent #1 de dégâts en moins. Chaque fois qu’ils sont touchés par une compétence ou une arme, cette réduction diminue de #2.",
           TextMapId = "Buff_Content_201"
@@ -26261,7 +26265,7 @@ local Data = {
         Tag_Hp = {
           ContentFR = "PV",
           TextMapId = "Tag_Hp",
-        }
+        },
         Tag_MagazineCapacity = {
           ContentFR = "Capacité du chargeur",
           TextMapId = "Tag_MagazineCapacity"

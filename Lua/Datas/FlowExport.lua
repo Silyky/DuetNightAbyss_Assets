@@ -1549,7 +1549,9 @@ return ReadOnly("FlowExport", {
     },
     GUID = "5CFC752649CB2D466D108B9A2E657497",
     NodeParams = {
-      DialogueIds = {120223281, 120223282},
+      DialogueIds = {
+        120223281, 120223282
+      },
       OptionOutput = {
         [120223281] = "Option_281",
         [120223282] = "Option_282"
@@ -2977,7 +2979,7 @@ return ReadOnly("FlowExport", {
   },
   B896D077462877497B13D3B264D72A41 = {
     Connect = {
-      End = "5CFC752649CB2D466D108B9A2E657497"
+      End = "EF467BD8411DD2E1D47E4C9D8ED36E2B"
     },
     GUID = "B896D077462877497B13D3B264D72A41",
     NodeParams = {
@@ -3581,6 +3583,28 @@ return ReadOnly("FlowExport", {
     GUID = "EE6B7D33429EB047C61F61AC6DC1E4F1",
     NodeType = "FlowNode_TalkFinish",
     TalkId = 511500
+  },
+  EF467BD8411DD2E1D47E4C9D8ED36E2B = {
+    Connect = {
+      Option_281 = "56B7C1C045101E31A2BBAD84D43CAF84",
+      Option_282 = "2F65012C448211F784D8139F997774CF"
+    },
+    GUID = "EF467BD8411DD2E1D47E4C9D8ED36E2B",
+    NodeParams = {
+      DialogueIds = {
+        120223281, 120223282
+      },
+      OptionFailOutPut = {
+        [120223281] = "Fail_281",
+        [120223282] = "Fail_282"
+      },
+      OptionOutput = {
+        [120223281] = "Option_281",
+        [120223282] = "Option_282"
+      }
+    },
+    NodeType = "FlowNode_ImpressingOption",
+    TalkId = 120223
   },
   EF861C7F4E37EA204C974F80D07073A4 = {
     Connect = {

@@ -1465,11 +1465,11 @@ local Data = {
           TextMapId = "Buff_Content_11221"
         },
         Buff_Content_11222 = {
-          ContentTC = "友方單位造成的技能傷害降低#1，暴擊率提高#2。",
+          ContentTC = "友方單位造成的傷害降低#1，暴擊率提高#2。",
           TextMapId = "Buff_Content_11222"
         },
         Buff_Content_201 = {
-          ContentTC = "敵方單位受到的傷害降低#1，每次受到技能或武器傷害時，傷害降低幅度降低#2。",
+          ContentTC = "敵方單位受到的傷害降低#1，每次受到傷害時，傷害降低幅度降低#2。",
           TextMapId = "Buff_Content_201"
         },
         Buff_Content_202 = {
@@ -45146,11 +45146,11 @@ local Data = {
           TextMapId = "TERMEXP_Rou_10102_VeiledMoon"
         },
         TERMEXP_Rou_10103_Emission = {
-          ContentTC = "对周围<Highlight>6</>米范围内的敌人造成<Highlight>810%</>角色攻击的技能伤害。",
+          ContentTC = "對周圍<Highlight>6</>米範圍內的敵人造成<Highlight>810%</>角色攻擊的技能傷害。",
           TextMapId = "TERMEXP_Rou_10103_Emission"
         },
         TERMEXP_Rou_10103_Radiance = {
-          ContentTC = "在此状态中技能伤害提高<Highlight>50%</>。",
+          ContentTC = "在此狀態中技能傷害提高<Highlight>50%</>。",
           TextMapId = "TERMEXP_Rou_10103_Radiance"
         },
         TERMEXP_Rou_10104_GlowingTree = {
@@ -46340,6 +46340,10 @@ local Data = {
         TheaterOnline_Game_Sign_Success = {
           ContentTC = "參加成功",
           TextMapId = "TheaterOnline_Game_Sign_Success"
+        },
+        TheaterOnline_Game_Sign_Waiting = {
+          ContentTC = "等待當前舞會結束",
+          TextMapId = "TheaterOnline_Game_Sign_Waiting"
         },
         TheaterOnline_Game_Start01 = {
           ContentTC = "皎誼舞會活動開始",
@@ -50598,7 +50602,7 @@ local Data = {
           TextMapId = "UI_Achievement_Des_4011"
         },
         UI_Achievement_Des_40206 = {
-          ContentTC = "累計<highlight>#1</>把武器達到Lv.60",
+          ContentTC = "累計<highlight>#1</>把不同武器達到Lv.60",
           TextMapId = "UI_Achievement_Des_40206"
         },
         UI_Achievement_Des_4021 = {
@@ -50606,11 +50610,11 @@ local Data = {
           TextMapId = "UI_Achievement_Des_4021"
         },
         UI_Achievement_Des_40302 = {
-          ContentTC = "累計<highlight>#1</>把武器突破6階",
+          ContentTC = "累計<highlight>#1</>把不同武器突破2階",
           TextMapId = "UI_Achievement_Des_40302"
         },
         UI_Achievement_Des_40306 = {
-          ContentTC = "累計<highlight>#1</>把武器突破1階",
+          ContentTC = "累計<highlight>#1</>把不同武器突破6階",
           TextMapId = "UI_Achievement_Des_40306"
         },
         UI_Achievement_Des_4031 = {
@@ -75602,7 +75606,7 @@ local Data = {
           TextMapId = "UI_WeaponSkin_Des_3010402"
         },
         UI_WeaponSkin_Des_3010403 = {
-          ContentTC = "一柄頗為特殊的長槍，象徵著父親的鞭策——呃，我的意思是說，父愛如山。",
+          ContentTC = "一柄頗為特殊的長柄武器，象徵著父親的鞭策——呃，我的意思是說，父愛如山。",
           TextMapId = "UI_WeaponSkin_Des_3010403"
         },
         UI_WeaponSkin_Des_3010404 = {
@@ -75714,7 +75718,7 @@ local Data = {
           TextMapId = "UI_WeaponSkin_Name_3010402"
         },
         UI_WeaponSkin_Name_3010403 = {
-          ContentTC = "父輩餘蔭·長槍",
+          ContentTC = "父輩餘蔭·長柄",
           TextMapId = "UI_WeaponSkin_Name_3010403"
         },
         UI_WeaponSkin_Name_3010404 = {

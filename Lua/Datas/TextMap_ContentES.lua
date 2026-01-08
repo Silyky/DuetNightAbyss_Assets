@@ -1337,7 +1337,7 @@ local Data = {
           TextMapId = "Buff_Content_11221"
         },
         Buff_Content_11222 = {
-          ContentES = "Los aliados pierden #1 de Daño de Habilidad y ganan #2 de Daño CRIT.",
+          ContentES = "Los aliados pierden #1 de Daño y ganan #2 de Prob. CRIT.",
           TextMapId = "Buff_Content_11222"
         },
         Buff_Content_201 = {

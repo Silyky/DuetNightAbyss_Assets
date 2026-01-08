@@ -1,5 +1,9 @@
 local Data = {
         },
+        Buff_Content_11222 = {
+          ContentDE = "Les alliés infligent #1 de dégâts en moins, mais leur Taux CRIT augmente de #2.",
+          TextMapId = "Buff_Content_11222"
+        },
         CVName1001 = {
           ContentDE = "贺文潇",
           TextMapId = "CVName1001",

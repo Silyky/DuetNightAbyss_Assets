@@ -145,7 +145,7 @@ local Data = {
           TextMapId = "ATTR_DESC_SkillEfficiency"
         },
         ATTR_DESC_SkillIntensity = {
-          ContentEN = "Affects Skill Damage and the effect magnitude of buffs/debuffs.",
+          ContentEN = "Affects Skill DMG and the effect magnitude of buffs/debuffs.",
           TextMapId = "ATTR_DESC_SkillIntensity"
         },
         ATTR_DESC_SkillRange = {
@@ -821,7 +821,7 @@ local Data = {
           TextMapId = "Attr_SkillEfficiency_Name"
         },
         Attr_SkillIntensity_Name = {
-          ContentEN = "Skill DMG",
+          ContentEN = "Skill Intensity",
           TextMapId = "Attr_SkillIntensity_Name"
         },
         Attr_SkillRange_Name = {
@@ -1453,7 +1453,7 @@ local Data = {
           TextMapId = "Buff_Content_11122"
         },
         Buff_Content_11211 = {
-          ContentEN = "When an ally's HP is above #1, their Skill Damage is increased by #2, and they become immune to Hitstun.",
+          ContentEN = "When an ally's HP is above #1, their Skill Intensity is increased by #2, and they become immune to Hitstun.",
           TextMapId = "Buff_Content_11211"
         },
         Buff_Content_11212 = {
@@ -1465,11 +1465,11 @@ local Data = {
           TextMapId = "Buff_Content_11221"
         },
         Buff_Content_11222 = {
-          ContentEN = "Allies lose #1 Skill DMG and gain #2 CRIT Chance.",
+          ContentEN = "Allies lose #1 DMG and gain #2 CRIT Chance.",
           TextMapId = "Buff_Content_11222"
         },
         Buff_Content_201 = {
-          ContentEN = "Enemy units take #1 less damage, but each time they take Skill Damage or Weapon Damage, the damage reduction decreases by #2.",
+          ContentEN = "Enemy units take #1 less damage, but each time they take damage, the damage reduction decreases by #2.",
           TextMapId = "Buff_Content_201"
         },
         Buff_Content_202 = {
@@ -1501,7 +1501,7 @@ local Data = {
           TextMapId = "Buff_Content_30"
         },
         Buff_Content_301 = {
-          ContentEN = "Every #1 instances of damage dealt by any ally grant 1 stack of #2 Skill Damage Increase, lasting #3 s and stacking up to #4 times.",
+          ContentEN = "Every #1 instances of damage dealt by any ally grant 1 stack of #2 Skill Intensity Increase, lasting #3 s and stacking up to #4 times.",
           TextMapId = "Buff_Content_301"
         },
         Buff_Content_302 = {
@@ -1513,7 +1513,7 @@ local Data = {
           TextMapId = "Buff_Content_303"
         },
         Buff_Content_304 = {
-          ContentEN = "For every #1 Sanity spent by all allies in total, grants #2 Skill Damage Increase for #3s, stacking up to #4 times. At max stacks, grants immunity to Hitstun.",
+          ContentEN = "For every #1 Sanity spent by all allies in total, grants #2 Skill Intensity Increase for #3s, stacking up to #4 times. At max stacks, grants immunity to Hitstun.",
           TextMapId = "Buff_Content_304"
         },
         Buff_Content_401 = {
@@ -1529,7 +1529,7 @@ local Data = {
           TextMapId = "Buff_Content_511"
         },
         Buff_Content_512 = {
-          ContentEN = "Allies lose #1 CRIT Damage. Skill damage has a #2 chance to trigger an elemental bonus effect.",
+          ContentEN = "Allies lose #1 CRIT DMG. Skill DMG has a #2 chance to trigger an elemental bonus effect.",
           TextMapId = "Buff_Content_512"
         },
         Buff_Content_905 = {
@@ -1557,7 +1557,7 @@ local Data = {
           TextMapId = "Buff_Title_100"
         },
         Buff_Title_11111 = {
-          ContentEN = "Defence Variation: Brotherhood",
+          ContentEN = "Bulwark Cadence: Brotherhood",
           TextMapId = "Buff_Title_11111"
         },
         Buff_Title_11113 = {
@@ -1597,23 +1597,23 @@ local Data = {
           TextMapId = "Buff_Title_202"
         },
         Buff_Title_203 = {
-          ContentEN = "Defence Variation: Sniper's Honour",
+          ContentEN = "Bulwark Cadence: Sniper's Honour",
           TextMapId = "Buff_Title_203"
         },
         Buff_Title_204 = {
-          ContentEN = "Defence Variation: Braveheart",
+          ContentEN = "Bulwark Cadence: Braveheart",
           TextMapId = "Buff_Title_204"
         },
         Buff_Title_205 = {
-          ContentEN = "Defence Variation: Swordsman's Honour",
+          ContentEN = "Bulwark Cadence: Swordsman's Honour",
           TextMapId = "Buff_Title_205"
         },
         Buff_Title_206 = {
-          ContentEN = "Defence Variation: Endless Trial",
+          ContentEN = "Bulwark Cadence: Endless Trial",
           TextMapId = "Buff_Title_206"
         },
         Buff_Title_211 = {
-          ContentEN = "Shield Variation: Gloom of the Undying",
+          ContentEN = "Aegis Cadence: Gloom of the Undying",
           TextMapId = "Buff_Title_211"
         },
         Buff_Title_30 = {
@@ -1641,7 +1641,7 @@ local Data = {
           TextMapId = "Buff_Title_401"
         },
         Buff_Title_402 = {
-          ContentEN = "Defence Variation: Uncrowned Arena",
+          ContentEN = "Bulwark Cadence: Uncrowned Arena",
           TextMapId = "Buff_Title_402"
         },
         Buff_Title_511 = {
@@ -1653,7 +1653,7 @@ local Data = {
           TextMapId = "Buff_Title_512"
         },
         Buff_Title_905 = {
-          ContentEN = "Defence Variation: Thoroughly Tempered",
+          ContentEN = "Bulwark Cadence: Thoroughly Tempered",
           TextMapId = "Buff_Title_905"
         },
         Buff_Title_920 = {
@@ -6774,7 +6774,7 @@ local Data = {
           TextMapId = "Description_120102_2"
         },
         Description_120102_3 = {
-          ContentEN = "Collet your travel funds",
+          ContentEN = "Collect your travel funds",
           TextMapId = "Description_120102_3"
         },
         Description_120102_3_1 = {
@@ -11602,7 +11602,7 @@ local Data = {
           TextMapId = "GRADEUP_1503_02"
         },
         GRADEUP_1503_03 = {
-          ContentEN = "[Wanderings of Youth] Level +2; [Life's A Fleeting, Shifting Tide] Level +1.",
+          ContentEN = "[Drift of Youth] Level +2; [Life's A Fleeting, Shifting Tide] Level +1.",
           TextMapId = "GRADEUP_1503_03"
         },
         GRADEUP_1503_04 = {
@@ -11678,7 +11678,7 @@ local Data = {
           TextMapId = "GRADEUP_1801_03"
         },
         GRADEUP_1801_04 = {
-          ContentEN = "Each stack of [Taleweaver Quill] increases Fina's Skill Damage by #2 and Skill Range by #3.",
+          ContentEN = "Each stack of [Taleweaver Quill] increases Fina's Skill Intensity by #2 and Skill Range by #3.",
           TextMapId = "GRADEUP_1801_04"
         },
         GRADEUP_1801_05 = {
@@ -11738,7 +11738,7 @@ local Data = {
           TextMapId = "GRADEUP_2301_06"
         },
         GRADEUP_2401_01 = {
-          ContentEN = "When Fushu or her nearby teammates are applied with [Nine-Needle Therapy], they ignore the target's DEF by #1 when dealing Skill Damage.",
+          ContentEN = "When Fushu or her nearby teammates are applied with [Nine-Needle Therapy], they ignore the target's DEF by #1 when dealing Skill DMG.",
           TextMapId = "GRADEUP_2401_01"
         },
         GRADEUP_2401_02 = {
@@ -11878,7 +11878,7 @@ local Data = {
           TextMapId = "GRADEUP_3202_05"
         },
         GRADEUP_3202_06 = {
-          ContentEN = "All weapon and skill damage (excluding [Spinblades] and [Laceration]) detonates 2 stacks of [Laceration].",
+          ContentEN = "All Weapon and Skill DMG (excluding [Spinblades] and [Laceration]) detonates 2 stacks of [Laceration].",
           TextMapId = "GRADEUP_3202_06"
         },
         GRADEUP_3301_01 = {
@@ -11966,7 +11966,7 @@ local Data = {
           TextMapId = "GRADEUP_4201_03"
         },
         GRADEUP_4201_04 = {
-          ContentEN = "Plunging Attack deals additional damage equal to #4 of Yuming's Skill Damage, with a maximum of #5.",
+          ContentEN = "Plunging Attack deals additional damage equal to #4 of Yuming's Skill Intensity, with a maximum of #5.",
           TextMapId = "GRADEUP_4201_04"
         },
         GRADEUP_4201_05 = {
@@ -12046,7 +12046,7 @@ local Data = {
           TextMapId = "GRADEUP_5101_05"
         },
         GRADEUP_5101_06 = {
-          ContentEN = "After picking up [Activated Sal Volatile], [Tranquilizer Dewdrop], or [Ammo Supply Chest], Truffle gains 1 stack that increases her Skill Damage by #3 for #4s, up to #6 stacks.",
+          ContentEN = "After picking up [Activated Sal Volatile], [Tranquilizer Dewdrop], or [Ammo Supply Chest], Truffle gains 1 stack that increases her Skill Intensity by #3 for #4s, up to #6 stacks.",
           TextMapId = "GRADEUP_5101_06"
         },
         GRADEUP_5102_01 = {
@@ -13150,7 +13150,7 @@ local Data = {
           TextMapId = "HuaXu_Event_Des_10200117"
         },
         HuaXu_Event_Des_10200118 = {
-          ContentEN = "Collect treasure maps in Mistwharf",
+          ContentEN = "Collect Advenspheres in Mistwharf",
           TextMapId = "HuaXu_Event_Des_10200118"
         },
         HuaXu_Event_Des_10200119 = {
@@ -15298,7 +15298,7 @@ local Data = {
           TextMapId = "MOD_DESC_1311"
         },
         MOD_DESC_1312 = {
-          ContentEN = "Increases Skill Damage by #1 for #2s when battle starts during commissions or Nocturnal Echoes.",
+          ContentEN = "Increases Skill Intensity by #1 for #2s when battle starts during commissions or Nocturnal Echoes.",
           TextMapId = "MOD_DESC_1312"
         },
         MOD_DESC_1313 = {
@@ -15326,7 +15326,7 @@ local Data = {
           TextMapId = "MOD_DESC_1410"
         },
         MOD_DESC_1420 = {
-          ContentEN = "Skill Damage -#1. When attacking with a weapon, deals #2 additional damage of the same element type.",
+          ContentEN = "Skill DMG -#1. When attacking with a weapon, deals #2 additional damage of the same element type.",
           TextMapId = "MOD_DESC_1420"
         },
         MOD_DESC_1430 = {
@@ -15470,11 +15470,11 @@ local Data = {
           TextMapId = "MOD_DESC_1931"
         },
         MOD_DESC_1941 = {
-          ContentEN = "When an Electro character uses skills, they gain 1 stack that increases Skill Damage by #2 for #1s, up to #3 stacks.",
+          ContentEN = "When an Electro character uses skills, they gain 1 stack that increases Skill DMG by #2 for #1s, up to #3 stacks.",
           TextMapId = "MOD_DESC_1941"
         },
         MOD_DESC_1951 = {
-          ContentEN = "When an Anemo character uses Combat Skills, it gains a #2 Skill Damage Increase for #1s.",
+          ContentEN = "When an Anemo character uses Combat Skills, it gains a #2 Skill Intensity Increase for #1s.",
           TextMapId = "MOD_DESC_1951"
         },
         MOD_DESC_1952 = {
@@ -15586,7 +15586,7 @@ local Data = {
           TextMapId = "MOD_DESC_6121"
         },
         MOD_DESC_6123 = {
-          ContentEN = "Grants +#2 Skill Damage to self and allies when Skill Efficiency is ≥ #1.",
+          ContentEN = "Grants +#2 Skill Intensity to self and allies when Skill Efficiency is ≥ #1.",
           TextMapId = "MOD_DESC_6123"
         },
         MOD_DESC_6131 = {
@@ -15594,11 +15594,11 @@ local Data = {
           TextMapId = "MOD_DESC_6131"
         },
         MOD_DESC_6133 = {
-          ContentEN = "Grants +#2 Skill Damage to self and allies when Skill Efficiency is ≥ #1.",
+          ContentEN = "Grants +#2 Skill Intensity to self and allies when Skill Efficiency is ≥ #1.",
           TextMapId = "MOD_DESC_6133"
         },
         MOD_DESC_6141 = {
-          ContentEN = "Grants +#2 Skill Damage when Skill Efficiency is ≥ #1.",
+          ContentEN = "Grants +#2 Skill Intensity when Skill Efficiency is ≥ #1.",
           TextMapId = "MOD_DESC_6141"
         },
         MOD_DESC_6143 = {
@@ -15606,7 +15606,7 @@ local Data = {
           TextMapId = "MOD_DESC_6143"
         },
         MOD_DESC_6151 = {
-          ContentEN = "Grants +#2 Skill Damage when Skill Efficiency is ≥ #1.",
+          ContentEN = "Grants +#2 Skill Intensity when Skill Efficiency is ≥ #1.",
           TextMapId = "MOD_DESC_6151"
         },
         MOD_DESC_6153 = {
@@ -23994,7 +23994,7 @@ local Data = {
           TextMapId = "PET_404_PASSIVE"
         },
         PET_404_SKILL = {
-          ContentEN = "Grants #2 Ultra Shield points to self and allies, and randomly applies one of the following effects for #1s: +#3 ATK, +#4 DEF, +#5 Skill Damage, or +#6 Skill Duration.",
+          ContentEN = "Grants #2 Ultra Shield points to self and allies, and randomly applies one of the following effects for #1s: +#3 ATK, +#4 DEF, +#5 Skill Intensity, or +#6 Skill Duration.",
           TextMapId = "PET_404_SKILL"
         },
         PET_405_PASSIVE = {
@@ -24082,7 +24082,7 @@ local Data = {
           TextMapId = "PET_416_PASSIVE"
         },
         PET_416_SKILL = {
-          ContentEN = "Deals Lumino Damage equal to #1 of the main character's ATK to enemies within range and increases the Skill Damage taken by them by #2 for #3s.",
+          ContentEN = "Deals Lumino Damage equal to #1 of the main character's ATK to enemies within range and increases the Skill DMG taken by them by #2 for #3s.",
           TextMapId = "PET_416_SKILL"
         },
         PET_421_PASSIVE = {
@@ -31550,11 +31550,11 @@ local Data = {
           TextMapId = "RESOURCE_DESC_122"
         },
         RESOURCE_DESC_123 = {
-          ContentEN = "A neatly bound Hardcover Edition compiling once-scattered stanzas.",
+          ContentEN = "A neatly bound Hardcover Edition compiling once-scattered verses.",
           TextMapId = "RESOURCE_DESC_123"
         },
         RESOURCE_DESC_124 = {
-          ContentEN = "A finely bound Collector's Edition compiling once-scattered stanzas.",
+          ContentEN = "A finely bound Collector's Edition compiling once-scattered verses.",
           TextMapId = "RESOURCE_DESC_124"
         },
         RESOURCE_DESC_125 = {
@@ -34166,7 +34166,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_20019"
         },
         RESOURCE_NAME_2002 = {
-          ContentEN = "Stanza",
+          ContentEN = "Verse",
           TextMapId = "RESOURCE_NAME_2002"
         },
         RESOURCE_NAME_20020 = {
@@ -34226,7 +34226,7 @@ local Data = {
           TextMapId = "RESOURCE_NAME_20032"
         },
         RESOURCE_NAME_2004 = {
-          ContentEN = "Stanza",
+          ContentEN = "Verse",
           TextMapId = "RESOURCE_NAME_2004"
         },
         RESOURCE_NAME_2007 = {
@@ -37034,7 +37034,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_311"
         },
         RLBlessing_Desc_312 = {
-          ContentEN = "Increases Skill Damage by <Highlight>#1</>.",
+          ContentEN = "Increases Skill Intensity by <Highlight>#1</>.",
           TextMapId = "RLBlessing_Desc_312"
         },
         RLBlessing_Desc_313 = {
@@ -37042,7 +37042,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_313"
         },
         RLBlessing_Desc_314 = {
-          ContentEN = "The Skill Damage Increase granted by [Radiance] is raised to <Highlight>$1</>.",
+          ContentEN = "The Skill DMG Increase granted by [Radiance] is raised to <Highlight>$1</>.",
           TextMapId = "RLBlessing_Desc_314"
         },
         RLBlessing_Desc_315 = {
@@ -37054,7 +37054,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_401"
         },
         RLBlessing_Desc_402 = {
-          ContentEN = "Summoning grants +<Highlight>$1</> Skill Damage for <Highlight>$2</>s. Stacks up to <Highlight>$3</> times.",
+          ContentEN = "Summoning grants +<Highlight>$1</> Skill Intensity for <Highlight>$2</>s. Stacks up to <Highlight>$3</> times.",
           TextMapId = "RLBlessing_Desc_402"
         },
         RLBlessing_Desc_403 = {
@@ -37254,7 +37254,7 @@ local Data = {
           TextMapId = "RLBlessing_Desc_706"
         },
         RLBlessing_Desc_707 = {
-          ContentEN = "Increases Skill Damage by <Highlight>$2</> when HP is below <Highlight>100%</> and by <Highlight>$1</> when HP is <Highlight>100%</>.",
+          ContentEN = "Increases Skill Intensity by <Highlight>$2</> when HP is below <Highlight>100%</> and by <Highlight>$1</> when HP is <Highlight>100%</>.",
           TextMapId = "RLBlessing_Desc_707"
         },
         RLBlessing_Desc_708 = {
@@ -37878,7 +37878,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_311"
         },
         RLBlessing_SimpleDesc_312 = {
-          ContentEN = "Increases Skill Damage.",
+          ContentEN = "Increases Skill Intensity.",
           TextMapId = "RLBlessing_SimpleDesc_312"
         },
         RLBlessing_SimpleDesc_313 = {
@@ -37898,7 +37898,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_401"
         },
         RLBlessing_SimpleDesc_402 = {
-          ContentEN = "Grants Skill Damage Increase when summoning.",
+          ContentEN = "Grants Skill Intensity Increase when summoning.",
           TextMapId = "RLBlessing_SimpleDesc_402"
         },
         RLBlessing_SimpleDesc_403 = {
@@ -38098,7 +38098,7 @@ local Data = {
           TextMapId = "RLBlessing_SimpleDesc_706"
         },
         RLBlessing_SimpleDesc_707 = {
-          ContentEN = "Increases Skill Damage. The effect intensifies at lower HP.",
+          ContentEN = "Increases Skill Intensity. The effect intensifies at lower HP.",
           TextMapId = "RLBlessing_SimpleDesc_707"
         },
         RLBlessing_SimpleDesc_708 = {
@@ -38586,7 +38586,7 @@ local Data = {
           TextMapId = "RLGroup_InActive"
         },
         RLTalent_Desc_101 = {
-          ContentEN = "+<Highlight>#1</> Skill Damage",
+          ContentEN = "+<Highlight>#1</> Skill Intensity",
           TextMapId = "RLTalent_Desc_101"
         },
         RLTalent_Desc_102 = {
@@ -38610,7 +38610,7 @@ local Data = {
           TextMapId = "RLTalent_Desc_106"
         },
         RLTalent_Desc_107 = {
-          ContentEN = "+<Highlight>#1</> Skill Damage",
+          ContentEN = "+<Highlight>#1</> Skill Intensity",
           TextMapId = "RLTalent_Desc_107"
         },
         RLTalent_Desc_108 = {
@@ -38726,7 +38726,7 @@ local Data = {
           TextMapId = "RLTalent_Desc_409"
         },
         RLTalent_Name_101 = {
-          ContentEN = "Skill Damage Boost",
+          ContentEN = "Skill Intensity Boost",
           TextMapId = "RLTalent_Name_101"
         },
         RLTalent_Name_102 = {
@@ -38750,7 +38750,7 @@ local Data = {
           TextMapId = "RLTalent_Name_106"
         },
         RLTalent_Name_107 = {
-          ContentEN = "Skill Damage Boost+",
+          ContentEN = "Skill Intensity Boost+",
           TextMapId = "RLTalent_Name_107"
         },
         RLTalent_Name_108 = {
@@ -39718,7 +39718,7 @@ local Data = {
           TextMapId = "RLTreasure_SimpleDesc_10109"
         },
         RLTreasure_SimpleDesc_10110 = {
-          ContentEN = "Increases Melee Weapon Damage and decreases Skill Damage.",
+          ContentEN = "Increases Melee Weapon DMG and decreases Skill DMG.",
           TextMapId = "RLTreasure_SimpleDesc_10110"
         },
         RLTreasure_SimpleDesc_10111 = {
@@ -40478,7 +40478,7 @@ local Data = {
           TextMapId = "RaidDungeon_Time_Remain"
         },
         Raid_Buff_11 = {
-          ContentEN = "When an Anemo character's Skill Damage is above 100%, gain #2 All-Element Penetration for every #1 over the threshold, up to #3.",
+          ContentEN = "When an Anemo character's Skill Intensity is above 100%, gain #2 All-Element Penetration for every #1 over the threshold, up to #3.",
           TextMapId = "Raid_Buff_11"
         },
         Ranged = {
@@ -40986,7 +40986,7 @@ local Data = {
           TextMapId = "SKILL_10105_DESC"
         },
         SKILL_10201_DESC = {
-          ContentEN = "Skill Range +<H>#1</>. When performing Normal Attacks with this weapon, grants a <H>#2</> ATK Speed Increase for <H>#3</>s (up to <H>#4</> stacks). Effect is removed when switching weapons.",
+          ContentEN = "Skill Range +<H>#1</>. Each hit of Normal Attack with this weapon grants a <H>#2</> ATK Speed Increase for <H>#3</>s (up to <H>#4</> stacks). Effect is removed when switching weapons.",
           TextMapId = "SKILL_10201_DESC"
         },
         SKILL_10202_DESC = {
@@ -40994,15 +40994,15 @@ local Data = {
           TextMapId = "SKILL_10202_DESC"
         },
         SKILL_10203_DESC = {
-          ContentEN = "Skill Damage +<H>#1</>. When an Electro character performs a Plunging Attack with this weapon, grants +<H>#2</> Skill Damage for <H>#3</>s (up to <H>3</> stacks).",
+          ContentEN = "Skill Intensity +<H>#1</>. When an Electro character performs a Plunging Attack with this weapon, grants +<H>#2</> Skill DMG for <H>#3</>s (up to <H>3</> stacks).",
           TextMapId = "SKILL_10203_DESC"
         },
         SKILL_10204_DESC = {
-          ContentEN = "Resolve +<H>#1</>. After an Anemo character uses their Ultimate Skill, grants [Thousand Winds' Blessing]: increases Resolve by <H>#2</> and ATK Speed by <H>#3</> for <H>#4</>s. Each instance of Skill Damage or Ranged Weapon Damage extends the duration by <H>#5</>s.",
+          ContentEN = "Resolve +<H>#1</>. After an Anemo character uses their Ultimate Skill, grants [Thousand Winds' Blessing]: increases Resolve by <H>#2</> and ATK Speed by <H>#3</> for <H>#4</>s. Each instance of Skill DMG or Ranged Weapon DMG extends the duration by <H>#5</>s.",
           TextMapId = "SKILL_10204_DESC"
         },
         SKILL_10206_DESC = {
-          ContentEN = "Skill Damage +<H>#1</>.",
+          ContentEN = "Skill Intensity +<H>#1</>.",
           TextMapId = "SKILL_10206_DESC"
         },
         SKILL_10208_DESC = {
@@ -41022,7 +41022,7 @@ local Data = {
           TextMapId = "SKILL_10303_DESC"
         },
         SKILL_10304_DESC = {
-          ContentEN = "Morale +<H>#1</>. When an Electro character uses their Ultimate Skill, grants +<H>#2</> Skill Damage for <H>#3</>s (up to <H>#4</> stacks).",
+          ContentEN = "Morale +<H>#1</>. When an Electro character uses their Ultimate Skill, grants +<H>#2</> Skill Intensity for <H>#3</>s (up to <H>#4</> stacks).",
           TextMapId = "SKILL_10304_DESC"
         },
         SKILL_10401_DESC = {
@@ -41042,7 +41042,7 @@ local Data = {
           TextMapId = "SKILL_10501_DESC"
         },
         SKILL_10502_DESC = {
-          ContentEN = "Skill Damage +<H>#1</>. When a Hydro character deals CRIT Damage with this weapon, increases Skill DMG for allies by <H>#2</> for <H>#3</>s.",
+          ContentEN = "Skill Intensity +<H>#1</>. When a Hydro character deals CRIT DMG with this weapon, increases Skill DMG for allies by <H>#2</> for <H>#3</>s.",
           TextMapId = "SKILL_10502_DESC"
         },
         SKILL_10503_DESC = {
@@ -41194,7 +41194,7 @@ local Data = {
           TextMapId = "SKILL_150104_NAME"
         },
         SKILL_150202_DESC = {
-          ContentEN = "Enters [Funeral Rite] status. Upon entry, if the user's Skill Range exceeds 100%, the excess is converted into Skill Damage at a fixed ratio, and Skill Range is reduced to 100% for the duration.\nWhile under [Funeral Rite], gains Trigger Probability Increase for ranged weapons; [Lunar Hunt] and [Solar Eclipse] cost no Sanity; [Lunar Hunt] pulls enemies toward its centre; [Solar Eclipse] deals increased damage.\n[Funeral Rite] ends after a set duration or after casting a total of 6 [Lunar Hunt] and/or [Solar Eclipse].",
+          ContentEN = "Enters [Funeral Rite] status. Upon entry, if the user's Skill Range exceeds 100%, the excess is converted into Skill Intensity at a fixed ratio, and Skill Range is reduced to 100% for the duration.\nWhile under [Funeral Rite], gains Trigger Probability Increase for ranged weapons; [Lunar Hunt] and [Solar Eclipse] cost no Sanity; [Lunar Hunt] pulls enemies toward its centre; [Solar Eclipse] deals increased damage.\n[Funeral Rite] ends after a set duration or after casting a total of 6 [Lunar Hunt] and/or [Solar Eclipse].",
           TextMapId = "SKILL_150202_DESC"
         },
         SKILL_150202_NAME = {
@@ -41246,7 +41246,7 @@ local Data = {
           TextMapId = "SKILL_150303_DESC"
         },
         SKILL_150303_NAME = {
-          ContentEN = "Life Drifts, Tides Rearrange",
+          ContentEN = "Life's A Fleeting, Shifting Tide",
           TextMapId = "SKILL_150303_NAME"
         },
         SKILL_150304_DESC = {
@@ -41374,7 +41374,7 @@ local Data = {
           TextMapId = "SKILL_20103_DESC"
         },
         SKILL_20201_DESC = {
-          ContentEN = "Skill Damage +<H>#1</>.",
+          ContentEN = "Skill Intensity +<H>#1</>.",
           TextMapId = "SKILL_20201_DESC"
         },
         SKILL_20203_DESC = {
@@ -41390,7 +41390,7 @@ local Data = {
           TextMapId = "SKILL_20301_DESC"
         },
         SKILL_20302_DESC = {
-          ContentEN = "Multishot +<H>#1</>. When a Pyro character performs a Dodge, grants 1 stack that increases Skill Damage and Ranged Weapon Damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
+          ContentEN = "Multishot +<H>#1</>. When a Pyro character performs a Dodge, grants 1 stack that increases Skill DMG and Ranged Weapon DMG by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
           TextMapId = "SKILL_20302_DESC"
         },
         SKILL_20303_DESC = {
@@ -41458,11 +41458,11 @@ local Data = {
           TextMapId = "SKILL_20601_DESC"
         },
         SKILL_20602_DESC = {
-          ContentEN = "Skill Duration +<H>#1</>. Landing a CRIT hit with this weapon randomly grants other allies one of the following for <H>#2</>s: +<H>#3</> ATK, +<H>#4</> DEF, +<H>#5</> Skill Damage, or +<H>#6</> Skill Duration.",
+          ContentEN = "Skill Duration +<H>#1</>. Landing a CRIT hit with this weapon randomly grants other allies one of the following for <H>#2</>s: +<H>#3</> ATK, +<H>#4</> DEF, +<H>#5</> Skill Intensity, or +<H>#6</> Skill Duration.",
           TextMapId = "SKILL_20602_DESC"
         },
         SKILL_20603_DESC = {
-          ContentEN = "Skill Range +<H>#1</>. While charging, the weapon gradually locks onto nearby enemies. Upon release, fires tracking arrows at all locked targets. When a Lumino character deals Skill Damage, grants +<H>#2</> Skill DMG for <H>#3</>s.",
+          ContentEN = "Skill Range +<H>#1</>. While charging, the weapon gradually locks onto nearby enemies. Upon release, fires tracking arrows at all locked targets. When a Lumino character deals Skill DMG, grants +<H>#2</> Skill DMG for <H>#3</>s.",
           TextMapId = "SKILL_20603_DESC"
         },
         SKILL_20604_DESC = {
@@ -41574,7 +41574,7 @@ local Data = {
           TextMapId = "SKILL_240103_NAME"
         },
         SKILL_240104_DESC = {
-          ContentEN = "Increases Skill Damage based on the number of [Yunchi] on the field.",
+          ContentEN = "Increases Skill Intensity based on the number of [Yunchi] on the field.",
           TextMapId = "SKILL_240104_DESC"
         },
         SKILL_240104_NAME = {
@@ -41782,7 +41782,7 @@ local Data = {
           TextMapId = "SKILL_330102_NAME"
         },
         SKILL_330103_DESC = {
-          ContentEN = "When the user or allies pick up loot, the user gains 1 stack of [Jackpot!], lasting for the rest of the battle. Each stack increases Skill DMG, up to 20 stacks.",
+          ContentEN = "When the user or allies pick up loot, the user gains 1 stack of [Jackpot!], lasting for the rest of the battle. Each stack increases Skill Intensity, up to 20 stacks.",
           TextMapId = "SKILL_330103_DESC"
         },
         SKILL_330103_NAME = {
@@ -42022,7 +42022,7 @@ local Data = {
           TextMapId = "SKILL_510103_NAME"
         },
         SKILL_510104_DESC = {
-          ContentEN = "When dealing skill damage, there is a chance to drop 1 [Ammo Supply Chest].",
+          ContentEN = "When dealing Skill DMG, there is a chance to drop 1 [Ammo Supply Chest].",
           TextMapId = "SKILL_510104_DESC"
         },
         SKILL_510104_NAME = {
@@ -42086,7 +42086,7 @@ local Data = {
           TextMapId = "SKILL_530102_NAME"
         },
         SKILL_530103_DESC = {
-          ContentEN = "When dealing CRIT damage, Psyche gains one of the following buffs at random: ATK Boost, Skill Damage Boost, or Resolve Boost.\nIncreases Psyche's damage for each buff she gains, up to 12 buffs.",
+          ContentEN = "When dealing CRIT damage, Psyche gains one of the following buffs at random: ATK Boost, Skill Intensity Boost, or Resolve Boost.\nIncreases Psyche's damage for each buff she gains, up to 12 buffs.",
           TextMapId = "SKILL_530103_DESC"
         },
         SKILL_530103_NAME = {
@@ -42502,7 +42502,7 @@ local Data = {
           TextMapId = "SKILL_DESC_2301Rate"
         },
         SKILL_DESC_2401MaxSkill02SkillIntensity = {
-          ContentEN = "Skill Damage Cap Boost",
+          ContentEN = "Skill Intensity Cap Boost",
           TextMapId = "SKILL_DESC_2401MaxSkill02SkillIntensity"
         },
         SKILL_DESC_2401PassiveBase = {
@@ -42522,7 +42522,7 @@ local Data = {
           TextMapId = "SKILL_DESC_2401Skill02DamageRadius"
         },
         SKILL_DESC_2401Skill02SkillIntensityRate = {
-          ContentEN = "Skill Damage Increase",
+          ContentEN = "Skill Intensity Increase",
           TextMapId = "SKILL_DESC_2401Skill02SkillIntensityRate"
         },
         SKILL_DESC_3101WildFireCountMax = {
@@ -43518,15 +43518,15 @@ local Data = {
           TextMapId = "SKILL_DESC_SkillExecuteDamageRadius"
         },
         SKILL_DESC_SkillIntenUp = {
-          ContentEN = "Skill DMG Boost",
+          ContentEN = "Skill Intensity Boost",
           TextMapId = "SKILL_DESC_SkillIntenUp"
         },
         SKILL_DESC_SkillIntenUpLayer = {
-          ContentEN = "Skill DMG Boost per stack",
+          ContentEN = "Skill Intensity Boost per stack",
           TextMapId = "SKILL_DESC_SkillIntenUpLayer"
         },
         SKILL_DESC_SkillIntensity = {
-          ContentEN = "Skill Damage",
+          ContentEN = "Skill Intensity",
           TextMapId = "SKILL_DESC_SkillIntensity"
         },
         SKILL_DESC_SkillRangeUp = {
@@ -44954,7 +44954,7 @@ local Data = {
           TextMapId = "TERMEXP_2301_Summon"
         },
         TERMEXP_2401_Skill02Buff = {
-          ContentEN = "Increases Skill Damage by a percentage of [Fushu]'s Skill Damage.",
+          ContentEN = "Increases Skill Intensity by a percentage of [Fushu]'s Skill Intensity.",
           TextMapId = "TERMEXP_2401_Skill02Buff"
         },
         TERMEXP_2401_Summon = {
@@ -44978,11 +44978,11 @@ local Data = {
           TextMapId = "TERMEXP_3103_Skill02"
         },
         TERMEXP_3103_Summon01 = {
-          ContentEN = "When dealing damage, causes greater Stance reduction to the target(s). The greater the difference between Yale and Oliver's Skill Range and the Skill Damage, the higher the chance of deploying [Tot Popper: Yale's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Yale's Make].",
+          ContentEN = "When dealing damage, causes greater Stance reduction to the target(s). The greater the difference between Yale and Oliver's Skill Range and the Skill Intensity, the higher the chance of deploying [Tot Popper: Yale's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Yale's Make].",
           TextMapId = "TERMEXP_3103_Summon01"
         },
         TERMEXP_3103_Summon02 = {
-          ContentEN = "Deals higher damage. The greater the difference between Yale and Oliver's Skill Damage and the Skill Range provided by equipped Demon Wedges, the higher the chance of deploying [Tot Popper: Oliver's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Oliver's Make].",
+          ContentEN = "Deals higher damage. The greater the difference between Yale and Oliver's Skill Intensity and the Skill Range provided by equipped Demon Wedges, the higher the chance of deploying [Tot Popper: Oliver's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Oliver's Make].",
           TextMapId = "TERMEXP_3103_Summon02"
         },
         TERMEXP_3201_Skill01 = {
@@ -44990,7 +44990,7 @@ local Data = {
           TextMapId = "TERMEXP_3201_Skill01"
         },
         TERMEXP_3202_Passive01 = {
-          ContentEN = "All weapon and skill damage (excluding [Spinblades] and [Laceration]) detonates 2 stacks of [Laceration], dealing additional elemental damage. Max 20 detonations per second.",
+          ContentEN = "All Weapon and Skill DMG (excluding [Spinblades] and [Laceration]) detonates 2 stacks of [Laceration], dealing additional elemental damage. Max 20 detonations per second.",
           TextMapId = "TERMEXP_3202_Passive01"
         },
         TERMEXP_3202_Skill01 = {
@@ -45018,7 +45018,7 @@ local Data = {
           TextMapId = "TERMEXP_4102_Skill02_02"
         },
         TERMEXP_4102_Skill02_03 = {
-          ContentEN = "When Zhiliu has 2 [Talismans: Xun], [Heaven-Earth Divination] is replaced with [Fortune's Clarity].\n[Fortune's Clarity]: Consumes all [Talismans] to deal Electro Damage to enemies around and increase Zhiliu's Skill Damage.",
+          ContentEN = "When Zhiliu has 2 [Talismans: Xun], [Heaven-Earth Divination] is replaced with [Fortune's Clarity].\n[Fortune's Clarity]: Consumes all [Talismans] to deal Electro Damage to enemies around and increase Zhiliu's Skill DMG.",
           TextMapId = "TERMEXP_4102_Skill02_03"
         },
         TERMEXP_4201_BonusAttack = {
@@ -45718,7 +45718,7 @@ local Data = {
           TextMapId = "Tag_SkillEfficiency"
         },
         Tag_SkillIntensity = {
-          ContentEN = "Skill Damage",
+          ContentEN = "Skill Intensity",
           TextMapId = "Tag_SkillIntensity"
         },
         Tag_SkillRange = {
@@ -46345,6 +46345,10 @@ local Data = {
           ContentEN = "Joined",
           TextMapId = "TheaterOnline_Game_Sign_Success"
         },
+        TheaterOnline_Game_Sign_Waiting = {
+          ContentEN = "Wait for the ball to end",
+          TextMapId = "TheaterOnline_Game_Sign_Waiting"
+        },
         TheaterOnline_Game_Start01 = {
           ContentEN = "The Lunoball begins",
           TextMapId = "TheaterOnline_Game_Start01"
@@ -46786,19 +46790,19 @@ local Data = {
           TextMapId = "Title_20001"
         },
         Title_20002 = {
-          ContentEN = "Weapon Master",
+          ContentEN = " Weapon Master",
           TextMapId = "Title_20002"
         },
         Title_20003 = {
-          ContentEN = "Bounty Hunter",
+          ContentEN = " Bounty Hunter",
           TextMapId = "Title_20003"
         },
         Title_20004 = {
-          ContentEN = "scholar",
+          ContentEN = " Scholar",
           TextMapId = "Title_20004"
         },
         Title_20005 = {
-          ContentEN = "Master",
+          ContentEN = " Master",
           TextMapId = "Title_20005"
         },
         Title_20006 = {
@@ -46998,7 +47002,7 @@ local Data = {
           TextMapId = "Title_20054"
         },
         Title_20055 = {
-          ContentEN = "Nightingale",
+          ContentEN = " Nightingale",
           TextMapId = "Title_20055"
         },
         Title_20056 = {
@@ -47022,7 +47026,7 @@ local Data = {
           TextMapId = "Title_20060"
         },
         Title_20061 = {
-          ContentEN = "Master of Slacking",
+          ContentEN = " Master of Slacking",
           TextMapId = "Title_20061"
         },
         Title_20062 = {
@@ -48010,7 +48014,7 @@ local Data = {
           TextMapId = "UIGuide_Sp"
         },
         UIGuide_SpecialDestructible_1 = {
-          ContentEN = "Some objects can only be destroyed by <H>specific Bonus Effects</> or <H>specific Skill Damage</> that deal specific damage.",
+          ContentEN = "Some objects can only be destroyed by <H>specific Bonus Effects</> or <H>specific Skill DMG</>.",
           TextMapId = "UIGuide_SpecialDestructible_1"
         },
         UIGuide_SpecialDestructible_2 = {
@@ -50614,11 +50618,11 @@ local Data = {
           TextMapId = "UI_Achievement_Des_4021"
         },
         UI_Achievement_Des_40302 = {
-          ContentEN = "Have <highlight>#1</> weapons that have reached Ascension Phase 6",
+          ContentEN = "Ascend <highlight>#1</> different weapons to Ascension Phase 2",
           TextMapId = "UI_Achievement_Des_40302"
         },
         UI_Achievement_Des_40306 = {
-          ContentEN = "Have <highlight>#1</> weapons that have reached Ascension Phase 1",
+          ContentEN = "Have <highlight>#1</> weapons that have reached Ascension Phase 6",
           TextMapId = "UI_Achievement_Des_40306"
         },
         UI_Achievement_Des_4031 = {
@@ -62530,7 +62534,7 @@ local Data = {
           TextMapId = "UI_FORGING_COMPLETED"
         },
         UI_FORGING_CURRENT = {
-          ContentEN = "Owned: ",
+          ContentEN = "Owned:",
           TextMapId = "UI_FORGING_CURRENT"
         },
         UI_FORGING_EMPTY = {
@@ -63466,7 +63470,7 @@ local Data = {
           TextMapId = "UI_HardBoss_Unlocklevel"
         },
         UI_HardBoss_WaitOthers = {
-          ContentEN = "Waiting for Other Players",
+          ContentEN = "Waiting for Other Players ",
           TextMapId = "UI_HardBoss_WaitOthers"
         },
         UI_Harvest_100 = {
@@ -75614,7 +75618,7 @@ local Data = {
           TextMapId = "UI_WeaponSkin_Des_3010402"
         },
         UI_WeaponSkin_Des_3010403 = {
-          ContentEN = "A lance of unusual design, said to embody a father's love: firm, instructive, and just a little traumatising.",
+          ContentEN = "A polearm of unusual design, said to embody a father's love: firm, instructive, and just a little traumatising.",
           TextMapId = "UI_WeaponSkin_Des_3010403"
         },
         UI_WeaponSkin_Des_3010404 = {
@@ -75726,7 +75730,7 @@ local Data = {
           TextMapId = "UI_WeaponSkin_Name_3010402"
         },
         UI_WeaponSkin_Name_3010403 = {
-          ContentEN = "Tough Love – Lance",
+          ContentEN = "Tough Love – Polearm",
           TextMapId = "UI_WeaponSkin_Name_3010403"
         },
         UI_WeaponSkin_Name_3010404 = {

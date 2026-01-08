@@ -1891,7 +1891,7 @@ return ReadOnly("AbyssDungeon", {
     AbyssBuffID = {
       100,
       11221,
-      205
+      204
     },
     AbyssDungeonId = 2113012,
     DungeonId = 20101,
@@ -1970,7 +1970,7 @@ return ReadOnly("AbyssDungeon", {
     AbyssBuffID = {
       100,
       11221,
-      205,
+      204,
       11222
     },
     AbyssDungeonId = 2113022,
@@ -2050,7 +2050,7 @@ return ReadOnly("AbyssDungeon", {
     AbyssBuffID = {
       100,
       11221,
-      205,
+      204,
       11222
     },
     AbyssDungeonId = 2113032,
