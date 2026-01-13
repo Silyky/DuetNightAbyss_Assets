@@ -3863,7 +3863,7 @@ return ReadOnly("DynQuest", {
     DynQuestId = 308314,
     FailTriggerBoxID = 2090135,
     PlayerLevel = {
-      40, 49
+      50, 59
     },
     RegionId = 1041,
     Reward = 51004,
@@ -3889,7 +3889,7 @@ return ReadOnly("DynQuest", {
     DynQuestId = 308315,
     FailTriggerBoxID = 2090135,
     PlayerLevel = {
-      50, 59
+      60, 65
     },
     RegionId = 1041,
     Reward = 51004,
@@ -3915,7 +3915,7 @@ return ReadOnly("DynQuest", {
     DynQuestId = 308334,
     FailTriggerBoxID = 2090135,
     PlayerLevel = {
-      40, 49
+      50, 59
     },
     RegionId = 1041,
     Reward = 51004,
@@ -3941,7 +3941,7 @@ return ReadOnly("DynQuest", {
     DynQuestId = 308335,
     FailTriggerBoxID = 2090135,
     PlayerLevel = {
-      50, 59
+      60, 65
     },
     RegionId = 1041,
     Reward = 51004,

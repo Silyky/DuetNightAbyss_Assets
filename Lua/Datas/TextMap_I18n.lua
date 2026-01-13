@@ -7761,7 +7761,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Zhiliu has tasked you with retrieving three Zhuyin Scales from the Gritblight Expanse — a step toward containing the Scourge of Zhuyin.\nFor a true Phoxhunter, duty is its own reward — though a generous payment never hurts.",
     ContentJP = "シリュウはあなたに、塵砂の荒海で燭陰の鱗を三枚集めるよう依頼した。それは燭陰の禍を退けるための準備である。\n依頼を果たすのは優れた月狩り人の当然の務め――まして雇い主が惜しみなく報酬を払うのであれば。",
     ContentKR = "지류는 촉룡의 재앙을 해결하기 위해 당신에게 낙진의 바다에서 촉룡 비늘 3개를 채집해 달라고 의뢰한다.\n의뢰를 완료하는 것은 뛰어난 월석 사냥꾼의 사명이다. 당신의 고용주가 두둑한 보수를 약속할 땐 더더욱 그렇다.",
-    ContentTC = "止流委託你前往塵漠石海采集三片燭陰鱗，好為化解燭陰之災做準備。\n完成委託是每一位優秀狩月人義不容辭的使命——尤其當你的雇主出手闊綽之時。",
+    ContentTC = "止流委託你前往塵漠石海採集三片燭陰鱗，好為化解燭陰之災做準備。\n完成委託是每一位優秀狩月人義不容辭的使命——尤其當你的雇主出手闊綽之時。",
     TextMapContent = "止流委托你前往石漠尘海采集三片烛阴鳞，好为化解烛阴之灾做准备。\n完成委托是每一位优秀狩月人义不容辞的使命——尤其当你的雇主出手阔绰之时。",
     TextMapId = "Content_120102_3"
   Content_120102_3_1 = {
@@ -7775,14 +7775,14 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "As instructed by Zhiliu, your path leads through the Tidesong Cavern en route to the Black Market, where a specially crafted tool essential to harvesting the Zhuyin Scales awaits.",
     ContentJP = "シリュウの指示に従い、まずは潮騒の洞窟を経由して闇市へ向かい、燭陰の鱗を採取するための特製道具を受け取る必要がある。",
     ContentKR = "지류의 의뢰에 따라 우선 파도의 동굴을 통해 암시장으로 간 뒤, 촉룡 비늘을 채집할 특수 도구를 찾아야 한다.",
-    ContentTC = "根據止流的囑咐，你們需要先借道潮聲岩穴，前往黑市，去取采集燭陰鱗的特製工具。",
+    ContentTC = "根據止流的囑咐，你們需要先借道潮聲岩穴，前往黑市，去取採集燭陰鱗的特製工具。",
     TextMapContent = "根据止流的嘱咐，你们需要先借道潮声岩穴，前往黑市，去取采集烛阴鳞的特制工具。",
     TextMapId = "Content_120102_4"
   Content_120102_5 = {
     ContentEN = "As instructed by Zhiliu, your path leads through the Tidesong Cavern toward the Black Market, where a specially crafted tool essential to harvesting the Zhuyin Scales awaits.\n The faint echo of water in this shadowed place stirs a thought — why do so many quests begin in caves?\n But idle musings must wait. This cavern too is overrun with Sable Bi'an. Fight your way through.",
     ContentJP = "シリュウの指示に従い、まずは潮騒の洞窟を経由して闇市へ向かい、燭陰の鱗を採取するための特製道具を受け取る必要がある。\n 冒険にはどうして洞窟がつきものなのか――目の前で水音が響くこの薄暗い洞穴を前に、ふとそんなことを思わずにいられない。\n ここもまた、玄狴に蹂躙されていた。奴らを撃退せよ。",
     ContentKR = "지류의 의뢰에 따라 우선 파도의 동굴을 통해 암시장으로 간 뒤, 촉룡 비늘을 채집할 특수 도구를 찾아야 한다.\n왜 모험에는 늘 동굴이 빠지지 않는 걸까? 잔잔한 물소리가 울려퍼지는 오싹한 동굴을 바라보며 고민에 빠진다.\n이곳에도 광폭한 검은 폐안이 도사리고 있다. 검은 폐안을 처치하자.",
-    ContentTC = "根據止流的囑咐，你們需要先借道潮聲岩穴，前往黑市，去取采集燭陰鱗的特製工具。\n 冒險是否總是伴隨著山洞？眼前水聲潺潺的陰森洞穴使你不由得思考起這個問題。\n 這裡同樣被肆虐的玄色狴犴所占據。擊退它們吧。",
+    ContentTC = "根據止流的囑咐，你們需要先借道潮聲岩穴，前往黑市，去取採集燭陰鱗的特製工具。\n冒險是否總是伴隨著山洞？眼前水聲潺潺的陰森洞穴使你不由得思考起這個問題。\n這裡同樣被肆虐的玄色狴犴所占據。擊退它們吧。",
     TextMapContent = "根据止流的嘱咐，你们需要先借道潮声岩穴，前往黑市，去取采集烛阴鳞的特制工具。\n冒险是否总是伴随着山洞？眼前水声潺潺的阴森洞穴使你不由得思考起这个问题。\n这里同样被肆虐的玄色狴犴所占据。击退它们吧。",
     TextMapId = "Content_120102_5"
   Content_120102_6 = {
@@ -7908,7 +7908,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Your exchange with the black-market boss was far from pleasant.\n Still, he handed over the tools for harvesting Zhuyin Scales. You've no wish to linger — leave this place at once.",
     ContentJP = "あなたは目の前の闇市の主人と、あまり愉快ではない会話を交わした。\n それでも彼は燭陰の鱗を採集する道具を渡してくれた。これ以上ここに長居したくない、早く立ち去ろう。",
     ContentKR = "당신은 암시장의 주인과 유쾌하지 않은 대화를 나눴다.\n어쨌든, 그는 당신에게 촉룡 비늘을 채집할 도구를 건넸다. 더 이상 이곳에 머물고 싶지 않으니, 서둘러 떠나는 것이 좋겠다.",
-    ContentTC = "你與眼前這位黑市主人進行了一場並不愉快的談話。\n 無論如何，他還是把采集燭陰鱗的工具交予了你。不想在此地多加逗留，趕緊離開這裡吧。",
+    ContentTC = "你與眼前這位黑市主人進行了一場並不愉快的談話。\n無論如何，他還是把採集燭陰鱗的工具交予了你。不想在此地多加逗留，趕緊離開這裡吧。",
     TextMapContent = "你与眼前这位黑市主人进行了一场并不愉快的谈话。\n无论如何，他还是把采集烛阴鳞的工具交予了你。不想在此地多加逗留，赶紧离开这里吧。",
     TextMapId = "Content_120103_5_1"
   Content_120103_6 = {
@@ -8838,7 +8838,7 @@ return ReadOnly("TextMap_I18n", {
     ContentFR = "Les fleurs que Psyche a si tendrement cultivées se fanent peu à peu, comme privées de nutriments. Pour leur rendre vie, il faut rapporter une terre spéciale que l’on trouve dans une grotte, à l’extérieur de Givrelac.\nPour un Chasseur de Phoxène, une telle tâche n’est qu’une formalité.",
     ContentJP = "サイキが心を込めて育てた花がしおれてしまった。どうやら栄養が足りないようだ。\n花を元気にするためには、アイスレイク城外の洞窟から特別な土を採取する必要がある。月狩り人にとってはたやすいことだ。",
     ContentKR = "프시케가 정성껏 키운 꽃이 시들어가고 있다. 영양분이 부족한 것 같다.\n꽃의 생기를 되찾게 하려면 아이스레이크 시티 외곽의 한 동굴에서 특별한 흙을 채집해야 한다. 월석 사냥꾼에게는 물론 식은 죽 먹기일 것이다.",
-    ContentTC = "賽琪悉心培育的花朵變得有些枯萎，似乎缺少了一些養分。\n\n如果想讓花朵恢復生機，需要從冰湖城外的一處山洞采集特殊的土壤，這對狩月人來說當然是小事一樁。",
+    ContentTC = "賽琪悉心培育的花朵變得有些枯萎，似乎缺少了一些養分。\n\n如果想讓花朵恢復生機，需要從冰湖城外的一處山洞採集特殊的土壤，這對狩月人來說當然是小事一樁。",
     TextMapContent = "赛琪悉心培育的花朵变得有些枯萎，似乎缺少了一些养分。\n如果想让花朵恢复生机，需要从冰湖城外的一处山洞采集特殊的土壤，这对狩月人来说当然是小事一桩。",
     TextMapId = "Content_200102_2"
   Content_200102_3 = {
@@ -10129,14 +10129,14 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "A Phoxhunter named Giselle takes interest in your strange encounter. She'll ask around for you — in return, collect some herbs for her.",
     ContentJP = "月狩り人ジゼルはあなたとの奇遇に興味を示した。情報を探してくれる代わりに、薬草採集を頼まれた。",
     ContentKR = "지젤이라는 월석 사냥꾼이 당신의 조우에 관심을 보인다. 그는 소식을 알아봐 주는 대신 약초를 채집해 달라고 한다.",
-    ContentTC = "名為吉賽爾的狩月人對你的奇遇頗感興趣，在表示願意幫你打聽消息之後，也拜托你幫她采集一些草藥。",
+    ContentTC = "名為吉賽爾的狩月人對你的奇遇頗感興趣，在表示願意幫你打聽消息之後，也拜托你幫她採集一些草藥。",
     TextMapContent = "名为吉赛尔的狩月人对你的奇遇颇感兴趣，在表示愿意帮你打听消息之后，也拜托你帮她采集一些草药。",
     TextMapId = "Content_200232_3"
   Content_200232_4 = {
     ContentEN = "You've gathered the herbs she required. Take them to The Asphodel and ask Camilla about Giselle.",
     ContentJP = "ジゼルの言っていた薬草を手に入れた。アスフォデロスへ持っていき、ついでにカミラからジゼルのことを聞いてみよう。",
     ContentKR = "지젤이 말한 약초를 채집했다. 아스포델로 가서 약초를 전달하고, 카밀라에게 지젤에 대해 물어보자.",
-    ContentTC = "采集到了吉賽爾所說的草藥了，把它們帶到水仙平原，順便找卡蜜拉打聽一下吉賽爾吧。",
+    ContentTC = "採集到了吉賽爾所說的草藥了，把它們帶到水仙平原，順便找卡蜜拉打聽一下吉賽爾吧。",
     TextMapContent = "采集到了吉赛尔所说的草药了，把它们带到水仙平原，顺便找卡米拉打听一下吉赛尔吧。",
     TextMapId = "Content_200232_4"
   Content_200232_5 = {
@@ -16604,7 +16604,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Harvest the Zhuyin Scales",
     ContentJP = "燭陰の鱗を採取する",
     ContentKR = "촉룡 비늘 채집하기",
-    ContentTC = "采集燭陰鱗",
+    ContentTC = "採集燭陰鱗",
     TextMapContent = "采集烛阴鳞",
     TextMapId = "Description_120103_9"
         },
@@ -16636,7 +16636,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Collect Zhuyin Scales",
     ContentJP = "燭陰の鱗を採取する",
     ContentKR = "촉룡 비늘 채집하기",
-    ContentTC = "采集燭陰鱗",
+    ContentTC = "採集燭陰鱗",
     TextMapContent = "采集烛阴鳞",
     TextMapId = "Description_120103_9_03"
         },
@@ -19372,7 +19372,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Gather herbs for Giselle",
     ContentJP = "ジゼルのために薬草を採取する",
     ContentKR = "지젤을 도와 약초 채집하기",
-    ContentTC = "幫吉賽爾采集草藥",
+    ContentTC = "幫吉賽爾採集草藥",
     TextMapContent = "帮吉赛尔采集草药",
     TextMapId = "Description_200232_3"
         },
@@ -69682,7 +69682,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Act Ⅲ – A Thousand Letters\n\n"To my most revered, most tenderly pitied, most admired Grand Duke Yushino — you who once spent three sleepless years for the continuance of Yashnia.\nThis is the one thousand and first secret letter I have written to you — in loyalty, and in love. And as in every letter before, I write what I shall gladly write again, and again, and again:\n\nI am forever your docile swan.\nI am forever, forever yours.\nForever and ever and ever.\n\nI imagine that, by the time you read this, a smile must have softened your weary face. One of the courtiers kneeling below your throne would stir at the sound of your laughter and ask what has pleased you so. You'd ignore him, drink half a glass of Hyperborean wine — if you drained it all, it would spill through your beard and stain your robe.\nYou'd sip while you read, deciding whether to finish the drink in peace... or smash it in rage.\n\nYes, I know you. Your face is etched into my heart and soul.\n\nFrom the day you sent me to the Lady's estate, I began to write to you. A thousand letters, sealed with wax and entrusted to birds that knew the way to your hand. \nAnd each time I pressed the seal, I knew exactly what expression you would wear as you read.\n\nBefore the blood‑stained banquet where red meteors rained through the hall, you liked my letters.\nNot just because I was your favourite swan, but because the Lady was unlike your other kin.\nThough the other swans never spoke of it, I knew their noble patrons mocked you in whispers. That was why we were sent into their houses — to gather their sins behind a veil of dance.\nBut the Lady was not like them. She never uttered a word against you.\nShe said you were admirable — for banishing the brother who once mistreated her.\nShe said you were pitiable — for tossing and turning through the night over your nobles' crimes.\nShe said you were brilliant — for wrapping grand designs in feasts and song.\n\nShe spoke of other things, too: of Yashnia's moon, which she saw each night; of Hyperborea's snow, which she had never seen; of Elysium's flowers, which visited only in dreams.\nBut not once did she ask me to dance. Perhaps she had seen too many swan dances in your palace — or perhaps she had never known a real friend.\nI was disheartened. Swans are born to dance — yet I was left to write, with quills plucked from my own wings.\nAnd still, I hoped — that each time you opened one of those harmless little letters, the furrows on your brow would soften.\nAnd perhaps that is why, on the night of that blood‑drenched banquet, she alone walked out beneath the echo of your thunderous snores.\nI followed her out, as she stepped into the dawn. Her breath misted in the cold, her shoulders trembled — fear of you, or joy for your newfound peace? I could not tell. I only felt relief — that she had never once spoken ill of you. If she had, even had I disobeyed your order, the other swans would have torn her apart like ravens at your command.\nFrom that day on, I was the only swan who never returned to your palace.\nOutwardly, nothing changed: she still shared her stories and wishes for travels with me, and every fourth day I sent you another letter.\nBut perhaps... it only seemed that way. Before the sun rises, all is called night. But the midnight of your thunderous snores, and the final breath before dawn — can they truly be the same?\n\nSince then, I imagine you no longer smile when you read me.\nYou buried yourself in state affairs: reforms, punishments, suspicion. You trusted no one in Yashnia who still breathed. Even birdsong was questioned — for daring to disturb your sleep.\nThe Lady was no exception. Her praise became flattery. Her silence, a hidden slight. Her advice, betrayal.\nHow could you?\n\nAllow me to be plain: from my first autumn in her estate, she let me stop calling myself "swan."\nBy now I expect you have hurled your wineglass in rage, Grand Duke Yushino.\nYou saved me from starvation — made me your ever-dancing swan. But she is the one who taught that swan to be a person.\nShe never asked me to dance — because people are not swans.\nTo protect her, I was ever obedient, ever gentle, ever yours. Always fearing your fury would fall on her.\nBut your suspicion grew like mould in the dark. I defended her, again and again. Until seven days ago — when you summoned her to the palace... and she never returned.\nSo now, I ask just one thing:\n\nIs she still alive?\n\nI no longer wish to be anyone's swan. If she is gone, then I shall tread upon the shards of your shattered glass — even if my feet must bleed to reach you — until your blood spills like wine and dyes your robe crimson.\nBy the time you reach this line, I will already be standing before you, ready to pierce this letter — and your throat — with the very same blade."\n\n"Raise your head and answer me, Yushino!"\n\n\nParsifal's Note:\nExcept for the final line, the entire scene is sung by Yushino as he reads Momiji's letter aloud. The performance must reflect the full emotional arc within the letter — from deferential restraint, to repressed grief, to seething fury. The true challenge lies in moving seamlessly and convincingly between Yushino's visible reactions and the inner voice of Momiji, gradually rising to its breaking point. It demands exceptional control.",
     ContentJP = "第三幕 千行の密書\n\n「我が最も敬愛し、憐れむべき、讃えられるべきお方。ヤシュニアの永遠を願い、三年の不眠に耐えたユシノ大公。\nこれは忠誠と愛を込めた千一通目の密書です。これまでと同じく、この書き出しを三度繰り返すことを、私は永遠の喜びとして続けましょう。\n\n私は、あなたの従順なる白鳥。\n私は永遠に、あなたのもの。\n永遠に。永遠に。永遠に。\n\nあなたがこの文を読まれるとき、きっと微笑まれるでしょう。玉座の下にひれ伏す大臣が、何か良い知らせでも？と尋ねる。あなたは答えず、ただ半杯のヒュペリア産ワインを口にされる。杯の酒が髭を伝って、衣を汚す。\nあなたは穏やかに続きを読み、文の意味に従って、残りの酒を静かに飲み干すか、怒りとともに杯を砕くか決められるでしょう。\n\n私は知っています。あなたの顔を、心に刻んでいます。\n\nかつて、あなたが私をマダムの屋敷に送ってくださったあの日から、私は見聞を記し、導きの鳥に託してあなたに届けてきました。\n封蝋を押すたびに、私は思い浮かべていました。あなたがこの文を読みながら、どのような表情を浮かべるのかを。\n\n血に染まる宴の夜以前、あなたは私の手紙を好まれました。\n私が最愛の白鳥だったからだけではなく、マダムがあなたの兄弟たちとは異なる存在だったから。\n他の白鳥たちは語りませんでしたが、私は知っていました。兄弟たちがあなたを嘲る声を。その声を集めるために、白鳥たちは各家に派遣され、舞うふりをして証拠を集めていたことを。\nマダムは違いました。彼女はあなたを讃えました。\n「かつて兄弟たちを追放し、自らの手でヤシュニアを守ったあなたは尊い」と。\n「貴族の罪に苦しみ、不眠に耐えたあなたは哀れむべき方だ」と。\n「歌と舞に耽るふりをしながら、密かに策を巡らせるあなたは称賛に値する」と。\n\n彼女はヤシュニアの月、見知らぬヒュペリアの雪、エリュシオンの花を語ってくれました。\nしかし、舞うことを命じたことはありません。それは彼女が宮廷で飽きるほど白鳥の舞を見てきたからでしょう。彼女には、友人と呼べる存在がいなかったのです。\n私は落胆しました。白鳥に生まれながら、踊ることもできず、羽根で作ったペンで密書を書くばかり。\nけれど、あなたがこの無害な文を読むたびに、眉を和らげてくださっていると信じていました。\nだからこそ、あの宴の夜、彼女だけがあなたのいびきの下で、宮殿から生きて帰った唯一の客人となった。\n私は彼女の後ろに従い、朝の光の中で白い吐息を吐く彼女を見ました。その震えが恐れによるのか、あなたへの喜びなのか、私には分からなかった。ただ、胸をなでおろしたのです。彼女は決して、あなたを非難する言葉を口にしませんでした。もし一言でもあれば、私が拒んでも、他の白鳥たちがあなたの意志に従い、彼女を殺していたでしょう。\n私は、宮廷に戻らなかった唯一の白鳥となりました。\n何事もなかったかのように、マダムは変わらず旅の話を語り、私は三日に一度、あなたへ手紙を送り続けました。\nだが、夜ごとに響くいびきと、夜明け前に光が差し込む時の違いを、次第に私は理解しました。\n\nあなたはもう、笑わなくなってしまいました。\n国政と改革、処罰と猜疑に忙殺され、ヒュペリアのすべての者に疑念を抱き、鳥のさえずりすら、あなたの眠りを妨げる陰謀となってしまいました。\nマダムも例外ではありませんでした。彼女の賞賛は妥協とされ、沈黙は陰口、小言は反逆とされました。\nなぜ、こんなことを……？\n\nどうかお許しください。私は、彼女の館に来た最初の秋から、彼女に「白鳥」をやめ、人間として生きることを許されていました。\nきっと、あなたは今、この文を読みながら酒杯を投げつけたでしょうね、ユシノ大公。\nあなたは飢えた私を救い、永遠に舞う白鳥にしてくださった。でも、マダムはその白鳥を「人間」にしてくれた。\n彼女のために、私はあなたの前では従順な白鳥を演じ続けました。あなたの怒りが彼女に及ばぬように。\nしかし、あなたの疑念と試みは止まらず、私は何度も彼女のために弁明を繰り返しました。\nそして七日前、あなたが彼女を宮廷に呼び寄せて以来、消息は絶たれました。\nただ、一つだけ尋ねます。\n彼女は、まだ生きていますか？\n私はもう、誰の白鳥にもなりません。もし、彼女がこの世にいないなら、この手紙を読みながら投げた杯の破片の上を踏み砕き、あなたの血を、杯の酒と同じように長衣に染め上げましょう。\nあなたがこの一行を読み終えた今、私はすでにあなたの前に立ち、剣の一突きでこの文字列とあなたの喉を貫く覚悟です。\n\n「顔を上げて、答えなさい、ユシノ！」\n\nパシファル注：この場面、最後の一言を除き、すべてユシノが紅葉からの手紙を読み上げる演出。ユシノの怒りが徐々に昂る様と、手紙の中で紅葉の感情が最初の抑制・へつらいから、最後の怒りまで変化する演技が求められる。極めて高度な演技力が必要。",
     ContentKR = "제3막: 비단에 쓴 천 줄의 편지\n\n"경애하옵고, 안타까우시며, 감탄스러우신, 야슈니아의 영원한 번영을 위해 3년 동안 잠을 이루지 못하시던 유시노 대공 전하.\n이것은 충성과 사랑으로 쓰는 1001번째 비밀 편지입니다. 매번 비밀 편지의 첫머리에 세 번씩 반복하지만, 이번에도, 다음에도 기꺼이 그렇게 적을 것입니다.\n\n저는 영원히 당신의 온순한 백조입니다.\n저는 영원히 당신의 것입니다.\n영원히 영원히 영원히.\n\n이 부분을 읽으시고 당신의 피곤한 표정이 웃음으로 바뀌면, 옥좌 아래 엎드린 신하들이 웃음소리에 놀라 무슨 좋은 일이라도 있으셨는지 여쭙겠지요. 당신은 그 질문을 무시하고 휘페르보레아 제국산 포도주를 반잔 마실 것입니다. 만약 술을 단숨에 마시면, 흘러내린 술이 당신의 수염을 타고 흘러내려 옷을 더럽힐 것입니다.\n그러니 당신은 이 편지를 천천히 다 읽으시고, 남은 문장이 가져다 주는 기쁨과 분노에 따라 남은 술을 천천히 마실지, 아니면 증오를 숨기지 않고 손에 든 유리잔을 깨뜨릴지 결정하게 될 것입니다.\n\n네, 저는 당신을 잘 압니다. 당신의 얼굴은 오래 전부터 제 마음에 새겨져 있었습니다.\n\n저는 이미 당신께 천 통의 편지를 보냈었습니다. 당신이 저를 여작의 저택으로 보낸 그날부터, 저는 제가 보고 들은 것을 글로 적어 길을 아는 새에게 맡겨 당신께 전했습니다.\n매번 밀랍으로 편지를 봉인할 때마다, 위에 적은 것처럼 당신이 편지를 읽으실 때의 표정을 알 수 있었습니다.\n\n별똥별이 쏟아지던 피의 연회 이전에는, 당신은 제 편지를 좋아하셨습니다.\n제가 당신이 총애하시는 백조이기 때문만이 아니라, 여작이 당신의 가족 중에서도 특이한 존재였기 때문입니다.\n다른 백조들은 언급하지 않았지만, 저는 그들을 기르는 귀족들이 당신에 대해 수도 없이 불경한 말을 했다는 것을 알고 있습니다. 그 때문에 백조들이 그들의 저택으로 파견되어, 춤을 춘다는 명목아래 죄상을 수집하게 된 것이지요.\n여작은 달랐습니다. 여작은 당신에 대해 험담을 한 적이 없습니다.\n그녀는 자신을 괴롭히던 형제를 유배 보낸 당신을 경애한다고 했습니다.\n그녀는 귀족들의 방종 때문에 밤잠을 설치는 당신이 안타깝다고 했습니다.\n그녀는 노래와 춤에 빠진 척하면서 실제로는 무언가를 계획하고 있는 당신이 감탄스럽다고 했습니다.\n\n그녀는 또한 저에게 많은 다른 것들에 대해 말했습니다. 눈에 익은 야슈니아의 달, 한 번도 본 적 없는 휘페르보레아 제국의 눈, 그리고 엘리시안의 꽃에 대해서요.\n하지만 그녀는 저에게 춤을 추라고 한 적이 없습니다. 아마도 백조의 춤은 당신의 궁정에서 많이 보았지만. 친구는 한 명도 없었기 때문일 것입니다.\n저는 낙담했습니다. 백조는 춤을 추기 위해 태어났지만, 이제는 깃털로 만든 펜으로 비밀편지나 쓰는 신세입니다.\n하지만 저는 이런 무해한 내용을 읽는 당신은, 편지를 펼치면서 미간의 주름도 펴고 계실 것이라고 생각했습니다.\n그러니 그녀가 그 연회 후 당신의 코고는 소리와 함께 궁전을 나선 유일한 손님이 된 거라고 생각했지요.\n저는 그녀를 따라 나선 첫 아침 햇살 속에서, 그녀가 흰 입김을 내뿜으며 가늘게 떨고 있는 모습을 보았습니다. 당신을 두려워해서 떠는 것인지, 기뻐서인지 알 수 없었습니다. 그 순간 저는 그녀가 당신에 대한 불평 한마디도 늫어놓지 않아서 다행이라 생각했습니다. 그렇지 않았다면, 제가 당신의 명령을 거부하더라도 다른 백조들이 즉시 까마귀로 변해 당신의 뜻에 따라 그녀를 죽였을 것입니다.\n그 때부터 저는 궁정으로 돌아가지 않은 유일한 백조가 되었습니다.\n마치 아무 일도 없었던 것처럼, 여작은 여전히 저에게 그녀가 보고 들은 것들과의 경험과 여행에 대한 바램을 이야기했습니다. 저는 여전히 3일에 한 번씩 비밀 편지를 띄웠습니다.\n하지만 그것은 단지 겉모습일 뿐, 해가 뜨기 전까지 밤의 모든 순간은 밤이라 불리지만, 코고는 소리가 나는 한밤중과 곧 아침햇살이 비칠 긴 밤의 끝이 어찌 같은 것이라 할 수 있겠습니까?\n\n그 후로 당신은 제 편지를 읽을 때 더 이상 미소를 짓지 않았을 것입니다.\n당신은 분주하게 국정을 돌보고, 개혁하고, 처벌과 사형을 내리기 시작했습니다. 그와 함께 당신의 의심은 점점 커져갔습니다. 야슈니아의 모든 살아 있는 사람들을 의심하고, 새의 울음소리조차도 당신의 잠을 방해하려는 의도가 있는지 물으셨습니다.\n여작도 예외는 아니었습니다. 당신은 그녀의 찬사를 아첨으로 들었습니다. 당신은 그녀의 침묵을 비방으로 여겼습니다. 당신은 그녀의 충고를 반역이라 여겼습니다.\n어떻게 그러실 수 있습니까?\n\n솔직히 말씀드리겠습니다. 여작의 저택에 도착한 첫 가을부터 그녀는 제가 더 이상 백조로 자칭하지 않아도 된다고 허락했습니다.\n여기까지 읽으신 당신은 이미 분노하여 손에 든 술잔을 던지셨겠지요 유시노 대공님.\n당신이 굶어 죽을 뻔 한 저를 구해 춤추는 백조로 만들어 주셨다면, 여작은 그 백조를 사람으로 만들어 주었습니다.\n그녀는 저에게 춤을 추라고 한 적이 없습니다. 사람은 백조가 아니기 때문입니다.\n그녀의 안전을 위해, 저는 당신 앞에서 여전히 온순한 백조의 모습을 하고 있습니다. 당신의 분노가 그녀를 삼킬까 두려워서입니다.\n하지만 당신의 의심과 시험은 멈추지 않았고, 저는 그녀를 위해 여러 번 변명했습니다. 하지만 일주일 전 당신이 그녀를 궁정으로 소환한 후로 아무 소식이 없습니다.\n이제 제겐 단 하나의 질문만 남아 있습니다.\n\n그녀는 아직 살아 있습니까?\n\n저는 더 이상 누구의 백조도 되고 싶지 않습니다. 만약 그녀가 이 세상에 없다면, 저는 당신이 깨뜨린 술잔 조각을 밟아 두 발을 망가뜨리더라도, 당신의 피가 술처럼 옷을 붉게 물들이게 할 것입니다.\n이 줄을 읽으실 때, 저는 이미 당신 앞에 도달해 있을 것이며, 언제든지 칼로 이 줄의 글자와 당신의 목을 찌를 수 있을 것입니다."\n\n"고개를 들어 대답하라, 유시노!"\n\n파르지팔 주석: 마지막 문장을 제외한 나머지 구절은 유시노가 홍엽이 보낸 편지를 읽는 내용이다. 따라서 유시노는 분노가 점점 커지는 감정을 연기해야 하며, 홍엽의 편지에서 처음에는 절제하고 비위를 맞추다 끝내 완전히 분노하는 감정 변화를 표현해야 하므로 높은 수준의 연기력이 필요하다.",
-    ContentTC = "第三幕 尺素千行 \n \n 「我令人敬愛的、令人憐惜的、令人讚歎的、為了雅什尼亞的永恒延綿曾經三年難眠的尤希諾大公。 \n 這是我以忠誠與愛寫下的第一千零一封密信，如同每一次在密信的開頭都會重複三度，但我也永遠也樂於寫下的那樣： \n \n 我永遠是您溫馴的天鵝。 \n 我永遠永遠是您的。 \n 永遠永遠永遠。 \n \n 我想，念到此處，您想必會以笑容代替倦容，笑聲驚動匍匐在寶座下的弄臣，詢問您是否有好事發生。而您則會選擇無視他的問題，飲上半杯海伯利亞產的葡萄酒——如果將杯中酒一飲而盡，倒出的酒漿會順著您的胡須流下，髒汙您的長袍。 \n 所以您會選擇慢慢將這封信件讀完，根據餘下的句子帶來的喜怒，決定是緩緩飲下殘酒，還是毫不掩飾自己的憎惡，摔碎手中的琉璃杯。 \n \n 是的，我了解您，您的容顏早已刻在我的心上。 \n \n 我曾經向您寄出千封密信，從您將我送入女爵的府邸中那一天起，我便將我的見聞書寫成文，交付給識途的雀鳥，呈送到您的面前。 \n 每當我以火漆將信件密封之時，我都能如同上文所寫，知曉您在讀信時的神情。 \n \n 在那一場流星紛落的血腥宴席之前，您喜歡我的來信。 \n 不僅因為我是您最愛的那一隻天鵝，也是因為女爵是您的同胞骨肉中的異類。 \n 雖然其他的天鵝不曾提起，但我知道豢養他們的貴族們對您多有不敬的言語，也正是因此，天鵝們才被派遣到他們的宅邸，以起舞為名收集罪狀。 \n 女爵是不一樣的，女爵從未說過您的壞話。 \n 她說，流放了曾經欺淩她的兄弟的您令人敬愛。 \n 她說，因為貴族們的胡作非為而徹夜難眠的您令人憐惜。 \n 她說，偽裝成沉迷歌舞，實際上卻在謀劃著什麼的您令人讚歎。 \n \n 她還與我說了其他許多事物，見慣了的雅什尼亞的月，未曾見過的海伯利亞的雪和艾利西安的花。 \n 但她卻從未讓我起舞，大概是因為她在您的宮廷內見慣了天鵝的舞蹈，卻從未有過一位朋友。 \n 我感到沮喪，天鵝生來便是要起舞的，如今卻只能用飛羽製成的鵝毛筆書寫密信。 \n 但我想，看到這樣無害內容的您，一定總是在舒展信紙的同時舒展眉頭。 \n 想必也正因為如此，她成為了那一場宴席後，在您的鼾聲中唯一走出宮殿的客人。 \n 我跟隨在她身後，看著她在第一縷晨光中呼出白氣，微微顫抖。我不知道她的顫抖究竟是因為對您的畏懼還是為您欣喜。那一刻，我只是感到慶幸，慶幸她不曾說過一句關於您的怨言，否則即便我拒絕您的命令，其他天鵝立刻化作群鴉，順從您的意志，殺死她。 \n 自此，我成為了唯一一隻沒有返回宮廷中的天鵝。 \n 似乎一切都沒有發生，女爵依舊和我講述她的見聞與出遊願望，我依舊每隔三天寄出密信。 \n 但似乎也只是似乎，在太陽升起之前，黑夜的每一刻都被叫做黑夜，可是鼾聲響起的夜半和下一分鍾就會被霞光劃破的長夜盡頭又豈能被當做是同樣的事物？ \n \n 在那之後，您閱讀我的信時，就不再有笑容了吧。 \n 您開始忙碌國政，變革，殺與罰。與之相伴是您日益膨大的疑心，疑心雅什尼亞的每一個尚在呼吸的人，就連鳥的鳴叫，也會被質問是否有意擾亂您的安眠。 \n 女爵也未能幸免。她的讚美被您當做逢迎；她的沉默被您當做腹誹；她的微辭被您當做逆心。 \n 您怎能這樣？ \n \n 請容我向您坦誠，從到達女爵府邸的第一個秋天起，她便允許我不再以天鵝自稱。 \n 想必讀到這裡，您已經憤怒地擲出手中的酒杯了吧，尤希諾大公。 \n 如果說您拯救了瀕臨餓死的我，讓我成為了一隻永遠起舞的天鵝，那麼女爵則是讓這隻天鵝成為了人。 \n 她從未讓我起舞，因為人不是天鵝。 \n 為了她的安危，在您的面前，我依舊是溫馴的天鵝的模樣，生怕您的怒火將她吞噬。 \n 但您的猜疑試探不曾休止，而我也為她申辯了一次又一次，直到七日前您將她召入宮廷後，再無音信。 \n 此刻，我只有一個問題： \n \n 她還活著嗎？ \n \n 我無意再做誰的天鵝。如果她已經不在這個世上，那麼我會踏在此刻已經被你摔碎的酒杯破片上，毀去雙足，也要讓你的血水如同酒水一樣染紅長袍。 \n 當你讀到這一行的時候，我應當已經來到你的面前，隨時可以用劍刺破這一行字與你的喉嚨。」 \n \n 「抬起頭來，回答我，尤希諾！」 \n \n 帕西法爾備注：這一段除了最後一句，其他的唱段內容都是尤希諾讀紅葉寄來的信，所以既需要演出尤希諾逐漸憤怒的情緒，也需要把紅葉的信中，一開始克製、討好到最後完全憤怒的情緒變化演出來，需要很高的演技。",
+    ContentTC = "第三幕 尺素千行 \n\n「我令人敬愛的、令人憐惜的、令人讚歎的、為了雅什尼亞的永恒延綿曾經三年難眠的尤希諾大公。 \n這是我以忠誠與愛寫下的第一千零一封密信，如同每一次在密信的開頭都會重複三度，但我也永遠也樂於寫下的那樣： \n\n我永遠是您溫馴的天鵝。 \n我永遠永遠是您的。 \n永遠永遠永遠。 \n\n我想，念到此處，您想必會以笑容代替倦容，笑聲驚動匍匐在寶座下的弄臣，詢問您是否有好事發生。而您則會選擇無視他的問題，飲上半杯海伯利亞產的葡萄酒——如果將杯中酒一飲而盡，倒出的酒漿會順著您的胡須流下，髒汙您的長袍。 \n所以您會選擇慢慢將這封信件讀完，根據餘下的句子帶來的喜怒，決定是緩緩飲下殘酒，還是毫不掩飾自己的憎惡，摔碎手中的琉璃杯。 \n\n是的，我了解您，您的容顏早已刻在我的心上。 \n\n我曾經向您寄出千封密信，從您將我送入女爵的府邸中那一天起，我便將我的見聞書寫成文，交付給識途的雀鳥，呈送到您的面前。 \n每當我以火漆將信件密封之時，我都能如同上文所寫，知曉您在讀信時的神情。 \n\n在那一場流星紛落的血腥宴席之前，您喜歡我的來信。 \n不僅因為我是您最愛的那一隻天鵝，也是因為女爵是您的同胞骨肉中的異類。 \n雖然其他的天鵝不曾提起，但我知道豢養他們的貴族們對您多有不敬的言語，也正是因此，天鵝們才被派遣到他們的宅邸，以起舞為名收集罪狀。 \n女爵是不一樣的，女爵從未說過您的壞話。 \n她說，流放了曾經欺淩她的兄弟的您令人敬愛。 \n她說，因為貴族們的胡作非為而徹夜難眠的您令人憐惜。 \n她說，偽裝成沉迷歌舞，實際上卻在謀劃著什麼的您令人讚歎。 \n\n她還與我說了其他許多事物，見慣了的雅什尼亞的月，未曾見過的海伯利亞的雪和艾利西安的花。 \n但她卻從未讓我起舞，大概是因為她在您的宮廷內見慣了天鵝的舞蹈，卻從未有過一位朋友。 \n我感到沮喪，天鵝生來便是要起舞的，如今卻只能用飛羽製成的鵝毛筆書寫密信。 \n但我想，看到這樣無害內容的您，一定總是在舒展信紙的同時舒展眉頭。 \n想必也正因為如此，她成為了那一場宴席後，在您的鼾聲中唯一走出宮殿的客人。 \n我跟隨在她身後，看著她在第一縷晨光中呼出白氣，微微顫抖。我不知道她的顫抖究竟是因為對您的畏懼還是為您欣喜。那一刻，我只是感到慶幸，慶幸她不曾說過一句關於您的怨言，否則即便我拒絕您的命令，其他天鵝立刻化作群鴉，順從您的意志，殺死她。 \n自此，我成為了唯一一隻沒有返回宮廷中的天鵝。 \n似乎一切都沒有發生，女爵依舊和我講述她的見聞與出遊願望，我依舊每隔三天寄出密信。 \n但似乎也只是似乎，在太陽升起之前，黑夜的每一刻都被叫做黑夜，可是鼾聲響起的夜半和下一分鍾就會被霞光劃破的長夜盡頭又豈能被當做是同樣的事物？ \n\n在那之後，您閱讀我的信時，就不再有笑容了吧。 \n您開始忙碌國政，變革，殺與罰。與之相伴是您日益膨大的疑心，疑心雅什尼亞的每一個尚在呼吸的人，就連鳥的鳴叫，也會被質問是否有意擾亂您的安眠。 \n女爵也未能幸免。她的讚美被您當做逢迎；她的沉默被您當做腹誹；她的微辭被您當做逆心。 \n您怎能這樣？ \n\n請容我向您坦誠，從到達女爵府邸的第一個秋天起，她便允許我不再以天鵝自稱。 \n想必讀到這裡，您已經憤怒地擲出手中的酒杯了吧，尤希諾大公。 \n如果說您拯救了瀕臨餓死的我，讓我成為了一隻永遠起舞的天鵝，那麼女爵則是讓這隻天鵝成為了人。 \n她從未讓我起舞，因為人不是天鵝。 \n為了她的安危，在您的面前，我依舊是溫馴的天鵝的模樣，生怕您的怒火將她吞噬。 \n但您的猜疑試探不曾休止，而我也為她申辯了一次又一次，直到七日前您將她召入宮廷後，再無音信。 \n此刻，我只有一個問題： \n\n她還活著嗎？ \n\n我無意再做誰的天鵝。如果她已經不在這個世上，那麼我會踏在此刻已經被你摔碎的酒杯破片上，毀去雙足，也要讓你的血水如同酒水一樣染紅長袍。 \n當你讀到這一行的時候，我應當已經來到你的面前，隨時可以用劍刺破這一行字與你的喉嚨。」 \n\n「抬起頭來，回答我，尤希諾！」 \n\n帕西法爾備注：這一段除了最後一句，其他的唱段內容都是尤希諾讀紅葉寄來的信，所以既需要演出尤希諾逐漸憤怒的情緒，也需要把紅葉的信中，一開始克制、討好到最後完全憤怒的情緒變化演出來，需要很高的演技。",
     TextMapContent = "第三幕 尺素千行\n\n“我令人敬爱的、令人怜惜的、令人赞叹的、为了雅什尼亚的永恒延绵曾经三年难眠的尤希诺大公。\n这是我以忠诚与爱写下的第一千零一封密信，如同每一次在密信的开头都会重复三度，但我也永远也乐于写下的那样：\n\n我永远是您温驯的天鹅。\n我永远永远是您的。\n永远永远永远。\n\n我想，念到此处，您想必会以笑容代替倦容，笑声惊动匍匐在宝座下的弄臣，询问您是否有好事发生。而您则会选择无视他的问题，饮上半杯海伯利亚产的葡萄酒——如果将杯中酒一饮而尽，倒出的酒浆会顺着您的胡须流下，脏污您的长袍。\n所以您会选择慢慢将这封信件读完，根据余下的句子带来的喜怒，决定是缓缓饮下残酒，还是毫不掩饰自己的憎恶，摔碎手中的琉璃杯。\n\n是的，我了解您，您的容颜早已刻在我的心上。\n\n我曾经向您寄出千封密信，从您将我送入女爵的府邸中那一天起，我便将我的见闻书写成文，交付给识途的雀鸟，呈送到您的面前。\n每当我以火漆将信件密封之时，我都能如同上文所写，知晓您在读信时的神情。\n\n在那一场流星纷落的血腥宴席之前，您喜欢我的来信。\n不仅因为我是您最爱的那一只天鹅，也是因为女爵是您的同胞骨肉中的异类。\n虽然其他的天鹅不曾提起，但我知道豢养他们的贵族们对您多有不敬的言语，也正是因此，天鹅们才被派遣到他们的宅邸，以起舞为名收集罪状。\n女爵是不一样的，女爵从未说过您的坏话。\n她说，流放了曾经欺凌她的兄弟的您令人敬爱。\n她说，因为贵族们的胡作非为而彻夜难眠的您令人怜惜。\n她说，伪装成沉迷歌舞，实际上却在谋划着什么的您令人赞叹。\n\n她还与我说了其他许多事物，见惯了的雅什尼亚的月，未曾见过的海伯利亚的雪和艾利西安的花。\n但她却从未让我起舞，大概是因为她在您的宫廷内见惯了天鹅的舞蹈，却从未有过一位朋友。\n我感到沮丧，天鹅生来便是要起舞的，如今却只能用飞羽制成的鹅毛笔书写密信。\n但我想，看到这样无害内容的您，一定总是在舒展信纸的同时舒展眉头。\n想必也正因为如此，她成为了那一场宴席后，在您的鼾声中唯一走出宫殿的客人。\n我跟随在她身后，看着她在第一缕晨光中呼出白气，微微颤抖。我不知道她的颤抖究竟是因为对您的畏惧还是为您欣喜。那一刻，我只是感到庆幸，庆幸她不曾说过一句关于您的怨言，否则即便我拒绝您的命令，其他天鹅立刻化作群鸦，顺从您的意志，杀死她。\n自此，我成为了唯一一只没有返回宫廷中的天鹅。\n似乎一切都没有发生，女爵依旧和我讲述她的见闻与出游愿望，我依旧每隔三天寄出密信。\n但似乎也只是似乎，在太阳升起之前，黑夜的每一刻都被叫做黑夜，可是鼾声响起的夜半和下一分钟就会被霞光划破的长夜尽头又岂能被当做是同样的事物？\n\n在那之后，您阅读我的信时，就不再有笑容了吧。\n您开始忙碌国政，变革，杀与罚。与之相伴是您日益膨大的疑心，疑心雅什尼亚的每一个尚在呼吸的人，就连鸟的鸣叫，也会被质问是否有意扰乱您的安眠。\n女爵也未能幸免。她的赞美被您当做逢迎；她的沉默被您当做腹诽；她的微辞被您当做逆心。\n您怎能这样？\n\n请容我向您坦诚，从到达女爵府邸的第一个秋天起，她便允许我不再以天鹅自称。\n想必读到这里，您已经愤怒地掷出手中的酒杯了吧，尤希诺大公。\n如果说您拯救了濒临饿死的我，让我成为了一只永远起舞的天鹅，那么女爵则是让这只天鹅成为了人。\n她从未让我起舞，因为人不是天鹅。\n为了她的安危，在您的面前，我依旧是温驯的天鹅的模样，生怕您的怒火将她吞噬。\n但您的猜疑试探不曾休止，而我也为她申辩了一次又一次，直到七日前您将她召入宫廷后，再无音信。\n此刻，我只有一个问题：\n\n她还活着吗？\n\n我无意再做谁的天鹅。如果她已经不在这个世上，那么我会踏在此刻已经被你摔碎的酒杯破片上，毁去双足，也要让你的血水如同酒水一样染红长袍。\n当你读到这一行的时候，我应当已经来到你的面前，随时可以用剑刺破这一行字与你的喉咙。”\n\n“抬起头来，回答我，尤希诺！”\n\n帕西法尔备注：这一段除了最后一句，其他的唱段内容都是尤希诺读红叶寄来的信，所以既需要演出尤希诺逐渐愤怒的情绪，也需要把红叶的信中，一开始克制、讨好到最后完全愤怒的情绪变化演出来，需要很高的演技。",
     TextMapId = "READ_TEXT_2000055"
         },
@@ -89066,7 +89066,7 @@ return ReadOnly("TextMap_I18n", {
     ContentEN = "Covenant of the God of Abundance · Restraint",
     ContentJP = "繁栄の神の契約・自制",
     ContentKR = "번영의 신의 계약·억제",
-    ContentTC = "繁榮之神的契約·克製",
+    ContentTC = "繁榮之神的契約·克制",
     TextMapContent = "繁荣之神的契约·克制",
     TextMapId = "RLTreasure_Name_12201"
         },
@@ -129472,7 +129472,7 @@ return ReadOnly("TextMap_I18n", {
     ContentFR = "Collecter",
     ContentJP = "収集",
     ContentKR = "채집",
-    ContentTC = "采集",
+    ContentTC = "採集",
     TextMapContent = "采集",
     TextMapId = "UI_CMNpc_Name_Gather"
         },
@@ -139729,7 +139729,7 @@ return ReadOnly("TextMap_I18n", {
     ContentFR = "Les dégâts d’un attribut élémentaire <H>avantagé</> sont augmentés de <H>400 %</>.\nLes dégâts d’un attribut élémentaire <W>non avantagé</> sont réduits de <W>50 %</>.",
     ContentJP = "<H>有利</>属性で与えるダメージが<H>400%</>上昇し、<W>その他の</>属性で与えるダメージは<W>50%</>低下する。",
     ContentKR = "<H>카운터</> 속성이 입히는 대미지가 <H>400%</> 상승하고, <H>카운터 이외</>의 속성이 입히는 대미지가 <H>50%</> 감소한다.",
-    ContentTC = "<H>克製</>屬性傷害提高<H>400%</>，<W>非克製</>屬性傷害降低<W>50%</>",
+    ContentTC = "<H>克制</>屬性傷害提高<H>400%</>，<W>非克制</>屬性傷害降低<W>50%</>",
     TextMapContent = "<H>克制</>属性伤害提高<H>400%</>，<W>非克制</>属性伤害降低<W>50%</>",
     TextMapId = "UI_ElementDes_General"
         },
@@ -140961,7 +140961,7 @@ return ReadOnly("TextMap_I18n", {
     ContentES = "Poseído:",
     ContentFR = "Possédé :",
     ContentJP = "所持中：",
-    ContentKR = "보유 중:{空格}",
+    ContentKR = "보유 중: ",
     ContentTC = "已擁有:",
     TextMapContent = "已拥有:",
     TextMapId = "UI_FORGING_CURRENT"
@@ -168011,7 +168011,7 @@ return ReadOnly("TextMap_I18n", {
     ContentFR = "1) Certains ennemis de missions possèdent des <Highlight>attributs élémentaires</>. Utiliser des personnages ayant l’avantage élémentaire rendra le combat plus facile.\n2) Les <Highlight>récompenses de mission</> peuvent varier selon l’élément. Consultez les détails de la mission pour plus d’informations.",
     ContentJP = "1.一部の依頼では、敵は<Highlight>元素属性</>を持っています。敵の弱点属性のキャラクターで挑戦すると、戦闘がよりスムーズになります。\n 2.<Highlight>依頼報酬</>は、敵の弱点属性によって変わることがあります。具体的な報酬内容は依頼情報で確認してください。",
     ContentKR = "1. 일부 의뢰의 적은 <Highlight>원소 속성</>이 존재하며, 카운터 속성의 캐릭터로 도전 시 더 쉽게 성공할 수 있습니다.\n2. <Highlight>의뢰 보상</>은 원소 속성에 따라 변경될 수 있으며, 의뢰 정보에서 구체적인 의뢰 보상을 확인할 수 있습니다.",
-    ContentTC = "1.部分委託中的敵人存在<Highlight>元素屬性</>，使用克製屬性的角色進行挑戰更容易成功\n2.<Highlight>委託獎勵</>可能會依據元素屬性發生變化，在委託信資訊中可以查看到具體的委託獎勵",
+    ContentTC = "1.部分委託中的敵人存在<Highlight>元素屬性</>，使用克制屬性的角色進行挑戰更容易成功\n2.<Highlight>委託獎勵</>可能會依據元素屬性發生變化，在委託信資訊中可以查看到具體的委託獎勵",
     TextMapContent = "1.部分委托中的敌人存在<Highlight>元素属性</>，使用克制属性的角色进行挑战更容易成功\n2.<Highlight>委托奖励</>可能会依据元素属性发生变化，在委托信息中可以查看到具体的委托奖励",
     TextMapId = "UI_Toast_Dungeon_Detail"
         },

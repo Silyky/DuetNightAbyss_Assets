@@ -4372,7 +4372,7 @@ return ReadOnly("Dispatch", {
     DispatchUIId = 308314,
     ExcId = {308334},
     PlayerLevel = {
-      40, 49
+      50, 59
     },
     Rarity = 3,
     RegionId = 1041,
@@ -4397,7 +4397,7 @@ return ReadOnly("Dispatch", {
     DispatchUIId = 308315,
     ExcId = {308335},
     PlayerLevel = {
-      50, 59
+      60, 65
     },
     Rarity = 3,
     RegionId = 1041,
@@ -4422,7 +4422,7 @@ return ReadOnly("Dispatch", {
     DispatchUIId = 308334,
     ExcId = {308314},
     PlayerLevel = {
-      40, 49
+      50, 59
     },
     Rarity = 3,
     RegionId = 1041,
@@ -4447,7 +4447,7 @@ return ReadOnly("Dispatch", {
     DispatchUIId = 308335,
     ExcId = {308315},
     PlayerLevel = {
-      50, 59
+      60, 65
     },
     Rarity = 3,
     RegionId = 1041,

@@ -62543,7 +62543,7 @@ local Data = {
           TextMapId = "UI_FORGING_COMPLETED"
         },
         UI_FORGING_CURRENT = {
-          ContentKR = "보유 중:{空格}",
+          ContentKR = "보유 중: ",
           TextMapId = "UI_FORGING_CURRENT"
         },
         UI_FORGING_EMPTY = {

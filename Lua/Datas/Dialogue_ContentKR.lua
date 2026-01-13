@@ -211362,7 +211362,7 @@ local Data = {
           Scripts = "SetOutport{FinishType{2},OptionIdx{2}}"
         },
         [710071091] = {
-          ContentKR = "고마워요, {性别：大哥哥|大姐姐}! 진짜 진짜 감사해요!",
+          ContentKR = "고마워요, {性别:형|누나}! 진짜 진짜 감사해요!",
           DialogueId = 710071091,
           GUID = "710071091.0",
           SpeakNpcId = 818070

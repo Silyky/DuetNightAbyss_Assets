@@ -10,7 +10,7 @@ return ReadOnly("RaidSeason", {
       [1000] = 300315
     },
     RaidPointToRewradMaxTime = 750,
-    RaidRankCount = 5000,
+    RaidRankCount = 1000,
     RaidSeason = 1001,
     RaidTime = 173,
     Shop = "RaidShopSeason01"

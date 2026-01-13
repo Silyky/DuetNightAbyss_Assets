@@ -9873,7 +9873,7 @@ return ReadOnly("MonsterSpawn", {
     Mode = "Level",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6002017,
+        UnitId = 6002016,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -9909,7 +9909,7 @@ return ReadOnly("MonsterSpawn", {
     Mode = "Level",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6013015,
+        UnitId = 6001011,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -9945,7 +9945,7 @@ return ReadOnly("MonsterSpawn", {
     Mode = "Level",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6007016,
+        UnitId = 6002017,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -9981,7 +9981,7 @@ return ReadOnly("MonsterSpawn", {
     Mode = "Level",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6004012,
+        UnitId = 6013015,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -10017,7 +10017,7 @@ return ReadOnly("MonsterSpawn", {
     Mode = "Level",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6002016,
+        UnitId = 6007016,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
@@ -10053,7 +10053,7 @@ return ReadOnly("MonsterSpawn", {
     Mode = "Level",
     MonsterSpawnInfos = {
       [1] = {
-        UnitId = 6001011,
+        UnitId = 6004012,
         UnitLevel = 0,
         UnitNum = 1,
         UnitNumFix = 1
